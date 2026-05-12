@@ -94,8 +94,9 @@ function htmlContainsTextToken(html, token) {
   const lowerHtml = html.toLowerCase();
   const lowerToken = token.toLowerCase();
   const urlToken = lowerToken.replace(/\s+/g, '+');
+  const percentToken = lowerToken.replace(/\s+/g, '%20');
 
-  return lowerHtml.includes(lowerToken) || lowerHtml.includes(urlToken);
+  return lowerHtml.includes(lowerToken) || lowerHtml.includes(urlToken) || lowerHtml.includes(percentToken);
 }
 
 async function exists(filePath) {
@@ -167,7 +168,12 @@ function validatePalette(slug, metadata, html, errors) {
       continue;
     }
 
-    if (key === 'description' || !isCssColorValue(value)) {
+    if (key === 'description') {
+      continue;
+    }
+
+    if (!isCssColorValue(value)) {
+      errors.push(`${slug}: "palette.${key}" value ${value} must be a CSS color`);
       continue;
     }
 

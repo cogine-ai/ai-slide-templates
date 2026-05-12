@@ -105,6 +105,7 @@ test('reports invalid schema values and HTML metadata drift', async () => {
       palette: {
         bg: '#ffffff',
         primary: '#ff0000',
+        accent: 'brandBlue',
         text: '#111111',
         description: 'Mismatched palette.'
       },
@@ -112,6 +113,11 @@ test('reports invalid schema values and HTML metadata drift', async () => {
         display: 'Missing Display',
         body: 'Inter',
         style: 'Simple sans.'
+      },
+      source_inspiration: {
+        name: 'Invalid source',
+        url: 'ftp://example.com/template',
+        notes: 'Invalid URL scheme.'
       }
     });
     const result = await validateLibrary(root);
@@ -119,7 +125,9 @@ test('reports invalid schema values and HTML metadata drift', async () => {
     assert.match(result.errors.join('\n'), /"formality" must be one of/);
     assert.match(result.errors.join('\n'), /"features" must be an object/);
     assert.match(result.errors.join('\n'), /"palette.primary" value #ff0000 is not found/);
+    assert.match(result.errors.join('\n'), /"palette.accent" value brandBlue must be a CSS color/);
     assert.match(result.errors.join('\n'), /"typography.display" font "Missing Display" is not found/);
+    assert.match(result.errors.join('\n'), /"source_inspiration.url" must be an http\(s\) URL/);
   } finally {
     await rm(root, { recursive: true, force: true });
   }
@@ -134,6 +142,11 @@ test('accepts palette colors represented as rgb or rgba in CSS', async () => {
         primary: '#5FE7E7',
         text: '#111111',
         description: 'RGB palette.'
+      },
+      source_inspiration: {
+        name: 'Valid source',
+        url: 'https://example.com/template',
+        notes: 'Valid URL scheme.'
       }
     }, 1, {
       extraCss: '.accent{background:rgba(95,231,231,.2)}'
