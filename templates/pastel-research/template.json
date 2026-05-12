@@ -1,0 +1,68 @@
+{
+  "slug": "pastel-research",
+  "name": "Pastel Research",
+  "tagline": "Formal modern research template with grainy paper, serif title blocks, pastel gradient forms, and publication-style layouts.",
+  "mood": [
+    "academic",
+    "soft",
+    "formal",
+    "modern"
+  ],
+  "occasion": [
+    "research breakthrough",
+    "academic presentation",
+    "medical science update",
+    "conference talk"
+  ],
+  "tone": [
+    "scholarly",
+    "gentle",
+    "polished",
+    "visual"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "bg": "#F2F0EC",
+    "surface": "#FFFFFF",
+    "panel": "#E8E4DD",
+    "ink": "#111111",
+    "text": "#333333",
+    "muted": "#76716B",
+    "primary": "#5FE7E7",
+    "secondary": "#F6A6CC",
+    "tertiary": "#F7D26A",
+    "description": "soft grey paper with pastel cyan, rose, and yellow gradient research panels"
+  },
+  "typography": {
+    "display": "Libre Baskerville",
+    "body": "Inter",
+    "style": "formal serif with modern research body text"
+  },
+  "scheme": "light",
+  "best_for": "Research breakthroughs, academic talks, medical science updates, and thoughtful conference presentations.",
+  "avoid_for": "High-energy commercial launches, dark technical dashboards, or casual portfolio decks.",
+  "slide_count": 6,
+  "features": {
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "fullscreen-responsive",
+    "format": "single-file-html"
+  },
+  "layouts": [
+    "research-cover",
+    "abstract-slide",
+    "method-grid",
+    "results-panel",
+    "discussion-spread",
+    "closing"
+  ],
+  "source_inspiration": {
+    "name": "Slidesgo Formal and Modern Hepatitis Breakthrough",
+    "url": "https://slidesgo.com/theme/formal-modern-hepatitis-breakthrough",
+    "notes": "Independent HTML/CSS interpretation based on public visual reference; not a pixel copy and does not reuse source assets."
+  }
+}

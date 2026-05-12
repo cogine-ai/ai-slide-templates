@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quarterly Review Infographics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --ink: #050505;
+      --muted: #55585d;
+      --navy: #293140;
+      --teal: #7da2a9;
+      --peach: #daa28e;
+      --brown: #452b1e;
+      --grey: #d2d3d6;
+      --line: #d7d7d7;
+      --panel: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: var(--bg); color: var(--ink); font-family: Inter, sans-serif; }
+    .deck { position: relative; width: 100vw; height: 100vh; background: var(--bg); overflow: hidden; }
+    .slide {
+      position: absolute; inset: 0; width: 100vw; height: 100vh; padding: 7.2vh 5vw 8.4vh;
+      opacity: 0; transform: translateX(28px); pointer-events: none; transition: opacity .35s ease, transform .35s ease;
+      background: var(--bg); overflow: hidden;
+    }
+    .slide.active { opacity: 1; transform: translateX(0); pointer-events: auto; z-index: 2; }
+    .slide.prev { transform: translateX(-28px); }
+    .page-title { font-family: "Barlow Condensed", sans-serif; font-size: clamp(2.1rem, 4vw, 4rem); line-height: .95; font-weight: 700; text-align: center; margin-bottom: 7.5vh; }
+    h2, h3 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; line-height: 1; }
+    h2 { font-size: clamp(1.35rem, 2.2vw, 2.1rem); }
+    h3 { font-size: clamp(1.05rem, 1.65vw, 1.55rem); }
+    p, td, th, label, small { font-size: clamp(.82rem, 1.35vw, 1.35rem); line-height: 1.2; }
+    .panel { border: 1.5px solid var(--line); background: var(--panel); padding: 1.75vw 2vw; overflow: hidden; }
+    .panel h2 { margin-bottom: 1.35vw; }
+    .big-num, .huge, .giant { font-weight: 400; font-size: clamp(2.7rem, 5.2vw, 5.4rem); letter-spacing: -.02em; line-height: .9; display: block; }
+    .huge.light, .white { color: #fff; }
+    .dot { display: inline-block; width: 1.55vw; height: 1.55vw; border-radius: 50%; vertical-align: middle; margin-right: .8vw; }
+    .navy, .navy-bg { background-color: var(--navy); color: #fff; }
+    .teal, .teal-bg { background-color: var(--teal); color: #fff; }
+    .peach, .peach-bg { background-color: var(--peach); color: #fff; }
+    .brown, .brown-bg { background-color: var(--brown); color: #fff; }
+    .grey { background-color: var(--grey); }
+    .navy-text { color: var(--navy); } .teal-text { color: var(--teal); } .peach-text { color: var(--peach); } .brown-text { color: var(--brown); }
+    .icon { font-size: clamp(2.4rem, 5vw, 5.2rem); color: var(--navy); font-weight: 700; line-height: .9; display: inline-flex; align-items: center; justify-content: center; width: 7vw; }
+    .legend { display: flex; align-items: center; justify-content: center; gap: 4vw; font-size: clamp(.9rem, 1.5vw, 1.4rem); }
+
+    .s-cover { display: grid; grid-template-columns: 48% 52%; align-items: center; padding-left: 6.5vw; }
+    .cover-copy h1 { font-family: "Barlow Condensed", sans-serif; font-size: clamp(4rem, 8vw, 8.4rem); line-height: .96; font-weight: 700; letter-spacing: -.01em; }
+    .cover-copy p { margin-top: 6vh; font-size: clamp(1.2rem, 2.25vw, 2.6rem); letter-spacing: .05em; }
+    .cover-illo { width: 42vw; justify-self: center; }
+
+    .goal-strip { display: grid; grid-template-columns: repeat(4,1fr); gap: 2.25vw; margin: -2vh 7vw 3vh; text-align: center; }
+    .goal-strip h2 { margin-bottom: 1.5vh; }
+    .goal-strip span { display: block; height: .55vw; border-radius: 99px; background: linear-gradient(90deg, var(--navy) .55vw, var(--navy) .55vw, var(--navy) calc(100% - .55vw), var(--navy) calc(100% - .55vw)); position: relative; }
+    .goal-strip span:before, .goal-strip span:after { content:""; position:absolute; top:50%; width:1vw; height:1vw; margin-top:-.5vw; border-radius:50%; background:var(--navy); }
+    .goal-strip span:before { left:-.2vw; } .goal-strip span:after { right:-.2vw; }
+    .goal-chart { height: 31vh; margin: 0 3vw 5vh; }
+    .quarter-cards { display: grid; grid-template-columns: repeat(4,1fr); gap: 2vw; margin: 0 6vw; }
+    .quarter-cards article { background: var(--grey); text-align: center; padding: 1.2vw; min-height: 11vh; }
+    .quarter-cards p { margin-top: .5vw; }
+
+    .vbar-chart { height: 100%; display: grid; grid-auto-flow: column; align-items: end; gap: 1.05vw; border-bottom: 2px solid #333; background: repeating-linear-gradient(to top, transparent 0, transparent 19.5%, rgba(0,0,0,.13) 20%); padding: 0 1vw 0; }
+    .vbar-wrap { height: 100%; display: flex; align-items: flex-end; justify-content: center; position: relative; padding-bottom: 2.4em; }
+    .vbar-wrap i { width: 4.8vw; display: block; border-radius: 4px 4px 0 0; opacity: .98; }
+    .vbar-wrap span { position: absolute; bottom: 0; font-size: clamp(.75rem, 1.15vw, 1.2rem); white-space: nowrap; }
+    .hbars { display: grid; gap: 1.35vw; }
+    .hbar { display: grid; grid-template-columns: 7.5vw 1fr 3.5vw; align-items: center; gap: 1vw; }
+    .hbar div { height: 1.25vw; min-height: 12px; background: var(--grey); }
+    .hbar i { display: block; height: 100%; }
+    .hbar b { font-size: clamp(.95rem, 1.55vw, 1.7rem); }
+    .hbar small { grid-column: 2 / span 2; color: var(--ink); margin-top: -.8vw; }
+    .hbars.no-label .hbar { grid-template-columns: 1fr; }
+    .hbars.no-label label, .hbars.no-label b { display: none; }
+    .hbars.compact { gap: 1.8vw; }
+    .line-chart, .area-chart { width: 100%; height: 100%; overflow: visible; }
+    .line-chart .grid line, .area-chart .grid line { stroke: #d8d8d8; stroke-width: 2; }
+    .line-chart path { fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .line-chart path.teal { stroke: var(--teal); } .line-chart path.peach { stroke: var(--peach); } .line-chart path.brown { stroke: var(--brown); } .line-chart path.navy { stroke: var(--navy); }
+    .line-chart text { font-size: 24px; fill: #111; text-anchor: middle; }
+    .area-chart .area { opacity: .45; } .area-chart .line { fill: none; stroke-width: 4; opacity: .7; }
+    .area-chart .area.peach { fill: var(--peach); } .area-chart .line.peach { stroke: var(--peach); }
+    .area-chart .area.teal { fill: var(--teal); } .area-chart .line.teal { stroke: var(--teal); }
+
+    .layout-a { display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: 42vh 24vh; gap: 1.6vw; }
+    .layout-a .wide { grid-column: 1 / 5; } .layout-a .side { grid-column: 5 / 7; grid-row: 1 / 3; } .layout-a .kpi { display: flex; flex-direction: column; justify-content: center; gap: .55vw; padding: 1.1vw 2vw; }
+    .layout-a .kpi .big-num { font-size: clamp(1.6rem, 2.55vw, 3rem); white-space: nowrap; }
+    .layout-a .kpi .money-icon { width: 4vw; height: 4vw; font-size: 2vw; }
+    .money-icon { width: 4.8vw; height: 4.8vw; border-radius: 50%; background: var(--teal); color: #fff; display: grid; place-items: center; font-size: 2.5vw; }
+    .layout-a .kpi:nth-of-type(4) .money-icon { background: var(--peach); }
+
+    .three-panels { display: grid; grid-template-columns: repeat(3,1fr); gap: 2vw; height: 67vh; }
+    .chart-card { padding: 0; display: flex; flex-direction: column; }
+    .chart-card header { font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: clamp(1.45rem, 2.3vw, 2.3rem); color: #fff; text-align: center; padding: 2.2vw 1vw; }
+    .chart-card > p { padding: 1vw 2vw 1.8vw; }
+    .donut-row { display: grid; place-items: center; flex: 1; }
+    .legend-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.2vw 2vw; padding: 1.6vw 2.5vw 2vw; font-size: clamp(.9rem,1.4vw,1.5rem); }
+
+    .donut, .multi-donut, .pie { border-radius: 50%; position: relative; flex: none; }
+    .donut { width: 13vw; height: 13vw; background: conic-gradient(currentColor 0 var(--p), var(--grey) var(--p) 100%); color: var(--navy); display: grid; place-items: center; }
+    .donut:after, .multi-donut:after { content: ""; width: 70%; height: 70%; border-radius: 50%; background: #fff; position: absolute; inset: 15%; }
+    .donut span { position: relative; z-index: 1; font-weight: 600; font-size: 1.8vw; }
+    .donut.teal { color: var(--teal); } .donut.peach { color: var(--peach); } .donut.brown { color: var(--brown); } .donut.navy { color: var(--navy); }
+    .multi-donut { width: 16vw; height: 16vw; }
+    .pie { width: 19vw; height: 19vw; }
+    .stacked-bars { display: flex; align-items: end; justify-content: center; gap: 2vw; height: 24vh; padding: 2vw 1vw 0; }
+    .stack-col { width: 4.3vw; height: 90%; display: flex; flex-direction: column-reverse; position: relative; background: var(--grey); }
+    .stack-col i { display: block; }
+    .stack-col span { position: absolute; bottom: -2em; left: 50%; transform: translateX(-50%); }
+
+    .layout-b { display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: 24vh 40vh; gap: 1.6vw; }
+    .layout-b .metric { position: relative; }
+    .layout-b .metric.navy { background: var(--navy); border-color: var(--navy); }
+    .tiny-bag { position: absolute; top: 2vw; right: 2vw; color: var(--navy); font-size: 2vw; }
+    .metric.navy .tiny-bag { color: #fff; }
+    .bottom-chart { grid-column: 1 / 4; }
+    .right-donut { grid-column: 4 / 5; grid-row: 1 / 3; display: grid; align-content: center; gap: 2vw; }
+    .stat-line { display: grid; grid-template-columns: auto 1fr; column-gap: .8vw; align-items: center; }
+    .stat-line p { grid-column: 2; }
+
+    .layout-c { display: grid; grid-template-columns: 1.25fr 1.2fr .52fr; grid-template-rows: 36vh 26vh; gap: 1.5vw; }
+    .c1 { grid-column: 1; } .c2 { grid-column: 2; } .c3 { grid-column: 3; text-align: center; display: grid; align-content: center; gap: .5vw; } .c4 { grid-column: 1 / 2; } .c5 { grid-column: 2 / 4; }
+    .donut-legend { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 2.5vw; }
+    .donut-legend p { font-size: 1.65vw; margin: 1vw 0; }
+    .star { font-size: 3vw; color: var(--navy); }
+    .c4, .c5 { display: grid; grid-template-columns: 1fr 1fr; gap: 2vw; align-items: center; }
+    .c4 aside, .c5 aside { border-left: 2px solid var(--navy); padding-left: 2vw; }
+
+    .split-table { display: grid; grid-template-columns: 1.65fr 1fr; gap: 3vw; align-items: end; }
+    .split-table p { max-width: 70%; margin: 1.2vw 0 2vw; }
+    .data-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    .data-table th, .data-table td { border: 1.2px solid #cfcfcf; padding: 1.25vw 1vw; text-align: center; }
+    .data-table th { font-family: "Barlow Condensed", sans-serif; font-size: 2vw; font-weight: 700; }
+    .data-table.dark-head th { background: var(--navy); color: #fff; }
+    .data-table.teal-head th { background: var(--teal); color: #fff; }
+    .data-table td:first-child { font-weight: 700; text-align: left; }
+    .split-table aside { height: 43vh; display: grid; grid-template-rows: auto 1fr; gap: 2vw; }
+
+    .layout-d { display: grid; grid-template-columns: 1fr 2.6fr 1.15fr; grid-template-rows: 22vh 22vh 1fr; gap: 1.5vw; }
+    .d-donut { display: grid; place-items: center; } .d-donut .donut { width: 10vw; height: 10vw; }
+    .d-bars { grid-column: 2; } .d-side { grid-column: 3; } .d-wide { grid-column: 1 / 3; grid-row: 2 / 4; }
+
+    .bar-timeline { display: grid; grid-template-columns: 1.35fr 1fr; gap: 6vw; height: 65vh; }
+    .bar-timeline .hbar { grid-template-columns: 4vw 1fr 0; }
+    .bar-timeline .hbar b { display: none; }
+    .bar-timeline aside { display: grid; grid-template-columns: 8vw 1fr; align-content: center; gap: 1.5vw 2vw; }
+    .timeline-dot { width: 7vw; height: 7vw; border-radius: 50%; display: grid; place-items: center; color: #fff; position: relative; }
+    .timeline-dot:not(:last-of-type):after { content:""; position:absolute; top:100%; left:50%; height:5.5vw; border-left:3px solid var(--navy); }
+
+    .layout-e { display: grid; grid-template-columns: 1.1fr 1.1fr 1fr; gap: 1.8vw; height: 66vh; }
+    .side-kpis { display: grid; gap: 1.4vw; }
+    .side-kpis .panel { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 2vw; }
+    .layout-e .mid, .layout-e .right { display: grid; align-content: center; }
+    .layout-e .right .multi-donut { margin: 1vw auto 2vw; width: 18vw; height: 18vw; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 4vw; height: 66vh; }
+    .color-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 2vw; height: 56vh; }
+    .color-kpis article { color: #fff; padding: 2vw; display: flex; flex-direction: column; justify-content: space-between; }
+    .color-kpis b { font-size: 5vw; font-weight: 400; }
+    .top-icons { display: grid; grid-template-columns: repeat(3,1fr); gap: 2vw; margin-bottom: 1.8vw; }
+    .top-icons .panel { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 2vw; }
+    .top-icons b { font-size: 4.2vw; font-weight: 400; }
+    .wide-area { height: 40vh; display: grid; grid-template-columns: 18vw 1fr; align-items: center; gap: 3vw; }
+
+    .callout-bars { display: grid; grid-template-columns: 1.2fr 1fr; gap: 6vw; height: 62vh; align-items: center; }
+    .callout-bars section { height: 54vh; }
+    .callout-bars aside { display: grid; gap: 4vh; }
+    .callout-bars article { display: grid; grid-template-columns: 7vw 6vw 1fr; align-items: center; gap: 1.2vw; }
+    .mini-square { width: 5vw; height: 5vw; background: var(--grey); display: grid; place-items: center; font-size: 2vw; color: var(--ink); }
+    .layout-f { display: grid; grid-template-columns: 2fr 1fr; gap: 1.8vw; height: 65vh; }
+    .map { width: 100%; height: 45vh; } .pin.peach, .map circle.peach { fill: var(--peach); } .pin.brown, .map circle.brown { fill: var(--brown); }
+    .layout-g { display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: 28vh 28vh; gap: 1.5vw; }
+    .layout-g .wide { grid-column: 1 / 4; } .layout-g .side { grid-column: 4; grid-row: 1 / 3; }
+    .layout-g .mini { display: grid; align-content: center; }
+    .donut-stack { display: grid; gap: 1.3vw; }
+    .donut-stack article { display: grid; grid-template-columns: 7vw 1fr; gap: 1.2vw; align-items: center; }
+    .donut-stack .donut { width: 6vw; height: 6vw; }
+
+    .layout-h { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 25vh 36vh; gap: 1.5vw; }
+    .layout-h .main { grid-row: 1 / 3; }
+    .four-donuts { display: grid; grid-template-columns: repeat(4,1fr); gap: 2vw; margin-top: 4vw; text-align: center; }
+    .four-donuts .donut { margin: 0 auto 1.5vw; width: 10vw; height: 10vw; }
+
+    .cards .panel { display: flex; flex-direction: column; justify-content: space-between; }
+    .pie-row { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 2vw; }
+    .pie-row p { margin: 1.4vw 0; }
+    .three-chart-cards .vbar-chart { height: 40vh; }
+    .wide-left { grid-template-columns: 1fr 1.35fr; }
+    .wide-right { grid-template-columns: 1fr 1.7fr; }
+    .with-sub { gap: 2vw; }
+    .with-sub .hbar { grid-template-columns: 8vw 1fr 3vw; }
+    .nested-donut { position: relative; width: 25vw; height: 25vw; margin: 2vw 3vw; float: left; }
+    .nested-donut > div { position: absolute; inset: 0; display: grid; place-items: center; }
+    .nested-donut .multi-donut { width: 24vw; height: 24vw; }
+    .nested-donut > div:nth-child(2) .multi-donut { width: 18vw; height: 18vw; }
+    .nested-donut > div:nth-child(3) .multi-donut { width: 12vw; height: 12vw; }
+
+    .left-notes { position: absolute; left: 6vw; top: 25vh; width: 45vw; display: grid; grid-template-columns: 1fr 1fr; gap: 7vh 6vw; }
+    .left-notes i { display:block; height:4px; margin-bottom: 2vh; }
+    .right-line { position: absolute; right: 6vw; top: 25vh; width: 38vw; height: 48vh; }
+    .layout-i { display: grid; grid-template-columns: 2fr .75fr; grid-template-rows: 1fr 1fr; gap: 1.5vw; height: 66vh; }
+    .layout-i .large { grid-row: 1 / 3; position: relative; display: grid; grid-template-columns: 1fr 1.2fr 1fr; align-items: center; gap: 2vw; }
+    .layout-i .stacked-bars { height: 42vh; }
+    .side-text h3 { font-size: 2.2vw; margin-bottom: 1vw; }
+    .side-text.left { display:grid; gap: 11vh; }
+    .top-metrics { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5vw; margin-bottom: 1.8vw; }
+    .revenue-panel { height: 40vh; }
+    .revenue-copy { display:grid; grid-template-columns: 1fr 1fr 1fr auto; align-items:center; gap: 4vw; margin-top: 5vh; }
+    .revenue-copy .multi-donut { width:18vw; height:18vw; }
+
+    .grouped-layout { display:grid; grid-template-columns: 1.2fr 1fr; gap: 4vw; height:64vh; align-items:center; }
+    .grouped-hbars { display: grid; gap: 2.1vh; }
+    .gbar-row { display: grid; grid-template-columns: 4vw 1fr; align-items:center; gap:1vw; }
+    .gbar-row > div { display:grid; gap:.6vh; }
+    .gbar-row i { display:block; height:.9vw; min-height:8px; border-radius: 5px; }
+    .grouped-layout aside { display:grid; grid-template-columns:1fr 1fr; gap: 1.8vw; }
+    .icon-card { text-align:center; padding: 1.6vw; border-color: currentColor; }
+    .icon-card .icon { width:auto; font-size:3.2vw; }
+    .review-donuts { display:grid; grid-template-columns: 1fr 1fr; gap: 5vh 5vw; padding-top: 2vh; }
+    .review-donuts article { display:grid; grid-template-columns: 9vw 1fr; gap: 1vw; align-items:center; }
+    .review-donuts .donut { width:8vw; height:8vw; }
+
+    .radar-layout { display:grid; grid-template-columns: 1fr 1.25fr 1fr; gap:3vw; align-items:center; height:63vh; }
+    .radar-layout aside { display:grid; gap:16vh; }
+    .radar-layout article h2 { color:#fff; padding:.5vw 1vw; margin-bottom:1vw; }
+    .radar-layout article.right { text-align:right; }
+    .radar { width: 31vw; }
+    .radar .rings circle, .radar .spokes line { fill:none; stroke:#d4d4d4; stroke-width:2; }
+    .radar polygon { fill:none; stroke-width:5; opacity:.85; } .radar polygon.teal { stroke:var(--teal); } .radar polygon.peach { stroke:var(--peach); } .radar polygon.brown { stroke:var(--brown); } .radar polygon.navy { stroke:var(--navy); stroke-dasharray:5 9; }
+    .radar text { font-size: 24px; text-anchor: middle; fill:#111; }
+    .layout-j { display:grid; grid-template-columns: 1.45fr .72fr; grid-template-rows: 22vh 42vh; gap: 1.5vw; }
+    .top-two { display:grid; grid-template-columns:1fr 1fr; gap:1.5vw; }
+    .top-two .panel { display:grid; grid-template-columns:auto auto 1fr; align-items:center; gap:1.4vw; }
+    .line-wide { grid-column:1; } .pie-side { grid-column:2; grid-row:1 / 3; }
+    .pie-side .pie { margin: 2vw auto; width:16vw; height:16vw; }
+
+    .narrow-left { grid-template-columns: .8fr 1.7fr; }
+    .circle-row { display:grid; grid-template-columns: 9vw 1fr; gap:1.6vw; align-items:center; margin: 2.4vh 0; }
+    .circle-row span { width:8vw; height:8vw; border-radius:50%; display:grid; place-items:center; color:#fff; font-weight:700; font-size:1.6vw; box-shadow:0 0 0 1.2vw var(--grey); }
+    .area-callouts { position: relative; height:65vh; padding-top:2vh; }
+    .area-callouts article { position:absolute; top:0; width:18.6vw; border: 3px solid currentColor; background:#fff; text-align:center; padding:1vw; z-index:2; }
+    .area-callouts article:nth-child(1) { left:0; color:var(--navy); } .area-callouts article:nth-child(2) { left:25vw; color:var(--peach); } .area-callouts article:nth-child(3) { left:50vw; color:var(--teal); } .area-callouts article:nth-child(4) { right:0; color:var(--brown); }
+    .big-area { position:absolute; left:0; right:0; bottom:0; height:45vh; }
+    .table-bars { grid-template-columns: .9fr 1fr; }
+    .table-bars .grouped-hbars { margin-top: 3vh; }
+    .table-bars .legend { margin-top: 8vh; }
+
+    .nav-controls { position: fixed; right: 2.5vw; bottom: 2.4vh; display:flex; gap:.7rem; z-index:20; }
+    .nav-btn { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: rgba(255,255,255,.9); color: var(--navy); cursor:pointer; }
+    .nav-btn:disabled { opacity:.25; cursor:default; }
+    .slide-counter { position: fixed; left: 2.5vw; bottom: 2.8vh; z-index:20; color:#777; font: 600 .78rem Inter, sans-serif; letter-spacing:.08em; }
+    .progress-bar { position:fixed; left:0; bottom:0; height:3px; background:var(--navy); z-index:20; transition:width .3s ease; }
+    .static .nav-controls, .static .slide-counter, .static .progress-bar { display:none; }
+    @media (max-aspect-ratio: 4/3) {
+      .slide { padding-left: 3vw; padding-right: 3vw; }
+      .page-title { font-size: clamp(1.8rem, 4.5vw, 3.3rem); margin-bottom: 4vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="deck">
+    <section class="slide s-cover active" data-slide="1"><div class="cover-copy"><h1>Quarterly<br>Business Review<br>Infographics</h1><p>Here is where this template begins</p></div><svg class="cover-illo" viewBox="0 0 680 560" role="img" aria-label="business review illustration">
+    <rect x="120" y="40" width="270" height="120" fill="#d0d1d5"/>
+    <rect x="430" y="40" width="160" height="120" fill="#d0d1d5"/>
+    <rect x="40" y="220" width="190" height="105" fill="#d0d1d5"/>
+    <polyline points="152,122 180,88 205,102 238,68 265,86 310,52" fill="none" stroke="#7da2a9" stroke-width="7"/>
+    <polygon points="310,52 305,73 325,58" fill="#7da2a9"/>
+    <rect x="155" y="107" width="18" height="35" fill="#daa28e"/><rect x="190" y="88" width="18" height="54" fill="#452b1e"/><rect x="225" y="70" width="18" height="72" fill="#daa28e"/><rect x="260" y="105" width="18" height="37" fill="#452b1e"/>
+    <path d="M505 100 L548 65 L548 122 Z" fill="#daa28e"/><path d="M508 103 A52 52 0 1 0 558 130 L512 130 Z" fill="#fff"/><path d="M512 130 L558 130 A52 52 0 0 0 548 72 Z" fill="#452b1e"/>
+    <polyline points="58,287 82,252 110,274 142,246 181,266" fill="none" stroke="#fff" stroke-width="8"/>
+    <path d="M480 210 C520 210 540 245 540 310 L540 512 L475 512 L465 330 L435 512 L372 512 L378 300 C380 245 420 210 480 210 Z" fill="#c8ccd1"/>
+    <circle cx="480" cy="180" r="32" fill="#ff8b68"/><path d="M455 175 C462 138 511 139 516 174 C499 163 475 163 455 175 Z" fill="#293140"/>
+    <path d="M440 256 L350 190" stroke="#c8ccd1" stroke-width="30" stroke-linecap="round"/><path d="M351 190 L314 153" stroke="#ff8b68" stroke-width="14" stroke-linecap="round"/>
+    <path d="M303 148 L336 130 L336 170 Z" fill="#daa28e"/>
+    <path d="M288 225 C314 225 345 255 350 302 L366 512 L302 512 L286 344 L268 512 L208 512 L222 312 C226 260 251 225 288 225 Z" fill="#2d3444"/>
+    <circle cx="286" cy="190" r="36" fill="#6a3041"/><path d="M253 184 Q286 142 324 186" fill="none" stroke="#6a3041" stroke-width="22" stroke-linecap="round"/>
+    <line x1="40" x2="590" y1="518" y2="518" stroke="#293140" stroke-width="5"/>
+  </svg></section>
+    <section class="slide s-goals" data-slide="2"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="goal-strip"><div><h2>First Goal</h2><span></span></div><div><h2>Second Goal</h2><span></span></div><div><h2>Third Goal</h2><span></span></div><div><h2>Final Goal</h2><span></span></div></div><div class="goal-chart"><div class="vbar-chart"><div class="vbar-wrap"><i class="peach" style="height:98%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="peach" style="height:70%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="peach" style="height:82%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="brown" style="height:100%"></i><span>Apr</span></div><div class="vbar-wrap"><i class="brown" style="height:96%"></i><span>May</span></div><div class="vbar-wrap"><i class="brown" style="height:82%"></i><span>Jun</span></div><div class="vbar-wrap"><i class="teal" style="height:52%"></i><span>Jul</span></div><div class="vbar-wrap"><i class="teal" style="height:70%"></i><span>Aug</span></div><div class="vbar-wrap"><i class="teal" style="height:90%"></i><span>Sep</span></div><div class="vbar-wrap"><i class="navy" style="height:74%"></i><span>Q10</span></div><div class="vbar-wrap"><i class="navy" style="height:98%"></i><span>Q11</span></div><div class="vbar-wrap"><i class="navy" style="height:40%"></i><span>Q12</span></div></div></div><div class="quarter-cards"><article><h3>Q1</h3><p>Jupiter is the biggest planet of them all</p></article><article><h3>Q2</h3><p>Neptune is actually made of ice</p></article><article><h3>Q3</h3><p>Saturn is a gas giant and has several rings</p></article><article><h3>Final Goal</h3><p>Uranus is the seventh planet from the Sun</p></article></div></section>
+    <section class="slide s-dashboard-a" data-slide="3"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-a"><article class="panel wide"><h2>Last Quarter's Analysis</h2><svg class="line-chart short" viewBox="0 0 740 300" role="img" aria-label="line chart">
+    <g class="grid"><line x1="0" x2="740" y1="60" y2="60"></line><line x1="0" x2="740" y1="120" y2="120"></line><line x1="0" x2="740" y1="180" y2="180"></line><line x1="0" x2="740" y1="240" y2="240"></line></g>
+    <path class="navy" d="M 0 216 L 148 180 L 296 252 L 444 144 L 592 102 L 740 126"></path>
+    <text x="0" y="324">Jan</text><text x="148" y="324">Feb</text><text x="296" y="324">Mar</text><text x="444" y="324">Apr</text><text x="592" y="324">May</text><text x="740" y="324">Jun</text>
+  </svg></article><article class="panel side"><h2>Sales</h2><div class="hbars compact"><div class="hbar"><label>Jupiter</label><div><i class="navy" style="width:68%"></i></div><b>68%</b></div><div class="hbar"><label>Mars</label><div><i class="teal" style="width:40%"></i></div><b>40%</b></div><div class="hbar"><label>Venus</label><div><i class="brown" style="width:89%"></i></div><b>89%</b></div><div class="hbar"><label>Moon</label><div><i class="peach" style="width:54%"></i></div><b>54%</b></div></div></article><article class="panel kpi"><div class="money-icon">↟</div><h2>Q1</h2><b class="big-num">$79,634</b></article><article class="panel kpi"><div class="money-icon">↡</div><h2>Q2</h2><b class="big-num">$74,654</b></article><article class="panel kpi"><div class="money-icon">↟</div><h2>Q3</h2><b class="big-num">$81,344</b></article></main></section>
+    <section class="slide s-three-panels" data-slide="4"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="three-panels"><article class="panel chart-card"><header class="teal-bg">Last Quarter's Analysis</header><svg class="line-chart mini" viewBox="0 0 740 300" role="img" aria-label="line chart">
+    <g class="grid"><line x1="0" x2="740" y1="60" y2="60"></line><line x1="0" x2="740" y1="120" y2="120"></line><line x1="0" x2="740" y1="180" y2="180"></line><line x1="0" x2="740" y1="240" y2="240"></line></g>
+    <path class="navy" d="M 0 246 L 148 216 L 296 210 L 444 180 L 592 204 L 740 54.00000000000003"></path>
+    <text x="0" y="324">Jan</text><text x="148" y="324">Feb</text><text x="296" y="324">Mar</text><text x="444" y="324">Apr</text><text x="592" y="324">May</text><text x="740" y="324">Jun</text>
+  </svg></article><article class="panel chart-card"><header class="peach-bg">Competitors</header><div class="donut-row"><div class="multi-donut" style="background: conic-gradient(var(--navy) 0% 51%, var(--teal) 51% 75%, var(--peach) 75% 100%)"></div></div><div class="legend-grid"><span class="dot navy"></span> Jupiter <span class="dot teal"></span> Mercury <span class="dot peach"></span> Saturn</div></article><article class="panel chart-card"><header class="brown-bg">Q2 Projection</header><div class="stacked-bars"><div class="stack-col"><i class="navy" style="height:32%"></i><i class="grey" style="height:68%"></i><span>Jul</span></div><div class="stack-col"><i class="navy" style="height:72%"></i><i class="grey" style="height:28.000000000000004%"></i><span>Aug</span></div><div class="stack-col"><i class="navy" style="height:57.99999999999999%"></i><i class="grey" style="height:42%"></i><span>Sep</span></div></div><p>Mars is the fourth planet from the Sun and it's a cold place</p></article></div></section>
+    <section class="slide s-dashboard-b" data-slide="5"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-b"><article class="panel metric navy"><h2>Q1</h2><b class="huge light">$4984</b><span class="tiny-bag">$</span></article><article class="panel metric white"><h2>Q2</h2><b class="huge ">$2056</b><span class="tiny-bag">$</span></article><article class="panel metric white"><h2>Q3</h2><b class="huge ">$1334</b><span class="tiny-bag">$</span></article><article class="panel bottom-chart"><h2>Last Quarter's Analysis</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="teal" style="height:18%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:70%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="teal" style="height:48%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="peach" style="height:80%"></i><span>Apr</span></div><div class="vbar-wrap"><i class="peach" style="height:16%"></i><span>May</span></div><div class="vbar-wrap"><i class="peach" style="height:40%"></i><span>Jun</span></div><div class="vbar-wrap"><i class="brown" style="height:28%"></i><span>Jul</span></div><div class="vbar-wrap"><i class="brown" style="height:86%"></i><span>Aug</span></div><div class="vbar-wrap"><i class="brown" style="height:48%"></i><span>Sep</span></div></div></article><article class="panel right-donut"><div class="donut teal" style="--p:75%"><span>75%</span></div><div class="stat-line"><span class="dot teal"></span><b>75%</b><p>Jupiter is the biggest planet</p></div><div class="stat-line"><span class="dot peach"></span><b>25%</b><p>Neptune is made of ice</p></div></article></main></section>
+    <section class="slide s-mosaic" data-slide="6"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-c"><article class="panel c1"><h2>Q1 Analysis</h2><div class="donut-legend"><div class="multi-donut" style="background: conic-gradient(var(--navy) 0% 25%, var(--peach) 25% 73%, var(--teal) 73% 100%)"></div><div><p><span class="dot navy"></span><b>25%</b> Neptune</p><p><span class="dot peach"></span><b>48%</b> Jupiter</p><p><span class="dot teal"></span><b>27%</b> Mercury</p></div></div></article><article class="panel c2"><h2>Pluto</h2><div class="hbars no-label"><div class="hbar"><label></label><div><i class="teal" style="width:62%"></i></div><b>62%</b></div><div class="hbar"><label></label><div><i class="peach" style="width:45%"></i></div><b>45%</b></div><div class="hbar"><label></label><div><i class="teal" style="width:78%"></i></div><b>78%</b></div><div class="hbar"><label></label><div><i class="peach" style="width:58%"></i></div><b>58%</b></div></div></article><article class="panel c3"><div class="star">★</div><b>0.56</b><p>Mars is cold</p><div class="star peach-text">★</div><b>0.23</b><p>Venus is hot</p></article><article class="panel c4"><h2>Q1</h2><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p><aside><h3>Total</h3><b>20,324</b><div class="hbars no-label"><div class="hbar"><label></label><div><i class="peach" style="width:60%"></i></div><b>60%</b></div></div></aside></article><article class="panel c5"><h2>Q2</h2><p>Mars is the fourth planet from the Sun and it's a cold place</p><aside><h3>Total</h3><b>45,658</b><div class="hbars no-label"><div class="hbar"><label></label><div><i class="teal" style="width:82%"></i></div><b>82%</b></div></div></aside></article></main></section>
+    <section class="slide s-table-area" data-slide="7"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="split-table"><section><h2>Q4 Revenue Goal vs Actual</h2><p>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days.</p><table class="data-table dark-head"><thead><tr><th>Revenue</th><th>Oct</th><th>Nov</th><th>Dec</th><th>Total</th></tr></thead><tbody><tr><td>Goal</td><td>652,874</td><td>567,583</td><td>456,721</td><td>1,677,178</td></tr><tr><td>Actual</td><td>823,563</td><td>621,321</td><td>588,327</td><td>2,033,211</td></tr><tr><td>Difference</td><td>170,689</td><td>53,738</td><td>131,606</td><td>356,033</td></tr><tr><td>% to goal</td><td>126%</td><td>109%</td><td>129%</td><td>121%</td></tr></tbody></table></section><aside><div class="legend"><span class="dot teal"></span> Goal <span class="dot peach"></span> Actual</div><svg class="area-chart" viewBox="0 0 760 280" role="img" aria-label="area chart">
+    <g class="grid"><line x1="0" x2="760" y1="56" y2="56"></line><line x1="0" x2="760" y1="112" y2="112"></line><line x1="0" x2="760" y1="168" y2="168"></line><line x1="0" x2="760" y1="224" y2="224"></line></g>
+    <path class="area peach" d="M 0 22.399999999999977 L 380 78.4 L 760 106.4 L 760 280 L 0 280 Z"></path><path class="line peach" d="M 0 22.399999999999977 L 380 78.4 L 760 106.4"></path>
+  </svg></aside></div></section>
+    <section class="slide s-dashboard-c" data-slide="8"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-d"><article class="panel d-donut"><div class="donut navy" style="--p:75%"><span>75%</span></div><p><span class="dot navy"></span> Q1 revenue</p></article><article class="panel d-bars"><h2>Performance</h2><div class="stacked-bars"><div class="stack-col"><i class="peach" style="height:42%"></i><i class="brown" style="height:57.99999999999999%"></i><span>October</span></div><div class="stack-col"><i class="peach" style="height:52%"></i><i class="brown" style="height:48%"></i><span>November</span></div><div class="stack-col"><i class="peach" style="height:38%"></i><i class="brown" style="height:62%"></i><span>December</span></div><div class="stack-col"><i class="peach" style="height:50%"></i><i class="brown" style="height:50%"></i><span>undefined</span></div><div class="stack-col"><i class="peach" style="height:44%"></i><i class="brown" style="height:56.00000000000001%"></i><span>undefined</span></div><div class="stack-col"><i class="peach" style="height:68%"></i><i class="brown" style="height:32%"></i><span>undefined</span></div></div><div class="legend"><span class="dot peach"></span> Goal <span class="dot brown"></span> Actual</div></article><article class="panel d-side"><h2>Income</h2><b class="giant">$7687</b></article><article class="panel d-side"><h2>Engagement</h2><b class="giant">30%</b></article><article class="panel d-side"><h2>Followers</h2><b class="giant">2575</b></article><article class="panel d-wide"><h2>Q1 Analysis</h2><div class="hbars "><div class="hbar"><label>Jupiter</label><div><i class="teal" style="width:69%"></i></div><b>69%</b></div><div class="hbar"><label>Pluto</label><div><i class="peach" style="width:45%"></i></div><b>45%</b></div><div class="hbar"><label>Neptune</label><div><i class="teal" style="width:84%"></i></div><b>84%</b></div><div class="hbar"><label>Saturn</label><div><i class="peach" style="width:59%"></i></div><b>59%</b></div></div></article></main></section>
+    <section class="slide s-bar-timeline" data-slide="9"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="bar-timeline"><section><div class="hbars axis"><div class="hbar"><label>Jan</label><div><i class="teal" style="width:46%"></i></div><b>46%</b></div><div class="hbar"><label>Feb</label><div><i class="teal" style="width:12%"></i></div><b>12%</b></div><div class="hbar"><label>Mar</label><div><i class="teal" style="width:56%"></i></div><b>56%</b></div><div class="hbar"><label>Apr</label><div><i class="peach" style="width:58%"></i></div><b>58%</b></div><div class="hbar"><label>May</label><div><i class="peach" style="width:34%"></i></div><b>34%</b></div><div class="hbar"><label>Jun</label><div><i class="peach" style="width:75%"></i></div><b>75%</b></div><div class="hbar"><label>Jul</label><div><i class="navy" style="width:15%"></i></div><b>15%</b></div><div class="hbar"><label>Aug</label><div><i class="navy" style="width:65%"></i></div><b>65%</b></div><div class="hbar"><label>Sep</label><div><i class="navy" style="width:36%"></i></div><b>36%</b></div></div></section><aside><div class="timeline-dot teal"><b>Q1</b></div><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p><div class="timeline-dot peach"><b>Q2</b></div><p>Mars is the fourth planet from the Sun and it's actually a cold place</p><div class="timeline-dot brown"><b>Q3</b></div><p>Saturn is the only planet with rings in the entire Solar System</p></aside></div></section>
+    <section class="slide s-side-kpi" data-slide="10"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-e"><div class="side-kpis"><article class="panel "><span class="icon">☻</span><div><h2>New Customers</h2><b class="giant">5647</b></div></article><article class="panel "><span class="icon">↗</span><div><h2>Sales Revenue</h2><b class="giant">$3456</b></div></article><article class="panel "><span class="icon">⇩</span><div><h2>Downloads</h2><b class="giant">2135</b></div></article></div><article class="panel mid"><h2>Goal vs Actual</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="brown" style="height:86%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="peach" style="height:80%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="brown" style="height:68%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="peach" style="height:76%"></i><span>Apr</span></div><div class="vbar-wrap"><i class="brown" style="height:78%"></i><span>May</span></div><div class="vbar-wrap"><i class="peach" style="height:96%"></i><span>Jun</span></div></div><div class="legend"><span class="dot brown"></span> Goal <span class="dot peach"></span> Actual</div></article><article class="panel right"><h2>Sales</h2><div class="multi-donut" style="background: conic-gradient(var(--navy) 0% 38%, var(--peach) 38% 64%, var(--teal) 64% 100%)"></div><p><span class="dot navy"></span><b>38%</b> Neptune</p><p><span class="dot peach"></span><b>26%</b> Jupiter</p><p><span class="dot teal"></span><b>36%</b> Mercury</p></article></main></section>
+    <section class="slide s-table-kpi" data-slide="11"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col"><section><h2>Performance</h2><div class="color-kpis"><article class="navy"><h3>Sales</h3><b>$4984</b></article><article class="teal"><h3>Followers</h3><b>566</b></article><article class="peach"><h3>Growth</h3><b>30%</b></article><article class="brown"><h3>Average spent</h3><b>$67</b></article></div></section><section><h2>Q1 Results</h2><table class="data-table dark-head"><thead><tr><th>Q1</th><th>Budget</th><th>Goal</th><th>Actual</th></tr></thead><tbody><tr><td>Jupiter</td><td>$7430</td><td>8723</td><td>9871</td></tr><tr><td>Mars</td><td>$8710</td><td>9125</td><td>7812</td></tr><tr><td>Neptune</td><td>$2340</td><td>5423</td><td>6721</td></tr></tbody></table></section></div></section>
+    <section class="slide s-wide-area" data-slide="12"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="top-icons"><article class="panel "><span class="icon">⚭</span><div><h2>Shares</h2><b>+15%</b></div></article><article class="panel "><span class="icon">👍</span><div><h2>New followers</h2><b>+35%</b></div></article><article class="panel "><span class="icon">☻</span><div><h2>New buyers</h2><b>+20%</b></div></article></div><article class="panel wide-area"><div class="caption"><h2>Q2 Results</h2><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p></div><svg class="area-chart" viewBox="0 0 760 280" role="img" aria-label="area chart">
+    <g class="grid"><line x1="0" x2="760" y1="56" y2="56"></line><line x1="0" x2="760" y1="112" y2="112"></line><line x1="0" x2="760" y1="168" y2="168"></line><line x1="0" x2="760" y1="224" y2="224"></line></g>
+    <path class="area peach" d="M 0 134.4 L 253.33333333333334 156.8 L 506.6666666666667 173.6 L 760 78.4 L 760 280 L 0 280 Z"></path><path class="line peach" d="M 0 134.4 L 253.33333333333334 156.8 L 506.6666666666667 173.6 L 760 78.4"></path>
+  </svg></article></section>
+    <section class="slide s-callout-bars" data-slide="13"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="callout-bars"><section><div class="vbar-chart"><div class="vbar-wrap"><i class="brown" style="height:55%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:42%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="peach" style="height:70%"></i><span>Mar</span></div></div></section><aside><article><span class="mini-square brown">▲</span><b>55%</b><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p></article><article><span class="mini-square teal">▼</span><b>43%</b><p>Mars is the fourth planet from the Sun and it’s a cold place</p></article><article><span class="mini-square peach">▲</span><b>71%</b><p>The Earth is the only planet known to harbor life</p></article></aside></div></section>
+    <section class="slide s-world" data-slide="14"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-f"><article class="panel map-panel"><h2>World Q3 Office Performance</h2><svg class="map" viewBox="0 0 760 360" role="img" aria-label="world map">
+    <g fill="#ececec">
+      <path d="M90 135 C120 80 210 90 240 125 C275 160 240 215 190 210 C138 205 70 195 90 135 Z"/>
+      <path d="M248 210 C290 230 300 285 270 318 C235 292 225 248 248 210 Z"/>
+      <path d="M340 118 C395 80 505 98 520 150 C550 210 475 245 390 225 C330 210 300 160 340 118 Z"/>
+      <path d="M500 116 C590 80 720 130 700 205 C640 210 590 225 545 195 C500 165 480 135 500 116 Z"/>
+      <path d="M585 255 C625 232 680 248 700 294 C660 330 610 320 585 255 Z"/>
+    </g>
+    <path class="pin peach" d="M145 125 C129 97 161 97 145 125 Z"></path><circle class="peach" cx="145" cy="107" r="12"></circle><path class="pin brown" d="M245 140 C229 112 261 112 245 140 Z"></path><circle class="brown" cx="245" cy="122" r="12"></circle><path class="pin peach" d="M355 120 C339 92 371 92 355 120 Z"></path><circle class="peach" cx="355" cy="102" r="12"></circle><path class="pin brown" d="M420 230 C404 202 436 202 420 230 Z"></path><circle class="brown" cx="420" cy="212" r="12"></circle><path class="pin peach" d="M574 155 C558 127 590 127 574 155 Z"></path><circle class="peach" cx="574" cy="137" r="12"></circle><path class="pin brown" d="M695 180 C679 152 711 152 695 180 Z"></path><circle class="brown" cx="695" cy="162" r="12"></circle><path class="pin peach" d="M618 294 C602 266 634 266 618 294 Z"></path><circle class="peach" cx="618" cy="276" r="12"></circle><path class="pin peach" d="M210 272 C194 244 226 244 210 272 Z"></path><circle class="peach" cx="210" cy="254" r="12"></circle>
+  </svg><div class="legend bottom"><span class="dot brown"></span> Highest Revenue <span class="dot peach"></span> Lowest Revenue</div></article><article class="panel stat-panel"><h2>Statistics</h2><div class="hbars compact"><div class="hbar"><label>Jupiter</label><div><i class="navy" style="width:88%"></i></div><b>88%</b></div><div class="hbar"><label>Mars</label><div><i class="teal" style="width:62%"></i></div><b>62%</b></div><div class="hbar"><label>Neptune</label><div><i class="navy" style="width:73%"></i></div><b>73%</b></div><div class="hbar"><label>Pluto</label><div><i class="teal" style="width:30%"></i></div><b>30%</b></div><div class="hbar"><label>Mercury</label><div><i class="navy" style="width:50%"></i></div><b>50%</b></div><div class="hbar"><label>Earth</label><div><i class="teal" style="width:78%"></i></div><b>78%</b></div></div></article></main></section>
+    <section class="slide s-analytics" data-slide="15"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-g"><article class="panel wide"><h2>Goal vs Actual</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="peach" style="height:48%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:58%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="peach" style="height:64%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="teal" style="height:60%"></i><span>Apr</span></div><div class="vbar-wrap"><i class="peach" style="height:22%"></i><span>May</span></div><div class="vbar-wrap"><i class="teal" style="height:30%"></i><span>Jun</span></div><div class="vbar-wrap"><i class="peach" style="height:76%"></i><span>Jul</span></div><div class="vbar-wrap"><i class="teal" style="height:78%"></i><span>Aug</span></div><div class="vbar-wrap"><i class="peach" style="height:88%"></i><span>Sep</span></div><div class="vbar-wrap"><i class="teal" style="height:82%"></i><span>Q10</span></div><div class="vbar-wrap"><i class="peach" style="height:76%"></i><span>Q11</span></div><div class="vbar-wrap"><i class="teal" style="height:78%"></i><span>Q12</span></div></div><div class="legend"><span class="dot peach"></span> Goal <span class="dot teal"></span> Actual</div></article><article class="panel side"><h2>Statistics</h2><div class="donut-stack"><article><div class="donut brown" style="--p:50%"><span>50%</span></div><div><h3>Jupiter</h3><p>Jupiter is the biggest planet of them all</p></div></article><article><div class="donut teal" style="--p:75%"><span>75%</span></div><div><h3>Mars</h3><p>It’s the fourth planet from the Sun</p></div></article><article><div class="donut peach" style="--p:63%"><span>63%</span></div><div><h3>Neptune</h3><p>It’s the farthest planet from the Sun</p></div></article></div></article><article class="panel mini"><h2>Earnings</h2><span class="icon">$</span><b class="giant">$5692</b></article><article class="panel mini"><h2>Downloads</h2><span class="icon">⇩</span><b class="giant">12,984</b></article><article class="panel mini"><h2>Favorites</h2><span class="icon">★</span><b class="giant">1373</b></article></main></section>
+    <section class="slide s-donut-strip" data-slide="16"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-h"><article class="panel main"><h2>Statistics</h2><p>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days.</p><div class="four-donuts"><article><div class="donut teal" style="--p:25%"><span>25%</span></div><b>25%</b><p>Jupiter is the biggest planet</p></article><article><div class="donut peach" style="--p:50%"><span>50%</span></div><b>50%</b><p>Neptune is made of ice</p></article><article><div class="donut brown" style="--p:67%"><span>67%</span></div><b>67%</b><p>Saturn is the only with rings</p></article><article><div class="donut navy" style="--p:75%"><span>75%</span></div><b>75%</b><p>Mars is actually cold</p></article></div></article><article class="panel side"><h2>Q1 Goal</h2><b class="giant">$400,000</b></article><article class="panel side"><h2>Q2 Projection</h2><svg class="area-chart" viewBox="0 0 760 280" role="img" aria-label="area chart">
+    <g class="grid"><line x1="0" x2="760" y1="56" y2="56"></line><line x1="0" x2="760" y1="112" y2="112"></line><line x1="0" x2="760" y1="168" y2="168"></line><line x1="0" x2="760" y1="224" y2="224"></line></g>
+    <path class="area teal" d="M 0 182 L 760 134.4 L 760 280 L 0 280 Z"></path><path class="line teal" d="M 0 182 L 760 134.4"></path>
+  </svg><b class="giant">$550,000</b></article></main></section>
+    <section class="slide s-pie-line" data-slide="17"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col cards"><article class="panel "><h2>Q3 Performance</h2><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p><div class="pie-row"><div class="pie " style="background: conic-gradient(var(--peach) 0% 20%, var(--teal) 20% 32%, var(--brown) 32% 77%, var(--navy) 77% 100%)"></div><div><p><span class="dot peach"></span> Jupiter</p><p><span class="dot teal"></span> Mars</p><p><span class="dot brown"></span> Neptune</p><p><span class="dot navy"></span> Saturn</p></div></div></article><article class="panel "><h2>Income results</h2><p>Saturn is the only planet in the entire Solar System that has a ring system. It’s also a gas giant!</p><svg class="line-chart " viewBox="0 0 740 300" role="img" aria-label="line chart">
+    <g class="grid"><line x1="0" x2="740" y1="60" y2="60"></line><line x1="0" x2="740" y1="120" y2="120"></line><line x1="0" x2="740" y1="180" y2="180"></line><line x1="0" x2="740" y1="240" y2="240"></line></g>
+    <path class="teal" d="M 0 131.99999999999997 L 246.66666666666666 90 L 493.3333333333333 108 L 740 156"></path><path class="peach" d="M 0 186 L 246.66666666666666 210 L 493.3333333333333 156 L 740 192"></path><path class="brown" d="M 0 144 L 246.66666666666666 131.99999999999997 L 493.3333333333333 126 L 740 174"></path>
+    <text x="0" y="324">Jan</text><text x="246.66666666666666" y="324">Feb</text><text x="493.3333333333333" y="324">Mar</text><text x="740" y="324">Apr</text>
+  </svg><div class="legend"><span class="dot teal"></span> Q1 <span class="dot peach"></span> Q2 <span class="dot brown"></span> Q3</div></article></div></section>
+    <section class="slide s-three-chart-cards" data-slide="18"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="three-panels"><article class="panel chart-card"><h2>Q1 Statistics</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="peach" style="height:70%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:10%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="brown" style="height:35%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="navy" style="height:60%"></i><span>Apr</span></div></div><p>Jupiter is the biggest planet of them all</p></article><article class="panel chart-card"><h2>Q2 Statistics</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="peach" style="height:80%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:30%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="brown" style="height:55%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="navy" style="height:40%"></i><span>Apr</span></div></div><p>Neptune is the farthest planet from the Sun</p></article><article class="panel chart-card"><h2>Q3 Statistics</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="peach" style="height:50%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="teal" style="height:70%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="brown" style="height:85%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="navy" style="height:20%"></i><span>Apr</span></div></div><p>Despite being red, Mars is actually a cold place</p></article></div></section>
+    <section class="slide s-progress-ring" data-slide="19"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col wide-left"><article class="panel "><h2>Q2 Statistics</h2><div class="hbars with-sub"><div class="hbar"><label>Venus</label><div><i class="brown" style="width:73%"></i></div><b>73%</b><small>Mercury is the closest planet to the Sun</small></div><div class="hbar"><label>Mars</label><div><i class="teal" style="width:89%"></i></div><b>89%</b><small>Despite being red, it’s actually a cold place</small></div><div class="hbar"><label>Earth</label><div><i class="navy" style="width:60%"></i></div><b>60%</b><small>It’s the third planet from the Sun</small></div></div></article><article class="panel "><h2>Competitors</h2><div class="nested-donut"><div><div class="multi-donut" style="background: conic-gradient(var(--navy) 0% 56%, var(--grey) 56% 100%)"></div></div><div><div class="multi-donut" style="background: conic-gradient(var(--teal) 0% 85%, var(--grey) 85% 100%)"></div></div><div><div class="multi-donut" style="background: conic-gradient(var(--peach) 0% 40%, var(--grey) 40% 100%)"></div></div></div><aside><p><span class="dot navy"></span><b>56%</b><br>Jupiter is the biggest planet</p><p><span class="dot teal"></span><b>85%</b><br>Neptune is made of ice</p><p><span class="dot peach"></span><b>40%</b><br>Saturn is a gas giant with rings</p></aside></article></div></section>
+    <section class="slide s-text-line" data-slide="20"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="left-notes"><article><i class="peach"></i><h2>Q1</h2><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p></article><article><i class="teal"></i><h2>Q3</h2><p>Mars is the fourth planet from the Sun and it’s actually a cold place</p></article><article><i class="brown"></i><h2>Q2</h2><p>Neptune is a gas giant with an average radius of about nine times the Earth’s</p></article><article><i class="navy"></i><h2>Final Goal</h2><p>Neptune is the eighth and farthest-known solar planet from the Sun</p></article></div><div class="right-line"><svg class="line-chart large" viewBox="0 0 740 300" role="img" aria-label="line chart">
+    <g class="grid"><line x1="0" x2="740" y1="60" y2="60"></line><line x1="0" x2="740" y1="120" y2="120"></line><line x1="0" x2="740" y1="180" y2="180"></line><line x1="0" x2="740" y1="240" y2="240"></line></g>
+    <path class="brown" d="M 0 192 L 185 126 L 370 210 L 555 42 L 740 144"></path><path class="peach" d="M 0 120 L 185 156 L 370 36 L 555 114 L 740 120"></path><path class="navy" d="M 0 246 L 185 210 L 370 156 L 555 102 L 740 78"></path><path class="teal" d="M 0 42 L 185 192 L 370 174 L 555 246 L 740 78"></path>
+    <text x="0" y="324">Jan</text><text x="185" y="324">Feb</text><text x="370" y="324">Mar</text><text x="555" y="324">Apr</text><text x="740" y="324">May</text>
+  </svg></div></section>
+    <section class="slide s-stack-side" data-slide="21"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-i"><article class="panel large"><h2>Q3 Statistics</h2><div class="side-text left"><h3 class="peach-text">Venus</h3><p>Venus is the closest planet to the Sun</p><h3>Mars</h3><p>Despite being red, it’s actually a cold place</p></div><div class="stacked-bars"><div class="stack-col"><i class="teal" style="height:33%"></i><i class="navy" style="height:15%"></i><i class="peach" style="height:52%"></i><span>Jan</span></div><div class="stack-col"><i class="teal" style="height:34%"></i><i class="navy" style="height:22%"></i><i class="peach" style="height:44%"></i><span>Feb</span></div><div class="stack-col"><i class="teal" style="height:22%"></i><i class="navy" style="height:35%"></i><i class="peach" style="height:43%"></i><span>Mar</span></div></div><div class="side-text right"><h3 class="teal-text">Jupiter</h3><p>Jupiter is the biggest planet of them all</p></div></article><article class="panel small"><h2>Sales</h2><div class="donut brown" style="--p:25%"><span>25%</span></div></article><article class="panel small"><h2>Growth</h2><div class="donut navy" style="--p:50%"><span>50%</span></div></article></main></section>
+    <section class="slide s-revenue-row" data-slide="22"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="top-metrics"><article class="panel "><h2>Sales</h2><b class="giant">$7634</b></article><article class="panel "><h2>Profit</h2><b class="giant">$2487</b></article><article class="panel "><h2>New Customers</h2><b class="giant">2344</b></article><article class="panel "><h2>Q2 Projection</h2><b class="giant">$8360</b></article></div><article class="panel revenue-panel"><h2>Q1 Revenue</h2><div class="revenue-copy"><article><b>25%</b><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p></article><article><b class="peach-text">13%</b><p>Saturn is a gas giant with a radius of about nine times the Earth's</p></article><article><b class="teal-text">62%</b><p>Mars is the fourth planet from the Sun and it’s a cold place</p></article><div class="multi-donut" style="background: conic-gradient(var(--navy) 0% 25%, var(--peach) 25% 38%, var(--teal) 38% 100%)"></div></div></article></section>
+    <section class="slide s-grouped-icons" data-slide="23"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="grouped-layout"><section><div class="grouped-hbars"><div class="gbar-row"><label>Q1</label><div><i class="peach" style="width:50%"></i><i class="brown" style="width:70%"></i><i class="teal" style="width:40%"></i><i class="navy" style="width:90%"></i></div></div><div class="gbar-row"><label>Q2</label><div><i class="peach" style="width:30%"></i><i class="brown" style="width:50%"></i><i class="teal" style="width:60%"></i><i class="navy" style="width:50%"></i></div></div><div class="gbar-row"><label>Q3</label><div><i class="peach" style="width:20%"></i><i class="brown" style="width:30%"></i><i class="teal" style="width:40%"></i><i class="navy" style="width:70%"></i></div></div><div class="gbar-row"><label>Q4</label><div><i class="peach" style="width:60%"></i><i class="brown" style="width:80%"></i><i class="teal" style="width:70%"></i><i class="navy" style="width:40%"></i></div></div></div></section><aside><article class="panel icon-card"><span class="icon">◎</span><h2>Jupiter</h2><p>Jupiter is the biggest planet</p></article><article class="panel icon-card"><span class="icon">☻</span><h2>Neptune</h2><p>Neptune is made of ice</p></article><article class="panel icon-card"><span class="icon">★</span><h2>Saturn</h2><p>It’s a gas giant and has rings</p></article><article class="panel icon-card"><span class="icon">↗</span><h2>Mars</h2><p>Despite being red, it’s cold</p></article></aside></div></section>
+    <section class="slide s-donut-combo" data-slide="24"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col wide-right"><article class="panel "><h2>Sales Statistics</h2><div class="stacked-bars"><div class="stack-col"><i class="teal" style="height:45%"></i><i class="grey" style="height:55.00000000000001%"></i><span>Apr</span></div><div class="stack-col"><i class="teal" style="height:70%"></i><i class="grey" style="height:30%"></i><span>May</span></div><div class="stack-col"><i class="teal" style="height:82%"></i><i class="grey" style="height:18%"></i><span>Jun</span></div></div><p>It’s a gas giant with an average radius of about nine times the Earth's</p></article><article class="panel "><h2>Q2 Review</h2><div class="review-donuts"><article><div class="donut brown" style="--p:65%"><span>65%</span></div><b>65%</b><p>Jupiter is the biggest planet</p></article><article><div class="donut teal" style="--p:80%"><span>80%</span></div><b>80%</b><p>Saturn is a gas giant with rings</p></article><article><div class="donut navy" style="--p:37%"><span>37%</span></div><b>37%</b><p>Neptune is made of ice</p></article><article><div class="donut peach" style="--p:25%"><span>25%</span></div><b>25%</b><p>Mars is actually cold</p></article></div></article></div></section>
+    <section class="slide s-radar" data-slide="25"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="radar-layout"><aside><article><h2 class="teal-bg">Q1</h2><p>Jupiter is the fifth planet from the Sun and the biggest of them all</p></article><article><h2 class="brown-bg">Q2</h2><p>Saturn is a gas giant with an average radius of about nine times the Earth’s</p></article></aside><svg class="radar" viewBox="0 0 440 440" role="img" aria-label="radar chart">
+    <g class="rings"><circle cx="220" cy="220" r="60"></circle><circle cx="220" cy="220" r="100"></circle><circle cx="220" cy="220" r="140"></circle><circle cx="220" cy="220" r="180"></circle></g>
+    <g class="spokes"><line x1="220" y1="220" x2="220" y2="40"></line><line x1="220" y1="220" x2="375.88457268119896" y2="130"></line><line x1="220" y1="220" x2="375.88457268119896" y2="310"></line><line x1="220" y1="220" x2="220" y2="400"></line><line x1="220" y1="220" x2="64.11542731880104" y2="310"></line><line x1="220" y1="220" x2="64.11542731880104" y2="130"></line></g>
+    <polygon class="teal" points="220,92 342,150 314,290 220,338 106,290 92,150"/>
+    <polygon class="peach" points="220,108 320,172 286,330 220,260 132,300 146,178"/>
+    <polygon class="brown" points="220,132 290,188 352,258 220,300 116,300 164,170"/>
+    <polygon class="navy dash" points="220,158 340,176 318,258 220,290 122,254 142,184"/>
+    <text x="220" y="36">Jupiter</text><text x="376" y="142">Mars</text><text x="368" y="334">Saturn</text><text x="220" y="424">Neptune</text><text x="42" y="334">Venus</text><text x="44" y="142">Pluto</text>
+  </svg><aside><article class="right"><h2 class="peach-bg">Q3</h2><p>Mars is the fourth planet from the Sun and it’s actually a cold place</p></article><article class="right"><h2 class="navy-bg">Q4 Projection</h2><p>Neptune is the eighth and farthest-known solar planet from the Sun</p></article></aside></div></section>
+    <section class="slide s-line-pie" data-slide="26"><h1 class="page-title">Quarterly Business Review Infographics</h1><main class="layout-j"><div class="top-two"><article class="panel "><span class="icon">↗</span><h2>Q1</h2><b class="giant">$3485</b></article><article class="panel "><span class="icon">↘</span><h2>Q2</h2><b class="giant">$2736</b></article></div><article class="panel line-wide"><h2>Q3 Sales Statistics</h2><svg class="line-chart wide" viewBox="0 0 740 300" role="img" aria-label="line chart">
+    <g class="grid"><line x1="0" x2="740" y1="60" y2="60"></line><line x1="0" x2="740" y1="120" y2="120"></line><line x1="0" x2="740" y1="180" y2="180"></line><line x1="0" x2="740" y1="240" y2="240"></line></g>
+    <path class="teal" d="M 0 222 L 92.5 135 L 185 60 L 277.5 195 L 370 54.00000000000003 L 462.5 95.99999999999997 L 555 192 L 647.5 126 L 740 72"></path>
+    <text x="0" y="324">Jan</text><text x="92.5" y="324">Feb</text><text x="185" y="324">Mar</text><text x="277.5" y="324">Apr</text><text x="370" y="324">May</text><text x="462.5" y="324">Jun</text><text x="555" y="324">Jul</text><text x="647.5" y="324">Aug</text><text x="740" y="324">Sep</text>
+  </svg></article><article class="panel pie-side"><h2>Q3 Growth</h2><div class="pie " style="background: conic-gradient(var(--peach) 0% 20%, var(--teal) 20% 57%, var(--brown) 57% 78%, var(--navy) 78% 100%)"></div><p><span class="dot peach"></span><b>20%</b> Neptune</p><p><span class="dot teal"></span><b>37%</b> Jupiter</p><p><span class="dot brown"></span><b>21%</b> Mars</p><p><span class="dot navy"></span><b>22%</b> Saturn</p></article></main></section>
+    <section class="slide s-circle-list" data-slide="27"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col narrow-left"><article class="panel "><h2>Statistics</h2><article class="circle-row"><span class="teal">+10%</span><div><h3>Jupiter</h3><p>Jupiter is the biggest planet of them all</p></div></article><article class="circle-row"><span class="peach">+8%</span><div><h3>Mars</h3><p>Despite being red, it’s actually a cold place</p></div></article><article class="circle-row"><span class="brown">+12%</span><div><h3>Venus</h3><p>Venus is the closest planet to the Sun</p></div></article></article><article class="panel "><h2>Last Quarter's Analysis</h2><div class="vbar-chart"><div class="vbar-wrap"><i class="navy" style="height:24%"></i><span>Jan</span></div><div class="vbar-wrap"><i class="navy" style="height:32%"></i><span>Feb</span></div><div class="vbar-wrap"><i class="navy" style="height:58%"></i><span>Mar</span></div><div class="vbar-wrap"><i class="peach" style="height:50%"></i><span>Apr</span></div><div class="vbar-wrap"><i class="peach" style="height:74%"></i><span>May</span></div><div class="vbar-wrap"><i class="peach" style="height:100%"></i><span>Jun</span></div></div></article></div></section>
+    <section class="slide s-area-callouts" data-slide="28"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="area-callouts"><article class="navy"><h2>Jupiter</h2><p>Jupiter is the biggest planet of them all</p></article><article class="peach"><h2>Venus</h2><p>Venus is the closest planet to the Sun</p></article><article class="teal"><h2>Mars</h2><p>Despite being red, it’s actually a cold place</p></article><article class="brown"><h2>Saturn</h2><p>It’s the only planet with rings</p></article><div class="big-area"><svg class="area-chart" viewBox="0 0 760 280" role="img" aria-label="area chart">
+    <g class="grid"><line x1="0" x2="760" y1="56" y2="56"></line><line x1="0" x2="760" y1="112" y2="112"></line><line x1="0" x2="760" y1="168" y2="168"></line><line x1="0" x2="760" y1="224" y2="224"></line></g>
+    <path class="area teal" d="M 0 117.60000000000002 L 190 154 L 380 112 L 570 78.4 L 760 106.4 L 760 280 L 0 280 Z"></path><path class="line teal" d="M 0 117.60000000000002 L 190 154 L 380 112 L 570 78.4 L 760 106.4"></path>
+  </svg></div></div></section>
+    <section class="slide s-table-bars" data-slide="29"><h1 class="page-title">Quarterly Business Review Infographics</h1><div class="two-col table-bars"><section><h2>Q1 Sales</h2><table class="data-table teal-head"><thead><tr><th></th><th>Jan</th><th>Feb</th><th>Mar</th></tr></thead><tbody><tr><td>Mars</td><td>324,535</td><td>214,324</td><td>346,550</td></tr><tr><td>Venus</td><td>5723</td><td>2144</td><td>3254</td></tr><tr><td>Saturn</td><td>23,414</td><td>45,698</td><td>34,567</td></tr><tr><td>Pluto</td><td>35,434</td><td>46,579</td><td>54,754</td></tr></tbody></table></section><section><h2>Statistics</h2><div class="grouped-hbars"><div class="gbar-row"><label>Jupiter</label><div><i class="navy" style="width:36%"></i><i class="peach" style="width:14%"></i><i class="brown" style="width:44%"></i></div></div><div class="gbar-row"><label>Mars</label><div><i class="navy" style="width:44%"></i><i class="peach" style="width:32%"></i><i class="brown" style="width:44%"></i></div></div><div class="gbar-row"><label>Venus</label><div><i class="navy" style="width:6%"></i><i class="peach" style="width:5%"></i><i class="brown" style="width:3%"></i></div></div><div class="gbar-row"><label>Saturn</label><div><i class="navy" style="width:24%"></i><i class="peach" style="width:32%"></i><i class="brown" style="width:34%"></i></div></div></div><div class="legend"><span class="dot navy"></span> January <span class="dot peach"></span> February <span class="dot brown"></span> March</div></section></div></section>
+  </div>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">29</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide">‹</button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide">›</button>
+  </div>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('static')) document.body.classList.add('static');
+    let current = Math.max(0, Math.min(slides.length - 1, Number((location.hash || '#slide-1').replace('#slide-', '')) - 1 || 0));
+    function updateSlide() {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active', 'prev');
+        if (i === current) slide.classList.add('active');
+        else if (i < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+      history.replaceState(null, '', '#slide-' + (current + 1));
+    }
+    function changeSlide(dir) {
+      const next = current + dir;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (['ArrowRight', ' ', 'PageDown'].includes(event.key)) { event.preventDefault(); changeSlide(1); }
+      if (['ArrowLeft', 'PageUp'].includes(event.key)) { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    updateSlide();
+  </script>
+</body>
+</html>

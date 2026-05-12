@@ -1,0 +1,68 @@
+{
+  "slug": "gold-line-proposal",
+  "name": "Gold Line Proposal",
+  "tagline": "Charcoal project proposal with thin gold geometry, boxed title frames, angular overlays, and premium dark layouts.",
+  "mood": [
+    "premium",
+    "serious",
+    "geometric",
+    "focused"
+  ],
+  "occasion": [
+    "project proposal",
+    "executive concept",
+    "premium service pitch",
+    "strategic recommendation"
+  ],
+  "tone": [
+    "elegant",
+    "dark",
+    "authoritative",
+    "minimal"
+  ],
+  "formality": "high",
+  "density": "medium",
+  "palette": {
+    "bg": "#282B31",
+    "surface": "#30333A",
+    "panel": "#1F2228",
+    "ink": "#F3E9D0",
+    "text": "#E4DDCF",
+    "muted": "#A89F90",
+    "primary": "#D2A74F",
+    "secondary": "#5A7D75",
+    "tertiary": "#8C1D5B",
+    "description": "charcoal canvas with thin gold line geometry and restrained jewel accent options"
+  },
+  "typography": {
+    "display": "Oswald",
+    "body": "Inter",
+    "style": "condensed modern proposal display with neutral executive body"
+  },
+  "scheme": "dark",
+  "best_for": "Premium project proposals, executive concept decks, procurement presentations, and service pitches where seriousness matters.",
+  "avoid_for": "Playful campaigns, medical explainers, classroom materials, or casual portfolio decks.",
+  "slide_count": 6,
+  "features": {
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "fullscreen-responsive",
+    "format": "single-file-html"
+  },
+  "layouts": [
+    "boxed-title-cover",
+    "proposal-summary",
+    "requirements-grid",
+    "method-steps",
+    "investment-cards",
+    "closing"
+  ],
+  "source_inspiration": {
+    "name": "Slidesgo Custal Project Proposal",
+    "url": "https://slidesgo.com/theme/custal-project-proposal",
+    "notes": "Independent HTML/CSS interpretation based on public visual reference; not a pixel copy and does not reuse source assets."
+  }
+}

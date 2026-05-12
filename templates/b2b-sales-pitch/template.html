@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B2B Sales Pitch Accurate Replica</title>
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{background:#142127;color:#fff;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.deck{position:relative;width:100vw;height:100vh;background:#142127;overflow:hidden}
+.slide{position:absolute;inset:0;overflow:hidden;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .35s ease,transform .35s ease;background:#142127}
+.static .slide,.static .progress-bar{transition:none!important}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1{font-weight:800;color:#dcffad;letter-spacing:-.055em;line-height:.93}
+h2{font-weight:400;color:white;letter-spacing:-.04em;line-height:1.18}
+p{font-size:2.1vw;line-height:1.36;color:white}
+.photo{background:
+  linear-gradient(135deg,rgba(255,255,255,.78),rgba(202,235,229,.55) 42%,rgba(38,75,70,.7)),
+  repeating-linear-gradient(88deg,rgba(20,33,39,.22) 0 12px,rgba(255,255,255,.12) 12px 28px);
+  background-blend-mode:screen,multiply;border-radius:24px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.1);position:absolute}
+.photo::before,.photo::after{content:"";position:absolute;border-radius:50%;background:rgba(20,33,39,.36)}
+.photo::before{width:12%;height:18%;left:25%;top:35%}.photo::after{width:10%;height:15%;right:22%;top:32%}
+.copy-card,.toc-panel,.quote-card,.next-panel,.resource-card,.credits-panel{background:#1f3640;border-radius:24px;box-shadow:0 16px 26px rgba(0,0,0,.08)}
+.copy-card{font-size:2.1vw;line-height:1.45;color:white;padding:3.1vw 4vw}
+.back{position:absolute;left:5.6vw;bottom:5.2vh;color:#dcffad;text-decoration:underline;font-size:1.55vw}
+.ribbon{position:absolute;width:30vw;height:10vw;border:2.1vw solid #dcffad;border-radius:50%;opacity:.95;filter:drop-shadow(26px 16px 24px rgba(0,0,0,.34));transform:rotate(var(--r,25deg))}
+.ribbon::after{content:"";position:absolute;inset:-2.1vw;border-radius:50%;border:2.1vw solid transparent;border-right-color:rgba(40,54,55,.5);transform:rotate(34deg)}
+.brand{position:absolute;left:5.6vw;top:6.7vh;display:flex;align-items:center;gap:1vw;color:#dcffad;font-size:1.9vw;z-index:4}.brand strong{font-weight:900}.mark{display:flex;align-items:center}.mark i{display:block;width:2.1vw;height:2.1vw;background:#dcffad;border-radius:50%;box-shadow:1.6vw 0 0 #dcffad}.mark i+ i{display:none}
+.s-cover .cover-copy{position:absolute;left:5.7vw;top:34vh;z-index:3}.s-cover h1{font-size:6.9vw}.pill{display:inline-block;margin-top:3vh;background:#1f3640;border-radius:10px;padding:.55vw .85vw;font-size:1.55vw}.photo-cover{right:3vw;top:5.2vh;width:46vw;height:89vh}.ribbon-top{right:-4vw;top:-8.5vh;--r:4deg}.ribbon-right{right:-8vw;top:16vh;--r:14deg}.ribbon-bottom{left:43vw;bottom:-11vh;--r:-22deg;width:32vw;height:11vw}
+.s-contents h1{position:absolute;left:3.8vw;top:7vh;font-size:5.5vw}.contents-photo-left{left:3.7vw;top:19.5vh;width:26.5vw;height:74vh}.toc-panel{position:absolute;left:32.5vw;top:5.5vh;width:43vw;height:88.5vh;padding:6.4vh 4.9vw}.toc-row{display:grid;grid-template-columns:4.9vw 1fr;align-items:center;gap:1.8vw;margin-bottom:5.8vh}.toc-row span{width:4vw;height:4vw;border:3px solid #dcffad;border-radius:50%;display:grid;place-items:center;color:#dcffad;font-size:2.1vw}.toc-row strong{font-size:2vw}.contents-photo-right{right:3.5vw;top:5.5vh;width:18.5vw;height:88.5vh}.ribbon-toc{right:-2vw;top:-4vh;width:24vw;height:8vw}
+.s-status .left-copy{position:absolute;left:6.7vw;top:12vh;width:42vw}.s-status h1{font-size:5.7vw}.s-status h2{margin-top:4vh;font-size:2.75vw}.s-status .copy-card{position:absolute;left:5.6vw;bottom:13vh;width:42vw}.status-photo{right:3vw;top:5.2vh;width:45.7vw;height:88.8vh}.ribbon-low{left:33vw;bottom:-8vh;--r:-18deg}
+.problem-block{position:absolute}.problem-block h1{font-size:5vw}.problem-a{left:10.8vw;top:12vh;width:38vw}.problem-a .copy-card{margin-top:4vh}.problem-photo-a{position:relative;left:0;top:5vh;width:38vw;height:46vh}.problem-b{left:51.2vw;top:10vh;width:38vw}.problem-b .photo{position:relative;width:38vw;height:35vh}.problem-b h1{margin-top:6vh}.problem-b .copy-card{margin-top:4vh}.ribbon-left{left:-13vw;top:31vh;--r:15deg}.ribbon-problem{right:-5vw;top:7vh;--r:-65deg}
+.s-meet h1{position:absolute;left:5.7vw;top:9.5vh;font-size:4.9vw}.s-meet h2{position:absolute;left:5.7vw;top:18vh;font-size:2.7vw}.s-meet .intro{position:absolute;right:5.6vw;top:7.8vh;width:50.2vw;padding:3.5vh 3.7vw}.meet-photo{left:5.6vw;top:31.8vh;width:88.8vw;height:61.2vh}.ribbon-meet-a{right:-8vw;top:38vh}.ribbon-meet-b{right:5vw;bottom:-11vh;--r:-8deg}
+.s-solve h1{position:absolute;left:12vw;top:15vh;font-size:5.5vw;text-align:center}.s-solve h2{position:absolute;right:14vw;top:14.5vh;font-size:2.7vw}.flow-grid{position:absolute;left:12vw;right:12vw;top:48vh;display:grid;grid-template-columns:repeat(3,1fr);gap:8.2vw}.flow-card{height:12vh;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:1.45vw}.flow-card.dark{background:#1f3640}.flow-card.light{background:#dcffad;color:#142127}.arrow{height:7vh;position:relative}.arrow::before{content:"";position:absolute;left:50%;top:0;width:3px;height:7vh;background:white}.arrow::after{content:"";position:absolute;left:calc(50% - 9px);bottom:-2px;border-left:10px solid transparent;border-right:10px solid transparent;border-top:16px solid white}
+.s-capabilities h1{position:absolute;left:7vw;top:20vh;font-size:5.2vw}.s-capabilities h2{position:absolute;left:7vw;top:33vh;font-size:2.35vw}.cap-row{position:absolute;left:7vw;right:7vw;top:41vh;display:flex;justify-content:space-between}.cap-circle{width:17vw;height:17vw;border-radius:50%;display:grid;place-items:center;text-align:center;font-weight:800;font-size:1.45vw;line-height:1.45}.cap-circle.light{background:#dcffad;color:#142127}.cap-circle.dark{background:#1f3640;color:#dcffad}
+.demo-copy{position:absolute;left:5.8vw;top:22vh;width:35vw;z-index:3}.spaced{letter-spacing:.45em;font-size:1.6vw;font-weight:800}.s-demo h1{font-size:4.7vw;margin-top:2vh}.s-demo .copy-card{margin-top:4vh;width:34vw}.laptop{position:absolute;left:42vw;top:8vh;width:64vw;height:85vh;border:1.6vw solid #111;border-bottom-width:3.2vw;border-radius:24px;background:#111;overflow:hidden}.laptop::after{content:"";position:absolute;left:38%;bottom:-2.6vw;width:18vw;height:1vw;background:#ddd;border-radius:0 0 18px 18px}.laptop-photo{position:absolute;inset:0;border-radius:0;width:100%;height:100%}.ribbon-demo{left:28vw;bottom:-7vh;--r:-18deg}
+.s-testimonials h1{position:absolute;left:3.7vw;top:16vh;font-size:5.5vw}.quote-grid{position:absolute;left:3.7vw;right:3.7vw;top:30vh;display:grid;grid-template-columns:repeat(3,1fr);gap:1.8vw}.quote-card{height:57vh;padding:3.5vh 1.6vw;display:flex;flex-direction:column}.stars{font-size:2.2vw;color:#dcffad;letter-spacing:.05em}.quote-card p{font-size:1.65vw;margin-top:7vh}.person{margin-top:auto;display:flex;align-items:center;gap:1.9vw}.avatar{width:4.8vw;height:4.8vw;border-radius:50%;display:block;background:linear-gradient(135deg,#e6f5f0,#41635d)}.person strong{display:block;color:#dcffad;font-size:1.55vw}.person em{display:block;color:#dcffad;font-size:1.55vw;line-height:1.35}.ribbon-test{right:-6vw;top:-7vh}
+.s-impact h1{position:absolute;left:15vw;top:10vh;font-size:5.4vw}.chart-row{position:absolute;left:8.2vw;right:7.2vw;top:26vh;display:grid;grid-template-columns:1.08fr 1fr 1fr;gap:4.2vw}.chart-row h2{font-size:1.7vw;text-align:center;min-height:10vh}.legend{font-size:1.2vw;color:white;margin:3vh 0}.legend span{display:inline-block;width:1.1vw;height:1.1vw;border-radius:50%;margin:0 .5vw 0 1.5vw}.legend .l1{background:#dcffad}.legend .l2{background:white}.legend .l3{background:#1f3640}.bar-chart div{display:grid;grid-template-columns:3.2vw 1fr;gap:1vw;align-items:center;margin:1.9vh 0}.bar-chart label,.axis{color:#dcffad;font-size:1.2vw}.bar-chart span{display:block;height:4.8vh;width:var(--w);background:#1f3640;position:relative}.bar-chart b,.bar-chart i{display:block;position:absolute;left:0;top:0;bottom:0}.bar-chart b{width:44%;background:#dcffad}.bar-chart i{left:44%;width:38%;background:white}.vertical-chart{height:43vh;border-top:1px solid rgba(220,255,173,.12);border-bottom:1px solid rgba(220,255,173,.12);display:flex;align-items:end;gap:2vw;padding:0 2.8vw}.vertical-chart span{width:4vw;height:var(--h);background:#dcffad;position:relative}.vertical-chart em{position:absolute;bottom:-3.5vh;left:.4vw;color:#dcffad;font-style:normal;font-size:1.2vw}.area-chart{height:43vh;background:linear-gradient(to top,rgba(220,255,173,.15) 1px,transparent 1px);background-size:100% 9vh;position:relative}.area-chart::before{content:"";position:absolute;left:5%;bottom:0;width:86%;height:36vh;background:#dcffad;clip-path:polygon(0 76%,18% 62%,35% 12%,52% 0,73% 26%,100% 0,100% 100%,0 100%)}
+.s-next h1{position:absolute;left:4.3vw;top:14vh;font-size:5.3vw}.s-next h2{position:absolute;left:4.5vw;top:27vh;font-size:2.45vw}.next-photo{right:4.2vw;top:12vh;width:61vw;height:17vh}.next-panel{position:absolute;left:4.2vw;right:4.2vw;top:32.5vh;height:46vh;display:grid;grid-template-columns:repeat(3,1fr);gap:5vw;padding:7vh 4vw}.next-panel span{font-size:5vw;font-weight:900}.next-panel h3{font-size:1.7vw;color:#dcffad;margin:3vh 0 4vh}.next-panel p{font-size:1.65vw;color:#dcffad}.ribbon-next{right:-2vw;bottom:-10vh;--r:-10deg}
+.contact-photo{left:2.2vw;top:3.5vh;width:95.6vw;height:51vh}.ribbon-contact-top{left:-7vw;top:-9vh;--r:45deg}.contact-title{position:absolute;left:3.6vw;top:59vh}.contact-title h1{font-size:4.5vw}.contact-title h2{font-size:2.5vw;margin-top:11vh}.contact-list{position:absolute;left:57vw;top:58.5vh}.contact-list strong{display:block;font-size:1.65vw;margin-bottom:2vh}.contact-list p{font-size:1.65vw;margin-bottom:4vh}
+.s-resources-a h1{position:absolute;top:6vh;left:0;right:0;text-align:center;font-size:4.9vw}.s-resources-a>h2{position:absolute;top:17vh;left:0;right:0;text-align:center;font-size:1.55vw}.resource-card{position:absolute;top:22vh;padding:4vh 2.2vw}.resource-card h3{background:#142127;border-radius:14px;text-align:center;font-size:1.65vw;padding:1.6vh 2vw;margin-bottom:4vh}.resource-card.fonts{left:4vw;width:28vw;height:72vh}.resource-card.icons{right:4vw;width:63vw;height:72vh;overflow:hidden}.resource-card p{font-size:1.25vw}.resource-card h4{font-size:1.1vw;color:#dcffad;text-align:center;margin-top:4vh}.resource-card strong{display:block;text-align:center;font-size:1.7vw;margin-top:1.5vh}.swatches{display:flex;gap:1.3vw;justify-content:center;margin-top:3vh}.swatches span{width:3.8vw;height:3.8vw;border-radius:50%;background:#142127;border:2px solid #0a1115}.swatches span:nth-child(2){background:#1f3640}.swatches span:nth-child(3){background:#dcffad}.swatches span:nth-child(4){background:#fff}.hex{text-align:center;font-size:.9vw!important;margin-top:1.2vh}.resource-loop{position:absolute;width:15.8vw;height:7vw;border:1vw solid #dcffad;border-radius:50%;filter:drop-shadow(18px 13px 18px rgba(0,0,0,.38));opacity:.95;transform:rotate(var(--r,0deg))}.resource-loop::after{content:"";position:absolute;inset:-1vw;border-radius:50%;border:1vw solid transparent;border-right-color:rgba(40,54,55,.5);transform:rotate(36deg)}.loop-a{left:5vw;top:29vh;--r:-22deg}.loop-b{left:24vw;top:28vh;width:13vw;height:8.5vw;--r:66deg}.loop-c{left:42vw;top:25vh;width:14vw;height:8vw;--r:10deg}
+.credits-panel{position:absolute;left:4vw;right:4vw;top:5.7vh;bottom:5.7vh;text-align:center;padding-top:7vh}.credits-panel h1{font-size:4.7vw}.credits-panel p{font-size:1.45vw;margin-top:3vh}.sc-logo{margin:8vh auto 2vh;font-size:4.4vw;color:#dcffad}.sc-logo span{background:#dcffad;color:#142127;border-radius:8px;padding:1.2vh 1.1vw;font-weight:900}.credits-panel h2{font-size:3vw;color:#dcffad;margin-top:10vh}.credits-panel h3{font-size:2vw;color:#dcffad;margin-top:10vh}.credit-a{right:-8vw;top:-3vh}.credit-b{left:-14vw;bottom:-5vh}.credit-c{left:18vw;bottom:-9vh;--r:24deg}
+.s-resources-b h1{position:absolute;left:5.6vw;top:14vh;font-size:5vw}.s-resources-b p{position:relative;left:5.6vw;top:64vh;font-size:1.8vw;color:#dcffad;margin-bottom:4vh}.shortcut-grid{position:absolute;left:38vw;top:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,1fr);border-left:1px solid rgba(255,255,255,.08)}.shortcut-grid div{display:grid;place-items:center;text-align:center;border:1px solid rgba(255,255,255,.08);font-size:2.2vw;color:white}
+.slide-counter{position:fixed;left:2vw;bottom:1.4vh;z-index:50;font-size:.72vw;color:white;font-weight:700}.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:#dcffad;z-index:50;transition:width .3s}.nav-controls{position:fixed;right:2vw;bottom:1.4vh;display:flex;gap:.7vw;z-index:50}.nav-btn{width:38px;height:38px;border-radius:50%;border:0;background:rgba(255,255,255,.75);color:#142127;display:grid;place-items:center;cursor:pointer}.nav-btn:disabled{opacity:.38}.keyboard-hint{position:fixed;left:50%;bottom:2vh;transform:translateX(-50%);font-size:.65vw;color:rgba(255,255,255,.72);z-index:50}
+@media(max-width:900px){.deck{width:100vw;height:100vh}.slide{transform:none}h1{letter-spacing:-.04em}.nav-btn{width:34px;height:34px}}
+</style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide s-cover active">
+      <div class="brand"><span class="mark"><i></i><i></i></span><span><strong>Mesh</strong>work</span></div>
+      <div class="cover-copy">
+        <h1>B2B Sales<br>Pitch Slides</h1>
+        <p class="pill">Where B2B ecosystems connect and scale</p>
+      </div>
+      <div class="photo photo-cover"></div>
+      <div class="ribbon ribbon-top"></div>
+      <div class="ribbon ribbon-right"></div>
+      <div class="ribbon ribbon-bottom"></div></section>
+    <section class="slide s-contents">
+      <h1>Contents</h1>
+      <div class="photo contents-photo-left"></div>
+      <div class="toc-panel">
+        
+          <div class="toc-row"><span>1</span><strong>The status quo</strong></div>
+          <div class="toc-row"><span>2</span><strong>The problem and opportunity</strong></div>
+          <div class="toc-row"><span>3</span><strong>Meet Meshwork</strong></div>
+          <div class="toc-row"><span>4</span><strong>What our clients say</strong></div>
+          <div class="toc-row"><span>5</span><strong>Impact at scale</strong></div>
+          <div class="toc-row"><span>6</span><strong>Next steps</strong></div>
+      </div>
+      <div class="photo contents-photo-right"></div>
+      <div class="ribbon ribbon-toc"></div></section>
+    <section class="slide s-status">
+      <div class="left-copy">
+        <h1>The status quo</h1>
+        <h2>B2B platforms are growing,<br>but systems aren&rsquo;t keeping up</h2>
+      </div>
+      <a class="back">Back to Contents</a>
+      <div class="copy-card">Modern B2B businesses operate across marketplaces, partners, sellers, and regions - often powered by fragmented tools and siloed systems.</div>
+      <div class="photo status-photo"></div>
+      <div class="ribbon ribbon-low"></div></section>
+    <section class="slide s-problem">
+      <div class="ribbon ribbon-left"></div>
+      <section class="problem-block problem-a">
+        <h1>The problem</h1>
+        <div class="copy-card">Complexity becomes expensive, and small inefficiencies multiply at scale.</div>
+        <div class="photo problem-photo-a"></div>
+      </section>
+      <section class="problem-block problem-b">
+        <div class="photo problem-photo-b"></div>
+        <h1>The opportunity</h1>
+        <div class="copy-card">B2B platforms need infrastructure built for ecosystems.</div>
+      </section>
+      <div class="ribbon ribbon-problem"></div></section>
+    <section class="slide s-meet">
+      <h1>Meet Meshwork</h1>
+      <h2>Built for B2B at scale</h2>
+      <div class="copy-card intro">Meshwork is a cloud-based platform that connects sellers, partners, and systems into one scalable B2B ecosystem. It is designed for marketplaces and enterprise platforms.</div>
+      <div class="photo meet-photo"></div>
+      <div class="ribbon ribbon-meet-a"></div>
+      <div class="ribbon ribbon-meet-b"></div></section>
+    <section class="slide s-solve">
+      <h1>How Meshwork<br>solves the problem</h1>
+      <h2>One platform.<br>Many connections.</h2>
+      <div class="flow-grid">
+        
+          <div class="flow-col">
+            <div class="flow-card dark">Fragmented systems</div>
+            <div class="arrow"></div>
+            <div class="flow-card light">Unified network</div>
+          </div>
+          <div class="flow-col">
+            <div class="flow-card dark">Manual processes</div>
+            <div class="arrow"></div>
+            <div class="flow-card light">Automated workflows</div>
+          </div>
+          <div class="flow-col">
+            <div class="flow-card dark">Limited oversight</div>
+            <div class="arrow"></div>
+            <div class="flow-card light">End-to-end visibility</div>
+          </div>
+      </div>
+      <a class="back">Back to Contents</a></section>
+    <section class="slide s-capabilities">
+      <h1>Core platform capabilities</h1>
+      <h2>Everything large B2B platforms need</h2>
+      <div class="cap-row">
+        
+          <div class="cap-circle light">Partner and seller<br>management</div>
+          <div class="cap-circle dark">Workflow<br>automation</div>
+          <div class="cap-circle light">Real-time data<br>synchronization</div>
+          <div class="cap-circle dark">Scalable cloud<br>infrastructure</div>
+      </div>
+      <a class="back">Back to Contents</a></section>
+    <section class="slide s-demo">
+      <div class="demo-copy">
+        <p class="spaced">DEMO</p>
+        <h1>See Meshwork<br>in action</h1>
+        <div class="copy-card">Meshwork brings sellers, partners, and systems together in one unified platform, giving B2B teams real-time visibility into operations, workflows, and performance across their entire ecosystem.</div>
+      </div>
+      <a class="back">Back to Contents</a>
+      <div class="laptop">
+        <div class="photo laptop-photo"></div>
+      </div>
+      <div class="ribbon ribbon-demo"></div></section>
+    <section class="slide s-testimonials">
+      <h1>What our clients say</h1>
+      <div class="ribbon ribbon-test"></div>
+      <div class="quote-grid">
+        
+          <article class="quote-card">
+            <div class="stars">★★★★★</div>
+            <p>&ldquo;Meshwork gave us real-time visibility across thousands of partners without adding operational complexity.&rdquo;</p>
+            <div class="person"><span class="avatar avatar-0"></span><div><strong>Spencer</strong><em>Director of Operations,<br>Cloudlet</em></div></div>
+          </article>
+          <article class="quote-card">
+            <div class="stars">★★★★★</div>
+            <p>&ldquo;As our marketplace expanded globally, Meshwork scaled seamlessly with our infrastructure and workflows.&rdquo;</p>
+            <div class="person"><span class="avatar avatar-1"></span><div><strong>Isla</strong><em>Head of Infrastructure, Forge</em></div></div>
+          </article>
+          <article class="quote-card">
+            <div class="stars">★★★★★</div>
+            <p>&ldquo;Meshwork helped us streamline seller onboarding and improve coordination across teams in weeks, not months.&rdquo;</p>
+            <div class="person"><span class="avatar avatar-2"></span><div><strong>Ava</strong><em>VP of Technology,<br>Vertex Systems</em></div></div>
+          </article>
+      </div></section>
+    <section class="slide s-impact">
+      <h1>Meshwork&rsquo;s impact at scale</h1>
+      <div class="chart-row">
+        <section>
+          <h2>Operational efficiency improves as ecosystem complexity increases</h2>
+          <div class="legend"><span class="l1"></span> Item 1 <span class="l2"></span> Item 2 <span class="l3"></span> Item 3</div>
+          <div class="bar-chart stacked">
+            <div><label>2026</label><span style="--w:10%"><b></b><i></i><em></em></span></div><div><label>2027</label><span style="--w:52%"><b></b><i></i><em></em></span></div><div><label>2028</label><span style="--w:60%"><b></b><i></i><em></em></span></div><div><label>2029</label><span style="--w:82%"><b></b><i></i><em></em></span></div><div><label>2030</label><span style="--w:98%"><b></b><i></i><em></em></span></div>
+          </div>
+          <div class="axis">$0M&nbsp;&nbsp;&nbsp;&nbsp;$20M&nbsp;&nbsp;&nbsp;&nbsp;$40M&nbsp;&nbsp;&nbsp;&nbsp;$60M&nbsp;&nbsp;&nbsp;&nbsp;$80M&nbsp;&nbsp;&nbsp;&nbsp;$100M</div>
+        </section>
+        <section>
+          <h2>Meshwork scales reliably as platform activity increases over time</h2>
+          <div class="vertical-chart"><span style="--h:45px"><em>2026</em></span><span style="--h:72px"><em>2027</em></span><span style="--h:135px"><em>2028</em></span><span style="--h:162px"><em>2029</em></span><span style="--h:198px"><em>2030</em></span></div>
+        </section>
+        <section>
+          <h2>Revenue potential increases as platforms scale more efficiently</h2>
+          <div class="area-chart"></div>
+        </section>
+      </div></section>
+    <section class="slide s-next">
+      <h1>Next steps</h1>
+      <h2>Start building with <strong>Meshwork</strong></h2>
+      <div class="photo next-photo"></div>
+      <div class="next-panel">
+        
+          <article><span>01</span><h3>Book a demo</h3><p>See how Meshwork connects sellers, partners, and systems into one scalable B2B ecosystem.</p></article>
+          <article><span>02</span><h3>Choose a plan</h3><p>Discover how Meshwork integrates seamlessly with your existing commerce, logistics, and data infrastructure.</p></article>
+          <article><span>03</span><h3>Start your free trial</h3><p>Build and grow your platform knowing Meshwork is designed to perform reliably at enterprise scale.</p></article>
+      </div>
+      <a class="back">Back to Contents</a>
+      <div class="ribbon ribbon-next"></div></section>
+    <section class="slide s-contact">
+      <div class="photo contact-photo"></div>
+      <div class="ribbon ribbon-contact-top"></div>
+      <div class="contact-title">
+        <h1>Let&rsquo;s build the future of<br>B2B platforms.</h1>
+        <h2>Contact us</h2>
+      </div>
+      <div class="contact-list">
+        <strong>Email</strong><p>hello@reallygreatsite.com</p>
+        <strong>Social media</strong><p>@reallygreatsite</p>
+        <strong>Contact number</strong><p>123-456-7890</p>
+      </div></section>
+    <section class="slide s-resources-a">
+      <h1>Resource Page</h1>
+      <h2>Use these in your presentation. Delete or hide this page before presenting.</h2>
+      <div class="resource-card fonts">
+        <h3>Fonts</h3>
+        <p>This presentation template<br>uses the following free fonts:</p>
+        <h4>TITLES:</h4><strong>Helvetica Now Display</strong>
+        <h4>BODY TEXT:</h4><p>Helvetica Now Display Regular</p>
+        <p>You can find these fonts online too.</p>
+        <h3>Colors</h3>
+        <div class="swatches"><span></span><span></span><span></span><span></span></div>
+        <p class="hex">#142127&nbsp;&nbsp;&nbsp;&nbsp;#1F3640&nbsp;&nbsp;&nbsp;&nbsp;#DCFFAD&nbsp;&nbsp;&nbsp;&nbsp;#FFFFFF</p>
+      </div>
+      <div class="resource-card icons">
+        <h3>Design Elements / Icons</h3>
+        <div class="resource-loop loop-a"></div>
+        <div class="resource-loop loop-b"></div>
+        <div class="resource-loop loop-c"></div>
+      </div></section>
+    <section class="slide s-credits">
+      <div class="credits-panel">
+        <h1>Credits</h1>
+        <p>This presentation template is free for everyone to use, thanks to the following:</p>
+        <div class="sc-logo"><span>Slides</span> Carnival</div>
+        <p>for this presentation template</p>
+        <h2>Pexels, Pixabay, Sketchify</h2>
+        <p>for the photos, graphics, and elements</p>
+        <h3>Happy designing!</h3>
+      </div>
+      <div class="ribbon credit-a"></div><div class="ribbon credit-b"></div><div class="ribbon credit-c"></div></section>
+    <section class="slide s-resources-b">
+      <h1>Resource<br>Page</h1>
+      <p>Find the magic in presenting.<br>Select these keys while in<br><strong>Present mode.</strong></p>
+      <p>Delete or hide this page before<br>presenting.</p>
+      <div class="shortcut-grid">
+        <div>B for blur</div><div>C for confetti</div><div>D for a drumroll</div><div>M for mic drop</div><div>O for bubbles</div><div>Q for quiet</div><div>U for unveil</div><div>Any number from 0-9<br>for a timer</div>
+      </div></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">15</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    const total=slides.length;
+    if(new URLSearchParams(window.location.search).has('static'))document.documentElement.classList.add('static');
+    function initialSlide(){
+      const match=window.location.hash.match(/^#slide-(\d+)$/);
+      if(!match)return 0;
+      const index=Number(match[1])-1;
+      return Number.isFinite(index)&&index>=0&&index<total?index:0;
+    }
+    let current=initialSlide();
+    totalEl.textContent=total;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      progressEl.style.width=((current+1)/total*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===total-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<total){current=next;updateSlide();}
+    }
+    function setSlide(index){
+      if(index>=0&&index<total){current=index;updateSlide();}
+    }
+    window.addEventListener('message',(event)=>{
+      if(event.data&&event.data.type==='set-slide')setSlide(event.data.slideIndex);
+    });
+    window.addEventListener('hashchange',()=>setSlide(initialSlide()));
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

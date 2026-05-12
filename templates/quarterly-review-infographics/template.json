@@ -1,0 +1,86 @@
+{
+  "slug": "quarterly-review-infographics",
+  "name": "Quarterly Review Infographics",
+  "tagline": "White business-review infographic deck with condensed black headings, thin data cards, and muted teal, peach, navy, and brown analytics visuals.",
+  "mood": [
+    "analytical",
+    "clear",
+    "structured",
+    "businesslike"
+  ],
+  "occasion": [
+    "quarterly business review",
+    "performance report",
+    "sales update",
+    "operating review",
+    "executive dashboard"
+  ],
+  "tone": [
+    "direct",
+    "metric-led",
+    "plainspoken",
+    "practical"
+  ],
+  "formality": "medium-high",
+  "density": "high",
+  "scheme": "light",
+  "palette": {
+    "bg": "#FFFFFF",
+    "ink": "#050505",
+    "navy": "#293140",
+    "teal": "#7DA2A9",
+    "peach": "#DAA28E",
+    "brown": "#452B1E",
+    "grey": "#D2D3D6",
+    "description": "Crisp white background with black condensed headings, soft grey card rules, and muted teal, peach, navy, and coffee-brown chart accents."
+  },
+  "typography": {
+    "display": "Barlow Condensed",
+    "body": "Inter",
+    "style": "tall condensed headings paired with neutral sans body copy for dense business analytics slides"
+  },
+  "best_for": "Quarterly business reviews, sales updates, operating dashboards, and performance-report decks where the audience needs to scan many charts, cards, and KPI blocks quickly.",
+  "avoid_for": "Narrative keynote decks, brand manifestos, or highly emotional presentations where the plain spreadsheet-like information design would feel too utilitarian.",
+  "slide_count": 29,
+  "features": [
+    "29 source-style content slides",
+    "dense KPI cards",
+    "tables",
+    "bar charts",
+    "donut charts",
+    "line charts",
+    "area charts",
+    "radar and map-inspired layouts",
+    "inline keyboard navigation"
+  ],
+  "layouts": [
+    "illustrated cover",
+    "goal timeline with bars",
+    "dashboard cards",
+    "three-panel analytics",
+    "KPI grid with donut",
+    "mixed chart mosaic",
+    "revenue table with area chart",
+    "progress dashboard",
+    "horizontal bar timeline",
+    "icon KPI dashboard",
+    "table plus KPI cards",
+    "wide area chart",
+    "callout bar chart",
+    "world map performance",
+    "donut strip",
+    "pie and line comparison",
+    "multi-card statistics",
+    "progress-ring comparison",
+    "text plus line chart",
+    "stacked column dashboard",
+    "revenue summary row",
+    "grouped bar plus icon cards",
+    "donut review grid",
+    "radar comparison",
+    "line and pie dashboard",
+    "circle-stat list",
+    "area callouts",
+    "table plus stacked bars"
+  ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Business Report Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
+h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
+h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
+h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
+p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
+.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
+.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
+.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
+.nav-btn:disabled{opacity:.32;cursor:not-allowed}
+@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+
+:root{--display-font:Manrope,sans-serif;--body-font:Inter,sans-serif;--bg:#F7FBFE;--surface:#FFFFFF;--panel:#E8F7FF;--ink:#062432;--text:#183544;--muted:#6D7B85;--accent:#45C7F5;--tag-bg:#E8F7FF;--line:rgba(6,36,50,.12);--nav-bg:#FFFFFF;--nav-hover:#FFFFFF}
+.deck{background:radial-gradient(circle at 54% 58%,rgba(69,199,245,.22),transparent 32vw),#F7FBFE}.biz-cover{display:grid;grid-template-columns:.95fr 1.05fr;gap:3vw;align-items:center}.biz-cover>div:first-child{position:relative;z-index:3}.stack{position:relative;height:64vh;z-index:1;transform:translateX(8vw)}.sheet{position:absolute;left:58%;top:50%;width:min(430px,68vw);height:250px;border-radius:10px;background:var(--surface);box-shadow:0 18px 46px rgba(6,36,50,.12);transform:translate(-50%,-50%) rotate(var(--r));padding:1.2rem}.sheet:nth-child(1){--r:-8deg;background:#E8F7FF;top:28%}.sheet:nth-child(2){--r:6deg;background:#8E61FF;top:42%;color:white}.sheet:nth-child(3){--r:-2deg;background:#FFF3C1;top:56%}.sheet:nth-child(4){--r:3deg;background:white;top:69%}.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:0 16px 44px rgba(6,36,50,.08);padding:1.2rem}.summary{display:grid;grid-template-columns:1.15fr .85fr;gap:1rem;margin-top:1.5rem}.summary .card{min-height:320px}.dashboard{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}.dashboard .card{min-height:230px}.dashboard strong{display:block;font-family:var(--display-font);font-size:3rem;color:var(--accent)}.campaign{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;flex:1}.mock-photo{border-radius:24px;background:linear-gradient(135deg,#8E61FF,#45C7F5 52%,#FFCF4A);min-height:420px}.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.8rem}.actions .card{min-height:270px}.close{justify-content:center;text-align:center}.close h1{max-width:76vw;margin:0 auto}
+</style>
+</head>
+<body>
+  <main class="deck">
+
+    <section class="slide biz-cover active"><div><span class="kicker">Monthly Report</span><h1>Marketing Status Report</h1><p style="margin-top:1rem;max-width:38vw">A clean, approachable report template with stacked business cards, clear sections, and polished SaaS energy.</p></div><div class="stack"><div class="sheet"><h3>AI Startup Review</h3></div><div class="sheet"><h3>Quarterly Plan</h3></div><div class="sheet"><h3>Risk Register</h3></div><div class="sheet"><h3>Marketing Status Report</h3></div></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Summary</span><span class="tag">Status snapshot</span></div><h2>Lead with a clear business summary.</h2><div class="summary"><article class="card"><h3>What changed this month</h3><p>Demand improved in two core channels while conversion quality stayed uneven across paid campaigns.</p></article><article class="card"><h3>Management note</h3><p>Keep budget focused on high-intent segments and stop campaigns that only create volume.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Dashboard</span><span class="tag">Key metrics</span></div><h2>Friendly cards keep performance data readable.</h2><div class="dashboard"><article class="card"><strong>27%</strong><h3>Lead quality lift</h3><p>Driven by better landing-page matching.</p></article><article class="card"><strong>14k</strong><h3>New sessions</h3><p>Organic and referral traffic led growth.</p></article><article class="card"><strong>4.8</strong><h3>Engagement score</h3><p>Higher completion on product-led content.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Campaign View</span><span class="tag">Split layout</span></div><div class="campaign"><div><h2>Use a friendly visual block next to campaign analysis.</h2><p style="margin-top:1rem">The structure keeps the report polished without becoming too dense or executive-heavy.</p></div><div class="mock-photo"></div></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Action Plan</span><span class="tag">Next month</span></div><h2>Close with four visible actions.</h2><div class="actions"><article class="card"><h3>Focus</h3><p>Shift budget into proven intent.</p></article><article class="card"><h3>Refresh</h3><p>Update offer pages and proof blocks.</p></article><article class="card"><h3>Measure</h3><p>Track conversion by audience segment.</p></article><article class="card"><h3>Report</h3><p>Summarize progress weekly.</p></article></div></section>
+    <section class="slide close"><span class="kicker">Close</span><h1>Make reporting feel polished and useful.</h1><p style="margin-top:1rem">Best for business updates that should be professional without feeling stiff.</p></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    const total=slides.length;
+    totalEl.textContent=total;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      progressEl.style.width=((current+1)/total*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===total-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<total){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

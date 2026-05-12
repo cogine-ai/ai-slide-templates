@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical Infographic Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
+h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
+h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
+h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
+p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
+.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
+.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
+.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
+.nav-btn:disabled{opacity:.32;cursor:not-allowed}
+@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+
+:root{--display-font:'Nunito Sans',sans-serif;--body-font:Inter,sans-serif;--bg:#FFFFFF;--surface:#F7FAFC;--panel:#EAF6FF;--ink:#111111;--text:#2A2F36;--muted:#637083;--accent:#59BFE8;--tag-bg:#EAF6FF;--line:rgba(17,17,17,.22);--nav-bg:#FFFFFF;--nav-hover:#FFFFFF}
+.deck{background:#fff}.med-cover{display:grid;grid-template-columns:.82fr 1.18fr;gap:7vw;align-items:center}.icon-orbit{position:relative;height:56vh;min-width:230px}.big-circle{position:absolute;left:0;top:22%;width:min(245px,38vw);height:min(245px,38vw);border:2px solid #111;border-radius:50%;display:grid;place-items:center;font-size:5rem;color:var(--accent)}.orbit{position:absolute;width:82px;height:82px;border:2px solid #111;border-radius:50%;display:grid;place-items:center;background:#fff;font-size:1.8rem}.o1{left:2%;top:9%}.o2{left:35%;top:2%}.o3{left:54%;top:24%}.o4{left:8%;bottom:6%}.med-card{background:var(--surface);border:1.8px solid var(--line);border-radius:22px;padding:1.15rem}.infogrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}.info{min-height:230px}.info .icon{width:68px;height:68px;border:2px solid var(--ink);border-radius:50%;display:grid;place-items:center;color:var(--accent);font-weight:900;font-size:1.6rem;margin-bottom:1rem}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.8rem}.step{min-height:260px;position:relative}.step b{display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:var(--panel);border:2px solid var(--ink);font-family:var(--display-font);margin-bottom:1rem}.compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.7rem}.compare article{min-height:330px}.bars{display:grid;gap:.8rem;margin-top:1rem}.bar{height:18px;border-radius:999px;background:var(--panel);overflow:hidden}.bar i{display:block;height:100%;width:var(--w);background:var(--accent);border-radius:999px}.close{justify-content:center;text-align:center}.close h1{max-width:72vw;margin:0 auto}
+</style>
+</head>
+<body>
+  <main class="deck">
+
+    <section class="slide med-cover active"><div class="icon-orbit"><div class="big-circle">+</div><div class="orbit o1">I</div><div class="orbit o2">Rx</div><div class="orbit o3">Q</div><div class="orbit o4">%</div></div><div><span class="kicker">Health Report</span><h1>Medical Infographics</h1><p style="margin-top:1rem;max-width:40vw">A clean clinical template for turning medical or scientific content into visual explanations.</p></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Overview</span><span class="tag">Simple diagrams</span></div><h2>Use icons and circular callouts for quick understanding.</h2><div class="infogrid"><article class="med-card info"><div class="icon">01</div><h3>Condition</h3><p>Define the topic with plain language and context.</p></article><article class="med-card info"><div class="icon">02</div><h3>Evidence</h3><p>Summarize the strongest clinical or research signals.</p></article><article class="med-card info"><div class="icon">03</div><h3>Action</h3><p>Translate findings into next steps or care guidance.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Data View</span><span class="tag">Infographic grid</span></div><h2>Keep quantitative slides simple and readable.</h2><div class="infogrid"><article class="med-card info"><div class="icon">68%</div><h3>Awareness</h3><p>Respondents recognize the symptom pattern.</p></article><article class="med-card info"><div class="icon">42%</div><h3>Screening</h3><p>Eligible patients completed recommended screening.</p></article><article class="med-card info"><div class="icon">12</div><h3>Weeks</h3><p>Median time to follow-up after initial consultation.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Care Pathway</span><span class="tag">Process</span></div><h2>Show a care pathway in four clear steps.</h2><div class="process"><article class="med-card step"><b>1</b><h3>Identify</h3><p>Recognize risk factors and early indicators.</p></article><article class="med-card step"><b>2</b><h3>Screen</h3><p>Apply the appropriate diagnostic protocol.</p></article><article class="med-card step"><b>3</b><h3>Treat</h3><p>Choose the intervention path and monitor response.</p></article><article class="med-card step"><b>4</b><h3>Follow up</h3><p>Track outcomes and adjust care when needed.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Comparison</span><span class="tag">Two cohorts</span></div><h2>Compare groups with quiet visual weight.</h2><div class="compare"><article class="med-card"><h3>Cohort A</h3><p>Earlier screening and higher adherence.</p><div class="bars"><div class="bar"><i style="--w:82%"></i></div><div class="bar"><i style="--w:64%"></i></div><div class="bar"><i style="--w:72%"></i></div></div></article><article class="med-card"><h3>Cohort B</h3><p>Delayed follow-up and lower consistency.</p><div class="bars"><div class="bar"><i style="--w:48%"></i></div><div class="bar"><i style="--w:52%"></i></div><div class="bar"><i style="--w:43%"></i></div></div></article></div></section>
+    <section class="slide close"><span class="kicker">Conclusion</span><h1>Make health information easier to trust.</h1><p style="margin-top:1rem">Best for clinical education, science briefs, and health-system explainers.</p></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    const total=slides.length;
+    totalEl.textContent=total;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      progressEl.style.width=((current+1)/total*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===total-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<total){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

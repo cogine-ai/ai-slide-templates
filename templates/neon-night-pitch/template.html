@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Night Pitch Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
+h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
+h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
+h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
+p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
+.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
+.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
+.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
+.nav-btn:disabled{opacity:.32;cursor:not-allowed}
+@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+
+:root{--display-font:'Bungee Outline',cursive;--body-font:Poppins,sans-serif;--bg:#070A26;--surface:#11153F;--panel:#24115C;--ink:#FFE7FF;--text:#FFFFFF;--muted:#BFB5E8;--accent:#FFB22E;--tag-bg:rgba(255,178,46,.12);--line:rgba(97,242,208,.45);--nav-bg:#070A26;--nav-hover:#070A26}
+.deck{background:radial-gradient(circle at 74% 35%,rgba(255,92,214,.28),transparent 28vw),linear-gradient(135deg,#070A26,#2A115D)}h1{font-size:clamp(4rem,8vw,8.6rem);letter-spacing:.01em;color:#FFB22E;text-shadow:0 0 22px rgba(255,92,214,.55)}h2{color:#61F2D0;text-shadow:0 0 18px rgba(97,242,208,.36)}.poster{justify-content:center}.poster:before{content:'';position:absolute;right:8vw;bottom:10vh;width:270px;height:430px;border:3px solid #61F2D0;border-radius:48% 48% 12px 12px;box-shadow:0 0 24px rgba(97,242,208,.45)}.poster:after{content:'*';position:absolute;left:8vw;top:16vh;font-size:5rem;color:#FF5CD6;text-shadow:0 0 20px #FF5CD6}.neon-card{background:rgba(17,21,63,.8);border:2px solid var(--line);border-radius:24px;box-shadow:0 0 24px rgba(97,242,208,.15);padding:1.2rem}.doodles{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.8rem}.doodle{min-height:250px}.doodle b{display:block;font-size:3rem;color:#FF5CD6;text-shadow:0 0 16px #FF5CD6}.audience{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.6rem}.audience .neon-card{min-height:250px}.stage{display:grid;grid-template-columns:1.05fr .95fr;gap:1.2rem;flex:1}.figure{border:2px solid #FF5CD6;border-radius:34px;box-shadow:0 0 28px rgba(255,92,214,.3);background:linear-gradient(135deg,rgba(255,92,214,.2),rgba(97,242,208,.1));position:relative}.figure:before{content:'';position:absolute;left:50%;top:22%;width:130px;height:130px;border:3px solid #61F2D0;border-radius:50%;transform:translateX(-50%)}.figure:after{content:'';position:absolute;left:50%;bottom:16%;width:210px;height:210px;border:3px solid #FFB22E;border-radius:40px 40px 0 0;transform:translateX(-50%)}.road{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin-top:1.8rem}.road article{min-height:270px}.close{justify-content:center;text-align:center}.close h1{max-width:84vw;margin:auto}
+</style>
+</head>
+<body>
+  <main class="deck">
+
+    <section class="slide poster active"><span class="kicker">Culture Pitch</span><h1>Neon Neon Pitch Deck</h1><p style="max-width:42vw;margin-top:1rem">A loud, poster-like deck for creators, events, nightlife, and high-energy youth brands.</p></section>
+    <section class="slide"><div class="topline"><span class="kicker">Contents</span><span class="tag">Glow route</span></div><h2>Use doodles and neon cards for a high-energy agenda.</h2><div class="doodles"><article class="neon-card doodle"><b>01</b><h3>Scene</h3><p>Where the audience gathers and what they want.</p></article><article class="neon-card doodle"><b>02</b><h3>Idea</h3><p>The concept, hook, and cultural signal.</p></article><article class="neon-card doodle"><b>03</b><h3>Launch</h3><p>The plan, channels, and experience beats.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Audience</span><span class="tag">Segments</span></div><h2>Make audience slides feel like campaign posters.</h2><div class="audience"><article class="neon-card"><h3>Core fans</h3><p>They already love the category and need a new reason to gather.</p></article><article class="neon-card"><h3>Curious friends</h3><p>They follow social proof, visual identity, and simple invitations.</p></article><article class="neon-card"><h3>Creators</h3><p>They spread the concept when the visual language is distinctive.</p></article><article class="neon-card"><h3>Sponsors</h3><p>They need proof the energy can convert into attention.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Hero Concept</span><span class="tag">Stage split</span></div><div class="stage"><div><h2>Use a stage-like split for the concept reveal.</h2><p style="margin-top:1rem">The original template's illustrated energy is translated here into CSS neon line art, keeping the composition expressive without copying assets.</p></div><div class="figure"></div></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Launch Roadmap</span><span class="tag">Four beats</span></div><h2>Sequence the launch like a night out.</h2><div class="road"><article class="neon-card"><h3>Tease</h3><p>Release the visual hook.</p></article><article class="neon-card"><h3>Drop</h3><p>Announce the experience.</p></article><article class="neon-card"><h3>Gather</h3><p>Turn followers into attendance.</p></article><article class="neon-card"><h3>Amplify</h3><p>Push recap content and next dates.</p></article></div></section>
+    <section class="slide close"><span class="kicker">Close</span><h1>Make the deck glow from the first slide.</h1><p style="margin-top:1rem">Best for expressive decks where memorability matters more than restraint.</p></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    const total=slides.length;
+    totalEl.textContent=total;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      progressEl.style.width=((current+1)/total*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===total-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<total){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

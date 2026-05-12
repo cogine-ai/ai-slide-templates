@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glass UX Studio Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
+h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
+h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
+h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
+p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
+.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
+.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
+.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
+.nav-btn:disabled{opacity:.32;cursor:not-allowed}
+@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+
+:root{--display-font:Outfit,sans-serif;--body-font:Inter,sans-serif;--bg:#07102A;--surface:rgba(255,255,255,.08);--panel:rgba(91,235,255,.12);--ink:#F8FCFF;--text:#E1F3FF;--muted:#8EB2C6;--accent:#34E7F7;--tag-bg:rgba(52,231,247,.12);--line:rgba(255,255,255,.18);--nav-bg:#07102A;--nav-hover:#07102A}
+.deck{background:radial-gradient(circle at 70% 20%,rgba(52,231,247,.3),transparent 30vw),radial-gradient(circle at 30% 64%,rgba(168,83,255,.28),transparent 32vw),#07102A}.glass{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);box-shadow:0 20px 70px rgba(52,231,247,.12);backdrop-filter:blur(18px);border-radius:28px}.glass-cover{display:grid;grid-template-columns:.95fr 1.05fr;gap:3vw;align-items:center}.flow-stage{position:relative;height:62vh;min-width:270px;overflow:hidden}.panel-ui{position:absolute;padding:1rem}.p1{left:0;top:18%;width:170px}.p2{left:20%;top:33%;width:220px}.p3{right:4%;top:15%;width:190px}.p4{right:2%;bottom:12%;width:180px}.connector{position:absolute;height:2px;background:linear-gradient(90deg,var(--accent),transparent);box-shadow:0 0 16px var(--accent)}.c1{left:15%;top:38%;width:130px}.c2{left:42%;top:36%;width:150px}.c3{right:18%;top:55%;width:120px;transform:rotate(90deg)}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:.8rem;margin-top:1.7rem}.flow .glass{padding:1rem;min-height:250px}.matrix{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}.matrix .glass{padding:1.1rem;min-height:220px}.device{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;flex:1}.screen{border-radius:36px;background:linear-gradient(135deg,rgba(52,231,247,.2),rgba(168,83,255,.25));border:1px solid var(--line);position:relative}.screen:before{content:'';position:absolute;inset:46px;border:2px solid rgba(52,231,247,.6);border-radius:28px}.insights{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.6rem}.insights .glass{padding:1.2rem;min-height:260px}.close{justify-content:center;text-align:center}.close h1{max-width:78vw;margin:0 auto}
+</style>
+</head>
+<body>
+  <main class="deck">
+
+    <section class="slide glass-cover active"><div><span class="kicker">Product Experience</span><h1>User Experience Studio</h1><p style="margin-top:1rem;max-width:40vw">A sleek glassmorphism template for UX case studies, app concepts, and digital product walkthroughs.</p></div><div class="flow-stage"><div class="glass panel-ui p1">START</div><div class="connector c1"></div><div class="glass panel-ui p2">Processing flow</div><div class="connector c2"></div><div class="glass panel-ui p3">Checklist</div><div class="connector c3"></div><div class="glass panel-ui p4">COMPLETE</div></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Experience Map</span><span class="tag">Five states</span></div><h2>Show product journeys as connected UI moments.</h2><div class="flow"><article class="glass"><h3>Enter</h3><p>User lands with intent.</p></article><article class="glass"><h3>Choose</h3><p>They pick a route.</p></article><article class="glass"><h3>Build</h3><p>The system responds.</p></article><article class="glass"><h3>Review</h3><p>They inspect output.</p></article><article class="glass"><h3>Repeat</h3><p>Reusable value emerges.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Research</span><span class="tag">Insight matrix</span></div><h2>Use translucent cards to organize user findings.</h2><div class="matrix"><article class="glass"><h3>Need</h3><p>Users want guidance before configuration.</p></article><article class="glass"><h3>Friction</h3><p>Too many early choices delay progress.</p></article><article class="glass"><h3>Moment</h3><p>The first useful output determines confidence.</p></article></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Prototype</span><span class="tag">Device view</span></div><div class="device"><div><h2>Use a glowing screen block for product demos.</h2><p style="margin-top:1rem">The template is strongest when the product itself is the visual anchor.</p></div><div class="screen"></div></div></section>
+    <section class="slide"><div class="topline"><span class="kicker">Design Calls</span><span class="tag">Decision cards</span></div><h2>Turn UX decisions into visible tradeoffs.</h2><div class="insights"><article class="glass"><h3>Simplify entry</h3><p>Reduce the number of first-run choices and provide an obvious default path.</p></article><article class="glass"><h3>Expose progress</h3><p>Show where the user is in the flow and what is already complete.</p></article></div></section>
+    <section class="slide close"><span class="kicker">Close</span><h1>Make the deck feel like the product.</h1><p style="margin-top:1rem">Best for modern product and UX narratives.</p></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    const total=slides.length;
+    totalEl.textContent=total;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      progressEl.style.width=((current+1)/total*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===total-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<total){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

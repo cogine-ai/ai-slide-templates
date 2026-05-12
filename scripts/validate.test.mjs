@@ -1,0 +1,93 @@
+import assert from 'node:assert/strict';
+import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import test from 'node:test';
+
+import { validateLibrary } from './validate.mjs';
+
+async function makeTemplate(root, slug, metadata = {}, slideCount = 1, options = {}) {
+  const templateDir = path.join(root, 'templates', slug);
+  await mkdir(templateDir, { recursive: true });
+  const json = {
+    slug,
+    name: 'Example',
+    tagline: 'Example tagline',
+    mood: ['calm'],
+    occasion: ['internal review'],
+    tone: ['clean'],
+    formality: 'medium',
+    density: 'medium',
+    scheme: 'light',
+    palette: {
+      bg: '#ffffff',
+      primary: '#0000ff',
+      text: '#111111',
+      description: 'Minimal palette.'
+    },
+    typography: {
+      display: 'Inter',
+      body: 'Inter',
+      style: 'Simple sans.'
+    },
+    best_for: 'Testing.',
+    avoid_for: 'Production use.',
+    slide_count: slideCount,
+    features: {
+      format: 'single-file-html',
+      navigation: true
+    },
+    layouts: ['cover'],
+    ...metadata
+  };
+  const slideTag = options.slideTag || 'div';
+  const deckTag = options.deckTag || 'div';
+  const slides = Array.from({ length: slideCount }, (_, index) => {
+    const active = index === 0 ? ' active' : '';
+    return `<${slideTag} class="slide layout-cover${active}"><div class="slide-header">Header</div><h1>Slide ${index + 1}</h1></${slideTag}>`;
+  }).join('\n');
+  await writeFile(path.join(templateDir, 'template.json'), JSON.stringify(json, null, 2));
+  await writeFile(path.join(templateDir, 'template.html'), `<${deckTag} class="deck">\n${slides}\n</${deckTag}>`);
+}
+
+test('validates a library with matching template metadata and HTML', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-valid-'));
+  try {
+    await makeTemplate(root, 'example-template', {}, 2);
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.errors, []);
+    assert.equal(result.templates.length, 1);
+    assert.equal(result.templates[0].slug, 'example-template');
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('reports folder slug and slide count mismatches', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-invalid-'));
+  try {
+    await makeTemplate(root, 'folder-slug', { slug: 'json-slug', slide_count: 3 }, 2);
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /folder name must match template.json slug/);
+    assert.match(result.errors.join('\n'), /slide_count is 3 but HTML contains 2 slides/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('accepts semantic main and section tags for deck and slides', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-semantic-'));
+  try {
+    await makeTemplate(root, 'semantic-template', {}, 3, {
+      deckTag: 'main',
+      slideTag: 'section'
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    assert.equal(result.templates[0].slideCount, 3);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

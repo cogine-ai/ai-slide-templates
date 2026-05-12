@@ -1,0 +1,68 @@
+{
+  "slug": "classy-agency",
+  "name": "Classy Agency",
+  "tagline": "Cream agency proposal with serif headlines, muted taupe geometry, olive labels, and restrained modular layouts.",
+  "mood": [
+    "elegant",
+    "calm",
+    "professional",
+    "warm"
+  ],
+  "occasion": [
+    "agency proposal",
+    "brand strategy",
+    "consulting presentation",
+    "service pitch"
+  ],
+  "tone": [
+    "classy",
+    "restrained",
+    "geometric",
+    "modern"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "bg": "#F7F2E8",
+    "surface": "#FFFDF7",
+    "panel": "#CBB39D",
+    "ink": "#3D3931",
+    "text": "#4D473E",
+    "muted": "#837C70",
+    "primary": "#A98A72",
+    "secondary": "#AEB3A2",
+    "tertiary": "#3D3931",
+    "description": "cream paper with taupe rectangles, olive grey blocks, charcoal labels, and restrained serif type"
+  },
+  "typography": {
+    "display": "Cormorant Garamond",
+    "body": "Inter",
+    "style": "classic serif headings with sober agency body text"
+  },
+  "scheme": "light",
+  "best_for": "Agency proposals, brand strategy decks, service pitches, and consulting-lite presentations that need warmth and taste.",
+  "avoid_for": "Neon launches, dense data dashboards, technical system architecture, or medical explainers.",
+  "slide_count": 6,
+  "features": {
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "fullscreen-responsive",
+    "format": "single-file-html"
+  },
+  "layouts": [
+    "geometric-cover",
+    "contents-cards",
+    "service-grid",
+    "vision-split",
+    "timeline-strip",
+    "closing"
+  ],
+  "source_inspiration": {
+    "name": "Slidesgo Elegant and Classy Style Agency",
+    "url": "https://slidesgo.com/theme/elegant-and-classy-style-agency",
+    "notes": "Independent HTML/CSS interpretation based on public visual reference; not a pixel copy and does not reuse source assets."
+  }
+}
