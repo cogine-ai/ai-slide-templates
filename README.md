@@ -4,6 +4,14 @@ Self-contained HTML slide templates for AI-assisted deck generation.
 
 Each template is a folder under `templates/` with a runnable HTML deck and a JSON metadata file. Agents select templates by scanning `templates/*/template.json`, then clone and adapt the chosen `template.html` for the user's real deck.
 
+## Use With Any AI Agent
+
+Copy this into your AI coding agent:
+
+```txt
+Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before you start. This repo is a library of self-contained HTML slide templates for AI-assisted deck generation. Use templates/*/template.json to choose the best template for my occasion and desired mood, then clone that template folder and adapt its template.html into a finished HTML slide deck with my real content. Preserve the chosen template's fonts, color palette, layout system, decorative elements, and navigation behavior. Do not mix layouts from different templates. Open the final HTML deck in the browser and give me the file path.
+```
+
 ## Structure
 
 ```txt
