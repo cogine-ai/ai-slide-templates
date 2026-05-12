@@ -9,7 +9,7 @@ Each template is a folder under `templates/` with a runnable HTML deck and a JSO
 Copy this into your AI coding agent:
 
 ```txt
-Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before you start. This repo is a library of self-contained HTML slide templates for AI-assisted deck generation. Use templates/*/template.json to choose the best template for my occasion and desired mood, then clone that template folder and adapt its template.html into a finished HTML slide deck with my real content. Preserve the chosen template's fonts, color palette, layout system, decorative elements, and navigation behavior. Do not mix layouts from different templates. Open the final HTML deck in the browser and give me the file path.
+Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before you start. This repo is a library of self-contained HTML slide templates for AI-assisted deck generation. Treat AGENTS.md as the authoritative workflow: use it to select a template, preview options, preserve the chosen template's design system, and produce a finished browser-openable HTML deck from my content.
 ```
 
 ## Structure
