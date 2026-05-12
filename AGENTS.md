@@ -105,6 +105,7 @@ Templates have tones, not industries. A template designed for one business conte
 When adapting a template, preserve the visual system. These are part of the template identity:
 
 - Fonts and imported font families.
+- Font choices are template-specific. Do not normalize the library to one common font stack; distinctive display, serif, mono, condensed, rounded, or decorative fonts are part of the source-inspired style.
 - Color palette, including `:root` variables and hard-coded accent colors.
 - Layout grid, spacing rhythm, and major positioning rules.
 - Slide-level CSS classes and component structures.
@@ -122,6 +123,8 @@ Always replace:
 - Image placeholders, while keeping the same frame and visual treatment.
 
 Do not recolor, substitute fonts, modernize the style, strip decoration, or combine slides from different templates.
+
+When adding a new source-inspired template, follow the source typography as closely as practical. If the exact source font is proprietary or unavailable for portable HTML, use a visually close web-available font or system fallback and make `template.json.typography` describe the actual implemented font, not an unavailable one.
 
 ---
 

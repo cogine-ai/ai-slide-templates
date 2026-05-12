@@ -56,6 +56,7 @@ The folder name must match `template.json.slug`.
 - Small inline JavaScript is allowed for navigation, progress, or demo behavior.
 - `template.json` is the only metadata source of truth.
 - Do not add a hand-maintained central index. If a catalog is needed later, generate it from `templates/*/template.json`.
+- Do not standardize fonts across templates. Typography is part of each template's identity and should follow the source-inspired style as closely as practical.
 - Sample content should be realistic presentation content, not lorem ipsum.
 
 ## Validation
