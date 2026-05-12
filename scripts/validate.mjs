@@ -21,6 +21,20 @@ const REQUIRED_FIELDS = [
   'layouts'
 ];
 
+const ARRAY_FIELDS = ['mood', 'occasion', 'tone', 'layouts'];
+const ENUMS = {
+  formality: ['low', 'medium-low', 'medium', 'medium-high', 'high'],
+  density: ['low', 'medium-low', 'medium', 'medium-high', 'high'],
+  scheme: ['light', 'dark', 'mixed']
+};
+const BOOLEAN_FEATURES = [
+  'navigation',
+  'keyboard_navigation',
+  'touch_navigation',
+  'progress_bar',
+  'slide_counter'
+];
+
 function countSlides(html) {
   return [...html.matchAll(/<([a-z][a-z0-9-]*)\b[^>]*class=["']([^"']+)["'][^>]*>/gi)]
     .filter((match) => match[2].split(/\s+/).includes('slide'))
@@ -30,6 +44,58 @@ function countSlides(html) {
 function hasClass(html, className) {
   return [...html.matchAll(/<([a-z][a-z0-9-]*)\b[^>]*class=["']([^"']+)["'][^>]*>/gi)]
     .some((match) => match[2].split(/\s+/).includes(className));
+}
+
+function isObject(value) {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+}
+
+function normalizeCss(source) {
+  return source.toLowerCase().replace(/\s+/g, '');
+}
+
+function parseHexColor(value) {
+  const match = value.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if (!match) return null;
+
+  const hex = match[1].length === 3
+    ? match[1].split('').map((char) => char + char).join('')
+    : match[1];
+
+  return {
+    r: Number.parseInt(hex.slice(0, 2), 16),
+    g: Number.parseInt(hex.slice(2, 4), 16),
+    b: Number.parseInt(hex.slice(4, 6), 16)
+  };
+}
+
+function cssContainsColor(html, color) {
+  const normalizedHtml = normalizeCss(html);
+  const normalizedColor = normalizeCss(color);
+
+  if (normalizedHtml.includes(normalizedColor)) {
+    return true;
+  }
+
+  const rgb = parseHexColor(color);
+  if (!rgb) {
+    return false;
+  }
+
+  return normalizedHtml.includes(`rgb(${rgb.r},${rgb.g},${rgb.b}`) ||
+    normalizedHtml.includes(`rgba(${rgb.r},${rgb.g},${rgb.b},`);
+}
+
+function isCssColorValue(value) {
+  return /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(value) || /^rgba?\(/i.test(value);
+}
+
+function htmlContainsTextToken(html, token) {
+  const lowerHtml = html.toLowerCase();
+  const lowerToken = token.toLowerCase();
+  const urlToken = lowerToken.replace(/\s+/g, '+');
+
+  return lowerHtml.includes(lowerToken) || lowerHtml.includes(urlToken);
 }
 
 async function exists(filePath) {
@@ -53,14 +119,121 @@ function validateRequiredFields(slug, metadata, errors) {
     }
   }
 
-  for (const field of ['mood', 'occasion', 'tone', 'layouts']) {
+  for (const field of ARRAY_FIELDS) {
     if (field in metadata && !Array.isArray(metadata[field])) {
       errors.push(`${slug}: "${field}" must be an array`);
+      continue;
+    }
+
+    if (Array.isArray(metadata[field])) {
+      if (metadata[field].length === 0) {
+        errors.push(`${slug}: "${field}" must contain at least one item`);
+      }
+
+      for (const [index, value] of metadata[field].entries()) {
+        if (typeof value !== 'string' || value.trim() === '') {
+          errors.push(`${slug}: "${field}" item ${index + 1} must be a non-empty string`);
+        }
+      }
+    }
+  }
+
+  for (const [field, allowedValues] of Object.entries(ENUMS)) {
+    if (field in metadata && !allowedValues.includes(metadata[field])) {
+      errors.push(`${slug}: "${field}" must be one of ${allowedValues.join(', ')}`);
     }
   }
 
   if ('slide_count' in metadata && (!Number.isInteger(metadata.slide_count) || metadata.slide_count < 1)) {
     errors.push(`${slug}: "slide_count" must be a positive integer`);
+  }
+}
+
+function validatePalette(slug, metadata, html, errors) {
+  if (!('palette' in metadata)) return;
+
+  if (!isObject(metadata.palette)) {
+    errors.push(`${slug}: "palette" must be an object`);
+    return;
+  }
+
+  if (typeof metadata.palette.description !== 'string' || metadata.palette.description.trim() === '') {
+    errors.push(`${slug}: "palette.description" must be a non-empty string`);
+  }
+
+  for (const [key, value] of Object.entries(metadata.palette)) {
+    if (typeof value !== 'string' || value.trim() === '') {
+      errors.push(`${slug}: "palette.${key}" must be a non-empty string`);
+      continue;
+    }
+
+    if (key === 'description' || !isCssColorValue(value)) {
+      continue;
+    }
+
+    if (!cssContainsColor(html, value)) {
+      errors.push(`${slug}: "palette.${key}" value ${value} is not found in template.html`);
+    }
+  }
+}
+
+function validateTypography(slug, metadata, html, errors) {
+  if (!('typography' in metadata)) return;
+
+  if (!isObject(metadata.typography)) {
+    errors.push(`${slug}: "typography" must be an object`);
+    return;
+  }
+
+  for (const field of ['display', 'body', 'style']) {
+    if (typeof metadata.typography[field] !== 'string' || metadata.typography[field].trim() === '') {
+      errors.push(`${slug}: "typography.${field}" must be a non-empty string`);
+    }
+  }
+
+  for (const field of ['display', 'body']) {
+    const font = metadata.typography[field];
+    if (typeof font === 'string' && font.trim() !== '' && !htmlContainsTextToken(html, font)) {
+      errors.push(`${slug}: "typography.${field}" font "${font}" is not found in template.html`);
+    }
+  }
+}
+
+function validateFeatures(slug, metadata, errors) {
+  if (!('features' in metadata)) return;
+
+  if (!isObject(metadata.features)) {
+    errors.push(`${slug}: "features" must be an object`);
+    return;
+  }
+
+  if (metadata.features.format !== 'single-file-html') {
+    errors.push(`${slug}: "features.format" must be "single-file-html"`);
+  }
+
+  for (const field of BOOLEAN_FEATURES) {
+    if (field in metadata.features && typeof metadata.features[field] !== 'boolean') {
+      errors.push(`${slug}: "features.${field}" must be a boolean`);
+    }
+  }
+}
+
+function validateSourceInspiration(slug, metadata, errors) {
+  if (!('source_inspiration' in metadata)) return;
+
+  if (!isObject(metadata.source_inspiration)) {
+    errors.push(`${slug}: "source_inspiration" must be an object`);
+    return;
+  }
+
+  for (const field of ['name', 'url', 'notes']) {
+    if (typeof metadata.source_inspiration[field] !== 'string' || metadata.source_inspiration[field].trim() === '') {
+      errors.push(`${slug}: "source_inspiration.${field}" must be a non-empty string`);
+    }
+  }
+
+  if (typeof metadata.source_inspiration.url === 'string' && !/^https?:\/\//.test(metadata.source_inspiration.url)) {
+    errors.push(`${slug}: "source_inspiration.url" must be an http(s) URL`);
   }
 }
 
@@ -116,6 +289,11 @@ export async function validateLibrary(rootDir = process.cwd()) {
 
     const html = await readFile(htmlPath, 'utf8');
     const slideCount = countSlides(html);
+
+    validatePalette(slug, metadata, html, errors);
+    validateTypography(slug, metadata, html, errors);
+    validateFeatures(slug, metadata, errors);
+    validateSourceInspiration(slug, metadata, errors);
 
     if (!hasClass(html, 'deck')) {
       errors.push(`${dirName}: template.html must include a .deck container`);

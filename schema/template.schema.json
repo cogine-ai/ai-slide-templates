@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cogine-ai/ai-slide-templates/schema/template.schema.json",
+  "title": "AI Slide Template Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "name",
+    "tagline",
+    "mood",
+    "occasion",
+    "tone",
+    "formality",
+    "density",
+    "palette",
+    "typography",
+    "scheme",
+    "best_for",
+    "avoid_for",
+    "slide_count",
+    "features",
+    "layouts"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tagline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mood": {
+      "$ref": "#/$defs/stringList"
+    },
+    "occasion": {
+      "$ref": "#/$defs/stringList"
+    },
+    "tone": {
+      "$ref": "#/$defs/stringList"
+    },
+    "formality": {
+      "enum": [
+        "low",
+        "medium-low",
+        "medium",
+        "medium-high",
+        "high"
+      ]
+    },
+    "density": {
+      "enum": [
+        "low",
+        "medium-low",
+        "medium",
+        "medium-high",
+        "high"
+      ]
+    },
+    "palette": {
+      "type": "object",
+      "required": [
+        "description"
+      ],
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display",
+        "body",
+        "style"
+      ],
+      "properties": {
+        "display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "scheme": {
+      "enum": [
+        "light",
+        "dark",
+        "mixed"
+      ]
+    },
+    "best_for": {
+      "type": "string",
+      "minLength": 1
+    },
+    "avoid_for": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slide_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "features": {
+      "type": "object",
+      "required": [
+        "format"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "format": {
+          "const": "single-file-html"
+        },
+        "navigation": {
+          "type": "boolean"
+        },
+        "keyboard_navigation": {
+          "type": "boolean"
+        },
+        "touch_navigation": {
+          "type": "boolean"
+        },
+        "progress_bar": {
+          "type": "boolean"
+        },
+        "slide_counter": {
+          "type": "boolean"
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "layouts": {
+      "$ref": "#/$defs/stringList"
+    },
+    "source_inspiration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url",
+        "notes"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

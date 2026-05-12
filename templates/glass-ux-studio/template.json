@@ -30,9 +30,7 @@
     "text": "#E1F3FF",
     "muted": "#8EB2C6",
     "primary": "#34E7F7",
-    "secondary": "#A853FF",
-    "tertiary": "#42FFB4",
-    "description": "deep blue gradient with translucent glass cards, cyan glow, and violet highlights"
+    "description": "deep blue gradient with translucent glass cards, cyan glow, and pale interface text"
   },
   "typography": {
     "display": "Outfit",

@@ -19,6 +19,8 @@ templates/
   <slug>/
     template.html
     template.json
+schema/
+  template.schema.json
 ```
 
 The folder name must match `template.json.slug`.
@@ -65,3 +67,4 @@ node scripts/validate.mjs
 ```
 
 The validator checks that every template folder has `template.html` and `template.json`, the folder name matches `slug`, required metadata fields exist, `.deck` is present, and `slide_count` matches the HTML slide count.
+It also checks common metadata drift: enum values, feature object shape, source attribution shape, and whether declared palette colors and font families are present in the template HTML.

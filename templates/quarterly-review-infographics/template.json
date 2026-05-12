@@ -42,17 +42,26 @@
   "best_for": "Quarterly business reviews, sales updates, operating dashboards, and performance-report decks where the audience needs to scan many charts, cards, and KPI blocks quickly.",
   "avoid_for": "Narrative keynote decks, brand manifestos, or highly emotional presentations where the plain spreadsheet-like information design would feel too utilitarian.",
   "slide_count": 29,
-  "features": [
-    "29 source-style content slides",
-    "dense KPI cards",
-    "tables",
-    "bar charts",
-    "donut charts",
-    "line charts",
-    "area charts",
-    "radar and map-inspired layouts",
-    "inline keyboard navigation"
-  ],
+  "features": {
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "fullscreen-responsive",
+    "format": "single-file-html",
+    "content_slides": 29,
+    "chart_types": [
+      "KPI cards",
+      "tables",
+      "bar charts",
+      "donut charts",
+      "line charts",
+      "area charts",
+      "radar chart",
+      "map-inspired layout"
+    ]
+  },
   "layouts": [
     "illustrated cover",
     "goal timeline with bars",
@@ -82,5 +91,10 @@
     "circle-stat list",
     "area callouts",
     "table plus stacked bars"
-  ]
+  ],
+  "source_inspiration": {
+    "name": "Slidesgo Quarterly Business Review Infographics",
+    "url": "https://slidesgo.com/theme/quarterly-business-review-infographics",
+    "notes": "Independent HTML/CSS reconstruction of the public preview layout sequence. The template does not reuse source presentation assets; charts and illustrations are editable HTML/CSS/SVG placeholders built at matching layout proportions."
+  }
 }

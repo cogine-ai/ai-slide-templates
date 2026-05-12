@@ -30,9 +30,9 @@
     "description": "deep teal background, darker teal rounded panels, lime headline/accent typography, and white supporting text"
   },
   "typography": {
-    "display": "Helvetica Now Display style",
-    "body": "Helvetica Now Display Regular style",
-    "style": "large rounded neo-grotesk sales deck typography; implemented with Helvetica/Arial fallbacks for portable HTML"
+    "display": "Helvetica Neue",
+    "body": "Helvetica Neue",
+    "style": "large rounded neo-grotesk sales deck typography using a Helvetica/Arial fallback stack for portable HTML"
   },
   "scheme": "dark",
   "best_for": "B2B SaaS and platform sales pitches that need to feel modern, confident, scalable, and visually differentiated without becoming playful.",
@@ -45,8 +45,7 @@
     "progress_bar": true,
     "slide_counter": true,
     "aspect_ratio": "fullscreen-responsive",
-    "format": "single-file-html",
-    "status": "accurate-candidate-replica"
+    "format": "single-file-html"
   },
   "layouts": [
     "source-matched-cover",

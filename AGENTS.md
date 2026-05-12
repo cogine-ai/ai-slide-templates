@@ -79,6 +79,8 @@ Do not run the deck-building workflow. Work on the library directly, keep change
 
 `template.json` is the metadata source of truth. Do not depend on a hand-maintained central index. If a generated catalog exists later, treat it as a cache and fall back to per-template metadata when in doubt.
 
+The metadata shape is documented in `schema/template.schema.json`. Use that schema when adding or editing templates, but still treat the real `template.html` as the authority for visual details such as exact fonts, colors, layouts, and navigation behavior.
+
 Key fields:
 
 | field | how to use it |
