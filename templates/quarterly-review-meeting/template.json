@@ -46,8 +46,7 @@
     "progress_bar": true,
     "slide_counter": true,
     "aspect_ratio": "fullscreen-responsive",
-    "format": "single-file-html",
-    "status": "accurate-candidate-replica"
+    "format": "single-file-html"
   },
   "layouts": [
     "grid-photo-cover",

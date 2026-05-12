@@ -30,9 +30,7 @@
     "text": "#D7D7D0",
     "muted": "#9AA0A8",
     "primary": "#73F2F2",
-    "secondary": "#E45AD8",
-    "tertiary": "#84D36B",
-    "description": "black canvas with charcoal UI panels, cyan wireframe lines, magenta gestures, and small green interface accents"
+    "description": "black canvas with charcoal UI panels, cyan wireframe lines, and compact interface accents"
   },
   "typography": {
     "display": "Space Mono",
