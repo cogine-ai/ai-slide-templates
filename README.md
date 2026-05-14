@@ -78,3 +78,4 @@ node scripts/validate-visual.mjs --template airy-modern
 ```
 
 The visual validator launches a local Chrome/Chromium-compatible browser at a 16:9 `1280x720` viewport. It checks browser console errors, uncaught runtime exceptions, visible text/content overflow on active slides, and basic navigation behavior when a template declares navigation features. Set `CHROME_BIN=/path/to/chrome` or pass `--browser /path/to/chrome` if Chrome is not in a standard location.
+It requires Node.js 22 or newer and Chrome/Chromium 112 or newer.

@@ -10,6 +10,8 @@ const VIEWPORT = {
   width: 1280,
   height: 720
 };
+const MIN_BROWSER_MAJOR = 112;
+const HEADLESS_MODE_FLAG = '--headless=new';
 
 const CHROME_CANDIDATES = process.platform === 'darwin'
   ? [
@@ -47,7 +49,11 @@ async function pathExists(filePath) {
 
 async function readJson(filePath) {
   const source = await readFile(filePath, 'utf8');
-  return JSON.parse(source);
+  try {
+    return JSON.parse(source);
+  } catch (error) {
+    throw new Error(`Invalid JSON in ${filePath}: ${error.message}`, { cause: error });
+  }
 }
 
 function usage() {
@@ -162,6 +168,35 @@ function findBrowserExecutable(explicitPath = '') {
   throw new Error('No Chrome/Chromium-compatible browser found. Install Chrome/Chromium or set CHROME_BIN.');
 }
 
+function assertRuntimeSupport() {
+  if (typeof WebSocket !== 'function') {
+    throw new Error('Visual validation requires a Node.js runtime with global WebSocket support. Use Node.js 22 or newer.');
+  }
+}
+
+function browserVersion(browserPath) {
+  try {
+    return execFileSync(browserPath, ['--version'], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+      timeout: 3000
+    }).trim();
+  } catch {
+    return '';
+  }
+}
+
+function assertBrowserSupportsHeadlessNew(browserPath) {
+  const version = browserVersion(browserPath);
+  const match = version.match(/\b(\d+)\./);
+  if (!match) return;
+
+  const major = Number(match[1]);
+  if (major >= MIN_BROWSER_MAJOR) return;
+
+  throw new Error(`Visual validation requires Chrome/Chromium ${MIN_BROWSER_MAJOR}+ for ${HEADLESS_MODE_FLAG}. Found ${version}. Upgrade the browser or pass a newer executable with --browser or CHROME_BIN.`);
+}
+
 async function getFreePort() {
   return new Promise((resolve, reject) => {
     const server = net.createServer();
@@ -177,9 +212,13 @@ async function getFreePort() {
 async function fetchJson(url, init) {
   const response = await fetch(url, init);
   if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
+    throw new Error(`${response.status} ${response.statusText} from ${url}`);
   }
-  return response.json();
+  try {
+    return await response.json();
+  } catch (error) {
+    throw new Error(`Failed to parse JSON from ${url}: ${response.status} ${response.statusText} - ${error.message}`, { cause: error });
+  }
 }
 
 async function waitForBrowser(port, timeoutMs = 8000) {
@@ -335,7 +374,7 @@ async function launchBrowser(browserPath) {
   const browser = spawn(browserPath, [
     `--remote-debugging-port=${port}`,
     `--user-data-dir=${userDataDir}`,
-    '--headless=new',
+    HEADLESS_MODE_FLAG,
     '--disable-gpu',
     '--disable-dev-shm-usage',
     '--disable-background-networking',
@@ -696,8 +735,10 @@ async function collectTemplates(rootDir, requestedSlugs) {
 }
 
 export async function validateVisual(options = {}) {
+  assertRuntimeSupport();
   const rootDir = path.resolve(options.rootDir || process.cwd());
   const browserPath = findBrowserExecutable(options.browserPath || '');
+  assertBrowserSupportsHeadlessNew(browserPath);
   const templates = await collectTemplates(rootDir, options.templates || []);
   const browser = await launchBrowser(browserPath);
 
