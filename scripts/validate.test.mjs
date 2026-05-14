@@ -1,10 +1,17 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { mkdtemp, mkdir, writeFile, rm, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
 
 import { validateLibrary } from './validate.mjs';
+
+function resolveSchemaRef(schema, propertySchema) {
+  if (!propertySchema.$ref) return propertySchema;
+
+  const definitionName = propertySchema.$ref.replace('#/$defs/', '');
+  return schema.$defs[definitionName];
+}
 
 async function makeTemplate(root, slug, metadata = {}, slideCount = 1, options = {}) {
   const templateDir = path.join(root, 'templates', slug);
@@ -153,6 +160,65 @@ test('accepts palette colors represented as rgb or rgba in CSS', async () => {
     });
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('schema defines optional machine-readable content limits', async () => {
+  const schemaPath = path.join(process.cwd(), 'schema', 'template.schema.json');
+  const schema = JSON.parse(await readFile(schemaPath, 'utf8'));
+  const contentLimits = schema.properties.content_limits;
+
+  assert.ok(contentLimits);
+  assert.equal(schema.required.includes('content_limits'), false);
+  assert.equal(contentLimits.type, 'object');
+  assert.equal(contentLimits.additionalProperties, false);
+  assert.equal(contentLimits.minProperties, 1);
+
+  for (const field of [
+    'max_title_chars',
+    'max_subtitle_chars',
+    'max_body_chars_per_slide',
+    'recommended_slide_count_min',
+    'recommended_slide_count_max'
+  ]) {
+    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field]);
+    assert.equal(fieldSchema.type, 'integer');
+    assert.equal(fieldSchema.minimum, 1);
+  }
+
+  for (const field of ['max_bullets', 'max_cards']) {
+    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field]);
+    assert.equal(fieldSchema.type, 'integer');
+    assert.equal(fieldSchema.minimum, 0);
+  }
+});
+
+test('reports invalid content limit values', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-content-limits-invalid-'));
+  try {
+    await makeTemplate(root, 'content-limits-invalid', {
+      content_limits: {
+        max_title_chars: 0,
+        max_subtitle_chars: '80',
+        max_body_chars_per_slide: 500.5,
+        max_bullets: -1,
+        max_cards: 'many',
+        recommended_slide_count_min: 8,
+        recommended_slide_count_max: 4,
+        unknown_limit: 3
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"content_limits.max_title_chars" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_subtitle_chars" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_body_chars_per_slide" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_bullets" must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_cards" must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"content_limits.unknown_limit" is not allowed/);
+    assert.match(result.errors.join('\n'), /"content_limits.recommended_slide_count_max" must be >= "content_limits.recommended_slide_count_min"/);
   } finally {
     await rm(root, { recursive: true, force: true });
   }

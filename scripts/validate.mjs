@@ -34,6 +34,15 @@ const BOOLEAN_FEATURES = [
   'progress_bar',
   'slide_counter'
 ];
+const CONTENT_LIMIT_FIELDS = {
+  max_title_chars: 1,
+  max_subtitle_chars: 1,
+  max_body_chars_per_slide: 1,
+  max_bullets: 0,
+  max_cards: 0,
+  recommended_slide_count_min: 1,
+  recommended_slide_count_max: 1
+};
 
 function countSlides(html) {
   return [...html.matchAll(/<([a-z][a-z0-9-]*)\b[^>]*class=["']([^"']+)["'][^>]*>/gi)]
@@ -224,6 +233,43 @@ function validateFeatures(slug, metadata, errors) {
   }
 }
 
+function validateContentLimits(slug, metadata, errors) {
+  if (!('content_limits' in metadata)) return;
+
+  if (!isObject(metadata.content_limits)) {
+    errors.push(`${slug}: "content_limits" must be an object`);
+    return;
+  }
+
+  const fields = Object.entries(metadata.content_limits);
+  if (fields.length === 0) {
+    errors.push(`${slug}: "content_limits" must include at least one limit`);
+    return;
+  }
+
+  for (const [field, value] of fields) {
+    if (!(field in CONTENT_LIMIT_FIELDS)) {
+      errors.push(`${slug}: "content_limits.${field}" is not allowed`);
+      continue;
+    }
+
+    const minimum = CONTENT_LIMIT_FIELDS[field];
+    if (!Number.isInteger(value) || value < minimum) {
+      errors.push(`${slug}: "content_limits.${field}" must be an integer >= ${minimum}`);
+    }
+  }
+
+  const minSlides = metadata.content_limits.recommended_slide_count_min;
+  const maxSlides = metadata.content_limits.recommended_slide_count_max;
+  if (
+    Number.isInteger(minSlides) &&
+    Number.isInteger(maxSlides) &&
+    maxSlides < minSlides
+  ) {
+    errors.push(`${slug}: "content_limits.recommended_slide_count_max" must be >= "content_limits.recommended_slide_count_min"`);
+  }
+}
+
 function validateSourceInspiration(slug, metadata, errors) {
   if (!('source_inspiration' in metadata)) return;
 
@@ -299,6 +345,7 @@ export async function validateLibrary(rootDir = process.cwd()) {
     validatePalette(slug, metadata, html, errors);
     validateTypography(slug, metadata, html, errors);
     validateFeatures(slug, metadata, errors);
+    validateContentLimits(slug, metadata, errors);
     validateSourceInspiration(slug, metadata, errors);
 
     if (!hasClass(html, 'deck')) {

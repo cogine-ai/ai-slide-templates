@@ -154,6 +154,34 @@
     "layouts": {
       "$ref": "#/$defs/stringList"
     },
+    "content_limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "max_title_chars": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+        "max_subtitle_chars": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+        "max_body_chars_per_slide": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+        "max_bullets": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "max_cards": {
+          "$ref": "#/$defs/nonNegativeInteger"
+        },
+        "recommended_slide_count_min": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+        "recommended_slide_count_max": {
+          "$ref": "#/$defs/positiveInteger"
+        }
+      }
+    },
     "source_inspiration": {
       "type": "object",
       "additionalProperties": false,
@@ -187,6 +215,14 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "positiveInteger": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "nonNegativeInteger": {
+      "type": "integer",
+      "minimum": 0
     }
   }
 }

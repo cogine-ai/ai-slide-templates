@@ -47,6 +47,7 @@ Read every `templates/*/template.json`. Match the user's brief against:
 - `scheme`
 - `best_for`
 - `avoid_for`
+- `content_limits`
 - `layouts`
 
 Then recommend the best fit. If there are several genuinely plausible directions, show a short list of alternatives. The list does not need to be exactly three; use as many as are useful, usually two to four.
@@ -93,6 +94,7 @@ Key fields:
 | `scheme` | Light, dark, or mixed. Treat as important when the user specifies it. |
 | `best_for` | Strongest match signal for what the template is good at. |
 | `avoid_for` | Soft warning about tone clashes. |
+| `content_limits` | Machine-readable capacity guidance: title/subtitle/body character limits, bullet/card counts, and recommended slide-count range. |
 | `layouts` | Available layout vocabulary in the template. |
 | `slide_count` | Number of demo slides and layout examples. |
 
@@ -134,9 +136,10 @@ After selecting a template:
 
 1. Clone the chosen template folder into the user's output location.
 2. Adapt `template.html` slide by slide.
-3. If the user needs fewer slides, remove unnecessary slides and update counters.
-4. If the user needs more slides, duplicate the closest matching layout and replace the content.
-5. If the template lacks a needed layout, design a new slide using the same design system.
+3. Check `template.json.content_limits` when present. If the user's content exceeds the title, subtitle, body, bullet, card, or slide-count limits, split the material across additional slides instead of shrinking the design system or overfilling a layout.
+4. If the user needs fewer slides, remove unnecessary slides and update counters.
+5. If the user needs more slides, duplicate the closest matching layout and replace the content.
+6. If the template lacks a needed layout, design a new slide using the same design system.
 
 For new layouts, match the template's fonts, palette, spacing, component grammar, decorations, chrome, and navigation. The new slide should look native when placed between existing slides.
 
