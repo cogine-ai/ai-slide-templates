@@ -12,6 +12,13 @@ Copy this into your AI coding agent:
 Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before you start. This repo is a library of self-contained HTML slide templates for AI-assisted deck generation. Treat AGENTS.md as the authoritative workflow: use it to select a template, preview options, preserve the chosen template's design system, and produce a finished browser-openable HTML deck from my content.
 ```
 
+## Examples
+
+See [`examples/`](examples/) for end-to-end workflow examples that show the input, metadata-based template selection, derived deck outline, generated output structure, and common failure modes.
+
+- [`structured-outline-to-output.md`](examples/structured-outline-to-output.md): a structured outline turned into a metric-led business review deck.
+- [`raw-notes-to-output.md`](examples/raw-notes-to-output.md): long script/raw notes compressed into a clear product research deck.
+
 ## Structure
 
 ```txt
