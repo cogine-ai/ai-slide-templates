@@ -169,9 +169,11 @@
           "$ref": "#/$defs/positiveInteger"
         },
         "max_bullets": {
+          "description": "Maximum bullet items per slide; use 0 when this template does not support bullet-list layouts.",
           "$ref": "#/$defs/nonNegativeInteger"
         },
         "max_cards": {
+          "description": "Maximum cards per slide; use 0 when this template does not support card-based layouts.",
           "$ref": "#/$defs/nonNegativeInteger"
         },
         "recommended_slide_count_min": {

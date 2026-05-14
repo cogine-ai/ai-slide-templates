@@ -6,10 +6,12 @@ import test from 'node:test';
 
 import { validateLibrary } from './validate.mjs';
 
-function resolveSchemaRef(schema, propertySchema) {
+function resolveSchemaRef(schema, propertySchema, fieldName = '(unknown)') {
+  assert.ok(propertySchema, `schema property "${fieldName}" is missing`);
   if (!propertySchema.$ref) return propertySchema;
 
   const definitionName = propertySchema.$ref.replace('#/$defs/', '');
+  assert.ok(schema.$defs?.[definitionName], `schema $defs "${definitionName}" is missing`);
   return schema.$defs[definitionName];
 }
 
@@ -183,15 +185,17 @@ test('schema defines optional machine-readable content limits', async () => {
     'recommended_slide_count_min',
     'recommended_slide_count_max'
   ]) {
-    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field]);
+    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field], field);
     assert.equal(fieldSchema.type, 'integer');
     assert.equal(fieldSchema.minimum, 1);
   }
 
   for (const field of ['max_bullets', 'max_cards']) {
-    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field]);
+    const propertySchema = contentLimits.properties[field];
+    const fieldSchema = resolveSchemaRef(schema, propertySchema, field);
     assert.equal(fieldSchema.type, 'integer');
     assert.equal(fieldSchema.minimum, 0);
+    assert.match(propertySchema.description, /use 0 when this template does not support/i);
   }
 });
 
