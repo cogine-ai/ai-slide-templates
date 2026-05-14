@@ -15,6 +15,8 @@ Your job, when the user asks for a deck, is to use this library to produce a fin
 
 These instructions are a protocol, not a rigid script. Choose the lightest workflow that fits the user's request.
 
+When the user's input is a long script, article, transcript, or scattered raw material, first synthesize a slide outline before choosing or building the final deck. Use `INPUT_GUIDE.md` as the user-facing reference for what input to request and how to structure briefs.
+
 ---
 
 ## Operating Modes
@@ -26,10 +28,11 @@ Use this when the user has already chosen a template, named a style, or given a 
 Do this:
 
 1. Read the chosen template's `template.json` and `template.html`.
-2. Clone the full template folder into the user's output workspace.
-3. Replace placeholder content with the user's real content.
-4. Preserve the template's design system.
-5. Open the finished HTML deck in the browser and give the user the absolute file path.
+2. Consult `layout_slots`, when present, to identify the fillable structure for each layout before editing HTML.
+3. Clone the full template folder into the user's output workspace.
+4. Replace placeholder content with the user's real content.
+5. Preserve the template's design system.
+6. Open the finished HTML deck in the browser and give the user the absolute file path.
 
 Do **not** force a multi-option selection step when the user already knows what they want.
 
@@ -37,22 +40,17 @@ Do **not** force a multi-option selection step when the user already knows what 
 
 Use this when the user gives a deck topic or content but has not chosen a visual direction.
 
-Read every `templates/*/template.json`. Match the user's brief against:
+Read every `templates/*/template.json`. Filter and score candidates in this order:
 
-- `mood`
-- `tone`
-- `occasion`
-- `formality`
-- `density`
-- `scheme`
-- `best_for`
-- `avoid_for`
-- `content_limits`
-- `layouts`
+1. Start with explicit user constraints: `scheme`, audience and `formality`, and `occasion`. If the user clearly asks for a dark deck, board-level formality, investor pitch, classroom handout, or similar constraint, reject or strongly demote templates that clash with it.
+2. Check content volume, `density`, `content_limits`, and `layouts`. Low-density templates work best for concise narratives with one idea per slide. Medium- and high-density templates can carry more bullets, tables, charts, or operational detail. When the user's content is heavier than the selected template can comfortably hold, split it across more slides by duplicating the closest matching layout instead of cramming text into one slide. If the brief depends on timelines, comparison tables, chart-heavy reviews, or portfolio grids, prefer candidates with layout vocabulary that naturally supports that structure.
+3. Compare `best_for` and `avoid_for`. Prefer templates whose `best_for` matches the deck's core job. Treat `avoid_for` as a warning signal and demote templates when the warning matches the user's brief.
+4. Use `mood` and `tone` to break ties and align the recommendation with the desired emotional feel and presentation voice.
+5. Use Preview Mode when confidence is low.
 
-Then recommend the best fit. If there are several genuinely plausible directions, show a short list of alternatives. The list does not need to be exactly three; use as many as are useful, usually two to four.
+Then recommend the best fit. If several genuinely plausible directions remain, show a short list of alternatives. Usually show two to four preview candidates when visual taste is uncertain, the top candidates differ mainly by mood or density, the choice is high-stakes, or the user has not given enough constraints to choose confidently. Do not pad the list to a fixed size.
 
-Ask clarifying questions only when they would change the template choice or the deck structure. Prefer concise questions about occasion, audience, mood, density, and light/dark preference.
+Ask clarifying questions only when they would change the template choice, slide structure, or density decision. Prefer concise questions about occasion, audience, mood, density, and light/dark preference.
 
 ### 3. Preview Mode
 
@@ -96,6 +94,7 @@ Key fields:
 | `avoid_for` | Soft warning about tone clashes. |
 | `content_limits` | Machine-readable capacity guidance: title/subtitle/body character limits, bullet/card counts, and recommended slide-count range. |
 | `layouts` | Available layout vocabulary in the template. |
+| `layout_slots` | Optional map from each layout name to fillable slots. Use this before editing HTML so replacements are deliberate and layout-safe. |
 | `slide_count` | Number of demo slides and layout examples. |
 
 Templates have tones, not industries. A template designed for one business context can work for another if the user's desired mood fits.
@@ -135,11 +134,12 @@ When adding a new source-inspired template, follow the source typography as clos
 After selecting a template:
 
 1. Clone the chosen template folder into the user's output location.
-2. Adapt `template.html` slide by slide.
+2. Read `layout_slots` for the chosen layout, when available, and map the user's content into those named slots before touching markup.
 3. Check `template.json.content_limits` when present. If the user's content exceeds the title, subtitle, body, bullet, card, or slide-count limits, split the material across additional slides instead of shrinking the design system or overfilling a layout.
-4. If the user needs fewer slides, remove unnecessary slides and update counters.
-5. If the user needs more slides, duplicate the closest matching layout and replace the content.
-6. If the template lacks a needed layout, design a new slide using the same design system.
+4. Adapt `template.html` slide by slide.
+5. If the user needs fewer slides, remove unnecessary slides and update counters.
+6. If the user needs more slides, duplicate the closest matching layout and replace the content.
+7. If the template lacks a needed layout, design a new slide using the same design system.
 
 For new layouts, match the template's fonts, palette, spacing, component grammar, decorations, chrome, and navigation. The new slide should look native when placed between existing slides.
 

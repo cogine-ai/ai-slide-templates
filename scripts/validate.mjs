@@ -289,6 +289,90 @@ function validateSourceInspiration(slug, metadata, errors) {
   }
 }
 
+function validateLayoutSlots(slug, metadata, errors) {
+  if (!('layout_slots' in metadata)) return;
+
+  if (!isObject(metadata.layout_slots)) {
+    errors.push(`${slug}: "layout_slots" must be an object mapping layout names to slot lists`);
+    return;
+  }
+
+  const layouts = Array.isArray(metadata.layouts)
+    ? metadata.layouts.filter((layout) => typeof layout === 'string' && layout.trim() !== '')
+    : [];
+  const declaredLayouts = new Set(layouts);
+  const missingLayouts = layouts.filter((layout) => !Object.prototype.hasOwnProperty.call(metadata.layout_slots, layout));
+
+  if (missingLayouts.length > 0) {
+    errors.push(`${slug}: "layout_slots" must describe every declared layout (missing: ${missingLayouts.join(', ')})`);
+  }
+
+  const allowedSlotFields = new Set(['name', 'type', 'required', 'repeatable', 'description']);
+
+  for (const [layout, slots] of Object.entries(metadata.layout_slots)) {
+    const seenSlotNames = new Set();
+    const recordSlotName = (slotName) => {
+      if (seenSlotNames.has(slotName)) {
+        errors.push(`${slug}: "layout_slots.${layout}" contains duplicate slot name "${slotName}"`);
+      } else {
+        seenSlotNames.add(slotName);
+      }
+    };
+
+    if (!declaredLayouts.has(layout)) {
+      errors.push(`${slug}: "layout_slots.${layout}" does not match a declared layout`);
+    }
+
+    if (!Array.isArray(slots) || slots.length === 0) {
+      errors.push(`${slug}: "layout_slots.${layout}" must be a non-empty array`);
+      continue;
+    }
+
+    for (const [index, slot] of slots.entries()) {
+      const slotNumber = index + 1;
+
+      if (typeof slot === 'string') {
+        const slotName = slot.trim();
+        if (slotName === '') {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} must be a non-empty string or slot object`);
+        } else {
+          recordSlotName(slotName);
+        }
+        continue;
+      }
+
+      if (!isObject(slot)) {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} must be a non-empty string or slot object`);
+        continue;
+      }
+
+      if (typeof slot.name !== 'string' || slot.name.trim() === '') {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} name must be a non-empty string`);
+      } else {
+        recordSlotName(slot.name.trim());
+      }
+
+      for (const key of Object.keys(slot)) {
+        if (!allowedSlotFields.has(key)) {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} has unsupported property "${key}"`);
+        }
+      }
+
+      for (const field of ['type', 'description']) {
+        if (field in slot && (typeof slot[field] !== 'string' || slot[field].trim() === '')) {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} ${field} must be a non-empty string`);
+        }
+      }
+
+      for (const field of ['required', 'repeatable']) {
+        if (field in slot && typeof slot[field] !== 'boolean') {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} ${field} must be a boolean`);
+        }
+      }
+    }
+  }
+}
+
 export async function validateLibrary(rootDir = process.cwd()) {
   const templatesDir = path.join(rootDir, 'templates');
   const errors = [];
@@ -347,6 +431,7 @@ export async function validateLibrary(rootDir = process.cwd()) {
     validateFeatures(slug, metadata, errors);
     validateContentLimits(slug, metadata, errors);
     validateSourceInspiration(slug, metadata, errors);
+    validateLayoutSlots(slug, metadata, errors);
 
     if (!hasClass(html, 'deck')) {
       errors.push(`${dirName}: template.html must include a .deck container`);
