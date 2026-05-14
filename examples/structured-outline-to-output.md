@@ -35,6 +35,12 @@ Near misses:
 - `quarterly-review-meeting` also fits QBR content, but its `density` is `medium-high` and it is better for agenda/status/RAID meeting flow than a metric-heavy dashboard deck.
 - `midnight-executive` has the right formality, but its `scheme` is `dark`, which conflicts with the user's light-style request.
 
+## Agent Assumptions
+
+- The provided 8-point outline is treated as the canonical story arc unless the user asks for restructuring.
+- Missing chart-ready data is represented with concise placeholders rather than fabricated numbers.
+- If the requested slide count is a range, include an appendix or backup slide only when it improves readability.
+
 ## Generated Output Structure
 
 The agent copies the full template folder, then edits only the cloned `template.html` content.

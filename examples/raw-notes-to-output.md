@@ -41,6 +41,12 @@ Before choosing layouts, the agent compresses the notes into a presentation outl
 7. Success metrics: activation completion, time to first success, support escalation rate.
 8. Next steps and owners.
 
+## Agent Assumptions
+
+- If the prompt does not provide a brand kit, keep the selected template's default typography and palette.
+- If no hard slide count is provided, treat the 6-8 slide range as the target and keep one primary takeaway per slide.
+- If metrics are mentioned without exact values, use qualitative slide language and keep unresolved quantitative detail out of the visible deck.
+
 ## Template Selection
 
 The agent scans `templates/*/template.json` and chooses `airy-modern`.
