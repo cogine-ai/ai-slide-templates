@@ -69,3 +69,36 @@ node scripts/validate.mjs
 
 The validator checks that every template folder has `template.html` and `template.json`, the folder name matches `slug`, required metadata fields exist, `.deck` is present, and `slide_count` matches the HTML slide count.
 It also checks common metadata drift: enum values, feature object shape, source attribution shape, and whether declared palette colors and font families are present in the template HTML.
+
+## Preview And Screenshot Tools
+
+Use previews when visual taste is uncertain, multiple templates are plausible, or the deck choice is high-stakes.
+
+Generate first-slide preview HTML for one or more candidates:
+
+```sh
+node scripts/preview.mjs --title "AI Platform Review" --subtitle "Candidate cover directions" airy-modern,circuit-tech-dark
+```
+
+By default, previews are written to `previews/<slug>-preview.html`. The `previews/` directory is ignored because these are temporary comparison artifacts.
+
+Render a PNG screenshot for a template slug or preview HTML file:
+
+```sh
+node scripts/screenshot.mjs previews/airy-modern-preview.html
+node scripts/screenshot.mjs airy-modern
+```
+
+Screenshots are written to `previews/screenshots/<name>.png` by default. The screenshot command uses Playwright, so first-time setup is:
+
+```sh
+npm install
+npx playwright install chromium
+```
+
+Command help:
+
+```sh
+node scripts/preview.mjs --help
+node scripts/screenshot.mjs --help
+```

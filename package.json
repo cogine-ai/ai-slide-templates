@@ -1,0 +1,14 @@
+{
+  "name": "ai-slide-templates",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "preview": "node scripts/preview.mjs",
+    "screenshot": "node scripts/screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
