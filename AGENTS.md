@@ -37,21 +37,17 @@ Do **not** force a multi-option selection step when the user already knows what 
 
 Use this when the user gives a deck topic or content but has not chosen a visual direction.
 
-Read every `templates/*/template.json`. Match the user's brief against:
+Read every `templates/*/template.json`. Filter and score candidates in this order:
 
-- `mood`
-- `tone`
-- `occasion`
-- `formality`
-- `density`
-- `scheme`
-- `best_for`
-- `avoid_for`
-- `layouts`
+1. Start with explicit user constraints: `scheme`, audience and `formality`, and `occasion`. If the user clearly asks for a dark deck, board-level formality, investor pitch, classroom handout, or similar constraint, reject or strongly demote templates that clash with it.
+2. Check content volume, `density`, and `layouts`. Low-density templates work best for concise narratives with one idea per slide. Medium- and high-density templates can carry more bullets, tables, charts, or operational detail. When the user's content is heavier than the selected template can comfortably hold, split it across more slides by duplicating the closest matching layout instead of cramming text into one slide. If the brief depends on timelines, comparison tables, chart-heavy reviews, or portfolio grids, prefer candidates with layout vocabulary that naturally supports that structure.
+3. Compare `best_for` and `avoid_for`. Prefer templates whose `best_for` matches the deck's core job. Treat `avoid_for` as a warning signal and demote templates when the warning matches the user's brief.
+4. Use `mood` and `tone` to break ties and align the recommendation with the desired emotional feel and presentation voice.
+5. Use Preview Mode when confidence is low.
 
-Then recommend the best fit. If there are several genuinely plausible directions, show a short list of alternatives. The list does not need to be exactly three; use as many as are useful, usually two to four.
+Then recommend the best fit. If several genuinely plausible directions remain, show a short list of alternatives. Usually show two to four preview candidates when visual taste is uncertain, the top candidates differ mainly by mood or density, the choice is high-stakes, or the user has not given enough constraints to choose confidently. Do not pad the list to a fixed size.
 
-Ask clarifying questions only when they would change the template choice or the deck structure. Prefer concise questions about occasion, audience, mood, density, and light/dark preference.
+Ask clarifying questions only when they would change the template choice, slide structure, or density decision. Prefer concise questions about occasion, audience, mood, density, and light/dark preference.
 
 ### 3. Preview Mode
 
