@@ -15,6 +15,8 @@ Your job, when the user asks for a deck, is to use this library to produce a fin
 
 These instructions are a protocol, not a rigid script. Choose the lightest workflow that fits the user's request.
 
+When the user's input is a long script, article, transcript, or scattered raw material, first synthesize a slide outline before choosing or building the final deck. Use `INPUT_GUIDE.md` as the user-facing reference for what input to request and how to structure briefs.
+
 ---
 
 ## Operating Modes
