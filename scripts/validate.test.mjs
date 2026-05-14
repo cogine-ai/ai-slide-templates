@@ -157,3 +157,62 @@ test('accepts palette colors represented as rgb or rgba in CSS', async () => {
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test('reports malformed layout slot metadata', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-invalid', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          '',
+          { type: 'text' },
+          { name: 'subtitle', required: 'yes' }
+        ],
+        extra: ['title']
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"layout_slots" must describe every declared layout/);
+    assert.match(result.errors.join('\n'), /"layout_slots.extra" does not match a declared layout/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 2 must be a non-empty string or slot object/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 3 name must be a non-empty string/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 4 required must be a boolean/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('accepts string and object layout slot metadata', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-valid-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-valid', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          {
+            name: 'subtitle',
+            type: 'text',
+            required: false
+          }
+        ],
+        agenda: [
+          {
+            name: 'items',
+            type: 'list',
+            repeatable: true,
+            description: 'Agenda item labels.'
+          }
+        ]
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.errors, []);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

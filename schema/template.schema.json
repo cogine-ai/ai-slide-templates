@@ -154,6 +154,49 @@
     "layouts": {
       "$ref": "#/$defs/stringList"
     },
+    "layout_slots": {
+      "type": "object",
+      "description": "Optional map from each declared layout name to the content slots an agent can safely replace. If present, include one entry per layouts item.",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "required": {
+                  "type": "boolean"
+                },
+                "repeatable": {
+                  "type": "boolean"
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
     "source_inspiration": {
       "type": "object",
       "additionalProperties": false,

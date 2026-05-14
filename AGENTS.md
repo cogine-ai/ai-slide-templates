@@ -26,10 +26,11 @@ Use this when the user has already chosen a template, named a style, or given a 
 Do this:
 
 1. Read the chosen template's `template.json` and `template.html`.
-2. Clone the full template folder into the user's output workspace.
-3. Replace placeholder content with the user's real content.
-4. Preserve the template's design system.
-5. Open the finished HTML deck in the browser and give the user the absolute file path.
+2. Consult `layout_slots`, when present, to identify the fillable structure for each layout before editing HTML.
+3. Clone the full template folder into the user's output workspace.
+4. Replace placeholder content with the user's real content.
+5. Preserve the template's design system.
+6. Open the finished HTML deck in the browser and give the user the absolute file path.
 
 Do **not** force a multi-option selection step when the user already knows what they want.
 
@@ -94,6 +95,7 @@ Key fields:
 | `best_for` | Strongest match signal for what the template is good at. |
 | `avoid_for` | Soft warning about tone clashes. |
 | `layouts` | Available layout vocabulary in the template. |
+| `layout_slots` | Optional map from each layout name to fillable slots. Use this before editing HTML so replacements are deliberate and layout-safe. |
 | `slide_count` | Number of demo slides and layout examples. |
 
 Templates have tones, not industries. A template designed for one business context can work for another if the user's desired mood fits.
@@ -133,10 +135,11 @@ When adding a new source-inspired template, follow the source typography as clos
 After selecting a template:
 
 1. Clone the chosen template folder into the user's output location.
-2. Adapt `template.html` slide by slide.
-3. If the user needs fewer slides, remove unnecessary slides and update counters.
-4. If the user needs more slides, duplicate the closest matching layout and replace the content.
-5. If the template lacks a needed layout, design a new slide using the same design system.
+2. Read `layout_slots` for the chosen layout, when available, and map the user's content into those named slots before touching markup.
+3. Adapt `template.html` slide by slide.
+4. If the user needs fewer slides, remove unnecessary slides and update counters.
+5. If the user needs more slides, duplicate the closest matching layout and replace the content.
+6. If the template lacks a needed layout, design a new slide using the same design system.
 
 For new layouts, match the template's fonts, palette, spacing, component grammar, decorations, chrome, and navigation. The new slide should look native when placed between existing slides.
 
