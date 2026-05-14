@@ -69,3 +69,12 @@ node scripts/validate.mjs
 
 The validator checks that every template folder has `template.html` and `template.json`, the folder name matches `slug`, required metadata fields exist, `.deck` is present, and `slide_count` matches the HTML slide count.
 It also checks common metadata drift: enum values, feature object shape, source attribution shape, and whether declared palette colors and font families are present in the template HTML.
+
+Optional heavier visual/runtime validation is separate so the structural validator stays fast:
+
+```sh
+node scripts/validate-visual.mjs
+node scripts/validate-visual.mjs --template airy-modern
+```
+
+The visual validator launches a local Chrome/Chromium-compatible browser at a 16:9 `1280x720` viewport. It checks browser console errors, uncaught runtime exceptions, visible text/content overflow on active slides, and basic navigation behavior when a template declares navigation features. Set `CHROME_BIN=/path/to/chrome` or pass `--browser /path/to/chrome` if Chrome is not in a standard location.
