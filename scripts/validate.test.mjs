@@ -185,6 +185,30 @@ test('reports malformed layout slot metadata', async () => {
   }
 });
 
+test('reports duplicate layout slot names within a layout', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-duplicate-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-duplicates', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          {
+            name: 'title',
+            type: 'text'
+          }
+        ],
+        agenda: ['title']
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" contains duplicate slot name "title"/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 test('accepts string and object layout slot metadata', async () => {
   const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-valid-layout-slots-'));
   try {

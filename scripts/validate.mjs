@@ -264,6 +264,15 @@ function validateLayoutSlots(slug, metadata, errors) {
   const allowedSlotFields = new Set(['name', 'type', 'required', 'repeatable', 'description']);
 
   for (const [layout, slots] of Object.entries(metadata.layout_slots)) {
+    const seenSlotNames = new Set();
+    const recordSlotName = (slotName) => {
+      if (seenSlotNames.has(slotName)) {
+        errors.push(`${slug}: "layout_slots.${layout}" contains duplicate slot name "${slotName}"`);
+      } else {
+        seenSlotNames.add(slotName);
+      }
+    };
+
     if (!declaredLayouts.has(layout)) {
       errors.push(`${slug}: "layout_slots.${layout}" does not match a declared layout`);
     }
@@ -277,8 +286,11 @@ function validateLayoutSlots(slug, metadata, errors) {
       const slotNumber = index + 1;
 
       if (typeof slot === 'string') {
-        if (slot.trim() === '') {
+        const slotName = slot.trim();
+        if (slotName === '') {
           errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} must be a non-empty string or slot object`);
+        } else {
+          recordSlotName(slotName);
         }
         continue;
       }
@@ -290,6 +302,8 @@ function validateLayoutSlots(slug, metadata, errors) {
 
       if (typeof slot.name !== 'string' || slot.name.trim() === '') {
         errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} name must be a non-empty string`);
+      } else {
+        recordSlotName(slot.name.trim());
       }
 
       for (const key of Object.keys(slot)) {
