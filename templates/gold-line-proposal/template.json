@@ -58,6 +58,138 @@
     "investment-cards",
     "closing"
   ],
+  "layout_slots": {
+    "boxed-title-cover": [
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Main proposal or project name inside the framed title box."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Short deck category or proposal label below the title."
+      },
+      {
+        "name": "supporting_text",
+        "type": "text",
+        "description": "One-line context statement below the frame."
+      }
+    ],
+    "proposal-summary": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "required": true
+      },
+      {
+        "name": "tag",
+        "type": "label"
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "summary_cards",
+        "type": "cards",
+        "repeatable": true,
+        "description": "Two cards, each with a short heading and paragraph."
+      }
+    ],
+    "requirements-grid": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "required": true
+      },
+      {
+        "name": "tag",
+        "type": "label"
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "requirement_cards",
+        "type": "cards",
+        "repeatable": true,
+        "description": "Three executive modules, each with a heading and paragraph."
+      }
+    ],
+    "method-steps": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "required": true
+      },
+      {
+        "name": "tag",
+        "type": "label"
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "step_cards",
+        "type": "cards",
+        "repeatable": true,
+        "description": "Four numbered method steps with title and short body."
+      }
+    ],
+    "investment-cards": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "required": true
+      },
+      {
+        "name": "tag",
+        "type": "label"
+      },
+      {
+        "name": "metric_value",
+        "type": "stat",
+        "required": true
+      },
+      {
+        "name": "metric_label",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "body",
+        "type": "text"
+      }
+    ],
+    "closing": [
+      {
+        "name": "kicker",
+        "type": "label"
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "supporting_text",
+        "type": "text"
+      }
+    ]
+  },
   "source_inspiration": {
     "name": "Slidesgo Custal Project Proposal",
     "url": "https://slidesgo.com/theme/custal-project-proposal",
