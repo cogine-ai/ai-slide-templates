@@ -83,18 +83,29 @@
     .benefit-bars i { height:34px; background:var(--panel); border:1.7px solid var(--line); border-radius:999px; box-shadow:10px 10px 0 #1D1D1F; }
     .quiz-card { max-width:760px; margin:8vh auto; border:1.7px solid var(--line); border-radius:28px; padding:3rem; text-align:center; background:var(--surface); box-shadow:16px 16px 0 #1D1D1F; }
     .five-close { display:grid; place-items:center; text-align:center; }
-    @media (max-width: 900px) {
-      .slide { padding: 6vw 5vw 9vh; }
-      h1 { font-size: clamp(2.7rem, 11vw, 5.1rem); }
-      h2 { font-size: clamp(2rem, 8vw, 4.4rem); }
-      .keyboard-hint { display: none; }
-    }</style>
+	    @media (max-width: 900px) {
+	      .slide { padding: 6vw 5vw 9vh; }
+	      h1 { font-size: clamp(2.7rem, 11vw, 5.1rem); }
+	      h2 { font-size: clamp(2rem, 8vw, 4.4rem); }
+	      .five-wheel { grid-template-columns: 1fr; gap: 4vh; padding: 6vw 5vw 9vh; }
+	      .wheel { width: min(72vw, 310px); height: min(72vw, 310px); border-width: 10px; box-shadow: 8px 8px 0 #1D1D1F; justify-self: center; }
+	      .wheel::after { width: 45%; height: 45%; }
+	      .wheel strong { font-size: 3.2rem; }
+	      .wheel span { font-size: .72rem; }
+	      .w0 { top: 18%; left: 24%; }
+	      .w1 { top: 12%; right: 13%; }
+	      .w2 { right: 9%; top: 50%; }
+	      .w3 { bottom: 17%; right: 29%; }
+	      .w4 { left: 10%; top: 56%; }
+	      .check-grid { grid-template-columns: repeat(2, 1fr); gap: .75rem; margin-top: 4vh; }
+	      .keyboard-hint { display: none; }
+	    }</style>
 </head>
 <body>
   <div class="deck">
-<section class="slide active five-cover"><div><div class="brand-star"></div><p class="company">COMPANYNAME</p><h1>5S Basic<br>Training</h1><div class="pill">Sort - Set in order - Shine - Standardize - Sustain</div></div><div class="photo-card"></div></section>
+	<section class="slide active five-cover"><div><div class="brand-star"></div><p class="company">Northstar Operations Academy</p><h1>5S Basic<br>Training</h1><div class="pill">Sort - Set in order - Shine - Standardize - Sustain</div></div><div class="photo-card"></div></section>
 <section class="slide five-overview"><div class="pastel-board"><h2>Training Overview</h2><div class="pill-row"><span class="pill p0">Introduction</span><span class="pill p1">What is 5S?</span><span class="pill p2">Workplace Benefits</span><span class="pill p3">Learning check</span><span class="pill p4">Final Thoughts</span></div></div></section>
-<section class="slide five-intro"><div class="blob-left"></div><div><h2>Introduction</h2><p>Take this time to introduce yourself. Explain the purpose of the presentation and provide a brief overview of what to expect in the coming slides.</p></div><div class="photo-card"></div></section>
+	<section class="slide five-intro"><div class="blob-left"></div><div><h2>Introduction</h2><p>This session prepares shop-floor teams to reset a shared packing cell, reduce search time, and keep the workspace audit-ready after every shift.</p></div><div class="photo-card"></div></section>
 <section class="slide five-what"><div class="photo-card"></div><div><h2>What is 5S?</h2><p>A disorganized workplace is, at best, an inefficient one. At worst, it can be an unsafe environment for everyone involved.</p><p>Staying organized helps keep things running safely and smoothly.</p></div><div class="peach-circles"></div></section>
 <section class="slide five-wheel"><p><strong>Enter 5S</strong> - an organization system developed in Japan that focuses on creating a clean, efficient, and safe work environment.</p><div class="wheel"><strong>5S</strong><span class="w0">Sort</span><span class="w1">Set in order</span><span class="w2">Shine</span><span class="w3">Standardize</span><span class="w4">Sustain</span></div></section>
 <section class="slide five-step"><div><span class="step-num">01</span><h2>Sort</h2><p>Remove unnecessary items from the workspace.</p></div><div class="step-card p0"><h3>Sort</h3><ul><li>Visible routine</li><li>Clear owner</li><li>Simple check</li></ul></div></section>
@@ -102,10 +113,10 @@
 <section class="slide five-step"><div><span class="step-num">03</span><h2>Shine</h2><p>Clean the workspace and inspect equipment.</p></div><div class="step-card p2"><h3>Shine</h3><ul><li>Visible routine</li><li>Clear owner</li><li>Simple check</li></ul></div></section>
 <section class="slide five-step"><div><span class="step-num">04</span><h2>Standardize</h2><p>Create shared standards and visual cues.</p></div><div class="step-card p3"><h3>Standardize</h3><ul><li>Visible routine</li><li>Clear owner</li><li>Simple check</li></ul></div></section>
 <section class="slide five-step"><div><span class="step-num">05</span><h2>Sustain</h2><p>Build habits that keep the system working.</p></div><div class="step-card p4"><h3>Sustain</h3><ul><li>Visible routine</li><li>Clear owner</li><li>Simple check</li></ul></div></section>
-<section class="slide five-checklist"><h2>5S Checklist</h2><div class="check-grid"><article><h3>Sort</h3><p>Audit the workspace and note corrective actions.</p></article><article><h3>Set in order</h3><p>Audit the workspace and note corrective actions.</p></article><article><h3>Shine</h3><p>Audit the workspace and note corrective actions.</p></article><article><h3>Standardize</h3><p>Audit the workspace and note corrective actions.</p></article><article><h3>Sustain</h3><p>Audit the workspace and note corrective actions.</p></article></div></section>
+	<section class="slide five-checklist"><h2>5S Checklist</h2><div class="check-grid"><article><h3>Sort</h3><p>Remove obsolete labels, broken tools, and unused packaging from the bench.</p></article><article><h3>Set in order</h3><p>Label tool positions so the next operator can find everything within 30 seconds.</p></article><article><h3>Shine</h3><p>Clean the surface, inspect cables, and record any maintenance concerns.</p></article><article><h3>Standardize</h3><p>Use the same photo standard and end-of-shift checklist across all lanes.</p></article><article><h3>Sustain</h3><p>Review audit scores weekly and assign one owner for unresolved actions.</p></article></div></section>
 <section class="slide five-benefits"><div><h2>Workplace Benefits</h2><p>Improved safety, faster handoffs, fewer missing tools, cleaner work areas, and a stronger culture of ownership.</p></div><div class="benefit-bars"><i style="width:82%"></i><i style="width:68%"></i><i style="width:74%"></i><i style="width:58%"></i></div></section>
 <section class="slide five-quiz"><h2>Learning Check</h2><div class="quiz-card"><h3>Which step creates a shared routine?</h3><div class="pill-row"><span class="pill">Sort</span><span class="pill">Shine</span><span class="pill">Standardize</span></div></div></section>
-<section class="slide five-action"><h2>Action Plan</h2><div class="check-grid"><article><h3>Area</h3><p>Add the next workplace action here.</p></article><article><h3>Owner</h3><p>Add the next workplace action here.</p></article><article><h3>Due date</h3><p>Add the next workplace action here.</p></article><article><h3>Score</h3><p>Add the next workplace action here.</p></article><article><h3>Follow-up</h3><p>Add the next workplace action here.</p></article></div></section>
+	<section class="slide five-action"><h2>Action Plan</h2><div class="check-grid"><article><h3>Area</h3><p>Packing cell B: clear overflow cartons and reset the visual tool board.</p></article><article><h3>Owner</h3><p>Shift lead Maya Chen coordinates the reset with two line operators.</p></article><article><h3>Due date</h3><p>Complete before Friday handoff and photograph the finished standard.</p></article><article><h3>Score</h3><p>Target an audit score of 4 out of 5 or better for the next two weeks.</p></article><article><h3>Follow-up</h3><p>Review misses in Monday standup and close any maintenance tickets.</p></article></div></section>
 <section class="slide five-close"><h1>Final<br>Thoughts</h1><p>Keep the system visible, simple, and easy to repeat.</p></section>
   </div>
 
@@ -148,8 +159,10 @@
         updateSlide();
       }
     }
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+	    document.addEventListener('keydown', (e) => {
+	      const target = e.composedPath ? e.composedPath()[0] : e.target;
+	      if (target && target.closest && target.closest('button, a[href], input, textarea, select, [contenteditable], [role="button"]')) return;
+	      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
         e.preventDefault();
         changeSlide(1);
       } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
