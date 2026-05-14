@@ -43,7 +43,7 @@ Use this when the user gives a deck topic or content but has not chosen a visual
 Read every `templates/*/template.json`. Filter and score candidates in this order:
 
 1. Start with explicit user constraints: `scheme`, audience and `formality`, and `occasion`. If the user clearly asks for a dark deck, board-level formality, investor pitch, classroom handout, or similar constraint, reject or strongly demote templates that clash with it.
-2. Check content volume, `density`, and `layouts`. Low-density templates work best for concise narratives with one idea per slide. Medium- and high-density templates can carry more bullets, tables, charts, or operational detail. When the user's content is heavier than the selected template can comfortably hold, split it across more slides by duplicating the closest matching layout instead of cramming text into one slide. If the brief depends on timelines, comparison tables, chart-heavy reviews, or portfolio grids, prefer candidates with layout vocabulary that naturally supports that structure.
+2. Check content volume, `density`, `content_limits`, and `layouts`. Low-density templates work best for concise narratives with one idea per slide. Medium- and high-density templates can carry more bullets, tables, charts, or operational detail. When the user's content is heavier than the selected template can comfortably hold, split it across more slides by duplicating the closest matching layout instead of cramming text into one slide. If the brief depends on timelines, comparison tables, chart-heavy reviews, or portfolio grids, prefer candidates with layout vocabulary that naturally supports that structure.
 3. Compare `best_for` and `avoid_for`. Prefer templates whose `best_for` matches the deck's core job. Treat `avoid_for` as a warning signal and demote templates when the warning matches the user's brief.
 4. Use `mood` and `tone` to break ties and align the recommendation with the desired emotional feel and presentation voice.
 5. Use Preview Mode when confidence is low.
@@ -92,6 +92,7 @@ Key fields:
 | `scheme` | Light, dark, or mixed. Treat as important when the user specifies it. |
 | `best_for` | Strongest match signal for what the template is good at. |
 | `avoid_for` | Soft warning about tone clashes. |
+| `content_limits` | Machine-readable capacity guidance: title/subtitle/body character limits, bullet/card counts, and recommended slide-count range. |
 | `layouts` | Available layout vocabulary in the template. |
 | `layout_slots` | Optional map from each layout name to fillable slots. Use this before editing HTML so replacements are deliberate and layout-safe. |
 | `slide_count` | Number of demo slides and layout examples. |
@@ -134,10 +135,11 @@ After selecting a template:
 
 1. Clone the chosen template folder into the user's output location.
 2. Read `layout_slots` for the chosen layout, when available, and map the user's content into those named slots before touching markup.
-3. Adapt `template.html` slide by slide.
-4. If the user needs fewer slides, remove unnecessary slides and update counters.
-5. If the user needs more slides, duplicate the closest matching layout and replace the content.
-6. If the template lacks a needed layout, design a new slide using the same design system.
+3. Check `template.json.content_limits` when present. If the user's content exceeds the title, subtitle, body, bullet, card, or slide-count limits, split the material across additional slides instead of shrinking the design system or overfilling a layout.
+4. Adapt `template.html` slide by slide.
+5. If the user needs fewer slides, remove unnecessary slides and update counters.
+6. If the user needs more slides, duplicate the closest matching layout and replace the content.
+7. If the template lacks a needed layout, design a new slide using the same design system.
 
 For new layouts, match the template's fonts, palette, spacing, component grammar, decorations, chrome, and navigation. The new slide should look native when placed between existing slides.
 

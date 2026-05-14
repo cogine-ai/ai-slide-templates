@@ -50,6 +50,15 @@
   "best_for": "Business decks that need to feel structured, legible, and approachable without becoming bland: company updates, operating plans, consulting recommendations, team kickoffs, marketing plans, client proposals, and training overviews. Strong when the content includes frameworks, priorities, metrics, and simple charts.",
   "avoid_for": "Very formal board materials that require restraint, luxury editorial narratives, or dark cinematic tech decks. The bright accent system can feel too energetic for sober legal, crisis, or high-stakes finance contexts.",
   "slide_count": 10,
+  "content_limits": {
+    "max_title_chars": 48,
+    "max_subtitle_chars": 120,
+    "max_body_chars_per_slide": 620,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 12
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,
