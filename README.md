@@ -21,9 +21,18 @@ See [`examples/`](examples/) for end-to-end workflow examples that show the inpu
 - [`structured-outline-to-output.md`](examples/structured-outline-to-output.md): a structured outline turned into a metric-led business review deck.
 - [`raw-notes-to-output.md`](examples/raw-notes-to-output.md): long script/raw notes compressed into a clear product research deck.
 
+## Installable Skill
+
+This repo includes an agent skill at `skills/ai-slide-templates/`. Install or copy that folder into your agent's skills directory when you want the agent to remember this workflow automatically.
+
+The skill guides agents to clone this repository, read `AGENTS.md`, select a template from `templates/*/template.json`, adapt the chosen `template.html`, and verify the finished browser-openable deck.
+
 ## Structure
 
 ```txt
+skills/
+  ai-slide-templates/
+    SKILL.md
 templates/
   <slug>/
     template.html
