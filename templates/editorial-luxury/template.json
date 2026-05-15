@@ -45,6 +45,15 @@
   "best_for": "Premium brand strategy, portfolio presentations, creative direction, luxury pitches, and decks where restraint and taste matter more than data density.",
   "avoid_for": "Dense operating reviews, technical system diagrams, or casual team updates that need speed over polish.",
   "slide_count": 8,
+  "content_limits": {
+    "max_title_chars": 34,
+    "max_subtitle_chars": 95,
+    "max_body_chars_per_slide": 360,
+    "max_bullets": 3,
+    "max_cards": 4,
+    "recommended_slide_count_min": 6,
+    "recommended_slide_count_max": 10
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,

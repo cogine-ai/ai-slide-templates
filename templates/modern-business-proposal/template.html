@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Business Proposal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #D9D9D9;
+      --surface: #E4E4E4;
+      --panel: #F1F1F1;
+      --primary: #A90F19;
+      --accent: #111111;
+      --text: #050505;
+      --muted: #3D3D3D;
+      --line: #A90F19;
+      --display-font: 'Orbitron', sans-serif;
+      --body-font: 'Space Mono', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { font-family: var(--body-font); background: var(--bg); color: var(--text); }
+    .deck { width: 100vw; height: 100vh; position: relative; overflow: hidden; background: var(--bg); }
+    .slide {
+      position: absolute;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 4vw 4.6vw 8vh;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(34px);
+      transition: opacity .42s ease, transform .42s ease;
+      overflow: hidden;
+    }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 10; }
+    .slide.prev { transform: translateX(-34px); }
+    h1, h2, h3, h4, .display, .kicker, .num { font-family: var(--display-font); }
+    h1 { font-size: clamp(3rem, 6.8vw, 7.8rem); line-height: .94; font-weight: 900; }
+    h2 { font-size: clamp(2rem, 4.5vw, 5rem); line-height: 1; font-weight: 900; }
+    h3 { font-size: clamp(1.05rem, 1.5vw, 1.45rem); line-height: 1.18; font-weight: 800; }
+    p, li { font-size: clamp(.82rem, 1.05vw, 1.04rem); line-height: 1.55; color: var(--muted); }
+    .deck-header { position: relative; z-index: 3; display: flex; align-items: center; justify-content: space-between; margin-bottom: 2.1vh; }
+    .kicker { text-transform: uppercase; letter-spacing: .1em; font-size: .74rem; color: var(--primary); font-weight: 900; }
+    .tag { border: 1.4px solid var(--line); border-radius: 999px; padding: .42rem .82rem; color: var(--text); background: var(--surface); font-size: .72rem; font-weight: 700; }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.4vh; z-index: 100; font-family: var(--display-font); font-size: .76rem; color: var(--muted); font-weight: 800; }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.55vh; transform: translateX(-50%); z-index: 100; color: var(--muted); font-size: .68rem; opacity: .72; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--primary); z-index: 100; transition: width .35s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2.1vh; display: flex; gap: .65rem; z-index: 100; }
+    .nav-btn { width: 44px; height: 44px; border-radius: 50%; border: 1.4px solid var(--line); background: var(--surface); color: var(--primary); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--primary); color: var(--bg); }
+    .nav-btn:disabled { opacity: .34; cursor: not-allowed; }
+    
+    .slide { background:var(--bg); }
+    .modern-cover { display:grid; grid-template-columns:58% 42%; padding:0; }
+    .modern-left { padding:5vh 3.5vw; display:flex; flex-direction:column; justify-content:space-between; }
+    .modern-left h1, .modern-toc h2, .modern-resources h2, .modern-data h2 { letter-spacing:-.05em; font-size:clamp(3rem,5.4vw,6.2rem); color:var(--accent); }
+    .modern-left span, h2 span { color:var(--primary); }
+    .modern-left i, .slash { width:2px; height:22vh; background:var(--accent); display:block; transform:rotate(-14deg); margin-left:2vw; }
+    .modern-photo, .dark-image { background:linear-gradient(155deg,#111927,#6e7c86 58%,#e4e4e4); position:relative; overflow:hidden; }
+    .phone { width:150px; height:270px; border-radius:28px; background:#f7f7f7; border:8px solid #101010; box-shadow:0 18px 38px rgba(0,0,0,.45); display:grid; place-items:end center; padding-bottom:22px; color:var(--primary); font-family:var(--display-font); font-weight:900; transform:rotate(12deg); }
+    .modern-photo .phone { position:absolute; right:18%; top:24%; }
+    .modern-resources, .modern-toc, .modern-data, .modern-objectives, .modern-budget, .modern-timeline, .modern-roles { padding:5vh 3.5vw 8vh; }
+    .resource-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; margin-top:8vh; text-align:center; }
+    .resource-grid article h3 { border:1.8px solid var(--primary); border-radius:999px; padding:.8rem 1rem; margin:1rem 0; text-decoration:underline; }
+    .line-icon { width:34px; height:34px; border:3px solid var(--primary); margin:auto; border-radius:8px; }
+    .dash { border-top:2px dashed var(--muted); margin:5vh 4vw 3vh; }
+    .mono-note { margin-left:52vw; background:var(--panel); padding:1rem; display:inline-block; }
+    .modern-toc { display:grid; grid-template-columns:36% 1fr; align-items:center; }
+    .modern-toc ol { list-style:none; display:grid; gap:1.3rem; font-size:1.35rem; }
+    .modern-toc li { display:grid; grid-template-columns:70px 1fr; gap:1.6rem; }
+    .modern-toc strong { color:var(--primary); }
+    .modern-split, .modern-phone, .modern-risk { display:grid; grid-template-columns:1fr 1fr; gap:3vw; align-items:center; padding:5vh 3.5vw 8vh; }
+    .modern-split h2, .modern-phone h2, .modern-risk h2 { font-size:5rem; letter-spacing:-.06em; color:var(--accent); }
+    .modern-cards, .budget-grid, .role-table { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; margin-top:8vh; }
+    .modern-cards article, .budget-grid article, .role-table article { border:2px solid var(--primary); padding:1.2rem; min-height:190px; background:var(--surface); }
+    .budget-grid { grid-template-columns:repeat(4,1fr); }
+    .budget-grid strong { font-family:var(--display-font); font-size:2.4rem; color:var(--primary); }
+    .mini-track { height:18px; border:1px solid var(--accent); margin-top:1rem; }
+    .mini-track i { display:block; height:100%; background:var(--primary); }
+    .device-stack { display:flex; align-items:center; justify-content:center; gap:2rem; }
+    .device-stack .small { width:110px; height:200px; transform:rotate(-8deg); }
+    .modern-line { display:grid; grid-template-columns:repeat(5,1fr); gap:1rem; margin-top:9vh; border-top:3px solid var(--accent); padding-top:2rem; }
+    .modern-line strong { color:var(--primary); font-size:2rem; }
+    .modern-risk ul { margin-left:1.2rem; display:grid; gap:1rem; }
+    .data-board { display:grid; grid-template-columns:120px 1fr; align-items:center; gap:2rem; margin-top:7vh; }
+    .modern-data .modern-cards { margin-top:0; }
+    @media (max-width: 900px) {
+      .slide { padding: 6vw 5vw 9vh; }
+      h1 { font-size: clamp(2.7rem, 11vw, 5.1rem); }
+      h2 { font-size: clamp(2rem, 8vw, 4.4rem); }
+      .keyboard-hint { display: none; }
+    }</style>
+</head>
+<body>
+  <div class="deck">
+	<section class="slide active modern-cover"><div class="modern-left"><h1>MODERN<br>BUSINESS<br><span>PROPOSAL</span></h1><i></i><p>Conversion acceleration program for Meridian Retail Group.</p></div><div class="modern-photo"><div class="phone">MODERN</div></div></section>
+<section class="slide modern-resources"><h2>CONTENTS OF THIS <span>TEMPLATE</span></h2><div class="resource-grid"><article><div class="line-icon"></div><h3>Fonts</h3><p>You can edit each resource and keep the same proposal system.</p></article><article><div class="line-icon"></div><h3>Colors</h3><p>You can edit each resource and keep the same proposal system.</p></article><article><div class="line-icon"></div><h3>Thanks slide</h3><p>You can edit each resource and keep the same proposal system.</p></article><article><div class="line-icon"></div><h3>Icons and infographics</h3><p>You can edit each resource and keep the same proposal system.</p></article></div><div class="dash"></div><p class="mono-note">You can delete this slide when you are done editing the presentation.</p></section>
+<section class="slide modern-toc"><h2>TABLE OF<br><span>CONTENTS</span></h2><ol><li><strong>01</strong><span>Key objectives</span></li><li><strong>02</strong><span>Key resources</span></li><li><strong>03</strong><span>Financial plan</span></li><li><strong>04</strong><span>Possible solutions</span></li><li><strong>05</strong><span>Detailed timeline</span></li><li><strong>06</strong><span>Roles and responsibilities</span></li><li><strong>07</strong><span>Risk analysis</span></li><li><strong>08</strong><span>Evaluation metrics</span></li></ol></section>
+<section class="slide modern-split"><div><h2>PROJECT<br><span>OVERVIEW</span></h2><p>Use this page to summarize the opportunity, business problem, and decision you need from the audience.</p></div><div class="dark-image"></div></section>
+<section class="slide modern-objectives"><h2>KEY <span>OBJECTIVES</span></h2><div class="modern-cards"><article><h3>01 Increase conversion</h3><p>Describe a measurable business objective with a short supporting line.</p></article><article><h3>02 Reduce cycle time</h3><p>Describe a measurable business objective with a short supporting line.</p></article><article><h3>03 Improve handoff</h3><p>Describe a measurable business objective with a short supporting line.</p></article></div></section>
+<section class="slide modern-phone"><div class="device-stack"><div class="phone">APP</div><div class="phone small">ROI</div></div><div><h2>SOLUTION<br><span>CONCEPT</span></h2><p>The source style uses image/device drama against a restrained gray canvas. This page keeps the same asymmetry with editable HTML shapes.</p></div></section>
+<section class="slide modern-budget"><h2>FINANCIAL <span>PLAN</span></h2><div class="budget-grid"><article><strong>$45K</strong><h3>Research</h3><div class="mini-track"><i style="width:35%"></i></div></article><article><strong>$120K</strong><h3>Build</h3><div class="mini-track"><i style="width:76%"></i></div></article><article><strong>$72K</strong><h3>Launch</h3><div class="mini-track"><i style="width:54%"></i></div></article><article><strong>$28K</strong><h3>Measure</h3><div class="mini-track"><i style="width:28%"></i></div></article></div></section>
+<section class="slide modern-timeline"><h2>DETAILED <span>TIMELINE</span></h2><div class="modern-line"><article><strong>01</strong><h3>DISCOVER</h3></article><article><strong>02</strong><h3>DESIGN</h3></article><article><strong>03</strong><h3>BUILD</h3></article><article><strong>04</strong><h3>LAUNCH</h3></article><article><strong>05</strong><h3>LEARN</h3></article></div></section>
+<section class="slide modern-roles"><h2>ROLES AND<br><span>RESPONSIBILITIES</span></h2><div class="role-table"><article><h3>Executive owner</h3><p>Decision, coordination, and delivery accountability.</p></article><article><h3>Product lead</h3><p>Decision, coordination, and delivery accountability.</p></article><article><h3>Design lead</h3><p>Decision, coordination, and delivery accountability.</p></article><article><h3>Operations</h3><p>Decision, coordination, and delivery accountability.</p></article></div></section>
+<section class="slide modern-risk"><div class="dark-image"></div><div><h2>RISK <span>ANALYSIS</span></h2><ul><li>Scope drift from unclear decision ownership</li><li>Underestimated adoption effort</li><li>Late data access for measurement</li></ul></div></section>
+	<section class="slide modern-data"><h2>METRICS<br><span>11</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>24%</strong><h3>Checkout conversion lift</h3><p>Metric: activated visitors who complete purchase within seven days. Finding: prototype B lifted conversion 24%. Next: expand traffic to 50K sessions.</p></article><article><strong>18%</strong><h3>Cart recovery gain</h3><p>Metric: abandoned carts recovered through email and SMS. Finding: combined reminders outperformed email-only flow. Next: add product-specific recovery copy.</p></article><article><strong>3.2x</strong><h3>Campaign return</h3><p>Metric: gross profit divided by paid media spend. Finding: retargeting is above hurdle rate. Next: shift 15% of prospecting budget into retargeting.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>CUSTOMER<br><span>12</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>41%</strong><h3>Returning buyer share</h3><p>Metric: orders from customers with prior purchase history. Finding: repeat revenue is underused. Next: launch segmented replenishment prompts.</p></article><article><strong>68</strong><h3>Customer health score</h3><p>Metric: blended score from frequency, basket size, and support friction. Finding: loyalty members score 19 points higher. Next: route first-time buyers into loyalty.</p></article><article><strong>-12%</strong><h3>Support contact rate</h3><p>Metric: post-purchase tickets per 1,000 orders. Finding: clearer order tracking reduced contacts. Next: add delivery ETA messaging to product pages.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>DELIVERY<br><span>13</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>6 wk</strong><h3>Launch runway</h3><p>Metric: time from approved scope to controlled rollout. Finding: data feeds are the critical path. Next: freeze tracking requirements before sprint two.</p></article><article><strong>92%</strong><h3>Data readiness</h3><p>Metric: required events validated in analytics QA. Finding: checkout and catalog events are stable. Next: close loyalty attribution gaps.</p></article><article><strong>4</strong><h3>Workstream owners</h3><p>Metric: named owners for product, design, data, and lifecycle. Finding: ownership is clear. Next: hold twice-weekly delivery risk review.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>IMPACT<br><span>14</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>$1.4M</strong><h3>Annualized upside</h3><p>Metric: modeled gross profit from conversion and retention gains. Finding: upside clears the investment hurdle. Next: validate model with a four-week pilot.</p></article><article><strong>9 pt</strong><h3>Retention improvement</h3><p>Metric: 90-day repeat purchase rate. Finding: loyalty onboarding is the strongest lever. Next: test welcome sequence with three offer tiers.</p></article><article><strong>31%</strong><h3>Manual work reduction</h3><p>Metric: merchandising hours spent on campaign setup. Finding: automation can remove repeated tagging. Next: integrate feed rules into campaign builder.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>NEXT STEPS<br><span>15</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>May 20</strong><h3>Decision gate</h3><p>Metric: executive approval date for pilot scope. Finding: budget and audience are ready. Next: approve phase one and assign final legal reviewer.</p></article><article><strong>50K</strong><h3>Pilot traffic</h3><p>Metric: qualified sessions routed into the experiment. Finding: sample size is enough for signal. Next: reserve traffic split before campaign launch.</p></article><article><strong>14 d</strong><h3>Learning cycle</h3><p>Metric: days from launch to readout. Finding: early readout can guide rollout. Next: schedule readout and scale/no-scale decision.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>METRICS<br><span>16</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>7.8%</strong><h3>Baseline conversion</h3><p>Metric: purchase completion per qualified session. Finding: mobile traffic lags desktop by 2.1 points. Next: prioritize mobile checkout fixes.</p></article><article><strong>14%</strong><h3>AOV expansion</h3><p>Metric: average order value after bundle exposure. Finding: bundle prompts lift baskets without hurting conversion. Next: test category-specific bundles.</p></article><article><strong>22%</strong><h3>Email revenue share</h3><p>Metric: revenue from owned lifecycle channels. Finding: lifecycle can carry more margin-efficient growth. Next: add replenishment and winback flows.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>CUSTOMER<br><span>17</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>53%</strong><h3>Mobile buyer share</h3><p>Metric: purchases completed on mobile devices. Finding: mobile is now the majority channel. Next: simplify payment and address entry steps.</p></article><article><strong>29%</strong><h3>New buyer activation</h3><p>Metric: first purchase plus account creation within seven days. Finding: account creation blocks some buyers. Next: move account prompt after checkout.</p></article><article><strong>11 pt</strong><h3>Loyalty lift</h3><p>Metric: conversion difference for loyalty members. Finding: benefits visibility drives action. Next: surface loyalty value on product detail pages.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>DELIVERY<br><span>18</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>3</strong><h3>Release phases</h3><p>Metric: pilot, controlled rollout, and full launch. Finding: phased rollout lowers operational risk. Next: define success criteria per phase.</p></article><article><strong>12</strong><h3>Required events</h3><p>Metric: analytics events needed for decision reporting. Finding: nine are already live. Next: QA loyalty, return, and coupon events.</p></article><article><strong>2 hr</strong><h3>Daily standup load</h3><p>Metric: combined delivery coordination time. Finding: short cadence is enough. Next: replace status meetings with a shared risk board.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>IMPACT<br><span>19</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>5 mo</strong><h3>Payback period</h3><p>Metric: months to recover implementation cost. Finding: proposal clears payback threshold. Next: confirm media and engineering cost assumptions.</p></article><article><strong>19%</strong><h3>Gross profit lift</h3><p>Metric: contribution profit after discounts and media. Finding: higher AOV protects margin. Next: cap promotional depth during pilot.</p></article><article><strong>8 pt</strong><h3>NPS recovery</h3><p>Metric: post-purchase satisfaction score. Finding: delivery visibility improves sentiment. Next: include ETA and return clarity in rollout.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>NEXT STEPS<br><span>20</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>48 hr</strong><h3>Scope lock</h3><p>Metric: time remaining before design freeze. Finding: offer logic is the only open issue. Next: finalize bundle rules with merchandising.</p></article><article><strong>10</strong><h3>Test variants</h3><p>Metric: creative and checkout combinations in pilot. Finding: variant count is manageable. Next: prioritize top five by expected revenue impact.</p></article><article><strong>1</strong><h3>Executive owner</h3><p>Metric: single accountable sponsor for trade-off decisions. Finding: COO ownership is confirmed. Next: route scope changes through weekly gate.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>METRICS<br><span>21</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>16%</strong><h3>Search conversion lift</h3><p>Metric: product search sessions ending in purchase. Finding: ranked recommendations help high-intent shoppers. Next: expand recommendations to top 20 queries.</p></article><article><strong>-18%</strong><h3>Checkout drop-off</h3><p>Metric: users leaving after cart review. Finding: fewer required fields reduce abandonment. Next: remove optional phone field from mobile flow.</p></article><article><strong>27%</strong><h3>Attach rate</h3><p>Metric: orders with accessory or service attachment. Finding: contextual bundles outperform generic upsell. Next: map bundles by category margin.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>CUSTOMER<br><span>22</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>74%</strong><h3>Delivery visibility</h3><p>Metric: buyers who can see ETA before checkout. Finding: ETA exposure reduces support tickets. Next: bring ETA module to cart summary.</p></article><article><strong>36%</strong><h3>Return reason clarity</h3><p>Metric: returns with structured reason code. Finding: clearer reasons reveal sizing issues. Next: add fit guidance to high-return SKUs.</p></article><article><strong>2.4x</strong><h3>Review influence</h3><p>Metric: conversion delta after review interaction. Finding: reviews are persuasive on premium SKUs. Next: elevate reviews near variant selector.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>DELIVERY<br><span>23</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>85%</strong><h3>Design complete</h3><p>Metric: approved screens versus planned screens. Finding: checkout and lifecycle screens are ready. Next: finish loyalty offer states.</p></article><article><strong>4 d</strong><h3>QA buffer</h3><p>Metric: reserved days before pilot launch. Finding: buffer is tight but workable. Next: start analytics QA in parallel with build.</p></article><article><strong>0</strong><h3>Critical blockers</h3><p>Metric: unresolved launch-blocking risks. Finding: no blocker remains after data-feed decision. Next: monitor medium-risk dependencies daily.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>IMPACT<br><span>24</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>$380K</strong><h3>Quarter profit upside</h3><p>Metric: expected incremental gross profit in first quarter. Finding: upside is concentrated in repeat buyers. Next: focus pilot on high-frequency categories.</p></article><article><strong>13%</strong><h3>Refund reduction</h3><p>Metric: decrease in avoidable returns. Finding: better guidance can reduce sizing-related refunds. Next: add fit content before scale-up.</p></article><article><strong>21%</strong><h3>Ops time saved</h3><p>Metric: merchandising hours saved by campaign templates. Finding: automation frees weekly planning capacity. Next: document reusable campaign recipes.</p></article></div></div></section>
+	<section class="slide modern-data"><h2>NEXT STEPS<br><span>25</span></h2><div class="data-board"><div class="slash"></div><div class="modern-cards"><article><strong>Approve</strong><h3>Phase-one pilot</h3><p>Metric: go/no-go decision for six-week build. Finding: scope, owner, and upside are clear. Next: approve pilot budget and launch date.</p></article><article><strong>Assign</strong><h3>Decision owners</h3><p>Metric: named owner for product, data, lifecycle, and operations. Finding: gaps slow delivery. Next: publish RACI before kickoff.</p></article><article><strong>Measure</strong><h3>Readout dashboard</h3><p>Metric: conversion, margin, retention, and support impact. Finding: leadership needs one source of truth. Next: build dashboard before traffic split.</p></article></div></div></section>
+  </div>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    const total = slides.length;
+    totalEl.textContent = total;
+    function updateSlide() {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active', 'prev');
+        if (i === current) slide.classList.add('active');
+        else if (i < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / total * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === total - 1;
+    }
+    function changeSlide(dir) {
+      const next = current + dir;
+      if (next >= 0 && next < total) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault();
+        changeSlide(1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault();
+        changeSlide(-1);
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        current = 0;
+        updateSlide();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        current = total - 1;
+        updateSlide();
+      }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (e) => {
+      const diff = touchStartX - e.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>
