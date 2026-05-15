@@ -56,13 +56,28 @@ Ask clarifying questions only when they would change the template choice, slide 
 
 Use this when visual taste is uncertain, the user asks to compare options, or the choice is high-stakes.
 
-For each preview candidate:
+Use the preview tooling instead of hand-building one-off preview files:
 
-1. Read the template's `template.html`.
-2. Use the first slide or strongest representative cover slide.
-3. Replace placeholder text with the user's actual topic, title, subtitle, author, or date.
-4. Save each preview as a standalone HTML file.
-5. Open each preview in the browser and send the absolute file paths.
+```sh
+node scripts/preview.mjs --title "<deck title>" --subtitle "<short context>" <slug...>
+```
+
+This writes standalone first-slide previews to `previews/<slug>-preview.html`. Use multiple slugs in one command when comparing candidates, either as separate arguments or comma-separated values.
+
+When the user needs visual comparison artifacts, render screenshots from the generated preview files:
+
+```sh
+node scripts/screenshot.mjs previews/<slug>-preview.html
+```
+
+If screenshot dependencies are not installed yet, run:
+
+```sh
+npm install
+npx playwright install chromium
+```
+
+Open the generated preview HTML files or screenshots in the browser and send the absolute file paths.
 
 Preview files are for choosing a direction. Once the user chooses, build the full deck in that template.
 

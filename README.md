@@ -92,3 +92,36 @@ node scripts/validate-visual.mjs --template airy-modern
 
 The visual validator launches a local Chrome/Chromium-compatible browser at a 16:9 `1280x720` viewport. It checks browser console errors, uncaught runtime exceptions, visible text/content overflow on active slides, and basic navigation behavior when a template declares navigation features. Set `CHROME_BIN=/path/to/chrome` or pass `--browser /path/to/chrome` if Chrome is not in a standard location.
 It requires Node.js 22 or newer and Chrome/Chromium 112 or newer.
+
+## Preview And Screenshot Tools
+
+Use previews when visual taste is uncertain, multiple templates are plausible, or the deck choice is high-stakes.
+
+Generate first-slide preview HTML for one or more candidates:
+
+```sh
+node scripts/preview.mjs --title "AI Platform Review" --subtitle "Candidate cover directions" airy-modern,circuit-tech-dark
+```
+
+By default, previews are written to `previews/<slug>-preview.html`. The `previews/` directory is ignored because these are temporary comparison artifacts.
+
+Render a PNG screenshot for a template slug or preview HTML file:
+
+```sh
+node scripts/screenshot.mjs previews/airy-modern-preview.html
+node scripts/screenshot.mjs airy-modern
+```
+
+Screenshots are written to `previews/screenshots/<name>.png` by default. The screenshot command uses Playwright, so first-time setup is:
+
+```sh
+npm install
+npx playwright install chromium
+```
+
+Command help:
+
+```sh
+node scripts/preview.mjs --help
+node scripts/screenshot.mjs --help
+```
