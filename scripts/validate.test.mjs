@@ -1,10 +1,19 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { mkdtemp, mkdir, writeFile, rm, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
 
 import { validateLibrary } from './validate.mjs';
+
+function resolveSchemaRef(schema, propertySchema, fieldName = '(unknown)') {
+  assert.ok(propertySchema, `schema property "${fieldName}" is missing`);
+  if (!propertySchema.$ref) return propertySchema;
+
+  const definitionName = propertySchema.$ref.replace('#/$defs/', '');
+  assert.ok(schema.$defs?.[definitionName], `schema $defs "${definitionName}" is missing`);
+  return schema.$defs[definitionName];
+}
 
 async function makeTemplate(root, slug, metadata = {}, slideCount = 1, options = {}) {
   const templateDir = path.join(root, 'templates', slug);
@@ -153,6 +162,150 @@ test('accepts palette colors represented as rgb or rgba in CSS', async () => {
     });
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('schema defines optional machine-readable content limits', async () => {
+  const schemaPath = path.join(process.cwd(), 'schema', 'template.schema.json');
+  const schema = JSON.parse(await readFile(schemaPath, 'utf8'));
+  const contentLimits = schema.properties.content_limits;
+
+  assert.ok(contentLimits);
+  assert.equal(schema.required.includes('content_limits'), false);
+  assert.equal(contentLimits.type, 'object');
+  assert.equal(contentLimits.additionalProperties, false);
+  assert.equal(contentLimits.minProperties, 1);
+
+  for (const field of [
+    'max_title_chars',
+    'max_subtitle_chars',
+    'max_body_chars_per_slide',
+    'recommended_slide_count_min',
+    'recommended_slide_count_max'
+  ]) {
+    const fieldSchema = resolveSchemaRef(schema, contentLimits.properties[field], field);
+    assert.equal(fieldSchema.type, 'integer');
+    assert.equal(fieldSchema.minimum, 1);
+  }
+
+  for (const field of ['max_bullets', 'max_cards']) {
+    const propertySchema = contentLimits.properties[field];
+    const fieldSchema = resolveSchemaRef(schema, propertySchema, field);
+    assert.equal(fieldSchema.type, 'integer');
+    assert.equal(fieldSchema.minimum, 0);
+    assert.match(propertySchema.description, /use 0 when this template does not support/i);
+  }
+});
+
+test('reports invalid content limit values', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-content-limits-invalid-'));
+  try {
+    await makeTemplate(root, 'content-limits-invalid', {
+      content_limits: {
+        max_title_chars: 0,
+        max_subtitle_chars: '80',
+        max_body_chars_per_slide: 500.5,
+        max_bullets: -1,
+        max_cards: 'many',
+        recommended_slide_count_min: 8,
+        recommended_slide_count_max: 4,
+        unknown_limit: 3
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"content_limits.max_title_chars" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_subtitle_chars" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_body_chars_per_slide" must be an integer >= 1/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_bullets" must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"content_limits.max_cards" must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"content_limits.unknown_limit" is not allowed/);
+    assert.match(result.errors.join('\n'), /"content_limits.recommended_slide_count_max" must be >= "content_limits.recommended_slide_count_min"/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('reports malformed layout slot metadata', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-invalid', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          '',
+          { type: 'text' },
+          { name: 'subtitle', required: 'yes' }
+        ],
+        extra: ['title']
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"layout_slots" must describe every declared layout/);
+    assert.match(result.errors.join('\n'), /"layout_slots.extra" does not match a declared layout/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 2 must be a non-empty string or slot object/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 3 name must be a non-empty string/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 4 required must be a boolean/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('reports duplicate layout slot names within a layout', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-duplicate-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-duplicates', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          {
+            name: 'title',
+            type: 'text'
+          }
+        ],
+        agenda: ['title']
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" contains duplicate slot name "title"/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('accepts string and object layout slot metadata', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-valid-layout-slots-'));
+  try {
+    await makeTemplate(root, 'layout-slots-valid', {
+      layouts: ['cover', 'agenda'],
+      layout_slots: {
+        cover: [
+          'title',
+          {
+            name: 'subtitle',
+            type: 'text',
+            required: false
+          }
+        ],
+        agenda: [
+          {
+            name: 'items',
+            type: 'list',
+            repeatable: true,
+            description: 'Agenda item labels.'
+          }
+        ]
+      }
+    });
+    const result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.errors, []);
   } finally {
     await rm(root, { recursive: true, force: true });
   }

@@ -42,6 +42,15 @@
   "best_for": "Quarterly business reviews, sales updates, operating dashboards, and performance-report decks where the audience needs to scan many charts, cards, and KPI blocks quickly.",
   "avoid_for": "Narrative keynote decks, brand manifestos, or highly emotional presentations where the plain spreadsheet-like information design would feel too utilitarian.",
   "slide_count": 29,
+  "content_limits": {
+    "max_title_chars": 52,
+    "max_subtitle_chars": 130,
+    "max_body_chars_per_slide": 780,
+    "max_bullets": 7,
+    "max_cards": 8,
+    "recommended_slide_count_min": 20,
+    "recommended_slide_count_max": 32
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,

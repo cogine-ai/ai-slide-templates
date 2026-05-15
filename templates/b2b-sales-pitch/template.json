@@ -38,6 +38,15 @@
   "best_for": "B2B SaaS and platform sales pitches that need to feel modern, confident, scalable, and visually differentiated without becoming playful.",
   "avoid_for": "Highly conservative financial or legal presentations, delicate editorial decks, or contexts where photo-led sales polish would feel too commercial.",
   "slide_count": 15,
+  "content_limits": {
+    "max_title_chars": 44,
+    "max_subtitle_chars": 110,
+    "max_body_chars_per_slide": 520,
+    "max_bullets": 5,
+    "max_cards": 4,
+    "recommended_slide_count_min": 10,
+    "recommended_slide_count_max": 16
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,

@@ -41,6 +41,15 @@
   "best_for": "Technology pitches, UI product demos, founder decks, and concepts that should feel like an interactive interface mockup.",
   "avoid_for": "Warm storytelling, luxury editorial work, or formal reports that need traditional authority.",
   "slide_count": 6,
+  "content_limits": {
+    "max_title_chars": 36,
+    "max_subtitle_chars": 90,
+    "max_body_chars_per_slide": 420,
+    "max_bullets": 4,
+    "max_cards": 4,
+    "recommended_slide_count_min": 5,
+    "recommended_slide_count_max": 8
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,
