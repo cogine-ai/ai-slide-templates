@@ -4,9 +4,31 @@ Self-contained HTML slide templates for AI-assisted deck generation.
 
 Each template is a folder under `templates/` with a runnable HTML deck and a JSON metadata file. Agents select templates by scanning `templates/*/template.json`, then clone and adapt the chosen `template.html` for the user's real deck.
 
-## Use With Any AI Agent
+## Recommended: Use The Skill
 
-Copy this into your AI coding agent:
+Install this repository's skill into a Skills-compatible agent:
+
+```bash
+npx skills add https://github.com/cogine-ai/ai-slide-templates --skill ai-slide-templates
+```
+
+Then ask your agent to use it:
+
+```txt
+Use $ai-slide-templates to turn my content into a finished browser-openable HTML slide deck.
+```
+
+The skill guides the agent to clone this repository, read `AGENTS.md`, use `INPUT_GUIDE.md` when the source material needs shaping, choose a template from `templates/*/template.json`, adapt the chosen `template.html`, and verify the finished deck.
+
+If your team already installs the Cogine development skill collection, the same skill is also available there:
+
+```bash
+npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide-templates
+```
+
+## Manual Agent Prompt
+
+If your agent does not support Skills yet, copy this prompt into your AI coding agent:
 
 ```txt
 Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before you start. This repo is a library of self-contained HTML slide templates for AI-assisted deck generation. Treat AGENTS.md as the authoritative workflow: use it to select a template, preview options, preserve the chosen template's design system, and produce a finished browser-openable HTML deck from my content.
@@ -20,12 +42,6 @@ See [`examples/`](examples/) for end-to-end workflow examples that show the inpu
 
 - [`structured-outline-to-output.md`](examples/structured-outline-to-output.md): a structured outline turned into a metric-led business review deck.
 - [`raw-notes-to-output.md`](examples/raw-notes-to-output.md): long script/raw notes compressed into a clear product research deck.
-
-## Installable Skill
-
-This repo includes an agent skill at `skills/ai-slide-templates/`. Install or copy that folder into your agent's skills directory when you want the agent to remember this workflow automatically.
-
-The skill guides agents to clone this repository, read `AGENTS.md`, select a template from `templates/*/template.json`, adapt the chosen `template.html`, and verify the finished browser-openable deck.
 
 ## Structure
 
