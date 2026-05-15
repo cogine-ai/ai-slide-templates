@@ -14,6 +14,13 @@ Clone https://github.com/cogine-ai/ai-slide-templates and read AGENTS.md before 
 
 For better results, read [INPUT_GUIDE.md](INPUT_GUIDE.md) before asking an agent to build a deck. It explains what content to provide, how to brief audience and tone, and when the agent should synthesize an outline first.
 
+## Examples
+
+See [`examples/`](examples/) for end-to-end workflow examples that show the input, metadata-based template selection, derived deck outline, generated output structure, and common failure modes.
+
+- [`structured-outline-to-output.md`](examples/structured-outline-to-output.md): a structured outline turned into a metric-led business review deck.
+- [`raw-notes-to-output.md`](examples/raw-notes-to-output.md): long script/raw notes compressed into a clear product research deck.
+
 ## Structure
 
 ```txt
