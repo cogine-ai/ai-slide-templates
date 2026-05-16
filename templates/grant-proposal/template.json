@@ -53,18 +53,18 @@
     "source_preview_slides": 12
   },
   "layouts": [
-    "document-cover",
-    "need-statement",
-    "program-model",
-    "evidence-panel",
-    "budget-table",
-    "timeline",
+    "formal-cover",
+    "executive-letter",
+    "need-table",
+    "logic-model",
+    "evidence-panels",
+    "implementation-plan",
+    "budget-summary",
     "evaluation-plan",
     "risk-controls",
+    "partnership-grid",
     "sustainability-plan",
-    "governance",
-    "funding-ask",
-    "closing-formal"
+    "closing-ask"
   ],
   "content_limits": {
     "max_title_chars": 86,
