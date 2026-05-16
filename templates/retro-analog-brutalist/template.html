@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Analog Brutalist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #050505;
+      --surface: #FFFFFF;
+      --panel: #111111;
+      --primary: #145CFF;
+      --accent: #F8E436;
+      --ink: #FFFFFF;
+      --muted: #8D8D8D;
+      --line: #F8E436;
+      --display-font: 'Space Mono', monospace;
+      --body-font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { display: grid; place-items: center; font-family: var(--body-font); background: #111111; color: var(--ink); }
+    .deck { width: min(100vw, calc(100vh * 16 / 9)); height: min(100vh, calc(100vw * 9 / 16)); position: relative; overflow: hidden; background: var(--bg); }
+    .slide { position: absolute; inset: 0; width: 100%; height: 100%; padding: 48px 58px 76px; overflow: hidden; opacity: 0; pointer-events: none; transform: translateX(28px); transition: opacity .32s ease, transform .32s ease; background: var(--bg); }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 5; }
+    .slide.prev { transform: translateX(-28px); }
+    h1, h2, h3, .display, .kicker, .num, .tag { font-family: var(--display-font); letter-spacing: 0; }
+    h1 { font-size: 74px; line-height: .96; font-weight: 900; }
+    h2 { font-size: 50px; line-height: 1.02; font-weight: 850; }
+    h3 { font-size: 23px; line-height: 1.12; font-weight: 800; }
+    p, li, td, th { font-size: 15px; line-height: 1.48; color: var(--muted); }
+    ul, ol { padding-left: 18px; }
+    .kicker { font-size: 13px; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; color: var(--primary); }
+    .tag { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 7px 13px; border: 1.5px solid var(--line); border-radius: 999px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--surface); }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 18px; position: relative; z-index: 4; margin-bottom: 24px; }
+    .grid { display: grid; gap: 18px; }
+    .two { grid-template-columns: 1fr 1fr; }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .four { grid-template-columns: repeat(4, 1fr); }
+    .card { position: relative; background: var(--surface); border: 2px solid var(--line); padding: 22px; overflow: hidden; }
+    .num { font-size: 54px; line-height: .88; font-weight: 900; color: var(--primary); }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.4vh; z-index: 80; font-family: var(--display-font); font-size: 12px; font-weight: 800; color: var(--muted); }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.55vh; transform: translateX(-50%); z-index: 80; font-size: 11px; color: var(--muted); opacity: .72; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--primary); z-index: 80; transition: width .32s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2vh; z-index: 80; display: flex; gap: 10px; }
+    .nav-btn { width: 42px; height: 42px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--surface); color: var(--primary); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--primary); color: var(--bg); }
+    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    @media (max-width: 900px) {
+      .slide { padding: 34px 32px 72px; }
+      h1 { font-size: 48px; }
+      h2 { font-size: 34px; }
+      .keyboard-hint { display: none; }
+      .two, .three, .four { grid-template-columns: 1fr; }
+    }
+
+    .retro-bg { background: #050505; color: #FFFFFF; }
+    .retro .deck { background: #050505; }
+    .retro p, .retro li { color: #E7E7E7; }
+    .retro-cover { background: #050505; color: #FFFFFF; display: grid; grid-template-columns: 1fr 360px; gap: 38px; align-items: center; }
+    .retro-cover h1 { color: #145CFF; font-size: 82px; text-shadow: 0 0 18px rgba(20,92,255,.85), 5px 5px 0 #000000, 9px 9px 0 #F8E436; text-transform: uppercase; }
+    .retro-cover .cover-copy p:last-child { margin-top: 26px; max-width: 540px; font-size: 18px; }
+    .retro-cover .console { background: #FFFFFF; color: #050505; border: 5px solid #F8E436; padding: 22px; min-height: 430px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 18px 18px 0 #145CFF; }
+    .retro-cover .console pre { white-space: pre-wrap; font: 700 19px/1.45 'Space Mono', monospace; color: #050505; }
+    .retro-cover .scan { height: 78px; background: repeating-linear-gradient(0deg,#050505 0 4px,#FFFFFF 4px 9px); border: 3px solid #050505; }
+    .r-panel { border: 4px solid #050505; box-shadow: 10px 10px 0 #050505; background: #FFFFFF; color: #050505; }
+    .r-panel p, .r-panel li { color: #050505; }
+    .r-blue { background: #145CFF; color: #FFFFFF; border-color: #FFFFFF; }
+    .r-blue p { color: #FFFFFF; }
+    .r-yellow { background: #F8E436; color: #050505; }
+    .r-black { background: #050505; color: #FFFFFF; border-color: #F8E436; }
+    .r-black p { color: #FFFFFF; }
+    .retro-contents { background: #F8E436; }
+    .retro-contents h2 { color: #050505; text-transform: uppercase; max-width: 720px; }
+    .retro-contents .tile-grid { grid-template-columns: repeat(3, 1fr); margin-top: 26px; }
+    .retro-contents .tile { min-height: 142px; padding: 20px; }
+    .retro-contents b { font-family: var(--display-font); font-size: 30px; }
+    .retro-split { display: grid; grid-template-columns: 45% 55%; padding: 0; background: #145CFF; color: #FFFFFF; }
+    .retro-split .left { padding: 54px; background: #050505; }
+    .retro-split .right { position: relative; padding: 54px; display: grid; place-items: center; }
+    .retro-split .right:before { content: ''; position: absolute; right: 70px; top: 55px; width: 260px; height: 260px; background: #F8E436; clip-path: polygon(0 0,100% 12%,78% 100%,14% 82%); }
+    .retro-split h2 { color: #F8E436; text-transform: uppercase; font-size: 45px; }
+    .retro-split .block-note { position: relative; z-index: 2; width: 68%; background: #FFFFFF; color: #050505; border: 5px solid #050505; padding: 30px; box-shadow: 16px 16px 0 #F8E436; }
+    .retro-split .block-note p { color: #050505; }
+    .retro-stats { background: #050505; color: #FFFFFF; }
+    .retro-stats h2 { color: #FFFFFF; text-transform: uppercase; }
+    .retro-stats .stat-grid { grid-template-columns: 1.1fr .85fr 1.05fr; height: 420px; margin-top: 26px; }
+    .retro-stats .stat { padding: 28px; display: flex; flex-direction: column; justify-content: space-between; }
+    .retro-stats .stat strong { font-family: var(--display-font); font-size: 78px; line-height: .9; }
+    .retro-map { background: #FFFFFF; color: #050505; }
+    .retro-map h2 { color: #050505; }
+    .retro-map .map { position: relative; height: 400px; margin-top: 20px; background: #050505; border: 5px solid #050505; }
+    .retro-map .node { position: absolute; width: 160px; height: 96px; display: grid; place-items: center; text-align: center; font-family: var(--display-font); font-weight: 800; border: 3px solid #F8E436; background: #145CFF; color: #FFFFFF; z-index: 2; }
+    .retro-map .wire { position: absolute; height: 4px; background: #F8E436; transform-origin: left center; }
+    .retro-map .w1 { left: 200px; top: 112px; width: 350px; transform: rotate(11deg); }
+    .retro-map .w2 { left: 515px; top: 194px; width: 330px; transform: rotate(-22deg); }
+    .retro-map .w3 { left: 280px; top: 310px; width: 470px; transform: rotate(-7deg); }
+    .retro-map .n1 { left: 55px; top: 66px; } .retro-map .n2 { left: 418px; top: 136px; } .retro-map .n3 { right: 72px; top: 70px; } .retro-map .n4 { left: 610px; bottom: 42px; }
+    .retro-command { background: #050505; color: #FFFFFF; }
+    .retro-command .terminal { background: #111111; color: #F8E436; border: 3px solid #145CFF; padding: 30px; height: 440px; font: 700 22px/1.7 'Space Mono', monospace; box-shadow: inset 0 0 26px rgba(20,92,255,.45); }
+    .retro-command .terminal span { color: #145CFF; }
+    .retro-chart { background: #F8E436; color: #050505; }
+    .retro-chart h2 { color: #050505; max-width: 760px; }
+    .retro-chart .chart { height: 330px; border-left: 5px solid #050505; border-bottom: 5px solid #050505; position: relative; margin-top: 42px; }
+    .retro-chart .bar { position: absolute; bottom: 0; width: 62px; background: #145CFF; border: 3px solid #050505; }
+    .retro-chart span { position: absolute; bottom: -36px; color: #050505; font-weight: 800; }
+    .retro-chart span:nth-of-type(1) { left: 6%; } .retro-chart span:nth-of-type(2) { left: 37%; } .retro-chart span:nth-of-type(3) { left: 68%; }
+    .retro-gallery { background: #145CFF; color: #FFFFFF; }
+    .retro-gallery .lead { position: absolute; left: 58px; top: 50px; width: 390px; height: 250px; }
+    .retro-gallery .shot { position: absolute; display: grid; place-items: center; font-family: var(--display-font); font-weight: 900; border: 5px solid #050505; background: #FFFFFF; color: #050505; box-shadow: 12px 12px 0 #F8E436; }
+    .retro-gallery .s1 { right: 86px; top: 64px; width: 460px; height: 220px; }
+    .retro-gallery .s2 { left: 160px; bottom: 118px; width: 260px; height: 190px; background: #F8E436; }
+    .retro-gallery .s3 { left: 465px; bottom: 92px; width: 260px; height: 255px; }
+    .retro-gallery .s4 { right: 70px; bottom: 118px; width: 220px; height: 166px; background: #050505; color: #FFFFFF; border-color: #F8E436; }
+    .retro-modules { background: #050505; display: grid; grid-template-columns: 1.4fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 18px; }
+    .retro-modules .m { padding: 24px; }
+    .retro-modules .big { grid-row: 1 / 4; display: flex; flex-direction: column; justify-content: space-between; }
+    .retro-modules .big h2 { font-size: 52px; color: #FFFFFF; }
+    .retro-quote { display: grid; place-items: center; text-align: center; background: radial-gradient(circle at 50% 42%, rgba(20,92,255,.55), transparent 34%), #050505; }
+    .retro-quote blockquote { max-width: 880px; font: 900 56px/1.04 'Space Mono', monospace; color: #FFFFFF; text-shadow: 0 0 18px #145CFF; }
+    .retro-process { background: #FFFFFF; color: #050505; }
+    .retro-process h3 { color: #050505; }
+    .retro-process .steps { position: relative; height: 420px; }
+    .retro-process article { position: absolute; width: 245px; min-height: 140px; padding: 22px; background: #F8E436; border: 4px solid #050505; box-shadow: 10px 10px 0 #145CFF; transform: rotate(-9deg); }
+    .retro-process article:nth-child(1) { left: 30px; top: 34px; } .retro-process article:nth-child(2) { left: 300px; top: 118px; transform: rotate(7deg); } .retro-process article:nth-child(3) { right: 300px; top: 34px; } .retro-process article:nth-child(4) { right: 30px; top: 142px; transform: rotate(8deg); }
+    .retro-team { background: #F8E436; color: #050505; }
+    .retro-team .people { margin-top: 56px; }
+    .retro-team article { min-height: 270px; background: #FFFFFF; border: 4px solid #050505; padding: 24px; box-shadow: 12px 12px 0 #145CFF; }
+    .retro-team article p { color: #050505; margin-top: 16px; }
+    .retro-style { background: #050505; color: #FFFFFF; }
+    .retro-style h2 { color: #F8E436; text-transform: uppercase; }
+    .retro-style .swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 36px 0; }
+    .retro-style .swatches span { height: 132px; display: grid; place-items: end start; padding: 16px; font-family: var(--display-font); border: 3px solid #FFFFFF; }
+    .retro-style .swatches span:nth-child(1) { background: #050505; } .retro-style .swatches span:nth-child(2) { background: #145CFF; } .retro-style .swatches span:nth-child(3) { background: #F8E436; color: #050505; } .retro-style .swatches span:nth-child(4) { background: #FFFFFF; color: #050505; }
+    .retro-style .type-sample { border: 3px solid #145CFF; padding: 24px; }
+    .retro-style .type-sample h1 { color: #FFFFFF; font-size: 60px; }
+    .retro-poster { background: #145CFF; color: #FFFFFF; }
+    .retro-poster h1 { color: #F8E436; text-transform: uppercase; font-size: 88px; max-width: 820px; }
+    .retro-poster .caption { position: absolute; right: 58px; bottom: 100px; width: 340px; background: #FFFFFF; color: #050505; border: 4px solid #050505; padding: 24px; box-shadow: 12px 12px 0 #F8E436; }
+    .retro-poster .caption p { color: #050505; }
+    .retro-done { background: #050505; display: grid; place-items: center; }
+    .retro-done .done-box { width: 720px; background: #FFFFFF; color: #050505; border: 5px solid #F8E436; box-shadow: 20px 20px 0 #145CFF; padding: 42px; }
+    .retro-done h1 { color: #145CFF; text-transform: uppercase; }
+    .retro-done p { color: #050505; }
+    .retro-done code { display: block; margin-top: 24px; padding: 16px; background: #050505; color: #F8E436; font: 700 18px/1 'Space Mono', monospace; }
+
+  </style>
+</head>
+<body class="retro">
+  <main class="deck">
+    <section class="slide retro-cover active" data-layout="terminal-cover">
+      <div class="cover-copy"><p class="kicker">Agency OS / 1984 reboot</p><h1>Retro<br>Analog<br>Launch</h1><p>High-voltage product narrative for a creative tech studio shipping a strange, useful AI workflow tool.</p></div><div class="console"><pre>&gt; boot deck
+&gt; load signal
+&gt; switch on blue
+&gt; distort grid
+&gt; publish strange future</pre><div class="scan"></div><span class="tag">PUBLIC BETA 02</span></div>
+    </section>
+    <section class="slide retro-contents" data-layout="resource-grid">
+      <div class="topline"><p class="kicker">Resource overview</p><span class="tag">01 / Index</span></div><h2>The system is built from five loud modules.</h2><div class="tile-grid grid"><article class="tile r-panel r-blue"><b>01</b><h3>Signal</h3><p>Where demand is coming from.</p></article><article class="tile r-panel r-yellow"><b>02</b><h3>Interface</h3><p>What people touch first.</p></article><article class="tile r-panel"><b>03</b><h3>Proof</h3><p>Why the loop is real.</p></article><article class="tile r-panel r-black"><b>04</b><h3>Launch</h3><p>How the release lands.</p></article><article class="tile r-panel r-blue"><b>05</b><h3>Culture</h3><p>Why it feels memorable.</p></article><article class="tile r-panel r-yellow"><b>06</b><h3>Credits</h3><p>What to remix next.</p></article></div>
+    </section>
+    <section class="slide retro-split" data-layout="brutalist-split">
+      <div class="left"><p class="kicker">Problem frame</p><h2>Useful tools vanish when the wrapper looks generic.</h2><p>Teams remember products that make a clear sensory promise. The launch needs more than a clean dashboard: it needs a memorable machine language.</p></div><div class="right"><div class="block-note"><h3>Design bet</h3><p>Make the pitch feel like a recovered terminal manual from the near future: sharp, modular, direct, and impossible to confuse with a beige SaaS deck.</p></div></div>
+    </section>
+    <section class="slide retro-stats" data-layout="machine-stats">
+      <div class="topline"><p class="kicker">Machine stats</p><span class="tag">Live sample</span></div><h2>Launch signals look noisy, so we make the noise visible.</h2><div class="stat-grid grid"><article class="stat r-panel r-blue"><strong>7.4x</strong><p>More saved workflows after the guided loop ships.</p></article><article class="stat r-panel r-yellow"><strong>38%</strong><p>Lower setup friction from prompt presets.</p></article><article class="stat r-panel"><strong>04</strong><p>Segments: founders, operators, agencies, research teams.</p></article></div>
+    </section>
+    <section class="slide retro-map" data-layout="system-map">
+      <div class="topline"><p class="kicker">System map</p><span class="tag">Signal path</span></div><h2>Four nodes create the launch loop.</h2><div class="map"><span class="wire w1"></span><span class="wire w2"></span><span class="wire w3"></span><div class="node n1">Audience<br>Input</div><div class="node n2">Prompt<br>Router</div><div class="node n3">Proof<br>Engine</div><div class="node n4">Ship<br>Console</div></div>
+    </section>
+    <section class="slide retro-command" data-layout="command-list">
+      <div class="topline"><p class="kicker">Command sequence</p><span class="tag">Do this first</span></div><div class="terminal"><p><span>$</span> define audience memory</p><p><span>$</span> wire template presets to real use cases</p><p><span>$</span> record one repeatable demo loop</p><p><span>$</span> publish with a high-contrast visual identity</p><p><span>$</span> measure activation by saved artifacts</p></div>
+    </section>
+    <section class="slide retro-chart" data-layout="signal-chart">
+      <div class="topline"><p class="kicker">Signal chart</p><span class="tag">Q2 sample</span></div><h2>Activation climbs when demo content stops looking safe.</h2><div class="chart"><i class="bar" style="left:8%;height:38%"></i><i class="bar" style="left:24%;height:54%"></i><i class="bar" style="left:40%;height:48%"></i><i class="bar" style="left:56%;height:72%"></i><i class="bar" style="left:72%;height:86%"></i><span>Demo watched</span><span>Template used</span><span>Workflow saved</span></div>
+    </section>
+    <section class="slide retro-gallery" data-layout="image-blocks">
+      <div class="r-panel r-yellow lead"><h2>Screenshot wall</h2><p>Replace these block frames with product captures, launch posters, or social proof. Keep the heavy borders and hard offset shadows.</p></div><div class="shot s1">Interface A</div><div class="shot s2">Prompt B</div><div class="shot s3">Result C</div><div class="shot s4">Console D</div>
+    </section>
+    <section class="slide retro-modules" data-layout="asymmetric-modules">
+      <article class="m big r-panel r-blue"><span class="num">01</span><h2>Lead with the weirdest useful thing.</h2></article><article class="m r-panel r-yellow"><h3>Cut setup time</h3><p>Presets turn a blank prompt into a known job.</p></article><article class="m r-panel"><h3>Save evidence</h3><p>Every output can be reused by the next agent.</p></article><article class="m r-panel r-black"><h3>Make it feel alive</h3><p>Motion and glow act like product personality.</p></article>
+    </section>
+    <section class="slide retro-quote" data-layout="glow-quote">
+      <blockquote>"The point is not nostalgia. The point is a system people can recognize after one slide."</blockquote><p>Launch creative direction</p>
+    </section>
+    <section class="slide retro-process" data-layout="diagonal-process">
+      <div class="topline"><p class="kicker">Process</p><span class="tag">Diagonal build</span></div><div class="steps"><article><b>01</b><h3>Capture raw jobs</h3></article><article><b>02</b><h3>Convert to repeatable routes</h3></article><article><b>03</b><h3>Package the strongest loop</h3></article><article><b>04</b><h3>Launch with proof</h3></article></div>
+    </section>
+    <section class="slide retro-team" data-layout="team-grid">
+      <div class="topline"><p class="kicker">Crew roles</p><span class="tag">Operating team</span></div><div class="people grid four"><article><h3>Creative Lead</h3><p>Owns identity and launch rhythm.</p></article><article><h3>Product Lead</h3><p>Owns demo paths and artifacts.</p></article><article><h3>Engineer</h3><p>Owns reliability and presets.</p></article><article><h3>Growth</h3><p>Owns distribution and proof.</p></article></div>
+    </section>
+    <section class="slide retro-style" data-layout="style-sheet">
+      <h2>Visual language sheet</h2><div class="swatches"><span>#050505</span><span>#145CFF</span><span>#F8E436</span><span>#FFFFFF</span></div><div class="type-sample"><h1>SPACE MONO</h1><p>Inter body copy sits under loud monospace display type. Keep titles uppercase, tight, and blocky.</p></div>
+    </section>
+    <section class="slide retro-poster" data-layout="poster-close">
+      <p class="kicker">Launch poster</p><h1>Make the useful thing impossible to ignore.</h1><div class="caption"><h3>Next release</h3><p>Ship the template presets, record the workflow proof, then publish the visual system as a repeatable launch kit.</p></div>
+    </section>
+    <section class="slide retro-done" data-layout="boot-complete">
+      <div class="done-box"><p class="kicker">Boot complete</p><h1>Ready to ship.</h1><p>Use this final slide for contact details, repository links, or a live demo URL.</p><code>launch --deck retro-analog-brutalist</code></div>
+    </section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="keyboard-hint">Use arrow keys</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    totalEl.textContent = slides.length;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        if (index < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+    }
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const diff = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>

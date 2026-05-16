@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matisse Collage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F7ECD8;
+      --surface: #F6C648;
+      --panel: #FFFFFF;
+      --primary: #2D2FAE;
+      --accent: #E3533D;
+      --ink: #2D2FAE;
+      --muted: #5B3D6B;
+      --line: #2D2FAE;
+      --display-font: 'Cormorant Garamond', serif;
+      --body-font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { display: grid; place-items: center; font-family: var(--body-font); background: #111111; color: var(--ink); }
+    .deck { width: min(100vw, calc(100vh * 16 / 9)); height: min(100vh, calc(100vw * 9 / 16)); position: relative; overflow: hidden; background: var(--bg); }
+    .slide { position: absolute; inset: 0; width: 100%; height: 100%; padding: 48px 58px 76px; overflow: hidden; opacity: 0; pointer-events: none; transform: translateX(28px); transition: opacity .32s ease, transform .32s ease; background: var(--bg); }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 5; }
+    .slide.prev { transform: translateX(-28px); }
+    h1, h2, h3, .display, .kicker, .num, .tag { font-family: var(--display-font); letter-spacing: 0; }
+    h1 { font-size: 74px; line-height: .96; font-weight: 900; }
+    h2 { font-size: 50px; line-height: 1.02; font-weight: 850; }
+    h3 { font-size: 23px; line-height: 1.12; font-weight: 800; }
+    p, li, td, th { font-size: 15px; line-height: 1.48; color: var(--muted); }
+    ul, ol { padding-left: 18px; }
+    .kicker { font-size: 13px; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; color: var(--primary); }
+    .tag { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 7px 13px; border: 1.5px solid var(--line); border-radius: 999px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--surface); }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 18px; position: relative; z-index: 4; margin-bottom: 24px; }
+    .grid { display: grid; gap: 18px; }
+    .two { grid-template-columns: 1fr 1fr; }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .four { grid-template-columns: repeat(4, 1fr); }
+    .card { position: relative; background: var(--surface); border: 2px solid var(--line); padding: 22px; overflow: hidden; }
+    .num { font-size: 54px; line-height: .88; font-weight: 900; color: var(--primary); }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.4vh; z-index: 80; font-family: var(--display-font); font-size: 12px; font-weight: 800; color: var(--muted); }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.55vh; transform: translateX(-50%); z-index: 80; font-size: 11px; color: var(--muted); opacity: .72; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--primary); z-index: 80; transition: width .32s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2vh; z-index: 80; display: flex; gap: 10px; }
+    .nav-btn { width: 42px; height: 42px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--surface); color: var(--primary); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--primary); color: var(--bg); }
+    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    @media (max-width: 900px) {
+      .slide { padding: 34px 32px 72px; }
+      h1 { font-size: 48px; }
+      h2 { font-size: 34px; }
+      .keyboard-hint { display: none; }
+      .two, .three, .four { grid-template-columns: 1fr; }
+    }
+
+    .matisse .deck, .matisse-bg { background: #F7ECD8; }
+    .matisse h1, .matisse h2 { color: #2D2FAE; font-weight: 700; }
+    .matisse h3 { color: #2D2FAE; }
+    .matisse p, .matisse li { color: #5B3D6B; }
+    .matisse .kicker { color: #7A59B7; }
+    .matisse .cut { position: absolute; display: block; background: #2D2FAE; z-index: 1; }
+    .matisse .leaf { width: 112px; height: 210px; border-radius: 90% 0 90% 0; transform: rotate(36deg); }
+    .matisse .flower { width: 135px; height: 118px; border-radius: 60% 45% 65% 42%; background: #F6C648; }
+    .matisse .coral { width: 160px; height: 190px; background: #E3533D; clip-path: polygon(12% 0,42% 18%,58% 0,88% 18%,73% 48%,100% 68%,68% 83%,62% 100%,38% 82%,8% 96%,24% 60%,0 44%); }
+    .matisse .dancer { width: 92px; height: 260px; background: #050505; clip-path: polygon(42% 0,56% 2%,54% 16%,82% 26%,76% 36%,54% 28%,60% 58%,89% 100%,75% 100%,45% 64%,22% 100%,8% 100%,34% 58%,30% 30%,8% 42%,0 32%,28% 14%); }
+    .matisse-cover { text-align: center; display: grid; place-items: center; }
+    .matisse-cover h1 { font-size: 64px; line-height: 1.08; }
+    .matisse-cover p:last-child { max-width: 620px; margin: 18px auto 0; }
+    .matisse-cover .a { left: 90px; top: 75px; } .matisse-cover .b { right: 105px; top: 72px; } .matisse-cover .c { left: 170px; bottom: 96px; }
+    .matisse-how { display: grid; grid-template-columns: 58% 42%; padding: 0; }
+    .matisse-how .copy { padding: 62px 70px; text-align: center; display: grid; align-content: center; gap: 22px; }
+    .matisse-how .pink { position: relative; background: #F05D9B; overflow: hidden; }
+    .matisse-how .d { left: 70px; top: 42px; background: #F6C648; } .matisse-how .e { right: 120px; top: 190px; } .matisse-how .f { left: 190px; bottom: 88px; background: #2D2FAE; }
+    .matisse-agenda { background: #2F2DA8; display: grid; place-items: center; }
+    .matisse-agenda .center-card { width: 52%; height: 72%; background: #F7ECD8; display: grid; place-items: center; text-align: center; z-index: 3; padding: 46px; }
+    .matisse-agenda .g { left: 150px; top: 75px; background: #E3533D; } .matisse-agenda .h { right: 180px; bottom: 90px; background: #F6C648; }
+    .matisse-profile { display: grid; grid-template-columns: 1fr 1fr; padding: 0; }
+    .matisse-profile .photo { margin: 78px 68px; background: linear-gradient(135deg,#f4f4f4,#bababa); box-shadow: -34px -34px 0 #2D2FAE; position: relative; }
+    .matisse-profile .photo .dancer { left: 50%; top: 50%; transform: translate(-50%,-50%); }
+    .matisse-profile .hello { background: #F6C648; display: grid; place-items: center; text-align: center; padding: 70px; position: relative; }
+    .matisse-profile .hello div { position: relative; z-index: 2; }
+    .matisse-profile .i { right: 35px; bottom: 70px; background: #E3533D; transform: rotate(-18deg); }
+    .matisse-topic { text-align: center; }
+    .matisse-topic .botanical { grid-template-columns: repeat(3,1fr); margin-top: 58px; }
+    .matisse-topic .botanical article { min-height: 260px; display: grid; place-items: end center; position: relative; }
+    .matisse-topic .botanical .cut { left: 50%; top: 16px; transform: translateX(-50%) rotate(22deg); }
+    .matisse-topic .botanical h3 { position: relative; z-index: 3; background: #F7ECD8; padding: 10px 20px; }
+    .matisse-quote { display: grid; grid-template-columns: 42% 58%; align-items: center; }
+    .matisse-quote blockquote { font-family: var(--display-font); color: #2D2FAE; font-size: 54px; line-height: 1.08; position: relative; z-index: 2; }
+    .matisse-quote > div { position: relative; height: 480px; }
+    .matisse-quote .big { left: 160px; top: 86px; height: 330px; width: 120px; } .matisse-quote .j { right: 36px; top: 42px; }
+    .matisse-exhibit { background: #F6C648; }
+    .matisse-exhibit .wall { grid-template-columns: 1.1fr .9fr 1fr; height: 360px; margin-top: 24px; }
+    .matisse-exhibit .frame { background: #F7ECD8; border: 0; display: grid; place-items: center; text-align: center; position: relative; }
+    .matisse-exhibit .frame .cut { left: 50%; top: 45%; transform: translate(-50%,-50%) rotate(20deg); }
+    .matisse-exhibit .frame h3 { position: relative; z-index: 2; align-self: end; padding-bottom: 26px; }
+    .matisse-metrics { text-align: center; }
+    .matisse-metrics h2 { margin: 8px auto 46px; }
+    .matisse-metrics .metric { text-align: center; border: 0; background: transparent; min-height: 245px; }
+    .matisse-metrics strong { display: block; font-family: var(--display-font); font-size: 78px; color: #E3533D; }
+    .matisse-compare { display: grid; grid-template-columns: 1fr 1fr; padding: 0; }
+    .matisse-compare .side { padding: 72px; position: relative; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+    .matisse-compare .side:nth-child(1) { background: #2D2FAE; color: #F7ECD8; }
+    .matisse-compare .side:nth-child(1) h2, .matisse-compare .side:nth-child(1) p { color: #F7ECD8; }
+    .matisse-compare .side .cut { right: 60px; bottom: 60px; opacity: .9; }
+    .matisse-process { text-align: center; }
+    .matisse-process h2 { max-width: 720px; margin: 44px auto; }
+    .matisse-process .steps article { background: #F6C648; min-height: 200px; padding: 24px; display: grid; align-content: center; }
+    .matisse-process b { font-family: var(--display-font); font-size: 48px; color: #E3533D; }
+    .matisse-artwork { display: grid; grid-template-columns: 58% 42%; gap: 36px; align-items: center; }
+    .matisse-artwork .artboard { height: 470px; background: #FFFFFF; position: relative; box-shadow: 22px 22px 0 #F6C648; }
+    .matisse-artwork aside { padding-right: 40px; }
+    .matisse-artwork .a { left: 70px; top: 40px; } .matisse-artwork .k { right: 80px; bottom: 60px; background: #F6C648; } .matisse-artwork .l { left: 260px; top: 160px; } .matisse-artwork .m { right: 150px; top: 70px; }
+    .matisse-resources { background: #2D2FAE; }
+    .matisse-resources h2, .matisse-resources h3, .matisse-resources p, .matisse-resources .kicker { color: #F7ECD8; }
+    .matisse-resources .grid { margin-top: 44px; }
+    .matisse-resources article { background: #F7ECD8; min-height: 260px; padding: 28px; }
+    .matisse-resources article h3 { color: #2D2FAE; } .matisse-resources article p { color: #5B3D6B; }
+    .matisse-notes { background: #F05D9B; display: grid; grid-template-columns: 58% 42%; align-items: center; }
+    .matisse-notes .note { background: #F7ECD8; padding: 42px; position: relative; z-index: 2; }
+    .matisse-notes .n { right: 150px; top: 160px; width: 135px; height: 360px; }
+    .matisse-close { text-align: center; display: grid; place-items: center; }
+    .matisse-close h1 { font-size: 74px; line-height: .98; }
+    .matisse-close p:last-child { max-width: 520px; margin: 20px auto 0; }
+    .matisse-close .o { left: 80px; top: 80px; } .matisse-close .p { right: 100px; top: 90px; } .matisse-close .q { left: 190px; bottom: 90px; }
+    .matisse-credits { display: grid; place-items: center; background: #F6C648; }
+    .matisse-credits .credit-card { width: 650px; background: #F7ECD8; text-align: center; padding: 52px; box-shadow: 24px 24px 0 #2D2FAE; }
+
+  </style>
+</head>
+<body class="matisse">
+  <main class="deck">
+    <section class="slide matisse-cover active" data-layout="paper-cover">
+      <span class="cut leaf a"></span><span class="cut coral b"></span><span class="cut flower c"></span><div><p class="kicker">Art workshop deck</p><h1>Matisse Cutout<br>Studio</h1><p>A soft, gallery-like template for creative lessons, museum talks, community workshops, and visual storytelling.</p></div>
+    </section>
+    <section class="slide matisse-how" data-layout="how-to-read">
+      <div class="copy"><p class="kicker">How to use</p><h2>Let each page feel like a collage wall.</h2><p>Large serif titles sit on cream paper while cut shapes create rhythm around concise teaching notes.</p></div><div class="pink"><span class="cut leaf d"></span><span class="cut dancer e"></span><span class="cut flower f"></span></div>
+    </section>
+    <section class="slide matisse-agenda" data-layout="gallery-agenda">
+      <span class="cut coral g"></span><span class="cut leaf h"></span><div class="center-card"><p class="kicker">Table of contents</p><h2>Color, shape,<br>space, story</h2><p>Four studio movements for turning observation into expressive composition.</p></div>
+    </section>
+    <section class="slide matisse-profile" data-layout="split-profile">
+      <div class="photo"><span class="cut dancer"></span></div><div class="hello"><span class="cut leaf i"></span><div><p class="kicker">Artist profile</p><h2>Henri Matisse as a design language</h2><p>Late cutouts used color as architecture. This template borrows the spacious paper field, theatrical silhouettes, and simple shape grammar.</p></div></div>
+    </section>
+    <section class="slide matisse-topic" data-layout="botanical-topic">
+      <p class="kicker">Studio vocabulary</p><h2>Three shape families carry the deck.</h2><div class="botanical grid"><article><span class="cut leaf"></span><h3>Leaves</h3></article><article><span class="cut coral"></span><h3>Coral</h3></article><article><span class="cut flower"></span><h3>Petals</h3></article></div>
+    </section>
+    <section class="slide matisse-quote" data-layout="quote-collage">
+      <div><span class="cut dancer big"></span><span class="cut flower j"></span></div><blockquote>"A cut shape can behave like a sentence when the white space is doing real work."</blockquote>
+    </section>
+    <section class="slide matisse-exhibit" data-layout="exhibit-wall">
+      <div class="topline"><p class="kicker">Gallery wall</p><span class="tag">Replaceable frames</span></div><h2>Use framed blocks for images, student work, or visual examples.</h2><div class="wall grid"><article class="frame"><span class="cut leaf"></span><h3>Example 01</h3></article><article class="frame"><span class="cut coral"></span><h3>Example 02</h3></article><article class="frame"><span class="cut flower"></span><h3>Example 03</h3></article></div>
+    </section>
+    <section class="slide matisse-metrics" data-layout="metric-collage">
+      <p class="kicker">Workshop impact</p><h2>Measure attention through making.</h2><div class="grid three"><article class="metric"><strong>45</strong><p>Minutes of guided composition practice.</p></article><article class="metric"><strong>06</strong><p>Shape prompts for remixing source material.</p></article><article class="metric"><strong>12</strong><p>Participant works reviewed in the final wall.</p></article></div>
+    </section>
+    <section class="slide matisse-compare" data-layout="two-color-compare">
+      <div class="side"><p class="kicker">Before</p><h2>Literal reference</h2><p>Raw notes, copied forms, and crowded explanation.</p><span class="cut leaf"></span></div><div class="side"><p class="kicker">After</p><h2>Expressive reduction</h2><p>One idea, one gesture, one confident color relationship.</p><span class="cut coral"></span></div>
+    </section>
+    <section class="slide matisse-process" data-layout="process-cuts">
+      <h2>Cut, arrange, pause, revise.</h2><div class="steps grid four"><article><b>01</b><p>Choose a source image.</p></article><article><b>02</b><p>Reduce it to silhouettes.</p></article><article><b>03</b><p>Place color against quiet paper.</p></article><article><b>04</b><p>Let imbalance create motion.</p></article></div>
+    </section>
+    <section class="slide matisse-artwork" data-layout="captioned-artwork">
+      <div class="artboard"><span class="cut leaf a"></span><span class="cut leaf k"></span><span class="cut coral l"></span><span class="cut flower m"></span></div><aside><p class="kicker">Featured exercise</p><h2>Build one poster from only five shapes.</h2><p>The constraint keeps the work elegant and makes the composition choices easy to discuss.</p></aside>
+    </section>
+    <section class="slide matisse-resources" data-layout="resource-grid">
+      <p class="kicker">Resource page</p><h2>Materials</h2><div class="grid three"><article><h3>Paper</h3><p>Warm background, one highlight, one dark anchor.</p></article><article><h3>Tools</h3><p>Scissors, glue, camera, and a clean wall.</p></article><article><h3>Prompt</h3><p>What emotion can be shown with only edges?</p></article></div>
+    </section>
+    <section class="slide matisse-notes" data-layout="teacher-notes">
+      <div class="note"><p class="kicker">Facilitator notes</p><h2>Keep critique visual.</h2><ul><li>Ask where the eye enters first.</li><li>Name the strongest color tension.</li><li>Remove one shape before adding another.</li><li>Let blank space stay blank.</li></ul></div><span class="cut dancer n"></span>
+    </section>
+    <section class="slide matisse-close" data-layout="closing-poster">
+      <span class="cut leaf o"></span><span class="cut coral p"></span><span class="cut flower q"></span><div><p class="kicker">Closing wall</p><h1>Make space<br>for color.</h1><p>Use this page as a final gallery title, thank-you, or workshop prompt.</p></div>
+    </section>
+    <section class="slide matisse-credits" data-layout="credits">
+      <div class="credit-card"><p class="kicker">Credits</p><h2>Matisse Collage</h2><p>Source-inspired HTML deck with editable cut-paper shapes, serif display type, and wide cream-paper layouts.</p></div>
+    </section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="keyboard-hint">Use arrow keys</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    totalEl.textContent = slides.length;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        if (index < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+    }
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const diff = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>
