@@ -200,7 +200,28 @@
                   "type": "string",
                   "minLength": 1
                 }
-              }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "required": [
+                      "type"
+                    ],
+                    "properties": {
+                      "type": {
+                        "const": "array"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "items",
+                      "minItems",
+                      "maxItems"
+                    ]
+                  }
+                }
+              ]
             }
           ]
         }

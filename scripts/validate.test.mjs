@@ -199,6 +199,23 @@ test('schema defines optional machine-readable content limits', async () => {
   }
 });
 
+test('schema requires structured metadata for array layout slots', async () => {
+  const schemaPath = path.join(process.cwd(), 'schema', 'template.schema.json');
+  const schema = JSON.parse(await readFile(schemaPath, 'utf8'));
+  const slotObjectSchema = schema.properties.layout_slots.additionalProperties.items.oneOf.find(
+    (candidate) => candidate.type === 'object'
+  );
+
+  assert.ok(slotObjectSchema, 'layout slot object schema is missing');
+  assert.equal(slotObjectSchema.properties.items.$ref, '#/$defs/layoutSlotItemSchema');
+  assert.equal(slotObjectSchema.properties.minItems.$ref, '#/$defs/nonNegativeInteger');
+  assert.equal(slotObjectSchema.properties.maxItems.$ref, '#/$defs/nonNegativeInteger');
+
+  const arrayConstraint = slotObjectSchema.allOf.find((candidate) => candidate.if?.properties?.type?.const === 'array');
+  assert.ok(arrayConstraint, 'array slot conditional constraint is missing');
+  assert.deepEqual(arrayConstraint.then.required, ['items', 'minItems', 'maxItems']);
+});
+
 test('reports invalid content limit values', async () => {
   const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-content-limits-invalid-'));
   try {
