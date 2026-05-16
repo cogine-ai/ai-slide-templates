@@ -187,6 +187,15 @@
                 "repeatable": {
                   "type": "boolean"
                 },
+                "minItems": {
+                  "$ref": "#/$defs/nonNegativeInteger"
+                },
+                "maxItems": {
+                  "$ref": "#/$defs/nonNegativeInteger"
+                },
+                "items": {
+                  "$ref": "#/$defs/layoutSlotItemSchema"
+                },
                 "description": {
                   "type": "string",
                   "minLength": 1
@@ -268,6 +277,51 @@
     "nonNegativeInteger": {
       "type": "integer",
       "minimum": 0
+    },
+    "layoutSlotItemSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "properties": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/$defs/layoutSlotItemFieldSchema"
+          }
+        }
+      }
+    },
+    "layoutSlotItemFieldSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }

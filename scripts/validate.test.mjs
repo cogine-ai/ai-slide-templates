@@ -238,7 +238,22 @@ test('reports malformed layout slot metadata', async () => {
           'title',
           '',
           { type: 'text' },
-          { name: 'subtitle', required: 'yes' }
+          { name: 'subtitle', required: 'yes' },
+          { name: 'cards', type: 'array', items: 'card', minItems: -1, maxItems: 'many' },
+          { name: 'rows', type: 'array', minItems: 3, maxItems: 2 },
+          {
+            name: 'metrics',
+            type: 'array',
+            minItems: 1,
+            maxItems: 3,
+            items: {
+              type: 'object',
+              required: ['value'],
+              properties: {
+                label: { type: 'text' }
+              }
+            }
+          }
         ],
         extra: ['title']
       }
@@ -250,6 +265,12 @@ test('reports malformed layout slot metadata', async () => {
     assert.match(result.errors.join('\n'), /"layout_slots.cover" item 2 must be a non-empty string or slot object/);
     assert.match(result.errors.join('\n'), /"layout_slots.cover" item 3 name must be a non-empty string/);
     assert.match(result.errors.join('\n'), /"layout_slots.cover" item 4 required must be a boolean/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 5 items must be an object schema/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 5 minItems must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 5 maxItems must be an integer >= 0/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 6 maxItems must be >= minItems/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 6 array slots must include items schema/);
+    assert.match(result.errors.join('\n'), /"layout_slots.cover" item 7 items.required field "value" must exist in items.properties/);
   } finally {
     await rm(root, { recursive: true, force: true });
   }
@@ -296,8 +317,20 @@ test('accepts string and object layout slot metadata', async () => {
         agenda: [
           {
             name: 'items',
-            type: 'list',
+            type: 'array',
             repeatable: true,
+            minItems: 1,
+            maxItems: 5,
+            items: {
+              type: 'object',
+              required: ['label'],
+              properties: {
+                label: {
+                  type: 'text',
+                  description: 'Agenda item label.'
+                }
+              }
+            },
             description: 'Agenda item labels.'
           }
         ]

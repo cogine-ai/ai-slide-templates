@@ -178,7 +178,21 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Eight contents cards, each represented as a short section label."
+        "description": "Eight contents cards, each represented as a short section label.",
+        "minItems": 1,
+        "maxItems": 8,
+        "items": {
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "text",
+              "description": "Contents card label."
+            }
+          }
+        }
       }
     ],
     "company-overview": [
@@ -257,7 +271,31 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Three scope modules with number, title, and body fields."
+        "description": "Three scope modules with number, title, and body fields.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "number",
+            "title",
+            "body"
+          ],
+          "properties": {
+            "number": {
+              "type": "label",
+              "description": "Large module number."
+            },
+            "title": {
+              "type": "text",
+              "description": "Module title."
+            },
+            "body": {
+              "type": "text",
+              "description": "Module supporting copy."
+            }
+          }
+        }
       }
     ],
     "problem-opportunity": [
@@ -316,7 +354,21 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Five architecture step labels."
+        "description": "Five architecture step labels.",
+        "minItems": 1,
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "text",
+              "description": "Architecture step label."
+            }
+          }
+        }
       }
     ],
     "requirements-table": [
@@ -337,7 +389,31 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Table rows with requirement, owner, and decision cells."
+        "description": "Table rows with requirement, owner, and decision cells.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "requirement",
+            "owner",
+            "decision"
+          ],
+          "properties": {
+            "requirement": {
+              "type": "text",
+              "description": "Requirement cell."
+            },
+            "owner": {
+              "type": "text",
+              "description": "Owner cell."
+            },
+            "decision": {
+              "type": "text",
+              "description": "Decision cell."
+            }
+          }
+        }
       }
     ],
     "deliverables-grid": [
@@ -358,7 +434,26 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Four deliverable cards with title and body fields."
+        "description": "Four deliverable cards with title and body fields.",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "title",
+            "body"
+          ],
+          "properties": {
+            "title": {
+              "type": "text",
+              "description": "Deliverable card title."
+            },
+            "body": {
+              "type": "text",
+              "description": "Deliverable card body."
+            }
+          }
+        }
       }
     ],
     "timeline-stages": [
@@ -379,7 +474,26 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Five timeline stages with number and title fields."
+        "description": "Five timeline stages with number and title fields.",
+        "minItems": 1,
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "required": [
+            "number",
+            "title"
+          ],
+          "properties": {
+            "number": {
+              "type": "label",
+              "description": "Timeline stage number."
+            },
+            "title": {
+              "type": "text",
+              "description": "Timeline stage title."
+            }
+          }
+        }
       }
     ],
     "budget-summary": [
@@ -438,7 +552,31 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Budget rows with workstream, budget, and notes cells."
+        "description": "Budget rows with workstream, budget, and notes cells.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "workstream",
+            "budget",
+            "notes"
+          ],
+          "properties": {
+            "workstream": {
+              "type": "text",
+              "description": "Workstream cell."
+            },
+            "budget": {
+              "type": "text",
+              "description": "Budget cell."
+            },
+            "notes": {
+              "type": "text",
+              "description": "Notes cell."
+            }
+          }
+        }
       }
     ],
     "market-map": [
@@ -465,7 +603,21 @@
         "type": "array",
         "required": false,
         "repeatable": true,
-        "description": "Map or stakeholder points represented in the right-side map visual."
+        "description": "Map or stakeholder points represented in the right-side map visual.",
+        "minItems": 0,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "text",
+              "description": "Map or stakeholder point label."
+            }
+          }
+        }
       }
     ],
     "team-profile": [
@@ -486,7 +638,30 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Three team member cards with role title, body, and optional portrait."
+        "description": "Three team member cards with role title, body, and optional portrait.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "role_title",
+            "body"
+          ],
+          "properties": {
+            "role_title": {
+              "type": "text",
+              "description": "Team member role or name."
+            },
+            "body": {
+              "type": "text",
+              "description": "Team member responsibility copy."
+            },
+            "portrait": {
+              "type": "object",
+              "description": "Optional portrait or avatar replacement."
+            }
+          }
+        }
       }
     ],
     "service-packages": [
@@ -507,7 +682,31 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Three package cards with tag, title, and body fields."
+        "description": "Three package cards with tag, title, and body fields.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "tag",
+            "title",
+            "body"
+          ],
+          "properties": {
+            "tag": {
+              "type": "label",
+              "description": "Package tier tag."
+            },
+            "title": {
+              "type": "text",
+              "description": "Package title."
+            },
+            "body": {
+              "type": "text",
+              "description": "Package description."
+            }
+          }
+        }
       }
     ],
     "process-diagram": [
@@ -528,7 +727,21 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Four process step labels."
+        "description": "Four process step labels.",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "text",
+              "description": "Process step label."
+            }
+          }
+        }
       }
     ],
     "risk-mitigation": [
@@ -549,7 +762,26 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Three risk cards with title and mitigation body."
+        "description": "Three risk cards with title and mitigation body.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "title",
+            "body"
+          ],
+          "properties": {
+            "title": {
+              "type": "text",
+              "description": "Risk title."
+            },
+            "body": {
+              "type": "text",
+              "description": "Mitigation body."
+            }
+          }
+        }
       }
     ],
     "success-metrics": [
@@ -570,7 +802,26 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Four metric cards with value and label fields."
+        "description": "Four metric cards with value and label fields.",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "value",
+            "label"
+          ],
+          "properties": {
+            "value": {
+              "type": "text",
+              "description": "Highlighted metric value."
+            },
+            "label": {
+              "type": "text",
+              "description": "Metric label."
+            }
+          }
+        }
       }
     ],
     "mockup-showcase": [
@@ -617,7 +868,36 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Matrix rows with option, speed, depth, and cost cells."
+        "description": "Matrix rows with option, speed, depth, and cost cells.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "option",
+            "speed",
+            "depth",
+            "cost"
+          ],
+          "properties": {
+            "option": {
+              "type": "text",
+              "description": "Option cell."
+            },
+            "speed": {
+              "type": "text",
+              "description": "Speed cell."
+            },
+            "depth": {
+              "type": "text",
+              "description": "Depth cell."
+            },
+            "cost": {
+              "type": "text",
+              "description": "Cost cell."
+            }
+          }
+        }
       }
     ],
     "future-vision": [
@@ -658,7 +938,26 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Four implementation stages with timing and title fields."
+        "description": "Four implementation stages with timing and title fields.",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": [
+            "timing",
+            "title"
+          ],
+          "properties": {
+            "timing": {
+              "type": "label",
+              "description": "Roadmap timing label."
+            },
+            "title": {
+              "type": "text",
+              "description": "Roadmap stage title."
+            }
+          }
+        }
       }
     ],
     "decision-slide": [
@@ -705,7 +1004,21 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Three resource labels in the grid."
+        "description": "Three resource labels in the grid.",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "text",
+              "description": "Resource label."
+            }
+          }
+        }
       },
       {
         "name": "body",
@@ -752,7 +1065,21 @@
         "type": "array",
         "required": true,
         "repeatable": true,
-        "description": "Contact lines such as email and website."
+        "description": "Contact lines such as email and website.",
+        "minItems": 1,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": [
+            "line"
+          ],
+          "properties": {
+            "line": {
+              "type": "text",
+              "description": "Contact detail line."
+            }
+          }
+        }
       }
     ]
   },
