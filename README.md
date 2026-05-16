@@ -1,4 +1,4 @@
-# Slide Templates
+# AI Slide Templates
 
 Self-contained HTML slide templates for AI-assisted deck generation.
 
