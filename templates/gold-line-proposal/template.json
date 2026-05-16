@@ -46,7 +46,7 @@
     "max_subtitle_chars": 150,
     "max_body_chars_per_slide": 760,
     "max_bullets": 6,
-    "max_cards": 5,
+    "max_cards": 8,
     "recommended_slide_count_min": 14,
     "recommended_slide_count_max": 27
   },
@@ -94,486 +94,665 @@
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Small proposal category label above the cover title."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Primary cover title."
       },
       {
-        "name": "body",
+        "name": "subtitle",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": true,
+        "description": "Cover subtitle below the main title inside the gold frame."
+      },
+      {
+        "name": "cover_note",
+        "type": "text",
+        "required": false,
+        "description": "Small explanatory note positioned outside the cover frame."
       }
     ],
     "proposal-intro": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Intro section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Main introductory headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Intro paragraph under the headline."
+      },
+      {
+        "name": "sidebar_number",
+        "type": "label",
+        "required": false,
+        "description": "Large numeric marker in the right-side panel."
+      },
+      {
+        "name": "sidebar_title",
+        "type": "text",
+        "required": true,
+        "description": "Right-side panel title."
+      },
+      {
+        "name": "sidebar_body",
+        "type": "text",
+        "required": false,
+        "description": "Right-side panel supporting copy."
       }
     ],
     "contents-grid": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Contents section label."
+      },
+      {
+        "name": "tag",
+        "type": "label",
+        "required": false,
+        "description": "Small tag in the top-right topline."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Contents slide headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "cards",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Eight contents cards, each represented as a short section label."
       }
     ],
     "company-overview": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Company section label."
+      },
+      {
+        "name": "tag",
+        "type": "label",
+        "required": false,
+        "description": "Small profile tag in the topline."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Company overview headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Company overview paragraph."
+      },
+      {
+        "name": "portrait_visual",
+        "type": "object",
+        "required": false,
+        "description": "Right-side portrait or visual placeholder content."
       }
     ],
     "mission-statement": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Mission section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Large centered mission statement."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Short supporting mission copy."
       }
     ],
     "project-scope": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Project section label."
+      },
+      {
+        "name": "tag",
+        "type": "label",
+        "required": false,
+        "description": "Small scope tag in the topline."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Project scope headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "modules",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Three scope modules with number, title, and body fields."
       }
     ],
     "problem-opportunity": [
       {
-        "name": "kicker",
+        "name": "left_kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Left column label."
       },
       {
-        "name": "title",
+        "name": "left_title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Left column headline."
       },
       {
-        "name": "body",
+        "name": "left_body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Left column supporting copy."
+      },
+      {
+        "name": "right_kicker",
+        "type": "label",
+        "required": false,
+        "description": "Right column label."
+      },
+      {
+        "name": "right_title",
+        "type": "text",
+        "required": true,
+        "description": "Right column headline."
+      },
+      {
+        "name": "right_body",
+        "type": "text",
+        "required": false,
+        "description": "Right column supporting copy."
       }
     ],
     "solution-architecture": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Solution section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Architecture slide headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "steps",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Five architecture step labels."
       }
     ],
     "requirements-table": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Requirements section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Requirements table headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "table_rows",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Table rows with requirement, owner, and decision cells."
       }
     ],
     "deliverables-grid": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Deliverables section label."
       },
       {
-        "name": "title",
-        "type": "text",
+        "name": "tag",
+        "type": "label",
+        "required": false,
+        "description": "Small outputs tag in the topline."
+      },
+      {
+        "name": "cards",
+        "type": "array",
         "required": true,
-        "description": "Primary slide headline."
-      },
-      {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "repeatable": true,
+        "description": "Four deliverable cards with title and body fields."
       }
     ],
     "timeline-stages": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Timeline section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Timeline headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "stages",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Five timeline stages with number and title fields."
       }
     ],
     "budget-summary": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Budget section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Budget headline."
+      },
+      {
+        "name": "amount",
+        "type": "text",
+        "required": true,
+        "description": "Large highlighted investment amount."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Budget summary paragraph."
+      },
+      {
+        "name": "sidebar_title",
+        "type": "text",
+        "required": false,
+        "description": "Budget mix sidebar title."
+      },
+      {
+        "name": "budget_mix_visual",
+        "type": "object",
+        "required": false,
+        "description": "Circular budget mix visualization values or replacement visual."
       }
     ],
     "budget-table": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Budget table section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Budget table headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "table_rows",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Budget rows with workstream, budget, and notes cells."
       }
     ],
     "market-map": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Market section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Market map headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Market map explanatory copy."
+      },
+      {
+        "name": "map_points",
+        "type": "array",
+        "required": false,
+        "repeatable": true,
+        "description": "Map or stakeholder points represented in the right-side map visual."
       }
     ],
     "team-profile": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Team section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Team slide headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "members",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Three team member cards with role title, body, and optional portrait."
       }
     ],
     "service-packages": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Package section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Service package headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "packages",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Three package cards with tag, title, and body fields."
       }
     ],
     "process-diagram": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Method section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Process headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "steps",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Four process step labels."
       }
     ],
     "risk-mitigation": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Risk section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Risk slide headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "risks",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Three risk cards with title and mitigation body."
       }
     ],
     "success-metrics": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Metrics section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Metrics headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "metrics",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Four metric cards with value and label fields."
       }
     ],
     "mockup-showcase": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Mockup section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Mockup slide headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Mockup explanatory paragraph."
+      },
+      {
+        "name": "device_visual",
+        "type": "object",
+        "required": false,
+        "description": "Right-side device screenshot or visual replacement."
       }
     ],
     "comparison-matrix": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Comparison section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Comparison matrix headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "table_rows",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Matrix rows with option, speed, depth, and cost cells."
       }
     ],
     "future-vision": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Future section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Large future-state headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Short supporting copy for the destination state."
       }
     ],
     "implementation-roadmap": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Roadmap section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Roadmap headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "stages",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Four implementation stages with timing and title fields."
       }
     ],
     "decision-slide": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Decision section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Decision slide headline."
+      },
+      {
+        "name": "recommendation",
+        "type": "text",
+        "required": true,
+        "description": "Large recommended decision inside the decision box."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Decision rationale below the recommendation."
       }
     ],
     "resource-credits": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Resources section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Resources slide headline."
+      },
+      {
+        "name": "resources",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Three resource labels in the grid."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Resource usage note below the grid."
       }
     ],
     "thank-you": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Closing section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Thank-you headline."
       },
       {
         "name": "body",
         "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "required": false,
+        "description": "Short closing note."
       }
     ],
     "closing-contact": [
       {
         "name": "kicker",
         "type": "label",
-        "description": "Short section label or slide marker."
+        "required": false,
+        "description": "Contact section label."
       },
       {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Primary slide headline."
+        "description": "Final contact headline."
       },
       {
-        "name": "body",
-        "type": "text",
-        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+        "name": "contact_lines",
+        "type": "array",
+        "required": true,
+        "repeatable": true,
+        "description": "Contact lines such as email and website."
       }
     ]
   },
