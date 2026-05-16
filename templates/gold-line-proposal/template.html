@@ -3,90 +3,240 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gold Line Proposal Candidate Template</title>
+  <title>Gold Line Proposal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{width:100%;height:100%;overflow:hidden}
-body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
-.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
-.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
-.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
-.slide.prev{transform:translateX(-34px)}
-h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
-h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
-h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
-h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
-p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
-.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
-.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
-.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
-.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
-.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
-.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
-.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
-.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
-.nav-btn:disabled{opacity:.32;cursor:not-allowed}
-@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+    :root {
+      --display-font: 'Cinzel', serif;
+      --body-font: 'Montserrat', sans-serif;
+      --bg: #282B31;
+      --surface: #30333A;
+      --panel: #1F2228;
+      --ink: #F3E9D0;
+      --text: #E4DDCF;
+      --muted: #A89F90;
+      --accent: #D2A74F;
+      --line: rgba(210,167,79,.44);
+      --tag-bg: rgba(210,167,79,.1);
+      --nav-bg: #282B31;
+      --nav-hover: #282B31;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { font-family: var(--body-font); background: var(--bg); color: var(--text); }
+    .deck { position: relative; width: 100vw; height: 100vh; overflow: hidden; background: var(--bg); }
+    .slide { position: absolute; inset: 0; width: 100vw; height: 100vh; padding: 4.5vw 5vw 8.6vh; overflow: hidden; opacity: 0; pointer-events: none; transform: translateX(34px); transition: opacity .38s ease, transform .38s ease; }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 5; }
+    .slide.prev { transform: translateX(-34px); }
+    .slide > * { position: relative; z-index: 2; }
+    h1, h2, h3, .display, .num, .kicker, .tag { font-family: var(--display-font); letter-spacing: 0; }
+    h1 { font-size: clamp(3.2rem, 6.2vw, 6.8rem); line-height: .94; font-weight: 700; }
+    h2 { font-size: clamp(2.15rem, 4.15vw, 4.4rem); line-height: 1.02; font-weight: 700; }
+    h3 { font-size: clamp(1rem, 1.42vw, 1.34rem); line-height: 1.18; font-weight: 700; }
+    p, li, td, th { font-size: clamp(.78rem, .96vw, .95rem); line-height: 1.48; color: var(--muted); }
+    ul, ol { padding-left: 1.15rem; }
+    li { margin: .42rem 0; }
+    table { width: 100%; border-collapse: collapse; }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.1vh; }
+    .kicker { text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 800; color: var(--accent); }
+    .tag { text-transform: uppercase; letter-spacing: .08em; font-size: .66rem; font-weight: 800; padding: .38rem .7rem; border: 1px solid var(--line); color: var(--accent); background: var(--tag-bg); }
+    .grid { display: grid; gap: 1rem; }
+    .two { grid-template-columns: repeat(2, 1fr); }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .four { grid-template-columns: repeat(4, 1fr); }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.35vh; z-index: 80; font-family: var(--body-font); color: var(--muted); font-size: .74rem; font-weight: 800; }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.52vh; transform: translateX(-50%); z-index: 80; color: var(--muted); font-size: .66rem; opacity: .7; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; z-index: 80; background: var(--accent); transition: width .34s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2vh; z-index: 80; display: flex; gap: .62rem; }
+    .nav-btn { width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--nav-bg); color: var(--accent); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--accent); color: var(--nav-hover); }
+    .nav-btn:disabled { opacity: .34; cursor: not-allowed; }
+    @media (max-height: 720px) { .slide { padding-top: 3.2vw; } h1 { font-size: clamp(2.8rem, 5.4vw, 5.6rem); } h2 { font-size: clamp(2rem, 3.8vw, 3.8rem); } }
 
-:root{--display-font:Oswald,sans-serif;--body-font:Inter,sans-serif;--bg:#282B31;--surface:#30333A;--panel:#1F2228;--ink:#F3E9D0;--text:#E4DDCF;--muted:#A89F90;--accent:#D2A74F;--tag-bg:rgba(210,167,79,.1);--line:rgba(210,167,79,.44);--nav-bg:#282B31;--nav-hover:#282B31}
-.deck{background:#282B31}.deck:before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,transparent 0 34%,rgba(210,167,79,.5) 34% 34.2%,transparent 34.2%),linear-gradient(160deg,transparent 0 62%,rgba(210,167,79,.38) 62% 62.18%,transparent 62.18%);opacity:.8}.slide>*{position:relative;z-index:2}h1,h2,h3{text-transform:uppercase;letter-spacing:.05em}.proposal-cover{justify-content:center;align-items:center;text-align:center}.title-box{border:3px solid var(--accent);padding:2rem 3rem;min-width:48vw}.gold-card{background:rgba(31,34,40,.7);border:1px solid var(--line);padding:1.2rem}.summary{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem}.summary .gold-card{min-height:260px}.req{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}.req .gold-card{min-height:230px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.8rem}.steps .gold-card{min-height:300px}.steps b{font-family:var(--display-font);font-size:3.2rem;color:var(--accent)}.invest{display:grid;grid-template-columns:.8fr 1.2fr;gap:1.2rem;flex:1}.price{display:grid;place-items:center;text-align:center}.price strong{font-family:var(--display-font);font-size:7rem;color:var(--accent);line-height:1}.close{justify-content:center;text-align:center}.close h1{max-width:72vw;margin:auto}
-</style>
+    .gold .deck { background: #282B31; }
+    .gold .deck:before, .gold .deck:after { content: ''; position: absolute; inset: 0; pointer-events: none; }
+    .gold .deck:before { background: linear-gradient(132deg, transparent 0 31%, rgba(210,167,79,.56) 31% 31.18%, transparent 31.18%), linear-gradient(154deg, transparent 0 70%, rgba(210,167,79,.36) 70% 70.16%, transparent 70.16%); }
+    .gold .deck:after { inset: 8vh 5vw 10vh; border: 1px solid rgba(210,167,79,.25); opacity: .7; }
+    .gold h1, .gold h2, .gold h3 { text-transform: uppercase; letter-spacing: .045em; color: #F3E9D0; }
+    .gold p, .gold li, .gold td { color: #A89F90; }
+    .gold .g-frame { border: 2px solid #D2A74F; padding: 2rem 2.6rem; background: rgba(31,34,40,.58); }
+    .gold .g-cover-note { text-align: center; margin-top: 1.25rem; }
+    .gold-cover { display: grid; place-items: center; text-align: center; }
+    .gold-cover h1 { font-size: clamp(4.8rem, 10vw, 10.8rem); line-height: .8; }
+    .gold-cover h2 { color: #D2A74F; font-size: clamp(1.7rem, 3vw, 3.2rem); }
+    .gold-split, .gold-budget, .gold-map, .gold-mockup { display: grid; grid-template-columns: .95fr 1.05fr; gap: 2rem; align-items: center; }
+    .g-panel, .gold-scope article, .gold-deliverables article, .gold-packages article, .gold-risk article, .gold-metrics article, .gold-team article, .gold-credits article, .decision-box { background: rgba(31,34,40,.72); border: 1px solid rgba(210,167,79,.45); padding: 1.25rem; }
+    .gold .num { display: block; font-size: 5.4rem; color: #D2A74F; line-height: .9; }
+    .gold-contents .g-cards, .gold-deliverables .g-cards { margin-top: 1.4rem; }
+    .gold-contents article, .gold-credits article { min-height: 128px; border: 1px solid #D2A74F; display: grid; place-items: center; text-align: center; color: #F3E9D0; font-family: var(--display-font); text-transform: uppercase; letter-spacing: .08em; }
+    .gold-wide { display: grid; grid-template-columns: 1fr .82fr; gap: 2rem; align-items: center; }
+    .g-portrait { height: 430px; border: 1px solid #D2A74F; position: relative; background: linear-gradient(135deg, #1F2228, #30333A); }
+    .g-portrait span { position: absolute; inset: 9%; border: 1px solid #D2A74F; border-radius: 50% 50% 0 0; }
+    .gold-center { display: grid; place-items: center; text-align: center; padding-left: 12vw; padding-right: 12vw; }
+    .gold-center h1 { max-width: 900px; }
+    .gold-center p { max-width: 600px; margin-top: 1rem; }
+    .gold-scope .grid, .gold-team .grid, .gold-packages .grid, .gold-risk .grid, .gold-metrics .grid { margin-top: 1.4rem; }
+    .gold-scope article, .gold-packages article { min-height: 252px; }
+    .gold-scope b { display: block; font-family: var(--display-font); color: #D2A74F; font-size: 3.6rem; line-height: .9; margin-bottom: 1.2rem; }
+    .gold-dual { display: grid; grid-template-columns: 1fr 1fr; padding: 0; }
+    .gold-dual section { padding: 5vw; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid rgba(210,167,79,.45); }
+    .gold-dual section:last-child { border-right: 0; background: rgba(210,167,79,.08); }
+    .gold-architecture h2 { margin-bottom: 2rem; }
+    .g-arch, .g-flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: .7rem; }
+    .g-arch span, .g-flow span { min-height: 250px; border: 1px solid #D2A74F; display: grid; place-items: center; color: #F3E9D0; font-family: var(--display-font); text-transform: uppercase; }
+    .gold-table table { margin-top: 1.3rem; background: rgba(31,34,40,.66); }
+    .gold-table th, .gold-table td { border: 1px solid rgba(210,167,79,.45); padding: .9rem 1rem; text-align: left; }
+    .gold-table th { color: #D2A74F; font-family: var(--display-font); text-transform: uppercase; }
+    .gold-timeline .g-timeline { display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 2rem; border-top: 1px solid #D2A74F; border-bottom: 1px solid #D2A74F; }
+    .gold-roadmap .g-road { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 2rem; border-top: 1px solid #D2A74F; border-bottom: 1px solid #D2A74F; }
+    .gold-timeline article, .gold-roadmap article { min-height: 240px; padding: 1rem; border-right: 1px solid #D2A74F; }
+    .gold-timeline article:last-child, .gold-roadmap article:last-child { border-right: 0; }
+    .gold-timeline b, .gold-roadmap b { font-family: var(--display-font); color: #D2A74F; font-size: 2.2rem; }
+    .gold-budget .amount { font-family: var(--display-font); font-size: 6rem; color: #D2A74F; line-height: 1; margin: 1rem 0; }
+    .g-ring { width: 280px; height: 280px; border-radius: 50%; border: 34px solid #D2A74F; border-left-color: #30333A; margin: 2rem auto 0; }
+    .g-map { height: 430px; border: 1px solid #D2A74F; position: relative; background: radial-gradient(circle at 30% 35%, rgba(210,167,79,.42) 0 10px, transparent 11px), radial-gradient(circle at 64% 48%, rgba(210,167,79,.42) 0 10px, transparent 11px), linear-gradient(132deg, transparent 49%, rgba(210,167,79,.55) 49.2% 49.6%, transparent 49.8%); }
+    .gold-team .avatar { height: 180px; border: 1px solid #D2A74F; border-radius: 50% 50% 0 0; margin-bottom: 1rem; background: linear-gradient(135deg, #30333A, #1F2228); }
+    .gold-process .g-flow { margin-top: 2rem; grid-template-columns: repeat(4, 1fr); }
+    .gold-metrics strong { font-family: var(--display-font); color: #D2A74F; font-size: 3.4rem; line-height: .9; }
+    .device { height: 430px; border: 1px solid #D2A74F; border-radius: 22px; padding: 1.8rem; background: #1F2228; }
+    .device span { display: block; height: 100%; border: 1px solid rgba(210,167,79,.55); background: linear-gradient(150deg, transparent 0 55%, rgba(210,167,79,.2) 55%); }
+    .gold-decision { display: grid; place-items: center; text-align: center; }
+    .decision-box { width: 720px; }
+    .decision-box strong { display: block; font-family: var(--display-font); color: #D2A74F; font-size: 3rem; text-transform: uppercase; }
+    .gold-thanks, .gold-contact { display: grid; place-items: center; text-align: center; }
+    .gold-contact .g-frame { max-width: 820px; }
+
+  </style>
 </head>
-<body>
+<body class="gold">
   <main class="deck">
-
-    <section class="slide proposal-cover active"><div class="title-box"><h1>CUSTAL</h1><h2 style="font-size:clamp(1.8rem,3vw,3rem);color:var(--accent)">Project Proposal</h2></div><p style="margin-top:1rem">A premium dark proposal template built from gold line geometry and serious hierarchy.</p></section>
-    <section class="slide"><div class="topline"><span class="kicker">Proposal Summary</span><span class="tag">Executive note</span></div><h2>Use sharp framing to make the proposal feel decisive.</h2><div class="summary"><article class="gold-card"><h3>Objective</h3><p>Deliver a focused project that improves clarity, execution, and stakeholder confidence.</p></article><article class="gold-card"><h3>Recommendation</h3><p>Proceed with a phased engagement that keeps decision points visible.</p></article></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Requirements</span><span class="tag">Scope grid</span></div><h2>Separate requirements into executive modules.</h2><div class="req"><article class="gold-card"><h3>Business</h3><p>Objectives, audience, constraints, and decision criteria.</p></article><article class="gold-card"><h3>Operations</h3><p>Resources, owners, timeline, and dependencies.</p></article><article class="gold-card"><h3>Delivery</h3><p>Outputs, acceptance gates, and handoff expectations.</p></article></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Method</span><span class="tag">Four phases</span></div><h2>Thin dividers and tall cards create proposal cadence.</h2><div class="steps"><article class="gold-card"><b>01</b><h3>Audit</h3><p>Understand current state.</p></article><article class="gold-card"><b>02</b><h3>Design</h3><p>Define the solution.</p></article><article class="gold-card"><b>03</b><h3>Build</h3><p>Produce the artifact.</p></article><article class="gold-card"><b>04</b><h3>Review</h3><p>Validate and hand off.</p></article></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Investment</span><span class="tag">Decision slide</span></div><div class="invest"><article class="gold-card price"><div><strong>3</strong><p>Phased checkpoints</p></div></article><div class="gold-card"><h2>Make the decision easy to evaluate.</h2><p style="margin-top:1rem">This layout highlights the structure of the investment, not just the cost.</p></div></div></section>
-    <section class="slide close"><span class="kicker">Close</span><h1>Present the project with premium control.</h1><p style="margin-top:1rem">Best for serious proposals that need authority and restraint.</p></section>
+    <section class="slide gold-cover active" data-layout="boxed-title-cover">
+      <div class="g-frame"><p class="kicker">Project proposal</p><h1>Custal</h1><h2>Strategic Service Proposal</h2></div><p class="g-cover-note">A premium proposal system with charcoal fields, thin gold geometry, and formal executive pacing.</p>
+    </section>
+    <section class="slide gold-split" data-layout="proposal-intro">
+      <div><p class="kicker">Introduction</p><h2>Prepared to make the project feel decisive from the first page.</h2><p>The dark field and gold rule system create a controlled, high-value mood for procurement, client pitches, and executive concept approvals.</p></div><aside class="g-panel"><span class="num">01</span><h3>Proposal purpose</h3><p>Align leadership on scope, investment, milestones, and final decision gates.</p></aside>
+    </section>
+    <section class="slide gold-contents" data-layout="contents-grid">
+      <div class="topline"><p class="kicker">Contents</p><span class="tag">Proposal path</span></div><h2>Eight sections create the business case.</h2><div class="grid four g-cards"><article>Company</article><article>Project</article><article>Requirements</article><article>Budget</article><article>Stages</article><article>Future</article><article>Team</article><article>Decision</article></div>
+    </section>
+    <section class="slide gold-company" data-layout="company-overview">
+      <div class="topline"><p class="kicker">Our company</p><span class="tag">Profile</span></div><div class="gold-wide"><div><h2>We build premium operating systems for complex service work.</h2><p>Use this layout for company positioning, credentials, or the strategic premise behind the proposal.</p></div><div class="g-portrait"><span></span></div></div>
+    </section>
+    <section class="slide gold-center" data-layout="mission-statement">
+      <p class="kicker">Mission</p><h1>Elegant structure makes complicated decisions easier to approve.</h1><p>Keep this page sparse: one thesis, one gold rule, one clear reason to continue.</p>
+    </section>
+    <section class="slide gold-scope" data-layout="project-scope">
+      <div class="topline"><p class="kicker">Project</p><span class="tag">Scope</span></div><h2>Define the engagement in three controlled modules.</h2><div class="grid three"><article><b>01</b><h3>Discovery</h3><p>Audit the current state and decision criteria.</p></article><article><b>02</b><h3>Design</h3><p>Create the proposal system, assets, and governance.</p></article><article><b>03</b><h3>Delivery</h3><p>Build, review, and hand off the final package.</p></article></div>
+    </section>
+    <section class="slide gold-dual" data-layout="problem-opportunity">
+      <section><p class="kicker">Constraint</p><h2>Stakeholders lack one shared business frame.</h2><p>Without a clear proposal structure, teams evaluate scope, price, risk, and value separately.</p></section><section><p class="kicker">Opportunity</p><h2>A premium proposal can turn complexity into confidence.</h2><p>Structured evidence and visual hierarchy make the ask easier to compare and approve.</p></section>
+    </section>
+    <section class="slide gold-architecture" data-layout="solution-architecture">
+      <p class="kicker">Solution</p><h2>Proposal architecture</h2><div class="g-arch"><span>Brief</span><span>Scope</span><span>Evidence</span><span>Budget</span><span>Decision</span></div>
+    </section>
+    <section class="slide gold-table" data-layout="requirements-table">
+      <p class="kicker">Requirements</p><h2>Separate what is required from what is optional.</h2><table><tr><th>Requirement</th><th>Owner</th><th>Decision</th></tr><tr><td>Executive narrative</td><td>Strategy</td><td>Required</td></tr><tr><td>Budget model</td><td>Finance</td><td>Required</td></tr><tr><td>Visual variants</td><td>Creative</td><td>Optional</td></tr></table>
+    </section>
+    <section class="slide gold-deliverables" data-layout="deliverables-grid">
+      <div class="topline"><p class="kicker">Deliverables</p><span class="tag">Outputs</span></div><div class="grid four g-cards"><article><h3>Proposal deck</h3><p>Final client-ready presentation.</p></article><article><h3>Budget sheet</h3><p>Cost model and assumptions.</p></article><article><h3>Timeline</h3><p>Delivery sequence and checkpoints.</p></article><article><h3>Handoff kit</h3><p>Editable assets and usage notes.</p></article></div>
+    </section>
+    <section class="slide gold-timeline" data-layout="timeline-stages">
+      <p class="kicker">Project stages</p><h2>Five-stage delivery cadence</h2><div class="g-timeline"><article><b>01</b><h3>Audit</h3></article><article><b>02</b><h3>Frame</h3></article><article><b>03</b><h3>Produce</h3></article><article><b>04</b><h3>Review</h3></article><article><b>05</b><h3>Approve</h3></article></div>
+    </section>
+    <section class="slide gold-budget" data-layout="budget-summary">
+      <div><p class="kicker">Budget</p><h2>Investment summary</h2><p class="amount">$186K</p><p>Presented as a staged investment with clear approval points and optional expansion modules.</p></div><aside><h3>Budget mix</h3><div class="g-ring"></div></aside>
+    </section>
+    <section class="slide gold-table" data-layout="budget-table">
+      <p class="kicker">Budget breakdown</p><h2>Line items</h2><table><tr><th>Workstream</th><th>Budget</th><th>Notes</th></tr><tr><td>Strategy</td><td>$42K</td><td>Discovery and narrative</td></tr><tr><td>Design</td><td>$78K</td><td>Deck and collateral</td></tr><tr><td>Delivery</td><td>$66K</td><td>Build, review, handoff</td></tr></table>
+    </section>
+    <section class="slide gold-map" data-layout="market-map">
+      <div><p class="kicker">Market view</p><h2>Where the project creates leverage</h2><p>Use this page for region, market, stakeholder, or account mapping.</p></div><div class="g-map"><i></i><i></i><i></i><i></i></div>
+    </section>
+    <section class="slide gold-team" data-layout="team-profile">
+      <p class="kicker">Team</p><h2>Core proposal team</h2><div class="grid three"><article><div class="avatar"></div><h3>Strategy Lead</h3><p>Business case and framing.</p></article><article><div class="avatar"></div><h3>Design Lead</h3><p>Visual system and deck.</p></article><article><div class="avatar"></div><h3>Delivery Lead</h3><p>Timeline and handoff.</p></article></div>
+    </section>
+    <section class="slide gold-packages" data-layout="service-packages">
+      <p class="kicker">Packages</p><h2>Service options</h2><div class="grid three"><article><span class="tag">Core</span><h3>Proposal refresh</h3><p>Visual and narrative upgrade.</p></article><article><span class="tag">Plus</span><h3>Full pitch system</h3><p>Deck, budget, roadmap, assets.</p></article><article><span class="tag">Premium</span><h3>Executive rollout</h3><p>Presentation coaching and handoff.</p></article></div>
+    </section>
+    <section class="slide gold-process" data-layout="process-diagram">
+      <p class="kicker">Method</p><h2>Decision flow</h2><div class="g-flow"><span>Inputs</span><span>Analysis</span><span>Proposal</span><span>Approval</span></div>
+    </section>
+    <section class="slide gold-risk" data-layout="risk-mitigation">
+      <p class="kicker">Risk</p><h2>Controls and mitigations</h2><div class="grid three"><article><h3>Scope creep</h3><p>Freeze deliverable list before production.</p></article><article><h3>Stakeholder drift</h3><p>Use weekly decision notes.</p></article><article><h3>Budget pressure</h3><p>Stage optional items separately.</p></article></div>
+    </section>
+    <section class="slide gold-metrics" data-layout="success-metrics">
+      <p class="kicker">Success metrics</p><h2>Signals of proposal strength</h2><div class="grid four"><article><strong>92%</strong><p>Stakeholder clarity</p></article><article><strong>5</strong><p>Decision gates</p></article><article><strong>3</strong><p>Budget scenarios</p></article><article><strong>1</strong><p>Final ask</p></article></div>
+    </section>
+    <section class="slide gold-mockup" data-layout="mockup-showcase">
+      <div><p class="kicker">Mockup</p><h2>Show the final artifact in context.</h2><p>The source template includes mockup-oriented slides. This layout gives agents a safe visual frame to replace with real screenshots.</p></div><div class="device"><span></span></div>
+    </section>
+    <section class="slide gold-table" data-layout="comparison-matrix">
+      <p class="kicker">Comparison</p><h2>Options matrix</h2><table><tr><th>Option</th><th>Speed</th><th>Depth</th><th>Cost</th></tr><tr><td>Core</td><td>High</td><td>Medium</td><td>Low</td></tr><tr><td>Plus</td><td>Medium</td><td>High</td><td>Medium</td></tr><tr><td>Premium</td><td>Medium</td><td>High</td><td>High</td></tr></table>
+    </section>
+    <section class="slide gold-center" data-layout="future-vision">
+      <p class="kicker">Your future</p><h1>A proposal system that keeps working after the meeting.</h1><p>Use this page for the destination state, strategic benefit, or post-project operating model.</p>
+    </section>
+    <section class="slide gold-roadmap" data-layout="implementation-roadmap">
+      <p class="kicker">Roadmap</p><h2>Implementation path</h2><div class="g-road"><article>Week 1<br><b>Audit</b></article><article>Week 2<br><b>Frame</b></article><article>Weeks 3-4<br><b>Build</b></article><article>Week 5<br><b>Approve</b></article></div>
+    </section>
+    <section class="slide gold-decision" data-layout="decision-slide">
+      <p class="kicker">Decision</p><h2>Recommended approval</h2><div class="decision-box"><strong>Approve Plus package</strong><p>Best balance of executive polish, usable assets, and cost control.</p></div>
+    </section>
+    <section class="slide gold-credits" data-layout="resource-credits">
+      <p class="kicker">Resources</p><h2>Replaceable assets</h2><div class="grid three"><article>Icons</article><article>Maps</article><article>Graphs</article></div><p>All frames are HTML/CSS placeholders and safe to replace with project-specific material.</p>
+    </section>
+    <section class="slide gold-thanks" data-layout="thank-you">
+      <p class="kicker">Thanks</p><h1>Thank you</h1><p>Use this page when the proposal needs a formal pause before contact details.</p>
+    </section>
+    <section class="slide gold-contact" data-layout="closing-contact">
+      <div class="g-frame"><p class="kicker">Contact</p><h1>Ready to move forward?</h1><p>proposal@custal.example<br>custal.example/proposal</p></div>
+    </section>
   </main>
-  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
-  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">27</span></div>
+  <div class="keyboard-hint">Use arrow keys</div>
   <div class="progress-bar" id="progress"></div>
   <div class="nav-controls">
-    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
-    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
   </div>
   <script>
-    const slides=document.querySelectorAll('.slide');
-    const currentEl=document.getElementById('current');
-    const totalEl=document.getElementById('total');
-    const progressEl=document.getElementById('progress');
-    const prevBtn=document.getElementById('prevBtn');
-    const nextBtn=document.getElementById('nextBtn');
-    let current=0;
-    const total=slides.length;
-    totalEl.textContent=total;
-    function updateSlide(){
-      slides.forEach((slide,index)=>{
-        slide.classList.remove('active','prev');
-        if(index===current)slide.classList.add('active');
-        else if(index<current)slide.classList.add('prev');
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    totalEl.textContent = slides.length;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        if (index < current) slide.classList.add('prev');
       });
-      currentEl.textContent=current+1;
-      progressEl.style.width=((current+1)/total*100)+'%';
-      prevBtn.disabled=current===0;
-      nextBtn.disabled=current===total-1;
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
     }
-    function changeSlide(direction){
-      const next=current+direction;
-      if(next>=0&&next<total){current=next;updateSlide();}
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) { current = next; updateSlide(); }
     }
-    document.addEventListener('keydown',(event)=>{
-      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
-      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
-      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
-      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
     });
-    let touchStartX=0;
-    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
-    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const diff = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
     updateSlide();
   </script>
 </body>

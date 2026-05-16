@@ -307,7 +307,79 @@ function validateLayoutSlots(slug, metadata, errors) {
     errors.push(`${slug}: "layout_slots" must describe every declared layout (missing: ${missingLayouts.join(', ')})`);
   }
 
-  const allowedSlotFields = new Set(['name', 'type', 'required', 'repeatable', 'description']);
+  const allowedSlotFields = new Set(['name', 'type', 'required', 'repeatable', 'description', 'items', 'minItems', 'maxItems']);
+  const allowedSlotItemFields = new Set(['type', 'required', 'properties']);
+  const allowedSlotItemPropertyFields = new Set(['type', 'description']);
+
+  const validateSlotItemSchema = (layout, slotNumber, items) => {
+    if (!isObject(items)) {
+      errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items must be an object schema`);
+      return;
+    }
+
+    for (const key of Object.keys(items)) {
+      if (!allowedSlotItemFields.has(key)) {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items has unsupported property "${key}"`);
+      }
+    }
+
+    if (typeof items.type !== 'string' || items.type.trim() === '') {
+      errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.type must be a non-empty string`);
+    }
+
+    if ('required' in items) {
+      if (!Array.isArray(items.required)) {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.required must be an array`);
+      } else {
+        const seenRequired = new Set();
+        for (const [requiredIndex, field] of items.required.entries()) {
+          if (typeof field !== 'string' || field.trim() === '') {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.required item ${requiredIndex + 1} must be a non-empty string`);
+            continue;
+          }
+          if (seenRequired.has(field)) {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.required contains duplicate field "${field}"`);
+          }
+          seenRequired.add(field);
+        }
+      }
+    }
+
+    if ('properties' in items) {
+      if (!isObject(items.properties) || Object.keys(items.properties).length === 0) {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties must be a non-empty object`);
+      } else {
+        for (const [fieldName, fieldSchema] of Object.entries(items.properties)) {
+          if (fieldName.trim() === '') {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties field name must be non-empty`);
+          }
+          if (!isObject(fieldSchema)) {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties.${fieldName} must be an object`);
+            continue;
+          }
+          for (const key of Object.keys(fieldSchema)) {
+            if (!allowedSlotItemPropertyFields.has(key)) {
+              errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties.${fieldName} has unsupported property "${key}"`);
+            }
+          }
+          if (typeof fieldSchema.type !== 'string' || fieldSchema.type.trim() === '') {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties.${fieldName}.type must be a non-empty string`);
+          }
+          if ('description' in fieldSchema && (typeof fieldSchema.description !== 'string' || fieldSchema.description.trim() === '')) {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.properties.${fieldName}.description must be a non-empty string`);
+          }
+        }
+      }
+    }
+
+    if (Array.isArray(items.required) && isObject(items.properties)) {
+      for (const field of items.required) {
+        if (typeof field === 'string' && field.trim() !== '' && !Object.prototype.hasOwnProperty.call(items.properties, field)) {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} items.required field "${field}" must exist in items.properties`);
+        }
+      }
+    }
+  };
 
   for (const [layout, slots] of Object.entries(metadata.layout_slots)) {
     const seenSlotNames = new Set();
@@ -367,6 +439,31 @@ function validateLayoutSlots(slug, metadata, errors) {
       for (const field of ['required', 'repeatable']) {
         if (field in slot && typeof slot[field] !== 'boolean') {
           errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} ${field} must be a boolean`);
+        }
+      }
+
+      for (const field of ['minItems', 'maxItems']) {
+        if (field in slot && (!Number.isInteger(slot[field]) || slot[field] < 0)) {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} ${field} must be an integer >= 0`);
+        }
+      }
+
+      if (Number.isInteger(slot.minItems) && Number.isInteger(slot.maxItems) && slot.maxItems < slot.minItems) {
+        errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} maxItems must be >= minItems`);
+      }
+
+      if ('items' in slot) {
+        validateSlotItemSchema(layout, slotNumber, slot.items);
+      }
+
+      if (slot.type === 'array') {
+        if (!('items' in slot)) {
+          errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} array slots must include items schema`);
+        }
+        for (const field of ['minItems', 'maxItems']) {
+          if (!(field in slot)) {
+            errors.push(`${slug}: "layout_slots.${layout}" item ${slotNumber} array slots must include ${field}`);
+          }
         }
       }
     }

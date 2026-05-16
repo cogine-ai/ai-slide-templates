@@ -3,90 +3,215 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classy Agency Candidate Template</title>
+  <title>Classy Agency</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600;700;800&family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{width:100%;height:100%;overflow:hidden}
-body{font-family:var(--body-font);background:var(--bg);color:var(--text)}
-.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
-.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4.2vw 4.6vw 8.6vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .4s ease,transform .4s ease;overflow:hidden}
-.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
-.slide.prev{transform:translateX(-34px)}
-h1,h2,h3{font-family:var(--display-font);color:var(--ink)}
-h1{font-size:clamp(3.1rem,6vw,6.8rem);line-height:.95}
-h2{font-size:clamp(2.1rem,4vw,4.4rem);line-height:1.02}
-h3{font-size:clamp(1.05rem,1.45vw,1.42rem);line-height:1.22}
-p,li{font-size:clamp(.82rem,1vw,.98rem);line-height:1.55;color:var(--muted)}
-.topline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.5vh;position:relative;z-index:2}
-.kicker{font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-.tag{font-size:.72rem;font-weight:800;border:1px solid var(--line);border-radius:999px;padding:.42rem .8rem;color:var(--accent);background:var(--tag-bg)}
-.slide-counter{position:fixed;left:3vw;bottom:2.5vh;z-index:50;font-weight:800;color:var(--muted);font-size:.78rem}
-.keyboard-hint{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:50;color:var(--muted);font-size:.68rem;opacity:.7}
-.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--accent);z-index:50;transition:width .35s ease}
-.nav-controls{position:fixed;right:3vw;bottom:2.22vh;display:flex;gap:.65rem;z-index:50}
-.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--line);background:var(--nav-bg);color:var(--accent);display:grid;place-items:center;cursor:pointer}
-.nav-btn:hover{background:var(--accent);color:var(--nav-hover)}
-.nav-btn:disabled{opacity:.32;cursor:not-allowed}
-@media(max-height:720px){.slide{padding-top:3vw}h1{font-size:clamp(2.8rem,5.2vw,5.4rem)}}
+    :root {
+      --display-font: 'Bodoni Moda', serif;
+      --body-font: 'Nunito Sans', sans-serif;
+      --bg: #F7F2E8;
+      --surface: #FFFDF7;
+      --panel: #CBB39D;
+      --ink: #3D3931;
+      --text: #4D473E;
+      --muted: #837C70;
+      --accent: #A98A72;
+      --line: rgba(61,57,49,.18);
+      --tag-bg: rgba(169,138,114,.12);
+      --nav-bg: #FFFDF7;
+      --nav-hover: #FFFDF7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { font-family: var(--body-font); background: var(--bg); color: var(--text); }
+    .deck { position: relative; width: 100vw; height: 100vh; overflow: hidden; background: var(--bg); }
+    .slide { position: absolute; inset: 0; width: 100vw; height: 100vh; padding: 4.5vw 5vw 8.6vh; overflow: hidden; opacity: 0; pointer-events: none; transform: translateX(34px); transition: opacity .38s ease, transform .38s ease; }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 5; }
+    .slide.prev { transform: translateX(-34px); }
+    .slide > * { position: relative; z-index: 2; }
+    h1, h2, h3, .display, .num, .kicker, .tag { font-family: var(--display-font); letter-spacing: 0; }
+    h1 { font-size: clamp(3.2rem, 6.2vw, 6.8rem); line-height: .94; font-weight: 700; }
+    h2 { font-size: clamp(2.15rem, 4.15vw, 4.4rem); line-height: 1.02; font-weight: 700; }
+    h3 { font-size: clamp(1rem, 1.42vw, 1.34rem); line-height: 1.18; font-weight: 700; }
+    p, li, td, th { font-size: clamp(.78rem, .96vw, .95rem); line-height: 1.48; color: var(--muted); }
+    ul, ol { padding-left: 1.15rem; }
+    li { margin: .42rem 0; }
+    table { width: 100%; border-collapse: collapse; }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2.1vh; }
+    .kicker { text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 800; color: var(--accent); }
+    .tag { text-transform: uppercase; letter-spacing: .08em; font-size: .66rem; font-weight: 800; padding: .38rem .7rem; border: 1px solid var(--line); color: var(--accent); background: var(--tag-bg); }
+    .grid { display: grid; gap: 1rem; }
+    .two { grid-template-columns: repeat(2, 1fr); }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .four { grid-template-columns: repeat(4, 1fr); }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.35vh; z-index: 80; font-family: var(--body-font); color: var(--muted); font-size: .74rem; font-weight: 800; }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.52vh; transform: translateX(-50%); z-index: 80; color: var(--muted); font-size: .66rem; opacity: .7; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; z-index: 80; background: var(--accent); transition: width .34s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2vh; z-index: 80; display: flex; gap: .62rem; }
+    .nav-btn { width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--nav-bg); color: var(--accent); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--accent); color: var(--nav-hover); }
+    .nav-btn:disabled { opacity: .34; cursor: not-allowed; }
+    @media (max-height: 720px) { .slide { padding-top: 3.2vw; } h1 { font-size: clamp(2.8rem, 5.4vw, 5.6rem); } h2 { font-size: clamp(2rem, 3.8vw, 3.8rem); } }
 
-:root{--display-font:'Cormorant Garamond',serif;--body-font:Inter,sans-serif;--bg:#F7F2E8;--surface:#FFFDF7;--panel:#CBB39D;--ink:#3D3931;--text:#4D473E;--muted:#837C70;--accent:#A98A72;--tag-bg:rgba(169,138,114,.12);--line:rgba(61,57,49,.18);--nav-bg:#FFFDF7;--nav-hover:#FFFDF7}
-.deck{background:#F7F2E8}.geo-cover{justify-content:center}.geo-cover:before{content:'';position:absolute;left:8vw;top:12vh;width:140px;height:58vh;background:#A98A72}.geo-cover:after{content:'';position:absolute;right:8vw;top:16vh;width:280px;height:280px;background:#CBB39D;border-radius:50%;box-shadow:150px -30px 0 #858779}.label{display:inline-block;background:#3D3931;color:#FFFDF7;padding:.45rem .8rem;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}.classy-card{background:rgba(255,253,247,.72);border:1px solid var(--line);padding:1.2rem}.contents{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.6rem}.contents .classy-card{min-height:190px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.7rem}.services .classy-card{min-height:260px}.vision{display:grid;grid-template-columns:.9fr 1.1fr;gap:1.2rem;flex:1}.arch{background:linear-gradient(90deg,#A98A72 0 28%,transparent 28%),linear-gradient(#AEB3A2 0 20%,transparent 20% 70%,#3D3931 70%);border:1px solid var(--line)}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:2rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.timeline article{padding:1.2rem;min-height:250px;border-right:1px solid var(--line)}.timeline article:last-child{border-right:0}.timeline b{font-family:var(--display-font);font-size:3rem;color:var(--accent)}.close{justify-content:center;text-align:center}.close h1{max-width:74vw;margin:auto}
-</style>
+    .classy .deck { background: #F7F2E8; }
+    .classy .deck:before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 84% 20%, rgba(169,138,114,.2), transparent 22vw), linear-gradient(90deg, rgba(61,57,49,.04) 1px, transparent 1px); background-size: auto, 86px 86px; pointer-events: none; }
+    .classy h1, .classy h2, .classy h3 { color: #3D3931; font-weight: 600; }
+    .classy p, .classy li { color: #837C70; }
+    .classy .label { display: inline-flex; background: #3D3931; color: #FFFDF7; padding: .42rem .76rem; text-transform: uppercase; letter-spacing: .12em; font-size: .66rem; font-weight: 800; }
+    .classy .c-card, .classy article { background: rgba(255,253,247,.72); border: 1px solid rgba(61,57,49,.18); padding: 1.15rem; }
+    .classy-cover { display: grid; grid-template-columns: 55% 45%; align-items: center; }
+    .classy-cover h1 { font-size: clamp(3.5rem, 6.4vw, 7rem); line-height: .9; margin-top: 1rem; }
+    .c-title p { max-width: 460px; margin-top: 1rem; }
+    .c-geo { height: 480px; position: relative; }
+    .c-geo i { position: absolute; display: block; background: #A98A72; }
+    .c-geo i:nth-child(1) { width: 150px; height: 420px; left: 40px; top: 20px; }
+    .c-geo i:nth-child(2) { width: 280px; height: 280px; right: 40px; top: 60px; border-radius: 50%; background: #CBB39D; }
+    .c-geo i:nth-child(3) { width: 160px; height: 160px; right: 0; bottom: 20px; background: #AEB3A2; }
+    .classy-split, .classy-case, .classy-position, .classy-contact-map { display: grid; grid-template-columns: .95fr 1.05fr; gap: 2rem; align-items: center; }
+    .classy-contents ol { margin-top: 1.5rem; list-style: none; counter-reset: classy; padding: 0; columns: 2; column-gap: 3rem; }
+    .classy-contents li { counter-increment: classy; border-top: 1px solid rgba(61,57,49,.2); padding: .85rem 0; break-inside: avoid; }
+    .classy-contents li:before { content: counter(classy, decimal-leading-zero); font-family: var(--display-font); color: #A98A72; font-size: 2rem; margin-right: 1rem; }
+    .classy-values .grid, .classy-service .grid, .classy-service-cards .grid, .classy-team .grid, .classy-pricing .grid, .classy-fit .grid, .classy-deliverables .grid { margin-top: 1.5rem; }
+    .classy-values article, .classy-service article, .classy-pricing article { min-height: 235px; }
+    .classy-values b { font-family: var(--display-font); color: #A98A72; font-size: 3.2rem; line-height: .9; }
+    .classy-board { display: grid; grid-template-columns: .72fr 1.28fr; gap: 2rem; align-items: center; }
+    .board-grid { display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 210px 210px; gap: 1rem; }
+    .board-grid span { background: #CBB39D; }
+    .board-grid span:nth-child(2) { border-radius: 50% 50% 0 0; background: #AEB3A2; }
+    .board-grid span:nth-child(3) { background: #3D3931; }
+    .board-grid span:nth-child(4) { background: #FFFDF7; border: 1px solid rgba(61,57,49,.2); }
+    .classy-service-cards article, .classy-deliverables article { min-height: 150px; display: grid; place-items: center; text-align: center; font-family: var(--display-font); font-size: 1.6rem; color: #3D3931; }
+    .portfolio-grid { display: grid; grid-template-columns: 1.25fr .85fr 1fr; grid-template-rows: 205px 205px; gap: 1rem; margin-top: 1.4rem; }
+    .portfolio-grid article { padding: 0; background: #CBB39D; position: relative; }
+    .portfolio-grid article:first-child { grid-row: span 2; background: #A98A72; }
+    .portfolio-grid span { position: absolute; left: 1rem; bottom: 1rem; font-family: var(--display-font); font-size: 2.8rem; color: #FFFDF7; }
+    .case-image { height: 470px; background: linear-gradient(90deg, #A98A72 0 30%, #CBB39D 30% 62%, #AEB3A2 62%); }
+    .timeline { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 1.8rem; border-top: 1px solid rgba(61,57,49,.24); border-bottom: 1px solid rgba(61,57,49,.24); }
+    .timeline article { min-height: 235px; border-right: 1px solid rgba(61,57,49,.24); }
+    .timeline article:last-child { border-right: 0; }
+    .timeline b { font-family: var(--display-font); color: #A98A72; font-size: 2.7rem; }
+    .classy-team article div { height: 170px; background: #CBB39D; border-radius: 50% 50% 0 0; margin-bottom: 1rem; }
+    .classy-quote, .classy-thanks, .classy-close { display: grid; place-items: center; text-align: center; padding-left: 11vw; padding-right: 11vw; }
+    .classy-quote blockquote { font-family: var(--display-font); font-size: clamp(3.2rem, 6vw, 6.5rem); line-height: .94; color: #3D3931; }
+    .classy-pricing strong { display: block; font-family: var(--display-font); color: #A98A72; font-size: 2.7rem; margin: 1rem 0; }
+    .calendar { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0; margin-top: 1.8rem; border: 1px solid rgba(61,57,49,.22); }
+    .calendar span { min-height: 260px; padding: 1rem; border-right: 1px solid rgba(61,57,49,.22); font-family: var(--display-font); font-size: 1.6rem; color: #3D3931; }
+    .calendar span:last-child { border-right: 0; }
+    .position-map { height: 430px; position: relative; }
+    .position-map span { position: absolute; width: 190px; height: 190px; border-radius: 50%; background: #CBB39D; display: grid; place-items: center; color: #3D3931; font-family: var(--display-font); font-size: 1.6rem; }
+    .position-map span:nth-child(1) { left: 40px; top: 80px; } .position-map span:nth-child(2) { left: 210px; top: 160px; background: #A98A72; color: #FFFDF7; } .position-map span:nth-child(3) { right: 40px; top: 70px; background: #AEB3A2; }
+    .map-shape { height: 420px; background: linear-gradient(135deg, #CBB39D, #AEB3A2); border-radius: 50% 50% 0 0; }
+
+  </style>
 </head>
-<body>
+<body class="classy">
   <main class="deck">
-
-    <section class="slide geo-cover active"><div style="position:relative;z-index:2;max-width:55vw;margin:auto"><span class="label">2XXX / Agency Proposal</span><h1 style="margin-top:1rem">Elegant And Classy Style Agency</h1><p style="margin-top:1rem;max-width:36vw">A warm proposal template built from serif type, muted geometry, and restrained service layouts.</p></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Contents</span><span class="tag">Proposal flow</span></div><h2>Let every section feel composed and deliberate.</h2><div class="contents"><article class="classy-card"><h3>Our vision</h3><p>What the collaboration should accomplish.</p></article><article class="classy-card"><h3>Services</h3><p>The workstreams and deliverables.</p></article><article class="classy-card"><h3>Process</h3><p>How the engagement unfolds.</p></article><article class="classy-card"><h3>Investment</h3><p>The proposed scope and next step.</p></article></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Services</span><span class="tag">Three pillars</span></div><h2>Use elegant modules for service packages.</h2><div class="services"><article class="classy-card"><span class="label">01</span><h3>Brand Strategy</h3><p>Positioning, audience, messaging, and narrative.</p></article><article class="classy-card"><span class="label">02</span><h3>Creative System</h3><p>Visual direction, components, and presentation grammar.</p></article><article class="classy-card"><span class="label">03</span><h3>Launch Support</h3><p>Rollout plan, assets, and stakeholder materials.</p></article></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Vision</span><span class="tag">Split composition</span></div><div class="vision"><div><h2>Balance classic type with geometric structure.</h2><p style="margin-top:1rem">This candidate follows the source's cream background, large serif title, rectangular labels, and soft abstract blocks.</p></div><div class="arch"></div></div></section>
-    <section class="slide"><div class="topline"><span class="kicker">Process</span><span class="tag">Timeline</span></div><h2>A quiet four-step engagement rhythm.</h2><div class="timeline"><article><b>01</b><h3>Discover</h3><p>Review context and goals.</p></article><article><b>02</b><h3>Shape</h3><p>Develop the strategic direction.</p></article><article><b>03</b><h3>Design</h3><p>Build the presentation system.</p></article><article><b>04</b><h3>Launch</h3><p>Hand off and support rollout.</p></article></div></section>
-    <section class="slide close"><span class="label">Close</span><h1>Make the proposal feel calm and considered.</h1><p style="margin-top:1rem">Best for brand, agency, and premium service work.</p></section>
+    <section class="slide classy-cover active" data-layout="editorial-cover">
+      <div class="c-title"><span class="label">Agency proposal / 2XXX</span><h1>Elegant &amp; Classy Style Agency</h1><p>Warm cream canvas, high-fashion serif type, muted taupe geometry, and restrained editorial spacing.</p></div><div class="c-geo"><i></i><i></i><i></i></div>
+    </section>
+    <section class="slide classy-split" data-layout="about-agency">
+      <div><p class="kicker">About us</p><h2>A quiet agency system for brands that want taste, not noise.</h2><p>Use this layout for positioning, philosophy, and executive introduction.</p></div><aside class="c-card"><h3>Founded for considered work</h3><p>Strategy, campaigns, identity, and presentation systems for premium teams.</p></aside>
+    </section>
+    <section class="slide classy-contents" data-layout="contents-list">
+      <p class="kicker">Contents</p><h2>Proposal sections</h2><ol><li>Vision and values</li><li>Services and capabilities</li><li>Portfolio and case evidence</li><li>Process, team, and investment</li><li>Calendar, fit, and next step</li></ol>
+    </section>
+    <section class="slide classy-values" data-layout="brand-values">
+      <p class="kicker">Values</p><h2>Three principles guide the work.</h2><div class="grid three"><article><b>01</b><h3>Composure</h3><p>Every page creates calm authority.</p></article><article><b>02</b><h3>Restraint</h3><p>Decoration stays structural.</p></article><article><b>03</b><h3>Clarity</h3><p>The proposal is easy to judge.</p></article></div>
+    </section>
+    <section class="slide classy-board" data-layout="visual-moodboard">
+      <div><p class="kicker">Moodboard</p><h2>Muted shapes create the visual signature.</h2></div><div class="board-grid"><span></span><span></span><span></span><span></span></div>
+    </section>
+    <section class="slide classy-service" data-layout="service-overview">
+      <p class="kicker">Services</p><h2>Agency offer overview</h2><div class="grid two"><article><h3>Brand strategy</h3><p>Positioning, narrative, audience, and market frame.</p></article><article><h3>Creative direction</h3><p>Visual concepts, art direction, and campaign language.</p></article></div>
+    </section>
+    <section class="slide classy-service-cards" data-layout="service-cards">
+      <div class="topline"><p class="kicker">Capabilities</p><span class="tag">6 modules</span></div><div class="grid three"><article>Identity</article><article>Campaign</article><article>Content</article><article>Decks</article><article>Launch</article><article>Systems</article></div>
+    </section>
+    <section class="slide classy-portfolio" data-layout="portfolio-grid">
+      <p class="kicker">Portfolio</p><h2>Selected work</h2><div class="portfolio-grid"><article><span>01</span></article><article><span>02</span></article><article><span>03</span></article><article><span>04</span></article></div>
+    </section>
+    <section class="slide classy-case" data-layout="case-study-split">
+      <div class="case-image"></div><div><p class="kicker">Case study</p><h2>One client story with a strong visual field.</h2><p>Use the left block for a campaign image or abstract placeholder and the right for concise results.</p></div>
+    </section>
+    <section class="slide classy-timeline" data-layout="process-timeline">
+      <p class="kicker">Process</p><h2>Four-step engagement</h2><div class="timeline"><article><b>01</b><h3>Discover</h3></article><article><b>02</b><h3>Shape</h3></article><article><b>03</b><h3>Design</h3></article><article><b>04</b><h3>Launch</h3></article></div>
+    </section>
+    <section class="slide classy-team" data-layout="team-grid">
+      <p class="kicker">Team</p><h2>Creative leadership</h2><div class="grid three"><article><div></div><h3>Strategy</h3></article><article><div></div><h3>Design</h3></article><article><div></div><h3>Production</h3></article></div>
+    </section>
+    <section class="slide classy-quote" data-layout="testimonial-quote">
+      <blockquote>“The strongest proposal feels composed before a single word is read.”</blockquote><p>Creative direction note</p>
+    </section>
+    <section class="slide classy-pricing" data-layout="pricing-packages">
+      <p class="kicker">Investment</p><h2>Packages</h2><div class="grid three"><article><h3>Essential</h3><strong>$24K</strong><p>Strategy and pitch deck.</p></article><article><h3>Signature</h3><strong>$48K</strong><p>Deck, visual system, launch assets.</p></article><article><h3>Retainer</h3><strong>$12K/mo</strong><p>Ongoing creative direction.</p></article></div>
+    </section>
+    <section class="slide classy-calendar" data-layout="project-calendar">
+      <p class="kicker">Calendar</p><h2>Project rhythm</h2><div class="calendar"><span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4</span><span>Week 5</span><span>Week 6</span></div>
+    </section>
+    <section class="slide classy-position" data-layout="market-position">
+      <div><p class="kicker">Positioning</p><h2>Where the agency creates distinction</h2><p>Quiet taste, strategic clarity, and campaign systems for premium service teams.</p></div><div class="position-map"><span>Strategy</span><span>Taste</span><span>Systems</span></div>
+    </section>
+    <section class="slide classy-fit" data-layout="client-fit">
+      <p class="kicker">Best fit</p><h2>Ideal client profile</h2><div class="grid two"><article><h3>Good fit</h3><ul><li>Premium service teams</li><li>Brand refreshes</li><li>Executive launches</li></ul></article><article><h3>Poor fit</h3><ul><li>Commodity campaigns</li><li>High-volume ad ops</li><li>Unclear ownership</li></ul></article></div>
+    </section>
+    <section class="slide classy-deliverables" data-layout="deliverables-board">
+      <p class="kicker">Deliverables</p><h2>What you receive</h2><div class="grid four"><article>Strategy brief</article><article>Visual system</article><article>Pitch deck</article><article>Launch kit</article></div>
+    </section>
+    <section class="slide classy-contact-map" data-layout="contact-map">
+      <div><p class="kicker">Contact</p><h2>Start the collaboration</h2><p>agency@example.com<br>classyagency.example</p></div><div class="map-shape"></div>
+    </section>
+    <section class="slide classy-thanks" data-layout="thank-you">
+      <span class="label">Thank you</span><h1>Thank you</h1><p>Use this as the formal pause before discussion.</p>
+    </section>
+    <section class="slide classy-close" data-layout="closing-statement">
+      <h1>Elegance is a system.</h1><p>Close with the strategic idea, not a decorative afterthought.</p>
+    </section>
   </main>
-  <div class="slide-counter"><span id="current">1</span> / <span id="total">6</span></div>
-  <div class="keyboard-hint">Use arrow keys to navigate</div>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">20</span></div>
+  <div class="keyboard-hint">Use arrow keys</div>
   <div class="progress-bar" id="progress"></div>
   <div class="nav-controls">
-    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
-    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
   </div>
   <script>
-    const slides=document.querySelectorAll('.slide');
-    const currentEl=document.getElementById('current');
-    const totalEl=document.getElementById('total');
-    const progressEl=document.getElementById('progress');
-    const prevBtn=document.getElementById('prevBtn');
-    const nextBtn=document.getElementById('nextBtn');
-    let current=0;
-    const total=slides.length;
-    totalEl.textContent=total;
-    function updateSlide(){
-      slides.forEach((slide,index)=>{
-        slide.classList.remove('active','prev');
-        if(index===current)slide.classList.add('active');
-        else if(index<current)slide.classList.add('prev');
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    totalEl.textContent = slides.length;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        if (index < current) slide.classList.add('prev');
       });
-      currentEl.textContent=current+1;
-      progressEl.style.width=((current+1)/total*100)+'%';
-      prevBtn.disabled=current===0;
-      nextBtn.disabled=current===total-1;
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
     }
-    function changeSlide(direction){
-      const next=current+direction;
-      if(next>=0&&next<total){current=next;updateSlide();}
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) { current = next; updateSlide(); }
     }
-    document.addEventListener('keydown',(event)=>{
-      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
-      else if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
-      else if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
-      else if(event.key==='End'){event.preventDefault();current=total-1;updateSlide();}
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
     });
-    let touchStartX=0;
-    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
-    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const diff = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
     updateSlide();
   </script>
 </body>
