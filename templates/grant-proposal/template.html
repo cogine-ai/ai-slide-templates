@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grant Proposal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F6F3EA;
+      --surface: #FFFFFF;
+      --panel: #D9C79D;
+      --primary: #10243E;
+      --accent: #B8893A;
+      --ink: #10243E;
+      --muted: #4E5561;
+      --line: #B8893A;
+      --display-font: 'Libre Baskerville', serif;
+      --body-font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    body { display: grid; place-items: center; font-family: var(--body-font); background: #111111; color: var(--ink); }
+    .deck { width: min(100vw, calc(100vh * 16 / 9)); height: min(100vh, calc(100vw * 9 / 16)); position: relative; overflow: hidden; background: var(--bg); }
+    .slide { position: absolute; inset: 0; width: 100%; height: 100%; padding: 48px 58px 76px; overflow: hidden; opacity: 0; pointer-events: none; transform: translateX(28px); transition: opacity .32s ease, transform .32s ease; background: var(--bg); }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateX(0); z-index: 5; }
+    .slide.prev { transform: translateX(-28px); }
+    h1, h2, h3, .display, .kicker, .num, .tag { font-family: var(--display-font); letter-spacing: 0; }
+    h1 { font-size: 74px; line-height: .96; font-weight: 900; }
+    h2 { font-size: 50px; line-height: 1.02; font-weight: 850; }
+    h3 { font-size: 23px; line-height: 1.12; font-weight: 800; }
+    p, li, td, th { font-size: 15px; line-height: 1.48; color: var(--muted); }
+    ul, ol { padding-left: 18px; }
+    .kicker { font-size: 13px; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; color: var(--primary); }
+    .tag { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 7px 13px; border: 1.5px solid var(--line); border-radius: 999px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--surface); }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 18px; position: relative; z-index: 4; margin-bottom: 24px; }
+    .grid { display: grid; gap: 18px; }
+    .two { grid-template-columns: 1fr 1fr; }
+    .three { grid-template-columns: repeat(3, 1fr); }
+    .four { grid-template-columns: repeat(4, 1fr); }
+    .card { position: relative; background: var(--surface); border: 2px solid var(--line); padding: 22px; overflow: hidden; }
+    .num { font-size: 54px; line-height: .88; font-weight: 900; color: var(--primary); }
+    .slide-counter { position: fixed; left: 3vw; bottom: 2.4vh; z-index: 80; font-family: var(--display-font); font-size: 12px; font-weight: 800; color: var(--muted); }
+    .keyboard-hint { position: fixed; left: 50%; bottom: 2.55vh; transform: translateX(-50%); z-index: 80; font-size: 11px; color: var(--muted); opacity: .72; }
+    .progress-bar { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--primary); z-index: 80; transition: width .32s ease; }
+    .nav-controls { position: fixed; right: 3vw; bottom: 2vh; z-index: 80; display: flex; gap: 10px; }
+    .nav-btn { width: 42px; height: 42px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--surface); color: var(--primary); display: grid; place-items: center; cursor: pointer; }
+    .nav-btn:hover { background: var(--primary); color: var(--bg); }
+    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    @media (max-width: 900px) {
+      .slide { padding: 34px 32px 72px; }
+      h1 { font-size: 48px; }
+      h2 { font-size: 34px; }
+      .keyboard-hint { display: none; }
+      .two, .three, .four { grid-template-columns: 1fr; }
+    }
+
+    .grant .deck, .grant-bg { background: #F6F3EA; }
+    .grant h1, .grant h2, .grant h3 { color: #10243E; }
+    .grant p, .grant li, .grant td, .grant th { color: #4E5561; }
+    .grant .rule { height: 3px; background: #B8893A; margin: 18px 0 24px; }
+    .grant-cover { display: grid; grid-template-columns: 48% 52%; padding: 0; }
+    .grant-cover .navy { background: #10243E; color: #FFFFFF; padding: 70px 60px; display: flex; flex-direction: column; justify-content: space-between; }
+    .grant-cover .navy h1, .grant-cover .navy p, .grant-cover .navy .kicker { color: #FFFFFF; }
+    .grant-cover .paper { margin: 56px; background: #FFFFFF; border: 2px solid #B8893A; padding: 44px; box-shadow: 16px 16px 0 #D9C79D; }
+    .grant-doc { display: grid; grid-template-columns: 34% 1fr; gap: 38px; }
+    .grant-doc aside { border-right: 3px solid #B8893A; padding-right: 28px; }
+    .grant-doc .body { background: #FFFFFF; border: 1.8px solid #B8893A; padding: 34px; }
+    .grant-doc .body p + p { margin-top: 18px; }
+    .grant-table table { width: 100%; border-collapse: collapse; margin-top: 28px; background: #FFFFFF; }
+    .grant-table th { background: #10243E; color: #FFFFFF; font-family: var(--body-font); }
+    .grant-table th, .grant-table td { border: 1.8px solid #B8893A; padding: 14px 16px; text-align: left; }
+    .grant-model .model { grid-template-columns: 1fr 1fr 1fr; margin-top: 32px; }
+    .grant-model article { min-height: 250px; background: #FFFFFF; border: 2px solid #B8893A; }
+    .grant-evidence .evidence-grid { grid-template-columns: 1fr 1fr; margin-top: 30px; }
+    .grant-evidence .quote { background: #10243E; color: #FFFFFF; }
+    .grant-evidence .quote h3, .grant-evidence .quote p { color: #FFFFFF; }
+    .grant-budget .amount { font-family: var(--display-font); font-size: 54px; color: #B8893A; margin: 10px 0 26px; }
+    .grant-budget .card { background: #FFFFFF; }
+    .grant-timeline .timeline { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 44px; border-top: 3px solid #10243E; }
+    .grant-timeline article { padding: 26px 20px; border-right: 2px solid #B8893A; min-height: 220px; }
+    .grant-timeline article:last-child { border-right: 0; }
+    .grant-partners .grid { margin-top: 40px; }
+    .grant-partners article { min-height: 250px; background: #FFFFFF; border: 2px solid #B8893A; padding: 24px; }
+    .grant-close { text-align: center; display: grid; place-items: center; }
+    .grant-close h1 { max-width: 790px; font-size: 54px; line-height: 1.08; }
+    .grant-close p:last-child { margin-top: 20px; }
+
+  </style>
+</head>
+<body class="grant">
+  <main class="deck">
+    <section class="slide grant-cover active" data-layout="formal-cover">
+      <div class="navy"><div><p class="kicker">Grant proposal</p><h1>Community Learning Fund</h1></div><p>Prepared for the Horizon Civic Foundation by Northside Learning Lab.</p></div><div class="paper"><p class="kicker">Request summary</p><h2>Expanding after-school access for middle-school students.</h2><div class="rule"></div><p>Funding request: $480,000 over 24 months.</p></div>
+    </section>
+    <section class="slide grant-doc" data-layout="executive-letter">
+      <aside><p class="kicker">Executive summary</p><h2>Why this proposal matters now</h2></aside><div class="body"><p>Northside Learning Lab is requesting two years of support to expand evidence-based tutoring, mentorship, and family engagement for students in grades 6-8.</p><p>The program targets three outcomes: improved math proficiency, stronger attendance, and higher student confidence before the transition to high school.</p></div>
+    </section>
+    <section class="slide grant-table" data-layout="need-table">
+      <p class="kicker">Statement of need</p><h2>Local indicators show a widening support gap.</h2><table><tr><th>Indicator</th><th>Current level</th><th>Program response</th></tr><tr><td>Math proficiency</td><td>38%</td><td>Small-group tutoring</td></tr><tr><td>Chronic absence</td><td>24%</td><td>Mentor check-ins</td></tr><tr><td>Family access</td><td>Low evening availability</td><td>Flexible workshops</td></tr></table>
+    </section>
+    <section class="slide grant-model" data-layout="logic-model">
+      <p class="kicker">Program model</p><h2>Inputs move through three measurable activity streams.</h2><div class="model grid"><article class="card"><h3>Inputs</h3><p>Certified tutors, school data, family liaisons, partner space.</p></article><article class="card"><h3>Activities</h3><p>Weekly tutoring, mentorship circles, caregiver workshops.</p></article><article class="card"><h3>Outcomes</h3><p>Higher proficiency, stronger attendance, smoother high-school transition.</p></article></div>
+    </section>
+    <section class="slide grant-evidence" data-layout="evidence-panels">
+      <p class="kicker">Evidence base</p><h2>The approach combines academic support and belonging.</h2><div class="evidence-grid grid"><article class="card"><h3>Academic lift</h3><p>Students in pilot groups gained an average 11 percentile points after 16 weeks.</p></article><article class="card quote"><h3>School partner</h3><p>"The model gives students consistent adults and clear practice time after the bell."</p></article><article class="card"><h3>Attendance</h3><p>Mentor reminders reduced missed program days by 29% in the spring pilot.</p></article><article class="card"><h3>Family trust</h3><p>Evening workshops increased caregiver participation without adding school burden.</p></article></div>
+    </section>
+    <section class="slide grant-timeline" data-layout="implementation-plan">
+      <p class="kicker">Implementation plan</p><h2>Four phases over 24 months</h2><div class="timeline"><article><h3>Launch</h3><p>Hire staff, confirm partners, enroll first cohort.</p></article><article><h3>Deliver</h3><p>Run tutoring, mentorship, and family sessions.</p></article><article><h3>Evaluate</h3><p>Review student progress and attendance monthly.</p></article><article><h3>Scale</h3><p>Expand to two additional school sites.</p></article></div>
+    </section>
+    <section class="slide grant-budget" data-layout="budget-summary">
+      <div class="topline"><p class="kicker">Budget request</p><span class="tag">24 months</span></div><h2>Total request</h2><p class="amount">$480,000</p><div class="grid three"><article class="card"><h3>Personnel</h3><p>$265,000 for tutors, site leads, and family liaison support.</p></article><article class="card"><h3>Program costs</h3><p>$146,000 for curriculum, meals, supplies, and transport.</p></article><article class="card"><h3>Evaluation</h3><p>$69,000 for data systems, reporting, and external review.</p></article></div>
+    </section>
+    <section class="slide grant-table" data-layout="evaluation-plan">
+      <p class="kicker">Evaluation plan</p><h2>Progress will be tracked through simple, auditable measures.</h2><table><tr><th>Outcome</th><th>Measure</th><th>Cadence</th></tr><tr><td>Math growth</td><td>Benchmark assessment</td><td>Quarterly</td></tr><tr><td>Attendance</td><td>Program and school records</td><td>Monthly</td></tr><tr><td>Confidence</td><td>Student survey</td><td>Twice yearly</td></tr></table>
+    </section>
+    <section class="slide grant-doc" data-layout="risk-controls">
+      <aside><p class="kicker">Risk controls</p><h2>Delivery risks and mitigations</h2></aside><div class="body"><ul><li>Recruitment risk is addressed through school counselor referrals and family information nights.</li><li>Staffing risk is reduced by maintaining a trained substitute tutor pool.</li><li>Data quality risk is managed through one shared reporting calendar and monthly review.</li><li>Sustainability risk is reduced by documenting site playbooks before expansion.</li></ul></div>
+    </section>
+    <section class="slide grant-partners" data-layout="partnership-grid">
+      <p class="kicker">Partnerships</p><h2>The grant activates an existing local coalition.</h2><div class="grid four"><article><h3>Schools</h3><p>Student referral and progress data.</p></article><article><h3>Libraries</h3><p>Evening space and caregiver access.</p></article><article><h3>Volunteers</h3><p>Mentorship and career exposure.</p></article><article><h3>Foundation</h3><p>Flexible capital and learning agenda.</p></article></div>
+    </section>
+    <section class="slide grant-doc" data-layout="sustainability-plan">
+      <aside><p class="kicker">Sustainability</p><h2>How the program continues after the grant</h2></aside><div class="body"><p>By month 18, the team will secure district cost-share commitments, renew local business sponsorships, and package the operating model for additional philanthropic partners.</p><p>The proposal includes a documented curriculum, training plan, and reporting template so each site can continue with lower central support.</p></div>
+    </section>
+    <section class="slide grant-close" data-layout="closing-ask">
+      <div><p class="kicker">Decision request</p><h1>Approve $480,000 to serve 360 students over two years.</h1><div class="rule"></div><p>Primary contact: Maya Chen, Executive Director, Northside Learning Lab.</p></div>
+    </section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="keyboard-hint">Use arrow keys</div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    totalEl.textContent = slides.length;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        if (index < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+    }
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const diff = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>

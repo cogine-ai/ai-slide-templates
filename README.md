@@ -75,9 +75,11 @@ The folder name must match `template.json.slug`.
 | `editorial-luxury` | Luxury, minimal, art-directed | Premium brand strategy, portfolio presentations, creative direction, launch narratives |
 | `glass-ux-studio` | Sleek, digital, experiential | UX case studies, product walkthroughs, app concepts, innovation pitches |
 | `gold-line-proposal` | Premium, dark, authoritative | Project proposals, executive concepts, premium service pitches |
+| `grant-proposal` | Formal, institutional, evidence-led | Grant proposals, nonprofit funding requests, foundation applications, program plans |
 | `hr-orientation` | Bright, playful, supportive | HR orientation, new-hire onboarding, culture introductions, internal training |
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
 | `linear-qbr` | Restrained, linear, formal | Quarterly business reviews, board updates, operating cadence, portfolio reviews |
+| `matisse-collage` | Artistic, soft, gallery-like | Creative workshops, art education, museum talks, community programs |
 | `midnight-executive` | Executive, polished, dramatic | Board updates, investor briefings, leadership reviews, strategic reviews |
 | `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
 | `neon-grid-agency` | Neon, graphic, energetic | Creative agency pitches, talent decks, youth brand campaigns |
@@ -85,7 +87,9 @@ The folder name must match `template.json.slug`.
 | `pastel-research` | Scholarly, gentle, polished | Academic talks, medical science updates, conference presentations |
 | `quarterly-review-infographics` | Direct, metric-led, practical | Quarterly business reviews, performance reports, sales updates, executive dashboards |
 | `quarterly-review-meeting` | Clear, measured, professional | QBR meetings, operating updates, project reviews, status and RAID reports |
+| `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
+| `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 
 ## Template Rules
 
