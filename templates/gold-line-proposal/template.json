@@ -1,7 +1,7 @@
 {
   "slug": "gold-line-proposal",
   "name": "Gold Line Proposal",
-  "tagline": "Charcoal project proposal with thin gold geometry, boxed title frames, angular overlays, and premium dark layouts.",
+  "tagline": "Charcoal and gold proposal deck rebuilt into a complete premium project proposal sequence with framed title pages, thin line geometry, tables, budget, timeline, maps, mockups, and decision layouts.",
   "mood": [
     "premium",
     "serious",
@@ -21,7 +21,7 @@
     "minimal"
   ],
   "formality": "high",
-  "density": "medium",
+  "density": "medium-high",
   "palette": {
     "bg": "#282B31",
     "surface": "#30333A",
@@ -30,17 +30,26 @@
     "text": "#E4DDCF",
     "muted": "#A89F90",
     "primary": "#D2A74F",
-    "description": "charcoal canvas with thin gold line geometry, warm cream text, and muted executive neutrals"
+    "description": "Charcoal canvas with thin gold line geometry, warm cream text, and muted executive neutrals."
   },
   "typography": {
-    "display": "Oswald",
-    "body": "Inter",
-    "style": "condensed modern proposal display with neutral executive body"
+    "display": "Cinzel",
+    "body": "Montserrat",
+    "style": "Luxury all-caps serif display with compact modern sans body, matching the premium proposal source more closely than the prior condensed sans."
   },
   "scheme": "dark",
-  "best_for": "Premium project proposals, executive concept decks, procurement presentations, and service pitches where seriousness matters.",
-  "avoid_for": "Playful campaigns, medical explainers, classroom materials, or casual portfolio decks.",
-  "slide_count": 6,
+  "best_for": "Premium project proposals, executive concepts, procurement presentations, and serious service pitches that need budget, requirement, timeline, map, mockup, and decision pages.",
+  "avoid_for": "Playful campaigns, classroom materials, casual portfolios, or dense scientific explainers.",
+  "slide_count": 27,
+  "content_limits": {
+    "max_title_chars": 72,
+    "max_subtitle_chars": 150,
+    "max_body_chars_per_slide": 760,
+    "max_bullets": 6,
+    "max_cards": 5,
+    "recommended_slide_count_min": 14,
+    "recommended_slide_count_max": 27
+  },
   "features": {
     "navigation": true,
     "keyboard_navigation": true,
@@ -48,151 +57,529 @@
     "progress_bar": true,
     "slide_counter": true,
     "aspect_ratio": "fullscreen-responsive",
-    "format": "single-file-html"
+    "format": "single-file-html",
+    "source_preview_slides": 27
   },
   "layouts": [
     "boxed-title-cover",
-    "proposal-summary",
-    "requirements-grid",
-    "method-steps",
-    "investment-cards",
-    "closing"
+    "proposal-intro",
+    "contents-grid",
+    "company-overview",
+    "mission-statement",
+    "project-scope",
+    "problem-opportunity",
+    "solution-architecture",
+    "requirements-table",
+    "deliverables-grid",
+    "timeline-stages",
+    "budget-summary",
+    "budget-table",
+    "market-map",
+    "team-profile",
+    "service-packages",
+    "process-diagram",
+    "risk-mitigation",
+    "success-metrics",
+    "mockup-showcase",
+    "comparison-matrix",
+    "future-vision",
+    "implementation-roadmap",
+    "decision-slide",
+    "resource-credits",
+    "thank-you",
+    "closing-contact"
   ],
   "layout_slots": {
     "boxed-title-cover": [
       {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Main proposal or project name inside the framed title box."
-      },
-      {
-        "name": "subtitle",
-        "type": "text",
-        "required": true,
-        "description": "Short deck category or proposal label below the title."
-      },
-      {
-        "name": "supporting_text",
-        "type": "text",
-        "description": "One-line context statement below the frame."
-      }
-    ],
-    "proposal-summary": [
-      {
-        "name": "kicker",
-        "type": "label",
-        "required": true
-      },
-      {
-        "name": "tag",
-        "type": "label"
-      },
-      {
-        "name": "headline",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "summary_cards",
-        "type": "cards",
-        "repeatable": true,
-        "description": "Two cards, each with a short heading and paragraph."
-      }
-    ],
-    "requirements-grid": [
-      {
-        "name": "kicker",
-        "type": "label",
-        "required": true
-      },
-      {
-        "name": "tag",
-        "type": "label"
-      },
-      {
-        "name": "headline",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "requirement_cards",
-        "type": "cards",
-        "repeatable": true,
-        "description": "Three executive modules, each with a heading and paragraph."
-      }
-    ],
-    "method-steps": [
-      {
-        "name": "kicker",
-        "type": "label",
-        "required": true
-      },
-      {
-        "name": "tag",
-        "type": "label"
-      },
-      {
-        "name": "headline",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "step_cards",
-        "type": "cards",
-        "repeatable": true,
-        "description": "Four numbered method steps with title and short body."
-      }
-    ],
-    "investment-cards": [
-      {
-        "name": "kicker",
-        "type": "label",
-        "required": true
-      },
-      {
-        "name": "tag",
-        "type": "label"
-      },
-      {
-        "name": "metric_value",
-        "type": "stat",
-        "required": true
-      },
-      {
-        "name": "metric_label",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "headline",
-        "type": "text",
-        "required": true
+        "description": "Primary slide headline."
       },
       {
         "name": "body",
-        "type": "text"
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
       }
     ],
-    "closing": [
+    "proposal-intro": [
       {
         "name": "kicker",
-        "type": "label"
+        "type": "label",
+        "description": "Short section label or slide marker."
       },
       {
-        "name": "headline",
+        "name": "title",
         "type": "text",
-        "required": true
+        "required": true,
+        "description": "Primary slide headline."
       },
       {
-        "name": "supporting_text",
-        "type": "text"
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "contents-grid": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "company-overview": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "mission-statement": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "project-scope": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "problem-opportunity": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "solution-architecture": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "requirements-table": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "deliverables-grid": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "timeline-stages": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "budget-summary": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "budget-table": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "market-map": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "team-profile": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "service-packages": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "process-diagram": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "risk-mitigation": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "success-metrics": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "mockup-showcase": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "comparison-matrix": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "future-vision": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "implementation-roadmap": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "decision-slide": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "resource-credits": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "thank-you": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
+      }
+    ],
+    "closing-contact": [
+      {
+        "name": "kicker",
+        "type": "label",
+        "description": "Short section label or slide marker."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Primary slide headline."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "description": "Main paragraph, bullets, table rows, cards, or captions for the layout."
       }
     ]
   },
   "source_inspiration": {
     "name": "Slidesgo Custal Project Proposal",
     "url": "https://slidesgo.com/theme/custal-project-proposal",
-    "notes": "Independent HTML/CSS interpretation based on public visual reference; not a pixel copy and does not reuse source assets."
+    "notes": "Independent HTML/CSS reconstruction of the public preview structure: dark premium proposal styling, thin gold line geometry, boxed title frames, sections for company, project, requirements, budget, stages, maps, tables, timelines, mockups, future, and decision. It does not reuse source presentation assets."
   }
 }
