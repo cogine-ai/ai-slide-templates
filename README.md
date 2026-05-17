@@ -26,6 +26,16 @@ If your team already installs the Cogine development skill collection, the same 
 npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide-templates
 ```
 
+## Template Gallery
+
+Browse 27 browser-openable HTML slide templates across business, research, training, creative, and executive presentation styles.
+
+![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
+
+![AI Slide Templates gallery 2](docs/assets/readme/template-gallery-02.png)
+
+![AI Slide Templates gallery 3](docs/assets/readme/template-gallery-03.png)
+
 ## Manual Agent Prompt
 
 If your agent does not support Skills yet, copy this prompt into your AI coding agent:
