@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture Portfolio Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>:root{--display:'Montserrat';--body:'Montserrat'}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4vw 5vw 8vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .35s ease,transform .35s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.kicker,.num,.label{font-family:var(--display)}
+h1{font-size:clamp(3rem,7vw,7.4rem);line-height:.92}
+h2{font-size:clamp(2.1rem,4.3vw,4.6rem);line-height:1.02}
+h3{font-size:clamp(1rem,1.5vw,1.5rem);line-height:1.16}
+p,li{font-size:clamp(.84rem,1vw,1rem);line-height:1.55}
+.slide-counter{position:fixed;left:3vw;bottom:2.35vh;z-index:60;font-family:var(--display);font-size:.8rem;font-weight:800;color:var(--muted)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2vh;display:flex;gap:.65rem;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:2.4vh;position:relative;z-index:4}
+.kicker{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:900}
+.label{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line);border-radius:999px;padding:.45rem .8rem;font-size:.72rem;color:var(--muted);background:var(--label-bg)}
+.grid{display:grid;gap:1rem}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.card{position:relative;background:var(--card);border:1px solid var(--line);padding:1.25rem;overflow:hidden}
+.num{font-size:clamp(2rem,3.6vw,4rem);line-height:.86;color:var(--accent);font-weight:900}
+.photo{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--photo-a),var(--photo-b));border:1px solid var(--line)}
+.photo:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 0 46%,rgba(255,255,255,.35) 46% 49%,transparent 49%),repeating-linear-gradient(90deg,rgba(0,0,0,.06) 0 1px,transparent 1px 18px);opacity:.45}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:8vw 6vw 12vh}h1{font-size:clamp(2.6rem,12vw,5.2rem)}}
+
+:root{--bg:#fff;--ink:#080808;--muted:#303030;--accent:#ffd95b;--card:#fff;--line:#f4d65b;--label-bg:#fff;--progress:#ffd95b;--nav-line:#d7c154;--nav-bg:#fff;--nav-ink:#080808;--photo-a:#eeeeee;--photo-b:#a0a0a0}
+.deck{background:#fff}.arch{background:#fff;color:#080808}.arch h1,.arch h2,.arch h3{font-weight:900;letter-spacing:.01em}.arch-cover{padding:0}.desk-bg{position:absolute;inset:0;background:linear-gradient(135deg,#eee,#969696);filter:grayscale(1)}.desk-bg:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 30px),repeating-linear-gradient(90deg,rgba(0,0,0,.1) 0 1px,transparent 1px 30px),linear-gradient(24deg,transparent 0 42%,rgba(0,0,0,.16) 42% 43%,transparent 43%)}.yellow-circle{position:absolute;border-radius:50%;background:#ffd95b}.cover-circle{left:50%;top:50%;transform:translate(-50%,-50%);width:360px;height:360px;display:grid;place-items:center;text-align:center;padding:4rem;z-index:3}.cover-circle h1{font-size:2.35rem;line-height:1.05}.arch-bar{position:absolute;background:#ffd95b}.contents-arch{text-align:center;justify-content:center}.contents-arch .copy{max-width:720px;margin:auto}.contents-arch h2{font-size:2.2rem}.tab{position:absolute;right:12vw;top:10vh;background:#ffd95b;padding:.7rem 1.2rem;font-weight:800}.agenda-arch{justify-content:center}.agenda-lines{border-top:2px solid #f4d65b;border-bottom:2px solid #f4d65b;padding:2rem 0;display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;text-align:center}.agenda-lines h3{text-transform:uppercase;font-size:1rem}.mini-rule{width:80px;height:14px;background:#ffd95b;margin:.55rem auto 0}.arch-photo{background:linear-gradient(135deg,#f1f1f1,#777);filter:grayscale(1);position:relative;overflow:hidden}.arch-photo:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.12) 0 1px,transparent 1px 18px)}.about-divider{display:grid;grid-template-columns:48% 52%;padding:0}.about-divider .arch-photo{height:100vh}.about-divider .copy{display:flex;align-items:center;padding-left:14vw}.about-divider .yellow-circle{left:42%;top:50%;transform:translateY(-50%);width:260px;height:260px;display:grid;place-items:center;text-align:center}.about-collage{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2rem}.about-collage .arch-photo{height:38vh}.yellow-block{background:#ffd95b;padding:3rem}.about-blocks{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:2rem;align-items:center}.about-blocks .arch-photo{height:72vh}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:4vh}.value-card{background:#ffd95b;min-height:330px;padding:2rem}.value-card:before{content:"";display:block;width:58px;height:58px;border:4px solid #080808;border-radius:50%;margin-bottom:2rem}.values-photo{display:grid;grid-template-columns:.9fr 1.1fr;gap:3rem;align-items:center}.values-photo .arch-photo{height:70vh}.values-photo .values{margin-top:0}
+</style>
+</head>
+<body class="architecture-portfolio">
+  <main class="deck">
+    <section class="slide active arch arch-cover"><div class="desk-bg"></div><span class="arch-bar" style="left:-2vw;top:7vh;width:28vw;height:9vh;transform:rotate(18deg)"></span><span class="arch-bar" style="right:7vw;top:9vh;width:17vw;height:3vh;transform:rotate(-22deg)"></span><div class="yellow-circle cover-circle"><div><h1>MY PORTFOLIO</h1><p>A piece of my architectural work</p></div></div></section>
+    <section class="slide arch contents-arch"><span class="arch-bar" style="left:7vw;top:0;width:26px;height:100vh"></span><span class="arch-bar" style="right:9vw;bottom:0;width:26px;height:48vh"></span><div class="tab">CONTENTS</div><div class="copy"><h2>Contents of this portfolio</h2><p style="margin-top:1.5rem">Use this quiet page for the portfolio overview, section note, or introduction before the numbered agenda.</p></div></section>
+    <section class="slide arch agenda-arch"><span class="yellow-circle" style="left:6vw;top:-7vh;width:210px;height:210px"></span><div class="agenda-lines"><article><span class="num">-01-</span><h3>About me</h3><div class="mini-rule"></div></article><article><span class="num">-02-</span><h3>What I do</h3><div class="mini-rule"></div></article><article><span class="num">-03-</span><h3>Experience</h3><div class="mini-rule"></div></article><article><span class="num">-04-</span><h3>My work</h3><div class="mini-rule"></div></article></div><span class="yellow-circle" style="right:12vw;bottom:-12vh;width:260px;height:260px"></span></section>
+    <section class="slide arch about-divider"><div class="arch-photo"></div><div class="copy"><h2>About me</h2></div><div class="yellow-circle"><h2 style="font-size:2rem">ABOUT<br>ME</h2></div></section>
+    <section class="slide arch about-collage"><div class="arch-photo"></div><div class="yellow-block"><h2>About me</h2><p style="margin-top:1rem">A portfolio page with one strong photo, one yellow anchor block, and concise body text.</p></div><div class="yellow-block"><h3>Profile</h3><p style="margin-top:1rem">Practice focus, materials, approach, and role.</p></div><div class="arch-photo"></div></section>
+    <section class="slide arch about-blocks"><div class="yellow-block"><h3>Design belief</h3><p style="margin-top:1rem">Describe the method and values behind the work.</p></div><div class="arch-photo"></div><div class="yellow-block"><h3>Studio method</h3><p style="margin-top:1rem">Show constraints, process, and measurable outcomes.</p></div></section>
+    <section class="slide arch"><h2>Values</h2><div class="values"><article class="value-card"><h3>Function</h3><p>Spaces that work clearly.</p></article><article class="value-card"><h3>Material</h3><p>Texture, light, and honest construction.</p></article><article class="value-card"><h3>Context</h3><p>Architecture grounded in site.</p></article></div></section>
+    <section class="slide arch values-photo"><div class="arch-photo"></div><div><h2>Values</h2><div class="values"><article class="value-card"><h3>01</h3><p>Clarity</p></article><article class="value-card"><h3>02</h3><p>Structure</p></article><article class="value-card"><h3>03</h3><p>Evidence</p></article></div></div></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

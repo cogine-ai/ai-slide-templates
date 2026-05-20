@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Law Justice Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <style>:root{--display:'Lato';--body:'Lato'}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4vw 5vw 8vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .35s ease,transform .35s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.kicker,.num,.label{font-family:var(--display)}
+h1{font-size:clamp(3rem,7vw,7.4rem);line-height:.92}
+h2{font-size:clamp(2.1rem,4.3vw,4.6rem);line-height:1.02}
+h3{font-size:clamp(1rem,1.5vw,1.5rem);line-height:1.16}
+p,li{font-size:clamp(.84rem,1vw,1rem);line-height:1.55}
+.slide-counter{position:fixed;left:3vw;bottom:2.35vh;z-index:60;font-family:var(--display);font-size:.8rem;font-weight:800;color:var(--muted)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2vh;display:flex;gap:.65rem;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:2.4vh;position:relative;z-index:4}
+.kicker{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:900}
+.label{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line);border-radius:999px;padding:.45rem .8rem;font-size:.72rem;color:var(--muted);background:var(--label-bg)}
+.grid{display:grid;gap:1rem}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.card{position:relative;background:var(--card);border:1px solid var(--line);padding:1.25rem;overflow:hidden}
+.num{font-size:clamp(2rem,3.6vw,4rem);line-height:.86;color:var(--accent);font-weight:900}
+.photo{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--photo-a),var(--photo-b));border:1px solid var(--line)}
+.photo:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 0 46%,rgba(255,255,255,.35) 46% 49%,transparent 49%),repeating-linear-gradient(90deg,rgba(0,0,0,.06) 0 1px,transparent 1px 18px);opacity:.45}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:8vw 6vw 12vh}h1{font-size:clamp(2.6rem,12vw,5.2rem)}}
+
+:root{--bg:#21123b;--ink:#fff;--muted:rgba(255,255,255,.82);--accent:#fff;--card:rgba(255,255,255,.08);--line:rgba(255,255,255,.74);--label-bg:rgba(255,255,255,.08);--progress:linear-gradient(90deg,#d42c83,#2f4da1);--nav-line:rgba(255,255,255,.55);--nav-bg:rgba(255,255,255,.08);--nav-ink:#fff;--photo-a:#513a60;--photo-b:#24335b}
+.deck{background:#21123b}.law{background:linear-gradient(115deg,rgba(196,33,111,.82),rgba(30,62,146,.82)),#272333;color:#fff;text-align:center}.law:before{content:"";position:absolute;inset:0;z-index:0;background:var(--law-bg),linear-gradient(115deg,rgba(196,33,111,.72),rgba(30,62,146,.78));background-blend-mode:multiply;opacity:.92}.law>*{position:relative;z-index:2}.law-arches{--law-bg:radial-gradient(ellipse at 50% 82%,rgba(255,255,255,.28) 0 18%,transparent 19%),repeating-linear-gradient(90deg,rgba(255,255,255,.13) 0 3px,transparent 3px 185px),linear-gradient(#757575,#252525)}.law-stairs{--law-bg:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0 14px,transparent 14px 54px),radial-gradient(circle at 72% 35%,rgba(255,255,255,.2),transparent 18vw),linear-gradient(#777,#1c1c1c)}.law-statue{--law-bg:radial-gradient(ellipse at 62% 45%,rgba(255,255,255,.34) 0 10%,transparent 11%),linear-gradient(90deg,rgba(255,255,255,.16) 0 20%,transparent 20% 100%),linear-gradient(#777,#222)}.law-gavel{--law-bg:radial-gradient(ellipse at 50% 42%,rgba(255,255,255,.26),transparent 23vw),linear-gradient(145deg,#777,#202020)}.law-frame{position:absolute;inset:9vh 8vw;border:4px solid #fff}.law-frame:before{content:"";position:absolute;left:50%;top:-38px;transform:translateX(-50%);width:74px;height:58px;background:#fff;clip-path:polygon(50% 0,100% 35%,88% 35%,88% 100%,12% 100%,12% 35%,0 35%)}.law h1{font-family:Lato;font-size:clamp(2.9rem,4.8vw,5.2rem);font-weight:700}.law h2{font-family:Lato;font-size:clamp(2.4rem,4vw,4.6rem);font-weight:700}.law-cover,.law-center{justify-content:center}.law-seal{width:90px;height:90px;border:3px solid #fff;border-radius:50%;display:grid;place-items:center;margin:0 auto 2rem}.law-seal:before{content:"§";font-family:'Libre Baskerville';font-size:3.2rem}.law-cols{display:grid;grid-template-columns:1fr 1fr;gap:7vw;max-width:980px;margin:9vh auto 0;text-align:left}.law-cols h3{text-transform:uppercase;font-size:1.2rem;margin-bottom:.8rem}.law-avatar{width:132px;height:132px;border-radius:50%;background:radial-gradient(circle at 55% 35%,#ddd 0 18%,#8d8d8d 19% 36%,#eee 37%);border:6px solid #fff;margin:0 auto 1.2rem}.law-profile h2{font-family:'Libre Baskerville';font-size:clamp(2.7rem,4.8vw,5rem);font-weight:400}.law-profile em,.law-quote blockquote{font-family:'Libre Baskerville';font-style:italic}.law-transition .under{width:360px;height:5px;background:#fff;margin:1.3rem auto 0}.law-quote .law-frame:after{content:"“";position:absolute;left:50%;top:-64px;transform:translateX(-50%);font-family:'Libre Baskerville';font-size:7rem;line-height:1;color:#fff}.law-quote blockquote{font-size:clamp(2rem,3.8vw,4.5rem);line-height:1.14;max-width:860px;margin:auto}.law-quote p{position:absolute;left:0;right:0;bottom:12vh}.law-list{text-align:left}.law-list .wrap{max-width:960px;margin:auto}.law-list ul{margin:2rem 0 2rem 1.2rem}.law-list li{margin:.85rem 0}.law-note{font-family:'Libre Baskerville';font-size:1.6rem;font-style:italic;border-left:4px solid #fff;padding-left:1.2rem}.gavel-icon{width:150px;height:86px;margin:0 auto 2rem;position:relative}.gavel-icon:before{content:"";position:absolute;width:112px;height:36px;background:#fff;border-radius:6px;left:6px;top:8px;transform:rotate(-28deg)}.gavel-icon:after{content:"";position:absolute;width:112px;height:18px;background:#fff;border-radius:999px;right:4px;bottom:9px;transform:rotate(35deg)}.contrast-cols{text-align:left;display:grid;grid-template-columns:1fr 1fr;gap:7vw;max-width:980px;margin:9vh auto 0}
+</style>
+</head>
+<body class="law-justice">
+  <main class="deck">
+    <section class="slide active law law-arches law-cover"><div class="law-frame"></div><h1>This is your presentation<br>title</h1></section>
+    <section class="slide law law-arches"><div class="law-seal"></div><h2 style="font-size:2.35rem">Instructions for use</h2><div class="law-cols"><article><h3>Edit in Google Slides</h3><p>Use the left column for platform instructions, preparation notes, or a formal agenda preface.</p></article><article><h3>Edit in PowerPoint</h3><p>The right column mirrors the original source rhythm and keeps the legal overlay visible.</p></article></div></section>
+    <section class="slide law law-arches law-center law-profile"><div class="law-avatar"></div><p>Hello!</p><h2>I am Jayden Smith</h2><em>I am here because I love to give presentations.</em></section>
+    <section class="slide law law-stairs law-center law-transition"><h2>1. Transition headline</h2><p style="font-family:'Libre Baskerville';font-style:italic;font-size:1.5rem">Let's start with the first set of slides</p><div class="under"></div></section>
+    <section class="slide law law-statue law-center law-quote"><div class="law-frame"></div><blockquote>"This is a quote, words full of wisdom that someone important said and can make the reader get inspired."</blockquote><p style="margin-top:1.5rem">Someone Famous</p></section>
+    <section class="slide law law-arches law-list"><div class="law-seal"></div><div class="wrap"><h2 style="font-size:2.8rem;text-align:center">Important ideas</h2><ul><li>Maintain the formal two-tone institutional background.</li><li>Use short legal statements rather than dense paragraphs.</li><li>Reserve emphasis for a testimony-style quote.</li></ul><div class="law-note">You can highlight an important legal argument or evidence note here.</div></div></section>
+    <section class="slide law law-gavel law-center"><div class="gavel-icon"></div><h2>Big concept</h2><p style="max-width:600px;margin:1rem auto">Bring the room back to one central principle before the next section.</p></section>
+    <section class="slide law law-arches"><div class="law-seal"></div><h2 style="font-size:2.6rem">Two-column content</h2><div class="contrast-cols"><article><h3>White</h3><p>Use this side for one interpretation, principle, or stakeholder position.</p></article><article><h3>Black</h3><p>Use this side for the counterpoint, risk, or second evidence category.</p></article></div></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

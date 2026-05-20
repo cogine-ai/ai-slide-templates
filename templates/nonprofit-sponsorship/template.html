@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nonprofit Sponsorship Candidate Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>:root{--display:'Poppins';--body:'Poppins'}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:4vw 5vw 8vh;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .35s ease,transform .35s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.kicker,.num,.label{font-family:var(--display)}
+h1{font-size:clamp(3rem,7vw,7.4rem);line-height:.92}
+h2{font-size:clamp(2.1rem,4.3vw,4.6rem);line-height:1.02}
+h3{font-size:clamp(1rem,1.5vw,1.5rem);line-height:1.16}
+p,li{font-size:clamp(.84rem,1vw,1rem);line-height:1.55}
+.slide-counter{position:fixed;left:3vw;bottom:2.35vh;z-index:60;font-family:var(--display);font-size:.8rem;font-weight:800;color:var(--muted)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2vh;display:flex;gap:.65rem;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:2.4vh;position:relative;z-index:4}
+.kicker{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:900}
+.label{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line);border-radius:999px;padding:.45rem .8rem;font-size:.72rem;color:var(--muted);background:var(--label-bg)}
+.grid{display:grid;gap:1rem}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.card{position:relative;background:var(--card);border:1px solid var(--line);padding:1.25rem;overflow:hidden}
+.num{font-size:clamp(2rem,3.6vw,4rem);line-height:.86;color:var(--accent);font-weight:900}
+.photo{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--photo-a),var(--photo-b));border:1px solid var(--line)}
+.photo:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 0 46%,rgba(255,255,255,.35) 46% 49%,transparent 49%),repeating-linear-gradient(90deg,rgba(0,0,0,.06) 0 1px,transparent 1px 18px);opacity:.45}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:8vw 6vw 12vh}h1{font-size:clamp(2.6rem,12vw,5.2rem)}}
+
+:root{--bg:#1d6b72;--ink:#fff;--muted:rgba(255,255,255,.8);--accent:#ffd138;--accent2:#ee756b;--card:rgba(255,255,255,.12);--line:rgba(255,255,255,.18);--label-bg:rgba(255,255,255,.12);--progress:linear-gradient(90deg,#ffd138,#ee756b,#55b6bb);--nav-line:rgba(255,255,255,.45);--nav-bg:rgba(255,255,255,.12);--nav-ink:#fff;--photo-a:#d6e5e0;--photo-b:#8ca8a0}
+.deck{background:#1d6b72}.np{background:#1d6b72;color:#fff}.np-coral{background:#e85f55}.np h1,.np h2{font-weight:700;letter-spacing:-.02em}.np-ring{position:absolute;width:300px;height:300px;border:48px solid #ffd138;border-radius:50%;z-index:0}.np-ring.teal{border-color:#55b6bb}.np-ring.coral{border-color:#ee756b}.np-dot{position:absolute;width:46px;height:46px;border-radius:50%;background:#ffd138;z-index:2}.np-blob{position:absolute;border-radius:46% 54% 42% 58%;background:#4ba7ad;z-index:0}.np-blob.dark{background:#1d6b72}.np-blob.coral{background:#ee756b}.np-photo{position:relative;overflow:hidden;background:radial-gradient(circle at 55% 28%,#c99480 0 6%,transparent 6.4%),radial-gradient(circle at 68% 25%,#e6c1ab 0 5%,transparent 5.3%),linear-gradient(180deg,#7698a0 0 36%,#ddd5cd 36% 53%,#aabdc0 53%);filter:saturate(.9);border:0}.np-photo:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.08) 0 1px,transparent 1px 22px);opacity:.35}.np-cover{display:grid;grid-template-columns:1fr .92fr;padding:0}.np-cover .copy{position:relative;z-index:3;display:flex;flex-direction:column;justify-content:center;padding-left:7vw}.np-cover .np-photo{height:100vh}.np-cover h1{font-size:clamp(4rem,6.1vw,7rem);line-height:.98}.np-pill{display:inline-flex;background:#ffd138;color:#1e3932;border-radius:18px;padding:.85rem 2.2rem;margin-top:1.5rem;font-size:clamp(1.1rem,1.65vw,1.75rem);font-weight:600;width:max-content}.np-divider{justify-content:flex-end;padding-bottom:18vh}.np-divider h1{position:relative;z-index:2;max-width:770px}.np-metrics{display:grid;grid-template-columns:.9fr 1.1fr;gap:5vw;align-items:end}.np-metrics h2{align-self:end;margin-bottom:1rem}.donut-row{display:grid;grid-template-columns:repeat(2,180px);gap:2.6rem;justify-content:center}.np-donut{position:relative;width:180px;height:180px;border-radius:50%;background:conic-gradient(#ee756b var(--p),#226f76 0);display:grid;place-items:center;font-size:2.2rem;font-weight:700}.np-donut:after{content:"";position:absolute;inset:34px;border-radius:50%;background:#1d6b72}.np-donut span{position:relative;z-index:2}.np-bars{display:grid;gap:1rem;margin-top:3rem}.np-bar{border-radius:22px;padding:1rem 1.7rem;text-align:center;background:#ffd138;color:#183f3a;font-size:1.55rem;font-weight:600}.np-bar.teal{background:#55b6bb;color:#fff}.np-bar.coral{background:#ee756b;color:#17312e}.np-about{display:grid;grid-template-columns:.85fr 1fr;gap:5vw;align-items:center}.circle-photo{width:37vw;max-width:470px;aspect-ratio:1;border-radius:50%;border:0;justify-self:center}.np-about .copy{max-width:640px}.np-arches{display:grid;grid-template-columns:repeat(3,1fr);gap:3vw;align-items:end;margin-top:9vh}.np-arch{min-height:430px;background:#e85f55;border-radius:46% 46% 28px 28px;padding:8rem 1.5rem 2rem;text-align:center;position:relative}.np-arch:before{content:"";position:absolute;top:2rem;left:50%;transform:translateX(-50%);width:95px;height:95px;border-radius:50%;background:#ffd138}.np-arch strong{font-size:clamp(3rem,5vw,5.7rem);line-height:.9;display:block}.np-score{justify-content:center;text-align:center}.np-score .circle-photo{position:absolute;left:8vw;top:8vh;width:20vw}.score-pill{display:inline-flex;margin-top:2rem;background:#ffd138;color:#1e3932;border-radius:22px;padding:1rem 3rem;font-size:clamp(3rem,5vw,5rem);font-weight:800}.np-sponsor{display:grid;grid-template-columns:1fr .95fr;align-items:end}.np-sponsor h1{margin-top:auto;margin-bottom:5vh;position:relative;z-index:2}.np-sponsor .circle-photo{position:absolute;right:9vw;top:8vh;width:28vw}.np-sponsor .np-bars{position:absolute;right:8vw;bottom:14vh;width:34vw}.np-packages{justify-content:center}.np-packages h1{position:relative;z-index:3}
+</style>
+</head>
+<body class="nonprofit-sponsorship">
+  <main class="deck">
+    <section class="slide active np np-cover"><div class="copy"><span class="np-blob" style="left:-24vw;top:-26vh;width:48vw;height:48vw"></span><span class="np-blob dark" style="right:-8vw;top:-8vh;width:34vw;height:88vh"></span><span class="np-dot" style="right:6vw;top:21vh"></span><h1>Carnival 3.0</h1><div class="np-pill">An initiative by EducateAll</div></div><div class="np-photo"></div><span class="np-ring coral" style="right:-8vw;bottom:-18vh"></span></section>
+    <section class="slide np np-coral np-divider"><span class="np-ring" style="left:6vw;top:-19vh"></span><span class="np-ring teal" style="right:-10vw;bottom:-18vh"></span><h1>Data about<br>Carnival 3.0</h1></section>
+    <section class="slide np np-metrics"><span class="np-ring" style="left:-14vw;top:16vh"></span><span class="np-blob" style="left:8vw;top:-28vh;width:42vw;height:42vw"></span><h2>Metrics from<br>previous years</h2><div><div class="donut-row"><div><div class="np-donut" style="--p:30%"><span>30%</span></div><p style="text-align:center;margin-top:1rem">Basic</p></div><div><div class="np-donut" style="--p:70%"><span>70%</span></div><p style="text-align:center;margin-top:1rem">Premium</p></div></div><div class="np-bars"><div class="np-bar">10,000 Earned</div><div class="np-bar teal">7000 Tickets Sold</div><div class="np-bar coral">70 Children Supported</div></div></div></section>
+    <section class="slide np np-coral np-about"><span class="np-ring" style="left:-11vw;bottom:-20vh"></span><div class="np-photo circle-photo"></div><div class="copy"><h2>About our Carnival</h2><p style="margin-top:1.4rem">Use this page for the mission story, event background, and the community impact partners will help expand.</p><p style="margin-top:1rem">The original page pairs one large circular image with a warm coral explanation block.</p></div></section>
+    <section class="slide np"><span class="np-blob" style="right:-8vw;top:-18vh;width:44vw;height:44vw"></span><h2>Marketing Stats</h2><div class="np-arches"><article class="np-arch"><strong>700K</strong><p>Social reach</p></article><article class="np-arch"><strong>1300K</strong><p>Community impressions</p></article><article class="np-arch"><strong>45K</strong><p>Event responses</p></article></div></section>
+    <section class="slide np np-coral np-score"><div class="np-photo circle-photo"></div><span class="np-ring" style="right:-7vw;bottom:-17vh"></span><h2>How likely are participants<br>to recommend Carnival 3.0?</h2><div class="score-pill">9.5/10</div></section>
+    <section class="slide np np-sponsor"><span class="np-ring coral" style="left:-11vw;top:16vh"></span><h1>Become<br>a Sponsor</h1><div class="np-photo circle-photo"></div><div class="np-bars"><div class="np-bar">Package One</div><div class="np-bar teal">Package Two</div><div class="np-bar coral">Package Three</div></div></section>
+    <section class="slide np np-coral np-packages"><span class="np-ring" style="left:9vw;top:-16vh"></span><span class="np-ring teal" style="right:-11vw;bottom:-18vh"></span><h1>Packages</h1></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{const diff=touchStartX-event.changedTouches[0].screenX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);},{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

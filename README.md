@@ -28,13 +28,15 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 27 browser-openable HTML slide templates across business, research, training, creative, and executive presentation styles.
+Browse 36 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
 ![AI Slide Templates gallery 2](docs/assets/readme/template-gallery-02.png)
 
 ![AI Slide Templates gallery 3](docs/assets/readme/template-gallery-03.png)
+
+![AI Slide Templates gallery 4](docs/assets/readme/template-gallery-04.png)
 
 ## Manual Agent Prompt
 
@@ -75,6 +77,7 @@ The folder name must match `template.json.slug`.
 |---|---|---|
 | `5s-training` | Soft, procedural, practical | 5S training, operations workshops, process improvement, team enablement |
 | `airy-modern` | Minimal, friendly, optimistic | Product strategy, customer research, startup updates, planning workshops |
+| `architecture-portfolio` | Architectural, clean, structured | Architecture portfolios, design studio credentials, floor-plan narratives, and built-environment project reviews |
 | `b2b-sales-pitch` | Sharp, fresh, corporate | B2B sales pitches, SaaS proposals, enterprise partnership decks, GTM stories |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
@@ -86,17 +89,25 @@ The folder name must match `template.json.slug`.
 | `glass-ux-studio` | Sleek, digital, experiential | UX case studies, product walkthroughs, app concepts, innovation pitches |
 | `gold-line-proposal` | Premium, dark, authoritative | Project proposals, executive concepts, premium service pitches |
 | `grant-proposal` | Formal, institutional, evidence-led | Grant proposals, nonprofit funding requests, foundation applications, program plans |
+| `green-halftone-retro` | Energetic, diagrammatic, classroom-ready | Middle-school science lessons, STEM workshops, experiment explainers, classroom agendas, quiz boards, and playful technical training |
 | `hr-orientation` | Bright, playful, supportive | HR orientation, new-hire onboarding, culture introductions, internal training |
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
+| `law-justice` | Measured, legal, traditional | Legal briefings, justice policy updates, public institution presentations, and law education decks |
 | `linear-qbr` | Restrained, linear, formal | Quarterly business reviews, board updates, operating cadence, portfolio reviews |
 | `matisse-collage` | Artistic, soft, gallery-like | Creative workshops, art education, museum talks, community programs |
+| `mental-health-workshop` | Warm, safe, friendly | Mental health workshops, HR wellbeing training, support briefings, and campus awareness sessions |
 | `midnight-executive` | Executive, polished, dramatic | Board updates, investor briefings, leadership reviews, strategic reviews |
+| `modern-wave` | Playful, clean, high-contrast | Simple modern keynotes, introductions, creative overviews, quotes, and lightweight visual storytelling |
 | `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
 | `neon-grid-agency` | Neon, graphic, energetic | Creative agency pitches, talent decks, youth brand campaigns |
 | `neon-night-pitch` | Expressive, loud, pop | Event pitches, creator decks, nightlife and culture proposals |
+| `nonprofit-sponsorship` | Inviting, clear, mission-led | Nonprofit event sponsorship decks, community partnership proposals, fundraising packages, and sponsor benefit explainers |
 | `pastel-research` | Scholarly, gentle, polished | Academic talks, medical science updates, conference presentations |
+| `photo-mosaic` | Gallery-like, polished, image-led | Photo-heavy case studies, visual portfolios, travel stories, project galleries, and product moodboards |
+| `programming-workshop-3d` | Hands-on, digital, energetic | Developer training, coding bootcamps, technical onboarding, and beginner programming lessons |
 | `quarterly-review-infographics` | Direct, metric-led, practical | Quarterly business reviews, performance reports, sales updates, executive dashboards |
 | `quarterly-review-meeting` | Clear, measured, professional | QBR meetings, operating updates, project reviews, status and RAID reports |
+| `real-estate-listing` | Sales-led, direct, polished | Property listing decks, real-estate agency profiles, service/product pages, and neighborhood market summaries |
 | `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
