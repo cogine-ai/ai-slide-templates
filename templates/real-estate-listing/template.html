@@ -81,8 +81,15 @@ p,li{font-size:clamp(.84rem,1vw,1rem);line-height:1.55}
       const next=current+direction;
       if(next>=0&&next<slides.length){current=next;updateSlide();}
     }
+    function shouldHandleSpaceShortcut(){
+      const active=document.activeElement;
+      if(!(active instanceof HTMLElement)||active===document.body)return true;
+      const interactiveTags=['INPUT','TEXTAREA','BUTTON','SELECT','A'];
+      return !interactiveTags.includes(active.tagName)&&!active.isContentEditable&&active.getAttribute('role')!=='button'&&!(active.hasAttribute('tabindex')&&active.getAttribute('tabindex')!=='-1');
+    }
     document.addEventListener('keydown',(event)=>{
-      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowRight'||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key===' '&&shouldHandleSpaceShortcut()){event.preventDefault();changeSlide(1);}
       if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
       if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
       if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
