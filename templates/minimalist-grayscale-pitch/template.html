@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Grayscale Pitch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{background:#111;color:var(--ink);font-family:var(--body-font)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;opacity:0;pointer-events:none;transform:translateX(28px);transition:opacity .34s ease,transform .34s ease;background:var(--bg);color:var(--ink);padding:50px 58px 74px}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-28px)}
+h1,h2,h3,.display,.num,.kicker{font-family:var(--display-font);letter-spacing:0}
+h1{font-size:74px;line-height:.96}
+h2{font-size:50px;line-height:1.04}
+h3{font-size:23px;line-height:1.16}
+p,li,td,th{font-size:15px;line-height:1.48}
+.grid{display:grid;gap:18px}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.slide-counter{position:fixed;left:3vw;bottom:2.35vh;z-index:70;font-family:var(--display-font);font-size:12px;font-weight:800;color:var(--counter)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:70;transition:width .28s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2vh;display:flex;gap:10px;z-index:70}
+.nav-btn{width:42px;height:42px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+@media(max-width:900px){.slide{padding:34px 30px 72px}h1{font-size:48px}h2{font-size:36px}.two,.three,.four{grid-template-columns:1fr}.nav-controls{right:18px}.slide-counter{left:20px}}
+
+
+.minimal-gray{--bg:#fff;--ink:#1b1b1b;--counter:#555;--progress:#050505;--nav-line:#777;--nav-bg:#fff;--nav-ink:#111;--display-font:'Montserrat',sans-serif;--body-font:'Montserrat',sans-serif}
+.minimal-gray h1,.minimal-gray h2,.minimal-gray h3{font-weight:300;text-transform:uppercase}.minimal-gray .slide{background:#fff;color:#1d1d1d}
+.mg-line{position:absolute;height:2px;background:#777;opacity:.65;transform:rotate(42deg);transform-origin:left top}.mg-triangle{position:absolute;background:#383838;clip-path:polygon(50% 0,100% 100%,0 100%)}.mg-black{background:#050505;color:#fff}.mg-black h1,.mg-black h2,.mg-black h3,.mg-black p{color:#fff}
+.mg-cover .tri-main{right:-2px;top:-142px;width:840px;height:840px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}.mg-cover .tri-light{left:-100px;bottom:-92px;width:460px;height:390px;background:#D8D8D8;clip-path:polygon(50% 0,100% 100%,0 100%)}.mg-cover h1{position:absolute;right:224px;top:205px;text-align:center;color:#fff;font-size:50px;line-height:1.24}.mg-cover p{position:absolute;right:280px;top:430px;color:#fff}
+.mg-notes{display:grid;grid-template-columns:1fr 300px;gap:60px}.mg-notes h2{font-size:34px;margin-bottom:18px}.mg-notes ol{padding-left:22px}.mg-notes li{margin:9px 0;font-size:16px}.mg-notes .corner{position:absolute;right:0;bottom:0;width:330px;height:230px;background:#383838;clip-path:polygon(100% 0,100% 100%,0 100%)}
+.mg-diamond{display:grid;place-items:center;text-align:center}.mg-diamond:before{content:"";position:absolute;inset:0;background:#050505;clip-path:polygon(20% 0,80% 0,100% 50%,80% 100%,20% 100%,0 50%)}.mg-diamond>*{position:relative}.mg-diamond h1{font-size:84px;color:#fff}.mg-diamond p{font-size:18px;color:#fff}.mg-diamond .rule{width:92px;border-top:2px solid #fff;margin:26px auto}
+.mg-split{padding:0;display:grid;grid-template-columns:38% 62%}.mg-split aside{background:#050505;color:#fff;padding:150px 78px}.mg-split main{padding:132px 110px}.mg-split h2{font-size:48px}.mg-split ol{list-style:none;display:grid;gap:34px}.mg-split li{display:grid;grid-template-columns:58px 1fr;gap:28px;font-size:19px}
+.mg-center{text-align:center;display:grid;place-items:center}.mg-center:before{content:"";position:absolute;left:0;right:0;top:0;height:300px;background:#050505;clip-path:polygon(0 0,100% 0,74% 100%,26% 100%)}.mg-center h2{font-size:46px}.mg-center .toc{position:relative;margin-top:205px;display:grid;grid-template-columns:1fr 1fr;gap:46px 110px;text-align:left;font-size:19px}
+.mg-photo{background:linear-gradient(135deg,#161616,#a5a5a5);filter:grayscale(1);position:relative}.mg-photo:after{content:"";position:absolute;inset:16%;border:1px solid rgba(255,255,255,.8)}
+.mg-photo-split{display:grid;grid-template-columns:45% 55%;padding:0}.mg-photo-split .mg-photo{min-height:100%}.mg-photo-split .copy{padding:150px 90px}.mg-photo-split .copy h2{font-size:54px}.mg-photo-split .copy p{font-size:17px}.mg-photo-split .corner{position:absolute;right:0;bottom:0;width:210px;height:185px;background:#050505;clip-path:polygon(100% 0,100% 100%,0 100%)}
+.mg-intro{display:grid;grid-template-columns:52% 48%;align-items:center}.mg-intro h2{font-size:44px}.mg-intro p{font-size:17px}.mg-frame{height:420px;background:#050505;padding:54px;display:grid;place-items:center}.mg-frame .mg-photo{width:230px;height:310px}.mg-graybox{background:#D8D8D8;margin:68px 32px;padding:88px}.mg-graybox h2{font-size:40px}.mg-graybox p,.mg-graybox li{font-size:17px}.mg-dark-company{background:#050505;display:grid;grid-template-columns:48% 52%;align-items:center}.mg-dark-company .panel{background:#D8D8D8;clip-path:polygon(0 0,72% 0,100% 50%,72% 100%,0 100%);height:100%}
+
+  </style>
+</head>
+<body class="minimal-gray">
+  <main class="deck">
+<section class="slide active mg-cover" data-layout="triangle-cover"><span class="mg-triangle tri-light"></span><span class="mg-triangle tri-main"></span><span class="mg-line" style="left:20px;top:110px;width:410px"></span><h1>Minimalist<br>Grayscale<br>Pitch Deck</h1><p>Here is where your presentation begins</p></section>
+<section class="slide mg-notes" data-layout="contents-notes"><div><h2>Contents of this template</h2><ol><li>Editable resources for fonts, colors, and theme.</li><li>Use this template for concise startup pitch pages.</li><li>Keep the diagonal geometry as the main visual grammar.</li><li>Replace images with monochrome photography.</li><li>All layouts are designed for short claims.</li></ol></div><div></div><span class="corner"></span></section>
+<section class="slide mg-diamond" data-layout="black-diamond-intro"><div><h1>Whoa!</h1><div class="rule"></div><p>This can be the part of the presentation where you introduce yourself, write your email...</p></div></section>
+<section class="slide mg-split" data-layout="split-toc"><aside><h2>Table of<br>Contents</h2><div style="width:54px;border-top:2px solid #fff;margin-top:24px"></div></aside><main><ol><li><b>01</b><span><b>Problem vs. Solution</b><br>Topic of the section</span></li><li><b>02</b><span><b>Product</b><br>Topic of the section</span></li><li><b>03</b><span><b>Market and Competition</b><br>Topic of the section</span></li><li><b>04</b><span><b>Business Model</b><br>Topic of the section</span></li></ol></main></section>
+<section class="slide mg-center" data-layout="center-toc"><div><h2>Table of Contents</h2><div style="width:54px;border-top:2px solid #555;margin:18px auto"></div><div class="toc"><p><b>01</b> Problem vs. Solution</p><p><b>03</b> Market and Competition</p><p><b>02</b> Product</p><p><b>04</b> Business Model</p></div></div></section>
+<section class="slide mg-photo-split" data-layout="section-image-split"><div class="mg-photo"></div><div class="copy"><h2><span style="font-size:76px">01</span><br>Problem vs.<br>Solution</h2><p style="margin-top:28px">Enter a subtitle here if you need it.</p></div><span class="corner"></span></section>
+<section class="slide mg-intro" data-layout="intro-photo-block"><div><h2>Introduction</h2><div style="width:70px;border-top:2px solid #555;margin:20px 0"></div><p>Mercury is the closest planet to the Sun and the smallest one in the Solar System. This slide uses a black framed image as the main proof object.</p></div><div class="mg-frame"><div class="mg-photo"></div></div></section>
+<section class="slide mg-intro" data-layout="reverse-intro-photo"><div class="mg-frame"><div class="mg-photo"></div></div><div style="text-align:right"><h2>Introduction</h2><div style="width:70px;border-top:2px solid #555;margin:20px 0 20px auto"></div><p>Keep body copy short and let the black-white block structure carry the rhythm.</p></div><span class="mg-triangle" style="right:42px;top:95px;width:74px;height:64px;background:#aaa"></span></section>
+<section class="slide " data-layout="gray-company-panel"><span class="mg-triangle" style="left:45%;top:-70px;width:150px;height:145px"></span><div class="mg-graybox"><h2>Our Company</h2><div style="width:70px;border-top:2px solid #555;margin:28px auto 28px 42%"></div><p>Do you know what helps you make your point clear? Lists like this one:</p><ul style="margin-top:14px;padding-left:18px"><li>They are simple</li><li>You can organize your ideas clearly</li><li>You will never forget to buy milk</li></ul></div></section>
+<section class="slide mg-dark-company" data-layout="black-company-panel"><div style="padding:78px"><h2>Our Company</h2><div style="width:68px;border-top:2px solid #fff;margin:24px 0"></div><p>Use this dark variation to create contrast before returning to white pages.</p><ul style="margin-top:16px;padding-left:18px"><li>They are simple</li><li>You can organize your ideas clearly</li><li>You will never forget to buy milk</li></ul></div><div class="panel"></div></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        else if (index < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      totalEl.textContent = slides.length;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+    }
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const delta = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(delta) > 50) changeSlide(delta > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>
