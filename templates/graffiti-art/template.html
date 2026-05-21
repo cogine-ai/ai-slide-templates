@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graffiti Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{background:#111;color:var(--ink);font-family:var(--body-font)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;opacity:0;pointer-events:none;transform:translateX(28px);transition:opacity .34s ease,transform .34s ease;background:var(--bg);color:var(--ink);padding:50px 58px 74px}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-28px)}
+h1,h2,h3,.display,.num,.kicker{font-family:var(--display-font);letter-spacing:0}
+h1{font-size:74px;line-height:.96}
+h2{font-size:50px;line-height:1.04}
+h3{font-size:23px;line-height:1.16}
+p,li,td,th{font-size:15px;line-height:1.48}
+.grid{display:grid;gap:18px}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.slide-counter{position:fixed;left:3vw;bottom:2.35vh;z-index:70;font-family:var(--display-font);font-size:12px;font-weight:800;color:var(--counter)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:70;transition:width .28s ease}
+.nav-controls{position:fixed;right:3vw;bottom:2vh;display:flex;gap:10px;z-index:70}
+.nav-btn{width:42px;height:42px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+@media(max-width:900px){.slide{padding:34px 30px 72px}h1{font-size:48px}h2{font-size:36px}.two,.three,.four{grid-template-columns:1fr}.nav-controls{right:18px}.slide-counter{left:20px}}
+
+
+.graffiti-art{--bg:#fff;--ink:#101A35;--counter:#101A35;--progress:#16C5E8;--nav-line:#101A35;--nav-bg:#C7FF28;--nav-ink:#101A35;--display-font:'Permanent Marker',cursive;--body-font:'Barlow',sans-serif}
+.graffiti-art .slide{background:#fff;color:#101A35}.graffiti-art h1,.graffiti-art h2,.graffiti-art h3{font-weight:400}
+.gf-spray:before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse at 12% 18%,#C7FF28 0 10%,rgba(199,255,40,.5) 11%,transparent 20%),radial-gradient(ellipse at 78% 18%,#16C5E8 0 13%,rgba(22,197,232,.32) 14%,transparent 26%),radial-gradient(ellipse at 92% 10%,#F051E7 0 8%,rgba(240,81,231,.38) 9%,transparent 17%),radial-gradient(ellipse at 55% 73%,rgba(74,142,240,.46) 0 16%,transparent 26%),radial-gradient(ellipse at 27% 80%,#F051E7 0 8%,rgba(240,81,231,.32) 9%,transparent 17%),radial-gradient(circle at 18% 48%,#101A35 0 1px,transparent 2px),radial-gradient(circle at 88% 42%,#101A35 0 1px,transparent 2px);filter:blur(.15px)}
+.gf-spray:after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(175deg,transparent 0 78%,#16C5E8 79% 80%,transparent 81% 100%),linear-gradient(12deg,transparent 0 17%,#F051E7 18% 19.5%,transparent 20.5% 100%),linear-gradient(163deg,transparent 0 62%,#101A35 63% 64.5%,transparent 65.5% 100%),radial-gradient(circle at 8% 92%,#101A35 0 2px,transparent 3px),radial-gradient(circle at 13% 90%,#101A35 0 2px,transparent 3px),radial-gradient(circle at 84% 86%,#16C5E8 0 5px,transparent 6px),radial-gradient(circle at 88% 90%,#16C5E8 0 4px,transparent 5px);opacity:.95}.gf-spray>*{z-index:2}
+.gf-x{position:absolute;width:80px;height:80px}.gf-x:before,.gf-x:after{content:"";position:absolute;left:35px;top:0;width:10px;height:80px;background:#101A35;border-radius:8px}.gf-x:before{transform:rotate(45deg)}.gf-x:after{transform:rotate(-45deg)}.gf-ring{position:absolute;width:130px;height:70px;border:8px solid #16C5E8;border-radius:50%;transform:rotate(var(--r))}.gf-wave{position:absolute;width:210px;height:54px;border-top:9px solid #F051E7;border-radius:50%;transform:rotate(var(--r))}.gf-arrow{position:absolute;width:110px;height:40px;border-top:8px solid #16C5E8;transform:rotate(var(--r))}.gf-arrow:after{content:"";position:absolute;right:-6px;top:-18px;border-left:28px solid #16C5E8;border-top:14px solid transparent;border-bottom:14px solid transparent}
+.gf-photo{background:linear-gradient(135deg,#333,#cfcfcf);position:relative;overflow:hidden}.gf-photo:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.3) 0 7px,transparent 7px 20px)}.gf-cover:before{background:radial-gradient(ellipse at 16% 22%,#C7FF28 0 12%,rgba(199,255,40,.48) 13%,transparent 22%),radial-gradient(ellipse at 90% 12%,#F051E7 0 9%,rgba(240,81,231,.38) 10%,transparent 18%),radial-gradient(ellipse at 73% 80%,rgba(74,142,240,.46) 0 13%,transparent 23%),radial-gradient(ellipse at 24% 82%,#F051E7 0 7%,transparent 14%),radial-gradient(ellipse at 89% 48%,#16C5E8 0 7%,transparent 14%)}.gf-cover h1{position:relative;z-index:2;font-size:152px;line-height:.82;transform:rotate(-9deg);margin:74px 0 0 88px}.gf-cover .pill{position:absolute;left:520px;bottom:152px;border:9px solid #16C5E8;border-radius:50%;padding:22px 52px;font:900 22px Barlow;text-transform:uppercase;background:rgba(255,255,255,.82)}
+.gf-how h2{position:relative;z-index:2;font-size:66px}.gf-how .cols{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:44px;margin-top:116px;text-align:center}.gf-how h3{font-size:32px}.gf-how p{font-size:17px}.gf-chapter{display:grid;place-items:center;text-align:center}.gf-chapter h1{position:relative;z-index:2;font-size:86px}.gf-chapter p{font-size:19px}.gf-welcome{display:grid;grid-template-columns:43% 57%;gap:42px;align-items:center}.gf-welcome .brush{position:relative;background:#101A35;color:#fff;padding:58px;clip-path:polygon(0 8%,100% 0,88% 100%,0 88%)}.gf-welcome .brush h2{font-size:58px}.gf-welcome .brush p{font-size:19px}.gf-welcome .face{height:430px;border-radius:50%;background:linear-gradient(#a26a50 0 42%,#111 43% 48%,#eee 49%);position:relative;z-index:2}
+.gf-mv{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:end}.gf-mv article{text-align:center;position:relative;z-index:2}.gf-mv .gf-photo{height:270px;margin-bottom:20px}.gf-mv h2{font-size:48px}.gf-about{display:grid;grid-template-columns:45% 55%;gap:44px;align-items:center}.gf-about .copy{position:relative;z-index:2}.gf-about .copy h2{font-size:64px}.gf-about .copy p{font-size:16px}.gf-about .gf-photo{height:470px;border-radius:30px 0 30px 0}.gf-quote{display:grid;place-items:center;text-align:center}.gf-quote h2{position:relative;z-index:2;font-size:58px;max-width:680px}.gf-team h2{text-align:center;position:relative;z-index:2;font-size:56px}.gf-team .people{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:86px;text-align:center}.gf-face{width:132px;height:132px;border-radius:50%;background:linear-gradient(135deg,#ddd,#333);margin:0 auto 16px}.gf-project{display:grid;place-items:center;text-align:center}.gf-project h1{position:relative;z-index:2;font-size:66px}.gf-detail{display:grid;grid-template-columns:42% 58%;gap:38px}.gf-detail h2{font-size:48px}.gf-detail p{font-size:16px}.gf-detail .gf-photo{height:470px;clip-path:polygon(8% 0,100% 8%,92% 100%,0 92%)}.gf-picture{display:grid;place-items:center;text-align:center}.gf-picture h2{position:relative;z-index:2;background:#fff;padding:22px 44px;border:9px solid #16C5E8;border-radius:50%;font-size:52px}.gf-topic{display:grid;grid-template-columns:50% 50%;gap:34px;align-items:center}.gf-topic h2{font-size:54px}.gf-topic p{font-size:16px}
+
+  </style>
+</head>
+<body class="graffiti-art">
+  <main class="deck">
+<section class="slide active gf-spray gf-cover" data-layout="spray-cover"><span class="gf-x" style="right:150px;top:70px"></span><span class="gf-ring" style="--r:-8deg;left:90px;top:82px"></span><span class="gf-arrow" style="--r:-8deg;right:230px;top:190px"></span><span class="gf-wave" style="--r:2deg;left:80px;bottom:104px"></span><h1>Graffiti<br>Style</h1><div class="pill">Presentation</div></section>
+<section class="slide gf-spray gf-how" data-layout="how-to-use"><span class="gf-wave" style="--r:4deg;left:80px;bottom:62px"></span><h2>How to Use This<br>Presentation</h2><div class="cols"><article><h3>Google Slides</h3><p>Click the button and start editing.</p></article><article><h3>PowerPoint</h3><p>Download and install the fonts used.</p></article><article><h3>Canva</h3><p>Use the presentation in your account.</p></article></div></section>
+<section class="slide gf-spray gf-chapter" data-layout="chapter-spray"><span class="gf-ring" style="--r:4deg;left:44%;top:115px"></span><span class="gf-arrow" style="--r:-18deg;right:170px;top:160px"></span><div><h1>01.<br>About Us</h1><p style="font-weight:900">Elaborate on what you want to discuss.</p></div></section>
+<section class="slide gf-spray gf-welcome" data-layout="welcome-profile"><div class="brush"><h2>Welcome to<br>Presentation</h2><p>I am Rain, and I will be sharing with you my beautiful ideas. Follow me to learn more.</p></div><div class="face"></div><span class="gf-wave" style="--r:0deg;left:80px;bottom:72px"></span></section>
+<section class="slide gf-spray gf-mv" data-layout="mission-vision"><article><div class="gf-photo"></div><h2>Mission</h2><p>Enter your grand vision statement.</p></article><article><div class="gf-photo"></div><h2>Vision</h2><p>Enter your grand vision statement.</p></article><span class="gf-arrow" style="--r:22deg;left:330px;top:330px"></span></section>
+<section class="slide gf-spray gf-about" data-layout="about-us-photo"><div class="copy"><h2>About Us</h2><h3>Who we are?</h3><p>Briefly elaborate on what you want to discuss.</p><h3 style="margin-top:22px">What we do?</h3><p>Briefly elaborate on what you want to discuss.</p></div><div class="gf-photo"></div><span class="gf-wave" style="--r:-5deg;left:82px;bottom:75px"></span></section>
+<section class="slide gf-spray gf-quote" data-layout="quote-tag"><span class="gf-ring" style="--r:-12deg;right:240px;top:250px"></span><h2>Write an original statement or inspiring quote</h2><p style="position:absolute;bottom:62px;font-weight:900">Include a credit, citation, or supporting message</p></section>
+<section class="slide gf-spray gf-team" data-layout="team-spray"><h2>Add a Team Members Page</h2><p style="position:relative;z-index:2;text-align:center;font-weight:900">Elaborate on what you want to discuss.</p><div class="people"><article><div class="gf-face"></div><h3>Name</h3><p>Title or Position</p></article><article><div class="gf-face"></div><h3>Name</h3><p>Title or Position</p></article><article><div class="gf-face"></div><h3>Name</h3><p>Title or Position</p></article><article><div class="gf-face"></div><h3>Name</h3><p>Title or Position</p></article></div></section>
+<section class="slide gf-spray gf-project" data-layout="project-divider"><span class="gf-x" style="right:200px;top:120px"></span><div><h1><span style="color:#F051E7">02.</span><br>Our Projects</h1><p style="font-weight:900">Elaborate on what you want to discuss.</p></div></section>
+<section class="slide gf-spray gf-detail" data-layout="project-detail"><div style="position:relative;z-index:2"><h2>Your Project</h2><p style="margin-top:42px">Presentations are communication tools that can be used as demonstrations, lectures, speeches, reports, and more.</p><p style="margin-top:44px;font-weight:900">Year: 2022<br>Role: Write your role</p></div><div class="gf-photo"></div></section>
+<section class="slide gf-spray gf-picture" data-layout="picture-quote"><span class="gf-ring" style="--r:-5deg;left:360px;top:220px"></span><h2>A picture is worth<br>thousand words</h2></section>
+<section class="slide gf-spray gf-topic" data-layout="big-topic"><div style="position:relative;z-index:2"><h2>Write Your Big<br>Topic or Idea</h2><p style="margin-top:42px">Presentations are communication tools that can be used as demonstrations, lectures, speeches, reports, and more.</p></div><div class="gf-photo" style="height:430px"></div></section>
+  </main>
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const currentEl = document.getElementById('current');
+    const totalEl = document.getElementById('total');
+    const progressEl = document.getElementById('progress');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let current = 0;
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.remove('active', 'prev');
+        if (index === current) slide.classList.add('active');
+        else if (index < current) slide.classList.add('prev');
+      });
+      currentEl.textContent = current + 1;
+      totalEl.textContent = slides.length;
+      progressEl.style.width = ((current + 1) / slides.length * 100) + '%';
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === slides.length - 1;
+    }
+    function changeSlide(direction) {
+      const next = current + direction;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'PageDown') { event.preventDefault(); changeSlide(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); changeSlide(-1); }
+      if (event.key === 'Home') { event.preventDefault(); current = 0; updateSlide(); }
+      if (event.key === 'End') { event.preventDefault(); current = slides.length - 1; updateSlide(); }
+    });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (event) => { touchStartX = event.changedTouches[0].screenX; }, { passive: true });
+    document.addEventListener('touchend', (event) => {
+      const delta = touchStartX - event.changedTouches[0].screenX;
+      if (Math.abs(delta) > 50) changeSlide(delta > 0 ? 1 : -1);
+    }, { passive: true });
+    updateSlide();
+  </script>
+</body>
+</html>
