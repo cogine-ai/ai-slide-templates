@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newspaper Editorial Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:54px 64px 82px;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .34s ease,transform .34s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.display,.kicker,.num{font-family:var(--display);font-weight:var(--display-weight,700);letter-spacing:0}
+h1{font-size:76px;line-height:.96}
+h2{font-size:48px;line-height:1.04}
+h3{font-size:24px;line-height:1.15}
+p,li,td,th{font-size:16px;line-height:1.48}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px;position:relative;z-index:4}
+.kicker{font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+.grid{display:grid;gap:18px;position:relative;z-index:3}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.slide-counter{position:fixed;left:34px;bottom:24px;z-index:60;font-family:var(--display);font-weight:700;font-size:13px;color:var(--counter)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:34px;bottom:20px;display:flex;gap:10px;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:36px 30px 74px}h1{font-size:48px}h2{font-size:34px}h3{font-size:20px}p,li,td,th{font-size:14px}}
+
+
+:root{--bg:#EDE4D2;--ink:#151515;--paper:#F7F1E4;--rule:#2A2924;--gray:#B9B4AA;--red:#A83A32;--blue:#547DA9;--body:'Libre Franklin';--display:'Libre Baskerville';--display-weight:700;--counter:#151515;--progress:#2A2924;--nav-line:#2A2924;--nav-bg:#F7F1E4;--nav-ink:#151515}
+.newspaper-editorial .deck{background:#EDE4D2}
+.newspaper-editorial .slide{background:#F7F1E4;color:#151515;border:1px solid #2A2924;padding:42px 54px 76px}
+.np-mast{border-top:4px solid #2A2924;border-bottom:12px solid #2A2924;text-align:center;padding:16px 0 13px;margin-bottom:22px}.np-mast h1{font-family:'Libre Baskerville';font-size:72px;line-height:1;text-transform:uppercase}.np-mast p{font-family:'Libre Franklin';font-size:12px;text-transform:uppercase;letter-spacing:.12em;margin-top:8px}
+.np-rule{height:2px;background:#2A2924;margin:14px 0}.np-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.np-cols article{border-right:1px solid #2A2924;padding-right:18px}.np-cols article:last-child{border-right:0}
+.np-photo{background:linear-gradient(135deg,#303030,#777);min-height:190px;position:relative;filter:grayscale(1);border:1px solid #2A2924;overflow:hidden}.np-photo:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.12) 0 2px,transparent 2px 9px)}
+.np-kicker{font-family:'Libre Franklin';font-weight:800;text-transform:uppercase;font-size:12px;background:#2A2924;color:#F7F1E4;display:inline-block;padding:5px 10px;margin-bottom:10px}
+.np-head{font-family:'Libre Baskerville';font-size:44px;line-height:1.04;text-transform:uppercase}.np-small{font-size:13px;line-height:1.38;text-align:justify}.np-box{border:2px solid #2A2924;padding:16px;background:#EDE4D2}
+.np-side{display:grid;grid-template-columns:1.25fr .75fr;gap:24px}.np-pull{font-family:'Libre Baskerville';font-size:34px;line-height:1.18;border-top:5px solid #2A2924;border-bottom:5px solid #2A2924;padding:20px 0}
+.np-table{border-collapse:collapse;width:100%;margin-top:12px}.np-table th,.np-table td{border:1px solid #2A2924;padding:10px;text-align:left}.np-table th{background:#2A2924;color:#F7F1E4;font-family:'Libre Franklin';text-transform:uppercase}
+.np-colorbar{display:grid;grid-template-columns:1fr 1fr 1fr;height:96px;border:1px solid #2A2924;margin-top:16px}.np-colorbar span:nth-child(1){background:#A83A32}.np-colorbar span:nth-child(2){background:#D2B65A}.np-colorbar span:nth-child(3){background:#547DA9}
+
+</style>
+</head>
+<body class="newspaper-editorial">
+  <main class="deck">
+<section class="slide active" data-layout="front-page"><div class="np-mast"><h1>Newspaper Title</h1><p>Volume 12 / morning edition / city desk</p></div><div class="np-side"><div><span class="np-kicker">Exclusive</span><h2 class="np-head">A full-page report with editorial weight.</h2><div class="np-photo" style="margin-top:16px;min-height:230px"></div></div><aside><div class="np-box"><h3>Inside</h3><p class="np-small">Analysis, interviews, data notes, and a closing column for editors.</p></div><div class="np-rule"></div><p class="np-small">Use this cover when the deck should read like a real broadsheet rather than a magazine spread.</p></aside></div></section>
+<section class="slide" data-layout="lead-story"><div class="np-mast" style="margin-bottom:16px"><h1 style="font-size:46px">Daily Brief</h1><p>Lead story and supporting columns</p></div><div class="np-cols"><article><span class="np-kicker">Lead</span><h2 class="np-head" style="font-size:34px">The main finding earns the largest column.</h2><p class="np-small">Dense copy can sit comfortably in three columns when hierarchy, rules, and image placement are disciplined.</p></article><article><div class="np-photo"></div><p class="np-small" style="margin-top:10px">A grayscale visual anchors the report without becoming decorative noise.</p></article><article><span class="np-kicker">Briefs</span><p class="np-small">Short updates work well as one-paragraph notes. Keep section labels dark and compact.</p><div class="np-rule"></div><p class="np-small">Add a secondary item here for a second source, quote, or caveat.</p></article></div></section>
+<section class="slide" data-layout="section-index"><div class="topline"><span class="np-kicker">Index</span><span class="kicker">issue 03</span></div><h2 class="np-head">Sections in this issue</h2><div class="np-cols" style="margin-top:28px"><article><h3>01 Report</h3><p class="np-small">Headline summary and short context.</p></article><article><h3>02 Evidence</h3><p class="np-small">Numbers, sources, and comparisons.</p></article><article><h3>03 Opinion</h3><p class="np-small">Editorial interpretation and next action.</p></article></div><div class="np-colorbar"></div></section>
+<section class="slide" data-layout="photo-feature"><div class="topline"><span class="np-kicker">Photo Feature</span><span class="kicker">grayscale frame</span></div><div class="np-side"><div class="np-photo" style="min-height:430px"></div><div><h2 class="np-head">Image-led story with a hard editorial caption.</h2><p class="np-small" style="margin-top:14px">Keep imagery grayscale and framed. Captions sit as sober evidence, not decoration.</p><div class="np-rule"></div><p class="np-small">Caption: location, date, author, and the single thing the reader should notice.</p></div></div></section>
+<section class="slide" data-layout="opinion-column"><div class="np-mast"><h1 style="font-size:48px">Opinion</h1><p>editorial board</p></div><div class="np-side"><blockquote class="np-pull">"The conclusion belongs in a pull quote, not buried in paragraph four."</blockquote><div><span class="np-kicker">Column</span><p class="np-small">This layout is for executive interpretation, policy notes, or founder essays. The type is deliberately literary and formal.</p><div class="np-rule"></div><p class="np-small">Use the side column for attribution, debate points, and dissenting notes.</p></div></div></section>
+<section class="slide" data-layout="data-table"><div class="topline"><span class="np-kicker">Data Desk</span><span class="kicker">reported figures</span></div><h2 class="np-head">A table should feel printed, not pasted.</h2><table class="np-table"><tr><th>Section</th><th>Signal</th><th>Change</th><th>Editor note</th></tr><tr><td>Front page</td><td>Awareness</td><td>+18%</td><td>Lead with context.</td></tr><tr><td>Markets</td><td>Activity</td><td>-4%</td><td>Add a quote.</td></tr><tr><td>Culture</td><td>Response</td><td>+31%</td><td>Photo feature.</td></tr></table></section>
+<section class="slide" data-layout="advertorial-grid"><div class="np-mast" style="margin-bottom:18px"><h1 style="font-size:44px">Special Edition</h1><p>layout board</p></div><div class="grid four"><div class="np-box"><h3>Headline</h3><p class="np-small">Short report card.</p></div><div class="np-box"><h3>Source</h3><p class="np-small">Who said it.</p></div><div class="np-box"><h3>Quote</h3><p class="np-small">What mattered.</p></div><div class="np-box"><h3>Action</h3><p class="np-small">What happens next.</p></div></div><div class="np-photo" style="margin-top:20px;min-height:180px"></div></section>
+<section class="slide" data-layout="back-page"><div class="np-mast"><h1>Final Edition</h1><p>closing column / archive copy</p></div><div class="np-cols"><article><h3>Corrections</h3><p class="np-small">Reserve a quiet slot for caveats, assumptions, and source limitations.</p></article><article><h3>Credits</h3><p class="np-small">List authors, reviewers, data sources, and production notes.</p></article><article><h3>Next Issue</h3><p class="np-small">Close with the next report date and the audience action.</p></article></div></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{
+      const diff=touchStartX-event.changedTouches[0].screenX;
+      if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);
+    },{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

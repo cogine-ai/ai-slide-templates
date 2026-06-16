@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Roadmap Infographics Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:54px 64px 82px;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .34s ease,transform .34s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.display,.kicker,.num{font-family:var(--display);font-weight:var(--display-weight,700);letter-spacing:0}
+h1{font-size:76px;line-height:.96}
+h2{font-size:48px;line-height:1.04}
+h3{font-size:24px;line-height:1.15}
+p,li,td,th{font-size:16px;line-height:1.48}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px;position:relative;z-index:4}
+.kicker{font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+.grid{display:grid;gap:18px;position:relative;z-index:3}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.slide-counter{position:fixed;left:34px;bottom:24px;z-index:60;font-family:var(--display);font-weight:700;font-size:13px;color:var(--counter)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:34px;bottom:20px;display:flex;gap:10px;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:36px 30px 74px}h1{font-size:48px}h2{font-size:34px}h3{font-size:20px}p,li,td,th{font-size:14px}}
+
+
+:root{--bg:#FFFFFF;--ink:#090909;--road:#999999;--shadow:#E8E8E8;--blue:#1F5DA8;--lightblue:#82A6D7;--purple:#8D80C6;--orange:#F39A35;--body:'Roboto Condensed';--display:'Oswald';--display-weight:700;--counter:#090909;--progress:#1F5DA8;--nav-line:#999999;--nav-bg:#FFFFFF;--nav-ink:#090909}
+.product-roadmap-infographics .slide{background:#FFFFFF;color:#090909}
+.pr-cover{display:grid;grid-template-columns:1.2fr .8fr;align-items:center}.road{position:relative;height:530px}.road .seg{position:absolute;background:#999999;box-shadow:36px 16px 0 #E8E8E8}.road .h1{left:-80px;top:205px;width:600px;height:70px;border-radius:50px}.road .h2{left:50px;top:350px;width:560px;height:70px;border-radius:50px}.road .v1{left:510px;top:40px;width:74px;height:238px;border-radius:50px}.road .v2{left:540px;top:350px;width:74px;height:230px;border-radius:50px}.road .dash{position:absolute;height:0;border-top:7px dashed #fff}.road .d1{left:-44px;top:236px;width:510px}.road .d2{left:92px;top:381px;width:432px}.road .d3{left:544px;top:80px;width:0;height:154px;border-top:0;border-left:7px dashed #fff}.pin{position:absolute;width:78px;height:78px;border-radius:50%;border:5px solid #fff;background:var(--c);z-index:2}.pin.p1{left:215px;top:166px}.pin.p2{left:470px;top:86px}.pin.p3{left:410px;top:310px}
+.pr-title h1{font-size:66px;text-align:right}.pr-title p{text-align:right;font-size:24px;margin-top:22px}.pr-lane{display:grid;grid-template-columns:150px repeat(4,1fr);border-top:2px solid #999999;border-left:2px solid #999999;margin-top:24px}.pr-lane div{min-height:92px;border-right:2px solid #999999;border-bottom:2px solid #999999;padding:13px}.pr-lane b{font-family:Oswald;font-size:20px}.pr-card{border-radius:28px;background:var(--c);color:#fff;padding:20px;min-height:150px}.pr-card strong{font-family:Oswald;font-size:42px}.pr-path{position:relative;height:400px;margin-top:20px}.pr-path:before{content:"";position:absolute;left:40px;right:40px;top:180px;height:64px;border-radius:40px;background:#999999;box-shadow:26px 16px 0 #E8E8E8}.pr-path .pin{top:172px}.pr-path .pin:nth-child(1){left:110px}.pr-path .pin:nth-child(2){left:360px}.pr-path .pin:nth-child(3){left:610px}.pr-path .pin:nth-child(4){left:860px}
+.pr-gantt{display:grid;grid-template-columns:160px 1fr;gap:12px;margin-top:28px}.pr-gantt div{height:40px}.pr-track{background:#eee;position:relative}.pr-track span{position:absolute;left:var(--l);width:var(--w);height:100%;background:var(--c);border-radius:20px}.pr-stack{display:grid;gap:18px;margin-top:28px}.pr-stack article{display:grid;grid-template-columns:110px 1fr 90px;gap:20px;align-items:center;border:2px solid #999999;padding:16px}.pr-stack b{font-family:Oswald;font-size:34px;color:var(--c)}
+
+</style>
+</head>
+<body class="product-roadmap-infographics">
+  <main class="deck">
+<section class="slide active pr-cover" data-layout="road-cover"><div class="road"><span class="seg h1"></span><span class="seg h2"></span><span class="seg v1"></span><span class="seg v2"></span><span class="dash d1"></span><span class="dash d2"></span><span class="dash d3"></span><span class="pin p1" style="--c:#1F5DA8"></span><span class="pin p2" style="--c:#82A6D7"></span><span class="pin p3" style="--c:#8D80C6"></span></div><div class="pr-title"><h1>Product<br>Roadmap<br>Infographics</h1><p>Here is where this template begins</p></div></section>
+<section class="slide" data-layout="quarter-lanes"><div class="topline"><span class="kicker">Roadmap</span><span>Quarter lanes</span></div><h2>Plan work across product lanes.</h2><div class="pr-lane"><div><b>Lane</b></div><div><b>Q1</b></div><div><b>Q2</b></div><div><b>Q3</b></div><div><b>Q4</b></div><div><b>Core</b></div><div>Foundation</div><div>Scale</div><div>Reliability</div><div>Polish</div><div><b>Growth</b></div><div>Launch</div><div>Expand</div><div>Partner</div><div>Retain</div><div><b>Data</b></div><div>Instrument</div><div>Model</div><div>Report</div><div>Automate</div></div></section>
+<section class="slide" data-layout="milestone-cards"><div class="topline"><span class="kicker">Milestones</span><span>4 stops</span></div><h2>Major stops on the route.</h2><div class="grid four" style="margin-top:34px"><article class="pr-card" style="--c:#1F5DA8"><strong>01</strong><h3>Discover</h3><p>Collect customer needs.</p></article><article class="pr-card" style="--c:#82A6D7"><strong>02</strong><h3>Design</h3><p>Shape release candidates.</p></article><article class="pr-card" style="--c:#8D80C6"><strong>03</strong><h3>Ship</h3><p>Launch core capability.</p></article><article class="pr-card" style="--c:#F39A35"><strong>04</strong><h3>Learn</h3><p>Measure adoption.</p></article></div></section>
+<section class="slide" data-layout="path-timeline"><div class="topline"><span class="kicker">Path</span><span>release route</span></div><h2>One road with four release markers.</h2><div class="pr-path"><span class="pin" style="--c:#1F5DA8"></span><span class="pin" style="--c:#82A6D7"></span><span class="pin" style="--c:#8D80C6"></span><span class="pin" style="--c:#F39A35"></span></div></section>
+<section class="slide" data-layout="gantt-plan"><div class="topline"><span class="kicker">Calendar</span><span>Gantt style</span></div><h2>Release calendar</h2><div class="pr-gantt"><b>Research</b><div class="pr-track"><span style="--l:4%;--w:30%;--c:#1F5DA8"></span></div><b>Prototype</b><div class="pr-track"><span style="--l:24%;--w:32%;--c:#82A6D7"></span></div><b>Beta</b><div class="pr-track"><span style="--l:52%;--w:24%;--c:#8D80C6"></span></div><b>Launch</b><div class="pr-track"><span style="--l:74%;--w:20%;--c:#F39A35"></span></div></div></section>
+<section class="slide" data-layout="now-next-later"><div class="topline"><span class="kicker">Priorities</span><span>now / next / later</span></div><h2>Prioritize without losing the route.</h2><div class="pr-stack"><article style="--c:#1F5DA8"><b>Now</b><p>Complete onboarding instrumentation.</p><span>Q1</span></article><article style="--c:#82A6D7"><b>Next</b><p>Ship reusable workflow templates.</p><span>Q2</span></article><article style="--c:#8D80C6"><b>Later</b><p>Automate advanced reporting paths.</p><span>Q3</span></article></div></section>
+<section class="slide" data-layout="dependency-map"><div class="topline"><span class="kicker">Dependencies</span><span>release chain</span></div><h2>Map what must happen first.</h2><div class="grid three" style="margin-top:38px"><article class="pr-card" style="--c:#1F5DA8"><strong>A</strong><p>Data model</p></article><article class="pr-card" style="--c:#82A6D7"><strong>B</strong><p>Workflow editor</p></article><article class="pr-card" style="--c:#8D80C6"><strong>C</strong><p>Export package</p></article></div><div class="road" style="height:160px;margin-top:22px"><span class="seg h1" style="top:50px;width:1040px"></span><span class="dash d1" style="top:82px;width:930px"></span></div></section>
+<section class="slide pr-cover" data-layout="road-close"><div class="road"><span class="seg h1"></span><span class="seg h2"></span><span class="seg v1"></span><span class="seg v2"></span><span class="dash d1"></span><span class="dash d2"></span><span class="dash d3"></span><span class="pin p1" style="--c:#1F5DA8"></span><span class="pin p2" style="--c:#82A6D7"></span><span class="pin p3" style="--c:#8D80C6"></span></div><div class="pr-title"><h1>Make the<br>route visible.</h1><p>Close with owners, milestones, and the next checkpoint.</p></div></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{
+      const diff=touchStartX-event.changedTouches[0].screenX;
+      if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);
+    },{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>

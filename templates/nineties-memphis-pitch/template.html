@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nineties Memphis Pitch Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--ink)}
+.deck{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg)}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;padding:54px 64px 82px;opacity:0;pointer-events:none;transform:translateX(34px);transition:opacity .34s ease,transform .34s ease;overflow:hidden}
+.slide.active{opacity:1;pointer-events:auto;transform:translateX(0);z-index:5}
+.slide.prev{transform:translateX(-34px)}
+h1,h2,h3,.display,.kicker,.num{font-family:var(--display);font-weight:var(--display-weight,700);letter-spacing:0}
+h1{font-size:76px;line-height:.96}
+h2{font-size:48px;line-height:1.04}
+h3{font-size:24px;line-height:1.15}
+p,li,td,th{font-size:16px;line-height:1.48}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px;position:relative;z-index:4}
+.kicker{font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+.grid{display:grid;gap:18px;position:relative;z-index:3}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(4,1fr)}
+.slide-counter{position:fixed;left:34px;bottom:24px;z-index:60;font-family:var(--display);font-weight:700;font-size:13px;color:var(--counter)}
+.progress-bar{position:fixed;left:0;bottom:0;height:4px;background:var(--progress);z-index:60;transition:width .25s ease}
+.nav-controls{position:fixed;right:34px;bottom:20px;display:flex;gap:10px;z-index:60}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:1.4px solid var(--nav-line);background:var(--nav-bg);color:var(--nav-ink);display:grid;place-items:center;cursor:pointer}
+.nav-btn:hover{filter:brightness(.94)}.nav-btn:disabled{opacity:.34;cursor:not-allowed}
+@media(max-width:900px){.two,.three,.four{grid-template-columns:1fr}.slide{padding:36px 30px 74px}h1{font-size:48px}h2{font-size:34px}h3{font-size:20px}p,li,td,th{font-size:14px}}
+
+
+:root{--bg:#F5ECD9;--ink:#1B1514;--pink:#FF4FA3;--teal:#18BFD0;--yellow:#F5C84C;--coral:#F06B4F;--green:#2DBE70;--body:'DM Sans';--display:'Abril Fatface';--display-weight:400;--counter:#1B1514;--progress:#FF4FA3;--nav-line:#1B1514;--nav-bg:#F5ECD9;--nav-ink:#1B1514}
+.nineties-memphis-pitch .slide{background:#F5ECD9;color:#1B1514}
+.nm-title{font-family:'Abril Fatface';font-size:70px;line-height:.95;text-transform:uppercase}.nm-sticker{position:absolute;background:var(--c);border:3px solid #1B1514;box-shadow:8px 8px 0 #1B1514}.nm-star{clip-path:polygon(50% 0,60% 28%,90% 14%,74% 42%,100% 50%,74% 58%,90% 86%,60% 72%,50% 100%,40% 72%,10% 86%,26% 58%,0 50%,26% 42%,10% 14%,40% 28%)}
+.nm-checker{position:absolute;width:210px;height:210px;background:conic-gradient(#F06B4F 25%,transparent 0 50%,#F06B4F 0 75%,transparent 0);background-size:34px 34px}
+.nm-wave{position:absolute;width:150px;height:44px;background:repeating-linear-gradient(0deg,transparent 0 10px,#F5C84C 10px 16px,transparent 16px 24px);border-radius:50%;transform:rotate(2deg)}
+.nm-photo{background:linear-gradient(135deg,#1f5a4d,#e56a4f);border:5px solid #18BFD0;min-height:260px;position:relative;overflow:hidden}.nm-photo:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(120deg,transparent 0 18px,rgba(255,255,255,.18) 18px 28px)}
+.nm-box{border:2px solid #1B1514;border-radius:22px;background:rgba(255,255,255,.46);padding:22px}.nm-arrow{position:absolute;width:170px;height:90px;border-top:4px solid #1B1514;border-radius:50%;transform:rotate(-22deg)}.nm-arrow:after{content:"";position:absolute;right:-8px;top:18px;border-left:18px solid #1B1514;border-top:11px solid transparent;border-bottom:11px solid transparent;transform:rotate(30deg)}
+.nm-cards article{min-height:190px;padding:20px;background:var(--c);border:3px solid #1B1514;box-shadow:8px 8px 0 #1B1514}.nm-cards h3{font-family:'Abril Fatface';font-size:28px}
+.nm-bars{display:flex;gap:22px;align-items:end;height:260px;border-left:3px solid #1B1514;border-bottom:3px solid #1B1514;padding:0 24px}.nm-bars span{width:70px;background:var(--c);height:var(--h)}
+
+</style>
+</head>
+<body class="nineties-memphis-pitch">
+  <main class="deck">
+<section class="slide active" data-layout="memphis-cover"><span class="nm-checker" style="right:76px;top:54px"></span><span class="nm-wave" style="left:68px;top:84px"></span><span class="nm-sticker nm-star" style="--c:#F5C84C;right:118px;top:236px;width:140px;height:140px"></span><div style="margin:auto 0;position:relative;z-index:2"><h1 class="nm-title">90s Style<br>Pitch Deck</h1><p style="font-size:22px;margin-top:18px;max-width:520px">A playful Memphis system for ideas that should feel handmade, colorful, and clear.</p></div></section>
+<section class="slide" data-layout="intro-photo"><span class="nm-wave" style="left:64px;top:70px"></span><span class="nm-checker" style="right:150px;top:46px"></span><span class="nm-arrow" style="left:500px;top:48px"></span><div class="grid two" style="align-items:center"><div><h2 class="nm-title" style="font-size:46px">Introduction</h2><div class="nm-box" style="margin-top:18px"><p>Use a serif headline, rounded text container, hand-drawn arrows, and a framed image block to keep the deck playful but readable.</p></div></div><div class="nm-photo"></div></div></section>
+<section class="slide" data-layout="agenda-stickers"><div class="topline"><span class="kicker">Agenda</span><span>intro 01</span></div><h2 class="nm-title" style="font-size:48px">What we will cover</h2><div class="grid four nm-cards" style="margin-top:34px"><article style="--c:#FF4FA3"><h3>01</h3><p>Context</p></article><article style="--c:#18BFD0"><h3>02</h3><p>Idea</p></article><article style="--c:#F5C84C"><h3>03</h3><p>Proof</p></article><article style="--c:#2DBE70"><h3>04</h3><p>Next</p></article></div></section>
+<section class="slide" data-layout="big-statement"><span class="nm-sticker" style="--c:#18BFD0;left:80px;top:80px;width:170px;height:110px;transform:rotate(-8deg)"></span><span class="nm-sticker nm-star" style="--c:#FF4FA3;right:100px;bottom:90px;width:160px;height:160px"></span><div style="margin:auto;text-align:center;max-width:860px;position:relative;z-index:2"><h1 class="nm-title">Make it feel handmade, not messy.</h1></div></section>
+<section class="slide" data-layout="team-grid"><div class="topline"><span class="kicker">Team</span><span>profile cards</span></div><div class="grid three nm-cards"><article style="--c:#F5C84C"><div class="nm-photo" style="min-height:150px"></div><h3>Creative</h3><p>Brand and story.</p></article><article style="--c:#18BFD0"><div class="nm-photo" style="min-height:150px"></div><h3>Product</h3><p>Prototype and flow.</p></article><article style="--c:#FF4FA3"><div class="nm-photo" style="min-height:150px"></div><h3>Growth</h3><p>Community launch.</p></article></div></section>
+<section class="slide" data-layout="chart-poster"><span class="nm-checker" style="left:70px;bottom:70px"></span><div class="grid two" style="align-items:center"><div><h2 class="nm-title" style="font-size:48px">Colorful proof points</h2><p style="margin-top:16px">Charts keep the same poster language: thick black axes, saturated bars, and sticker labels.</p></div><div class="nm-bars"><span style="--h:54%;--c:#FF4FA3"></span><span style="--h:82%;--c:#18BFD0"></span><span style="--h:38%;--c:#F5C84C"></span><span style="--h:68%;--c:#2DBE70"></span></div></div></section>
+<section class="slide" data-layout="quote-collage"><span class="nm-wave" style="right:110px;top:90px"></span><span class="nm-sticker" style="--c:#F06B4F;left:92px;bottom:96px;width:180px;height:130px;transform:rotate(5deg)"></span><blockquote class="nm-title" style="font-size:54px;max-width:860px;margin:auto">"A serious idea can still look like it belongs to a real culture."</blockquote></section>
+<section class="slide" data-layout="welcome-close"><span class="nm-checker" style="right:70px;bottom:64px"></span><span class="nm-sticker nm-star" style="--c:#F5C84C;left:100px;top:100px;width:150px;height:150px"></span><div style="margin:auto 0;text-align:center;position:relative;z-index:2"><h1 class="nm-title">Welcome!</h1><p style="font-size:22px;margin-top:18px">Close with a loud but friendly call to action.</p></div></section>
+  </main>
+
+  <div class="slide-counter"><span id="current">1</span> / <span id="total">1</span></div>
+  <div class="progress-bar" id="progress"></div>
+  <div class="nav-controls">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+  </div>
+  <script>
+    const slides=document.querySelectorAll('.slide');
+    const currentEl=document.getElementById('current');
+    const totalEl=document.getElementById('total');
+    const progressEl=document.getElementById('progress');
+    const prevBtn=document.getElementById('prevBtn');
+    const nextBtn=document.getElementById('nextBtn');
+    let current=0;
+    function updateSlide(){
+      slides.forEach((slide,index)=>{
+        slide.classList.remove('active','prev');
+        if(index===current)slide.classList.add('active');
+        else if(index<current)slide.classList.add('prev');
+      });
+      currentEl.textContent=current+1;
+      totalEl.textContent=slides.length;
+      progressEl.style.width=((current+1)/slides.length*100)+'%';
+      prevBtn.disabled=current===0;
+      nextBtn.disabled=current===slides.length-1;
+    }
+    function changeSlide(direction){
+      const next=current+direction;
+      if(next>=0&&next<slides.length){current=next;updateSlide();}
+    }
+    document.addEventListener('keydown',(event)=>{
+      if(event.key==='ArrowRight'||event.key===' '||event.key==='PageDown'){event.preventDefault();changeSlide(1);}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();changeSlide(-1);}
+      if(event.key==='Home'){event.preventDefault();current=0;updateSlide();}
+      if(event.key==='End'){event.preventDefault();current=slides.length-1;updateSlide();}
+    });
+    let touchStartX=0;
+    document.addEventListener('touchstart',(event)=>{touchStartX=event.changedTouches[0].screenX;},{passive:true});
+    document.addEventListener('touchend',(event)=>{
+      const diff=touchStartX-event.changedTouches[0].screenX;
+      if(Math.abs(diff)>50)changeSlide(diff>0?1:-1);
+    },{passive:true});
+    updateSlide();
+  </script>
+</body>
+</html>
