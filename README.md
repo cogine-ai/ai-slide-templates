@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 45 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 54 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -39,6 +39,8 @@ Browse 45 browser-openable HTML slide templates across business, research, train
 ![AI Slide Templates gallery 4](docs/assets/readme/template-gallery-04.png)
 
 ![AI Slide Templates gallery 5](docs/assets/readme/template-gallery-05.png)
+
+![AI Slide Templates gallery 6](docs/assets/readme/template-gallery-06.png)
 
 ## Manual Agent Prompt
 
@@ -78,6 +80,7 @@ The folder name must match `template.json.slug`.
 | Template | Tone | Best For |
 |---|---|---|
 | `5s-training` | Soft, procedural, practical | 5S training, operations workshops, process improvement, team enablement |
+| `abstract-3d-maximalist-pitch` | Chunky, kinetic, playful | App pitch decks, motion-graphics concepts, creator product stories, and bold feature launches |
 | `abstract-art-showcase` | Editorial, curatorial, expressive | Art showcases, gallery reports, cultural programming, creative brand concepts, abstract visual narratives |
 | `airy-modern` | Minimal, friendly, optimistic | Product strategy, customer research, startup updates, planning workshops |
 | `architecture-portfolio` | Architectural, clean, structured | Architecture portfolios, design studio credentials, floor-plan narratives, and built-environment project reviews |
@@ -85,12 +88,15 @@ The folder name must match `template.json.slug`.
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
 | `clinical-infographic` | Clinical, clear, diagrammatic | Medical reports, research explainers, clinical training, science briefs |
+| `colorful-keynote-system` | Bright, modular, punchy | Colorful pitch decks, keynote systems, modular startup stories, and visual strategy recaps |
 | `construction-project-proposal` | Formal, precise, structured | Construction proposals, engineering plans, architecture delivery, site reviews, built-environment procurement |
 | `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `customer-journey-map` | Diagrammatic, direct, structured | Customer journey maps, service-design workshops, lifecycle strategy, product discovery |
 | `dark-minimal-ui` | Digital, precise, interface-led | Startup pitches, UI product demos, technology concepts |
 | `earthy-handmade` | Handmade, approachable, story-led | Brand manifestos, community workshops, classroom kickoffs, nonprofit stories |
 | `editorial-luxury` | Luxury, minimal, art-directed | Premium brand strategy, portfolio presentations, creative direction, launch narratives |
+| `elegant-product-launch` | Refined, editorial, premium | Product launches, campaign plans, premium retail stories, and art-directed launch narratives |
+| `finance-startup-statements` | Practical, numeric, hand-drawn | Startup financial statements, funding asks, budget briefs, and simple financial education decks |
 | `glass-ux-studio` | Sleek, digital, experiential | UX case studies, product walkthroughs, app concepts, innovation pitches |
 | `gold-line-proposal` | Premium, dark, authoritative | Project proposals, executive concepts, premium service pitches |
 | `graffiti-art` | Loud, rough, graphic | Youth culture pitches, graffiti-inspired campaigns, art workshops, community event decks |
@@ -110,9 +116,13 @@ The folder name must match `template.json.slug`.
 | `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
 | `neon-grid-agency` | Neon, graphic, energetic | Creative agency pitches, talent decks, youth brand campaigns |
 | `neon-night-pitch` | Expressive, loud, pop | Event pitches, creator decks, nightlife and culture proposals |
+| `newspaper-editorial` | Editorial, printed, archival | Newspaper-style reports, classroom publishing, editorial summaries, and issue-style narratives |
+| `newsroom-broadcast` | Urgent, broadcast, high-contrast | Breaking-news briefings, live updates, crisis rooms, and fast executive bulletins |
+| `nineties-memphis-pitch` | Retro, handmade, playful | 90s-style pitch decks, youth campaigns, music or culture concepts, and casual creative proposals |
 | `nonprofit-sponsorship` | Inviting, clear, mission-led | Nonprofit event sponsorship decks, community partnership proposals, fundraising packages, and sponsor benefit explainers |
 | `pastel-research` | Scholarly, gentle, polished | Academic talks, medical science updates, conference presentations |
 | `photo-mosaic` | Gallery-like, polished, image-led | Photo-heavy case studies, visual portfolios, travel stories, project galleries, and product moodboards |
+| `product-roadmap-infographics` | Clean, directional, infographic | Product roadmaps, release plans, milestone reviews, and roadmap workshops |
 | `programming-workshop-3d` | Hands-on, digital, energetic | Developer training, coding bootcamps, technical onboarding, and beginner programming lessons |
 | `psychedelic-art` | Maximal, fluid, retro | Music events, creative concepts, brand activations, culture decks |
 | `quarterly-review-infographics` | Direct, metric-led, practical | Quarterly business reviews, performance reports, sales updates, executive dashboards |
@@ -120,6 +130,7 @@ The folder name must match `template.json.slug`.
 | `real-estate-listing` | Sales-led, direct, polished | Property listing decks, real-estate agency profiles, service/product pages, and neighborhood market summaries |
 | `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
+| `survey-results-infographics` | Clear, statistical, infographic | Survey results, research summaries, customer feedback reports, and workshop readouts |
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 | `traveling-keynote-modern` | Modern, cinematic, warm | Travel keynotes, destination stories, tour concepts, wellness travel presentations |
 
