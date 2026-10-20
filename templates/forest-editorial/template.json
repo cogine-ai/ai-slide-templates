@@ -1,0 +1,1041 @@
+{
+  "slug": "forest-editorial",
+  "name": "Forest Editorial",
+  "tagline": "A complete 25-slide editorial system with Instrument Serif, cream and charcoal pages, soft forest photography, team portraits, charts, tables and clear type-led storytelling.",
+  "mood": [
+    "editorial",
+    "calm",
+    "refined",
+    "natural"
+  ],
+  "occasion": [
+    "brand narrative",
+    "thought leadership",
+    "creative proposal",
+    "company introduction",
+    "strategy presentation"
+  ],
+  "tone": [
+    "literary",
+    "sophisticated",
+    "restrained",
+    "thoughtful"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "ink": "#242424",
+    "cream": "#F7F3E2",
+    "paper": "#FFFFFF",
+    "description": "Source-matched charcoal and warm cream, with deep green forest photography and neutral black-and-white data graphics."
+  },
+  "typography": {
+    "display": "Instrument Serif",
+    "body": "Public Sans",
+    "style": "Exact source font families embedded as WOFF2. High-contrast narrow serif display at 140–200 px; restrained Public Sans body at 22–26 px on a 1920 × 1080 canvas."
+  },
+  "scheme": "mixed",
+  "best_for": "Editorial narratives, premium company introductions, brand thinking, nature-inspired proposals and research presentations mixing image, quotation and data.",
+  "avoid_for": "High-energy neon launches or decks requiring dense dashboard interfaces and technical architecture diagrams.",
+  "slide_count": 25,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "source_preview_slides": 25,
+    "embedded_fonts": true,
+    "embedded_images": true,
+    "editable_html_text": true,
+    "native_svg_charts": true,
+    "ai_generated_portraits": true,
+    "local_cinematic_motion": true
+  },
+  "layouts": [
+    "forest-cover",
+    "cream-cover",
+    "chapter-divider",
+    "forest-image-panel",
+    "team-portraits",
+    "team-six-grid",
+    "headline-image-copy",
+    "phone-image-story",
+    "two-column-argument",
+    "asymmetric-three-column",
+    "editorial-quote",
+    "cinematic-media",
+    "vertical-image-story",
+    "editorial-list",
+    "dark-headline-copy",
+    "three-idea-columns",
+    "two-idea-columns",
+    "four-milestone-timeline",
+    "editorial-table",
+    "line-chart-and-commentary",
+    "three-metrics",
+    "four-metrics",
+    "six-idea-grid",
+    "four-idea-grid",
+    "forest-contact"
+  ],
+  "layout_slots": {
+    "forest-cover": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “PRESENTED BY”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “DATE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THE EDITORIAL TEMPLATE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A quick description of what’s to come”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Company Name”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Apr 20, 2026”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "cream-cover": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “DATE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Apr 20, 2026”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “PRESENTED BY”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Company Name”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A quick description of what’s to come”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THE EDITORIAL TEMPLATE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "chapter-divider": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “What this section is all about”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “01”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A SHORT MEMORABLE TITLE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "forest-image-panel": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is space for you to expand. Just start typing away. Write as much as you want (or as li…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Make your point visually”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "team-portraits": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Data Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Joseph Ottoman”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Tech Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “MEET THE TEAM”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “CEO”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Danielle Foarissi”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Anna Simone”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "team-six-grid": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Anna Simone”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “CEO”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Tech Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Tech Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Joseph Ottoman”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Danielle Foarissi”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “CEO”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Data Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-9",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “MEET THE TEAM”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Danielle Foarissi”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Anna Simone”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Joseph Ottoman”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Data Lead”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "headline-image-copy": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A SUBHEADLINE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a headline”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is space for you to expand. Just start typing away. Write as much as you want (or as li…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "phone-image-story": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is space for you to expand. just start typing away. write as much as you want (or as li…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Make your point visually”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "two-column-argument": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “ANOTHER IDEA, EQUALLY IMPORTANT”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A presentation is the process of presenting a topic to an audience. it is typically a demons…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THE CORE OF YOUR IDEA SUMMARIZED IN LESS THAN 10 WORDS”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a slide with tons of text”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. tell why it matters, and why the listeners should care. be informative,…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "asymmetric-three-column": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a slide with tons of text”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A presentation is the process of presenting a topic to an audience. it is typically a demons…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. tell why it matters, and why the listeners should care. be informative,…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “ANOTHER IDEA, EQUALLY IMPORTANT”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “ANOTHER IDEA, EQUALLY IMPORTANT”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A presentation is the process of presenting a topic to an audience. it is typically a demons…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THE CORE OF YOUR IDEA SUMMARIZED IN LESS THAN 10 WORDS”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "editorial-quote": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “ABRAHAM LINCOLN”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently ““The main problem with quotes on the internet is that sometimes they’re not true””. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "cinematic-media": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a video slide”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “And here is a caption for this video”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "vertical-image-story": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is space for you to expand. just start typing away. write as much as you want (or as li…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a headline”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ],
+    "editorial-list": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Lists are a great communication tool”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Okay, that's the end of the list”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “They are much easier to scan”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “In a way, they're much closer to bursts of real speech”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “They don't require as much focus and concentration as full paragraphs”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A LIST ABOUT LISTS”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Use lists when you believe that your readers don't have much time and can't really focus”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "dark-headline-copy": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a headline”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is space for you to expand. just start typing away. write as much as you want (or as li…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "three-idea-columns": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Just start typing away. write as much as you want (or as little, if you're channeling heming…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 3”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 2”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a slide with tons of text”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A presentation is the process of presenting a topic to an audience. it is typically a demons…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 1”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "two-idea-columns": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “This is a slide with tons of text”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 2”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A presentation is the process of presenting a topic to an audience. it is typically a demons…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 1”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "four-milestone-timeline": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Use this slide to talk about time”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Thing that happened first”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Add a goal here And another goal And another one”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Offer a summary or conclusion, if possible”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Third thing, maybe Q3”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Instead of full sentencesYou can just list stuffLike it's a list of things”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Here you can just say stuff in no particular order”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Second thing”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-9",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Thing that happened last”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "editorial-table": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A caption for this table”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A TABLE SLIDE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "line-chart-and-commentary": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Sometimes a chart needs more explanation. add some text here to give your data additional co…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Back up your argument with data”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "three-metrics": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A third metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Another metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A DATA SLIDE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “The first metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “+12%”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Explain what this data is about and why your audience should care. showing well-founded data…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “$23.4M”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “43.000”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "four-metrics": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Another metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Another metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Explain what this data is about and why your audience should care. showing well-founded data…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “43.000”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “The first metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “+12%”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “89%”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A DATA SLIDE”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-9",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “$23.4M”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “A third metric”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "six-idea-grid": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 4”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 6”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 3”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-9",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 5”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 1”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A SLIDE WITH TONS OF TEXT”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 2”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "four-idea-grid": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “THIS IS A SLIDE WITH TONS OF TEXT”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 1”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Expand on your idea. explain why it matters and why the listeners should care. be informativ…”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 3”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-8",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 4”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-9",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Idea 2”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      }
+    ],
+    "forest-contact": [
+      {
+        "name": "text-1",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Email”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-2",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “+1 800 314 159 265”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-3",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “very@nice.email”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-4",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Präsentationstr. 7, 72013 Slide-am-Deck, Gerone, Planet Mars”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-5",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Address”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-6",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “GET IN TOUCH”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "text-7",
+        "type": "text",
+        "required": true,
+        "description": "Exact native HTML data-slot frame, currently “Phone”. Replace copy inside the measured frame while keeping its font, line breaks and paragraph structure."
+      },
+      {
+        "name": "images",
+        "type": "image",
+        "description": "Replace data-asset photo references and the matching embedded image-assets entry; retain each original frame, mask, crop and decorative image layer. AI team portraits are reused consistently between the two team layouts."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 68,
+    "max_subtitle_chars": 120,
+    "max_body_chars_per_slide": 1600,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 30
+  },
+  "source_inspiration": {
+    "name": "Pitch Editorial",
+    "url": "https://pitch.com/templates/Editorial-0oEK1D3jxabA58v6tk069rBZ",
+    "notes": "Complete 25-page reconstruction of the publicly rendered source using measured native HTML text, shapes, tables and editable SVG chart marks; the source fonts, palette, positioning and original non-person photographic assets are preserved and embedded. Three team portraits are original AI-generated images matched to the reference composition, clothing, lighting and crop; they are not the photographed people. The source video on slide 12 was an unavailable blob and rendered black in the public player; this page retains the original media canvas and captions but supplies an embedded forest photo with a working local pan/pause motion demonstration, static under reduced motion. No source runtime or site UI code is included."
+  }
+}

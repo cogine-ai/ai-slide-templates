@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
 
-import { generatePreviews, parsePreviewArgs } from './preview.mjs';
+import { createPreviewHtml, findSlideRanges, generatePreviews, parsePreviewArgs } from './preview.mjs';
 
 async function makeTemplate(root, slug) {
   const templateDir = path.join(root, 'templates', slug);
@@ -99,3 +99,66 @@ test('parses comma-separated and positional preview slugs', () => {
   assert.equal(parsed.subtitle, 'Candidate covers');
   assert.deepEqual(parsed.slugs, ['airy-modern', 'b2b-sales-pitch', 'midnight-executive']);
 });
+
+test('explicit preview targets preserve unrelated cover text and order composed titles', () => {
+  const html = `<section class="slide active">
+    <h1>Unrelated heading</h1><p>Presented by</p>
+    <p data-preview-title="1">Middle</p>
+    <p data-preview-title="0">Top</p>
+    <p data-preview-title="2">Bottom</p>
+    <span data-preview-subtitle>Old description</span>
+    <span data-preview-kicker>Old label</span>
+    <p data-preview-title-extra>Leave this alone</p>
+  </section><section class="slide">Second slide</section>`;
+  const preview = createPreviewHtml(html, {
+    title: 'Actual Launch Plan', subtitle: 'A < B & "$&"', kicker: 'Preview $1'
+  });
+  assert.match(preview, /<h1>Unrelated heading<\/h1><p>Presented by<\/p>/);
+  assert.match(preview, /data-preview-title="0">Actual<\/p>/);
+  assert.match(preview, /data-preview-title="1">Launch<\/p>/);
+  assert.match(preview, /data-preview-title="2">Plan<\/p>/);
+  assert.match(preview, /data-preview-subtitle>A &lt; B &amp; &quot;\$&amp;&quot;<\/span>/);
+  assert.match(preview, /data-preview-kicker>Preview \$1<\/span>/);
+  assert.match(preview, /data-preview-title-extra>Leave this alone<\/p>/);
+  assert.doesNotMatch(preview, /Second slide/);
+});
+
+test('composed preview titles respect explicit line breaks and clear unused lines', () => {
+  const html = '<section class="slide"><p data-preview-title="0">One</p><p data-preview-title="1">Two</p><p data-preview-title="2">Three</p></section>';
+  const preview = createPreviewHtml(html, { title: 'Product strategy\nNext year' });
+  assert.match(preview, /data-preview-title="0">Product strategy<\/p>/);
+  assert.match(preview, /data-preview-title="1">Next year<\/p>/);
+  assert.match(preview, /data-preview-title="2"><\/p>/);
+});
+
+test('legacy preview replacements keep dollar sequences literal and escape HTML', () => {
+  const preview = createPreviewHtml('<section class="slide"><h1>Old</h1><p>Old</p><span class="kicker">Old</span></section>', {
+    title: '$& <title>', subtitle: '$1 & subtitle', kicker: '$& <label>'
+  });
+  assert.match(preview, /<h1>\$&amp; &lt;title&gt;<\/h1>/);
+  assert.match(preview, /<p>\$1 &amp; subtitle<\/p>/);
+  assert.match(preview, /<span class="kicker">\$&amp; &lt;label&gt;<\/span>/);
+});
+
+for (const [slug, titleParts] of [
+  ['forest-editorial', ['AI Platform Review']],
+  ['wide-design-portfolio', ['AI', 'Platform', 'Review']],
+  ['sage-creative-agency', ['AI Platform Review']]
+]) {
+  test(`${slug} exposes working preview targets without replacing other cover labels`, async () => {
+    const original = await readFile(new URL(`../templates/${slug}/template.html`, import.meta.url), 'utf8');
+    const preview = createPreviewHtml(original, {
+      title: 'AI Platform Review', subtitle: 'Candidate direction', kicker: 'Preview'
+    });
+    const ranges = findSlideRanges(preview);
+    assert.equal(ranges.length, 1);
+    const cover = preview.slice(ranges[0].start, ranges[0].end);
+    for (const [index, text] of titleParts.entries()) {
+      assert.match(cover, new RegExp(`data-preview-title="${index}">${text}<`));
+    }
+    assert.match(cover, /data-preview-subtitle>Candidate direction</);
+    assert.match(cover, /data-preview-kicker>Preview</);
+    if (slug === 'forest-editorial') assert.match(cover, />Company Name</);
+    if (slug === 'sage-creative-agency') assert.match(cover, />November 2024</);
+  });
+}

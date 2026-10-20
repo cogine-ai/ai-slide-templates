@@ -14,9 +14,9 @@ Usage:
 
 Options:
   --out-dir <dir>     Output directory. Defaults to previews/
-  --title <text>      Replace the first slide's first h1 text
-  --subtitle <text>   Replace the first slide's first p text
-  --kicker <text>     Replace the first cover label/kicker text when present
+  --title <text>      Replace marked cover title(s), falling back to the first h1
+  --subtitle <text>   Replace the marked cover subtitle, falling back to the first p
+  --kicker <text>     Replace the marked cover kicker or first cover label
   --root <dir>        Repository root. Defaults to current directory
   -h, --help          Show this help text
 
@@ -193,7 +193,7 @@ function replaceFirstElementText(html, tagName, text) {
   if (text === undefined) return html;
 
   const pattern = new RegExp(`(<${tagName}\\b[^>]*>)([\\s\\S]*?)(</${tagName}>)`, 'i');
-  return html.replace(pattern, `$1${escapeHtml(text)}$3`);
+  return html.replace(pattern, (match, open, content, close) => `${open}${escapeHtml(text)}${close}`);
 }
 
 function replaceFirstClassText(html, classNames, text) {
@@ -202,18 +202,57 @@ function replaceFirstClassText(html, classNames, text) {
   for (const className of classNames) {
     const pattern = new RegExp(`(<([a-z][a-z0-9-]*)\\b[^>]*\\bclass=(["'])[^"']*\\b${escapeRegExp(className)}\\b[^"']*\\3[^>]*>)([\\s\\S]*?)(</\\2>)`, 'i');
     if (pattern.test(html)) {
-      return html.replace(pattern, `$1${escapeHtml(text)}$5`);
+      return html.replace(pattern, (match, open, tag, quote, content, close) => `${open}${escapeHtml(text)}${close}`);
     }
   }
 
   return html;
 }
 
+function splitTitleLines(text, count) {
+  const explicitLines = String(text).split(/\r?\n/);
+  if (explicitLines.length > 1) {
+    return Array.from({ length: count }, (_, index) => index === count - 1
+      ? explicitLines.slice(index).join(' ')
+      : explicitLines[index] || '');
+  }
+
+  const words = String(text).trim().split(/\s+/u).filter(Boolean);
+  return Array.from({ length: count }, (_, index) =>
+    words.splice(0, Math.ceil(words.length / (count - index))).join(' '));
+}
+
+// Mark the innermost text element so replacements retain its positioned wrappers.
+// Numbered title targets support covers composed of separate, ordered text frames.
+function replaceMarkedText(html, role, text) {
+  if (text === undefined) return { html, matched: false };
+
+  const pattern = new RegExp(`(<([a-z][a-z0-9-]*)\\b(?=[^>]*\\sdata-preview-${role}(?=[\\s=>]))[^>]*>)([\\s\\S]*?)(</\\2>)`, 'gi');
+  const matches = [...html.matchAll(pattern)];
+  if (!matches.length) return { html, matched: false };
+
+  const targets = role === 'title' ? matches.sort((a, b) => {
+    const order = match => Number(match[1].match(/\bdata-preview-title=(["'])(\d+)\1/i)?.[2] || 0);
+    return order(a) - order(b);
+  }) : matches.slice(0, 1);
+  const lines = targets.length === 1 ? [String(text)] : splitTitleLines(text, targets.length);
+  const replacements = new Map(targets.map((match, index) => [match.index, lines[index]]));
+  return {
+    html: html.replace(pattern, (match, open, tag, content, close, offset) => replacements.has(offset)
+      ? `${open}${escapeHtml(replacements.get(offset))}${close}`
+      : match),
+    matched: true
+  };
+}
+
 function adaptFirstSlide(slideHtml, options) {
   let adapted = forceActiveSlide(slideHtml);
-  adapted = replaceFirstElementText(adapted, 'h1', options.title);
-  adapted = replaceFirstElementText(adapted, 'p', options.subtitle);
-  adapted = replaceFirstClassText(adapted, TEXT_REPLACEMENT_CLASSES, options.kicker);
+  const title = replaceMarkedText(adapted, 'title', options.title);
+  adapted = title.matched ? title.html : replaceFirstElementText(adapted, 'h1', options.title);
+  const subtitle = replaceMarkedText(adapted, 'subtitle', options.subtitle);
+  adapted = subtitle.matched ? subtitle.html : replaceFirstElementText(adapted, 'p', options.subtitle);
+  const kicker = replaceMarkedText(adapted, 'kicker', options.kicker);
+  adapted = kicker.matched ? kicker.html : replaceFirstClassText(adapted, TEXT_REPLACEMENT_CLASSES, options.kicker);
   return adapted;
 }
 
