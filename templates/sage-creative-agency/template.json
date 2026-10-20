@@ -1,0 +1,817 @@
+{
+  "slug": "sage-creative-agency",
+  "name": "Sage Creative Agency",
+  "tagline": "A 30-slide creative proposal with sage and indigo fields, elegant Tenor Sans capitals, orange accents, and capsule-framed editorial photography.",
+  "mood": [
+    "artful",
+    "calm",
+    "confident",
+    "cinematic"
+  ],
+  "occasion": [
+    "agency pitch",
+    "creative proposal",
+    "brand storytelling",
+    "service portfolio"
+  ],
+  "tone": [
+    "editorial",
+    "expressive",
+    "polished",
+    "warm"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "palette": {
+    "description": "Pale sage and deep indigo alternate with warm orange circles and softly graded editorial photography.",
+    "sage": "#D4DECE",
+    "indigo": "#1F277B",
+    "orange": "#ECA034"
+  },
+  "typography": {
+    "display": "Tenor Sans",
+    "body": "Open Sans",
+    "style": "Light uppercase Tenor Sans display at 150px / 75px on a 1920 × 1080 canvas, paired with Open Sans 20px / 24px and bold small labels; both families embedded."
+  },
+  "scheme": "mixed",
+  "best_for": "Creative studios, editorial brands, photographers, and service proposals that need a complete narrative from introduction and team to capabilities, testimonials, budget, pricing, and contact.",
+  "avoid_for": "Chart-heavy financial reporting or dense operational dashboards; body copy should remain short enough for the fixed editorial composition.",
+  "slide_count": 30,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "overview": true,
+    "embedded_fonts": true,
+    "editable_text": true,
+    "ai_generated_images": 28,
+    "embedded_unique_images": 29
+  },
+  "layouts": [
+    "cover",
+    "journey",
+    "founder-message",
+    "client-brief",
+    "about-divider",
+    "history",
+    "image-break",
+    "collective-goals",
+    "awards",
+    "clients",
+    "team-divider",
+    "profile-left",
+    "profile-right",
+    "profile-narrow",
+    "services-divider",
+    "services-list",
+    "capabilities",
+    "service-grid",
+    "testimonial-divider",
+    "testimonial-left",
+    "testimonial-right",
+    "quote",
+    "pricing-divider",
+    "investment",
+    "budget",
+    "pricing",
+    "brand-goals",
+    "photo-triptych-large",
+    "photo-triptych",
+    "contact"
+  ],
+  "layout_slots": {
+    "cover": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Roamers"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: November 2024"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Creative Agency Pitch Deck"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: Sydney, AU"
+      }
+    ],
+    "journey": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Escape your surroundings, experience something beautiful"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: the journey"
+      }
+    ],
+    "founder-message": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: FOUNDERS"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Elizabeth & Lee"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Our Message"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: Dear Reader,As we embark on this journey, let's take a moment to prepare ourselves for the wonders ahead of us. We have a pitcher of fresh mint tea and a picnic basket full of all "
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "client-brief": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Your Address1234 Street City, State, Zip"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Digital Marketing ProjectAs requested by Stevey, CEO of Client Studio"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Phone : 1-200-333-CALLsayhi@thegetaway.comwww.thegetaway.com"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: Client Studio"
+      }
+    ],
+    "about-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: ABOUT US"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "history": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: ROAMERS is distinguished by the conceptual way founders Elizabeth and Lee approach branding and storytelling. They see the world through the eyes of art, music, and poetry. At the "
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Our enchanting History"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "image-break": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "collective-goals": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: collective goals"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Our goal is to create a beautiful and harmonious working environment with the most talented people around. Your vision inspires our vision, and what we make together is something t"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "awards": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Awards & Recognition"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: The Wonderous Awards 2020Best Creative CampaignRoam On LoversLe Meilleur de la Pub 2019Jury Award & Public Award Lost in La Strada Meer"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Grand Prix Of Design 2019Web and Mobile AwardYoung Of Heart Danish Design Awards 2018People's ChoiceRunway Runaway"
+      }
+    ],
+    "clients": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: A&EActivisionAim FundsAll BusinessAllsportAlpineAmerican AirlinesAmnesty InternationalArchipelagoAudiBally’sBeringerBrodia.comBudweiserBuickBurger KingCallawayCellular South"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: MitsubishiMonster.comMSNMophieNat Geo WildNextelNikeNissanOppenheimer FundsOwens CorningPDFAPennzoilPlaystationPolarisPontiacPowertelPringlesProgressive Auto"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Wonderful Client List"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: ChipshotCitraColdplayComdiscoCrate & BarrelDirecTVDunkin DonutsElectronic ArtsESPNExpedia.comFederatedFirst National BankFordFox SportsGoogleHasbroHifi.comHonda"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: Jack In The BoxJC PenneyK SwissK2 SkiisKB KidsKodakKyoceraLA TimesLandroverLeisurePlanetLending TreeLexusLincoln/MercuryLong Beach FilmLycosMcDonald’sMerrill LynchMicrosoft"
+      }
+    ],
+    "team-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: THE TEAM"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "profile-left": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Elizabeth believes that innovative ideas should be universal and must have the ability to transcend societies, markets, and technologies. She has a desire to find the human story b"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Elizabeth Jane-Pearce"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Creative Director"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "profile-right": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Lee LAWRENCE"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Lee's photography can best be described as tender, cinematic, and visceral. Whether it's her editorial, commercial, and fashion photography, Lee breaks the visual mold with her evo"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Photographer"
+      }
+    ],
+    "profile-narrow": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Thanks to his strong visual aesthetics and visionary ideas, Johnny has helped make Roamers the success it has become. Trained in fashion design at the London College of Fashion, Jo"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: ART DIRECTOR"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Johnny Valentine"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "services-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Our services"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "services-list": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Branding & DesignBrand Development Logo & ID SystemsBrand Style GuidesMessagingCollateral, Print & PackagingEnvironmental Design"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Digital DevelopmentWebsite DesignUX/UIInformation ArchitectureWireframingPrototypesCustom ContentManagement"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: StrategyDiscovery & ResearchUser ExperienceBrand Strategy & ArchitecturePositioningContent StrategyMarketing"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: We offer a wide range of services to launch your project or campaign. With the best talent with the most imaginative ideas, we dedicate ourselves to creating quality content that c"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: Our Services"
+      }
+    ],
+    "capabilities": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: We provide digital solutions for your brand's campaign. Harnessing the latest technology, our innovative creatives help your brand stand out with the latest in seamless design."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Service Two"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Service Three"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: our Capabilities & Services"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: Service One"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Source text: Before launching your campaign, we will create a robust and inspiring creative strategy that will identify your key audience and competition while providing a roadmap for every ste"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Source text: Defining your brand identity. What image is your company portraying to your consumer? We will help you define what your identity is and exactly what you want to say."
+      }
+    ],
+    "service-grid": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: We provide digital solutions for your brand's campaign. Our innovative creatives help your brand stand out with the latest in digital design."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: A brand style guide will be your go-to guru on your brand's tone of voice, making sure your voice is consistent on all channels."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: We will create a creative strategy that will identify your key audience and competition while providing a roadmap for every step of the way."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: Service Three"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: Service One"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Source text: What image is your company portraying to your consumer? We will help you define what your identity is and exactly what you want to say."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Source text: Service Four"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Source text: Our Services"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Source text: Service Two"
+      }
+    ],
+    "testimonial-divider": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: TESTIMONIALS"
+      }
+    ],
+    "testimonial-left": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Tana Klein"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Working with the team at Roamers was like taking a beguiling trip to some beautiful land. A land where a team of talented people creates a vision of your brand that looks like a dr"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: CEO OF MAGICAL TEE"
+      }
+    ],
+    "testimonial-right": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: I came to the team asking them to rebrand our company and make it feel exciting and new. What we got in return is nothing short of unbelievable. We could have never come as far as "
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Paula Hila"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: CEO of Sparky"
+      }
+    ],
+    "quote": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: It's impossible to say how much Elizabeth, Lee, and the team helped us. But I will say they changed our lives, and I will never work with anyone else."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Laura Christine"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: CEO of Wonderfulll"
+      }
+    ],
+    "pricing-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Price timelines"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "investment": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Professional fees for the services are estimated to total between $5 and $5,000 for the project outlined in this proposal.Services will be billed on a flat project-fee basis. The e"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Total Investment"
+      }
+    ],
+    "budget": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: 1.2"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: 1.1"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: 1.3"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: $50,000"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: Discovery: On-site facilitation (2-3 Days)﻿For each piece of the larger deliverable, you’ll want to create a description. Each listed subsection must not have an individual price."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Source text: SummaryProvide a summary of all costs pertaining to the project."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Source text: Competitive AuditThe aim of the competitive audit is to find out what works for other people in your business so that you can make these techniques work for you, too, and gain a co"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Source text: 1.4"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Source text: User Profiles (4-6 Hours)At this stage, we will assess the attributes of each user profile and helps to assess the users' interactive actions and interests."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Source text: The budget"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: $5000"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: $5000"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Defining your brand identity. What image is your company portraying to your consumer? We will help you define what your identity is and exactly what you want to say."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Source text: Before launching your campaign, we will create a robust and inspiring creative strategy that will identify your key audience and competition while providing a roadmap for every ste"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Source text: We provide digital solutions for your brand's campaign. Harnessing the latest technology, our innovative creatives help your brand stand out with the latest in seamless design."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Source text: $5000"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Source text: Service One"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Source text: Our Pricing"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Source text: Service Three"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Source text: Service Two"
+      }
+    ],
+    "brand-goals": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: With your trust, we will redefine these goals and reinvigorate your brand to match your current vision. With an open mind and confidence, we will deliver something truly unique and"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Defining your brand"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Your goals when you started are no longer those that you aspire to achieve, and that's why it's time for a change. The consumer environment is changing rapidly, which calls for a n"
+      }
+    ],
+    "photo-triptych-large": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "photo_02",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "photo_03",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "photo-triptych": [
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "photo_02",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "photo_03",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      }
+    ],
+    "contact": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Source text: Your Address1234 Street City, State, Zipcode:"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Source text: Contact us"
+      },
+      {
+        "name": "photo_01",
+        "type": "image",
+        "description": "Replace the photograph; retain its original crop and capsule frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Source text: Phone : 1-200-333-CALLsayhi@roamers.comwww.romers.com"
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 52,
+    "max_subtitle_chars": 100,
+    "max_body_chars_per_slide": 1100,
+    "max_bullets": 24,
+    "max_cards": 4,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 36
+  },
+  "source_inspiration": {
+    "name": "ThisIsHome Studio — Creative Agency Pitch Deck",
+    "url": "https://pitch.com/templates/Creative-Agency-Pitch-Deck-3knebz3j4rSW5RMcD23LrbVq",
+    "notes": "Full 30-page public preview reconstructed as editable positioned HTML text, native SVG circles and rules, and independently replaceable capsule-cropped photographs. Preserves observed Tenor Sans / Open Sans typography, 1920 × 1080 composition, #1F277B / #D4DECE colors, and individual image transforms. All 28 distinct photographs containing people or human details are AI generated, following the observed composition, wardrobe, camera angle, lighting, and photographic direction. The 31 source image IDs map to those 28 AI assets; one botanical pond photograph remains from the public source preview."
+  }
+}

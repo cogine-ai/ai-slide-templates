@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 60 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 63 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -101,6 +101,7 @@ The folder name must match `template.json.slug`.
 | `elegant-product-launch` | Refined, editorial, premium | Product launches, campaign plans, premium retail stories, and art-directed launch narratives |
 | `finance-startup-statements` | Practical, numeric, hand-drawn | Startup financial statements, funding asks, budget briefs, and simple financial education decks |
 | `financial-ledger` | Bold, precise, editorial | Annual financial reviews, executive scorecards, profitability and forecasts |
+| `forest-editorial` | Literary, calm, photographic | Editorial narratives, research stories, team introductions, timelines, and data-led arguments |
 | `glass-ux-studio` | Sleek, digital, experiential | UX case studies, product walkthroughs, app concepts, innovation pitches |
 | `gold-line-proposal` | Premium, dark, authoritative | Project proposals, executive concepts, premium service pitches |
 | `graffiti-art` | Loud, rough, graphic | Youth culture pitches, graffiti-inspired campaigns, art workshops, community event decks |
@@ -137,10 +138,12 @@ The folder name must match `template.json.slug`.
 | `quarterly-review-meeting` | Clear, measured, professional | QBR meetings, operating updates, project reviews, status and RAID reports |
 | `real-estate-listing` | Sales-led, direct, polished | Property listing decks, real-estate agency profiles, service/product pages, and neighborhood market summaries |
 | `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
+| `sage-creative-agency` | Airy, refined, expressive | Creative agency credentials, brand proposals, team profiles, services, and project pricing |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
 | `survey-results-infographics` | Clear, statistical, infographic | Survey results, research summaries, customer feedback reports, and workshop readouts |
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 | `traveling-keynote-modern` | Modern, cinematic, warm | Travel keynotes, destination stories, tour concepts, wellness travel presentations |
+| `wide-design-portfolio` | Bold, graphic, typographic | Design portfolios, project case studies, creative experience, and professional credentials |
 
 ## Template Rules
 
@@ -184,6 +187,8 @@ node scripts/preview.mjs --title "AI Platform Review" --subtitle "Candidate cove
 ```
 
 By default, previews are written to `previews/<slug>-preview.html`. The `previews/` directory is ignored because these are temporary comparison artifacts.
+
+Template authors can mark the innermost cover text elements with `data-preview-title="0"`, `data-preview-subtitle`, and `data-preview-kicker` to select the correct replacement targets. Covers with separate title frames can number them `0`, `1`, `2`: the preview tool distributes the title across those frames in that order, respecting explicit line breaks. Unmarked templates retain the first `h1`, first `p`, and cover-label fallbacks.
 
 Render a PNG screenshot for a template slug or preview HTML file:
 

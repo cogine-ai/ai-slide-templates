@@ -1,0 +1,933 @@
+{
+  "slug": "wide-design-portfolio",
+  "name": "Wide Design Portfolio",
+  "tagline": "Oversized Syne typography, black-and-white pages, fine rules, coral and yellow circular badges, and tightly cropped product photography.",
+  "mood": [
+    "confident",
+    "graphic",
+    "minimal",
+    "creative"
+  ],
+  "occasion": [
+    "designer portfolio",
+    "creative studio introduction",
+    "case study presentation",
+    "design interview"
+  ],
+  "tone": [
+    "bold",
+    "typographic",
+    "precise",
+    "visual"
+  ],
+  "formality": "medium",
+  "density": "medium-low",
+  "palette": {
+    "description": "Pure black and white alternate with vivid coral and yellow circular badges.",
+    "ink": "#000000",
+    "paper": "#FFFFFF",
+    "coral": "#FF7448",
+    "yellow": "#FFFF48"
+  },
+  "typography": {
+    "display": "Syne",
+    "body": "Syne",
+    "style": "Embedded Syne 400, 600, and 700 for oversized uppercase display headings and body copy; embedded Space Grotesk 400, 500, and 700 for letter-spaced chrome and circular badges. Source letter spacing, line heights, and text frames are retained."
+  },
+  "scheme": "mixed",
+  "best_for": "Designer and agency portfolios with strong project imagery, concise case-study narrative, credentials, and bold typographic section dividers.",
+  "avoid_for": "Dense operational reports, chart-heavy financial reviews, long paragraphs, or formal presentations requiring restrained headings.",
+  "slide_count": 23,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "embedded_images": true,
+    "offline_ready": true,
+    "hash_navigation": true,
+    "print_all_slides": true
+  },
+  "layouts": [
+    "oversized-name-cover",
+    "agenda-light",
+    "about-intro",
+    "about-detail",
+    "agenda-dark",
+    "expertise-list",
+    "section-divider",
+    "project-triptych",
+    "project-overview",
+    "project-role-image",
+    "image-title-cover",
+    "project-gallery-three",
+    "project-gallery-two",
+    "challenge-solution",
+    "research-findings",
+    "results-metrics",
+    "experience-timeline",
+    "education-timeline",
+    "recognition-list",
+    "contact-details"
+  ],
+  "layout_slots": {
+    "oversized-name-cover": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-5",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-6",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "agenda-light": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-5",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-7",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-8",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-9",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-10",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-11",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-12",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "about-intro": [
+      {
+        "name": "chrome-1",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "about-detail": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-4",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-5",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "agenda-dark": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-5",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-7",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-8",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-9",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-10",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-11",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-12",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "expertise-list": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-2",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-7",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "section-divider": [
+      {
+        "name": "mark",
+        "type": "text",
+        "description": "Small letter-spaced designer or studio mark in the top-left chrome."
+      },
+      {
+        "name": "edition",
+        "type": "text",
+        "description": "Small letter-spaced portfolio edition label at the lower-left edge."
+      },
+      {
+        "name": "headline-top",
+        "type": "text",
+        "description": "First oversized headline line; keep its measured frame, uppercase Syne styling, and intentional edge crop."
+      },
+      {
+        "name": "headline-bottom",
+        "type": "text",
+        "description": "Second oversized headline line; keep its measured frame, uppercase Syne styling, and intentional edge crop."
+      },
+      {
+        "name": "badge",
+        "type": "text",
+        "description": "Short date or label inside the colored circular badge; retain its source rotation."
+      }
+    ],
+    "project-triptych": [
+      {
+        "name": "chrome-1",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "image-2",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "image-3",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "project-overview": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "project-role-image": [
+      {
+        "name": "chrome-1",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "copy-2",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-5",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "image-title-cover": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-4",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      }
+    ],
+    "project-gallery-three": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-2",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-3",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      }
+    ],
+    "project-gallery-two": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-2",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "image-2",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      }
+    ],
+    "challenge-solution": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-2",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-6",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-7",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-8",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-9",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "research-findings": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-2",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-5",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-7",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-8",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-9",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-10",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "results-metrics": [
+      {
+        "name": "chrome-1",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-2",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-3",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-6",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "image-1",
+        "type": "image",
+        "description": "Replace the photograph while preserving the original image size and translation crop."
+      },
+      {
+        "name": "heading-7",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-8",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-9",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "experience-timeline": [
+      {
+        "name": "heading-1",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-2",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-7",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-8",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-9",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-10",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-11",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-12",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-13",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "education-timeline": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-2",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-3",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-4",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-7",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-8",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-9",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-10",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "recognition-list": [
+      {
+        "name": "copy-1",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-2",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-4",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-5",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-6",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-7",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-8",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-9",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-10",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      }
+    ],
+    "contact-details": [
+      {
+        "name": "chrome-1",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-2",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "chrome-3",
+        "type": "text",
+        "description": "Editable chrome text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-4",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "copy-5",
+        "type": "text",
+        "description": "Editable copy text; retain source font, point size, and fixed text frame."
+      },
+      {
+        "name": "heading-6",
+        "type": "text",
+        "description": "Editable heading text; retain source font, point size, and fixed text frame."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 32,
+    "max_subtitle_chars": 65,
+    "max_body_chars_per_slide": 620,
+    "max_bullets": 5,
+    "max_cards": 3,
+    "recommended_slide_count_min": 10,
+    "recommended_slide_count_max": 30
+  },
+  "source_inspiration": {
+    "name": "Design Portfolio by Hrvoje Grubišić on Pitch",
+    "url": "https://pitch.com/templates/Design-Portfolio-4mkELV2TMKDP5VhYaD4XTSx6",
+    "notes": "All 23 publicly rendered pages were inspected. Rebuilt with native editable HTML text, vector rules and circles, observed element coordinates, exact Syne/Space Grotesk families, and embedded original non-person still-life photography with source crop transforms. This is an HTML reconstruction, not an editable Pitch export. No human portraits occur in this source."
+  }
+}
