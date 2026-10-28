@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "status": "technically-reviewed-draft-pr",
+  "status": "technically-reviewed",
   "totalPagesReviewed": 110,
   "libraryAdditions": {
     "templates": 5,
@@ -11,7 +11,7 @@
         "slug": "basel-swiss-report",
         "pages": 8,
         "status": "accepted",
-        "htmlSha256": "d94101bad59745d10dc067c877e2dd1c7f3704b1ff28465cb090acc0b0801917",
+        "htmlSha256": "0bab35ccac57a9f92ae7b009ec164ccca3b77a222758e81dbac3f458cac339ee",
         "metadataSha256": "2fcb4fbe8d88dfcf703ca4678e2d86137c8fd0e8d936b9ba1ff1eb9a078200ec",
         "rawIndependentMismatchCount": 0,
         "documentedExceptions": [],
@@ -23,7 +23,8 @@
         "sourceEvidence": "basel/source-dom-NN.json",
         "comparisonEvidence": "basel/",
         "independentEvidence": "basel/independent/summary.json",
-        "initialVisualAcceptanceHtmlSha256": "f6fb9aa0e228f10339a87acb5fcecd1bf6b107be64150f5606a30f54794970b0"
+        "initialVisualAcceptanceHtmlSha256": "f6fb9aa0e228f10339a87acb5fcecd1bf6b107be64150f5606a30f54794970b0",
+        "beforeReviewCommentFixesHtmlSha256": "d94101bad59745d10dc067c877e2dd1c7f3704b1ff28465cb090acc0b0801917"
       },
       {
         "source": "form",
@@ -31,7 +32,7 @@
         "pages": 10,
         "status": "accepted",
         "htmlSha256": "5baf0a516bedb968a2d81fd4392f952d62799836829d977b3e868b30e70b19e2",
-        "metadataSha256": "c9dc62ff22b5f0bbe817bbc8f51de90149e01adc67a782feda8f547e3b3520ff",
+        "metadataSha256": "ee19031fd16d90aac594228042d332cabb8594ab8d26b18394bf038cddee9cbe",
         "rawIndependentMismatchCount": 0,
         "documentedExceptions": [],
         "maxTextFrameGeometryDeltaNativePixels": 0,
@@ -42,7 +43,8 @@
         "sourceEvidence": "form/source-dom-NN.json",
         "comparisonEvidence": "form/",
         "independentEvidence": "form/independent/summary.json",
-        "initialVisualAcceptanceHtmlSha256": "1536948ea3e0d49edf145def52c6547bae4f61c1adccb2de56f71760b2efc84d"
+        "initialVisualAcceptanceHtmlSha256": "1536948ea3e0d49edf145def52c6547bae4f61c1adccb2de56f71760b2efc84d",
+        "beforeReviewCommentFixesMetadataSha256": "c9dc62ff22b5f0bbe817bbc8f51de90149e01adc67a782feda8f547e3b3520ff"
       },
       {
         "source": "wonderland",
@@ -89,8 +91,8 @@
         "slug": "metalab-concept-testing",
         "pages": 28,
         "status": "accepted-with-documented-exceptions",
-        "htmlSha256": "0ac0a3a7393faf3733ba17c2f74066f30e0db49b151de23718105a1ea190533b",
-        "metadataSha256": "e7dbf2a471f47fa41e22d43fa3ce12a4f01ee6085f964d9b59d6951e020b5890",
+        "htmlSha256": "303df18f49bd8be95072e310ee3c6cb97d191023470a2c895e839cc1ce33fd68",
+        "metadataSha256": "86a8cc1d0ebc628fd395c256b4c1ff5bc7a17370aec94473f38088ab17d62bcb",
         "rawIndependentMismatchCount": 6,
         "documentedExceptions": [
           "Six labels on pages 20/21 use OFL Bodoni Moda in place of commercial SchnyderS Cond; 157 text frames and source layout preserved."
@@ -103,7 +105,9 @@
         "sourceEvidence": "metalab/source-dom-NN.json",
         "comparisonEvidence": "metalab/",
         "independentEvidence": "metalab/independent/summary.json",
-        "initialVisualAcceptanceHtmlSha256": "3c3abdf18f9a039288b7c2800901d93413c3b815475ae885d3a1b9b5b63c4824"
+        "initialVisualAcceptanceHtmlSha256": "3c3abdf18f9a039288b7c2800901d93413c3b815475ae885d3a1b9b5b63c4824",
+        "beforeReviewCommentFixesHtmlSha256": "0ac0a3a7393faf3733ba17c2f74066f30e0db49b151de23718105a1ea190533b",
+        "beforeReviewCommentFixesMetadataSha256": "e7dbf2a471f47fa41e22d43fa3ce12a4f01ee6085f964d9b59d6951e020b5890"
       }
     ]
   },
@@ -170,5 +174,26 @@
       "MetaLab six-label font substitution, Lumen SVG arrow and Basel platform-system-font behavior are documented."
     ],
     "nonRenderingCleanup": "Removed trailing whitespace from inert font license text and one blank indentation-only line; non-rendered-payload equality checked."
+  },
+  "reviewCommentFollowup": {
+    "baseCommit": "18fc2c5bfcaacca5492e24456e8524d91d553825",
+    "findingsValidated": 3,
+    "findingsFixed": 3,
+    "findingsSkipped": 0,
+    "changes": [
+      "Basel navigation buttons retain native Space/Enter activation while allowing eight slide navigation keys; other interactive targets keep the existing filtering.",
+      "Removed only the incorrect cover-capacity sentence from seven Form non-cover title descriptions.",
+      "Renamed six MetaLab phase slots to v1/v2/v3 according to displayed stages, synchronizing metadata and HTML without changing text or layout."
+    ],
+    "verification": {
+      "focusedRuntimeAndMetadataChecks": 25,
+      "otherInteractiveKeyCases": 50,
+      "command": "node previews/implementation-2026-10-28/review-comment-checks.mjs",
+      "structuralValidation": "68 templates passed",
+      "toolTests": "23 passed, 0 failed",
+      "visualValidation": "Basel and MetaLab passed at 1280x720",
+      "visibleContentUnchanged": "Basel visual HTML/CSS identical; MetaLab HTML identical after normalizing the six data-slot names."
+    },
+    "optionalLocalCodeRabbit": "Installed CLI does not support --agent; supported plain-text uncommitted review was attempted, then stopped after over three minutes at Connecting to review service with no review findings returned."
   }
 }

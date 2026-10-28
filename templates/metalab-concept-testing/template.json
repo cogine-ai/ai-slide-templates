@@ -813,7 +813,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_01",
+        "name": "phase_number_v2",
         "type": "text",
         "description": "Native shape-derived phase number 02. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
@@ -828,7 +828,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_03",
+        "name": "phase_number_v3",
         "type": "text",
         "description": "Native shape-derived phase number 03. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
@@ -878,7 +878,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_11",
+        "name": "phase_number_v1",
         "type": "text",
         "description": "Native shape-derived phase number 01. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
@@ -895,7 +895,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_01",
+        "name": "phase_number_v2",
         "type": "text",
         "description": "Native shape-derived phase number 02. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
@@ -930,7 +930,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_07",
+        "name": "phase_number_v1",
         "type": "text",
         "description": "Native shape-derived phase number 01. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
@@ -940,7 +940,7 @@
         "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
       },
       {
-        "name": "phase_number_08",
+        "name": "phase_number_v3",
         "type": "text",
         "description": "Native shape-derived phase number 03. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
       },
