@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 63 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 68 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -43,6 +43,11 @@ Browse 63 browser-openable HTML slide templates across business, research, train
 ![AI Slide Templates gallery 6](docs/assets/readme/template-gallery-06.png)
 
 ![AI Slide Templates gallery 7](docs/assets/readme/template-gallery-07.png)
+
+![AI Slide Templates gallery 8](docs/assets/readme/template-gallery-08.png)
+
+See the [October 28 implementation notes](docs/template-implementation-2026-10-28.md) for the five-template batch, source reconstruction details, and verification scope.
+Third-party fonts, media, and source designs retain their original rights; see the [batch source and asset notices](docs/template-source-notices-2026-10-28.md) for attribution and open provenance items.
 
 ## Manual Agent Prompt
 
@@ -87,6 +92,8 @@ The folder name must match `template.json.slug`.
 | `airy-modern` | Minimal, friendly, optimistic | Product strategy, customer research, startup updates, planning workshops |
 | `architecture-portfolio` | Architectural, clean, structured | Architecture portfolios, design studio credentials, floor-plan narratives, and built-environment project reviews |
 | `b2b-sales-pitch` | Sharp, fresh, corporate | B2B sales pitches, SaaS proposals, enterprise partnership decks, GTM stories |
+| `basel-swiss-report` | Swiss, typographic, precise | Studio reports, annual summaries, executive updates, quantitative reviews, and team presentations |
+| `bauhaus-form-function` | Clear, geometric, confident | Design workshops, creative education, process explanations, comparisons, and concise case studies |
 | `bilingual-editorial` | Bold, literary, bilingual | Chinese-English editorial presentations and cross-cultural communication |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
@@ -114,8 +121,10 @@ The folder name must match `template.json.slug`.
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
 | `law-justice` | Measured, legal, traditional | Legal briefings, justice policy updates, public institution presentations, and law education decks |
 | `linear-qbr` | Restrained, linear, formal | Quarterly business reviews, board updates, operating cadence, portfolio reviews |
+| `lumen-keynote` | Minimal, bold, restrained | Product launches, software keynotes, leadership talks, founder narratives, metrics, and roadmaps |
 | `matisse-collage` | Artistic, soft, gallery-like | Creative workshops, art education, museum talks, community programs |
 | `mental-health-workshop` | Warm, safe, friendly | Mental health workshops, HR wellbeing training, support briefings, and campus awareness sessions |
+| `metalab-concept-testing` | Research-led, warm, precise | Product concept-testing reports, prototype findings, user quotations, design recommendations, and sprint next steps |
 | `midnight-executive` | Executive, polished, dramatic | Board updates, investor briefings, leadership reviews, strategic reviews |
 | `minimalist-grayscale-pitch` | Clean, quiet, precise | Startup pitch decks, founder narratives, investor updates, restrained business plans |
 | `modern-wave` | Playful, clean, high-contrast | Simple modern keynotes, introductions, creative overviews, quotes, and lightweight visual storytelling |
@@ -144,6 +153,7 @@ The folder name must match `template.json.slug`.
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 | `traveling-keynote-modern` | Modern, cinematic, warm | Travel keynotes, destination stories, tour concepts, wellness travel presentations |
 | `wide-design-portfolio` | Bold, graphic, typographic | Design portfolios, project case studies, creative experience, and professional credentials |
+| `wonderland-concept-proposal` | Expressive, polished, design-led | Design proposals, client briefs, competitor analysis, information architecture, creative concepts, and delivery timelines |
 
 ## Template Rules
 

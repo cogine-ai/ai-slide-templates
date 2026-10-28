@@ -1,0 +1,1427 @@
+{
+  "slug": "metalab-concept-testing",
+  "name": "MetaLab Concept Testing",
+  "tagline": "A complete 28-slide concept-testing readout with Work Sans, orange and cream, circular imagery, product prototypes and three offline motion backgrounds.",
+  "mood": [
+    "considered",
+    "human",
+    "clear",
+    "confident"
+  ],
+  "occasion": [
+    "concept testing",
+    "product research readout",
+    "design review",
+    "user-research synthesis"
+  ],
+  "tone": [
+    "research-led",
+    "warm",
+    "precise",
+    "practical"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "description": "White and warm cream canvas, dark neutral Work Sans typography, orange labels and phase markers, circles and independent product screens.",
+    "white": "#FFFFFF",
+    "cream": "#F6F1EA",
+    "orange": "#E4642B",
+    "heading": "#18181A",
+    "body": "#37364D",
+    "muted": "#898F8B"
+  },
+  "typography": {
+    "display": "Work Sans",
+    "body": "Work Sans",
+    "style": "Work Sans is the main deck typeface, embedded from the exact Google Fonts legacy URL used by the source. The two cover titles retain original OFL Muli SemiBold 600. Six small phase numbers on slides 20–21 use portable OFL Bodoni Moda Bold instead of proprietary SchnyderS Cond; this is the only font substitution. Source weights, line heights, letter spacing and paragraph frames are preserved; type inside product screenshots remains image content."
+  },
+  "scheme": "light",
+  "best_for": "Product concept-testing reports that connect the research ask and prototypes to findings, user quotations, design implications, phased business/UX recommendations and sprint next steps.",
+  "avoid_for": "Dense financial dashboards or evidence-free marketing claims. Keep each finding and prototype within its source frame; duplicate the related finding layouts for additional findings.",
+  "slide_count": 28,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "offline": true,
+    "editable_text": true,
+    "native_svg": true,
+    "native_phone_frame_instances": 13,
+    "embedded_unique_image_assets": 28,
+    "offline_video_count": 3,
+    "source_order_preserved": true
+  },
+  "layouts": [
+    "motion-cover",
+    "static-cover",
+    "template-instructions",
+    "contents",
+    "research-ask",
+    "concepts-divider",
+    "concept-overview",
+    "concept-prototypes",
+    "concept-exploration",
+    "testing-method",
+    "findings-divider",
+    "findings-summary",
+    "finding-overview",
+    "user-quotation",
+    "finding-nuance",
+    "finding-impact",
+    "design-impact",
+    "recommendations-divider",
+    "recommendation-summary",
+    "business-evolution",
+    "ux-evolution",
+    "next-steps-divider",
+    "next-actions",
+    "sprint-plan",
+    "motion-thank-you",
+    "motion-appendix",
+    "concept-performance",
+    "resources"
+  ],
+  "layout_slots": {
+    "motion-cover": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: postpartum fitness app 2024"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept testing"
+      },
+      {
+        "name": "video_01",
+        "type": "video",
+        "description": "Replace the independent 1080p muted autoplay/loop video and its embedded poster; retain the source frame, crop and opacity."
+      }
+    ],
+    "static-cover": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept testing"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: postpartum fitness app 2024"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      }
+    ],
+    "template-instructions": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: instructions"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: We created a fake product to show how concept mockups can be used throughout the deck."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: How to use this template"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: The text on the slides explains how to use them."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Images inside the mockups can be replaced directly by your own work — the outline of the mocks will remain there if you wish to use it. We designed wi"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Replace all images and videos to match your concepts. Replace all text with your own findings."
+      }
+    ],
+    "contents": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Recommendations"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Major findings"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next steps"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 03"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: "
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 02"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 04"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 01"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Name company"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept design"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: "
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Overview"
+      }
+    ],
+    "research-ask": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Name company"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: The Ask"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Explain why you did this research and what the impact of achieving your objectives will be."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      }
+    ],
+    "concepts-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design concepts"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      }
+    ],
+    "concept-overview": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: big thought"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: subsection"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This section should help you briefly introduce the work you will be presenting and how you tested it."
+      }
+    ],
+    "concept-prototypes": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concepts"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: prototypes"
+      }
+    ],
+    "concept-exploration": [
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "phone_frame_02",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_03",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concepts"
+      },
+      {
+        "name": "phone_frame_04",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_05",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Show a collage of all the different screens you designed and tested. This will demonstrate that you explored multiple different options."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "image_06",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_06",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_07",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_07",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_08",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_08",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "testing-method": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: testing"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concepts"
+      },
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: How did you test these concepts? Describe the process and mention your sample size and methodology."
+      }
+    ],
+    "findings-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Major findings"
+      }
+    ],
+    "findings-summary": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: First major finding"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: "
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: "
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 02"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 01"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 03"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Second major finding"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: key takeaways"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Third major finding"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: intro"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      }
+    ],
+    "finding-overview": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Add a couple additional sentences to add context, nuance, or a sense of priority.This section (slide 12–17) should be repeated for each major finding."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: major finding 1"
+      },
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Repeat the first major finding. Explain it in another sentence or two."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: intro"
+      }
+    ],
+    "user-quotation": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: major finding 1"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Include a quote from a tester here that captures the insight you’re trying to get across. You can insert a video clip to provide even more context."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Type of user"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: First name of user"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: “"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: quotes"
+      }
+    ],
+    "finding-nuance": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: major findinG 1"
+      },
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Use a slide like this to cover nuances within a major finding.Each bullet should ideally tie to a specific impact on the design or product strategy th"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: details"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "finding-impact": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: details"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Consider weaving in business or user goals. An example might be: If we address XYZ issues in onboarding, we'll decrease barriers to adoption and be mo"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: So what? Use this summary slide to make it clear why your audience should care about this finding."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This slide is particularly useful for stakeholders that are not involved in day-to-day product decisions and need guidance in how to make sense of the"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: major finding 1"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "design-impact": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: major findinG 1"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Use a slide like this to show the impact of the major finding on your design exploration.Reference your HMWs from previous slides, and speak to specif"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: design implications"
+      },
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      }
+    ],
+    "recommendations-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Recommendations"
+      }
+    ],
+    "recommendation-summary": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Top takeaways"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Reiterate your major findings here and explain what the product impact will be of that finding.For example, you might say, 'Beginners need short worko"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: summary"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: recommendations"
+      }
+    ],
+    "business-evolution": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_01",
+        "type": "text",
+        "description": "Native shape-derived phase number 02. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V3 vision"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_03",
+        "type": "text",
+        "description": "Native shape-derived phase number 03. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This paragraph summarizes the mid-term phase of the project or product development from the business’ perspective. It should incorporate recommendatio"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This slide summarizes the vision. This paragraph summarizes the immediate next phase from the business’ perspective. It should incorporate recommendat"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Recommendations"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Approach"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V1 vision"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V2 vision"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This paragraph summarizes the long-term phase of the project from the business’ perspective. It should incorporate recommendations that are feasible a"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_11",
+        "type": "text",
+        "description": "Native shape-derived phase number 01. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Building a magical experience"
+      }
+    ],
+    "ux-evolution": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_01",
+        "type": "text",
+        "description": "Native shape-derived phase number 02. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: A paragraph summarizing the major features available. This detail will help you speak to epics and stories in the planning phase. Frame these from the"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: How we’ll get there"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V3 UX"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Recommendations"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V2 UX"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_07",
+        "type": "text",
+        "description": "Native shape-derived phase number 01. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "phase_number_08",
+        "type": "text",
+        "description": "Native shape-derived phase number 03. Source SchnyderS Cond is proprietary; portable Bodoni Moda Bold preserves editable serif numbering."
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Approach"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Headline description of the V1 UX"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: A paragraph summarizing the new features or flows that V2 will introduce. This detail will help you remember epics and stories once you get to V2 plan"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: A paragraph summarizing the new features or flows that V3 will introduce. This detail will help you remember epics and stories once you get to V3 plan"
+      }
+    ],
+    "next-steps-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next steps"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph; retain its frame and crop."
+      }
+    ],
+    "next-actions": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 04"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: what's next"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Today: Activity or taskMonday: Activity or taskWednesday: Activity or taskThursday: Activity or task"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 02"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 03"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This paragraph should be clear about the ask of your audience, e.g., when and how to provide feedback."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: actions"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 01"
+      }
+    ],
+    "sprint-plan": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Project Completion & Handoff"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 2"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Week 0"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 4"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 2"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 5"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: V1 Wireframes"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_05",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "shape_06",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 6"
+      },
+      {
+        "name": "shape_07",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_08",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 3"
+      },
+      {
+        "name": "shape_09",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_10",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 1"
+      },
+      {
+        "name": "shape_11",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: What’s Next"
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 4"
+      },
+      {
+        "name": "shape_12",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_13",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: High Level Schedule"
+      },
+      {
+        "name": "shape_14",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 6"
+      },
+      {
+        "name": "shape_15",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: V2 Hifi Polish & Delight"
+      },
+      {
+        "name": "shape_16",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_21",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Epic or sprint theme"
+      },
+      {
+        "name": "text_22",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 3"
+      },
+      {
+        "name": "text_23",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Sprint 5"
+      },
+      {
+        "name": "text_24",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 1"
+      },
+      {
+        "name": "shape_17",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_18",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "motion-thank-you": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Thank you"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "video_01",
+        "type": "video",
+        "description": "Replace the independent 1080p muted autoplay/loop video and its embedded poster; retain the source frame, crop and opacity."
+      }
+    ],
+    "motion-appendix": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: company name"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: concept testing readout"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Appendix"
+      },
+      {
+        "name": "video_01",
+        "type": "video",
+        "description": "Replace the independent 1080p muted autoplay/loop video and its embedded poster; retain the source frame, crop and opacity."
+      }
+    ],
+    "concept-performance": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Specific examples of things that went well and were helpful overall."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Something that didn’t go so well.What else did we observe that we could take lessons from?"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Negatives"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concepts"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept performance"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent product mockup / App screen with your product image; retain its frame and crop. App typography is embedded in this separate image asset, not in the slide text."
+      },
+      {
+        "name": "phone_frame_01",
+        "type": "shape",
+        "description": "Native editable phone frame, source 758×1632: measured continuous-corner SVG paths retain the #020202 4px border, #FAFAFA fill and source alpha boundary; no raster frame remains. Preserve both paths, frame crop, and independently layered screen."
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Positives"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "resources": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: resources"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: For beautiful videos we used pexels."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Some useful resources"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: All Hands is a collection of free stock photos that you can use for mockups. There's also a Figma plugin!"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: All images in this template come from Unsplash (use the Pitch image tool to search through Unsplash!)"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 130,
+    "max_body_chars_per_slide": 1800,
+    "max_bullets": 12,
+    "max_cards": 16,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 42
+  },
+  "source_inspiration": {
+    "name": "MetaLab — Concept Testing (Pitch), complete 28-page public template",
+    "url": "https://pitch.com/templates/Concept-Testing-45azrm5DbhtR5dcJty3R9Cdh",
+    "notes": "All 28 source pages, including instructions, appendix and resources, reconstructed in their original order as static native HTML/CSS/SVG from public slide objects and measured source DOM. Product screenshots/photos are independent replaceable image slots. Thirteen plain raster phone-frame instances are rebuilt as native SVG; six small proprietary SchnyderS Cond phase numbers use editable Bodoni Moda Bold as the documented portable-font substitution; three source background videos are embedded as real 1080p offline MP4 with posters. Source resource credits are retained. This reconstruction does not require Pitch or JWPlayer runtime."
+  }
+}

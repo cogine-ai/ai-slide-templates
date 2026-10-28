@@ -1,0 +1,616 @@
+{
+  "slug": "bauhaus-form-function",
+  "name": "Bauhaus Form & Function",
+  "tagline": "A complete ten-slide Bauhaus workshop where primary geometry carries the message from principles and metrics to process, comparison and case study.",
+  "mood": [
+    "disciplined",
+    "graphic",
+    "warm",
+    "purposeful"
+  ],
+  "occasion": [
+    "design workshops",
+    "creative education",
+    "design principles",
+    "process presentations",
+    "case study presentations"
+  ],
+  "tone": [
+    "clear",
+    "geometric",
+    "confident",
+    "practical"
+  ],
+  "formality": "medium",
+  "density": "medium-low",
+  "scheme": "mixed",
+  "palette": {
+    "paper": "#F2EBDD",
+    "ink": "#151515",
+    "red": "#D93A26",
+    "blue": "#1E4FA3",
+    "yellow": "#F2B81D",
+    "muted": "#A8A29A",
+    "rule": "#3A3A3A",
+    "description": "Warm cream and near-black alternate with disciplined red, blue and yellow geometric fields."
+  },
+  "typography": {
+    "display": "Montserrat",
+    "body": "Open Sans",
+    "style": "Source-matched Montserrat regular/bold and Open Sans regular/bold embedded as WOFF. Original 800 declarations resolve against the source 700 face; uppercase tracked labels and exact tight display line heights are retained."
+  },
+  "best_for": "Design workshops, creative education, process explanations, comparisons and concise case studies that benefit from disciplined primary-color geometry.",
+  "avoid_for": "Dense financial tables, long academic reports, photographic portfolios, or content that cannot be split into short statements and compact groups.",
+  "slide_count": 10,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline_fonts": true,
+    "embedded_images": true,
+    "overview": true,
+    "print": true
+  },
+  "content_limits": {
+    "max_title_chars": 56,
+    "max_subtitle_chars": 100,
+    "max_body_chars_per_slide": 600,
+    "max_bullets": 5,
+    "max_cards": 4,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 16
+  },
+  "layouts": [
+    "geometric-cover",
+    "shape-index",
+    "rams-quotation",
+    "three-principles",
+    "grid-section-divider",
+    "modular-metrics",
+    "four-step-process",
+    "before-after-comparison",
+    "wayfinding-case-study",
+    "geometric-closing"
+  ],
+  "layout_slots": {
+    "geometric-cover": [
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Replace subtitle within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "author",
+        "type": "text",
+        "required": true,
+        "description": "Replace author within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      }
+    ],
+    "shape-index": [
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "introduction",
+        "type": "text",
+        "required": true,
+        "description": "Replace introduction within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_01_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 01 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_02_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 02 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_03_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 03 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_04_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 04 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_05_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 05 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_01_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 01 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_01_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 01 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_02_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 02 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_02_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 02 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_03_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 03 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_03_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 03 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_04_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 04 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_04_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 04 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_05_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 05 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_05_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter 05 description within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "rams-quotation": [
+      {
+        "name": "quote",
+        "type": "text",
+        "required": true,
+        "description": "Replace quote within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace attribution within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "supporting_statement",
+        "type": "text",
+        "required": true,
+        "description": "Replace supporting statement within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "three-principles": [
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "principle_01_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 01 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_02_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 02 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_03_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 03 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_01_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 01 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_01_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 01 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_02_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 02 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_02_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 02 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_03_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 03 title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "principle_03_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace principle 03 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "footer",
+        "type": "text",
+        "required": true,
+        "description": "Replace footer within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "grid-section-divider": [
+      {
+        "name": "chapter_label",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter label within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "chapter_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace chapter number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "required": true,
+        "description": "Replace description within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "modular-metrics": [
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "metric_01_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 01 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_01_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 01 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_02_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 02 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_02_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 02 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_03_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 03 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_03_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 03 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_04_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 04 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_04_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 04 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "footer",
+        "type": "text",
+        "required": true,
+        "description": "Replace footer within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "four-step-process": [
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "step_01_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace step 01 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_02_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace step 02 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_03_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace step 03 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_04_number",
+        "type": "text",
+        "required": true,
+        "description": "Replace step 04 number within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_01_content",
+        "type": "richtext",
+        "required": true,
+        "description": "Replace step 01 content within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_02_content",
+        "type": "richtext",
+        "required": true,
+        "description": "Replace step 02 content within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_03_content",
+        "type": "richtext",
+        "required": true,
+        "description": "Replace step 03 content within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "step_04_content",
+        "type": "richtext",
+        "required": true,
+        "description": "Replace step 04 content within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "footer",
+        "type": "text",
+        "required": true,
+        "description": "Replace footer within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "before-after-comparison": [
+      {
+        "name": "comparison_label",
+        "type": "text",
+        "required": true,
+        "description": "Replace comparison label within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "before_label",
+        "type": "text",
+        "required": true,
+        "description": "Replace before label within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "before_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace before title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "before_items",
+        "type": "richtext",
+        "required": true,
+        "description": "Four separate comparison rows; preserve their rules and spacing."
+      },
+      {
+        "name": "after_label",
+        "type": "text",
+        "required": true,
+        "description": "Replace after label within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "after_title",
+        "type": "text",
+        "required": true,
+        "description": "Replace after title within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "after_items",
+        "type": "richtext",
+        "required": true,
+        "description": "Four separate comparison rows; preserve their rules and spacing."
+      }
+    ],
+    "wayfinding-case-study": [
+      {
+        "name": "case_image",
+        "type": "image",
+        "required": true,
+        "description": "Independent square photograph. Replace the embedded image source while keeping the 440×440 frame and exact composition."
+      },
+      {
+        "name": "kicker",
+        "type": "text",
+        "required": true,
+        "description": "Replace kicker within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "required": true,
+        "description": "Replace description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_01_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 01 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_02_value",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 02 value within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_01_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 01 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "metric_02_description",
+        "type": "text",
+        "required": true,
+        "description": "Replace metric 02 description within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "caption",
+        "type": "text",
+        "required": true,
+        "description": "Replace caption within its fixed source frame; keep typography and geometry."
+      }
+    ],
+    "geometric-closing": [
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Preserve the original line breaks and title frame. Cover is limited to about three short words or lines."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Replace subtitle within its fixed source frame; keep typography and geometry."
+      },
+      {
+        "name": "email",
+        "type": "richtext",
+        "required": true,
+        "description": "Email label and address, preserving the two text styles."
+      },
+      {
+        "name": "website",
+        "type": "richtext",
+        "required": true,
+        "description": "Website label and address, preserving the two text styles."
+      },
+      {
+        "name": "social",
+        "type": "richtext",
+        "required": true,
+        "description": "Social label and account, preserving the two text styles."
+      }
+    ]
+  },
+  "source_inspiration": {
+    "name": "Form & function — Slides team",
+    "url": "https://slides.com/official-templates/form",
+    "notes": "All ten public pages rebuilt as native positioned HTML text, original SVG geometry and one independently replaceable square photograph. Preserves the observed 1280×720 canvas, source block coordinates, palette, Montserrat/Open Sans WOFF font faces and typography. Original example content, page order and the case-study photograph composition are retained. Includes independent keyboard/button/hash/touch navigation and overview; no dependency on the source presentation runtime. Example metrics are demonstration content, not independently verified research."
+  }
+}
