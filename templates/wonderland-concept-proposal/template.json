@@ -1,0 +1,2515 @@
+{
+  "slug": "wonderland-concept-proposal",
+  "name": "Wonderland Concept Proposal",
+  "tagline": "A complete 26-slide dark concept proposal with Lunchtype 22 headlines, Junicode italics, tiny Optician Sans navigation, cinematic imagery and native design-planning diagrams.",
+  "mood": [
+    "confident",
+    "editorial",
+    "cinematic",
+    "precise"
+  ],
+  "occasion": [
+    "design concept proposal",
+    "brand strategy",
+    "digital design review",
+    "creative client presentation"
+  ],
+  "tone": [
+    "expressive",
+    "considered",
+    "polished",
+    "design-led"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "description": "Near-black canvas with warm white typography, mustard and charcoal concept color swatches, and iridescent 3D artwork.",
+    "background": "#100D0E",
+    "ink": "#E5E5E5",
+    "mustard": "#F3A931",
+    "paper": "#FCFAF4",
+    "grey": "#969696",
+    "charcoal": "#2A2B2C"
+  },
+  "typography": {
+    "display": "Lunchtype 22",
+    "body": "Lunchtype 22",
+    "style": "Source fonts embedded unchanged: Lunchtype 22 Light 300, Regular 400 and Medium 500; Junicode Italic 400 for section labels; Optician Sans for 16px navigation/captions. Original 1920 × 1080 text frames, weights, line heights and letter spacing are preserved."
+  },
+  "scheme": "dark",
+  "best_for": "Complete design proposals connecting the client brief and research to competitor analysis, information architecture, creative concept, color, typography, photography, next steps and delivery timeline.",
+  "avoid_for": "Dense financial dashboards, casual classroom handouts, or decks without high-quality independent photography/product imagery. Keep tiny chrome and the fixed composition within each layout’s source capacity.",
+  "slide_count": 26,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "offline": true,
+    "editable_text": true,
+    "native_svg": true,
+    "embedded_unique_images": 37,
+    "interface_screenshot_slots": 3,
+    "source_order_preserved": true
+  },
+  "layouts": [
+    "iridescent-cover",
+    "client-context",
+    "concept-contents",
+    "four-phase-process",
+    "focused-process",
+    "design-direction",
+    "company-values",
+    "initial-brief",
+    "competitor-comparison",
+    "competitor-one-divider",
+    "competitor-one-analysis",
+    "competitor-two-divider",
+    "competitor-two-analysis",
+    "editorial-quote",
+    "information-architecture",
+    "creative-concept",
+    "look-and-feel",
+    "color-palette",
+    "typography-specimen",
+    "typography-in-use",
+    "responsive-design",
+    "photography-board",
+    "next-steps-divider",
+    "next-steps",
+    "project-timeline",
+    "contact"
+  ],
+  "layout_slots": {
+    "iridescent-cover": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept proposal"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: by wonderland, BRAND EXPERIENCE, DIGITAL DESIGN, CONTENT PRODUCTION, TECHNOLOGYest. 2014 in amsterdam, NETHERLANDSwonderlandams.com"
+      }
+    ],
+    "client-context": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Tell your audience about your company here. What is your specialty? What makes you stand out among similar brands?"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Say hello to your audience and tell them what you'll cover in today's presentation. Give everyone some background on the work you've done and explain "
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: person@client.comanotherperson@client.com"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: person@yourcompany.comanotherperson@yourcompany.com"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Your company"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Client"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 01"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Contact"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Include a brief description of the client's company here. What do they do and what is their vision and mission?"
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Contact"
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_21",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      }
+    ],
+    "concept-contents": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 02"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: ProcessBriefResearchIAConceptDesignNext stepsTimeline"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      }
+    ],
+    "four-phase-process": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 03"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Develop"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Discover"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Iterate"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      }
+    ],
+    "focused-process": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 04"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Develop"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Iterate"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Discover"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      }
+    ],
+    "design-direction": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Expand on your design ideas here. Share your design process and explain which visual direction you chose and why. What did you use to inform the decis"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Phase 2: Design"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Use this slide to highlight which visual direction you've decided to go with and why."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 05"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      }
+    ],
+    "company-values": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: FriendlyOpenStrategicBold"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 06"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Company values"
+      }
+    ],
+    "initial-brief": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Describe the initial brief here. What does the concept stand for? How does it work together with the client's brand identity and their values?"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 07"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: This is the place for you to share your approach and introduce the initial brief."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Initial brief & approach"
+      }
+    ],
+    "competitor-comparison": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 08"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Give the client some background on the research you've done. How did you do it? What did the competitor analysis comprise?Share your findings and expl"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Your competition"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Craft Interiors"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Cement Design"
+      }
+    ],
+    "competitor-one-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Cement Design"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 09"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      }
+    ],
+    "competitor-one-analysis": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 10"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Cement Design"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: What they do well: Include an overview of the competitor's strengths here. What can you and the client learn from this brand?What they don’t do well: "
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      }
+    ],
+    "competitor-two-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 11"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: CraftInteriors"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      }
+    ],
+    "competitor-two-analysis": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 12"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: What they do well: Include an overview of the competitor's strengths here. What can you and the client learn from this brand?What they don’t do well: "
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "image_06",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Craft Interiors"
+      }
+    ],
+    "editorial-quote": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 13"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: — Jules Renard"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: “Style is to forget all styles.”"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      }
+    ],
+    "information-architecture": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Search"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Jobs"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Home"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Works"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 14"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Website structure & layout"
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Contact"
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      },
+      {
+        "name": "text_21",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      },
+      {
+        "name": "text_22",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_23",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_05",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_06",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_24",
+        "type": "text",
+        "description": "Replace this source text within its original frame: About"
+      },
+      {
+        "name": "text_25",
+        "type": "text",
+        "description": "Replace this source text within its original frame: HeaderContentImageFeatured picksSuggested for youSocialsFooter"
+      }
+    ],
+    "creative-concept": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduce your creative ideas here and provide some background on the logic behind them."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: The concept"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 15"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Outline an overview of the client's business here and explain how their business model ties in with the design concept. Assure your client that you kn"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      }
+    ],
+    "look-and-feel": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Look & feel"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 16"
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Talk about the look and feel you'd like to go for with the design and highlight how it will work together with the brand's identity."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      }
+    ],
+    "color-palette": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Friendly"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Color palette"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Strategic"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Mustard YellowHex F3A931R 254G 230B 74"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Bold"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Open"
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Space greyHex 969696R 150G 150B 150"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Mustard YellowHex FCFAF4R 252G 250B 244"
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: CharcoalHex 2A2B2CR 42G 43B 44"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "shape_05",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "typography-specimen": [
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 18"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Lunchtype22 Regular"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Talk about the typography here. Include examples of every font and explain what it is intended for."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Subtitle"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Clean but sophisticated"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Typography"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Talk about the typography here. Include examples of every font and explain what it is intended for."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Lunchtype22 Regular"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Talk about the typography here. Include examples of every font and explain what it is intended for."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 123"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: ABC"
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_21",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Body"
+      },
+      {
+        "name": "text_22",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Junicoe Italic"
+      },
+      {
+        "name": "text_23",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Caption"
+      },
+      {
+        "name": "text_24",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_25",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_26",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Optician Sans"
+      },
+      {
+        "name": "text_27",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Header"
+      }
+    ],
+    "typography-in-use": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Typography in use"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent website mockup screenshot with your product screenshot; retain its frame and crop. Text inside the screenshot is image content."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      }
+    ],
+    "responsive-design": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace this independent website mockup screenshot with your product screenshot; retain its frame and crop. Text inside the screenshot is image content."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace this independent website mockup screenshot with your product screenshot; retain its frame and crop. Text inside the screenshot is image content."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 20"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      }
+    ],
+    "photography-board": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Photography"
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "image_06",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      }
+    ],
+    "next-steps-divider": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: What’s next?"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 22"
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      }
+    ],
+    "next-steps": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Outline the next steps here. Do you need to get signoff from the client's team to proceed? What will you start working on after you get their feedback"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next steps"
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 23"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: What needs to happen for you to be able to move on with the project?"
+      }
+    ],
+    "project-timeline": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: June"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      },
+      {
+        "name": "shape_01",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Review with the client"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Design"
+      },
+      {
+        "name": "shape_02",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_03",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Timeline"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Process"
+      },
+      {
+        "name": "shape_04",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_05",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brief"
+      },
+      {
+        "name": "shape_06",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_07",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_08",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace this source text within its original frame: IA"
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace this source text within its original frame: May"
+      },
+      {
+        "name": "shape_09",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace this source text within its original frame: April"
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Concept"
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Research"
+      },
+      {
+        "name": "shape_10",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_11",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Introduction"
+      },
+      {
+        "name": "text_16",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Visual brand and exploration"
+      },
+      {
+        "name": "shape_12",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_17",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Brand Guidelines"
+      },
+      {
+        "name": "shape_13",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_18",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Next Steps"
+      },
+      {
+        "name": "shape_14",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "shape_15",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_19",
+        "type": "text",
+        "description": "Replace this source text within its original frame: DiscoverY"
+      },
+      {
+        "name": "shape_16",
+        "type": "shape",
+        "description": "Native SVG geometry. Keep dimensions; update its fill or stroke for a deliberate content change."
+      },
+      {
+        "name": "text_20",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 24"
+      }
+    ],
+    "contact": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Replace the independent photograph / 3D rendering; retain its frame and crop."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Page 25"
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace this source text within its original frame: NEWBIZ.AMS@WONDERLANDAMS.COMNEWBIZ.LA@WONDERLANDAMS.COM"
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Contact"
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace this source text within its original frame: EERSTE PASSEERDERSDWARSSTRAAT 741016 XD AMSTERDAM+3120 304 8787HELLO@WONDERLANDAMS.COM"
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace this source text within its original frame: YOUR COMPANY x CLIENT"
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace this source text within its original frame: New business Ams & LA"
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace this source text within its original frame: Thank youLet’s create magic together"
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace this source text within its original frame: 24 April 2024"
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 180,
+    "max_body_chars_per_slide": 1400,
+    "max_bullets": 12,
+    "max_cards": 6,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "Wonderland — Concept Proposal (Pitch), complete 26-page public template",
+    "url": "https://pitch.com/templates/Concept-Proposal-00fCwy2fiSrK5PCZ9W4y1H8J",
+    "notes": "All 26 source pages rebuilt as static native HTML/CSS/SVG using public slide objects and measured source DOM. Source artwork and photographs are independent embedded image slots, losslessly re-encoded to WebP. The three source website mockups on slides 20–21 remain independent replaceable interface screenshot slots; the surrounding slide text, frames and native diagrams remain editable. This is a visual reconstruction, not the original editable Pitch file. Font license notices are embedded in HTML source."
+  }
+}

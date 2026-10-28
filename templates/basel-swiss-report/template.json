@@ -1,0 +1,513 @@
+{
+  "slug": "basel-swiss-report",
+  "name": "Basel Swiss Report",
+  "tagline": "An eight-slide Swiss report system with large Helvetica type, a precise grid, white and black pages, and a single red accent.",
+  "mood": [
+    "clear",
+    "confident",
+    "restrained",
+    "ordered"
+  ],
+  "occasion": [
+    "studio annual report",
+    "business review",
+    "executive update",
+    "project highlights",
+    "team overview"
+  ],
+  "tone": [
+    "Swiss",
+    "typographic",
+    "precise",
+    "measured"
+  ],
+  "formality": "high",
+  "density": "medium",
+  "palette": {
+    "red": "#E4202A",
+    "ink": "#111111",
+    "paper": "#F4F4F1",
+    "white": "#FFFFFF",
+    "grid": "#DEDED8",
+    "description": "Source-matched Swiss red, near-black and paper white, with pale grid rules, gray metadata and a blue browser-style progress indicator."
+  },
+  "typography": {
+    "display": "Helvetica, Arial, sans-serif",
+    "body": "Helvetica, Arial, sans-serif",
+    "style": "Source system font stack preserved. Bold grotesque display at 51–360 px on a 1280 × 720 canvas, negative letter spacing, restrained 12–30 px body and metadata, and measured frame-aligned typography. Exact system glyph rendering depends on the platform."
+  },
+  "scheme": "mixed",
+  "best_for": "Swiss-style studio reports, annual summaries, clear executive updates, project highlights, quantitative reviews and team presentations with concise copy.",
+  "avoid_for": "Photographic brand stories, long academic reports, dense operating dashboards or playful illustrated workshops.",
+  "slide_count": 8,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "source_preview_slides": 8,
+    "editable_html_text": true,
+    "native_svg_charts": true,
+    "offline": true,
+    "hash_navigation": true
+  },
+  "layouts": [
+    "grid-report-cover",
+    "six-section-contents",
+    "dark-principle-statement",
+    "hero-retention-metric",
+    "three-project-highlights",
+    "quarterly-revenue-chart",
+    "four-person-initials",
+    "red-grid-contact"
+  ],
+  "layout_slots": {
+    "grid-report-cover": [
+      {
+        "name": "report-number",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “27”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "issue-and-series",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “No. 04Studio Report”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Studio Report”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "summary",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “A year of work, in numbers, projects and people.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "author",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Slide Templates”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "location",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Zürichand online”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "publication-date",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “PublishedSeptember 2026”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      }
+    ],
+    "six-section-contents": [
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Contents”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "summary",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Six sections covering the projects, numbers and people behind the studio’s fourth year.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “01Introduction03”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “02The year in one number04”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “03Highlights05”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-4",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “04Revenue06”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-5",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “05People07”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contents-row-6",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “06Contact08”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      }
+    ],
+    "dark-principle-statement": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “01 — Introduction”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Clarity is a formof respect.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Everything we make starts from one question: what does the reader need, and what can we take away?”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "report-footer",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Studio Report 2026”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "page-number",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated slide number. The local runtime derives this from DOM order; retain the measured font, right alignment and frame geometry."
+      }
+    ],
+    "hero-retention-metric": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “02 — The year in one number”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "hero-metric",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “84%”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "metric-context",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Retentionof 2025 clients came back for a second project this year.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "stat-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Projects46”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "stat-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Countries11”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "stat-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “People18”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "stat-4",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Awards3”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "page-number",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated slide number. The local runtime derives this from DOM order; retain the measured font, right alignment and frame geometry."
+      }
+    ],
+    "three-project-highlights": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “03 — Highlights”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Three projects thatdefined the year”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-number-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “01”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-number-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “02”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-number-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “03”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "report-footer",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Studio Report 2026”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "page-number",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated slide number. The local runtime derives this from DOM order; retain the measured font, right alignment and frame geometry."
+      },
+      {
+        "name": "project-title-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “City Transit Signage”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-body-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “A single typeface and pictogram set for 212 stations, replacing four legacy systems.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-title-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Museum Identity”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-body-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “A flexible grid-based identity that adapts to every exhibition without losing itself.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-title-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Annual Report System”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "project-body-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Templates that let a two-person team publish a 90-page report in a week.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      }
+    ],
+    "quarterly-revenue-chart": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “04 — Revenue”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Two years, quarter by quarter”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "report-footer",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Studio Report 2026 · Revenue in CHF millions”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "page-number",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated slide number. The local runtime derives this from DOM order; retain the measured font, right alignment and frame geometry."
+      },
+      {
+        "name": "change-metric",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “+38%”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "commentary",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Q3 2026 was our strongest quarter on record, led by two identity projects.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "revenue-chart",
+        "type": "chart",
+        "required": true,
+        "description": "Editable native SVG column chart. Update data-chart-data columns and rows on the native-revenue-chart element; data-axis-max controls the shared scale (4 in the source). Preserve the 720×540 frame and separate red Q3 highlight."
+      }
+    ],
+    "four-person-initials": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “05 — People”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “The people behind it”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "initials-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “AK”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "initials-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “JM”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "initials-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “LB”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "initials-4",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “TR”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "name-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Anna Keller”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "name-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Jonas Meier”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "name-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Lea Brunner”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "name-4",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Tomás Ruiz”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "report-footer",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Studio Report 2026”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "page-number",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated slide number. The local runtime derives this from DOM order; retain the measured font, right alignment and frame geometry."
+      },
+      {
+        "name": "role-1",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Creative DirectorSince 2022”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "role-2",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Design LeadSince 2023”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "role-3",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “StrategySince 2024”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "role-4",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “EngineeringSince 2025”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      }
+    ],
+    "red-grid-contact": [
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “06 — Contact”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Thankyou.”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contact-email",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Emailhello@example.com”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contact-web",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “Webexample.com”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      },
+      {
+        "name": "contact-address",
+        "type": "text",
+        "required": true,
+        "description": "Native measured text frame, currently “StudioHardturmstrasse 1, Zürich”. Preserve nested emphasis, explicit line breaks, inline scale and frame geometry when replacing copy."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 110,
+    "max_body_chars_per_slide": 650,
+    "max_bullets": 6,
+    "max_cards": 4,
+    "recommended_slide_count_min": 6,
+    "recommended_slide_count_max": 16
+  },
+  "source_inspiration": {
+    "name": "Basel by the Slides official template team",
+    "url": "https://slides.com/official-templates/basel",
+    "notes": "All eight publicly visible pages are reconstructed with native editable HTML text, SVG shapes, rules and a native SVG quarterly column chart. The source 1280×720 frame coordinates, Helvetica/Arial system stack, original slide order, palette, text sizes and nested typography are preserved. Source placeholders are resolved as in the public player. The deck is self-contained and offline, with independent navigation, hash state, controls, progress and keyboard guards; it contains no full-slide screenshots or source site runtime. System glyph rendering may differ on platforms without Helvetica."
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "slug": "lumen-keynote",
+  "name": "Lumen Keynote",
+  "tagline": "A complete 14-slide monochrome keynote with huge Montserrat typography, embedded source fonts and deliberate gray-level hierarchy.",
+  "mood": [
+    "focused",
+    "quiet",
+    "confident",
+    "dramatic"
+  ],
+  "occasion": [
+    "product keynote",
+    "feature launch",
+    "founder presentation",
+    "technology announcement",
+    "main-stage talk"
+  ],
+  "tone": [
+    "minimal",
+    "bold",
+    "precise",
+    "restrained"
+  ],
+  "formality": "medium-high",
+  "density": "low",
+  "palette": {
+    "background": "#0A0A0B",
+    "white": "#F5F5F2",
+    "body": "#A1A09B",
+    "muted": "#5C5C59",
+    "quiet": "#454543",
+    "mid": "#8A8A86",
+    "rules": "#2A2A2A",
+    "description": "Exact source near-black background and near-white display text, with distinct warm gray levels for secondary meaning, fine rules and chapter numerals; blue is restricted to the original browser-style progress indicator."
+  },
+  "typography": {
+    "display": "Montserrat",
+    "body": "Open Sans",
+    "style": "Exact source static WOFF 400 and 700 faces embedded for both families, with source CSS weight requests (including 500/600/900 matching) retained. Oversized 114–375 px display frames, tightly measured negative letter spacing and 13.5 px counters on a 1280 × 720 canvas. Montserrat OFL and Open Sans Apache 2.0 license texts are embedded."
+  },
+  "scheme": "dark",
+  "best_for": "Low-density product launches, software keynotes, single-message leadership talks and founder narratives that use very large typography, focused comparison, metrics, roadmaps and pricing.",
+  "avoid_for": "Dense research reports, complex data tables, illustrated classroom materials or presentations that need many paragraphs on each slide.",
+  "slide_count": 14,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "source_preview_slides": 14,
+    "editable_html_text": true,
+    "native_svg_shapes": true,
+    "embedded_fonts": true,
+    "embedded_font_licenses": true,
+    "offline": true,
+    "hash_navigation": true,
+    "stabilized_arrow_symbol": true
+  },
+  "layouts": [
+    "oversized-keynote-cover",
+    "four-topic-agenda",
+    "bright-muted-thesis",
+    "giant-chapter-number",
+    "hero-time-metric",
+    "three-value-stack",
+    "product-principle-quote",
+    "feature-and-three-benefits",
+    "before-after-app-count",
+    "four-metric-crosshair",
+    "four-quarter-roadmap",
+    "circular-availability",
+    "three-tier-pricing",
+    "oversized-keynote-contact"
+  ],
+  "layout_slots": {
+    "oversized-keynote-cover": [
+      {
+        "name": "event-and-date",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “KEYNOTE · SEPTEMBER 2026”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “The quietest workspace we’ve ever made.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "presenter",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “by Slide Templates”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Lumen”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      }
+    ],
+    "four-topic-agenda": [
+      {
+        "name": "agenda-row-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “01Why now”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “AGENDA”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "agenda-row-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “02What’s new”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "agenda-row-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “03In numbers”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "agenda-row-4",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “04Availability”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      }
+    ],
+    "bright-muted-thesis": [
+      {
+        "name": "primary-statement",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Less noise.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "secondary-statement",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “More signal.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "giant-chapter-number": [
+      {
+        "name": "chapter-number",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “01”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “CHAPTER ONE”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Why now”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "hero-time-metric": [
+      {
+        "name": "metric-caption",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “lost every day switching between apps.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      },
+      {
+        "name": "hero-metric",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “3.2h”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      }
+    ],
+    "three-value-stack": [
+      {
+        "name": "values-stack",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Fast. Private. Yours.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "product-principle-quote": [
+      {
+        "name": "quotation-mark",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently ““”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "quote",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “We didn’t add features. We removed reasons to leave.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "attribution",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “ANA ORTIZ HEAD OF PRODUCT, LUMEN”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "feature-and-three-benefits": [
+      {
+        "name": "feature-name",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Focus”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      },
+      {
+        "name": "feature-description",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “One mode that hides everything but the work in front of you.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "benefit-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “No badges”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "benefit-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “No feeds”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "benefit-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “No guilt”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “NEW IN LUMEN 3”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      }
+    ],
+    "before-after-app-count": [
+      {
+        "name": "before-value",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “12”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "comparison-arrow",
+        "type": "svg",
+        "required": true,
+        "description": "Native thin right-arrow SVG retaining the source 200 × 219.53125 frame and gray. This one decorative symbol is traced from the public source because its U+2192 fallback glyph varies by renderer and is absent from the four embedded source WOFFs. Preserve aria-label → and edit only the vector path if a different comparison connector is required."
+      },
+      {
+        "name": "after-value",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “1”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "before-caption",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “apps open in a typical workday”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "after-caption",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “is all you need with Lumen 3”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "four-metric-crosshair": [
+      {
+        "name": "metric-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “40%”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “2×”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “0”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-4",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “1M+”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “IN NUMBERS”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-caption-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “faster search”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-caption-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “battery life on laptops”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-caption-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “ads, trackers or pop-ups”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "metric-caption-4",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “people on the public beta”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "four-quarter-roadmap": [
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Roadmap”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "quarter-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Q1”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "quarter-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Q2”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "quarter-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Q3”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "quarter-4",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Q4”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "milestone-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Private beta20,000 invites”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "milestone-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Public betaOpen to everyone”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "milestone-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “LaunchDesktop and web”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "milestone-4",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “MobileiOS and Android”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "circular-availability": [
+      {
+        "name": "availability-message",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Availabletoday.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "three-tier-pricing": [
+      {
+        "name": "price-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “$0”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "description-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Everything you need for personal work, on one device.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "price-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “$8”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "description-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Sync across every device, plus Focus mode and unlimited history.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "price-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “$20”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "description-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Shared spaces, admin controls and priority support. Per person, per month.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “PRICING”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "plan-name-1",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “FREE”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "plan-name-2",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “PLUS”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "plan-name-3",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “TEAM”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "featured-label",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “MOST POPULAR”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "page-counter",
+        "type": "text",
+        "required": true,
+        "description": "Automatically updated padded current page and total, e.g. 03 / 14. Preserve source font, right alignment, gray and frame; local runtime derives values from DOM order."
+      }
+    ],
+    "oversized-keynote-contact": [
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “Thankyou.”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      },
+      {
+        "name": "contact-details",
+        "type": "text",
+        "required": true,
+        "description": "Native source-positioned HTML frame, currently “lumen.example@lumenpress@lumen.example”. Preserve frame geometry, nested emphasis, explicit line breaks, gray levels, font matching and letter spacing when replacing text."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 40,
+    "max_subtitle_chars": 90,
+    "max_body_chars_per_slide": 380,
+    "max_bullets": 3,
+    "max_cards": 4,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 20
+  },
+  "source_inspiration": {
+    "name": "Lumen by the Slides official template team",
+    "url": "https://slides.com/official-templates/lumen",
+    "notes": "Complete fourteen-page reconstruction of the public source with native HTML text and inline SVG geometry, preserving the source 1280×720 positions, all content, gray hierarchy, original Montserrat/Open Sans static font files, exact CSS size/weight/line-height/letter-spacing and slide sequence. Font licenses are embedded. One decorative U+2192 symbol on slide 9 is independently traced as native SVG in its original frame and gray, since the original WOFFs omit it and cross-engine fallback produces a different solid-arrow glyph; all other text and typography remain native and unchanged. Source page variables are resolved and a minimal independent runtime supplies controls, guarded keyboard navigation, hash state, counters and progress. No full-slide screenshots, image assets, source site runtime or network dependencies are included."
+  }
+}

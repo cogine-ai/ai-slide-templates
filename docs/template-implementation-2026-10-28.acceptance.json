@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-28",
+  "status": "technically-reviewed",
+  "totalPagesReviewed": 110,
+  "libraryAdditions": {
+    "templates": 5,
+    "pages": 86,
+    "rows": [
+      {
+        "source": "basel",
+        "slug": "basel-swiss-report",
+        "pages": 8,
+        "status": "accepted",
+        "htmlSha256": "0bab35ccac57a9f92ae7b009ec164ccca3b77a222758e81dbac3f458cac339ee",
+        "metadataSha256": "2fcb4fbe8d88dfcf703ca4678e2d86137c8fd0e8d936b9ba1ff1eb9a078200ec",
+        "rawIndependentMismatchCount": 0,
+        "documentedExceptions": [],
+        "maxTextFrameGeometryDeltaNativePixels": 0,
+        "brokenImages": 0,
+        "textOverflow": 0,
+        "externalRequests": 0,
+        "consoleErrors": 0,
+        "sourceEvidence": "basel/source-dom-NN.json",
+        "comparisonEvidence": "basel/",
+        "independentEvidence": "basel/independent/summary.json",
+        "initialVisualAcceptanceHtmlSha256": "f6fb9aa0e228f10339a87acb5fcecd1bf6b107be64150f5606a30f54794970b0",
+        "beforeReviewCommentFixesHtmlSha256": "d94101bad59745d10dc067c877e2dd1c7f3704b1ff28465cb090acc0b0801917"
+      },
+      {
+        "source": "form",
+        "slug": "bauhaus-form-function",
+        "pages": 10,
+        "status": "accepted",
+        "htmlSha256": "5baf0a516bedb968a2d81fd4392f952d62799836829d977b3e868b30e70b19e2",
+        "metadataSha256": "ee19031fd16d90aac594228042d332cabb8594ab8d26b18394bf038cddee9cbe",
+        "rawIndependentMismatchCount": 0,
+        "documentedExceptions": [],
+        "maxTextFrameGeometryDeltaNativePixels": 0,
+        "brokenImages": 0,
+        "textOverflow": 0,
+        "externalRequests": 0,
+        "consoleErrors": 0,
+        "sourceEvidence": "form/source-dom-NN.json",
+        "comparisonEvidence": "form/",
+        "independentEvidence": "form/independent/summary.json",
+        "initialVisualAcceptanceHtmlSha256": "1536948ea3e0d49edf145def52c6547bae4f61c1adccb2de56f71760b2efc84d",
+        "beforeReviewCommentFixesMetadataSha256": "c9dc62ff22b5f0bbe817bbc8f51de90149e01adc67a782feda8f547e3b3520ff"
+      },
+      {
+        "source": "wonderland",
+        "slug": "wonderland-concept-proposal",
+        "pages": 26,
+        "status": "accepted",
+        "htmlSha256": "af6ba89630127adc3ab95b45c875cf28329f6f6580706f64f08b32af73717751",
+        "metadataSha256": "c09536a4a4b1087aa75704838b7cee6a95db8b2542f94575dd35a2b3f78ffa0f",
+        "rawIndependentMismatchCount": 0,
+        "documentedExceptions": [],
+        "maxTextFrameGeometryDeltaNativePixels": 0.01569811368091223,
+        "brokenImages": 0,
+        "textOverflow": 0,
+        "externalRequests": 0,
+        "consoleErrors": 0,
+        "sourceEvidence": "wonderland/source-dom-NN.json",
+        "comparisonEvidence": "wonderland/",
+        "independentEvidence": "wonderland/independent/summary.json",
+        "initialVisualAcceptanceHtmlSha256": "fc9fc5bc8a29b1afd7e1e9b1b1774571545c2961afff520f1f919a47386a940e"
+      },
+      {
+        "source": "lumen",
+        "slug": "lumen-keynote",
+        "pages": 14,
+        "status": "accepted-with-documented-exceptions",
+        "htmlSha256": "34e163c8ed73c1df9953d7b64b9b4316cb5d408dee95f40a0306e0591dc06bcc",
+        "metadataSha256": "4bad080297ed7eceb01ca3348731d2c29226a7ef2310ed98ab1f7da51634c324",
+        "rawIndependentMismatchCount": 1,
+        "documentedExceptions": [
+          "Page 9 single decorative arrow intentionally converted from fallback-font H3 to native SVG; all 66 remaining text frames match."
+        ],
+        "maxTextFrameGeometryDeltaNativePixels": 0,
+        "brokenImages": 0,
+        "textOverflow": 0,
+        "externalRequests": 0,
+        "consoleErrors": 0,
+        "sourceEvidence": "lumen/source-dom-NN.json",
+        "comparisonEvidence": "lumen/",
+        "independentEvidence": "lumen/independent/summary.json",
+        "initialVisualAcceptanceHtmlSha256": "cfc1700a13cac2e384c620c6f9ec542903f86573b91ec3b8bb4f62217d1bdaa1"
+      },
+      {
+        "source": "metalab",
+        "slug": "metalab-concept-testing",
+        "pages": 28,
+        "status": "accepted-with-documented-exceptions",
+        "htmlSha256": "303df18f49bd8be95072e310ee3c6cb97d191023470a2c895e839cc1ce33fd68",
+        "metadataSha256": "86a8cc1d0ebc628fd395c256b4c1ff5bc7a17370aec94473f38088ab17d62bcb",
+        "rawIndependentMismatchCount": 6,
+        "documentedExceptions": [
+          "Six labels on pages 20/21 use OFL Bodoni Moda in place of commercial SchnyderS Cond; 157 text frames and source layout preserved."
+        ],
+        "maxTextFrameGeometryDeltaNativePixels": 0.01573769338784814,
+        "brokenImages": 0,
+        "textOverflow": 0,
+        "externalRequests": 0,
+        "consoleErrors": 0,
+        "sourceEvidence": "metalab/source-dom-NN.json",
+        "comparisonEvidence": "metalab/",
+        "independentEvidence": "metalab/independent/summary.json",
+        "initialVisualAcceptanceHtmlSha256": "3c3abdf18f9a039288b7c2800901d93413c3b815475ae885d3a1b9b5b63c4824",
+        "beforeReviewCommentFixesHtmlSha256": "0ac0a3a7393faf3733ba17c2f74066f30e0db49b151de23718105a1ea190533b",
+        "beforeReviewCommentFixesMetadataSha256": "e7dbf2a471f47fa41e22d43fa3ce12a4f01ee6085f964d9b59d6951e020b5890"
+      }
+    ]
+  },
+  "restrictedStudies": [
+    {
+      "slug": "dither-engineering-review",
+      "pages": 24,
+      "status": "local-reference-accepted-excluded-from-library",
+      "htmlSha256": "594d171ec6e5d0e5b710803f92599e669fd360027eed699194010c04d6ba2ab7",
+      "metadataSha256": "6050deb7529db53d755e807054f5042666d93f7dbd55e7fe1e3da83769617868",
+      "sourceEvidence": "24 official 1280x720 WebP previews; source editable DOM or PPTX not available",
+      "qualityBoundary": "Visual reconstruction checked page by page, no claim of source-DOM equality",
+      "restriction": "Official license prohibits standalone template redistribution and preview stock photos are not included in downloads",
+      "license": "https://ppt-design.com/license",
+      "path": "outputs/restricted-template-studies/dither-engineering-review",
+      "runtimeEvidence": "dither/verification.json",
+      "visualEvidence": "dither/compare-NN-NN.png",
+      "independentReview": "dither/notes.md",
+      "cuaEvidence": "dither/root-cua-proof.json"
+    }
+  ],
+  "libraryTotal": {
+    "templates": 68,
+    "demoPages": 825
+  },
+  "scope": "Verified branch payload. Git history and the pull request record shipping state. Dither remains a local-only excluded study; source design and media redistribution rights have not been fully confirmed.",
+  "sourceColorPolicy": "Exact source DOM/CSS values take precedence over JPEG screenshot color conversions.",
+  "testEvidence": {
+    "structuralValidation": {
+      "command": "node scripts/validate.mjs",
+      "outcome": "68 templates passed"
+    },
+    "toolTests": {
+      "command": "node --test scripts/*.test.mjs",
+      "outcome": "23 passed; 0 failed"
+    },
+    "visualValidation": {
+      "command": "node scripts/validate-visual.mjs --template basel-swiss-report --template bauhaus-form-function --template wonderland-concept-proposal --template metalab-concept-testing --template lumen-keynote",
+      "outcome": "5 templates passed at 1280x720; Form and MetaLab repeated after fixes"
+    },
+    "regressions": {
+      "command": "node previews/implementation-2026-10-28/ship-regressions.mjs",
+      "outcome": "7 checks passed: ten-page print from two entry modes and SVG references/unique IDs in all five templates; no external requests or page errors",
+      "scriptScope": "Local temporary verification helper; not included in the repository"
+    },
+    "metaLabClipSemantics": {
+      "evidence": "metalab/clip-path-fix/verification.json",
+      "outcome": "107 affected SVG nodes match source semantics"
+    },
+    "cuaProof": "Initial page-by-page visual review plus corrected MetaLab screenshots. Original pre-fix CUA captures retained separately."
+  },
+  "localEvidenceRoot": "previews/implementation-2026-10-28/",
+  "localEvidenceIncludedInRepository": false,
+  "sourceNotices": "docs/template-source-notices-2026-10-28.md",
+  "selfReview": {
+    "base": "cd114b07eb3e98c54f5aec3eeb6661a193e27f25",
+    "blockersFixed": [
+      "Corrected seven stale CSS clip-path references in MetaLab pages 20, 21 and 24; original source bindings and 107 SVG nodes verified.",
+      "Reset Form overview slide transforms and outlines during printing; both normal and overview entry paths produce ten full-size pages.",
+      "Replaced ignored workspace and localhost hyperlinks in public documentation with explicitly local-only paths."
+    ],
+    "remainingRisks": [
+      "Source presentation designs and all third-party media are not independently cleared for standalone template redistribution; detailed attribution and limitations in sourceNotices.",
+      "MetaLab six-label font substitution, Lumen SVG arrow and Basel platform-system-font behavior are documented."
+    ],
+    "nonRenderingCleanup": "Removed trailing whitespace from inert font license text and one blank indentation-only line; non-rendered-payload equality checked."
+  },
+  "reviewCommentFollowup": {
+    "baseCommit": "18fc2c5bfcaacca5492e24456e8524d91d553825",
+    "findingsValidated": 3,
+    "findingsFixed": 3,
+    "findingsSkipped": 0,
+    "changes": [
+      "Basel navigation buttons retain native Space/Enter activation while allowing eight slide navigation keys; other interactive targets keep the existing filtering.",
+      "Removed only the incorrect cover-capacity sentence from seven Form non-cover title descriptions.",
+      "Renamed six MetaLab phase slots to v1/v2/v3 according to displayed stages, synchronizing metadata and HTML without changing text or layout."
+    ],
+    "verification": {
+      "focusedRuntimeAndMetadataChecks": 25,
+      "otherInteractiveKeyCases": 50,
+      "command": "node previews/implementation-2026-10-28/review-comment-checks.mjs",
+      "structuralValidation": "68 templates passed",
+      "toolTests": "23 passed, 0 failed",
+      "visualValidation": "Basel and MetaLab passed at 1280x720",
+      "visibleContentUnchanged": "Basel visual HTML/CSS identical; MetaLab HTML identical after normalizing the six data-slot names."
+    },
+    "optionalLocalCodeRabbit": "Installed CLI does not support --agent; supported plain-text uncommitted review was attempted, then stopped after over three minutes at Connecting to review service with no review findings returned."
+  }
+}
