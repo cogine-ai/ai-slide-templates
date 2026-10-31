@@ -91,7 +91,7 @@
         "name": "cover-title",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Ari Davis / makes room / for good ideas.. Keep the measured 1390px frame, 163px type and wrapping capacity; about 36 characters in this example."
+        "description": "Native display text. Current demo: Ari Davis / makes room / for good ideas. Keep the measured 1390px frame, 163px type and wrapping capacity; about 36 characters in this example."
       },
       {
         "name": "cover-ribbon",
@@ -103,7 +103,7 @@
         "name": "cover-subtitle",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A creative practice for clear, human communication.. Keep the measured 1440px frame, 35px type and wrapping capacity; about 51 characters in this example."
+        "description": "Native body/label text. Current demo: A creative practice for clear, human communication. Keep the measured 1440px frame, 35px type and wrapping capacity; about 51 characters in this example."
       },
       {
         "name": "folio",
@@ -135,13 +135,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Hello, / I’m Ari.. Keep the measured 900px frame, 156px type and wrapping capacity; about 15 characters in this example."
+        "description": "Native display text. Current demo: Hello, / I’m Ari. Keep the measured 900px frame, 156px type and wrapping capacity; about 15 characters in this example."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: I connect words, design and useful conversations. My job is to make a complex id. Keep the measured 860px frame, 37px type and wrapping capacity; about 143 characters in this example."
+        "description": "Native body/label text. Current demo: I connect words, design and useful conversations. My job is to make a complex idea feel clear enough to act on, and human enough to care about. Keep the measured 860px frame, 37px type and wrapping capacity; about 143 characters in this example."
       },
       {
         "name": "process-photo",
@@ -185,13 +185,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Clear is a / creative choice.. Keep the measured 1610px frame, 150px type and wrapping capacity; about 27 characters in this example."
+        "description": "Native display text. Current demo: Clear is a / creative choice. Keep the measured 1610px frame, 150px type and wrapping capacity; about 27 characters in this example."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: When people understand the point, they can bring their own intelligence, energy . Keep the measured 1130px frame, 42px type and wrapping capacity; about 115 characters in this example."
+        "description": "Native body/label text. Current demo: When people understand the point, they can bring their own intelligence, energy and imagination to what comes next. Keep the measured 1130px frame, 42px type and wrapping capacity; about 115 characters in this example."
       },
       {
         "name": "point-ring",
@@ -229,7 +229,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: One practice. / Three ways in.. Keep the measured 1760px frame, 122px type and wrapping capacity; about 28 characters in this example."
+        "description": "Native display text. Current demo: One practice. / Three ways in. Keep the measured 1760px frame, 122px type and wrapping capacity; about 28 characters in this example."
       },
       {
         "name": "discipline-0-label",
@@ -241,13 +241,13 @@
         "name": "discipline-0-title",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Find the voice.. Keep the measured 640px frame, 37px type and wrapping capacity; about 15 characters in this example."
+        "description": "Native body/label text. Current demo: Find the voice. Keep the measured 640px frame, 37px type and wrapping capacity; about 15 characters in this example."
       },
       {
         "name": "discipline-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Positioning, naming and messages that sound like someone worth listening to.. Keep the measured 640px frame, 29px type and wrapping capacity; about 76 characters in this example."
+        "description": "Native body/label text. Current demo: Positioning, naming and messages that sound like someone worth listening to. Keep the measured 640px frame, 29px type and wrapping capacity; about 76 characters in this example."
       },
       {
         "name": "discipline-1-label",
@@ -259,13 +259,13 @@
         "name": "discipline-1-title",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Make the point visible.. Keep the measured 640px frame, 37px type and wrapping capacity; about 23 characters in this example."
+        "description": "Native body/label text. Current demo: Make the point visible. Keep the measured 640px frame, 37px type and wrapping capacity; about 23 characters in this example."
       },
       {
         "name": "discipline-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Identity, editorial systems and digital stories that hold together.. Keep the measured 640px frame, 29px type and wrapping capacity; about 67 characters in this example."
+        "description": "Native body/label text. Current demo: Identity, editorial systems and digital stories that hold together. Keep the measured 640px frame, 29px type and wrapping capacity; about 67 characters in this example."
       },
       {
         "name": "discipline-2-label",
@@ -277,13 +277,13 @@
         "name": "discipline-2-title",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Get people moving.. Keep the measured 640px frame, 37px type and wrapping capacity; about 18 characters in this example."
+        "description": "Native body/label text. Current demo: Get people moving. Keep the measured 640px frame, 37px type and wrapping capacity; about 18 characters in this example."
       },
       {
         "name": "discipline-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Generous structure for a room that needs to think, decide or make.. Keep the measured 640px frame, 29px type and wrapping capacity; about 66 characters in this example."
+        "description": "Native body/label text. Current demo: Generous structure for a room that needs to think, decide or make. Keep the measured 640px frame, 29px type and wrapping capacity; about 66 characters in this example."
       },
       {
         "name": "folio",
@@ -315,7 +315,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Make it clear. / Make it human.. Keep the measured 1600px frame, 139px type and wrapping capacity; about 29 characters in this example."
+        "description": "Native display text. Current demo: Make it clear. / Make it human. Keep the measured 1600px frame, 139px type and wrapping capacity; about 29 characters in this example."
       },
       {
         "name": "benefit-0-title",
@@ -327,7 +327,7 @@
         "name": "benefit-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A clear idea people can repeat in their own words.. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
+        "description": "Native body/label text. Current demo: A clear idea people can repeat in their own words. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
       },
       {
         "name": "benefit-1-title",
@@ -339,7 +339,7 @@
         "name": "benefit-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Words and images that sound and look like the same organization.. Keep the measured 515px frame, 30px type and wrapping capacity; about 64 characters in this example."
+        "description": "Native body/label text. Current demo: Words and images that sound and look like the same organization. Keep the measured 515px frame, 30px type and wrapping capacity; about 64 characters in this example."
       },
       {
         "name": "benefit-2-title",
@@ -351,7 +351,7 @@
         "name": "benefit-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A process that invites people in and makes decisions visible.. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
+        "description": "Native body/label text. Current demo: A process that invites people in and makes decisions visible. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
       },
       {
         "name": "folio",
@@ -383,7 +383,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: How a project / gets clearer.. Keep the measured 1760px frame, 132px type and wrapping capacity; about 27 characters in this example."
+        "description": "Native display text. Current demo: How a project / gets clearer. Keep the measured 1760px frame, 132px type and wrapping capacity; about 27 characters in this example."
       },
       {
         "name": "process-0-number",
@@ -401,7 +401,7 @@
         "name": "process-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Gather the real questions.. Keep the measured 395px frame, 31px type and wrapping capacity; about 26 characters in this example."
+        "description": "Native body/label text. Current demo: Gather the real questions. Keep the measured 395px frame, 31px type and wrapping capacity; about 26 characters in this example."
       },
       {
         "name": "process-1-number",
@@ -419,7 +419,7 @@
         "name": "process-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Find the idea holding it together.. Keep the measured 395px frame, 31px type and wrapping capacity; about 34 characters in this example."
+        "description": "Native body/label text. Current demo: Find the idea holding it together. Keep the measured 395px frame, 31px type and wrapping capacity; about 34 characters in this example."
       },
       {
         "name": "process-2-number",
@@ -437,7 +437,7 @@
         "name": "process-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Explore it in words and form.. Keep the measured 395px frame, 31px type and wrapping capacity; about 29 characters in this example."
+        "description": "Native body/label text. Current demo: Explore it in words and form. Keep the measured 395px frame, 31px type and wrapping capacity; about 29 characters in this example."
       },
       {
         "name": "process-3-number",
@@ -455,7 +455,7 @@
         "name": "process-3-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Help people use it with confidence.. Keep the measured 395px frame, 31px type and wrapping capacity; about 35 characters in this example."
+        "description": "Native body/label text. Current demo: Help people use it with confidence. Keep the measured 395px frame, 31px type and wrapping capacity; about 35 characters in this example."
       },
       {
         "name": "folio",
@@ -487,13 +487,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Room to / Think.. Keep the measured 890px frame, 142px type and wrapping capacity; about 14 characters in this example."
+        "description": "Native display text. Current demo: Room to / Think. Keep the measured 890px frame, 142px type and wrapping capacity; about 14 characters in this example."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A fictional neighborhood studio needed one invitation that could hold many activ. Keep the measured 865px frame, 34px type and wrapping capacity; about 152 characters in this example."
+        "description": "Native body/label text. Current demo: A fictional neighborhood studio needed one invitation that could hold many activities. The answer was a voice that made space: curious, direct and open. Keep the measured 865px frame, 34px type and wrapping capacity; about 152 characters in this example."
       },
       {
         "name": "voice-poster",
@@ -537,7 +537,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: A message people / can carry.. Keep the measured 1760px frame, 115px type and wrapping capacity; about 27 characters in this example."
+        "description": "Native display text. Current demo: A message people / can carry. Keep the measured 1760px frame, 115px type and wrapping capacity; about 27 characters in this example."
       },
       {
         "name": "message-0-label",
@@ -549,13 +549,13 @@
         "name": "message-0-quote",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Many activities. / No shared invitation.. Keep the measured 830px frame, 51px type and wrapping capacity; about 38 characters in this example."
+        "description": "Native body/label text. Current demo: Many activities. / No shared invitation. Keep the measured 830px frame, 51px type and wrapping capacity; about 38 characters in this example."
       },
       {
         "name": "message-0-context",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Separate descriptions competed for attention.. Keep the measured 805px frame, 28px type and wrapping capacity; about 45 characters in this example."
+        "description": "Native body/label text. Current demo: Separate descriptions competed for attention. Keep the measured 805px frame, 28px type and wrapping capacity; about 45 characters in this example."
       },
       {
         "name": "message-1-label",
@@ -567,13 +567,13 @@
         "name": "message-1-quote",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Come with a question. / Leave with a possibility.. Keep the measured 830px frame, 51px type and wrapping capacity; about 47 characters in this example."
+        "description": "Native body/label text. Current demo: Come with a question. / Leave with a possibility. Keep the measured 830px frame, 51px type and wrapping capacity; about 47 characters in this example."
       },
       {
         "name": "message-1-context",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: One flexible invitation brought the activities together.. Keep the measured 805px frame, 28px type and wrapping capacity; about 56 characters in this example."
+        "description": "Native body/label text. Current demo: One flexible invitation brought the activities together. Keep the measured 805px frame, 28px type and wrapping capacity; about 56 characters in this example."
       },
       {
         "name": "folio",
@@ -605,7 +605,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Good collaboration / feels like this.. Keep the measured 1200px frame, 112px type and wrapping capacity; about 35 characters in this example."
+        "description": "Native display text. Current demo: Good collaboration / feels like this. Keep the measured 1200px frame, 112px type and wrapping capacity; about 35 characters in this example."
       },
       {
         "name": "craft-process-photo",
@@ -623,7 +623,7 @@
         "name": "working-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Questions can be asked early, without having to perform certainty.. Keep the measured 1100px frame, 33px type and wrapping capacity; about 66 characters in this example."
+        "description": "Native body/label text. Current demo: Questions can be asked early, without having to perform certainty. Keep the measured 1100px frame, 33px type and wrapping capacity; about 66 characters in this example."
       },
       {
         "name": "working-1-title",
@@ -635,7 +635,7 @@
         "name": "working-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: People see the thinking and understand the decisions.. Keep the measured 1100px frame, 33px type and wrapping capacity; about 53 characters in this example."
+        "description": "Native body/label text. Current demo: People see the thinking and understand the decisions. Keep the measured 1100px frame, 33px type and wrapping capacity; about 53 characters in this example."
       },
       {
         "name": "working-2-title",
@@ -647,7 +647,7 @@
         "name": "working-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: The work ends with something people know how to use.. Keep the measured 1100px frame, 33px type and wrapping capacity; about 52 characters in this example."
+        "description": "Native body/label text. Current demo: The work ends with something people know how to use. Keep the measured 1100px frame, 33px type and wrapping capacity; about 52 characters in this example."
       },
       {
         "name": "folio",
@@ -685,13 +685,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Start / with a / blank page.. Keep the measured 650px frame, 118px type and wrapping capacity; about 24 characters in this example."
+        "description": "Native display text. Current demo: Start / with a / blank page. Keep the measured 650px frame, 118px type and wrapping capacity; about 24 characters in this example."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: An open page is a useful invitation. Begin with a question, a shape or a few hon. Keep the measured 610px frame, 36px type and wrapping capacity; about 90 characters in this example."
+        "description": "Native body/label text. Current demo: An open page is a useful invitation. Begin with a question, a shape or a few honest words. Keep the measured 610px frame, 36px type and wrapping capacity; about 90 characters in this example."
       },
       {
         "name": "folio",
@@ -723,13 +723,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: A room with a purpose.. Keep the measured 1760px frame, 104px type and wrapping capacity; about 22 characters in this example."
+        "description": "Native display text. Current demo: A room with a purpose. Keep the measured 1760px frame, 104px type and wrapping capacity; about 22 characters in this example."
       },
       {
         "name": "workshop-intro",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A useful session balances three things: a clear question, enough structure and r. Keep the measured 1670px frame, 35px type and wrapping capacity; about 104 characters in this example."
+        "description": "Native body/label text. Current demo: A useful session balances three things: a clear question, enough structure and room for people to think. Keep the measured 1670px frame, 35px type and wrapping capacity; about 104 characters in this example."
       },
       {
         "name": "workshop-0-label",
@@ -741,7 +741,7 @@
         "name": "workshop-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: What must be different by the end?. Keep the measured 525px frame, 43px type and wrapping capacity; about 34 characters in this example."
+        "description": "Native body/label text. Current demo: What must be different by the end? Keep the measured 525px frame, 43px type and wrapping capacity; about 34 characters in this example."
       },
       {
         "name": "workshop-1-label",
@@ -753,7 +753,7 @@
         "name": "workshop-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Whose experience belongs in the room?. Keep the measured 525px frame, 43px type and wrapping capacity; about 37 characters in this example."
+        "description": "Native body/label text. Current demo: Whose experience belongs in the room? Keep the measured 525px frame, 43px type and wrapping capacity; about 37 characters in this example."
       },
       {
         "name": "workshop-2-label",
@@ -765,7 +765,7 @@
         "name": "workshop-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: What will help them move forward?. Keep the measured 525px frame, 43px type and wrapping capacity; about 33 characters in this example."
+        "description": "Native body/label text. Current demo: What will help them move forward? Keep the measured 525px frame, 43px type and wrapping capacity; about 33 characters in this example."
       },
       {
         "name": "folio",
@@ -797,7 +797,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: A useful starting point.. Keep the measured 1760px frame, 108px type and wrapping capacity; about 24 characters in this example."
+        "description": "Native display text. Current demo: A useful starting point. Keep the measured 1760px frame, 108px type and wrapping capacity; about 24 characters in this example."
       },
       {
         "name": "engagement-0-name",
@@ -815,7 +815,7 @@
         "name": "engagement-0-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: An outside view on the messages, moments and language people meet.. Keep the measured 580px frame, 31px type and wrapping capacity; about 66 characters in this example."
+        "description": "Native body/label text. Current demo: An outside view on the messages, moments and language people meet. Keep the measured 580px frame, 31px type and wrapping capacity; about 66 characters in this example."
       },
       {
         "name": "engagement-1-name",
@@ -833,7 +833,7 @@
         "name": "engagement-1-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: One focused direction across positioning, words and a visual starting point.. Keep the measured 580px frame, 31px type and wrapping capacity; about 76 characters in this example."
+        "description": "Native body/label text. Current demo: One focused direction across positioning, words and a visual starting point. Keep the measured 580px frame, 31px type and wrapping capacity; about 76 characters in this example."
       },
       {
         "name": "engagement-2-name",
@@ -851,7 +851,7 @@
         "name": "engagement-2-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A well-structured conversation around one decision that matters.. Keep the measured 580px frame, 31px type and wrapping capacity; about 64 characters in this example."
+        "description": "Native body/label text. Current demo: A well-structured conversation around one decision that matters. Keep the measured 580px frame, 31px type and wrapping capacity; about 64 characters in this example."
       },
       {
         "name": "folio",
@@ -883,7 +883,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: From brief to a / useful hand-off.. Keep the measured 1760px frame, 116px type and wrapping capacity; about 32 characters in this example."
+        "description": "Native display text. Current demo: From brief to a / useful hand-off. Keep the measured 1760px frame, 116px type and wrapping capacity; about 32 characters in this example."
       },
       {
         "name": "scope-0-week",
@@ -901,7 +901,7 @@
         "name": "scope-0-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Context, conversations and a focused creative brief.. Keep the measured 515px frame, 30px type and wrapping capacity; about 52 characters in this example."
+        "description": "Native body/label text. Current demo: Context, conversations and a focused creative brief. Keep the measured 515px frame, 30px type and wrapping capacity; about 52 characters in this example."
       },
       {
         "name": "scope-1-week",
@@ -919,7 +919,7 @@
         "name": "scope-1-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Two developed directions in words and visual form.. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
+        "description": "Native body/label text. Current demo: Two developed directions in words and visual form. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
       },
       {
         "name": "scope-2-week",
@@ -937,7 +937,7 @@
         "name": "scope-2-body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A selected direction, practical guidance and a team hand-off.. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
+        "description": "Native body/label text. Current demo: A selected direction, practical guidance and a team hand-off. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
       },
       {
         "name": "folio",
@@ -969,7 +969,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Useful after / the presentation.. Keep the measured 1760px frame, 124px type and wrapping capacity; about 30 characters in this example."
+        "description": "Native display text. Current demo: Useful after / the presentation. Keep the measured 1760px frame, 124px type and wrapping capacity; about 30 characters in this example."
       },
       {
         "name": "hand-off-photo",
@@ -987,7 +987,7 @@
         "name": "handoff-0-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: The point people can explain.. Keep the measured 800px frame, 31px type and wrapping capacity; about 29 characters in this example."
+        "description": "Native body/label text. Current demo: The point people can explain. Keep the measured 800px frame, 31px type and wrapping capacity; about 29 characters in this example."
       },
       {
         "name": "handoff-1-title",
@@ -999,7 +999,7 @@
         "name": "handoff-1-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Examples people can adapt.. Keep the measured 800px frame, 31px type and wrapping capacity; about 26 characters in this example."
+        "description": "Native body/label text. Current demo: Examples people can adapt. Keep the measured 800px frame, 31px type and wrapping capacity; about 26 characters in this example."
       },
       {
         "name": "handoff-2-title",
@@ -1011,7 +1011,7 @@
         "name": "handoff-2-detail",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: A clear way to keep moving.. Keep the measured 800px frame, 31px type and wrapping capacity; about 27 characters in this example."
+        "description": "Native body/label text. Current demo: A clear way to keep moving. Keep the measured 800px frame, 31px type and wrapping capacity; about 27 characters in this example."
       },
       {
         "name": "folio",
@@ -1043,7 +1043,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Play is a way of thinking.. Keep the measured 1760px frame, 106px type and wrapping capacity; about 26 characters in this example."
+        "description": "Native display text. Current demo: Play is a way of thinking. Keep the measured 1760px frame, 106px type and wrapping capacity; about 26 characters in this example."
       },
       {
         "name": "poster-study-0",
@@ -1093,13 +1093,13 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: One brief. / Many ways in.. Keep the measured 1760px frame, 142px type and wrapping capacity; about 24 characters in this example."
+        "description": "Native display text. Current demo: One brief. / Many ways in. Keep the measured 1760px frame, 142px type and wrapping capacity; about 24 characters in this example."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Bring the question your team keeps circling. We will make it clear enough to wor. Keep the measured 1180px frame, 42px type and wrapping capacity; about 117 characters in this example."
+        "description": "Native body/label text. Current demo: Bring the question your team keeps circling. We will make it clear enough to work on, and open enough to surprise us. Keep the measured 1180px frame, 42px type and wrapping capacity; about 117 characters in this example."
       },
       {
         "name": "idea-wheel",
@@ -1131,7 +1131,7 @@
         "name": "invitation-title",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Let’s / make sense.. Keep the measured 1720px frame, 184px type and wrapping capacity; about 17 characters in this example."
+        "description": "Native display text. Current demo: Let’s / make sense. Keep the measured 1720px frame, 184px type and wrapping capacity; about 17 characters in this example."
       },
       {
         "name": "invitation-contact",
@@ -1169,7 +1169,7 @@
         "name": "headline",
         "type": "text",
         "required": true,
-        "description": "Native display text. Current demo: Your next / good question?. Keep the measured 1760px frame, 139px type and wrapping capacity; about 24 characters in this example."
+        "description": "Native display text. Current demo: Your next / good question? Keep the measured 1760px frame, 139px type and wrapping capacity; about 24 characters in this example."
       },
       {
         "name": "contact-0-label",
@@ -1205,7 +1205,7 @@
         "name": "contact-2-value",
         "type": "text",
         "required": true,
-        "description": "Native body/label text. Current demo: Working wherever the question takes us.. Keep the measured 1300px frame, 37px type and wrapping capacity; about 39 characters in this example."
+        "description": "Native body/label text. Current demo: Working wherever the question takes us. Keep the measured 1300px frame, 37px type and wrapping capacity; about 39 characters in this example."
       },
       {
         "name": "folio",

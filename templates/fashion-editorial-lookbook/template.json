@@ -148,13 +148,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: The shape is only\nhalf the story.. Keep the 118px type scale and this 960px-wide frame; recommended maximum 33 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: The shape is only\nhalf the story. Keep the 118px type scale and this 960px-wide frame; recommended maximum 33 characters; split content instead of shrinking type."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Form & Fabric is a fictional editorial study. It looks at the relationship between a garme. Keep the 30px type scale and this 850px-wide frame; recommended maximum 350 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Form & Fabric is a fictional editorial study. It looks at the relationship between a garment, its material and the space around it. The photographs are licensed references, not a collection designed or photographed by this studio. Keep the 30px type scale and this 850px-wide frame; recommended maximum 350 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -186,7 +186,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Three ways to look.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Three ways to look. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
         "name": "story-0-name",
@@ -198,7 +198,7 @@
         "name": "story-0-copy",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: How a line meets the body.. Keep the 29px type scale and this 490px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: How a line meets the body. Keep the 29px type scale and this 490px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
       },
       {
         "name": "story-1-name",
@@ -210,7 +210,7 @@
         "name": "story-1-copy",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: What light reveals in the cloth.. Keep the 29px type scale and this 490px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: What light reveals in the cloth. Keep the 29px type scale and this 490px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
       },
       {
         "name": "story-2-name",
@@ -222,7 +222,7 @@
         "name": "story-2-copy",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: How material changes in use.. Keep the 29px type scale and this 490px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: How material changes in use. Keep the 29px type scale and this 490px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -260,13 +260,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Cut\nand space.. Keep the 163px type scale and this 960px-wide frame; recommended maximum 14 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Cut\nand space. Keep the 163px type scale and this 960px-wide frame; recommended maximum 14 characters; split content instead of shrinking type."
       },
       {
         "name": "section-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: The garment defines an edge.\nThe empty space makes it visible.. Keep the 31px type scale and this 850px-wide frame; recommended maximum 62 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: The garment defines an edge.\nThe empty space makes it visible. Keep the 31px type scale and this 850px-wide frame; recommended maximum 62 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -304,13 +304,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: A line that\nholds its own.. Keep the 96px type scale and this 700px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: A line that\nholds its own. Keep the 96px type scale and this 700px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: The shoulder sets a direction. A long, unbroken edge gives the silhouette its calm. Small . Keep the 28px type scale and this 650px-wide frame; recommended maximum 157 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: The shoulder sets a direction. A long, unbroken edge gives the silhouette its calm. Small interruptions become more noticeable when everything else is quiet. Keep the 28px type scale and this 650px-wide frame; recommended maximum 157 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -342,7 +342,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Proportion is a relationship.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Proportion is a relationship. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
       },
       {
         "name": "proportion-left",
@@ -372,7 +372,7 @@
         "name": "margin-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Observe length, weight and the space between layers.. Keep the 26px type scale and this 200px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Observe length, weight and the space between layers. Keep the 26px type scale and this 200px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -404,7 +404,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: A vocabulary of simple shapes.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: A vocabulary of simple shapes. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
       },
       {
         "name": "garment-outline",
@@ -416,7 +416,7 @@
         "name": "outline-notes",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Two original schematic studies.\nUse them to compare proportion rather than describe a manu. Keep the 33px type scale and this 500px-wide frame; recommended maximum 107 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Two original schematic studies.\nUse them to compare proportion rather than describe a manufactured product. Keep the 33px type scale and this 500px-wide frame; recommended maximum 107 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -454,13 +454,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: The edge\nchanges\neverything.. Keep the 116px type scale and this 720px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: The edge\nchanges\neverything. Keep the 116px type scale and this 720px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
         "name": "fold-copy",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A fold turns light into a line. Give it enough space to be seen.. Keep the 31px type scale and this 650px-wide frame; recommended maximum 64 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A fold turns light into a line. Give it enough space to be seen. Keep the 31px type scale and this 650px-wide frame; recommended maximum 64 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -492,13 +492,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Keep the shape.\nLet the cloth move.. Keep the 142px type scale and this 1700px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Keep the shape.\nLet the cloth move. Keep the 142px type scale and this 1700px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
         "name": "principle-caption",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A study in restraint, not a claim about a particular garment.. Keep the 28px type scale and this 1550px-wide frame; recommended maximum 88 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A study in restraint, not a claim about a particular garment. Keep the 28px type scale and this 1550px-wide frame; recommended maximum 88 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -536,13 +536,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: The surface\nis the detail.. Keep the 110px type scale and this 760px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: The surface\nis the detail. Keep the 110px type scale and this 760px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
       },
       {
         "name": "surface-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: The closer the view,\nthe quieter the composition.. Keep the 31px type scale and this 700px-wide frame; recommended maximum 49 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: The closer the view,\nthe quieter the composition. Keep the 31px type scale and this 700px-wide frame; recommended maximum 49 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -574,7 +574,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Three surfaces, one quiet palette.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Three surfaces, one quiet palette. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
       },
       {
         "name": "fabric-0",
@@ -592,7 +592,7 @@
         "name": "fabric-0-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A visible, irregular surface.. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A visible, irregular surface. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
       },
       {
         "name": "fabric-1",
@@ -610,7 +610,7 @@
         "name": "fabric-1-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A lighter, quieter surface.. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A lighter, quieter surface. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
       },
       {
         "name": "fabric-2",
@@ -628,7 +628,7 @@
         "name": "fabric-2-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Shadow across a soft drape.. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Shadow across a soft drape. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -666,13 +666,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Texture,\nat a different\nscale.. Keep the 91px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Texture,\nat a different\nscale. Keep the 91px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
       },
       {
         "name": "macro-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Let the image carry the detail. Keep the words to the observation that matters.. Keep the 28px type scale and this 470px-wide frame; recommended maximum 79 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Let the image carry the detail. Keep the words to the observation that matters. Keep the 28px type scale and this 470px-wide frame; recommended maximum 79 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -710,13 +710,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: An edit,\nnot an excess.. Keep the 130px type scale and this 960px-wide frame; recommended maximum 23 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: An edit,\nnot an excess. Keep the 130px type scale and this 960px-wide frame; recommended maximum 23 characters; split content instead of shrinking type."
       },
       {
         "name": "body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A small group of related materials can hold more interest than a long list of unrelated st. Keep the 29px type scale and this 850px-wide frame; recommended maximum 148 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A small group of related materials can hold more interest than a long list of unrelated statements. Repeat a line, a tone or a texture with purpose. Keep the 29px type scale and this 850px-wide frame; recommended maximum 148 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -748,7 +748,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Quiet tones. Clear contrasts.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Quiet tones. Clear contrasts. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
       },
       {
         "name": "tone-0",
@@ -840,13 +840,13 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Allow space\nto move.. Keep the 117px type scale and this 850px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Allow space\nto move. Keep the 117px type scale and this 850px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
         "name": "movement-note",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: A little space makes each line easier to read.\nKeep one quiet gap around the material.. Keep the 28px type scale and this 800px-wide frame; recommended maximum 86 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: A little space makes each line easier to read.\nKeep one quiet gap around the material. Keep the 28px type scale and this 800px-wide frame; recommended maximum 86 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -878,7 +878,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: One material. Many gestures.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: One material. Many gestures. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
         "name": "drape-photo",
@@ -896,7 +896,7 @@
         "name": "drape-copy",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: The same cloth can hold a crisp edge or a soft fall. Photograph the change, then edit arou. Keep the 30px type scale and this 440px-wide frame; recommended maximum 96 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: The same cloth can hold a crisp edge or a soft fall. Photograph the change, then edit around it. Keep the 30px type scale and this 440px-wide frame; recommended maximum 96 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -940,7 +940,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Between\nshape\nand\nsurface.. Keep the 76px type scale and this 330px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Between\nshape\nand\nsurface. Keep the 76px type scale and this 330px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -972,7 +972,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: What stays in the edit?. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: What stays in the edit? Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
         "name": "edit-matrix",
@@ -1010,7 +1010,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: A sequence that tells the story.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: A sequence that tells the story. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
       },
       {
         "name": "column-1-title",
@@ -1022,7 +1022,7 @@
         "name": "column-1-body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Establish the line of the garment and the space around it.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Establish the line of the garment and the space around it. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
         "name": "column-2-title",
@@ -1034,7 +1034,7 @@
         "name": "column-2-body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Show the seam, texture or edge that explains the image.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Show the seam, texture or edge that explains the image. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
         "name": "column-3-title",
@@ -1046,7 +1046,7 @@
         "name": "column-3-body",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Keep one gesture that makes the material feel alive.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Keep one gesture that makes the material feel alive. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
         "name": "studio-label",
@@ -1168,7 +1168,7 @@
         "name": "image-attribution",
         "type": "text",
         "required": true,
-        "description": "Fine text. Demo: Visual reference · cottonbro studio, Jackie Friedlander, Artem Podrez, Letícia Alvares, Mi. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 122 characters; split content instead of shrinking type."
+        "description": "Fine text. Demo: Visual reference · cottonbro studio, Jackie Friedlander, Artem Podrez, Letícia Alvares, Mike Murray, Sacha Moreau / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 122 characters; split content instead of shrinking type."
       }
     ],
     "photographic-source-register": [
@@ -1188,7 +1188,7 @@
         "name": "credit-purpose",
         "type": "text",
         "required": true,
-        "description": "Body text. Demo: Licensed stock references for a fictional editorial study. No collection, model endorsemen. Keep the 25px type scale and this 1670px-wide frame; recommended maximum 138 characters; split content instead of shrinking type."
+        "description": "Body text. Demo: Licensed stock references for a fictional editorial study. No collection, model endorsement or commissioned studio photography is implied. Keep the 25px type scale and this 1670px-wide frame; recommended maximum 138 characters; split content instead of shrinking type."
       },
       {
         "name": "photo-credit-0",
@@ -1274,7 +1274,7 @@
         "name": "title",
         "type": "text",
         "required": true,
-        "description": "Display text. Demo: Form is the beginning.\nFabric is the\nconversation.. Keep the 137px type scale and this 1680px-wide frame; recommended maximum 50 characters; split content instead of shrinking type."
+        "description": "Display text. Demo: Form is the beginning.\nFabric is the\nconversation. Keep the 137px type scale and this 1680px-wide frame; recommended maximum 50 characters; split content instead of shrinking type."
       },
       {
         "name": "contact",

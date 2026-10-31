@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "reviewedAt": "2026-10-31T19:41:58.086Z",
+  "reviewedAt": "2026-10-31T19:58:06.547Z",
   "status": "PASS",
   "scope": "Six-template final replacement batch in PR #29; all existing template metadata structurally validated. Asset-rights review applies only to these six, not the 68 older templates.",
   "base": {
@@ -54,7 +54,7 @@
     {
       "command": "node --test scripts/preview.test.mjs scripts/screenshot.test.mjs scripts/validate-assets.test.mjs scripts/validate.test.mjs",
       "exitCode": 0,
-      "summary": "35 tests pass, 0 failed/skipped"
+      "summary": "36 tests pass, 0 failed/skipped"
     },
     {
       "command": "node scripts/validate-assets.mjs",
@@ -322,6 +322,46 @@
     "outstandingFindings": [],
     "unassessedLegacyTemplateCount": 68
   },
+  "retiredCropFindings": {
+    "baselineCommit": "952dce60d0b7c65e0178718cbed65c7b0584e194",
+    "status": "removed-with-superseded-compositions",
+    "findings": [
+      {
+        "template": "press-kit-editorial",
+        "page": 1,
+        "sourceWordmark": "Bonne",
+        "oldOverflowPx": 26,
+        "status": "source element removed; original North Objects cover replaces it"
+      },
+      {
+        "template": "interior-design-editorial",
+        "page": 4,
+        "sourceWordmark": "About / Gilbert",
+        "oldOverflowPx": [
+          65,
+          34
+        ],
+        "status": "source elements removed; original composition replaces them"
+      }
+    ],
+    "waivers": [],
+    "genericValidatorScope": "Text overflow, navigation and runtime checks; image-crop quality is assessed separately through visual review.",
+    "evidence": "previews/asset-clearance-2026-11-01/legacy-crop-review/legacy-crop-review.json",
+    "currentTextRangeBounds": {
+      "pressKitCover": {
+        "left": 70,
+        "top": 100,
+        "right": 80,
+        "bottom": 27
+      },
+      "interiorPage4": {
+        "left": 96,
+        "top": 110,
+        "right": 100,
+        "bottom": 45
+      }
+    }
+  },
   "sourceRemoval": {
     "baselineCommit": "952dce60d0b7c65e0178718cbed65c7b0584e194",
     "coverage": "All renderable IMG, CSS image and nested SVG payloads; source custom-art IDs and nontrivial custom paths",
@@ -359,7 +399,7 @@
       "compositionLicense": "MIT",
       "hashes": {
         "htmlSHA256": "aa925247b722c97be783fc3b2d2eabc522eec9df88d7a3bbe767e64a69c79606",
-        "metadataSHA256": "f982cdd75174c7cf4990cc0f68c44ed74f6fa951b9f08c4fa5dffd9690be9375",
+        "metadataSHA256": "6a9830b7a49a8d57a4f92203c055d8178e25660558d6e6562a1549e009b00ee9",
         "assetManifestSHA256": "9b2a94eeae2c474292d9f4f6ed3a9566506be16aade508ca93f72127a6a87fdf",
         "sourceNoticesSHA256": "beebe9d36d3a789b7137795b25b7a6528997edd9d2dac0ef785fb42850ce0bd5",
         "assetSummarySHA256": "a7e95f59c1188c663665b86696933d2949b7fe7a770650725daa8e68f303a516"
@@ -513,7 +553,7 @@
       "compositionLicense": "MIT",
       "hashes": {
         "htmlSHA256": "d6e30db91ecc8d16c4e2e749c266b34ee02643f0bc9cbb66313aacfa2367e71c",
-        "metadataSHA256": "5365462f807cb26e15078d7fe1b7149022416b760148a9eedfea6fd061d4b956",
+        "metadataSHA256": "32067b0ba7e5697d58690df61c0f08938788ec7a12ee98b66c09e6c0797ce510",
         "assetManifestSHA256": "5f28cff8848562f26704a26b004733c0f9708ed843ae3fbe48411263cdaa84c7",
         "sourceNoticesSHA256": "5ec9d6aae43d5d1b1ee5da3dbdef4338ba0c7127a68ed721f82d11a20e23b540",
         "assetSummarySHA256": "4e5a95626129741e6f15e5f9778fefced72698e5b583a53f012fbd88340fb8a0"
@@ -695,7 +735,7 @@
       "compositionLicense": "MIT",
       "hashes": {
         "htmlSHA256": "3b71eb6a8c1b45a0993adef462e0967f92a3ee9683bae867905ccec828ec3d3d",
-        "metadataSHA256": "6c7a07fd634679f390113a6b54b92b22fee00ba4e881825343767869a8c697c8",
+        "metadataSHA256": "39b6bd5792b1016bf16d287bd87d0f7bda10974c884741f4d3df8724f7108d80",
         "assetManifestSHA256": "51b69d72cc95870c379402a95d4a1de509ae79670a7b306d5b187d52aeaa928c",
         "sourceNoticesSHA256": "757c6d405ab04c4d2d15ae809adf244f287a8cc004891b94c902551af50b0ec2",
         "assetSummarySHA256": "4e5a95626129741e6f15e5f9778fefced72698e5b583a53f012fbd88340fb8a0"
@@ -1172,7 +1212,7 @@
       "compositionLicense": "MIT",
       "hashes": {
         "htmlSHA256": "7edc5add9c2e68d21c2776006e5b3921e78ccd27c3aeea734a1cb864610a9b6b",
-        "metadataSHA256": "2b8369a232986e5971ba9e4e8f48e7479d0201c7004405fed83e47d390316031",
+        "metadataSHA256": "b489bccb7f8ed8ce8cbdac3d0b3b32c4ef8ce056f4f746abffc2a592a82b8aee",
         "assetManifestSHA256": "f85346ba4c6a76495753d6939556a470836f0dce15c542053ac1fee733edf12a",
         "sourceNoticesSHA256": "4b97097bb31bfd3fa936dc3db8dbbeca85b0f7dbe39661dbced427edb3f437c6",
         "assetSummarySHA256": "38adc78ba7828e0a7a61e21897917415ae70cc8cfb7ee5d68d4defb94fc0b62c"
@@ -1370,5 +1410,11 @@
       "previews/implementation-2026-11-01/ship-review-research/verification.json"
     ]
   },
-  "remainingBlockers": []
+  "remainingBlockers": [],
+  "metadataExamples": {
+    "completeSourceExamplesVerified": 920,
+    "mappedSlotsInFourOriginalDecks": 1027,
+    "previouslyTruncatedExamplesReplaced": 47,
+    "scope": "Complete native HTML text, with existing frame/type/capacity advice retained. Duplicate delimiter punctuation normalized."
+  }
 }

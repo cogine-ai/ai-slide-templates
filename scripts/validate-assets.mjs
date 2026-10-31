@@ -37,11 +37,16 @@ export function embeddedImages(html) {
     if (/<(?:img|source)\b[^>]*\ssrcset\s*=/i.test(markup)) {
       errors.push('Responsive srcset images are not supported by this register; use individually recorded src images.');
     }
+    let handledUrls = 0;
     for (const match of markup.matchAll(/url\(\s*(["']?)([^\s)"']+)\1\s*\)/gi)) {
+      handledUrls += 1;
       const uri = match[2];
       if (uri.startsWith('#') || /^data:(?:font\/|application\/(?:font-|x-font-|vnd\.ms-fontobject))/i.test(uri)) continue;
       if (/^data:image\//i.test(uri)) references.push(uri);
       else if (!/^data:/i.test(uri)) errors.push('CSS URL has a non-embedded dependency.');
+    }
+    if ((markup.match(/\burl\(/gi) || []).length > handledUrls) {
+      errors.push('CSS url() has an unparseable form; encode the value or use a recorded src image.');
     }
     for (const uri of references) {
       if (uri.startsWith('#')) continue;

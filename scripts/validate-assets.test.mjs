@@ -65,6 +65,17 @@ test('CSS dependencies cannot bypass the image register', () => {
   }
   assert.deepEqual(embeddedImages('<style>@font-face{src:url(data:font/woff2;base64,AA==)}.x{clip-path:url(#clip)}</style>').errors, []);
 });
+test('unparseable quoted CSS URLs fail closed', () => {
+  const m = manifest(); m.assets = [];
+  for (const css of [
+    `background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><circle r="1"/></svg>')`,
+    'background:url("https://example.com/a b.jpg")'
+  ]) {
+    const result = check(m, `<style>.x{${css}}</style>`);
+    assert.equal(result.ok, false);
+    assert.ok(result.errors.some(x => x.includes('unparseable')));
+  }
+});
 test('responsive image candidates cannot silently skip provenance checks', () => {
   for (const html of [`<img src="${uri}" srcset="https://example.com/large.jpg 2x">`, '<picture><source srcset="https://example.com/photo.jpg"></picture>']) {
     assert.equal(check(manifest(), html).ok, false);
