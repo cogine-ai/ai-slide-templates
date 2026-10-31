@@ -1,0 +1,2641 @@
+{
+  "slug": "interior-design-editorial",
+  "name": "Interior Design Editorial",
+  "tagline": "A complete 35-slide spatial editorial proposal with Tenor Sans, Poppins, warm neutrals, native process/pricing elements and independent photographic slots.",
+  "mood": [
+    "calm",
+    "warm",
+    "considered",
+    "editorial"
+  ],
+  "occasion": [
+    "interior design proposal",
+    "spatial design portfolio",
+    "homeware collection",
+    "creative studio introduction"
+  ],
+  "tone": [
+    "restrained",
+    "spatial",
+    "photographic",
+    "refined"
+  ],
+  "formality": "medium-high",
+  "density": "medium-low",
+  "palette": {
+    "background": "#E0DDD4",
+    "brown": "#6E452A",
+    "paper": "#FFFFFF",
+    "ink": "#000000",
+    "description": "Exact source beige, brown, white and black, with natural wood and clay colors supplied by independent source photographs."
+  },
+  "typography": {
+    "display": "Tenor Sans",
+    "body": "Poppins",
+    "style": "Exact source Tenor Sans 400 and Poppins 400 webfont faces embedded unchanged. The original 1920×1080 typography, tracked capitals, small captions, line heights and paragraph frame geometry are retained."
+  },
+  "scheme": "light",
+  "best_for": "A complete spatial and object-design proposal with studio story, services, milestones, photographic concepts, material moodboards, object portfolios, design process, pricing and team profiles.",
+  "avoid_for": "Dense financial dashboards, technical architecture diagrams, or materials without high-quality independent photographs and object images.",
+  "slide_count": 35,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "source_order_preserved": true,
+    "source_canvas_size": "1920x1080",
+    "embedded_fonts": true,
+    "offline": true,
+    "editable_html_text": true,
+    "native_svg_shapes": true,
+    "independent_image_slots": 62,
+    "original_demo_prose_frames": 20
+  },
+  "layouts": [
+    "photographic-studio-cover",
+    "studio-introduction-band",
+    "split-contents",
+    "oversized-about-columns",
+    "four-service-panels",
+    "full-photo-manifesto",
+    "five-milestone-timeline",
+    "portrait-and-editorial-title",
+    "layered-scandinavian-story",
+    "vase-and-overlap-photo",
+    "object-story-and-offset-title",
+    "aesthetic-corner-photo",
+    "tracked-minimalism-split",
+    "future-photo-note",
+    "simplicity-photo-note",
+    "workplace-author-photo",
+    "asymmetric-photo-note",
+    "two-texture-stills",
+    "full-photo-quotation",
+    "material-moodboard",
+    "collection-and-swatches",
+    "three-image-project-story",
+    "staggered-project-swatches",
+    "six-object-portfolio-grid",
+    "six-photo-portfolio-band",
+    "two-object-product-detail",
+    "portrait-portfolio-gallery",
+    "four-stage-design-process",
+    "three-stage-delivery-process",
+    "three-service-price-cards",
+    "three-price-figures",
+    "five-person-team",
+    "designer-portrait-profile",
+    "photographic-contact-card",
+    "photographic-thank-you"
+  ],
+  "layout_slots": {
+    "photographic-studio-cover": [
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Presentation by Clara Zola"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Interior Design Pitch"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      }
+    ],
+    "studio-introduction-band": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert is an interior design firm established in 1956 in Stockholm, Sweden."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Introduction –"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "split-contents": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. A hybrid of Scandinavian and Italian interior design techniques and influences."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. How we work Price list Meet our team Get in touch"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Who we are What we do Highlights Project portfolio"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 1 2 3 4"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 6 7 8 9"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Table of contents"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      }
+    ],
+    "oversized-about-columns": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert –"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. About"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Who we are –"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We believe in the positive impact interior design has on our well-being, creativity, and productivity. We create sustain"
+      },
+      {
+        "name": "body-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Our comprehensive services include finding the perfect color palette, textiles, carpets, furniture, and lighting to suit"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "four-service-panels": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. What we do"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Fit-out consultation"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Our consultation service establishes your needs and what we will deliver to transform your space."
+      },
+      {
+        "name": "body-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We provide specialist expertise, including design concepts, specifications, and technical drawings."
+      },
+      {
+        "name": "body-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We believe that great interior design should be open to everyone, regardless of their budget."
+      },
+      {
+        "name": "body-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We provide you with digital visualizations of your space to ensure you're completely happy with the design."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Project plan and schedule"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Fair project budgeting"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Digital project rendering"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Comprehensive interior design solutions"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "full-photo-manifesto": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Comprehensive interior design solutions"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. As we evolve, our homes should too"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      }
+    ],
+    "five-milestone-timeline": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Our milestones"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 1956"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert is founded by Julia Zola and Noah Ekland."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 1977"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 1998"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 2019"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 2020"
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The new office in Milan, Italy is opened."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The Stockholm office expands to a new location."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Winner of the iF Design Award for Best Interior Design."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Received the IDA award for Service to Interior Design."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-06",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-07",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-08",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-09",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-10",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "portrait-and-editorial-title": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The minimalist space includes an open floor plan, plenty of light, and simple furnishings that are well-built and comfor"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Minimalism is about intentionality"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec — 2022"
+      }
+    ],
+    "layered-scandinavian-story": [
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. In Scandinavian design, less is truly more, and every item must have a function. Housing tends to be more compact in Sca"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Scandinavian homes & decoration"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec — 2022"
+      }
+    ],
+    "vase-and-overlap-photo": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Although minimalism is usually associated with a modern and contemporary look, classic and traditional spaces can also h"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Minimalism is about intentionality"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec — 2022"
+      }
+    ],
+    "object-story-and-offset-title": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Minimalism is proven to have a calming effect on individuals. Soft lighting and a harmonious color palette are essential"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Sleep better – and feel calmer"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. A modern and minimalist object"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.website.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "aesthetic-corner-photo": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Functionality, purpose, and intelligent design are the keywords associated with Scandinavian Interiors."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The secret of Scandinavian interiors"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The aesthetic"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "tracked-minimalism-split": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The minimalist space includes an open floor plan, plenty of light, and simple furnishings that are well-built and comfor"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Designed to help you live comfortably"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. MINIMALISM"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "future-photo-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Futuroma –"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. There is a timelessness to Scandinavian design that inspires a feeling of futurism. It creates environments where we hav"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Engage with the future"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The Architecture – 2022"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "simplicity-photo-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Simplicity offers an opportunity to strip back layers and connect with what matters the most."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Engage with simplicity"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Interior Journey – 2022"
+      }
+    ],
+    "workplace-author-photo": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We design with your health in mind. We believe the quality of the light and air has a significant impact on people's ene"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Created by Clara Zola"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Beautiful workspaces"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "asymmetric-photo-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Not all spaces are suited to uniformed symmetry. The key is to balance visual weights, textures, and colors."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Work by Noah Ekland"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Asymmetric"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "two-texture-stills": [
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Texture creates warmth in any room. This can be achieved by using a mixture of cloth and hard materials like wood or sto"
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. It doesn't have to be bland or sterile"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec — 2022"
+      }
+    ],
+    "full-photo-quotation": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. We believe in designing interiors that reflect our clients' personalities."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Minimalist Inspiration"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. An interior is the natural projection of the soul"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "material-moodboard": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The moodboard is a visual tool that communicates our concepts and design ideas."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Moodboard"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec – 2022"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "collection-and-swatches": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Our collection"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec – 2022"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "three-image-project-story": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. PROJECT–"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Portfolio"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec – 2022"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "staggered-project-swatches": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Portfolio"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. PROJECT–"
+      }
+    ],
+    "six-object-portfolio-grid": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Portfolio"
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-06",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "six-photo-portfolio-band": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Portfolio"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-06",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      }
+    ],
+    "two-object-product-detail": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Peach Vase"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Nordic Ark"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "portrait-portfolio-gallery": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. PORTFOLIO"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Dec — 2022"
+      }
+    ],
+    "four-stage-design-process": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. How we work"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Research"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Brainstorming and preparation"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Meet"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Concept"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Design"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. New client meeting"
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Overall ideas and style"
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Layout and selection"
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "three-stage-delivery-process": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Finalize"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Final design details and presentation"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Create"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Project execution"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Install"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Installation and final touches"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. How we work"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "three-service-price-cards": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Price list"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Hourly"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The client will pay the designer a competitive rate for each hour worked on the project."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. USD 150.00 PER HOUR"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Square footage"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Designer fee"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. More commonly, for commercial spaces or new construction, clients pay per square foot."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. If the budget is established initially, designer fees are paid at an agreed percentage of the budget."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. USD 45.00 PER SQ FT."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 20% OF PROJECT BUDGET"
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-06",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-07",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "three-price-figures": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-06",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-07",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Price list"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. £150"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. £45"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. 20%"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The client will pay the designer a competitive rate for each hour worked on the project."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. More commonly, for commercial spaces or new construction, clients pay per square foot."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. If the budget is established initially, designer fees are paid at an agreed percentage of the budget."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Hourly"
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Square footage"
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Designer fee"
+      }
+    ],
+    "five-person-team": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Melissa Grey"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Project Manager"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Meet our team"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Irenne Klawse"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. David Mensa"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Clara Zola"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Bojan Klutch"
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Designer"
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Junior Designer"
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Head Designer"
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. HR / GA"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "designer-portrait-profile": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Designer"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. An avid collector of Italian design objects. Clara is forever curious — she informs here work by observation and researc"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Clara Zola –"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. PROFILE –"
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "photographic-contact-card": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. hello@gilbert.com • @gilbert"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Get in touch with us"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. – Contact"
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-06",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-07",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-08",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-09",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-10",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-11",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-12",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-13",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-14",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-15",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-16",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-17",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-18",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-19",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-20",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-21",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-22",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-23",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-24",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-25",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-26",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-27",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-28",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-29",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-30",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-31",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-32",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-33",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-34",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-35",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-36",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-37",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-38",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-39",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-40",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-41",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-42",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-43",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-44",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-45",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-46",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-47",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-48",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-49",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-50",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-51",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-52",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-53",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-54",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-55",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-56",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-57",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-58",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "geometry-59",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ],
+    "photographic-thank-you": [
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Thank you"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. CREATE WITH US"
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent image; retain source frame, crop, and transparency."
+      },
+      {
+        "name": "website-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. www.gilbert.com"
+      },
+      {
+        "name": "brand-mark-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Gilbert"
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 190,
+    "max_body_chars_per_slide": 1050,
+    "max_bullets": 7,
+    "max_cards": 6,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "Visuel Colonie — Interior Design Proposal (Pitch), complete 35-page public sequence",
+    "url": "https://pitch.com/templates/Interior-Design-Proposal-4vWn3k3yheGf4Z9jh43PqqLM",
+    "notes": "Complete public source sequence rebuilt from measured DOM and all computed style values. Text, SVG primitives, rules, processes, pricing and captions remain native and replaceable; photographs and any source line textures remain independent embedded image slots. Exact loaded source image bytes and source font faces are embedded for offline display. Long prose is original demonstration writing of similar length, recorded in the evidence manifest; short labels and sample names do not imply endorsement. Several pages are layout variants rather than unique layouts. Source design and individual media redistribution rights have not been fully confirmed; this is not a grant of those rights."
+  }
+}

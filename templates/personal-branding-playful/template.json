@@ -1,0 +1,1490 @@
+{
+  "slug": "personal-branding-playful",
+  "name": "Personal Branding Playful",
+  "tagline": "An 18-page personal-brand system with original Savate headlines, licensed Unbounded caps, Poppins body copy and independent native vector stickers.",
+  "mood": [
+    "playful",
+    "outgoing",
+    "expressive",
+    "energetic"
+  ],
+  "occasion": [
+    "personal brand pitch",
+    "freelance proposal",
+    "creative introduction",
+    "portfolio conversation",
+    "collaboration pitch"
+  ],
+  "tone": [
+    "bold",
+    "warm",
+    "personal",
+    "creative"
+  ],
+  "formality": "medium-low",
+  "density": "medium",
+  "palette": {
+    "description": "Source cream and black canvases with high-saturation pink, green, blue, red and yellow vector stickers; measured source fills are retained individually.",
+    "cream": "#F2EBE3",
+    "ink": "#000000",
+    "pink": "#FF9FD6",
+    "red": "#FB1912"
+  },
+  "scheme": "mixed",
+  "best_for": "Creative freelancers, multidisciplinary professionals and founders introducing their point of view, distinctive strengths, services, client proof and collaboration ideas.",
+  "avoid_for": "High-formality board reporting, dense numerical reviews or restrained corporate material. Large sticker frames and expressive type should remain part of the composition.",
+  "typography": {
+    "display": "Savate",
+    "body": "Poppins",
+    "style": "Savate Regular (original static 2015 MIT font) and Poppins 500/600 (original 4.004 OFL) remain unchanged. Hanson Bold is replaced by OFL Unbounded700 variable TTF1.701 because complete source font redistribution terms were unavailable. CSS size-adjust 103.329022% and source-baseline font-metric calibration retain the wide-caps voice and source text frames; glyph outlines differ. The original1920×1080 grid, rotations, colors and geometry are preserved. The page 18 contact label reads MAIL to retain the same narrow single-line frame with Unbounded; source CSS sizes and line heights remain."
+  },
+  "slide_count": 18,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "embedded_source_fonts": false,
+    "native_text": true,
+    "native_svg": true,
+    "source_order_preserved": true,
+    "original_demo_copy": true,
+    "fictional_sample_content": true,
+    "source_gif_static_observed": true,
+    "redistribution_clearance_pending": true,
+    "embedded_fonts": true,
+    "licensed_font_adaptation": true
+  },
+  "layouts": [
+    "geometric-name-cover",
+    "personal-introduction-letter",
+    "personal-contents",
+    "about-me-divider",
+    "positioning-statement",
+    "practice-introduction",
+    "uniqueness-divider",
+    "four-brand-benefits",
+    "three-client-testimonials",
+    "services-divider",
+    "three-specialty-services",
+    "design-specialty",
+    "storytelling-specialty",
+    "workshop-specialty",
+    "collaboration-divider",
+    "three-collaboration-ideas",
+    "contact-divider",
+    "contact-details"
+  ],
+  "layout_slots": {
+    "geometric-name-cover": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Davis. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Personal brandingpitch deck. Keep its measured line count and hierarchy; approximately 27 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Ari. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: FOR: LUMEN STUDIO. Keep its measured line count and hierarchy; approximately 17 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 11/01/26. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Ari. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Davis. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      }
+    ],
+    "personal-introduction-letter": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Hello, Lumen team. I’m Ari, a designer, storyteller, and workshop host who h. Keep its measured line count and hierarchy; approximately 296 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      }
+    ],
+    "personal-contents": [
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Services. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 15. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 17. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: How we can work together. Keep its measured line count and hierarchy; approximately 24 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: About me. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: What makes me unique. Keep its measured line count and hierarchy; approximately 20 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 10. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Contact me. Keep its measured line count and hierarchy; approximately 10 characters at this source size."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 4. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 7. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: What'sInside. Keep its measured line count and hierarchy; approximately 12 characters at this source size."
+      }
+    ],
+    "about-me-divider": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: About me. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      }
+    ],
+    "positioning-statement": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I am a designer, a storyteller, and a workshop host. I help good ideas find . Keep its measured line count and hierarchy; approximately 89 characters at this source size. Preserve five colored semantic SPANs: first role in pink, second role in brown, third role in cyan, the action verb in yellow and the outcome word in red. Keep connecting words in the white parent text/tails."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      }
+    ],
+    "practice-introduction": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: But what exactlydo I do?. Keep its measured line count and hierarchy; approximately 24 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I work with teams to turn an idea into a visual identity, a story people can. Keep its measured line count and hierarchy; approximately 373 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "uniqueness-divider": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: What makesme unique. Keep its measured line count and hierarchy; approximately 19 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      }
+    ],
+    "four-brand-benefits": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I ask useful questions before choosing a visual direction.. Keep its measured line count and hierarchy; approximately 58 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Brands love working with me because.... Keep its measured line count and hierarchy; approximately 38 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: CONNECTING IDEAS AND DISCIPLINES. Keep its measured line count and hierarchy; approximately 32 characters at this source size. Compact Hanson label: exactly two visual lines within the original 410px frame, normally about 28–32 uppercase characters. A third line collides with the Poppins explanation below. Keep the source font, size and tracking; shorten wording instead."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: PLAYFUL WORK, THOUGHTFUL PROCESS. Keep its measured line count and hierarchy; approximately 32 characters at this source size. Compact Hanson label: exactly two visual lines within the original 410px frame, normally about 28–32 uppercase characters. A third line collides with the Poppins explanation below. Keep the source font, size and tracking; shorten wording instead."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: CURIOUS ABOUT PEOPLE AND IDEAS. Keep its measured line count and hierarchy; approximately 30 characters at this source size. Compact Hanson label: exactly two visual lines within the original 410px frame, normally about 28–32 uppercase characters. A third line collides with the Poppins explanation below. Keep the source font, size and tracking; shorten wording instead."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Design, words, and workshops grow from the same clear idea.. Keep its measured line count and hierarchy; approximately 59 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A welcoming process helps people contribute their best work.. Keep its measured line count and hierarchy; approximately 60 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I make the next decision visible and keep the team moving.. Keep its measured line count and hierarchy; approximately 58 characters at this source size."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HELPING GOOD IDEAS GET FINISHED. Keep its measured line count and hierarchy; approximately 31 characters at this source size. Compact Hanson label: exactly two visual lines within the original 410px frame, normally about 28–32 uppercase characters. A third line collides with the Poppins explanation below. Keep the source font, size and tracking; shorten wording instead."
+      }
+    ],
+    "three-client-testimonials": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Ari found the clear idea inside a complicated brief and made the whole launc. Keep its measured line count and hierarchy; approximately 92 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Clientslove me!. Keep its measured line count and hierarchy; approximately 15 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: NADIA L,FORMCO. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Clear questions, generous energy, and a thoughtful result.. Keep its measured line count and hierarchy; approximately 58 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: MAYA R,LUMENCO. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: \". Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: JONAH T,FIELDCO. Keep its measured line count and hierarchy; approximately 15 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: \". Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: \". Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: The process made room for our ideas, then gave us the confidence to choose a. Keep its measured line count and hierarchy; approximately 87 characters at this source size."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "services-divider": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Services. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      }
+    ],
+    "three-specialty-services": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Brand voice and messagingCampaign conceptsWriting and creative direction. Keep its measured line count and hierarchy; approximately 72 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Creative workshops for teamsCollaborative idea sessionsPrototype and concept. Keep its measured line count and hierarchy; approximately 143 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I can do all this!. Keep its measured line count and hierarchy; approximately 18 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: FACILITATION. Keep its measured line count and hierarchy; approximately 12 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: STORY. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: DESIGN. Keep its measured line count and hierarchy; approximately 6 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Three connected disciplines, shaped around the needs of your project.. Keep its measured line count and hierarchy; approximately 69 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Brand identity designCampaign art directionEditorial and illustrationPackagi. Keep its measured line count and hierarchy; approximately 129 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "design-specialty": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I build visual identities that give a team something useful to work with: a . Keep its measured line count and hierarchy; approximately 337 characters at this source size."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Branding. Keep its measured line count and hierarchy; approximately 8 characters at this source size. Narrow single-line service heading: use one short word, preferably 7 letters or fewer (demo Branding). The 118px Savate frame is only 500 native pixels wide. Check actual word width; the global 90-character title limit does not apply to this slot. Never wrap into the body below; use another slide for a longer heading."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      }
+    ],
+    "storytelling-specialty": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A story helps people understand why a project matters and where they fit wit. Keep its measured line count and hierarchy; approximately 229 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Stories. Keep its measured line count and hierarchy; approximately 7 characters at this source size. Narrow single-line service heading: use one short word, preferably 7 letters or fewer (demo Stories). The 118px Savate frame is only 597 native pixels wide. Check actual word width; the global 90-character title limit does not apply to this slot. Never wrap into the body below; use another slide for a longer heading."
+      }
+    ],
+    "workshop-specialty": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A workshop creates the conditions for people to think together. I design ses. Keep its measured line count and hierarchy; approximately 297 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Workshops. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      }
+    ],
+    "collaboration-divider": [
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: How we canwork together. Keep its measured line count and hierarchy; approximately 23 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      }
+    ],
+    "three-collaboration-ideas": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A GOOD IDEAMADE TOGETHER. Keep its measured line count and hierarchy; approximately 24 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Use a focused workshop to explore possibilities, test assumptions, and leave. Keep its measured line count and hierarchy; approximately 104 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Connect a new product’s details to an inviting campaign, with a story, a vis. Keep its measured line count and hierarchy; approximately 124 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A CLEARERBRAND STORY. Keep its measured line count and hierarchy; approximately 20 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Bring your team around a shared idea, then shape a voice and visual directio. Keep its measured line count and hierarchy; approximately 93 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Initial collaboration ideas. Keep its measured line count and hierarchy; approximately 27 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A MORE HUMANPRODUCT LAUNCH. Keep its measured line count and hierarchy; approximately 26 characters at this source size."
+      }
+    ],
+    "contact-divider": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Contact. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: HI@ARI.EXAMPLE. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-03",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-04",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-05",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "image-06",
+        "type": "svg",
+        "required": false,
+        "description": "Native SVG sticker / vector ornament, part of the design identity. Preserve its path, source fill, rotation and placement; do not replace it with a photograph. Edit SVG nodes only for deliberate source-aligned maintenance."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: ARIDAVIS.EXAMPLE. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      }
+    ],
+    "contact-details": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: TWITTER. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Let's do this!. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: MAIL. Keep its measured wrapping capacity and hierarchy; approximately 4 characters at the implemented font metrics."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Have a question, a half-formed idea, or a project to begin? Send me a note. . Keep its measured line count and hierarchy; approximately 117 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: aridavis.example. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: @aridavisdesign. Keep its measured line count and hierarchy; approximately 15 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: INSTAGRAM. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: @aridaviswork. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: hi@ari.example. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: WEBSITE. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 90,
+    "max_subtitle_chars": 100,
+    "max_body_chars_per_slide": 900,
+    "max_bullets": 6,
+    "max_cards": 4,
+    "recommended_slide_count_min": 10,
+    "recommended_slide_count_max": 28
+  },
+  "source_inspiration": {
+    "name": "Meg Lewis — Personal Branding Pitch Deck (Pitch), 18 public slides",
+    "url": "https://pitch.com/templates/Personal-Branding-Pitch-Deck-5j8DRt6zzLUa5JqPED6gWtP4",
+    "notes": "Complete 18-page native HTML/CSS/SVG source-inspired reconstruction. Original1920×1080 frame geometry, palette, independent image crops and page order are preserved; long demo copy is original fictional content. Typography is explicitly adapted: Savate Regular (original static 2015 MIT font) and Poppins 500/600 (original 4.004 OFL) remain unchanged. Hanson Bold is replaced by OFL Unbounded700 variable TTF1.701 because complete source font redistribution terms were unavailable. CSS size-adjust 103.329022% and source-baseline font-metric calibration retain the wide-caps voice and source text frames; glyph outlines differ. The original1920×1080 grid, rotations, colors and geometry are preserved. Source SVG ornaments remain independent native elements; no full-slide screenshot or source platform runtime is used. Source artwork and media retain original rights; font substitution does not establish their separate standalone template distribution clearance. The page 18 contact label reads MAIL to retain the same narrow single-line frame with Unbounded; source CSS sizes and line heights remain."
+  }
+}

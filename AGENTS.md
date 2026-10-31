@@ -87,6 +87,8 @@ Use this when the user asks to add templates, edit metadata, change validation, 
 
 Do not run the deck-building workflow. Work on the library directly, keep changes scoped, and run the relevant validation.
 
+When researching or recommending a batch of new library templates, use multiples of three (3, 6, 9, and so on). Preserve the user's accepted candidates when expanding a batch.
+
 ---
 
 ## Template Metadata

@@ -1,0 +1,3787 @@
+{
+  "batchDate": "2026-11-01",
+  "timezone": "Asia/Taipei",
+  "recordedAt": "2026-10-31T18:19:46.791305+00:00",
+  "status": "PR review candidate; licensed typography adaptations; source-design/media clearance risk remains",
+  "newTemplates": 6,
+  "newSlides": 154,
+  "libraryTemplates": 74,
+  "librarySlides": 979,
+  "checks": {
+    "structural": {
+      "command": "node scripts/validate.mjs",
+      "ok": true,
+      "templates": 74
+    },
+    "toolTests": {
+      "command": "node --test scripts/*.test.mjs",
+      "passed": 23,
+      "failed": 0,
+      "validatorLogicChanged": false
+    },
+    "nativeRuntime": {
+      "ok": true,
+      "decks": 6,
+      "slides": 154,
+      "scope": "Isolated headless Chrome, offline resource blocking, native-size all-page rendering, loaded font faces, image decode, keyboard/buttons, hash entry, synthetic touch swipe, ARIA exposure, IDs and SVG references."
+    },
+    "visual1280x720": {
+      "fullyPassingTemplates": [
+        "design-review-grid",
+        "research-readout-pastel",
+        "fashion-editorial-lookbook",
+        "personal-branding-playful"
+      ],
+      "rawAllGreen": false,
+      "sourceIntentionalCropFlags": {
+        "press-kit-editorial": [
+          "page 1: original oversized Bonne wordmark; generic Range flag 26px"
+        ],
+        "interior-design-editorial": [
+          "page 4: original About 65px / Gilbert 34px generic Range flags"
+        ]
+      },
+      "unexpectedFlags": 0,
+      "validatorExceptionsAdded": false
+    },
+    "researchInteraction": {
+      "checkedAt": "2026-10-31T18:18:22.002Z",
+      "fileSHA256": "394a7aefd1f852acf0d4ea1439beed314100c0b4718fab0df05a3167e743a7f1",
+      "ok": true,
+      "scope": "Isolated headless Chrome; real native input keyboard events and reload; local single-user state only.",
+      "checks": [
+        {
+          "name": "native-range-keyboard-input",
+          "ok": true,
+          "detail": "5"
+        },
+        {
+          "name": "range-status-updated",
+          "ok": true
+        },
+        {
+          "name": "range-persists-on-reload",
+          "ok": true,
+          "detail": "5"
+        },
+        {
+          "name": "localStorage-persists-response",
+          "ok": true
+        },
+        {
+          "name": "range-key-does-not-turn-slide",
+          "ok": true
+        },
+        {
+          "name": "nine-stat-values-and-heights-synchronized",
+          "ok": true,
+          "detail": [
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 54,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 378,
+                "top": 455.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 83,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 581,
+                "top": 252.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 36,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 252,
+                "top": 581.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 78,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 546,
+                "top": 219
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 61,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 427,
+                "top": 338
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 41,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 287,
+                "top": 478
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 89,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 623,
+                "top": 142
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 66,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 462,
+                "top": 303
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 78,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 546,
+                "top": 219
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            }
+          ]
+        },
+        {
+          "name": "credits-panel-opens",
+          "ok": true
+        },
+        {
+          "name": "credits-panel-blocks-slide-key",
+          "ok": true
+        },
+        {
+          "name": "credits-panel-closes",
+          "ok": true
+        }
+      ]
+    },
+    "independentVisualReview": {
+      "pitchPages": 99,
+      "figmaPages": 55,
+      "notes": "All original/rendered pages compared. Fixed pages rechecked after freeze; full evidence remains in ignored local previews/implementation-2026-11-01/."
+    },
+    "researchPercentageBoundary": {
+      "htmlSHA256": "394a7aefd1f852acf0d4ea1439beed314100c0b4718fab0df05a3167e743a7f1",
+      "fileUnchanged": true,
+      "scope": "Native1600x900 and scaled1280x720, loaded fonts, every six-column and three-column value sequentially0/10/20/100; default3columns; all bars retain7px/% and zero has0height.",
+      "before": [
+        {
+          "width": 1600,
+          "value": {
+            "x": 231,
+            "y": 587,
+            "right": 346.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 231,
+            "y": 682,
+            "right": 350.828125,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 400,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "layout": "three",
+          "percent": 10,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 137.8125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.765625,
+          "overlapX": 51.15625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "layout": "three",
+          "percent": 20,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 142.890625,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.765625,
+          "overlapX": 56.234375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "value": {
+            "x": 231.00000381469727,
+            "y": 587.0000076293945,
+            "right": 346.98436737060547,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 231.00000381469727,
+            "y": 682.0000457763672,
+            "right": 350.82813262939453,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 400,
+          "overlapX": 115.9843635559082,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "layout": "three",
+          "percent": 10,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 137.8125,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.7656078338623,
+          "overlapX": 51.1562442779541,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "layout": "three",
+          "percent": 20,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 142.890625,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.7656078338623,
+          "overlapX": 56.2343692779541,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "20%",
+          "top": "700px"
+        }
+      ],
+      "afterBoundaryCases": [
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 231,
+            "y": 587,
+            "right": 314.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 231,
+            "y": 682,
+            "right": 350.828125,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 231,
+            "y": 587,
+            "right": 332.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 231,
+            "y": 682,
+            "right": 350.828125,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 231,
+            "y": 587,
+            "right": 346.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 231,
+            "y": 682,
+            "right": 350.828125,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 231,
+            "y": 70,
+            "right": 369.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 231,
+            "y": 682,
+            "right": 350.828125,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 400,
+          "overlapX": 119.828125,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587,
+            "right": 523.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 440,
+            "y": 682,
+            "right": 576.34375,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587,
+            "right": 541.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 440,
+            "y": 682,
+            "right": 576.34375,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587,
+            "right": 555.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 440,
+            "y": 682,
+            "right": 576.34375,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 70,
+            "right": 578.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 440,
+            "y": 682,
+            "right": 576.34375,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 609,
+          "overlapX": 136.34375,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587,
+            "right": 733.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 650,
+            "y": 682,
+            "right": 766.875,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587,
+            "right": 751.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 650,
+            "y": 682,
+            "right": 766.875,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587,
+            "right": 765.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 650,
+            "y": 682,
+            "right": 766.875,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 70,
+            "right": 788.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 650,
+            "y": 682,
+            "right": 766.875,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 819,
+          "overlapX": 116.875,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1600,
+          "column": 4,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 859,
+            "y": 587,
+            "right": 942.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 859,
+            "y": 682,
+            "right": 985.828125,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 4,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 859,
+            "y": 587,
+            "right": 960.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 859,
+            "y": 682,
+            "right": 985.828125,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 4,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 859,
+            "y": 587,
+            "right": 974.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 859,
+            "y": 682,
+            "right": 985.828125,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 4,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 859,
+            "y": 70,
+            "right": 997.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 859,
+            "y": 682,
+            "right": 985.828125,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1028,
+          "overlapX": 126.828125,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1600,
+          "column": 5,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1069,
+            "y": 587,
+            "right": 1152.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1069,
+            "y": 682,
+            "right": 1204.6875,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 5,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1069,
+            "y": 587,
+            "right": 1170.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1069,
+            "y": 682,
+            "right": 1204.6875,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 5,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1069,
+            "y": 587,
+            "right": 1184.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1069,
+            "y": 682,
+            "right": 1204.6875,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238,
+          "overlapX": 115.984375,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 5,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1069,
+            "y": 70,
+            "right": 1207.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 1069,
+            "y": 682,
+            "right": 1204.6875,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1238,
+          "overlapX": 135.6875,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1600,
+          "column": 6,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1279,
+            "y": 587,
+            "right": 1362.046875,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1279,
+            "y": 682,
+            "right": 1390.875,
+            "bottom": 748
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448,
+          "overlapX": 83.046875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 6,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1279,
+            "y": 587,
+            "right": 1380.40625,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1279,
+            "y": 682,
+            "right": 1390.875,
+            "bottom": 748
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448,
+          "overlapX": 101.40625,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 6,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1279,
+            "y": 587,
+            "right": 1394.984375,
+            "bottom": 666
+          },
+          "description": {
+            "x": 1279,
+            "y": 682,
+            "right": 1390.875,
+            "bottom": 748
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448,
+          "overlapX": 111.875,
+          "overlapY": -16,
+          "gap": 16,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1600,
+          "column": 6,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1279,
+            "y": 70,
+            "right": 1417.546875,
+            "bottom": 149
+          },
+          "description": {
+            "x": 1279,
+            "y": 682,
+            "right": 1390.875,
+            "bottom": 748
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1448,
+          "overlapX": 111.875,
+          "overlapY": -533,
+          "gap": 533,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 231.00000381469727,
+            "y": 587.0000076293945,
+            "right": 314.04687881469727,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 231.00000381469727,
+            "y": 682.0000457763672,
+            "right": 350.82813262939453,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 83.046875,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 231.00000381469727,
+            "y": 587.0000076293945,
+            "right": 332.4062728881836,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 231.00000381469727,
+            "y": 682.0000457763672,
+            "right": 350.82813262939453,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 101.40626907348633,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 231.00000381469727,
+            "y": 587.0000076293945,
+            "right": 346.98436737060547,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 231.00000381469727,
+            "y": 682.0000457763672,
+            "right": 350.82813262939453,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 400,
+          "overlapX": 115.9843635559082,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 231.00000381469727,
+            "y": 70,
+            "right": 369.54689025878906,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 231.00000381469727,
+            "y": 682.0000457763672,
+            "right": 350.82813262939453,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 400,
+          "overlapX": 119.82812881469727,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587.0000076293945,
+            "right": 523.046875,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 440,
+            "y": 682.0000457763672,
+            "right": 576.3437652587891,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609.0000152587891,
+          "overlapX": 83.046875,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587.0000076293945,
+            "right": 541.40625,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 440,
+            "y": 682.0000457763672,
+            "right": 576.3437652587891,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609.0000152587891,
+          "overlapX": 101.40625,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 587.0000076293945,
+            "right": 555.9843826293945,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 440,
+            "y": 682.0000457763672,
+            "right": 576.3437652587891,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 609.0000152587891,
+          "overlapX": 115.98438262939453,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 440,
+            "y": 70,
+            "right": 578.5468673706055,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 440,
+            "y": 682.0000457763672,
+            "right": 576.3437652587891,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 609.0000152587891,
+          "overlapX": 136.34376525878906,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587.0000076293945,
+            "right": 733.046875,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 650,
+            "y": 682.0000457763672,
+            "right": 766.875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819.0000152587891,
+          "overlapX": 83.046875,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587.0000076293945,
+            "right": 751.40625,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 650,
+            "y": 682.0000457763672,
+            "right": 766.875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819.0000152587891,
+          "overlapX": 101.40625,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 587.0000076293945,
+            "right": 765.9844207763672,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 650,
+            "y": 682.0000457763672,
+            "right": 766.875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 819.0000152587891,
+          "overlapX": 115.98442077636719,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 650,
+            "y": 70,
+            "right": 788.5469055175781,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 650,
+            "y": 682.0000457763672,
+            "right": 766.875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 819.0000152587891,
+          "overlapX": 116.875,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 4,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 859.0000152587891,
+            "y": 587.0000076293945,
+            "right": 942.0468902587891,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 859.0000152587891,
+            "y": 682.0000457763672,
+            "right": 985.8281707763672,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028.0000305175781,
+          "overlapX": 83.046875,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 4,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 859.0000152587891,
+            "y": 587.0000076293945,
+            "right": 960.4062652587891,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 859.0000152587891,
+            "y": 682.0000457763672,
+            "right": 985.8281707763672,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028.0000305175781,
+          "overlapX": 101.40625,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 4,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 859.0000152587891,
+            "y": 587.0000076293945,
+            "right": 974.9843597412109,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 859.0000152587891,
+            "y": 682.0000457763672,
+            "right": 985.8281707763672,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1028.0000305175781,
+          "overlapX": 115.98434448242188,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 4,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 859.0000152587891,
+            "y": 70,
+            "right": 997.5469207763672,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 859.0000152587891,
+            "y": 682.0000457763672,
+            "right": 985.8281707763672,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1028.0000305175781,
+          "overlapX": 126.82815551757812,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 5,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1069.000015258789,
+            "y": 587.0000076293945,
+            "right": 1152.046890258789,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1069.000015258789,
+            "y": 682.0000457763672,
+            "right": 1204.6875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238.0000305175781,
+          "overlapX": 83.046875,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 5,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1069.000015258789,
+            "y": 587.0000076293945,
+            "right": 1170.406265258789,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1069.000015258789,
+            "y": 682.0000457763672,
+            "right": 1204.6875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238.0000305175781,
+          "overlapX": 101.40625,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 5,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1069.000015258789,
+            "y": 587.0000076293945,
+            "right": 1184.984359741211,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1069.000015258789,
+            "y": 682.0000457763672,
+            "right": 1204.6875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1238.0000305175781,
+          "overlapX": 115.98434448242188,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 5,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1069.000015258789,
+            "y": 70,
+            "right": 1207.5469207763672,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 1069.000015258789,
+            "y": 682.0000457763672,
+            "right": 1204.6875,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1238.0000305175781,
+          "overlapX": 135.68748474121094,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        },
+        {
+          "width": 1280,
+          "column": 6,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1279.000015258789,
+            "y": 587.0000076293945,
+            "right": 1362.0469665527344,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1279.000015258789,
+            "y": 682.0000457763672,
+            "right": 1390.8750915527344,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 0,
+          "barTop": 765,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448.0000305175781,
+          "overlapX": 83.04695129394531,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "0%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 6,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1279.000015258789,
+            "y": 587.0000076293945,
+            "right": 1380.4063415527344,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1279.000015258789,
+            "y": 682.0000457763672,
+            "right": 1390.8750915527344,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 70,
+          "barTop": 695,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448.0000305175781,
+          "overlapX": 101.40632629394531,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "10%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 6,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1279.000015258789,
+            "y": 587.0000076293945,
+            "right": 1394.9844360351562,
+            "bottom": 665.9999847412109
+          },
+          "description": {
+            "x": 1279.000015258789,
+            "y": 682.0000457763672,
+            "right": 1390.8750915527344,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 140,
+          "barTop": 625,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1448.0000305175781,
+          "overlapX": 111.87507629394531,
+          "overlapY": -16.00006103515625,
+          "gap": 16.00006103515625,
+          "valueText": "20%",
+          "top": "597px"
+        },
+        {
+          "width": 1280,
+          "column": 6,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1279.000015258789,
+            "y": 70,
+            "right": 1417.5468444824219,
+            "bottom": 149.0000057220459
+          },
+          "description": {
+            "x": 1279.000015258789,
+            "y": 682.0000457763672,
+            "right": 1390.8750915527344,
+            "bottom": 748.0000305175781
+          },
+          "barHeight": 700,
+          "barTop": 65,
+          "baseline": 765,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1448.0000305175781,
+          "overlapX": 111.87507629394531,
+          "overlapY": -533.0000400543213,
+          "gap": 533.0000400543213,
+          "valueText": "100%",
+          "top": "80px"
+        }
+      ],
+      "threeColumnDefaults": [
+        {
+          "width": 1600,
+          "column": 1,
+          "pass": true,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 142.75,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 378,
+          "barTop": 455.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.765625,
+          "overlapX": 56.09375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "54%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "pass": true,
+          "value": {
+            "x": 597.765625,
+            "y": 697,
+            "right": 653.328125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 597.765625,
+            "y": 743,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 581,
+          "barTop": 252.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1068.875,
+          "overlapX": 55.5625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "83%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "pass": true,
+          "value": {
+            "x": 1108.875,
+            "y": 697,
+            "right": 1164.484375,
+            "bottom": 731
+          },
+          "description": {
+            "x": 1108.875,
+            "y": 743,
+            "right": 1493.546875,
+            "bottom": 803.671875
+          },
+          "barHeight": 252,
+          "barTop": 581.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1579.984375,
+          "overlapX": 55.609375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "36%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "pass": true,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 142.7500057220459,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 378.0000305175781,
+          "barTop": 455.32814025878906,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.7656078338623,
+          "overlapX": 56.09375,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "54%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "pass": true,
+          "value": {
+            "x": 597.7656173706055,
+            "y": 697.0000457763672,
+            "right": 653.3281707763672,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 597.7656173706055,
+            "y": 743.0000305175781,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 581.0000610351562,
+          "barTop": 252.32812881469727,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1068.8750457763672,
+          "overlapX": 55.56255340576172,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "83%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "pass": true,
+          "value": {
+            "x": 1108.8750457763672,
+            "y": 697.0000457763672,
+            "right": 1164.4844055175781,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 1108.8750457763672,
+            "y": 743.0000305175781,
+            "right": 1493.5469055175781,
+            "bottom": 803.671875
+          },
+          "barHeight": 252.0000457763672,
+          "barTop": 581.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1579.9844360351562,
+          "overlapX": 55.60935974121094,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "36%",
+          "top": "700px"
+        }
+      ],
+      "threeColumnBoundaryCases": [
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 128.0625,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.765625,
+          "overlapX": 41.40625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 137.8125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.765625,
+          "overlapX": 51.15625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 142.890625,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.765625,
+          "overlapX": 56.234375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 1,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 86.65625,
+            "y": 697,
+            "right": 154.96875,
+            "bottom": 731
+          },
+          "description": {
+            "x": 86.65625,
+            "y": 743,
+            "right": 439.28125,
+            "bottom": 803.671875
+          },
+          "barHeight": 700,
+          "barTop": 133.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.765625,
+          "overlapX": 68.3125,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "100%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 597.765625,
+            "y": 697,
+            "right": 639.171875,
+            "bottom": 731
+          },
+          "description": {
+            "x": 597.765625,
+            "y": 743,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.875,
+          "overlapX": 41.40625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 597.765625,
+            "y": 697,
+            "right": 648.921875,
+            "bottom": 731
+          },
+          "description": {
+            "x": 597.765625,
+            "y": 743,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.875,
+          "overlapX": 51.15625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 597.765625,
+            "y": 697,
+            "right": 654,
+            "bottom": 731
+          },
+          "description": {
+            "x": 597.765625,
+            "y": 743,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.875,
+          "overlapX": 56.234375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 2,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 597.765625,
+            "y": 697,
+            "right": 666.078125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 597.765625,
+            "y": 743,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 700,
+          "barTop": 133.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1068.875,
+          "overlapX": 68.3125,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "100%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1108.875,
+            "y": 697,
+            "right": 1150.28125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 1108.875,
+            "y": 743,
+            "right": 1493.546875,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.984375,
+          "overlapX": 41.40625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1108.875,
+            "y": 697,
+            "right": 1160.03125,
+            "bottom": 731
+          },
+          "description": {
+            "x": 1108.875,
+            "y": 743,
+            "right": 1493.546875,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.984375,
+          "overlapX": 51.15625,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1108.875,
+            "y": 697,
+            "right": 1165.109375,
+            "bottom": 731
+          },
+          "description": {
+            "x": 1108.875,
+            "y": 743,
+            "right": 1493.546875,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.984375,
+          "overlapX": 56.234375,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1600,
+          "column": 3,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1108.875,
+            "y": 697,
+            "right": 1177.1875,
+            "bottom": 731
+          },
+          "description": {
+            "x": 1108.875,
+            "y": 743,
+            "right": 1493.546875,
+            "bottom": 803.671875
+          },
+          "barHeight": 700,
+          "barTop": 133.328125,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1579.984375,
+          "overlapX": 68.3125,
+          "overlapY": -12,
+          "gap": 12,
+          "valueText": "100%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 128.0625057220459,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.7656078338623,
+          "overlapX": 41.40625,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 137.8125,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.7656078338623,
+          "overlapX": 51.1562442779541,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 142.890625,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 557.7656078338623,
+          "overlapX": 56.2343692779541,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 1,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 86.6562557220459,
+            "y": 697.0000457763672,
+            "right": 154.96874809265137,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 86.6562557220459,
+            "y": 743.0000305175781,
+            "right": 439.28126335144043,
+            "bottom": 803.671875
+          },
+          "barHeight": 700.0000762939453,
+          "barTop": 133.32812309265137,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 557.7656078338623,
+          "overlapX": 68.31249237060547,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "100%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 597.7656173706055,
+            "y": 697.0000457763672,
+            "right": 639.1718673706055,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 597.7656173706055,
+            "y": 743.0000305175781,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.8750457763672,
+          "overlapX": 41.40625,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 597.7656173706055,
+            "y": 697.0000457763672,
+            "right": 648.9218902587891,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 597.7656173706055,
+            "y": 743.0000305175781,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.8750457763672,
+          "overlapX": 51.156272888183594,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 597.7656173706055,
+            "y": 697.0000457763672,
+            "right": 654.0000152587891,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 597.7656173706055,
+            "y": 743.0000305175781,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1068.8750457763672,
+          "overlapX": 56.234397888183594,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 2,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 597.7656173706055,
+            "y": 697.0000457763672,
+            "right": 666.0781097412109,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 597.7656173706055,
+            "y": 743.0000305175781,
+            "right": 1007.109375,
+            "bottom": 803.671875
+          },
+          "barHeight": 700.0000762939453,
+          "barTop": 133.32812309265137,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1068.8750457763672,
+          "overlapX": 68.31249237060547,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "100%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 0,
+          "pass": true,
+          "value": {
+            "x": 1108.8750457763672,
+            "y": 697.0000457763672,
+            "right": 1150.2812957763672,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 1108.8750457763672,
+            "y": 743.0000305175781,
+            "right": 1493.5469055175781,
+            "bottom": 803.671875
+          },
+          "barHeight": 0,
+          "barTop": 833.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.9844360351562,
+          "overlapX": 41.40625,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "0%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 10,
+          "pass": true,
+          "value": {
+            "x": 1108.8750457763672,
+            "y": 697.0000457763672,
+            "right": 1160.0312805175781,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 1108.8750457763672,
+            "y": 743.0000305175781,
+            "right": 1493.5469055175781,
+            "bottom": 803.671875
+          },
+          "barHeight": 70,
+          "barTop": 763.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.9844360351562,
+          "overlapX": 51.15623474121094,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "10%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 20,
+          "pass": true,
+          "value": {
+            "x": 1108.8750457763672,
+            "y": 697.0000457763672,
+            "right": 1165.1094055175781,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 1108.8750457763672,
+            "y": 743.0000305175781,
+            "right": 1493.5469055175781,
+            "bottom": 803.671875
+          },
+          "barHeight": 140,
+          "barTop": 693.3281707763672,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 0,
+          "slotRight": 1579.9844360351562,
+          "overlapX": 56.23435974121094,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "20%",
+          "top": "700px"
+        },
+        {
+          "width": 1280,
+          "column": 3,
+          "percent": 100,
+          "pass": true,
+          "value": {
+            "x": 1108.8750457763672,
+            "y": 697.0000457763672,
+            "right": 1177.1875,
+            "bottom": 730.9999847412109
+          },
+          "description": {
+            "x": 1108.8750457763672,
+            "y": 743.0000305175781,
+            "right": 1493.5469055175781,
+            "bottom": 803.671875
+          },
+          "barHeight": 700.0000762939453,
+          "barTop": 133.32812309265137,
+          "baseline": 833.333,
+          "factor": 7,
+          "borderWidth": 1,
+          "slotRight": 1579.9844360351562,
+          "overlapX": 68.31245422363281,
+          "overlapY": -12.000045776367188,
+          "gap": 12.000045776367188,
+          "valueText": "100%",
+          "top": "700px"
+        }
+      ],
+      "ok": true,
+      "defaultPixelComparisons": {
+        "default-1600": {
+          "sameSize": true,
+          "changedBBox": null
+        },
+        "default-1280": {
+          "sameSize": true,
+          "changedBBox": null
+        },
+        "three-default-1600": {
+          "sameSize": true,
+          "changedBBox": null
+        },
+        "three-default-1280": {
+          "sameSize": true,
+          "changedBBox": null
+        }
+      },
+      "allFactorsExactlySeven": true,
+      "allCaptionsAboveBaseline": true
+    },
+    "fontPayloadReview": {
+      "ok": true,
+      "embeddedUses": 27,
+      "uniqueFontPayloads": 23,
+      "cabinetAndHansonPayloadsFound": 0,
+      "nestedSvgPayloadsChecked": 37,
+      "officialFontLicenseMetadataResourcesHashMatched": 6,
+      "scope": "Independent fontTools name-table and payload hash scan; official Manrope/Unbounded TTF, OFL and metadata freshly downloaded and compared. Source-design/media rights are a separate risk."
+    },
+    "stagedWhitespace": {
+      "ok": false,
+      "exitCode": 2,
+      "warnings": 106,
+      "classification": "note",
+      "scope": "All flags are verbatim upstream OFL notices (including original CRLF) and embedded font notice/version lines; no authored runtime or metadata whitespace finding. Original licence bytes are retained for provenance; no hook or validator is bypassed."
+    }
+  },
+  "limits": [
+    "Figma reconstructions use preview-matched implemented fonts; original font and editable paint identity not verified.",
+    "Three generic visual flags remain for confirmed original oversized-wordmark crops.",
+    "Synthetic touch handling is not real-device acceptance; no Windows/Linux/mobile/other-browser validation.",
+    "Cabinet and Hanson font payloads are excluded; implemented Manrope and Unbounded carry included OFL notices. Pitch standalone design grants and some individual media rights remain unresolved; font fixes are not asset clearance."
+  ],
+  "templates": [
+    {
+      "slug": "press-kit-editorial",
+      "slides": 24,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 2759,
+          "sha256": "02a66b29667cba48d77bfa7b5db2511acf5682f2b2a9b04fb0527c863cd8deb4"
+        },
+        "template.json": {
+          "bytes": 77463,
+          "sha256": "9d1bd6a504793bf764bf2820f9a17a418422e566fe51ecfe31b6ef954ce6b051"
+        },
+        "template.html": {
+          "bytes": 7836099,
+          "sha256": "eef060fa6f3ee73bff320294707badb60399ca0a030d0c915574bd4ff51534f3"
+        }
+      },
+      "typography": {
+        "display": "Manrope",
+        "body": "Manrope",
+        "style": "Manrope variable TTF 4.505, weights 200/300/400/500/700. This distribution replaces the source Cabinet Grotesk because its redistribution terms do not permit the bundled template use. Per-weight CSS size-adjust and ascent/descent/line-gap calibration preserve source frame geometry, baseline rhythm and near-matching text widths; glyph outlines differ. Original palette,1920×1080 grid and independent media remain. The original demo quote on page 11 is shortened to preserve the source quote frame and wrapping capacity with Manrope; source CSS sizes and line heights remain."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 24,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 24
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 23
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 23
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Manrope",
+                "weight": "200",
+                "status": "loaded"
+              },
+              {
+                "family": "Manrope",
+                "weight": "300",
+                "status": "loaded"
+              },
+              {
+                "family": "Manrope",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Manrope",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Manrope",
+                "weight": "700",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "eef060fa6f3ee73bff320294707badb60399ca0a030d0c915574bd4ff51534f3",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/press-kit-editorial/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": false,
+        "errors": [
+          "slide 1: p.f19 \"Bonne\" extends 26px outside the slide"
+        ]
+      },
+      "sourceFrameGeometry": {
+        "blockCount": 272,
+        "maxBlockDelta": 0.015726534296049977,
+        "scope": "Positioned source frames only; not full-image pixel error. Text flow changes with original sample copy; zero-sized SVG definition viewport offsets are retained as separate differences."
+      },
+      "copyInkCapacity": {
+        "method": "Same local source typography/frames; restore original leaf text temporarily and compare ink bounds. Positive line-height differences are review candidates, not automatic layout failures.",
+        "editedSlotsCompared": 28,
+        "rangeHeightCandidates": [],
+        "reviewConclusion": "No unresolved added-line collisions; replacement-font glyph differences and metric calibration are disclosed and separately reviewed."
+      },
+      "fontLicenseFiles": {
+        "font-manifest.json": {
+          "bytes": 2296,
+          "sha256": "58f0357466401372bbd42a67ce499fbef7e4d512b88f0b2325b4bdc8899f86b6"
+        },
+        "manrope-METADATA.pb": {
+          "bytes": 732,
+          "sha256": "fb204147a7c16d009d4fa53248b6075bc941d7adfa450a825bc5d4cef2f9ded9"
+        },
+        "manrope-OFL.txt": {
+          "bytes": 4387,
+          "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        }
+      }
+    },
+    {
+      "slug": "interior-design-editorial",
+      "slides": 35,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 1533,
+          "sha256": "15757426cf7fb544c48c146187d5b89ed81c5080a33cab68a1318cdf9bcb2008"
+        },
+        "template.json": {
+          "bytes": 88710,
+          "sha256": "33f706f50787a37a08c5d607a834dcb86d4c96ebe07bb411483b4934d886781e"
+        },
+        "template.html": {
+          "bytes": 11075295,
+          "sha256": "d009c93452b30c7f32a6297f6a9178efd3cb04686a6d5777558e9e013868eaa9"
+        }
+      },
+      "typography": {
+        "display": "Tenor Sans",
+        "body": "Poppins",
+        "style": "Exact source Tenor Sans 400 and Poppins 400 webfont faces embedded unchanged. The original 1920×1080 typography, tracked capitals, small captions, line heights and paragraph frame geometry are retained."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 35,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 35
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "d009c93452b30c7f32a6297f6a9178efd3cb04686a6d5777558e9e013868eaa9",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/interior-design-editorial/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": false,
+        "errors": [
+          "slide 4: p.source-node.s94 \"About\" extends 65px outside the slide",
+          "slide 4: p.source-node.s98 \"Gilbert –\" extends 34px outside the slide"
+        ]
+      },
+      "sourceFrameGeometry": {
+        "blockCount": 410,
+        "maxBlockDelta": 0.01880261803353278,
+        "scope": "Positioned source frames only; not full-image pixel error. Text flow changes with original sample copy; zero-sized SVG definition viewport offsets are retained as separate differences."
+      },
+      "copyInkCapacity": {
+        "method": "Same local source typography/frames; restore original leaf text temporarily and compare ink bounds. Positive line-height differences are review candidates, not automatic layout failures.",
+        "editedSlotsCompared": 20,
+        "rangeHeightCandidates": [],
+        "reviewConclusion": "No unresolved added-line collisions; replacement-font glyph differences and metric calibration are disclosed and separately reviewed."
+      },
+      "fontLicenseFiles": {}
+    },
+    {
+      "slug": "fashion-editorial-lookbook",
+      "slides": 22,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 1846,
+          "sha256": "deb44171a06c59b127b7c7c534b5e3ca502b08467c2e271d1b5417fd7e925927"
+        },
+        "template.json": {
+          "bytes": 31743,
+          "sha256": "2988ee8c6412f8a79bedbcb7559abb108fead1eedf9a23af65c10bb48fe80504"
+        },
+        "template.html": {
+          "bytes": 16911643,
+          "sha256": "a19d181f4df333bf3a123e253016bfa2165fc1f37c372bfb382ac9645012b8d5"
+        }
+      },
+      "typography": {
+        "display": "Fogtwo No5",
+        "body": "Inter",
+        "style": "Exact source Fogtwo No5 400 and Inter 400/700 embedded unchanged, plus source Nunito Sans 400 (under its original UUID family alias) for six small credit numerals. Original 1920×1080 high-contrast serif frames, rotated captions, line heights and letter spacing are retained."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 22,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 22
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 21
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 21
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Inter",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Inter",
+                "weight": "700",
+                "status": "loaded"
+              },
+              {
+                "family": "font-Fogtwo No5",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "font-ff00e195-1f57-4506-845a-423ad2809bdb",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "a19d181f4df333bf3a123e253016bfa2165fc1f37c372bfb382ac9645012b8d5",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/fashion-editorial-lookbook/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": true,
+        "errors": []
+      },
+      "sourceFrameGeometry": {
+        "blockCount": 124,
+        "maxBlockDelta": 0.015749097472962603,
+        "scope": "Positioned source frames only; not full-image pixel error. Text flow changes with original sample copy; zero-sized SVG definition viewport offsets are retained as separate differences."
+      },
+      "copyInkCapacity": {
+        "method": "Same local source typography/frames; restore original leaf text temporarily and compare ink bounds. Positive line-height differences are review candidates, not automatic layout failures.",
+        "editedSlotsCompared": 4,
+        "rangeHeightCandidates": [],
+        "reviewConclusion": "No unresolved added-line collisions; replacement-font glyph differences and metric calibration are disclosed and separately reviewed."
+      },
+      "fontLicenseFiles": {}
+    },
+    {
+      "slug": "design-review-grid",
+      "slides": 35,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 1835,
+          "sha256": "ba9ee2129c41182a23b827fc416f7c48378dd0074b3a553825a49d913fd294fe"
+        },
+        "template.json": {
+          "bytes": 50547,
+          "sha256": "b22f923278061fa8aaa755211b1cdf572575678e4048d0693436dc5b7b5f2e92"
+        },
+        "template.html": {
+          "bytes": 2298068,
+          "sha256": "d2e85f83394091fccbfd50e0cb0ad04fe91eef0cbc71556fe22730c02f14f287"
+        }
+      },
+      "typography": {
+        "display": "Inter / Tinos",
+        "body": "Inter",
+        "style": "Implemented fonts selected by preview matching; source font not verified. Inter 300/400 and Tinos Regular preserve the source sans-serif main voice and Times-like serif section titles. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 35,
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 35
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Inter",
+                "weight": "100 900",
+                "status": "loaded"
+              },
+              {
+                "family": "Tinos",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "d2e85f83394091fccbfd50e0cb0ad04fe91eef0cbc71556fe22730c02f14f287",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/design-review-grid/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": true,
+        "errors": []
+      },
+      "fontLicenseFiles": {
+        "font-manifest.json": {
+          "bytes": 541,
+          "sha256": "50e917cdcfdb117719ced237238e183fb2ba9ae4bc91d0b2b44d0c416c029153"
+        },
+        "inter-METADATA.pb": {
+          "bytes": 1342,
+          "sha256": "79e4721ef4f72251c6080a40dfd9efb6728b4df1fc690f0c70eb4b1b5303a5b0"
+        },
+        "inter-OFL.txt": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "tinos-METADATA.pb": {
+          "bytes": 1395,
+          "sha256": "e9db6bd24890351be0ac41486fbcf4ccb10b34ec19f2e77d7a5517f2eb1dbafe"
+        },
+        "tinos-OFL.txt": {
+          "bytes": 4383,
+          "sha256": "cb3382d4643e8b02c12e322c220a3c76a5020d667e4fd4e7c75e744cca6caa6b"
+        }
+      }
+    },
+    {
+      "slug": "research-readout-pastel",
+      "slides": 20,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 2083,
+          "sha256": "ac31d365fee37c449841ac413172ff89d85a84f31723be7a425c27f9c70696e1"
+        },
+        "template.json": {
+          "bytes": 36701,
+          "sha256": "7e321cd29be0249a685e66e63767f7800691d1d4f802a10a5bd39eb6e009dcce"
+        },
+        "template.html": {
+          "bytes": 645700,
+          "sha256": "394a7aefd1f852acf0d4ea1439beed314100c0b4718fab0df05a3167e743a7f1"
+        }
+      },
+      "typography": {
+        "display": "DM Sans",
+        "body": "DM Sans / Roboto Mono",
+        "style": "Implemented fonts selected by preview matching; source font not verified. DM Sans 300/400 and Roboto Mono 300 preserve the source rounded sans-serif main voice and monospaced metadata rail. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 20,
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 20
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 19
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 19
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "input-keyboard-does-not-turn-slide",
+            "ok": true
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "DM Sans",
+                "weight": "100 900",
+                "status": "loaded"
+              },
+              {
+                "family": "Roboto Mono",
+                "weight": "100 700",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "394a7aefd1f852acf0d4ea1439beed314100c0b4718fab0df05a3167e743a7f1",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/research-readout-pastel/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": true,
+        "errors": []
+      },
+      "fontLicenseFiles": {
+        "dmsans-METADATA.pb": {
+          "bytes": 1283,
+          "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+        },
+        "dmsans-OFL.txt": {
+          "bytes": 4482,
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        },
+        "font-manifest.json": {
+          "bytes": 565,
+          "sha256": "59f6ad544300ef084a9cac3062ee251a16d49395959334c88e59c79a80307305"
+        },
+        "robotomono-METADATA.pb": {
+          "bytes": 1353,
+          "sha256": "8aa7709a44aa1f10bc5f4710af9440e364d2fb4e6056cc05a0e9d0d40826a9b5"
+        },
+        "robotomono-OFL.txt": {
+          "bytes": 4395,
+          "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215"
+        }
+      }
+    },
+    {
+      "slug": "personal-branding-playful",
+      "slides": 18,
+      "files": {
+        "SOURCE-NOTICES.md": {
+          "bytes": 3050,
+          "sha256": "c0acfe4b3c628def90967f154ac7afff7a30577913799f374e5797a926f947bf"
+        },
+        "template.json": {
+          "bytes": 72170,
+          "sha256": "9a09f463a440e9bf3a0369de9853915866ef88b254f2c25fff66f66eac2c322c"
+        },
+        "template.html": {
+          "bytes": 7792284,
+          "sha256": "3e2799985c5d73e040f22ae7979ca297b17995c89addeb7e47cddb2777153716"
+        }
+      },
+      "typography": {
+        "display": "Savate",
+        "body": "Poppins",
+        "style": "Savate Regular (original static 2015 MIT font) and Poppins 500/600 (original 4.004 OFL) remain unchanged. Hanson Bold is replaced by OFL Unbounded700 variable TTF1.701 because complete source font redistribution terms were unavailable. CSS size-adjust 103.329022% and source-baseline font-metric calibration retain the wide-caps voice and source text frames; glyph outlines differ. The original1920×1080 grid, rotations, colors and geometry are preserved. The page 18 contact label reads MAIL to retain the same narrow single-line frame with Unbounded; source CSS sizes and line heights remain."
+      },
+      "nativeRuntime": {
+        "ok": true,
+        "pagesRendered": 18,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 18
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 17
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 17
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Unbounded",
+                "weight": "700",
+                "status": "loaded"
+              },
+              {
+                "family": "font-Savate",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ],
+        "fileSHA256": "3e2799985c5d73e040f22ae7979ca297b17995c89addeb7e47cddb2777153716",
+        "hashProvenance": "captured before/after native runtime check"
+      },
+      "sourceNotices": "templates/personal-branding-playful/SOURCE-NOTICES.md",
+      "visual1280x720": {
+        "ok": true,
+        "errors": []
+      },
+      "sourceFrameGeometry": {
+        "blockCount": 226,
+        "maxBlockDelta": 0.015726534296049977,
+        "scope": "Positioned source frames only; not full-image pixel error. Text flow changes with original sample copy; zero-sized SVG definition viewport offsets are retained as separate differences."
+      },
+      "copyInkCapacity": {
+        "method": "Same local source typography/frames; restore original leaf text temporarily and compare ink bounds. Positive line-height differences are review candidates, not automatic layout failures.",
+        "editedSlotsCompared": 77,
+        "rangeHeightCandidates": [],
+        "reviewConclusion": "No unresolved added-line collisions; replacement-font glyph differences and metric calibration are disclosed and separately reviewed."
+      },
+      "fontLicenseFiles": {
+        "font-manifest.json": {
+          "bytes": 899,
+          "sha256": "ab32a61d921c24b8709eaa7d809a103d66846afb02f66c4919b403dc81c9d25f"
+        },
+        "poppins-OFL.txt": {
+          "bytes": 4371,
+          "sha256": "fbc4c9a72266d66689621c1c438f71e214c2141a6416b667f9c5e556bbc2e7b3"
+        },
+        "savate-MIT.txt": {
+          "bytes": 1277,
+          "sha256": "1ef8ea502c9cab5b4429478ec91b1b91bf433d15a5a3f514d83485f47ff518fb"
+        },
+        "unbounded-METADATA.pb": {
+          "bytes": 1047,
+          "sha256": "1783291bc9f242703a27cc385f9094c0a0672e74905d23c889eb80e96e70bb75"
+        },
+        "unbounded-OFL.txt": {
+          "bytes": 4392,
+          "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+        }
+      }
+    }
+  ],
+  "review": {
+    "base": "origin/main",
+    "baseSHA": "5e0ae93020211bf8b49ead7fe1754e2510da2611",
+    "branch": "cliq/six-source-faithful-templates",
+    "scope": "Whole task effect, including all six new template folders, notices, evidence summary, gallery, research snapshot, README and batch-size instruction.",
+    "findings": [
+      {
+        "severity": "blocker",
+        "status": "fixed",
+        "item": "Cabinet font repository/template redistribution restriction",
+        "fix": "Remove font payload; use documented OFL Manrope adaptation."
+      },
+      {
+        "severity": "blocker",
+        "status": "fixed",
+        "item": "Hanson font lacked complete redistribution terms",
+        "fix": "Remove font payload; use documented OFL Unbounded adaptation."
+      },
+      {
+        "severity": "blocker",
+        "status": "fixed",
+        "item": "Percentage labels/rounded borders could collide with captions at supported low values",
+        "fix": "Measured label clearance and stroke avoidance across both layouts;72 boundary cases at two viewports pass."
+      },
+      {
+        "severity": "risk",
+        "status": "open",
+        "item": "Standalone source-design and individual media redistribution grants are not all confirmed; font adaptation is not asset clearance."
+      },
+      {
+        "severity": "note",
+        "status": "documented",
+        "item": "Three generic visual flags are intentional source wordmark crops; no validator exemption or blanket green result is claimed."
+      },
+      {
+        "severity": "note",
+        "status": "documented",
+        "item": "git diff --cached --check flags106 preserved upstream font-notice whitespace/CRLF lines; this check is not claimed green."
+      }
+    ]
+  }
+}

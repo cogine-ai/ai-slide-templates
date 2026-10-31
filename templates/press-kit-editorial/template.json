@@ -1,0 +1,1783 @@
+{
+  "slug": "press-kit-editorial",
+  "name": "Press Kit Editorial",
+  "tagline": "A complete 24-page editorial press kit with Manrope typography, alphabetical index, thin rules, native fact sheets and independent photographs.",
+  "mood": [
+    "editorial",
+    "restrained",
+    "confident",
+    "considered"
+  ],
+  "occasion": [
+    "brand press kit",
+    "company introduction",
+    "media briefing",
+    "lifestyle brand presentation",
+    "partnership credentials"
+  ],
+  "tone": [
+    "polished",
+    "precise",
+    "human",
+    "design-led"
+  ],
+  "formality": "medium-high",
+  "density": "medium-low",
+  "palette": {
+    "description": "Source charcoal and white with hairline grey rules; warm neutral photographic colors stay within independent image frames.",
+    "ink": "#151515",
+    "paper": "#FFFFFF",
+    "line": "#B2B2B2"
+  },
+  "scheme": "mixed",
+  "best_for": "Brand press kits, media information packs, lifestyle company introductions and premium editorial stories with factual reference lists, product photography and downloadable-asset directories.",
+  "avoid_for": "Dense financial dashboards or decks without strong photography. Pure-image pacing pages do not add capacity for long body text. Source-aligned small editorial text requires a presentation-size display.",
+  "typography": {
+    "display": "Manrope",
+    "body": "Manrope",
+    "style": "Manrope variable TTF 4.505, weights 200/300/400/500/700. This distribution replaces the source Cabinet Grotesk because its redistribution terms do not permit the bundled template use. Per-weight CSS size-adjust and ascent/descent/line-gap calibration preserve source frame geometry, baseline rhythm and near-matching text widths; glyph outlines differ. Original palette,1920×1080 grid and independent media remain. The original demo quote on page 11 is shortened to preserve the source quote frame and wrapping capacity with Manrope; source CSS sizes and line heights remain."
+  },
+  "slide_count": 24,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "embedded_source_fonts": false,
+    "native_text": true,
+    "native_svg": true,
+    "source_order_preserved": true,
+    "original_demo_copy": true,
+    "fictional_sample_content": true,
+    "source_gif_static_observed": false,
+    "redistribution_clearance_pending": true,
+    "embedded_fonts": true,
+    "licensed_font_adaptation": true
+  },
+  "layouts": [
+    "photographic-wordmark-cover",
+    "press-kit-cover",
+    "alphabetical-index",
+    "brand-introduction",
+    "four-principle-ethos",
+    "product-photo-pair",
+    "fact-sheet",
+    "asymmetric-photo-pair",
+    "locations-directory",
+    "founding-team",
+    "impact-quotation",
+    "editorial-photo-pair",
+    "impact-commitments",
+    "category-triptych",
+    "full-bleed-product",
+    "product-story",
+    "portrait-detail-pair",
+    "editorial-feature",
+    "three-image-editorial",
+    "product-giving-story",
+    "recognition-table",
+    "brand-asset-downloads",
+    "contact-directory",
+    "monogram-close"
+  ],
+  "layout_slots": {
+    "photographic-wordmark-cover": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Independent native SVG logo or monogram. For a real deck, replace with the brand logo while preserving its source frame, optical size and visual treatment."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: a premium SOCIALLY CONSCIOUS commerce brand. Keep its measured line count and hierarchy; approximately 43 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Bonne. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      }
+    ],
+    "press-kit-cover": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: a premium SOCIALLY CONSCIOUS commerce brand. Keep its measured line count and hierarchy; approximately 43 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Press Kit. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      }
+    ],
+    "alphabetical-index": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 22. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Founding team. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 14. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: E. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: J. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Our ethos. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Social impact. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "shape-07",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: H. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 18. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: K. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 23. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-08",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-09",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-14",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Fact sheet. Keep its measured line count and hierarchy; approximately 10 characters at this source size."
+      },
+      {
+        "name": "text-15",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 5. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-16",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Editorial. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-17",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Downloads. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-10",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-18",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 21. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-19",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Recognition. Keep its measured line count and hierarchy; approximately 11 characters at this source size."
+      },
+      {
+        "name": "text-20",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Kit index. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-21",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 9. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-22",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: G. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-23",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: F. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-24",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 11. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-25",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 7. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-26",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 4. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-11",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-27",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 10. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-28",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: I. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-29",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Flagships. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-30",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-31",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Locations. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-32",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Reach out. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-12",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-33",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-34",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Us. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      }
+    ],
+    "brand-introduction": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Us. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: We’re Bonne, an independent lifestyle studio making thoughtful objects for t. Keep its measured line count and hierarchy; approximately 393 characters at this source size."
+      }
+    ],
+    "four-principle-ethos": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Be inimitable. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Be brave. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Our ethos. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Be accountable. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Four commitments shape the way Bonne works. They guide our decisions in the . Keep its measured line count and hierarchy; approximately 219 characters at this source size."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Be sustainable. Keep its measured line count and hierarchy; approximately 14 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      }
+    ],
+    "product-photo-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "fact-sheet": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: $6.2m. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Social media followers. Keep its measured line count and hierarchy; approximately 22 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2018. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Revenue. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 103. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Headquarters. Keep its measured line count and hierarchy; approximately 12 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Store count. Keep its measured line count and hierarchy; approximately 11 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Employees. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Median customer spend. Keep its measured line count and hierarchy; approximately 21 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: E. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: $102. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-07",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-14",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Founded. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-15",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Fact sheet. Keep its measured line count and hierarchy; approximately 10 characters at this source size."
+      },
+      {
+        "name": "text-16",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 6. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-17",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-18",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: G. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-19",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 1.8m. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "text-20",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Paris, France. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-21",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-22",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: F. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-08",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-09",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "asymmetric-photo-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "locations-directory": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Christchurch. Keep its measured line count and hierarchy; approximately 12 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: E. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: London. Keep its measured line count and hierarchy; approximately 6 characters at this source size."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Tokyo. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: New York. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: F. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Locations. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Paris. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "shape-07",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-08",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Naples. Keep its measured line count and hierarchy; approximately 6 characters at this source size."
+      }
+    ],
+    "founding-team": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * Lifelong bond. Keep its measured line count and hierarchy; approximately 15 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Sarah Bloom. Keep its measured line count and hierarchy; approximately 11 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Kelly Tran. Keep its measured line count and hierarchy; approximately 10 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Shaun Roberts. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Kelly, Shaun, and Sarah met in a studio in Paris. Their conversations moved . Keep its measured line count and hierarchy; approximately 205 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Founding team. Keep its measured line count and hierarchy; approximately 13 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      }
+    ],
+    "impact-quotation": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "svg",
+        "required": false,
+        "description": "Independent native SVG logo or monogram. For a real deck, replace with the brand logo while preserving its source frame, optical size and visual treatment."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Socialimpact. Keep its measured line count and hierarchy; approximately 12 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: The best conversations in our shops begin with how something is made. Peop. Keep its measured wrapping capacity and hierarchy; approximately 214 characters at the implemented font metrics."
+      }
+    ],
+    "editorial-photo-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "impact-commitments": [
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: We ask makers to share their methods. Keep its measured line count and hierarchy; approximately 36 characters at this source size. This commitment row must stay on one line at the source Cabinet size within 855 native pixels; keep wording roughly 35–38 characters and check actual word width. Never let a second line cross the divider or next row."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: We support repair and thoughtful reuse. Keep its measured line count and hierarchy; approximately 38 characters at this source size. This commitment row must stay on one line at the source Cabinet size within 855 native pixels; keep wording roughly 35–38 characters and check actual word width. Never let a second line cross the divider or next row."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: We choose materials for a longer life. Keep its measured line count and hierarchy; approximately 37 characters at this source size. This commitment row must stay on one line at the source Cabinet size within 855 native pixels; keep wording roughly 35–38 characters and check actual word width. Never let a second line cross the divider or next row."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: We publish progress and open questions. Keep its measured line count and hierarchy; approximately 38 characters at this source size. This commitment row must stay on one line at the source Cabinet size within 855 native pixels; keep wording roughly 35–38 characters and check actual word width. Never let a second line cross the divider or next row."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Better decisions begin with clear information. We keep reviewing the materia. Keep its measured line count and hierarchy; approximately 198 characters at this source size."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      }
+    ],
+    "category-triptych": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Home & furniture. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 02. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 03. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Flagships. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 01. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Skincare. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Clothing. Keep its measured line count and hierarchy; approximately 8 characters at this source size."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "full-bleed-product": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "product-story": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: The Set brings a cup, bowl, and small plate into one family. Soft edges and . Keep its measured line count and hierarchy; approximately 205 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * The set. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      }
+    ],
+    "portrait-detail-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "editorial-feature": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: An object carries more than a useful function. Its shape, material, and jour. Keep its measured line count and hierarchy; approximately 622 characters at this source size. In the final paragraph, keep only the email in the original underlined SPAN; introductory words stay in the plain parent P."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Editorial. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * MORE THAN A STORE. Keep its measured line count and hierarchy; approximately 19 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "three-image-editorial": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Next, we are bringing repair guidance and material notes closer to the produ. Keep its measured line count and hierarchy; approximately 179 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * Finding the balance. Keep its measured line count and hierarchy; approximately 21 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Bonne pairs storytelling with objects that can earn a place in a home. We lo. Keep its measured line count and hierarchy; approximately 208 characters at this source size."
+      }
+    ],
+    "product-giving-story": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: The Jar makes room for the ordinary essentials of a kitchen, desk, or shelf.. Keep its measured line count and hierarchy; approximately 248 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * The jar. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "recognition-table": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Product of the Year. Keep its measured line count and hierarchy; approximately 19 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2020. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Best Newcomer Award. Keep its measured line count and hierarchy; approximately 19 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Best Commerce Store Award. Keep its measured line count and hierarchy; approximately 25 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Toothbrush Award. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2021. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-02",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Friends of the Earth Award. Keep its measured line count and hierarchy; approximately 26 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: F. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Silver Boutique Award. Keep its measured line count and hierarchy; approximately 21 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Recognition. Keep its measured line count and hierarchy; approximately 11 characters at this source size."
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2021. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-03",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-04",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-14",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2020. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-05",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-15",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * Selected awards. Keep its measured line count and hierarchy; approximately 17 characters at this source size."
+      },
+      {
+        "name": "text-16",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: D. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-17",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: G. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-18",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2020. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "text-19",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2020. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-06",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-20",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Year. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "text-21",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 2021. Keep its measured line count and hierarchy; approximately 4 characters at this source size."
+      },
+      {
+        "name": "shape-07",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "shape-08",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-22",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: E. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-23",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-24",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Golden Boutique Award. Keep its measured line count and hierarchy; approximately 21 characters at this source size."
+      },
+      {
+        "name": "shape-09",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      }
+    ],
+    "brand-asset-downloads": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: C. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: A. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Photography. Keep its measured line count and hierarchy; approximately 11 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: B. Keep its measured line count and hierarchy; approximately 3 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Colors. Keep its measured line count and hierarchy; approximately 6 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Downloads. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Writing about Bonne or preparing a feature? This section shows the logo, col. Keep its measured line count and hierarchy; approximately 189 characters at this source size."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Logos. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "contact-directory": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Twitter. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: bonne-studio.com. Keep its measured line count and hierarchy; approximately 16 characters at this source size."
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: 72 Boulevard de NormandieRhône-AlpesParis59500. Keep its measured line count and hierarchy; approximately 46 characters at this source size."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Press. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: hello@bonne.studio. Keep its measured line count and hierarchy; approximately 18 characters at this source size."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Write. Keep its measured line count and hierarchy; approximately 5 characters at this source size."
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: press@bonne.studio. Keep its measured line count and hierarchy; approximately 18 characters at this source size."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: General. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: TikTok. Keep its measured line count and hierarchy; approximately 6 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Instagram. Keep its measured line count and hierarchy; approximately 9 characters at this source size."
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Socials. Keep its measured line count and hierarchy; approximately 7 characters at this source size."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: For a story, a collaboration, a stockist conversation, or a question about o. Keep its measured line count and hierarchy; approximately 142 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ],
+    "monogram-close": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: Thank you for spending time with Bonne. We hope these pages have made the pe. Keep its measured line count and hierarchy; approximately 350 characters at this source size."
+      },
+      {
+        "name": "image-01",
+        "type": "svg",
+        "required": false,
+        "description": "Independent native SVG logo or monogram. For a real deck, replace with the brand logo while preserving its source frame, optical size and visual treatment."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Native text frame. Current demo: * Until next time. Keep its measured line count and hierarchy; approximately 17 characters at this source size."
+      },
+      {
+        "name": "shape-01",
+        "type": "shape",
+        "required": false,
+        "description": "Native SVG design geometry, part of the layout identity. Preserve its frame, fill, stroke, rotation and stacking order; this is not a photograph or prose slot."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or product image; replace within this measured frame and keep its source crop."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 45,
+    "max_subtitle_chars": 90,
+    "max_body_chars_per_slide": 800,
+    "max_bullets": 7,
+    "max_cards": 3,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 36
+  },
+  "source_inspiration": {
+    "name": "Isaac Powell — Press Kit (Pitch), 24 public slides",
+    "url": "https://pitch.com/templates/Press-Kit-4vxq8V04agMk5g3CGP4A2A7b",
+    "notes": "Complete 24-page native HTML/CSS/SVG source-inspired reconstruction. Original1920×1080 frame geometry, palette, independent image crops and page order are preserved; long demo copy is original fictional content. Typography is explicitly adapted: Manrope variable TTF 4.505, weights 200/300/400/500/700. This distribution replaces the source Cabinet Grotesk because its redistribution terms do not permit the bundled template use. Per-weight CSS size-adjust and ascent/descent/line-gap calibration preserve source frame geometry, baseline rhythm and near-matching text widths; glyph outlines differ. Original palette,1920×1080 grid and independent media remain. Source SVG ornaments remain independent native elements; no full-slide screenshot or source platform runtime is used. Source artwork and media retain original rights; font substitution does not establish their separate standalone template distribution clearance. The original demo quote on page 11 is shortened to preserve the source quote frame and wrapping capacity with Manrope; source CSS sizes and line heights remain."
+  }
+}

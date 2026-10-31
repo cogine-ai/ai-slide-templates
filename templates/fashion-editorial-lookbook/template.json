@@ -1,0 +1,885 @@
+{
+  "slug": "fashion-editorial-lookbook",
+  "name": "Fashion Editorial Lookbook",
+  "tagline": "A complete 22-slide photographic lookbook with source Fogtwo No5 and Inter, circular crops, black editorial spreads, fine line patterns and native fashion credits.",
+  "mood": [
+    "editorial",
+    "quiet",
+    "fashion-led",
+    "art-directed"
+  ],
+  "occasion": [
+    "fashion lookbook",
+    "photography story",
+    "creative portfolio",
+    "campaign art direction"
+  ],
+  "tone": [
+    "literary",
+    "photographic",
+    "refined",
+    "curatorial"
+  ],
+  "formality": "medium-high",
+  "density": "low",
+  "palette": {
+    "background": "#E9E8E6",
+    "paper": "#FFFFFF",
+    "black": "#000000",
+    "description": "Exact source warm light gray with black editorial spreads and white paper notes; the clothing and landscape photographs provide the muted natural tones."
+  },
+  "typography": {
+    "display": "Fogtwo No5",
+    "body": "Inter",
+    "style": "Exact source Fogtwo No5 400 and Inter 400/700 embedded unchanged, plus source Nunito Sans 400 (under its original UUID family alias) for six small credit numerals. Original 1920×1080 high-contrast serif frames, rotated captions, line heights and letter spacing are retained."
+  },
+  "scheme": "mixed",
+  "best_for": "Fashion and photography editorials that need complete visual-story sequences, circular and capsule crops, paired detail images, pattern layers, clothing credits and a native team-credit spread.",
+  "avoid_for": "Dense business reporting, chart-heavy research, formal board materials or decks whose story depends on many paragraphs on every page.",
+  "slide_count": 22,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "source_order_preserved": true,
+    "source_canvas_size": "1920x1080",
+    "embedded_fonts": true,
+    "offline": true,
+    "editable_html_text": true,
+    "native_svg_shapes": true,
+    "independent_image_slots": 45,
+    "original_demo_prose_frames": 4
+  },
+  "layouts": [
+    "circular-fashion-cover",
+    "intro-portrait-split",
+    "three-story-index",
+    "black-story-portrait",
+    "vertical-caption-dual-photo",
+    "circular-photo-and-paper-note",
+    "detail-and-landscape-photo",
+    "pattern-backed-two-models",
+    "black-sand-story",
+    "portrait-and-rock-diptych",
+    "landscape-paper-note",
+    "three-photo-model-story",
+    "pattern-and-clothing-detail",
+    "black-desert-story",
+    "vertical-caption-fashion-pair",
+    "tall-photo-and-landscape-pair",
+    "capsule-photo-and-paper-note",
+    "bold-pattern-and-portrait",
+    "full-bleed-horizon",
+    "patterned-contact-spread",
+    "fashion-credits-and-mosaic",
+    "black-circular-photo-close"
+  ],
+  "layout_slots": {
+    "circular-fashion-cover": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Editorial"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Layouts"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Fall/Winter 2021"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Fashion Shoot"
+      }
+    ],
+    "intro-portrait-split": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Intro"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Provide an introduction to your deck here. Offer some context on the photoshoots: Introduce the team and provide an over"
+      }
+    ],
+    "three-story-index": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. What's inside?"
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Out of Doors"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Frankie & Robin"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Pillars of Sand"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Alex & Jamie"
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. One with the Desert"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Finn"
+      }
+    ],
+    "black-story-portrait": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Out of Doors"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. There is nothing like desert air. It hits you like a thick wall, holding you back from the world. The dry air chokes you"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Frankie"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Robin"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "vertical-caption-dual-photo": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci"
+      }
+    ],
+    "circular-photo-and-paper-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ],
+    "detail-and-landscape-photo": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi"
+      }
+    ],
+    "pattern-backed-two-models": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Frankie"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Robin"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "black-sand-story": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Pillars of Sand"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The sand is a whole other story. The sand is a living creature, always moving. It shifts in the wind, and it moves on it"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Alex"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jamie"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "portrait-and-rock-diptych": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi"
+      }
+    ],
+    "landscape-paper-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ],
+    "three-photo-model-story": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Alex"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jamie"
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "pattern-and-clothing-detail": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "black-desert-story": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. One with the Desert"
+      },
+      {
+        "name": "body-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. After a while, you get used to the desert. In fact, you start to view it as your home. The desert is a place of beauty, "
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Finn"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "vertical-caption-fashion-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci"
+      }
+    ],
+    "tall-photo-and-landscape-pair": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi"
+      }
+    ],
+    "capsule-photo-and-paper-note": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ],
+    "bold-pattern-and-portrait": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jewelry — Morelli Jacket — Bianchi"
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ],
+    "full-bleed-horizon": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Jacket — Bianchi Trousers — Ricci Boots — Rossi"
+      }
+    ],
+    "patterned-contact-spread": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Editorial Rd 27 - London - www.fashion.co - contact@fashion.co"
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Fashion Co"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Contact"
+      }
+    ],
+    "fashion-credits-and-mosaic": [
+      {
+        "name": "text-01",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. The Team"
+      },
+      {
+        "name": "geometry-01",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-02",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Models"
+      },
+      {
+        "name": "text-03",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Frankie Holden, Robin Walters, Alex Lowe, Jamie Thomson, Finn Ray"
+      },
+      {
+        "name": "geometry-02",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "geometry-03",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-04",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Photography"
+      },
+      {
+        "name": "text-05",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Eva-Rose George"
+      },
+      {
+        "name": "geometry-04",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "geometry-05",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-06",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Styling"
+      },
+      {
+        "name": "text-07",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Valerie Ingram, Montel Hurst"
+      },
+      {
+        "name": "geometry-06",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "geometry-07",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-08",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Hair"
+      },
+      {
+        "name": "text-09",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Cally Eastwood"
+      },
+      {
+        "name": "geometry-08",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "geometry-09",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-10",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Art Direction"
+      },
+      {
+        "name": "text-11",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Leah Hardin, Sumaiyah Jones"
+      },
+      {
+        "name": "geometry-10",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "geometry-11",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "text-12",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Photography Assistant"
+      },
+      {
+        "name": "text-13",
+        "type": "text",
+        "required": true,
+        "description": "Replace within the original measured text frame. Matt Greenway"
+      },
+      {
+        "name": "geometry-12",
+        "type": "shape",
+        "required": true,
+        "description": "Native source SVG shape or rule; preserve geometry and paint."
+      },
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-02",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-03",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-04",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-05",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-06",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      },
+      {
+        "name": "image-07",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ],
+    "black-circular-photo-close": [
+      {
+        "name": "image-01",
+        "type": "image",
+        "required": true,
+        "description": "Independent photograph or line texture. Preserve the source crop and frame; clothing labels outside the image stay native text."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 48,
+    "max_subtitle_chars": 140,
+    "max_body_chars_per_slide": 650,
+    "max_bullets": 6,
+    "max_cards": 3,
+    "recommended_slide_count_min": 10,
+    "recommended_slide_count_max": 30
+  },
+  "source_inspiration": {
+    "name": "Carmen Nácher — Editorial Layouts (Pitch), complete 22-page public sequence",
+    "url": "https://pitch.com/templates/Editorial-Layouts-0oSMjM3bXrVP4MnkDG674F9T",
+    "notes": "Complete public source sequence rebuilt from measured DOM and all computed style values. Text, SVG primitives, rules, processes, pricing and captions remain native and replaceable; photographs and any source line textures remain independent embedded image slots. Exact loaded source image bytes and source font faces are embedded for offline display. Long prose is original demonstration writing of similar length, recorded in the evidence manifest; short labels and sample names do not imply endorsement. Several pages are layout variants rather than unique layouts. Source design and individual media redistribution rights have not been fully confirmed; this is not a grant of those rights."
+  }
+}

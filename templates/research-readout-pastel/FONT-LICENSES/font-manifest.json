@@ -1,0 +1,16 @@
+[
+  {
+    "implemented_family": "DM Sans",
+    "font_file": "dmsans-DMSans[opsz,wght].ttf",
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "license": "SIL OFL 1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/dmsans"
+  },
+  {
+    "implemented_family": "Roboto Mono",
+    "font_file": "robotomono-RobotoMono[wght].ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+    "license": "SIL OFL 1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/robotomono"
+  }
+]
