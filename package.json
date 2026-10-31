@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",
+    "validate:assets": "node scripts/validate-assets.mjs",
     "test": "node --test scripts/*.test.mjs",
     "preview": "node scripts/preview.mjs",
     "screenshot": "node scripts/screenshot.mjs"

@@ -1,0 +1,16 @@
+[
+  {
+    "implemented_family": "Inter",
+    "font_file": "inter-Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "license": "SIL OFL 1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/inter"
+  },
+  {
+    "implemented_family": "Tinos",
+    "font_file": "tinos-Tinos-Regular.ttf",
+    "sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61",
+    "license": "SIL OFL 1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/tinos"
+  }
+]

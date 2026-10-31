@@ -1,0 +1,1420 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-10-31T19:58:06.547Z",
+  "status": "PASS",
+  "scope": "Six-template final replacement batch in PR #29; all existing template metadata structurally validated. Asset-rights review applies only to these six, not the 68 older templates.",
+  "base": {
+    "branch": "main",
+    "commit": "5e0ae93020211bf8b49ead7fe1754e2510da2611"
+  },
+  "supersededSourceStudyCommit": "952dce60d0b7c65e0178718cbed65c7b0584e194",
+  "environment": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "node": "v24.22.1",
+    "browser": "Google Chrome 156.0.8078.76",
+    "execution": "Isolated headless browser profiles, HTTP(S) requests blocked during runtime checks"
+  },
+  "totals": {
+    "libraryTemplates": 74,
+    "librarySlides": 979,
+    "batchTemplates": 6,
+    "batchSlides": 154,
+    "layoutSlots": 1409,
+    "templates": 6,
+    "slides": 154,
+    "photoRecordsAcrossTemplates": 35,
+    "distinctPexelsPhotoIds": 32,
+    "distinctDownloadedSourceFiles": 32,
+    "sourceFilesMatchedToRecordedSha256": 32,
+    "embeddedSvgRecordsAcrossTemplates": 12,
+    "embeddedImageRecordsAcrossTemplates": 47,
+    "distinctEmbeddedRasterPayloads": 32,
+    "distinctEmbeddedSvgPayloads": 8,
+    "distinctEmbeddedImagePayloads": 40,
+    "fontFacesAcrossTemplates": 22,
+    "distinctFontPayloads": 22,
+    "distinctFontFamilies": 10,
+    "retiredDistinctRasterVariantsChecked": 183,
+    "retiredSourceCustomArtIdsChecked": 26,
+    "retiredNontrivialSourceArtPathsChecked": 15,
+    "matchesToRetiredMaterial": 0
+  },
+  "commands": [
+    {
+      "command": "node scripts/validate.mjs",
+      "exitCode": 0,
+      "summary": "74 templates structurally valid"
+    },
+    {
+      "command": "node scripts/validate.test.mjs",
+      "exitCode": 0,
+      "summary": "11 tests pass"
+    },
+    {
+      "command": "node --test scripts/preview.test.mjs scripts/screenshot.test.mjs scripts/validate-assets.test.mjs scripts/validate.test.mjs",
+      "exitCode": 0,
+      "summary": "36 tests pass, 0 failed/skipped"
+    },
+    {
+      "command": "node scripts/validate-assets.mjs",
+      "exitCode": 0,
+      "summary": "6 manifests pass; 68 legacy templates unassessed"
+    }
+  ],
+  "unifiedRuntime": {
+    "command": "node previews/implementation-2026-11-01/render-qa.mjs",
+    "status": "PASS",
+    "slides": 154
+  },
+  "genericVisual": {
+    "command": "node previews/implementation-2026-11-01/run-generic-qa.mjs press-kit-editorial interior-design-editorial fashion-editorial-lookbook design-review-grid research-readout-pastel personal-branding-playful",
+    "status": "PASS",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "templates": 6,
+    "errors": 0
+  },
+  "research": {
+    "htmlSHA256": "7e7c83f7eef9209ea8a22c40db8715b052b02d2cf999385c2d08123866fff2a9",
+    "interactionCommand": "node previews/implementation-2026-11-01/figma-interaction-qa.mjs",
+    "interaction": {
+      "checkedAt": "2026-10-31T19:37:58.280Z",
+      "fileSHA256": "7e7c83f7eef9209ea8a22c40db8715b052b02d2cf999385c2d08123866fff2a9",
+      "ok": true,
+      "scope": "Isolated headless Chrome; real native input keyboard events and reload; local single-user state only.",
+      "checks": [
+        {
+          "name": "native-range-keyboard-input",
+          "ok": true,
+          "detail": "5"
+        },
+        {
+          "name": "range-status-updated",
+          "ok": true
+        },
+        {
+          "name": "range-persists-on-reload",
+          "ok": true,
+          "detail": "5"
+        },
+        {
+          "name": "localStorage-persists-response",
+          "ok": true
+        },
+        {
+          "name": "range-key-does-not-turn-slide",
+          "ok": true
+        },
+        {
+          "name": "nine-stat-values-and-heights-synchronized",
+          "ok": true,
+          "detail": [
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 54,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 378,
+                "top": 455.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 83,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 581,
+                "top": 252.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "three-proportional-stat-panels",
+              "value": 36,
+              "base": 833.333,
+              "factor": 7,
+              "initial": {
+                "height": 252,
+                "top": 581.333
+              },
+              "mutation": {
+                "height": 350,
+                "top": 483.333
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 78,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 546,
+                "top": 219
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 61,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 427,
+                "top": 338
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 41,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 287,
+                "top": 478
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 89,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 623,
+                "top": 142
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 66,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 462,
+                "top": 303
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            },
+            {
+              "layout": "six-stat-column-panels",
+              "value": 78,
+              "base": 765,
+              "factor": 7,
+              "initial": {
+                "height": 546,
+                "top": 219
+              },
+              "mutation": {
+                "height": 350,
+                "top": 415
+              },
+              "ok": true
+            }
+          ]
+        },
+        {
+          "name": "credits-panel-opens",
+          "ok": true
+        },
+        {
+          "name": "credits-panel-blocks-slide-key",
+          "ok": true
+        },
+        {
+          "name": "credits-panel-closes",
+          "ok": true
+        }
+      ]
+    },
+    "chartCommand": "node previews/implementation-2026-11-01/ship-review-research/verify.mjs",
+    "boundary": {
+      "ok": true,
+      "htmlSHA256": "7e7c83f7eef9209ea8a22c40db8715b052b02d2cf999385c2d08123866fff2a9",
+      "fileUnchanged": true,
+      "sixColumnBoundaryCases": 48,
+      "threeColumnBoundaryCases": 24,
+      "defaultCases": 6,
+      "values": [
+        0,
+        10,
+        20,
+        100
+      ],
+      "viewports": [
+        {
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "pixelsPerPercent": 7,
+      "minimumLabelGap": 16,
+      "zeroValueHeight": 0
+    }
+  },
+  "independentRights": {
+    "status": "PASS",
+    "primaryPermissionBasis": {
+      "figmaSlideDeckDesigns": {
+        "license": "CC-BY-4.0",
+        "policyUrl": "https://help.figma.com/hc/en-us/articles/360042296374-Figma-Community-copyright-and-licensing",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "creditedCreator": "Figma Community (@figma)",
+        "adaptationAndChangeNoticesRetained": true
+      },
+      "fourOriginalCompositions": {
+        "license": "MIT",
+        "creator": "Cogine AI",
+        "statement": "The four Pitch genre references were replaced by new compositions, CSS, copy and native SVG. Clearance does not rely on a Pitch source-design redistribution grant."
+      },
+      "photographs": {
+        "license": "LicenseRef-Pexels",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "termsUrl": "https://www.pexels.com/terms-of-service/",
+        "conditions": "Individually verified photo sources and creators; used within original creative text/layout compositions, not a standalone stock pack or an endorsement; Pexels terms and separate third-party-right conditions remain applicable."
+      },
+      "fonts": {
+        "license": "SIL-OFL-1.1, plus the original Savate static font under MIT",
+        "completeNoticesRetainedInEachHtml": true,
+        "fontNoticeFormatting": "HTML comments replace double hyphens with em dashes; licence wording is otherwise retained."
+      }
+    },
+    "outstandingFindings": [],
+    "unassessedLegacyTemplateCount": 68
+  },
+  "retiredCropFindings": {
+    "baselineCommit": "952dce60d0b7c65e0178718cbed65c7b0584e194",
+    "status": "removed-with-superseded-compositions",
+    "findings": [
+      {
+        "template": "press-kit-editorial",
+        "page": 1,
+        "sourceWordmark": "Bonne",
+        "oldOverflowPx": 26,
+        "status": "source element removed; original North Objects cover replaces it"
+      },
+      {
+        "template": "interior-design-editorial",
+        "page": 4,
+        "sourceWordmark": "About / Gilbert",
+        "oldOverflowPx": [
+          65,
+          34
+        ],
+        "status": "source elements removed; original composition replaces them"
+      }
+    ],
+    "waivers": [],
+    "genericValidatorScope": "Text overflow, navigation and runtime checks; image-crop quality is assessed separately through visual review.",
+    "evidence": "previews/asset-clearance-2026-11-01/legacy-crop-review/legacy-crop-review.json",
+    "currentTextRangeBounds": {
+      "pressKitCover": {
+        "left": 70,
+        "top": 100,
+        "right": 80,
+        "bottom": 27
+      },
+      "interiorPage4": {
+        "left": 96,
+        "top": 110,
+        "right": 100,
+        "bottom": 45
+      }
+    }
+  },
+  "sourceRemoval": {
+    "baselineCommit": "952dce60d0b7c65e0178718cbed65c7b0584e194",
+    "coverage": "All renderable IMG, CSS image and nested SVG payloads; source custom-art IDs and nontrivial custom paths",
+    "retiredRasterVariants": 183,
+    "retiredCustomArtIds": 26,
+    "retiredNontrivialPaths": 15,
+    "matches": 0
+  },
+  "whitespace": {
+    "command": "git diff --check origin/main",
+    "exitCode": 2,
+    "passed": false,
+    "warnings": 110,
+    "files": {
+      "templates/design-review-grid/FONT-LICENSES/inter-OFL.txt": 1,
+      "templates/design-review-grid/FONT-LICENSES/tinos-OFL.txt": 1,
+      "templates/design-review-grid/template.html": 2,
+      "templates/fashion-editorial-lookbook/template.html": 4,
+      "templates/interior-design-editorial/template.html": 2,
+      "templates/personal-branding-playful/FONT-LICENSES/unbounded-OFL.txt": 1,
+      "templates/personal-branding-playful/template.html": 1,
+      "templates/press-kit-editorial/FONT-LICENSES/manrope-OFL.txt": 1,
+      "templates/press-kit-editorial/template.html": 1,
+      "templates/research-readout-pastel/FONT-LICENSES/dmsans-OFL.txt": 93,
+      "templates/research-readout-pastel/FONT-LICENSES/robotomono-OFL.txt": 1,
+      "templates/research-readout-pastel/template.html": 2
+    },
+    "classification": "Only original upstream font-license text (including CRLF) and embedded font notice/version lines. No authored runtime code, metadata, prose or validator warnings. Notices retained; no hooks or checks disabled."
+  },
+  "templates": [
+    {
+      "slug": "press-kit-editorial",
+      "slides": 24,
+      "layoutSlotCount": 293,
+      "compositionLicense": "MIT",
+      "hashes": {
+        "htmlSHA256": "aa925247b722c97be783fc3b2d2eabc522eec9df88d7a3bbe767e64a69c79606",
+        "metadataSHA256": "6a9830b7a49a8d57a4f92203c055d8178e25660558d6e6562a1549e009b00ee9",
+        "assetManifestSHA256": "9b2a94eeae2c474292d9f4f6ed3a9566506be16aade508ca93f72127a6a87fdf",
+        "sourceNoticesSHA256": "beebe9d36d3a789b7137795b25b7a6528997edd9d2dac0ef785fb42850ce0bd5",
+        "assetSummarySHA256": "a7e95f59c1188c663665b86696933d2949b7fe7a770650725daa8e68f303a516"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:17.836Z",
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "pages": 24,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 24
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 23
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 23
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Manrope",
+                "weight": "200 800",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "press-kit-editorial",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "press-kit-editorial",
+        "ok": true,
+        "images": 8,
+        "imageUses": 21,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 24,
+        "designLicense": "MIT",
+        "photoRecords": 8,
+        "embeddedSvgRecords": 0,
+        "embeddedImageRecords": 8,
+        "fontFaces": 1,
+        "fontFamilies": [
+          "Manrope"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": [
+          7119222,
+          34902344,
+          5598279,
+          27180805,
+          12859529,
+          6476112,
+          15820561,
+          19217224
+        ]
+      }
+    },
+    {
+      "slug": "interior-design-editorial",
+      "slides": 35,
+      "layoutSlotCount": 354,
+      "compositionLicense": "MIT",
+      "hashes": {
+        "htmlSHA256": "d6e30db91ecc8d16c4e2e749c266b34ee02643f0bc9cbb66313aacfa2367e71c",
+        "metadataSHA256": "32067b0ba7e5697d58690df61c0f08938788ec7a12ee98b66c09e6c0797ce510",
+        "assetManifestSHA256": "5f28cff8848562f26704a26b004733c0f9708ed843ae3fbe48411263cdaa84c7",
+        "sourceNoticesSHA256": "5ec9d6aae43d5d1b1ee5da3dbdef4338ba0c7127a68ed721f82d11a20e23b540",
+        "assetSummarySHA256": "4e5a95626129741e6f15e5f9778fefced72698e5b583a53f012fbd88340fb8a0"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:22.953Z",
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "pages": 35,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 35
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Tenor Sans",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "interior-design-editorial",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "interior-design-editorial",
+        "ok": true,
+        "images": 10,
+        "imageUses": 12,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 35,
+        "designLicense": "MIT",
+        "photoRecords": 10,
+        "embeddedSvgRecords": 0,
+        "embeddedImageRecords": 10,
+        "fontFaces": 6,
+        "fontFamilies": [
+          "Poppins",
+          "Tenor Sans"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": [
+          3952048,
+          6800942,
+          8092177,
+          8146214,
+          9968387,
+          11273655,
+          6958141,
+          19866428,
+          7232409,
+          17734751
+        ]
+      }
+    },
+    {
+      "slug": "fashion-editorial-lookbook",
+      "slides": 22,
+      "layoutSlotCount": 196,
+      "compositionLicense": "MIT",
+      "hashes": {
+        "htmlSHA256": "3b71eb6a8c1b45a0993adef462e0967f92a3ee9683bae867905ccec828ec3d3d",
+        "metadataSHA256": "39b6bd5792b1016bf16d287bd87d0f7bda10974c884741f4d3df8724f7108d80",
+        "assetManifestSHA256": "51b69d72cc95870c379402a95d4a1de509ae79670a7b306d5b187d52aeaa928c",
+        "sourceNoticesSHA256": "757c6d405ab04c4d2d15ae809adf244f287a8cc004891b94c902551af50b0ec2",
+        "assetSummarySHA256": "4e5a95626129741e6f15e5f9778fefced72698e5b583a53f012fbd88340fb8a0"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:26.896Z",
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "pages": 22,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 22
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 21
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 21
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Inter",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Inter",
+                "weight": "700",
+                "status": "loaded"
+              },
+              {
+                "family": "Fogtwo No5",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "fashion-editorial-lookbook",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "fashion-editorial-lookbook",
+        "ok": true,
+        "images": 9,
+        "imageUses": 24,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 22,
+        "designLicense": "MIT",
+        "photoRecords": 9,
+        "embeddedSvgRecords": 0,
+        "embeddedImageRecords": 9,
+        "fontFaces": 3,
+        "fontFamilies": [
+          "Fogtwo No5",
+          "Inter"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": [
+          3917692,
+          6580492,
+          8346027,
+          7232409,
+          5908326,
+          6843273,
+          17734751,
+          7794365,
+          36593273
+        ]
+      }
+    },
+    {
+      "slug": "design-review-grid",
+      "slides": 35,
+      "layoutSlotCount": 233,
+      "compositionLicense": "CC-BY-4.0",
+      "hashes": {
+        "htmlSHA256": "1a3e9fe82083a752654aaa3e9a11b82645576ba9d8fe096f845e6de2d1edaed1",
+        "metadataSHA256": "51179760e5421f0046343392679ac9ea151c54368b4bc5d0c3a18e473819e631",
+        "assetManifestSHA256": "0e55697712c62b8211a338608b91e237a8b4773ca5fde2d63d6c652973e97396",
+        "sourceNoticesSHA256": "ece045804d95df2112122a9da946247c8062e3e33cfdd2eed7d5f416811f3e7a",
+        "assetSummarySHA256": "80545657509c733b2e88972b4dd8ed30001a77213c0e5ce4c0a415cc1d7379e3"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:31.411Z",
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "pages": 35,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 35
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 34
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Inter",
+                "weight": "100 900",
+                "status": "loaded"
+              },
+              {
+                "family": "Tinos",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "design-review-grid",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "design-review-grid",
+        "ok": true,
+        "images": 11,
+        "imageUses": 34,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 35,
+        "designLicense": "CC-BY-4.0",
+        "photoRecords": 4,
+        "embeddedSvgRecords": 7,
+        "embeddedImageRecords": 11,
+        "fontFaces": 2,
+        "fontFamilies": [
+          "Inter",
+          "Tinos"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": [
+          15883147,
+          31851519,
+          36081877,
+          23511047
+        ]
+      }
+    },
+    {
+      "slug": "research-readout-pastel",
+      "slides": 20,
+      "layoutSlotCount": 149,
+      "compositionLicense": "CC-BY-4.0",
+      "hashes": {
+        "htmlSHA256": "7e7c83f7eef9209ea8a22c40db8715b052b02d2cf999385c2d08123866fff2a9",
+        "metadataSHA256": "930143c346a08b9c8b91e6b4164b66650935fd9f3a3830f6789bcb0320b9f3e8",
+        "assetManifestSHA256": "9de69129d0c0c376b7082e4d239dd839468b6278b68b77487be93d3166207521",
+        "sourceNoticesSHA256": "384482073d65469310e10883dd437ad60f5ff623372b7c3061852ad09e4dfc6b",
+        "assetSummarySHA256": "9d1009808e43601f53389a1ec6ccd686d7983023278c267fc60410aa53a189dc"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:34.032Z",
+        "canvas": {
+          "width": 1600,
+          "height": 900
+        },
+        "pages": 20,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 20
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 19
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 19
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "input-keyboard-does-not-turn-slide",
+            "ok": true
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "DM Sans",
+                "weight": "100 900",
+                "status": "loaded"
+              },
+              {
+                "family": "Roboto Mono",
+                "weight": "100 700",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "research-readout-pastel",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "research-readout-pastel",
+        "ok": true,
+        "images": 5,
+        "imageUses": 7,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 20,
+        "designLicense": "CC-BY-4.0",
+        "photoRecords": 0,
+        "embeddedSvgRecords": 5,
+        "embeddedImageRecords": 5,
+        "fontFaces": 2,
+        "fontFamilies": [
+          "DM Sans",
+          "Roboto Mono"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": []
+      }
+    },
+    {
+      "slug": "personal-branding-playful",
+      "slides": 18,
+      "layoutSlotCount": 184,
+      "compositionLicense": "MIT",
+      "hashes": {
+        "htmlSHA256": "7edc5add9c2e68d21c2776006e5b3921e78ccd27c3aeea734a1cb864610a9b6b",
+        "metadataSHA256": "b489bccb7f8ed8ce8cbdac3d0b3b32c4ef8ce056f4f746abffc2a592a82b8aee",
+        "assetManifestSHA256": "f85346ba4c6a76495753d6939556a470836f0dce15c542053ac1fee733edf12a",
+        "sourceNoticesSHA256": "4b97097bb31bfd3fa936dc3db8dbbeca85b0f7dbe39661dbced427edb3f437c6",
+        "assetSummarySHA256": "38adc78ba7828e0a7a61e21897917415ae70cc8cfb7ee5d68d4defb94fc0b62c"
+      },
+      "runtime": {
+        "ok": true,
+        "checkedAt": "2026-10-31T19:38:36.623Z",
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "pages": 18,
+        "checks": [
+          {
+            "name": "slide-count",
+            "ok": true,
+            "detail": 18
+          },
+          {
+            "name": "direct-hash-slide-5",
+            "ok": true,
+            "detail": 4
+          },
+          {
+            "name": "next-button",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "keyboard-right",
+            "ok": true,
+            "detail": 2
+          },
+          {
+            "name": "keyboard-end",
+            "ok": true,
+            "detail": 17
+          },
+          {
+            "name": "end-clamp",
+            "ok": true,
+            "detail": 17
+          },
+          {
+            "name": "keyboard-home",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "start-clamp",
+            "ok": true,
+            "detail": 0
+          },
+          {
+            "name": "synthetic-touch-swipe",
+            "ok": true,
+            "detail": 1
+          },
+          {
+            "name": "single-exposed-active-slide",
+            "ok": true,
+            "detail": {
+              "active": 1,
+              "exposed": 1
+            }
+          },
+          {
+            "name": "all-images-decoded",
+            "ok": true
+          },
+          {
+            "name": "no-external-render-dependencies",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-page-errors",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-duplicate-ids",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "no-broken-svg-references",
+            "ok": true,
+            "detail": []
+          },
+          {
+            "name": "font-faces-loaded",
+            "ok": true,
+            "detail": [
+              {
+                "family": "Unbounded",
+                "weight": "700",
+                "status": "loaded"
+              },
+              {
+                "family": "Savate",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "500",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              },
+              {
+                "family": "Poppins",
+                "weight": "600",
+                "status": "loaded"
+              }
+            ]
+          },
+          {
+            "name": "file-unchanged-during-check",
+            "ok": true
+          }
+        ]
+      },
+      "genericVisual": {
+        "slug": "personal-branding-playful",
+        "ok": true,
+        "errors": []
+      },
+      "assets": {
+        "slug": "personal-branding-playful",
+        "ok": true,
+        "images": 4,
+        "imageUses": 4,
+        "errors": []
+      },
+      "independentRights": {
+        "slides": 18,
+        "designLicense": "MIT",
+        "photoRecords": 4,
+        "embeddedSvgRecords": 0,
+        "embeddedImageRecords": 4,
+        "fontFaces": 8,
+        "fontFamilies": [
+          "Poppins",
+          "Savate",
+          "Unbounded"
+        ],
+        "fontNoticeTextPresent": true,
+        "retiredMaterialMatches": 0,
+        "unmappedImagePayloads": 0,
+        "unusedManifestImagePayloads": 0,
+        "externalCssResources": 0,
+        "photoIds": [
+          5357492,
+          15820561,
+          8534157,
+          6913313
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Single macOS Chrome runtime; Windows/Linux and other browsers were not exercised.",
+    "Synthetic touch events test handler behavior, not physical touch devices.",
+    "CC BY 4.0, Pexels and font licenses retain their separate conditions. Record coverage and observed-image review do not guarantee every possible third-party right.",
+    "Responsive srcset candidates are explicitly rejected by the asset validator until supported.",
+    "Squash merge excludes the superseded source-study commit from main ancestry, but does not erase published PR history or caches."
+  ],
+  "evidence": {
+    "availability": "Detailed browser screenshots, raw-source downloads and independent review outputs are ignored local evidence, not included in a clone or needed to run the templates.",
+    "files": [
+      "previews/asset-clearance-2026-11-01/final-independent-clearance.json",
+      "previews/asset-clearance-2026-11-01/independent-design-review.json",
+      "previews/implementation-2026-11-01/runtime-qa-summary.json",
+      "previews/implementation-2026-11-01/generic-visual-qa.json",
+      "previews/implementation-2026-11-01/ship-review-research/verification.json"
+    ]
+  },
+  "remainingBlockers": [],
+  "metadataExamples": {
+    "completeSourceExamplesVerified": 920,
+    "mappedSlotsInFourOriginalDecks": 1027,
+    "previouslyTruncatedExamplesReplaced": 47,
+    "scope": "Complete native HTML text, with existing frame/type/capacity advice retained. Duplicate delimiter punctuation normalized."
+  }
+}

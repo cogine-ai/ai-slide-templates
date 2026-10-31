@@ -1,0 +1,1319 @@
+{
+  "slug": "fashion-editorial-lookbook",
+  "name": "Fashion Editorial Lookbook",
+  "tagline": "Original editorial studies of silhouette, surface and movement",
+  "mood": [
+    "editorial",
+    "quiet",
+    "fashion-led",
+    "art-directed"
+  ],
+  "occasion": [
+    "fashion lookbook",
+    "photography story",
+    "creative portfolio",
+    "campaign art direction"
+  ],
+  "tone": [
+    "literary",
+    "photographic",
+    "refined",
+    "curatorial"
+  ],
+  "formality": "medium-high",
+  "density": "low",
+  "palette": {
+    "background": "#E9E8E6",
+    "paper": "#FFFFFF",
+    "black": "#000000",
+    "description": "Original composition retains this template tone: warm gray, black and white; photographic studies of neutral garments and natural fabrics."
+  },
+  "typography": {
+    "display": "Fogtwo No5",
+    "body": "Inter",
+    "style": "Original composition uses the existing licensed Fogtwo No5 display and Inter body font bytes. New type scale, grid and diagrams are authored for this template; no source slide DOM/CSS geometry or source artwork is reproduced."
+  },
+  "scheme": "mixed",
+  "best_for": "Fashion and photography editorials that need complete visual-story sequences, circular and capsule crops, paired detail images, pattern layers, clothing credits and a native team-credit spread.",
+  "avoid_for": "Dense business reporting, chart-heavy research, formal board materials or decks whose story depends on many paragraphs on every page.",
+  "slide_count": 22,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "embedded_fonts": true,
+    "editable_html_text": true,
+    "native_svg_shapes": true,
+    "original_composition": true,
+    "source_order_preserved": false,
+    "licensed_stock_references": true,
+    "redistribution_clearance_pending": false,
+    "print": true,
+    "asset_license_manifest": true
+  },
+  "layouts": [
+    "form-fabric-cover",
+    "editorial-introduction",
+    "three-part-editorial-route",
+    "silhouette-section",
+    "coat-form-study",
+    "silhouette-proportion-diptych",
+    "garment-outline-vocabulary",
+    "edge-and-fold",
+    "cloth-movement-statement",
+    "surface-section",
+    "natural-fabric-library",
+    "fabric-macro-spread",
+    "wardrobe-edit",
+    "tone-and-texture-matrix",
+    "movement-section",
+    "drape-study",
+    "shape-surface-pair",
+    "editorial-edit-matrix",
+    "shoot-sequence",
+    "visual-edit-contact-sheet",
+    "photographic-source-register",
+    "form-fabric-closing"
+  ],
+  "layout_slots": {
+    "form-fabric-cover": [
+      {
+        "name": "cover-silhouette",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by cottonbro studio / Pexels; visual reference, not an original studio project. Preserve the 650:820 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "cover-material",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 450:228 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: AN EDITORIAL STUDY / 2027. Keep the 22px type scale and this 1100px-wide frame; recommended maximum 80 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Form &\nFabric. Keep the 195px type scale and this 1030px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "cover-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Silhouette / Surface / Movement. Keep the 24px type scale and this 470px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 01 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · cottonbro studio, Artem Podrez / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "editorial-introduction": [
+      {
+        "name": "intro-texture",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Mike Murray / Pexels; visual reference, not an original studio project. Preserve the 690:835 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: EDITORIAL NOTE. Keep the 21px type scale and this 850px-wide frame; recommended maximum 64 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The shape is only\nhalf the story. Keep the 118px type scale and this 960px-wide frame; recommended maximum 33 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Form & Fabric is a fictional editorial study. It looks at the relationship between a garment, its material and the space around it. The photographs are licensed references, not a collection designed or photographed by this studio. Keep the 30px type scale and this 850px-wide frame; recommended maximum 350 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 02 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Mike Murray / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "three-part-editorial-route": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Inside the study. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three ways to look. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Silhouette. Keep the 74px type scale and this 490px-wide frame; recommended maximum 10 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-0-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: How a line meets the body. Keep the 29px type scale and this 490px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Surface. Keep the 74px type scale and this 490px-wide frame; recommended maximum 10 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-1-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: What light reveals in the cloth. Keep the 29px type scale and this 490px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Movement. Keep the 74px type scale and this 490px-wide frame; recommended maximum 10 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "story-2-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: How material changes in use. Keep the 29px type scale and this 490px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 03 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "silhouette-section": [
+      {
+        "name": "section-garment",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Jackie Friedlander / Pexels; visual reference, not an original studio project. Preserve the 810:980 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: SILHOUETTE. Keep the 23px type scale and this 850px-wide frame; recommended maximum 59 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Cut\nand space. Keep the 163px type scale and this 960px-wide frame; recommended maximum 14 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "section-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: The garment defines an edge.\nThe empty space makes it visible. Keep the 31px type scale and this 850px-wide frame; recommended maximum 62 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 04 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Jackie Friedlander / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "coat-form-study": [
+      {
+        "name": "coat-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by cottonbro studio / Pexels; visual reference, not an original studio project. Preserve the 890:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: FORM STUDY / OUTER LAYER. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A line that\nholds its own. Keep the 96px type scale and this 700px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: The shoulder sets a direction. A long, unbroken edge gives the silhouette its calm. Small interruptions become more noticeable when everything else is quiet. Keep the 28px type scale and this 650px-wide frame; recommended maximum 157 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 05 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · cottonbro studio / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "silhouette-proportion-diptych": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Silhouette / Two observations. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Proportion is a relationship. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "proportion-left",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by cottonbro studio / Pexels; visual reference, not an original studio project. Preserve the 640:530 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "proportion-right",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Jackie Friedlander / Pexels; visual reference, not an original studio project. Preserve the 620:530 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "left-note",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: An open edge. Keep the 21px type scale and this 640px-wide frame; recommended maximum 48 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "right-note",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: A continuous line. Keep the 21px type scale and this 700px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "margin-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Observe length, weight and the space between layers. Keep the 26px type scale and this 200px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 06 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · cottonbro studio, Jackie Friedlander / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "garment-outline-vocabulary": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form / Native drawing studies. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A vocabulary of simple shapes. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "garment-outline",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "outline-notes",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Two original schematic studies.\nUse them to compare proportion rather than describe a manufactured product. Keep the 33px type scale and this 500px-wide frame; recommended maximum 107 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 07 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "edge-and-fold": [
+      {
+        "name": "fold-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 970:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: SURFACE / FOLD. Keep the 21px type scale and this 650px-wide frame; recommended maximum 49 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The edge\nchanges\neverything. Keep the 116px type scale and this 720px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fold-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A fold turns light into a line. Give it enough space to be seen. Keep the 31px type scale and this 650px-wide frame; recommended maximum 64 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 08 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Artem Podrez / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "cloth-movement-statement": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: AN EDITORIAL PRINCIPLE. Keep the 22px type scale and this 1600px-wide frame; recommended maximum 116 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Keep the shape.\nLet the cloth move. Keep the 142px type scale and this 1700px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "principle-caption",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A study in restraint, not a claim about a particular garment. Keep the 28px type scale and this 1550px-wide frame; recommended maximum 88 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 09 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "surface-section": [
+      {
+        "name": "surface-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Monstera Production / Pexels; visual reference, not an original studio project. Preserve the 920:980 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: SURFACE. Keep the 23px type scale and this 700px-wide frame; recommended maximum 48 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The surface\nis the detail. Keep the 110px type scale and this 760px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "surface-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: The closer the view,\nthe quieter the composition. Keep the 31px type scale and this 700px-wide frame; recommended maximum 49 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 10 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Monstera Production / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "natural-fabric-library": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Surface / Reference library. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three surfaces, one quiet palette. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-0",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:410 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "fabric-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Open weave. Keep the 43px type scale and this 490px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-0-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A visible, irregular surface. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-1",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Sacha Moreau / Pexels; visual reference, not an original studio project. Preserve the 490:410 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "fabric-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Fine weave. Keep the 43px type scale and this 490px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-1-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A lighter, quieter surface. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-2",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Antoni Shkraba / Pexels; visual reference, not an original studio project. Preserve the 490:410 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "fabric-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Loose fold. Keep the 43px type scale and this 490px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fabric-2-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Shadow across a soft drape. Keep the 23px type scale and this 490px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 11 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Artem Podrez, Sacha Moreau, Antoni Shkraba / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "fabric-macro-spread": [
+      {
+        "name": "macro-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Antoni Shkraba / Pexels; visual reference, not an original studio project. Preserve the 1140:820 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: A CLOSER LOOK. Keep the 20px type scale and this 480px-wide frame; recommended maximum 38 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Texture,\nat a different\nscale. Keep the 91px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "macro-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Let the image carry the detail. Keep the words to the observation that matters. Keep the 28px type scale and this 470px-wide frame; recommended maximum 79 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 12 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Antoni Shkraba / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "wardrobe-edit": [
+      {
+        "name": "wardrobe-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Letícia Alvares / Pexels; visual reference, not an original studio project. Preserve the 750:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: WARDROBE / REFERENCE. Keep the 20px type scale and this 850px-wide frame; recommended maximum 68 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: An edit,\nnot an excess. Keep the 130px type scale and this 960px-wide frame; recommended maximum 23 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A small group of related materials can hold more interest than a long list of unrelated statements. Repeat a line, a tone or a texture with purpose. Keep the 29px type scale and this 850px-wide frame; recommended maximum 148 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 13 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Letícia Alvares / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "tone-and-texture-matrix": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Palette / Tonal composition. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Quiet tones. Clear contrasts. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-0",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "tone-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Chalk. Keep the 46px type scale and this 490px-wide frame; recommended maximum 17 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-0-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A light field. Keep the 25px type scale and this 490px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-1",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "tone-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Stone. Keep the 46px type scale and this 490px-wide frame; recommended maximum 17 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-1-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A soft middle. Keep the 25px type scale and this 490px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-2",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "tone-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Ink. Keep the 46px type scale and this 490px-wide frame; recommended maximum 17 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "tone-2-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A decisive edge. Keep the 25px type scale and this 490px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 14 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "movement-section": [
+      {
+        "name": "movement-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Ron Lach / Pexels; visual reference, not an original studio project. Preserve the 810:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: MOVEMENT / SPACE. Keep the 22px type scale and this 800px-wide frame; recommended maximum 58 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Allow space\nto move. Keep the 117px type scale and this 850px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "movement-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A little space makes each line easier to read.\nKeep one quiet gap around the material. Keep the 28px type scale and this 800px-wide frame; recommended maximum 86 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 15 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Ron Lach / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "drape-study": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Movement / Drape. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: One material. Many gestures. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "drape-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Mike Murray / Pexels; visual reference, not an original studio project. Preserve the 1120:525 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "drape-title",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: FOLD / RELEASE / REPEAT. Keep the 21px type scale and this 455px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "drape-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: The same cloth can hold a crisp edge or a soft fall. Photograph the change, then edit around it. Keep the 30px type scale and this 440px-wide frame; recommended maximum 96 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 16 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Mike Murray / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "shape-surface-pair": [
+      {
+        "name": "shape-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Jackie Friedlander / Pexels; visual reference, not an original studio project. Preserve the 650:820 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "surface-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Sacha Moreau / Pexels; visual reference, not an original studio project. Preserve the 670:820 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: RELATIONSHIPS. Keep the 19px type scale and this 300px-wide frame; recommended maximum 25 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Between\nshape\nand\nsurface. Keep the 76px type scale and this 330px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 17 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Jackie Friedlander, Sacha Moreau / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "editorial-edit-matrix": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Selection / Editorial matrix. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: What stays in the edit? Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "edit-matrix",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 18 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "shoot-sequence": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Production / Example shot plan. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A sequence that tells the story. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Begin wide. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Establish the line of the garment and the space around it. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Move closer. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Show the seam, texture or edge that explains the image. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: End with movement. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Keep one gesture that makes the material feel alive. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 19 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "visual-edit-contact-sheet": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Reference / Contact sheet. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The visual edit. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-0",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by cottonbro studio / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-0",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Outer line. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-1",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Jackie Friedlander / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-1",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Back line. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-2",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-2",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Fold. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-3",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Letícia Alvares / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-3",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Wardrobe. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-4",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Mike Murray / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-4",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Drape. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact-photo-5",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Sacha Moreau / Pexels; visual reference, not an original studio project. Preserve the 490:245 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "contact-label-5",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Weave. Keep the 19px type scale and this 490px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 20 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · cottonbro studio, Jackie Friedlander, Artem Podrez, Letícia Alvares, Mike Murray, Sacha Moreau / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 122 characters; split content instead of shrinking type."
+      }
+    ],
+    "photographic-source-register": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Photography / Source register. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The photographic sources. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "credit-purpose",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Licensed stock references for a fictional editorial study. No collection, model endorsement or commissioned studio photography is implied. Keep the 25px type scale and this 1670px-wide frame; recommended maximum 138 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-0",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: cottonbro studio. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-1",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Jackie Friedlander. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-2",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Ron Lach. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-3",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Artem Podrez. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-4",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Mike Murray. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-5",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Antoni Shkraba. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-6",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Sacha Moreau. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-7",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Monstera Production. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-8",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Letícia Alvares. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 21 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "form-fabric-closing": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: FORM & FABRIC / EDITORIAL STUDY. Keep the 22px type scale and this 1600px-wide frame; recommended maximum 116 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Form is the beginning.\nFabric is the\nconversation. Keep the 137px type scale and this 1680px-wide frame; recommended maximum 50 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: editorial@formandfabric.example\nformandfabric.example. Keep the 28px type scale and this 1400px-wide frame; recommended maximum 80 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Form & Fabric. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 22 / 22. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 150,
+    "max_body_chars_per_slide": 850,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 30
+  },
+  "source_inspiration": {
+    "name": "Carmen Nácher — Editorial Layouts (Pitch), complete 22-page public sequence",
+    "url": "https://pitch.com/templates/Editorial-Layouts-0oSMjM3bXrVP4MnkDG674F9T",
+    "notes": "Historical visual direction reference only. This version is a newly authored composition, with new fictional demo content, diagrams and licensed Pexels references. It does not copy the source slide DOM/CSS geometry, source photographs, logos or custom artwork; no source design redistribution grant is assumed."
+  }
+}

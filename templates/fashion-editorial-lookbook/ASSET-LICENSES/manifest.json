@@ -1,0 +1,658 @@
+{
+  "template": "fashion-editorial-lookbook",
+  "composition": "Original Cogine AI HTML/SVG composition and fictional study content,2026. Licensed illustrative photos are not studio portfolio work.",
+  "licenseBasis": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "termsUrl": "https://www.pexels.com/terms-of-service/",
+    "verifiedDate": "2026-11-01",
+    "scope": "Pexels explicitly allows photos in presentations and templates. The photographs are combined with original typography, text and diagrams; standalone photo redistribution is not the product.",
+    "conditions": "Do not sell standalone unaltered photos, imply endorsement, use identifiable people offensively, or claim trademark/property releases. Credits and source URLs are retained."
+  },
+  "assets": [
+    {
+      "id": "3917692",
+      "sourcePage": "https://www.pexels.com/photo/a-person-wearing-beige-coat-3917692/",
+      "photographer": "cottonbro studio",
+      "title": "A Person Wearing Beige Coat",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/3917692/pexels-photo-3917692.jpeg?cs=srgb&dl=pexels-cottonbro-3917692.jpg&fm=jpg",
+      "sourceDimensions": [
+        1848,
+        2768
+      ],
+      "sourceBytes": 379133,
+      "sourceSha256": "ff5847bb728f96ad3fc20afb95b3d8877103ce292cb5016675b4310056669cb2",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1402,
+        2100
+      ],
+      "embeddedBytes": 216958,
+      "embeddedSha256": "666263a89d402864b72fd90f5aca6d65c839a94d0763590c8db6e0be955a95ac",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 1,
+          "layout": "form-fabric-cover",
+          "slot": "cover-silhouette",
+          "crop": {
+            "x": 1160,
+            "y": 80,
+            "width": 650,
+            "height": 820,
+            "objectFit": "cover",
+            "objectPosition": "50% 45%"
+          }
+        },
+        {
+          "page": 5,
+          "layout": "coat-form-study",
+          "slot": "coat-reference",
+          "crop": {
+            "x": 100,
+            "y": 105,
+            "width": 890,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        },
+        {
+          "page": 6,
+          "layout": "silhouette-proportion-diptych",
+          "slot": "proportion-left",
+          "crop": {
+            "x": 110,
+            "y": 390,
+            "width": 640,
+            "height": 530,
+            "objectFit": "cover",
+            "objectPosition": "50% 75%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-0",
+          "crop": {
+            "x": 110,
+            "y": 385,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "666263a89d402864b72fd90f5aca6d65c839a94d0763590c8db6e0be955a95ac",
+      "creator": "cottonbro studio",
+      "sourceUrl": "https://www.pexels.com/photo/a-person-wearing-beige-coat-3917692/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "6580492",
+      "sourcePage": "https://www.pexels.com/photo/back-view-of-a-woman-wearing-a-black-backless-dress-6580492/",
+      "photographer": "Jackie Friedlander",
+      "title": "Back View of a Woman Wearing a Black Backless Dress",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/6580492/pexels-photo-6580492.jpeg?cs=srgb&dl=pexels-jackie-friedlander-1521968-6580492.jpg&fm=jpg",
+      "sourceDimensions": [
+        4000,
+        5422
+      ],
+      "sourceBytes": 1765988,
+      "sourceSha256": "ca816862c0146b0e0f613b717ccc1469154d0163da20593f4cb4ebaa675b8fbc",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1549,
+        2100
+      ],
+      "embeddedBytes": 181352,
+      "embeddedSha256": "9253714588005d4cf5e717ca83f708f121226f00eaecfc13c1e9c9adaee043e1",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 4,
+          "layout": "silhouette-section",
+          "slot": "section-garment",
+          "crop": {
+            "x": 1110,
+            "y": 0,
+            "width": 810,
+            "height": 980,
+            "objectFit": "cover",
+            "objectPosition": "50% 40%"
+          }
+        },
+        {
+          "page": 6,
+          "layout": "silhouette-proportion-diptych",
+          "slot": "proportion-right",
+          "crop": {
+            "x": 895,
+            "y": 390,
+            "width": 620,
+            "height": 530,
+            "objectFit": "cover",
+            "objectPosition": "50% 68%"
+          }
+        },
+        {
+          "page": 17,
+          "layout": "shape-surface-pair",
+          "slot": "shape-reference",
+          "crop": {
+            "x": 110,
+            "y": 110,
+            "width": 650,
+            "height": 820,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-1",
+          "crop": {
+            "x": 680,
+            "y": 385,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "9253714588005d4cf5e717ca83f708f121226f00eaecfc13c1e9c9adaee043e1",
+      "creator": "Jackie Friedlander",
+      "sourceUrl": "https://www.pexels.com/photo/back-view-of-a-woman-wearing-a-black-backless-dress-6580492/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "8346027",
+      "sourcePage": "https://www.pexels.com/photo/clothes-hanging-on-the-rack-8346027/",
+      "photographer": "Ron Lach",
+      "title": "Clothes Hanging on the Rack",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/8346027/pexels-photo-8346027.jpeg?cs=srgb&dl=pexels-ron-lach-8346027.jpg&fm=jpg",
+      "sourceDimensions": [
+        6199,
+        4133
+      ],
+      "sourceBytes": 822930,
+      "sourceSha256": "59bee59797db0dae28fe9589d4d5f0665188aeff9661b7b7f3b721f8b637736e",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1400
+      ],
+      "embeddedBytes": 51644,
+      "embeddedSha256": "1963efc81b0dd782cc366b44043294d53f5d7d378af19f2301dcdf2104e12fe1",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 15,
+          "layout": "movement-section",
+          "slot": "movement-reference",
+          "crop": {
+            "x": 1010,
+            "y": 100,
+            "width": 810,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "60% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "1963efc81b0dd782cc366b44043294d53f5d7d378af19f2301dcdf2104e12fe1",
+      "creator": "Ron Lach",
+      "sourceUrl": "https://www.pexels.com/photo/clothes-hanging-on-the-rack-8346027/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "7232409",
+      "sourcePage": "https://www.pexels.com/photo/close-up-shot-of-a-beige-textile-7232409/",
+      "photographer": "Artem Podrez",
+      "title": "Close-Up Shot of a Beige Textile",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/7232409/pexels-photo-7232409.jpeg?cs=srgb&dl=pexels-artempodrez-7232409.jpg&fm=jpg",
+      "sourceDimensions": [
+        3456,
+        6144
+      ],
+      "sourceBytes": 2739691,
+      "sourceSha256": "c0bc7b2b2606298ecbd9ffaf8eace00a3a4640855bfb9548e7e34f3bb5ef504f",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1181,
+        2100
+      ],
+      "embeddedBytes": 464402,
+      "embeddedSha256": "6646a3d9b345d2d2502e585944666aefd4d32d0767cd85c8d0d9b05fcff0753b",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 1,
+          "layout": "form-fabric-cover",
+          "slot": "cover-material",
+          "crop": {
+            "x": 620,
+            "y": 710,
+            "width": 450,
+            "height": 228,
+            "objectFit": "cover",
+            "objectPosition": "50% 70%"
+          }
+        },
+        {
+          "page": 8,
+          "layout": "edge-and-fold",
+          "slot": "fold-reference",
+          "crop": {
+            "x": 850,
+            "y": 100,
+            "width": 970,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 11,
+          "layout": "natural-fabric-library",
+          "slot": "fabric-0",
+          "crop": {
+            "x": 110,
+            "y": 400,
+            "width": 490,
+            "height": 410,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-2",
+          "crop": {
+            "x": 1250,
+            "y": 385,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "6646a3d9b345d2d2502e585944666aefd4d32d0767cd85c8d0d9b05fcff0753b",
+      "creator": "Artem Podrez",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-shot-of-a-beige-textile-7232409/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "5908326",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-fabric-textures-5908326/",
+      "photographer": "Mike Murray",
+      "title": "Close-up of Fabric Textures",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/5908326/pexels-photo-5908326.jpeg?cs=srgb&dl=pexels-content-prod-co-5908326.jpg&fm=jpg",
+      "sourceDimensions": [
+        4000,
+        6000
+      ],
+      "sourceBytes": 3509599,
+      "sourceSha256": "b1f69c9386277d5eb7f92cf474ba1d4b313b01248d2f676adbba75fa27c3cebf",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1400,
+        2100
+      ],
+      "embeddedBytes": 625600,
+      "embeddedSha256": "62518614c9179c1bf8e0c5b1d75b21dac62b4141bbc1782a86fe15a5b7f57962",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 2,
+          "layout": "editorial-introduction",
+          "slot": "intro-texture",
+          "crop": {
+            "x": 1130,
+            "y": 100,
+            "width": 690,
+            "height": 835,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 16,
+          "layout": "drape-study",
+          "slot": "drape-photo",
+          "crop": {
+            "x": 110,
+            "y": 400,
+            "width": 1120,
+            "height": 525,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-4",
+          "crop": {
+            "x": 680,
+            "y": 677,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "62518614c9179c1bf8e0c5b1d75b21dac62b4141bbc1782a86fe15a5b7f57962",
+      "creator": "Mike Murray",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-of-fabric-textures-5908326/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "6843273",
+      "sourcePage": "https://www.pexels.com/photo/close-up-photo-of-gray-cloth-6843273/",
+      "photographer": "Antoni Shkraba",
+      "title": "Close Up Photo of Gray Cloth",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/6843273/pexels-photo-6843273.jpeg?cs=srgb&dl=pexels-shkrabaanthony-6843273.jpg&fm=jpg",
+      "sourceDimensions": [
+        6000,
+        4000
+      ],
+      "sourceBytes": 5103315,
+      "sourceSha256": "3261fe18fd595a18314199105d63ddfd080d8b4e88ce7d8b21e11edfe8ad1f89",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1400
+      ],
+      "embeddedBytes": 1232056,
+      "embeddedSha256": "789d537ff95047da9a5455c69e6ea7b6487979f5e6a840c7bb6d31b539f5c084",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 11,
+          "layout": "natural-fabric-library",
+          "slot": "fabric-2",
+          "crop": {
+            "x": 1250,
+            "y": 400,
+            "width": 490,
+            "height": 410,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 12,
+          "layout": "fabric-macro-spread",
+          "slot": "macro-photo",
+          "crop": {
+            "x": 100,
+            "y": 110,
+            "width": 1140,
+            "height": 820,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "789d537ff95047da9a5455c69e6ea7b6487979f5e6a840c7bb6d31b539f5c084",
+      "creator": "Antoni Shkraba",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-gray-cloth-6843273/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "17734751",
+      "sourcePage": "https://www.pexels.com/photo/white-linen-cloth-17734751/",
+      "photographer": "Sacha Moreau",
+      "title": "White Linen Cloth",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/17734751/pexels-photo-17734751.jpeg?cs=srgb&dl=pexels-sacha-moreau-334685363-17734751.jpg&fm=jpg",
+      "sourceDimensions": [
+        3802,
+        5703
+      ],
+      "sourceBytes": 2103094,
+      "sourceSha256": "a17ce1d3130f06760f25c2e259998d7dd081bef3906ea983da26d2b25a8e7272",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1400,
+        2100
+      ],
+      "embeddedBytes": 357420,
+      "embeddedSha256": "30da8f86d60e30d371921ed4b93b8e02e0cfcb1a2975971b4f7d7a7ccfbedc91",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 11,
+          "layout": "natural-fabric-library",
+          "slot": "fabric-1",
+          "crop": {
+            "x": 680,
+            "y": 400,
+            "width": 490,
+            "height": 410,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 17,
+          "layout": "shape-surface-pair",
+          "slot": "surface-reference",
+          "crop": {
+            "x": 1150,
+            "y": 110,
+            "width": 670,
+            "height": 820,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-5",
+          "crop": {
+            "x": 1250,
+            "y": 677,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "30da8f86d60e30d371921ed4b93b8e02e0cfcb1a2975971b4f7d7a7ccfbedc91",
+      "creator": "Sacha Moreau",
+      "sourceUrl": "https://www.pexels.com/photo/white-linen-cloth-17734751/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "7794365",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-a-linen-texture-7794365/",
+      "photographer": "Monstera Production",
+      "title": "Close-up of a Linen Texture",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/7794365/pexels-photo-7794365.jpeg?cs=srgb&dl=pexels-gabby-k-7794365.jpg&fm=jpg",
+      "sourceDimensions": [
+        4000,
+        2667
+      ],
+      "sourceBytes": 1989089,
+      "sourceSha256": "fb34c405c5f5e9062322ab72ed70d3636d8309a9c8f38eb00ea6102a93f260a3",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1400
+      ],
+      "embeddedBytes": 948092,
+      "embeddedSha256": "507004b11d5407123f476e0c5226892a893f717a93d9831b9d5666e61514295a",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 10,
+          "layout": "surface-section",
+          "slot": "surface-reference",
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 920,
+            "height": 980,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "507004b11d5407123f476e0c5226892a893f717a93d9831b9d5666e61514295a",
+      "creator": "Monstera Production",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-linen-texture-7794365/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "36593273",
+      "sourcePage": "https://www.pexels.com/photo/minimalist-clothing-rack-with-neutral-tones-36593273/",
+      "photographer": "Letícia Alvares",
+      "title": "Minimalist Clothing Rack With Neutral Tones",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/36593273/pexels-photo-36593273.jpeg?cs=srgb&dl=pexels-leticia-alvares-1805702-36593273.jpg&fm=jpg",
+      "sourceDimensions": [
+        4000,
+        6000
+      ],
+      "sourceBytes": 1565415,
+      "sourceSha256": "59160e737b352958a7016de841b1b215a5c648e691ecb65f02a4633288127d13",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1400,
+        2100
+      ],
+      "embeddedBytes": 144962,
+      "embeddedSha256": "f50e831ae3e35c0316ba23d58056c8177e52bae12121cf367c6f527c42deef28",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 13,
+          "layout": "wardrobe-edit",
+          "slot": "wardrobe-reference",
+          "crop": {
+            "x": 1070,
+            "y": 100,
+            "width": 750,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 43%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "visual-edit-contact-sheet",
+          "slot": "contact-photo-3",
+          "crop": {
+            "x": 110,
+            "y": 677,
+            "width": 490,
+            "height": 245,
+            "objectFit": "cover",
+            "objectPosition": "50% 55%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "f50e831ae3e35c0316ba23d58056c8177e52bae12121cf367c6f527c42deef28",
+      "creator": "Letícia Alvares",
+      "sourceUrl": "https://www.pexels.com/photo/minimalist-clothing-rack-with-neutral-tones-36593273/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    }
+  ],
+  "schemaVersion": 1,
+  "design": {
+    "status": "cleared",
+    "creator": "Cogine AI",
+    "licenseId": "MIT",
+    "licenseUrl": "https://opensource.org/license/mit",
+    "statement": "Original Cogine AI HTML/SVG composition and fictional study content, 2026. Licensed illustrative photos are not studio portfolio work. The layout system, diagrams, typography arrangement and vector artwork are independently authored; no exported Pitch composition or source artwork is reused."
+  }
+}

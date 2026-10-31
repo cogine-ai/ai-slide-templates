@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "template": "research-readout-pastel",
+  "reviewedAt": "2026-11-01",
+  "design": {
+    "status": "cleared",
+    "creator": "Figma Community (@figma)",
+    "licenseId": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.figma.com/community/file/1382481559228932486/research-readout",
+    "creatorUrl": "https://www.figma.com/@figma",
+    "attribution": "Research Readout by Figma Community (@figma), adapted by Cogine AI under CC BY 4.0.",
+    "statement": "Attributed layout adaptation with original Fieldwork demonstration copy and SVG screens, portable navigation, proportional chart binding and single-user local alignment interaction.",
+    "basisUrl": "https://help.figma.com/hc/en-us/articles/360042296374-Figma-Community-copyright-and-licensing"
+  },
+  "assets": [
+    {
+      "id": "fieldwork-svg-269c83e83e98",
+      "kind": "svg",
+      "sha256": "269c83e83e983acc85685e377f91b06ebe44eb92e8cd9f4e1798bdd9f9cd7185",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen or landscape vector illustration authored for this project, without source screenshot or third-party raster input.",
+      "reviewedAt": "2026-11-01",
+      "modifications": "Native vector content; rendered inside the template device frame."
+    },
+    {
+      "id": "fieldwork-svg-12da8c422f47",
+      "kind": "svg",
+      "sha256": "12da8c422f4702108679a08229d86397e8b55b02fd6970e24d7eb15f89aedfc3",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen or landscape vector illustration authored for this project, without source screenshot or third-party raster input.",
+      "reviewedAt": "2026-11-01",
+      "modifications": "Native vector content; rendered inside the template device frame."
+    },
+    {
+      "id": "fieldwork-svg-ea977feca9ed",
+      "kind": "svg",
+      "sha256": "ea977feca9ed888b6ec53a614030f2bf53f446ee58ada76afb7537371b08c1b9",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen or landscape SVG illustration authored for this project; referenced through CSS or an image element, without third-party raster input.",
+      "reviewedAt": "2026-11-01",
+      "modifications": "Native vector rendering inside the presentation frame."
+    },
+    {
+      "id": "fieldwork-svg-0d84d494f5a8",
+      "kind": "svg",
+      "sha256": "0d84d494f5a87460bf091534fd418bd649ad18378a921f93867ebab6806b4d15",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen or landscape SVG illustration authored for this project; referenced through CSS or an image element, without third-party raster input.",
+      "reviewedAt": "2026-11-01",
+      "modifications": "Native vector rendering inside the presentation frame."
+    },
+    {
+      "id": "fieldwork-svg-388cdc3dd5f6",
+      "kind": "svg",
+      "sha256": "388cdc3dd5f67ded3a12829c7a9643f15a30dbf7e4a9fc21463fbca528b17c21",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen or landscape SVG illustration authored for this project; referenced through CSS or an image element, without third-party raster input.",
+      "reviewedAt": "2026-11-01",
+      "modifications": "Native vector rendering inside the presentation frame."
+    }
+  ],
+  "inlineArtwork": {
+    "licenseId": "CC-BY-4.0",
+    "statement": "Source-inspired layout devices and diagrams are included within the attributed Figma layout adaptation; additional implementation code is licensed by the project."
+  },
+  "notes": "No stock photographs or source screenshot payloads are embedded. Font permissions and notices are recorded separately in FONT-LICENSES/."
+}

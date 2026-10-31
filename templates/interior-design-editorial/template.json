@@ -1,0 +1,2307 @@
+{
+  "slug": "interior-design-editorial",
+  "name": "Interior Design Editorial",
+  "tagline": "Original architectural proposal with licensed visual references",
+  "mood": [
+    "calm",
+    "warm",
+    "considered",
+    "editorial"
+  ],
+  "occasion": [
+    "interior design proposal",
+    "spatial design portfolio",
+    "homeware collection",
+    "creative studio introduction"
+  ],
+  "tone": [
+    "restrained",
+    "spatial",
+    "photographic",
+    "refined"
+  ],
+  "formality": "medium-high",
+  "density": "medium-low",
+  "palette": {
+    "background": "#E0DDD4",
+    "brown": "#6E452A",
+    "paper": "#FFFFFF",
+    "ink": "#000000",
+    "description": "Original composition retains this template tone: warm beige, brown, white and black; neutral wood and linen reference imagery."
+  },
+  "typography": {
+    "display": "Tenor Sans",
+    "body": "Poppins",
+    "style": "Original composition uses the existing licensed Tenor Sans display and Poppins body font bytes. New type scale, grid and diagrams are authored for this template; no source slide DOM/CSS geometry or source artwork is reproduced."
+  },
+  "scheme": "light",
+  "best_for": "A complete spatial and object-design proposal with studio story, services, milestones, photographic concepts, material moodboards, object portfolios, design process, pricing and team profiles.",
+  "avoid_for": "Dense financial dashboards, technical architecture diagrams, or materials without high-quality independent photographs and object images.",
+  "slide_count": 35,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "embedded_fonts": true,
+    "editable_html_text": true,
+    "native_svg_shapes": true,
+    "original_composition": true,
+    "source_order_preserved": false,
+    "licensed_stock_references": true,
+    "redistribution_clearance_pending": false,
+    "print": true,
+    "asset_license_manifest": true
+  },
+  "layouts": [
+    "room-to-live-cover",
+    "study-brief",
+    "proposal-route",
+    "daily-ritual-priorities",
+    "daylight-reference",
+    "spatial-reading-plan",
+    "constraints-opportunities-ledger",
+    "three-spatial-principles",
+    "warm-neutral-material-palette",
+    "surface-library",
+    "living-room-atmosphere",
+    "shared-room-zones",
+    "furniture-footprint",
+    "soft-comfort-reference",
+    "dining-room-atmosphere",
+    "table-clearance-study",
+    "kitchen-atmosphere",
+    "joinery-elevation",
+    "bedroom-atmosphere",
+    "bedroom-layering",
+    "lighting-layers-diagram",
+    "lighting-schedule",
+    "threshold-details",
+    "objects-and-display",
+    "project-stages",
+    "eight-week-gantt",
+    "responsibility-matrix",
+    "procurement-ledger",
+    "budget-allocation",
+    "design-fee-options",
+    "change-control-flow",
+    "next-decisions-checklist",
+    "handover-pack",
+    "photography-reference-register",
+    "quiet-home-closing"
+  ],
+  "layout_slots": {
+    "room-to-live-cover": [
+      {
+        "name": "cover-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 820:852 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: STILL HOUSE / SPATIAL DESIGN. Keep the 22px type scale and this 800px-wide frame; recommended maximum 58 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Room\nto live. Keep the 180px type scale and this 850px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A considered home, shaped around ordinary days. Keep the 32px type scale and this 690px-wide frame; recommended maximum 47 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "plan-signature",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 01 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Artem Podrez / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "study-brief": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: The brief. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A home with more room\nfor everyday life. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 40 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "brief",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Still House is a fictional studio. This study explores a compact home where light, useful storage and tactile materials do the important work. Keep the 34px type scale and this 760px-wide frame; recommended maximum 220 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The setting. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: An illustrative 110 m² apartment, organized around a shared living space and two quiet rooms. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The ambition. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Keep the plan clear. Give daily objects a place. Let natural light travel farther. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 02 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "proposal-route": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: How to read this proposal. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A proposal in four parts. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Listen. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-0-scope",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Brief, existing space and decisions to protect. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Compose. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-1-scope",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light, material, furniture and spatial relationships. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Resolve. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-2-scope",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Details, schedules, procurement and budget. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Deliver. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-3-scope",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A clear sequence, responsibilities and next decisions. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 03 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "daily-ritual-priorities": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Client priorities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Start with the way the home is used. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 36 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A quiet arrival. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A place for coats, bags and shoes before the shared living space begins. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A generous table. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: One table for everyday meals, a laptop and a few extra people at the weekend. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A softer evening. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light at several heights, fewer competing surfaces and storage that closes. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 04 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "daylight-reference": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Lisa Anna / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Atmosphere / Daylight. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Follow\nthe light. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Favor low visual weight around the window. Keep the center of the room open so the brightest part of the day reaches into the plan. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 05 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Lisa Anna / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "spatial-reading-plan": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Existing space / Illustrative plan. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Read the plan before adding objects. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 36 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "room-plan",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "plan-reading",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Group active uses near the shared light. Let the bedrooms and storage make a calmer edge to the home. Keep the 31px type scale and this 470px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "plan-note",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Concept diagram only\nNot a measured construction drawing. Keep the 19px type scale and this 500px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 06 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "constraints-opportunities-ledger": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Constraints & opportunities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: What stays. What changes. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "constraints-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 07 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "three-spatial-principles": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: OUR THREE DESIGN PRINCIPLES. Keep the 22px type scale and this 1400px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Less friction.\nMore presence. Keep the 142px type scale and this 1500px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "principle-one",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Keep the circulation legible. Keep the 38px type scale and this 1500px-wide frame; recommended maximum 63 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "principle-two",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Let useful storage disappear. Keep the 38px type scale and this 1500px-wide frame; recommended maximum 63 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "principle-three",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use texture where the hand meets the room. Keep the 38px type scale and this 1600px-wide frame; recommended maximum 67 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 08 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "warm-neutral-material-palette": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Color & material. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A warm, quiet register. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-0",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Limestone. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-0-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A calm background. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-1",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Walnut. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-1-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Warmth at hand level. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-2",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Chalk. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-2-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light-reflecting surfaces. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-3",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-3-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Graphite. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-3-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A precise dark edge. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 09 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "surface-library": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Surface library. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Materials with a job to do. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "material-reference",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 650:490 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "material-one",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: WOOD / WARMTH. Keep the 24px type scale and this 900px-wide frame; recommended maximum 60 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "material-one-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use a consistent grain direction on fronts and shelving. Keep the finish matte so light remains soft. Keep the 31px type scale and this 860px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "material-two",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: TEXTILE / COMFORT. Keep the 24px type scale and this 900px-wide frame; recommended maximum 60 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "material-two-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Choose a small family of woven textures. Let the variation come from the hand of the fabric, not extra pattern. Keep the 31px type scale and this 860px-wide frame; recommended maximum 111 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 10 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "living-room-atmosphere": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Living room / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A place\nto gather. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A low seating group anchors the shared room. A clear view across the floor gives every object a little more space. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 11 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "shared-room-zones": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Living / Dining plan. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Two zones. One room. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "zone-map",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "zone-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use the furniture to make rooms within the room. Keep the route between them direct. Keep the 31px type scale and this 380px-wide frame; recommended maximum 84 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 12 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "furniture-footprint": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Furniture placement. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Give every object a little breathing room. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 42 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "furniture-plan",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "footprint-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Test the room with paper footprints before buying. The empty space is part of the furniture plan. Keep the 31px type scale and this 440px-wide frame; recommended maximum 97 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 13 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "soft-comfort-reference": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Sasha Pshenkov / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Living room / Detail. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Comfort,\nwithout clutter. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A generous seat, a small side table and one reading light are often enough. Texture should invite use, not demand attention. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 14 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Sasha Pshenkov / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "dining-room-atmosphere": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Ksenia Chernaya / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Dining / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Make room\nat the table. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Choose a table proportion that leaves the route open when someone stands up. Keep storage close to the rituals it supports. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 15 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Ksenia Chernaya / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "table-clearance-study": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Dining / Proportion study. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A table that fits the way you live. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "table-proportion",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "table-copy",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Compare the table and the circulation together. A modest table in a generous route feels better than a large table in a narrow room. Keep the 30px type scale and this 410px-wide frame; recommended maximum 132 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 16 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "kitchen-atmosphere": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Kitchen / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A calmer\nworking edge. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Let preparation, storage and washing form one readable sequence. Use a consistent front to reduce visual interruption. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 17 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "joinery-elevation": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Joinery / Concept elevation. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A useful wall, quietly resolved. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "joinery-drawing",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "joinery-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Concept proportions, not fabrication dimensions. Resolve construction details with the appointed joiner. Keep the 23px type scale and this 1650px-wide frame; recommended maximum 114 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 18 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "bedroom-atmosphere": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Andrea Davis / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Bedroom / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The quiet\npart of home. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A simple bed position, soft reflected light and useful bedside space create the foundation. Keep the view from the pillow calm. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 19 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Andrea Davis / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "bedroom-layering": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Bedroom / Material composition. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three layers of softness. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the room. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use a continuous, low-contrast wall finish to quiet the background. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the body. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Let bedding and curtains carry most of the tactile variation. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the light. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Choose a sheer layer for the day and a denser layer for rest. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "textile-open-weave",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "textile-fine-weave",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Sacha Moreau / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "textile-soft-fold",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 20 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Artem Podrez, Sacha Moreau / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "lighting-layers-diagram": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Lighting / Concept. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Light at three heights. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "lighting-section",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "ambient-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: AMBIENT. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "ambient-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A soft overall glow. Keep the 29px type scale and this 420px-wide frame; recommended maximum 23 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "task-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: TASK. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "task-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light where work happens. Keep the 29px type scale and this 420px-wide frame; recommended maximum 24 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "accent-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: ACCENT. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "accent-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A little depth after dark. Keep the 29px type scale and this 420px-wide frame; recommended maximum 25 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 21 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "lighting-schedule": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Lighting / Schedule. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A small, useful lighting family. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "lighting-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 22 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "threshold-details": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Details / Junctions. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Small junctions. A coherent whole. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-0",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "junction-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Floor meets wall. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Keep one simple skirting detail. Resolve the change once, then repeat it. Keep the 25px type scale and this 490px-wide frame; recommended maximum 73 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-1",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "junction-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Door meets storage. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Align a limited number of important edges rather than every line. Keep the 25px type scale and this 490px-wide frame; recommended maximum 65 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-2",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "junction-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Handle meets hand. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use the same touch points where it makes everyday use clearer. Keep the 25px type scale and this 490px-wide frame; recommended maximum 62 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 23 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "objects-and-display": [
+      {
+        "name": "reference-photo",
+        "type": "image",
+        "required": true,
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Objects / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Leave space\nfor a few good things. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A shelf should hold ordinary life as well as a considered object. Choose fewer display zones and give them a calm background. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 24 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
+      }
+    ],
+    "project-stages": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Delivery / Project sequence. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A clear path from brief to room. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Brief. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Agree priorities and the practical boundaries. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Concept. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Choose a coherent spatial and material direction. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Detail. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Resolve sizes, finishes, lighting and procurement. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-3-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Install. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "stage-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Coordinate deliveries and the final arrangement. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 25 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "eight-week-gantt": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Delivery / Illustrative programme. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: An eight-week decision rhythm. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Example programme; confirm dates and lead times with your project team. Keep the 25px type scale and this 1600px-wide frame; recommended maximum 102 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-0",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 1. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-1",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 2. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-2",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 3. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-3",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 4. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-4",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 5. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-5",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 6. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-6",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 7. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-7",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 8. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Brief & survey. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-0-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Concept design. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-1-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Design approval. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-2-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Detailed schedule. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-3-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-4-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Procurement. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-4-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 26 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "responsibility-matrix": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Delivery / Responsibilities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Who decides. Who delivers. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "responsibility-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 27 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "procurement-ledger": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Procurement / Example ledger. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Every item, with a clear next step. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "procurement-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 28 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "budget-allocation": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Budget / Illustrative allowance. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A budget with room for the unexpected. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 38 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-total",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: $32,000. Keep the 132px type scale and this 720px-wide frame; recommended maximum 8 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-disclaimer",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Illustrative planning example\nNot a quotation. Keep the 22px type scale and this 650px-wide frame; recommended maximum 47 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Furniture. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-0-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $18,000. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-0-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-0-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Lighting. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-1-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $4,500. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-1-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-1-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Surfaces. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-2-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $6,300. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-2-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-2-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Contingency. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-3-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $3,200. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-3-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-3-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 29 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "design-fee-options": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Commercial / Illustrative scope. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Choose the level of support. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Concept only / $12,800. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A clear concept, material direction, key furniture shortlist and presentation pack. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Full coordination / $17,000. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Concept plus detailed schedules, supplier coordination and final arrangement review. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "fee-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Illustrative fees for this fictional study. Tailor the scope and fees to a real project brief. Keep the 23px type scale and this 1650px-wide frame; recommended maximum 114 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 30 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "change-control-flow": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Delivery / Change control. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Keep decisions visible. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Describe the change. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Record what is changing and the reason before additional work begins. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Show the consequence. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Confirm the effect on scope, programme and cost with the appointed team. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Approve and record. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Agree the change in writing, then update the live schedule. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 31 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "next-decisions-checklist": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Next steps. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three decisions move the project forward. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "check-0",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "decision-0",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Confirm the brief. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "decision-0-detail",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Agree the priorities, budget allowance and decision makers. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "check-1",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "decision-1",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Choose the direction. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "decision-1-detail",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Select the concept to develop and the references to keep. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "check-2",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "decision-2",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Book the next review. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "decision-2-detail",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Set a date for samples, drawings and the updated schedule. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 32 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "handover-pack": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Completion / Handover. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A useful handover, not just a final image. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 42 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The record. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Approved finishes, product references and supplier contacts in one place. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The practical details. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 21 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Care notes, warranties and any outstanding actions clearly assigned. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The final review. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A calm walk-through to confirm arrangement, lighting and the next small adjustments. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 33 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "photography-reference-register": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Photography / Source register. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The reference library. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "credit-purpose",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Licensed visual references, not completed Still House commissions. Individual source pages and SHA-256 records are included in ASSET-LICENSES/manifest.json. Keep the 25px type scale and this 1670px-wide frame; recommended maximum 156 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-0",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Ksenia Chernaya. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-1",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Artem Podrez. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-2",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-3",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-4",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Andrea Davis. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-5",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Sasha Pshenkov. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-6",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-7",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Lisa Anna. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-8",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Artem Podrez. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-9",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Sacha Moreau. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 34 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ],
+    "quiet-home-closing": [
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: STILL HOUSE / CONCEPT STUDY. Keep the 22px type scale and this 1400px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: A home,\nwell considered. Keep the 174px type scale and this 1660px-wide frame; recommended maximum 24 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "contact",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: studio@stillhouse.example\nstillhouse.example. Keep the 31px type scale and this 1200px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 35 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 150,
+    "max_body_chars_per_slide": 1250,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "Visuel Colonie — Interior Design Proposal (Pitch), complete 35-page public sequence",
+    "url": "https://pitch.com/templates/Interior-Design-Proposal-4vWn3k3yheGf4Z9jh43PqqLM",
+    "notes": "Historical visual direction reference only. This version is a newly authored composition, with new fictional demo content, diagrams and licensed Pexels references. It does not copy the source slide DOM/CSS geometry, source photographs, logos or custom artwork; no source design redistribution grant is assumed."
+  }
+}

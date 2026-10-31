@@ -1,0 +1,1581 @@
+{
+  "slug": "design-review-grid",
+  "name": "Design Review Grid",
+  "tagline": "A complete 35-slide design-review system with restrained serif section heads, fine rules, sage, orange and monochrome device studies.",
+  "mood": [
+    "considered",
+    "clear",
+    "focused",
+    "editorial"
+  ],
+  "occasion": [
+    "design review",
+    "product critique",
+    "concept comparison",
+    "stakeholder feedback"
+  ],
+  "tone": [
+    "precise",
+    "restrained",
+    "design-led"
+  ],
+  "formality": "medium-high",
+  "density": "medium",
+  "palette": {
+    "description": "Measured public-preview colors; fine black/white rules and source-specific accents.",
+    "ink": "#000000",
+    "paper": "#FFFFFF",
+    "sage": "#C1D6CF",
+    "stone": "#E5E4DF",
+    "orange": "#FF6C02"
+  },
+  "typography": {
+    "display": "Inter / Tinos",
+    "body": "Inter",
+    "style": "Implemented fonts selected by preview matching; source font not verified. Inter 300/400 and Tinos Regular preserve the source sans-serif main voice and Times-like serif section titles. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template."
+  },
+  "scheme": "mixed",
+  "best_for": "Structured product-design reviews connecting goals and user evidence to process, the precise feedback needed, current/proposed flows and alternate visual directions.",
+  "avoid_for": "Dense board financial tables, decorative launch spectacles, and content that cannot fit the generous measured type hierarchy.",
+  "slide_count": 35,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": false,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "native_text": true,
+    "native_svg_diagrams": true,
+    "independent_media_slots": true,
+    "source_preview_order": true,
+    "local_alignment_demo": false,
+    "multiplayer_voting": false,
+    "individual_photo_provenance": true,
+    "asset_license_manifest": true,
+    "redistribution_clearance_pending": false
+  },
+  "layouts": [
+    "review-cover-black",
+    "project-cover-white",
+    "project-cover-sage",
+    "portrait-cover-white",
+    "portrait-cover-stone",
+    "landscape-cover-black",
+    "landscape-cover-stone",
+    "section-sage",
+    "section-black",
+    "section-orange",
+    "three-principles-black",
+    "phone-principles-white",
+    "phone-principles-detail",
+    "three-goal-panels",
+    "three-user-quotes-sage",
+    "statement-quote-orange",
+    "statement-quote-stone",
+    "2-personas-black",
+    "3-personas-sage",
+    "design-process-timeline",
+    "feedback-focus-grid",
+    "three-feedback-questions",
+    "split-feedback-questions",
+    "current-proposed-cropped-devices",
+    "current-proposed-four-devices",
+    "three-screen-direction",
+    "direction-framed",
+    "direction-white",
+    "direction-sage",
+    "direction-two-stone",
+    "direction-two-white",
+    "direction-desktop",
+    "full-width-product-visual",
+    "split-direction-visual",
+    "four-image-inspiration"
+  ],
+  "layout_slots": {
+    "review-cover-black": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      }
+    ],
+    "project-cover-white": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      }
+    ],
+    "project-cover-sage": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      }
+    ],
+    "portrait-cover-white": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      },
+      {
+        "name": "cover-product-screen",
+        "type": "image",
+        "required": true,
+        "description": "Replace the cover product screen while preserving its measured frame."
+      }
+    ],
+    "portrait-cover-stone": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      },
+      {
+        "name": "cover-product-screen",
+        "type": "image",
+        "required": true,
+        "description": "Replace the cover product screen while preserving its measured frame."
+      }
+    ],
+    "landscape-cover-black": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      },
+      {
+        "name": "cover-product-screen",
+        "type": "image",
+        "required": true,
+        "description": "Replace the cover product screen while preserving its measured frame."
+      }
+    ],
+    "landscape-cover-stone": [
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "phase-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the phase label while preserving its measured frame."
+      },
+      {
+        "name": "round-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the round label while preserving its measured frame."
+      },
+      {
+        "name": "cover-details",
+        "type": "text",
+        "required": true,
+        "description": "Replace the cover details while preserving its measured frame."
+      },
+      {
+        "name": "cover-product-screen",
+        "type": "image",
+        "required": true,
+        "description": "Replace the cover product screen while preserving its measured frame."
+      }
+    ],
+    "section-sage": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      }
+    ],
+    "section-black": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      }
+    ],
+    "section-orange": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      }
+    ],
+    "three-principles-black": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-number",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 number while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 body while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-number",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 number while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 body while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-number",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 number while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 body while preserving its measured frame."
+      }
+    ],
+    "phone-principles-white": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "principles-phone",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 detail while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 detail while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 detail while preserving its measured frame."
+      }
+    ],
+    "phone-principles-detail": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "principles-phone",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-1-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 1 detail while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-2-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 2 detail while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 label while preserving its measured frame."
+      },
+      {
+        "name": "principle-3-detail",
+        "type": "text",
+        "required": true,
+        "description": "Replace the principle 3 detail while preserving its measured frame."
+      }
+    ],
+    "three-goal-panels": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "goal-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 1 label while preserving its measured frame."
+      },
+      {
+        "name": "goal-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 1 body while preserving its measured frame."
+      },
+      {
+        "name": "goal-1-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 1 metric while preserving its measured frame."
+      },
+      {
+        "name": "goal-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 2 label while preserving its measured frame."
+      },
+      {
+        "name": "goal-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 2 body while preserving its measured frame."
+      },
+      {
+        "name": "goal-2-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 2 metric while preserving its measured frame."
+      },
+      {
+        "name": "goal-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 3 label while preserving its measured frame."
+      },
+      {
+        "name": "goal-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 3 body while preserving its measured frame."
+      },
+      {
+        "name": "goal-3-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the goal 3 metric while preserving its measured frame."
+      }
+    ],
+    "three-user-quotes-sage": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "quote-1",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 1 while preserving its measured frame."
+      },
+      {
+        "name": "quote-1-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 1 attribution while preserving its measured frame."
+      },
+      {
+        "name": "quote-2",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 2 while preserving its measured frame."
+      },
+      {
+        "name": "quote-2-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 2 attribution while preserving its measured frame."
+      },
+      {
+        "name": "quote-3",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 3 while preserving its measured frame."
+      },
+      {
+        "name": "quote-3-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote 3 attribution while preserving its measured frame."
+      }
+    ],
+    "statement-quote-orange": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "featured-quote",
+        "type": "text",
+        "required": true,
+        "description": "Replace the featured quote while preserving its measured frame."
+      }
+    ],
+    "statement-quote-stone": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "featured-quote",
+        "type": "text",
+        "required": true,
+        "description": "Replace the featured quote while preserving its measured frame."
+      }
+    ],
+    "2-personas-black": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-portrait",
+        "type": "image",
+        "required": true,
+        "description": "Replace the persona 1 portrait while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 1 name while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 1 description while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-portrait",
+        "type": "image",
+        "required": true,
+        "description": "Replace the persona 2 portrait while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 2 name while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 2 description while preserving its measured frame."
+      }
+    ],
+    "3-personas-sage": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-portrait",
+        "type": "image",
+        "required": true,
+        "description": "Replace the persona 1 portrait while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 1 name while preserving its measured frame."
+      },
+      {
+        "name": "persona-1-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 1 description while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-portrait",
+        "type": "image",
+        "required": true,
+        "description": "Replace the persona 2 portrait while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 2 name while preserving its measured frame."
+      },
+      {
+        "name": "persona-2-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 2 description while preserving its measured frame."
+      },
+      {
+        "name": "persona-3-portrait",
+        "type": "image",
+        "required": true,
+        "description": "Replace the persona 3 portrait while preserving its measured frame."
+      },
+      {
+        "name": "persona-3-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 3 name while preserving its measured frame."
+      },
+      {
+        "name": "persona-3-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the persona 3 description while preserving its measured frame."
+      }
+    ],
+    "design-process-timeline": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "process-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 1 label while preserving its measured frame."
+      },
+      {
+        "name": "process-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 1 body while preserving its measured frame."
+      },
+      {
+        "name": "process-1-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 1 date while preserving its measured frame."
+      },
+      {
+        "name": "process-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 2 label while preserving its measured frame."
+      },
+      {
+        "name": "process-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 2 body while preserving its measured frame."
+      },
+      {
+        "name": "process-2-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 2 date while preserving its measured frame."
+      },
+      {
+        "name": "process-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 3 label while preserving its measured frame."
+      },
+      {
+        "name": "process-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 3 body while preserving its measured frame."
+      },
+      {
+        "name": "process-3-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 3 date while preserving its measured frame."
+      },
+      {
+        "name": "process-4-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 4 label while preserving its measured frame."
+      },
+      {
+        "name": "process-4-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 4 body while preserving its measured frame."
+      },
+      {
+        "name": "process-4-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the process 4 date while preserving its measured frame."
+      }
+    ],
+    "feedback-focus-grid": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "axis-top",
+        "type": "text",
+        "required": true,
+        "description": "Replace the axis top while preserving its measured frame."
+      },
+      {
+        "name": "axis-bottom",
+        "type": "text",
+        "required": true,
+        "description": "Replace the axis bottom while preserving its measured frame."
+      },
+      {
+        "name": "axis-left",
+        "type": "text",
+        "required": true,
+        "description": "Replace the axis left while preserving its measured frame."
+      },
+      {
+        "name": "axis-right",
+        "type": "text",
+        "required": true,
+        "description": "Replace the axis right while preserving its measured frame."
+      }
+    ],
+    "three-feedback-questions": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "question-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 1 label while preserving its measured frame."
+      },
+      {
+        "name": "question-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 1 body while preserving its measured frame."
+      },
+      {
+        "name": "question-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 2 label while preserving its measured frame."
+      },
+      {
+        "name": "question-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 2 body while preserving its measured frame."
+      },
+      {
+        "name": "question-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 3 label while preserving its measured frame."
+      },
+      {
+        "name": "question-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 3 body while preserving its measured frame."
+      }
+    ],
+    "split-feedback-questions": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "question-1",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 1 while preserving its measured frame."
+      },
+      {
+        "name": "question-2",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 2 while preserving its measured frame."
+      },
+      {
+        "name": "question-3",
+        "type": "text",
+        "required": true,
+        "description": "Replace the question 3 while preserving its measured frame."
+      }
+    ],
+    "current-proposed-cropped-devices": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "comparison-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 1 label while preserving its measured frame."
+      },
+      {
+        "name": "comparison-1-caption",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 1 caption while preserving its measured frame."
+      },
+      {
+        "name": "comparison-1-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "comparison-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 2 label while preserving its measured frame."
+      },
+      {
+        "name": "comparison-2-caption",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 2 caption while preserving its measured frame."
+      },
+      {
+        "name": "comparison-2-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "current-proposed-four-devices": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "flow-1-1-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "flow-1-2-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "comparison-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 1 label while preserving its measured frame."
+      },
+      {
+        "name": "comparison-1-caption",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 1 caption while preserving its measured frame."
+      },
+      {
+        "name": "flow-2-1-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "flow-2-2-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "comparison-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 2 label while preserving its measured frame."
+      },
+      {
+        "name": "comparison-2-caption",
+        "type": "text",
+        "required": true,
+        "description": "Replace the comparison 2 caption while preserving its measured frame."
+      }
+    ],
+    "three-screen-direction": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "direction-1-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-2-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-3-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "direction-framed": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-phone",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-keywords",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction keywords while preserving its measured frame."
+      }
+    ],
+    "direction-white": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-phone",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "direction-sage": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-phone",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "direction-two-stone": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-phone-1",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-phone-2",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-keywords",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction keywords while preserving its measured frame."
+      }
+    ],
+    "direction-two-white": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-phone-1",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      },
+      {
+        "name": "direction-phone-2",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "direction-desktop": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the direction description while preserving its measured frame."
+      },
+      {
+        "name": "direction-desktop",
+        "type": "image",
+        "required": true,
+        "description": "Replace the direction desktop while preserving its measured frame."
+      }
+    ],
+    "full-width-product-visual": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "full-product-visual",
+        "type": "image",
+        "required": true,
+        "description": "Replace the full product visual while preserving its measured frame."
+      }
+    ],
+    "split-direction-visual": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "direction-visual",
+        "type": "image",
+        "required": true,
+        "description": "Replace the direction visual while preserving its measured frame."
+      }
+    ],
+    "four-image-inspiration": [
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "review-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the review date while preserving its measured frame."
+      },
+      {
+        "name": "section-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section title while preserving its measured frame."
+      },
+      {
+        "name": "inspiration-image-1",
+        "type": "image",
+        "required": true,
+        "description": "Independent Pexels photograph by Airam Dato-on (pexels-15883147); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
+      },
+      {
+        "name": "inspiration-caption-1",
+        "type": "text",
+        "required": true,
+        "description": "Replace the inspiration caption 1 while preserving its measured frame."
+      },
+      {
+        "name": "inspiration-image-2",
+        "type": "image",
+        "required": true,
+        "description": "Independent Pexels photograph by Alec Doualetas (pexels-31851519); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
+      },
+      {
+        "name": "inspiration-caption-2",
+        "type": "text",
+        "required": true,
+        "description": "Replace the inspiration caption 2 while preserving its measured frame."
+      },
+      {
+        "name": "inspiration-image-3",
+        "type": "image",
+        "required": true,
+        "description": "Independent Pexels photograph by Natalia Sevruk (pexels-36081877); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
+      },
+      {
+        "name": "inspiration-caption-3",
+        "type": "text",
+        "required": true,
+        "description": "Replace the inspiration caption 3 while preserving its measured frame."
+      },
+      {
+        "name": "inspiration-image-4",
+        "type": "image",
+        "required": true,
+        "description": "Independent Pexels photograph by Tomáš Malík (pexels-23511047); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
+      },
+      {
+        "name": "inspiration-caption-4",
+        "type": "text",
+        "required": true,
+        "description": "Replace the inspiration caption 4 while preserving its measured frame."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 140,
+    "max_body_chars_per_slide": 900,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 35
+  },
+  "source_inspiration": {
+    "name": "Design Review — Figma Community",
+    "url": "https://www.figma.com/community/file/1383475610293894214/design-review",
+    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 35 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. Inter 300/400 and Tinos Regular preserve the source sans-serif main voice and Times-like serif section titles. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. Four source-preview photographs are replaced with individually credited Pexels natural-landscape/material photos, with raw/embedded hashes and source/licence links in ASSET-LICENSES/manifest.json. No unresolved source-preview photograph remains. Source design attribution and changes are retained under CC BY4.0; font licences are separate."
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "template": "interior-design-editorial",
+  "composition": "Original Cogine AI HTML/SVG composition and fictional study content,2026. Licensed illustrative photos are not studio portfolio work.",
+  "licenseBasis": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "termsUrl": "https://www.pexels.com/terms-of-service/",
+    "verifiedDate": "2026-11-01",
+    "scope": "Pexels explicitly allows photos in presentations and templates. The photographs are combined with original typography, text and diagrams; standalone photo redistribution is not the product.",
+    "conditions": "Do not sell standalone unaltered photos, imply endorsement, use identifiable people offensively, or claim trademark/property releases. Credits and source URLs are retained."
+  },
+  "assets": [
+    {
+      "id": "3952048",
+      "sourcePage": "https://www.pexels.com/photo/minimalist-interior-style-with-wooden-table-and-chairs-at-home-3952048/",
+      "photographer": "Ksenia Chernaya",
+      "title": "Minimalist interior style with wooden table and chairs at home",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/3952048/pexels-photo-3952048.jpeg?cs=srgb&dl=pexels-kseniachernaya-3952048.jpg&fm=jpg",
+      "sourceDimensions": [
+        2306,
+        3454
+      ],
+      "sourceBytes": 1033451,
+      "sourceSha256": "82779f5d81b5e1a169d763d44ac0110d58a33f297ebf6ff65e1f15379ea3b83d",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1402,
+        2100
+      ],
+      "embeddedBytes": 481320,
+      "embeddedSha256": "c8ef1887ca153716642088142f1ef0b6957d65b5b05c77f6f00ca44a25b363a9",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 15,
+          "layout": "dining-room-atmosphere",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 100,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "c8ef1887ca153716642088142f1ef0b6957d65b5b05c77f6f00ca44a25b363a9",
+      "creator": "Ksenia Chernaya",
+      "sourceUrl": "https://www.pexels.com/photo/minimalist-interior-style-with-wooden-table-and-chairs-at-home-3952048/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "6800942",
+      "sourcePage": "https://www.pexels.com/photo/art-relaxation-bed-architecture-6800942/",
+      "photographer": "Artem Podrez",
+      "title": "Minimalist Interior with Sofa and Blank Canvas",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/6800942/pexels-photo-6800942.jpeg?cs=srgb&dl=pexels-artempodrez-6800942.jpg&fm=jpg",
+      "sourceDimensions": [
+        2160,
+        3840
+      ],
+      "sourceBytes": 534583,
+      "sourceSha256": "aa3ca5796dd0f0df9af6d14946244bc9ff5f34b7e3cdb170a5665ece48b2d961",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1181,
+        2100
+      ],
+      "embeddedBytes": 121858,
+      "embeddedSha256": "9e3063bfa6dfc54e83f210d45064051a5b0cd924183e294a646d7259ceb54d03",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 1,
+          "layout": "room-to-live-cover",
+          "slot": "cover-reference",
+          "crop": {
+            "x": 1000,
+            "y": 76,
+            "width": 820,
+            "height": 852,
+            "objectFit": "cover",
+            "objectPosition": "50% 60%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "9e3063bfa6dfc54e83f210d45064051a5b0cd924183e294a646d7259ceb54d03",
+      "creator": "Artem Podrez",
+      "sourceUrl": "https://www.pexels.com/photo/art-relaxation-bed-architecture-6800942/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "8092177",
+      "sourcePage": "https://www.pexels.com/photo/couch-in-room-8092177/",
+      "photographer": "Max Vakhtbovych",
+      "title": "Couch in Room",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/8092177/pexels-photo-8092177.jpeg?cs=srgb&dl=pexels-artbovich-8092177.jpg&fm=jpg",
+      "sourceDimensions": [
+        7360,
+        4912
+      ],
+      "sourceBytes": 2227151,
+      "sourceSha256": "5bd1064c63acab809fc61070eb33edaf727268cc24d05c6c11541c2e015213e3",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1402
+      ],
+      "embeddedBytes": 170604,
+      "embeddedSha256": "6a81a30dd57588f87051f5434cae0d37a5fd4668d918351c6869d75fbade9bef",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 11,
+          "layout": "living-room-atmosphere",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 100,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "6a81a30dd57588f87051f5434cae0d37a5fd4668d918351c6869d75fbade9bef",
+      "creator": "Max Vakhtbovych",
+      "sourceUrl": "https://www.pexels.com/photo/couch-in-room-8092177/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "8146214",
+      "sourcePage": "https://www.pexels.com/photo/brown-wooden-table-near-white-wall-8146214/",
+      "photographer": "Max Vakhtbovych",
+      "title": "Brown Wooden Table near White Wall",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/8146214/pexels-photo-8146214.jpeg?cs=srgb&dl=pexels-artbovich-8146214.jpg&fm=jpg",
+      "sourceDimensions": [
+        7360,
+        4912
+      ],
+      "sourceBytes": 2369190,
+      "sourceSha256": "a9ad7f30854f31c221e2904431d34591cde4cd1877e546ab0c158235f2204705",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1402
+      ],
+      "embeddedBytes": 202032,
+      "embeddedSha256": "0275dc855a0ceda819b9760f30322eb8a6432d871e0f8c6c75084a439f02768f",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 10,
+          "layout": "surface-library",
+          "slot": "material-reference",
+          "crop": {
+            "x": 115,
+            "y": 415,
+            "width": 650,
+            "height": 490,
+            "objectFit": "cover",
+            "objectPosition": "55% 50%"
+          }
+        },
+        {
+          "page": 24,
+          "layout": "objects-and-display",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 900,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "0275dc855a0ceda819b9760f30322eb8a6432d871e0f8c6c75084a439f02768f",
+      "creator": "Max Vakhtbovych",
+      "sourceUrl": "https://www.pexels.com/photo/brown-wooden-table-near-white-wall-8146214/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "9968387",
+      "sourcePage": "https://www.pexels.com/photo/an-interior-of-a-bedroom-9968387/",
+      "photographer": "Andrea Davis",
+      "title": "An Interior of a Bedroom",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/9968387/pexels-photo-9968387.jpeg?cs=srgb&dl=pexels-andreaedavis-9968387.jpg&fm=jpg",
+      "sourceDimensions": [
+        3985,
+        5989
+      ],
+      "sourceBytes": 1654774,
+      "sourceSha256": "1fd64ee441b5fdde77e63fc0f715d110ea00377be129d64b0eaabb935e9f01a8",
+      "cropBounds": [
+        0,
+        0,
+        2600,
+        5989
+      ],
+      "embeddedDimensions": [
+        912,
+        2100
+      ],
+      "embeddedBytes": 167562,
+      "embeddedSha256": "e2df7d624844ba9b0ee22ab98c253ebabca51e40b87bb51531b4605caa6d6023",
+      "modifications": "Crop (0, 0, 2600, 5989) removes visible faces/framed art/book pages; Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 19,
+          "layout": "bedroom-atmosphere",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 100,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "e2df7d624844ba9b0ee22ab98c253ebabca51e40b87bb51531b4605caa6d6023",
+      "creator": "Andrea Davis",
+      "sourceUrl": "https://www.pexels.com/photo/an-interior-of-a-bedroom-9968387/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "11273655",
+      "sourcePage": "https://www.pexels.com/photo/white-sofa-inside-the-home-11273655/",
+      "photographer": "Sasha Pshenkov",
+      "title": "White Sofa Inside the Home",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/11273655/pexels-photo-11273655.jpeg?cs=srgb&dl=pexels-sasha-pshenkov-92810748-11273655.jpg&fm=jpg",
+      "sourceDimensions": [
+        4160,
+        6240
+      ],
+      "sourceBytes": 4338455,
+      "sourceSha256": "1ec0c89f09df90ad71e08a2962f67d735d01cc07870744ea9f659152e4b6eae6",
+      "cropBounds": [
+        0,
+        0,
+        4160,
+        3500
+      ],
+      "embeddedDimensions": [
+        2100,
+        1767
+      ],
+      "embeddedBytes": 1092912,
+      "embeddedSha256": "3eeb5c7f002b9e725a1ced1d3ab2aaf2d42c06c6bab2230515b746afbf103881",
+      "modifications": "Crop (0, 0, 4160, 3500) removes visible faces/framed art/book pages; Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 14,
+          "layout": "soft-comfort-reference",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 900,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "3eeb5c7f002b9e725a1ced1d3ab2aaf2d42c06c6bab2230515b746afbf103881",
+      "creator": "Sasha Pshenkov",
+      "sourceUrl": "https://www.pexels.com/photo/white-sofa-inside-the-home-11273655/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "6958141",
+      "sourcePage": "https://www.pexels.com/photo/interior-of-apartment-with-wooden-decorations-6958141/",
+      "photographer": "Max Vakhtbovych",
+      "title": "Interior of apartment with wooden decorations",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/6958141/pexels-photo-6958141.jpeg?cs=srgb&dl=pexels-artbovich-6958141.jpg&fm=jpg",
+      "sourceDimensions": [
+        6850,
+        4912
+      ],
+      "sourceBytes": 4602831,
+      "sourceSha256": "5d8368ab0a09796ca4a58bd16870a947eb098eccff92ed45d8f1a1731ea71516",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1506
+      ],
+      "embeddedBytes": 317092,
+      "embeddedSha256": "72a1876d4a7159df9e433e1c28cd5a9052d9a88cddd76c08ff27bf78c0b02fbe",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 17,
+          "layout": "kitchen-atmosphere",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 900,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "72a1876d4a7159df9e433e1c28cd5a9052d9a88cddd76c08ff27bf78c0b02fbe",
+      "creator": "Max Vakhtbovych",
+      "sourceUrl": "https://www.pexels.com/photo/interior-of-apartment-with-wooden-decorations-6958141/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "19866428",
+      "sourcePage": "https://www.pexels.com/photo/parquet-in-a-minimalist-apartment-19866428/",
+      "photographer": "Lisa Anna",
+      "title": "Parquet in a Minimalist Apartment",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/19866428/pexels-photo-19866428.jpeg?cs=srgb&dl=pexels-lisa-anna-901356985-19866428.jpg&fm=jpg",
+      "sourceDimensions": [
+        5999,
+        4000
+      ],
+      "sourceBytes": 1805849,
+      "sourceSha256": "f9d532dd99c5dd2b8db39853de1a45f47e6396cc0e2a385b7bea828eb80dfecf",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        2100,
+        1400
+      ],
+      "embeddedBytes": 224170,
+      "embeddedSha256": "3f8a65017cf308e0151b41cb4656c3549ac9671c5a8f2ed2b2b297f9b988885e",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 5,
+          "layout": "daylight-reference",
+          "slot": "reference-photo",
+          "crop": {
+            "x": 900,
+            "y": 100,
+            "width": 920,
+            "height": 840,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "3f8a65017cf308e0151b41cb4656c3549ac9671c5a8f2ed2b2b297f9b988885e",
+      "creator": "Lisa Anna",
+      "sourceUrl": "https://www.pexels.com/photo/parquet-in-a-minimalist-apartment-19866428/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "7232409",
+      "sourcePage": "https://www.pexels.com/photo/close-up-shot-of-a-beige-textile-7232409/",
+      "photographer": "Artem Podrez",
+      "title": "Close-Up Shot of a Beige Textile",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/7232409/pexels-photo-7232409.jpeg?cs=srgb&dl=pexels-artempodrez-7232409.jpg&fm=jpg",
+      "sourceDimensions": [
+        3456,
+        6144
+      ],
+      "sourceBytes": 2739691,
+      "sourceSha256": "c0bc7b2b2606298ecbd9ffaf8eace00a3a4640855bfb9548e7e34f3bb5ef504f",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1181,
+        2100
+      ],
+      "embeddedBytes": 464402,
+      "embeddedSha256": "6646a3d9b345d2d2502e585944666aefd4d32d0767cd85c8d0d9b05fcff0753b",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 20,
+          "layout": "bedroom-layering",
+          "slot": "textile-open-weave",
+          "crop": {
+            "x": 110,
+            "y": 725,
+            "width": 490,
+            "height": 215,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        },
+        {
+          "page": 20,
+          "layout": "bedroom-layering",
+          "slot": "textile-soft-fold",
+          "crop": {
+            "x": 1250,
+            "y": 725,
+            "width": 490,
+            "height": 215,
+            "objectFit": "cover",
+            "objectPosition": "50% 85%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "6646a3d9b345d2d2502e585944666aefd4d32d0767cd85c8d0d9b05fcff0753b",
+      "creator": "Artem Podrez",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-shot-of-a-beige-textile-7232409/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "17734751",
+      "sourcePage": "https://www.pexels.com/photo/white-linen-cloth-17734751/",
+      "photographer": "Sacha Moreau",
+      "title": "White Linen Cloth",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "verifiedDate": "2026-11-01",
+      "role": "Licensed illustrative stock reference; not a studio project, model endorsement or original commissioned garment photograph.",
+      "downloadUrl": "https://images.pexels.com/photos/17734751/pexels-photo-17734751.jpeg?cs=srgb&dl=pexels-sacha-moreau-334685363-17734751.jpg&fm=jpg",
+      "sourceDimensions": [
+        3802,
+        5703
+      ],
+      "sourceBytes": 2103094,
+      "sourceSha256": "a17ce1d3130f06760f25c2e259998d7dd081bef3906ea983da26d2b25a8e7272",
+      "cropBounds": null,
+      "embeddedDimensions": [
+        1400,
+        2100
+      ],
+      "embeddedBytes": 357420,
+      "embeddedSha256": "30da8f86d60e30d371921ed4b93b8e02e0cfcb1a2975971b4f7d7a7ccfbedc91",
+      "modifications": "Exif orientation normalized; downsampled to maximum 2100px; WebP quality 90 encoding; CSS object-fit crops in original slide compositions, combined with original text/diagrams. No brand/person endorsement.",
+      "uses": [
+        {
+          "page": 20,
+          "layout": "bedroom-layering",
+          "slot": "textile-fine-weave",
+          "crop": {
+            "x": 680,
+            "y": 725,
+            "width": 490,
+            "height": 215,
+            "objectFit": "cover",
+            "objectPosition": "50% 50%"
+          }
+        }
+      ],
+      "kind": "photo",
+      "sha256": "30da8f86d60e30d371921ed4b93b8e02e0cfcb1a2975971b4f7d7a7ccfbedc91",
+      "creator": "Sacha Moreau",
+      "sourceUrl": "https://www.pexels.com/photo/white-linen-cloth-17734751/",
+      "licenseId": "LicenseRef-Pexels",
+      "status": "cleared",
+      "reviewedAt": "2026-11-01"
+    }
+  ],
+  "schemaVersion": 1,
+  "design": {
+    "status": "cleared",
+    "creator": "Cogine AI",
+    "licenseId": "MIT",
+    "licenseUrl": "https://opensource.org/license/mit",
+    "statement": "Original Cogine AI HTML/SVG composition and fictional study content, 2026. Licensed illustrative photos are not studio portfolio work. The layout system, diagrams, typography arrangement and vector artwork are independently authored; no exported Pitch composition or source artwork is reused."
+  }
+}

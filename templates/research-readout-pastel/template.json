@@ -1,0 +1,1036 @@
+{
+  "slug": "research-readout-pastel",
+  "name": "Research Readout Pastel",
+  "tagline": "A complete 20-slide research readout with a vertical metadata rail, pastel evidence panels, quotations, editable statistics and clear recommendations.",
+  "mood": [
+    "considered",
+    "clear",
+    "focused",
+    "approachable"
+  ],
+  "occasion": [
+    "user-research readout",
+    "research synthesis",
+    "product discovery",
+    "evidence review"
+  ],
+  "tone": [
+    "warm",
+    "clear",
+    "research-led"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "palette": {
+    "description": "Measured public-preview colors; fine black/white rules and source-specific accents.",
+    "ink": "#000000",
+    "paper": "#FFFFFF",
+    "cream": "#FFFEDF",
+    "blue": "#DFEAFE",
+    "purple": "#C77CFF",
+    "lilac": "#F1E3FE",
+    "lime": "#C7E171",
+    "amber": "#FEA902",
+    "gray": "#D9D9D9",
+    "peach": "#FEE5DF"
+  },
+  "typography": {
+    "display": "DM Sans",
+    "body": "DM Sans / Roboto Mono",
+    "style": "Implemented fonts selected by preview matching; source font not verified. DM Sans 300/400 and Roboto Mono 300 preserve the source rounded sans-serif main voice and monospaced metadata rail. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template."
+  },
+  "scheme": "light",
+  "best_for": "Everyday qualitative research that connects the objective and methodology to findings, user quotations, prototype evidence, proportional statistics and explicit recommendations.",
+  "avoid_for": "Dense academic manuscripts, small-print operational tables, and presentations requiring a hosted multiplayer voting service.",
+  "slide_count": 20,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": false,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "native_text": true,
+    "native_svg_diagrams": true,
+    "independent_media_slots": true,
+    "source_preview_order": true,
+    "local_alignment_demo": true,
+    "multiplayer_voting": false,
+    "asset_license_manifest": true,
+    "redistribution_clearance_pending": false
+  },
+  "layouts": [
+    "research-cover-blue",
+    "research-cover-cream",
+    "three-part-methodology",
+    "research-objective",
+    "single-research-question",
+    "extended-research-question",
+    "findings-overview",
+    "finding-purple-prototype",
+    "finding-lime-prototype",
+    "finding-amber-prototype",
+    "finding-gray-prototype",
+    "four-evidence-quotations",
+    "research-highlights-gallery",
+    "three-proportional-stat-panels",
+    "six-stat-column-panels",
+    "finding-to-recommendation-1",
+    "finding-to-recommendation-2",
+    "local-alignment-scale",
+    "memorable-research-quote",
+    "research-recommendation-summary"
+  ],
+  "layout_slots": {
+    "research-cover-blue": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Replace the subtitle while preserving its measured frame."
+      },
+      {
+        "name": "researcher",
+        "type": "text",
+        "required": true,
+        "description": "Replace the researcher while preserving its measured frame."
+      }
+    ],
+    "research-cover-cream": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "deck-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the deck title while preserving its measured frame."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Replace the subtitle while preserving its measured frame."
+      },
+      {
+        "name": "researcher",
+        "type": "text",
+        "required": true,
+        "description": "Replace the researcher while preserving its measured frame."
+      }
+    ],
+    "three-part-methodology": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "method-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 1 label while preserving its measured frame."
+      },
+      {
+        "name": "method-1-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 1 metric while preserving its measured frame."
+      },
+      {
+        "name": "method-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 1 body while preserving its measured frame."
+      },
+      {
+        "name": "method-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 2 label while preserving its measured frame."
+      },
+      {
+        "name": "method-2-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 2 metric while preserving its measured frame."
+      },
+      {
+        "name": "method-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 2 body while preserving its measured frame."
+      },
+      {
+        "name": "method-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 3 label while preserving its measured frame."
+      },
+      {
+        "name": "method-3-metric",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 3 metric while preserving its measured frame."
+      },
+      {
+        "name": "method-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the method 3 body while preserving its measured frame."
+      }
+    ],
+    "research-objective": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "research-objective",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research objective while preserving its measured frame."
+      },
+      {
+        "name": "objective-1",
+        "type": "text",
+        "required": true,
+        "description": "Replace the objective 1 while preserving its measured frame."
+      },
+      {
+        "name": "objective-2",
+        "type": "text",
+        "required": true,
+        "description": "Replace the objective 2 while preserving its measured frame."
+      },
+      {
+        "name": "objective-3",
+        "type": "text",
+        "required": true,
+        "description": "Replace the objective 3 while preserving its measured frame."
+      }
+    ],
+    "single-research-question": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "research-question",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research question while preserving its measured frame."
+      }
+    ],
+    "extended-research-question": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "research-question",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research question while preserving its measured frame."
+      }
+    ],
+    "findings-overview": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "main-finding",
+        "type": "text",
+        "required": true,
+        "description": "Replace the main finding while preserving its measured frame."
+      },
+      {
+        "name": "finding-summary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding summary while preserving its measured frame."
+      },
+      {
+        "name": "finding-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 1 label while preserving its measured frame."
+      },
+      {
+        "name": "finding-1-summary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 1 summary while preserving its measured frame."
+      },
+      {
+        "name": "finding-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 2 label while preserving its measured frame."
+      },
+      {
+        "name": "finding-2-summary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 2 summary while preserving its measured frame."
+      },
+      {
+        "name": "finding-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 3 label while preserving its measured frame."
+      },
+      {
+        "name": "finding-3-summary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding 3 summary while preserving its measured frame."
+      }
+    ],
+    "finding-purple-prototype": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding title while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "design-implication",
+        "type": "text",
+        "required": true,
+        "description": "Replace the design implication while preserving its measured frame."
+      },
+      {
+        "name": "finding-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "finding-lime-prototype": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding title while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "design-implication",
+        "type": "text",
+        "required": true,
+        "description": "Replace the design implication while preserving its measured frame."
+      },
+      {
+        "name": "finding-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "finding-amber-prototype": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding title while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "design-implication",
+        "type": "text",
+        "required": true,
+        "description": "Replace the design implication while preserving its measured frame."
+      },
+      {
+        "name": "finding-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "finding-gray-prototype": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding title while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "design-implication",
+        "type": "text",
+        "required": true,
+        "description": "Replace the design implication while preserving its measured frame."
+      },
+      {
+        "name": "finding-screen",
+        "type": "image",
+        "required": true,
+        "description": "Independent fictional product screenshot inside a native SVG device frame. Replace the image href; keep frame and clipping."
+      }
+    ],
+    "four-evidence-quotations": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "quote-primary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote primary while preserving its measured frame."
+      },
+      {
+        "name": "quote-primary-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote primary attribution while preserving its measured frame."
+      },
+      {
+        "name": "quote-secondary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote secondary while preserving its measured frame."
+      },
+      {
+        "name": "quote-secondary-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote secondary attribution while preserving its measured frame."
+      },
+      {
+        "name": "quote-tertiary",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote tertiary while preserving its measured frame."
+      },
+      {
+        "name": "quote-tertiary-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote tertiary attribution while preserving its measured frame."
+      },
+      {
+        "name": "quote-sidebar",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote sidebar while preserving its measured frame."
+      },
+      {
+        "name": "quote-sidebar-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote sidebar attribution while preserving its measured frame."
+      }
+    ],
+    "research-highlights-gallery": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "highlights-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the highlights description while preserving its measured frame."
+      },
+      {
+        "name": "highlight-image-1",
+        "type": "image",
+        "required": true,
+        "description": "Replace the highlight image 1 while preserving its measured frame."
+      },
+      {
+        "name": "highlight-image-2",
+        "type": "image",
+        "required": true,
+        "description": "Replace the highlight image 2 while preserving its measured frame."
+      },
+      {
+        "name": "highlight-image-3",
+        "type": "image",
+        "required": true,
+        "description": "Replace the highlight image 3 while preserving its measured frame."
+      }
+    ],
+    "three-proportional-stat-panels": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "stat-1-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged."
+      },
+      {
+        "name": "stat-1-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 1 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-2-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged."
+      },
+      {
+        "name": "stat-2-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 2 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-3-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged."
+      },
+      {
+        "name": "stat-3-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 3 description while preserving its measured frame."
+      },
+      {
+        "name": "data-source",
+        "type": "text",
+        "required": true,
+        "description": "Replace the data source while preserving its measured frame."
+      }
+    ],
+    "six-stat-column-panels": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "stat-1-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-1-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 1 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-2-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-2-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 2 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-3-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-3-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 3 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-4-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-4-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 4 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-5-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-5-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 5 description while preserving its measured frame."
+      },
+      {
+        "name": "stat-6-value",
+        "type": "number",
+        "required": true,
+        "description": "Numeric percentage, 0–100. This visible value drives its native bar height at 7 px per percentage point; edit this number and the bar updates on load and text edits. Zero has no visible bar or outline. A bar omits its outline if the rounded top edge would intersect the number or description text; its fill and proportional height remain unchanged. Numbers on short bars move above the fixed description with a measured 16 px ink gap; the default demo placement is preserved."
+      },
+      {
+        "name": "stat-6-description",
+        "type": "text",
+        "required": true,
+        "description": "Replace the stat 6 description while preserving its measured frame."
+      }
+    ],
+    "finding-to-recommendation-1": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding label while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "recommendation-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the recommendation label while preserving its measured frame."
+      },
+      {
+        "name": "recommendation-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the recommendation body while preserving its measured frame."
+      }
+    ],
+    "finding-to-recommendation-2": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "finding-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding label while preserving its measured frame."
+      },
+      {
+        "name": "finding-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the finding body while preserving its measured frame."
+      },
+      {
+        "name": "recommendation-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the recommendation label while preserving its measured frame."
+      },
+      {
+        "name": "recommendation-body",
+        "type": "text",
+        "required": true,
+        "description": "Replace the recommendation body while preserving its measured frame."
+      }
+    ],
+    "local-alignment-scale": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Replace the title while preserving its measured frame."
+      },
+      {
+        "name": "alignment-context",
+        "type": "text",
+        "required": true,
+        "description": "Replace the alignment context while preserving its measured frame."
+      },
+      {
+        "name": "alignment-question",
+        "type": "text",
+        "required": true,
+        "description": "Replace the alignment question while preserving its measured frame."
+      },
+      {
+        "name": "alignment-response",
+        "type": "interactive",
+        "required": true,
+        "description": "Local single-user alignment input. No server or shared voting is provided."
+      }
+    ],
+    "memorable-research-quote": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "featured-quote",
+        "type": "text",
+        "required": true,
+        "description": "Replace the featured quote while preserving its measured frame."
+      },
+      {
+        "name": "quote-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Replace the quote attribution while preserving its measured frame."
+      }
+    ],
+    "research-recommendation-summary": [
+      {
+        "name": "research-date",
+        "type": "text",
+        "required": true,
+        "description": "Replace the research date while preserving its measured frame."
+      },
+      {
+        "name": "project-name",
+        "type": "text",
+        "required": true,
+        "description": "Replace the project name while preserving its measured frame."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the section label while preserving its measured frame."
+      },
+      {
+        "name": "summary-label",
+        "type": "text",
+        "required": true,
+        "description": "Replace the summary label while preserving its measured frame."
+      },
+      {
+        "name": "summary-statement",
+        "type": "text",
+        "required": true,
+        "description": "Replace the summary statement while preserving its measured frame."
+      },
+      {
+        "name": "summary-supporting-point",
+        "type": "text",
+        "required": true,
+        "description": "Replace the summary supporting point while preserving its measured frame."
+      },
+      {
+        "name": "summary-next-step",
+        "type": "text",
+        "required": true,
+        "description": "Replace the summary next step while preserving its measured frame."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 140,
+    "max_body_chars_per_slide": 900,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 20
+  },
+  "source_inspiration": {
+    "name": "Research Readout — Figma Community",
+    "url": "https://www.figma.com/community/file/1382481559228932486/research-readout",
+    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 20 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. DM Sans 300/400 and Roboto Mono 300 preserve the source rounded sans-serif main voice and monospaced metadata rail. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. See SOURCE-NOTICES.md for photography and interactive-component boundaries. Source creator verified as Figma Community (@figma). Layout adaptation is attributed under CC BY 4.0. All embedded images are original fictional Fieldwork SVG demonstrations, with no stock photography; provenance is recorded in ASSET-LICENSES/manifest.json."
+  }
+}

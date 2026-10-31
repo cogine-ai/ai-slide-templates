@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 68 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 74 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -45,6 +45,10 @@ Browse 68 browser-openable HTML slide templates across business, research, train
 ![AI Slide Templates gallery 7](docs/assets/readme/template-gallery-07.png)
 
 ![AI Slide Templates gallery 8](docs/assets/readme/template-gallery-08.png)
+
+![AI Slide Templates gallery 9](docs/assets/readme/template-gallery-09.png)
+
+See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides): four original compositions and two attributed Figma Community adaptations. The [source and asset notices](docs/template-source-notices-2026-11-01.md) document the CC BY 4.0 layouts, individually sourced Pexels photography, original vector artwork and actual font licenses. Each new template carries a hash-based asset register. Third-party licenses remain applicable; the repository MIT license does not relicense those materials.
 
 See the [October 28 implementation notes](docs/template-implementation-2026-10-28.md) for the five-template batch, source reconstruction details, and verification scope.
 Third-party fonts, media, and source designs retain their original rights; see the [batch source and asset notices](docs/template-source-notices-2026-10-28.md) for attribution and open provenance items.
@@ -103,9 +107,11 @@ The folder name must match `template.json.slug`.
 | `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `customer-journey-map` | Diagrammatic, direct, structured | Customer journey maps, service-design workshops, lifecycle strategy, product discovery |
 | `dark-minimal-ui` | Digital, precise, interface-led | Startup pitches, UI product demos, technology concepts |
+| `design-review-grid` | Structured, precise, collaborative | Design critiques, product walkthroughs, review questions, feedback grids, and decision summaries |
 | `earthy-handmade` | Handmade, approachable, story-led | Brand manifestos, community workshops, classroom kickoffs, nonprofit stories |
 | `editorial-luxury` | Luxury, minimal, art-directed | Premium brand strategy, portfolio presentations, creative direction, launch narratives |
 | `elegant-product-launch` | Refined, editorial, premium | Product launches, campaign plans, premium retail stories, and art-directed launch narratives |
+| `fashion-editorial-lookbook` | Fashion, photographic, art-directed | Lookbooks, campaign concepts, creative portfolios, and image-led editorial stories |
 | `finance-startup-statements` | Practical, numeric, hand-drawn | Startup financial statements, funding asks, budget briefs, and simple financial education decks |
 | `financial-ledger` | Bold, precise, editorial | Annual financial reviews, executive scorecards, profitability and forecasts |
 | `forest-editorial` | Literary, calm, photographic | Editorial narratives, research stories, team introductions, timelines, and data-led arguments |
@@ -119,6 +125,7 @@ The folder name must match `template.json.slug`.
 | `identity-brand-guidelines` | Polished, documented, restrained | Brand guidelines, identity systems, logo usage, palette documentation, creative governance |
 | `incident-review` | Technical, precise, accountable | Incident postmortems, timelines, recovery and preventive actions |
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
+| `interior-design-editorial` | Architectural, refined, photographic | Interior proposals, studio credentials, project concepts, schedules, and fee breakdowns |
 | `law-justice` | Measured, legal, traditional | Legal briefings, justice policy updates, public institution presentations, and law education decks |
 | `linear-qbr` | Restrained, linear, formal | Quarterly business reviews, board updates, operating cadence, portfolio reviews |
 | `lumen-keynote` | Minimal, bold, restrained | Product launches, software keynotes, leadership talks, founder narratives, metrics, and roadmaps |
@@ -138,7 +145,9 @@ The folder name must match `template.json.slug`.
 | `nonprofit-sponsorship` | Inviting, clear, mission-led | Nonprofit event sponsorship decks, community partnership proposals, fundraising packages, and sponsor benefit explainers |
 | `outcome-case-study` | Confident, human, evidence-led | Customer outcome stories, interventions and before/after proof |
 | `pastel-research` | Scholarly, gentle, polished | Academic talks, medical science updates, conference presentations |
+| `personal-branding-playful` | Expressive, quirky, personable | Personal brand introductions, creative services, testimonials, and independent portfolios |
 | `photo-mosaic` | Gallery-like, polished, image-led | Photo-heavy case studies, visual portfolios, travel stories, project galleries, and product moodboards |
+| `press-kit-editorial` | Confident, minimal, editorial | Press kits, brand introductions, facts, product stories, leadership, and media contacts |
 | `product-roadmap-infographics` | Clean, directional, infographic | Product roadmaps, release plans, milestone reviews, and roadmap workshops |
 | `product-strategy-roadmap` | Calm, executive, organic | Product vision, now-next-later plans, milestones and prioritization |
 | `programming-workshop-3d` | Hands-on, digital, energetic | Developer training, coding bootcamps, technical onboarding, and beginner programming lessons |
@@ -146,6 +155,7 @@ The folder name must match `template.json.slug`.
 | `quarterly-review-infographics` | Direct, metric-led, practical | Quarterly business reviews, performance reports, sales updates, executive dashboards |
 | `quarterly-review-meeting` | Clear, measured, professional | QBR meetings, operating updates, project reviews, status and RAID reports |
 | `real-estate-listing` | Sales-led, direct, polished | Property listing decks, real-estate agency profiles, service/product pages, and neighborhood market summaries |
+| `research-readout-pastel` | Warm, systematic, evidence-led | Research readouts, participant findings, opportunity maps, recommendations, and alignment sessions |
 | `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
 | `sage-creative-agency` | Airy, refined, expressive | Creative agency credentials, brand proposals, team profiles, services, and project pricing |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
@@ -175,6 +185,15 @@ node scripts/validate.mjs
 
 The validator checks that every template folder has `template.html` and `template.json`, the folder name matches `slug`, required metadata fields exist, `.deck` is present, and `slide_count` matches the HTML slide count.
 It also checks common metadata drift: enum values, feature object shape, source attribution shape, and whether declared palette colors and font families are present in the template HTML.
+
+For templates with an asset register, verify embedded image coverage and required provenance fields:
+
+```sh
+node scripts/validate-assets.mjs
+node scripts/validate-assets.mjs --template press-kit-editorial
+```
+
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 68 templates are outside this asset review.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

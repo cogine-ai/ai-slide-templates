@@ -1,0 +1,1238 @@
+{
+  "slug": "personal-branding-playful",
+  "name": "Personal Branding Playful",
+  "tagline": "An original 18-page creative-practice deck with expressive type, fresh ribbon artwork and practical collaboration structures.",
+  "mood": [
+    "playful",
+    "expressive",
+    "warm",
+    "energetic"
+  ],
+  "occasion": [
+    "personal brand pitch",
+    "creative services",
+    "portfolio conversation",
+    "collaboration proposal"
+  ],
+  "tone": [
+    "bold",
+    "personal",
+    "creative"
+  ],
+  "formality": "medium-low",
+  "density": "medium",
+  "palette": {
+    "description": "Cream and black with expressive pink, red, yellow, green and blue. All geometric artwork is newly authored.",
+    "cream": "#F2EBE3",
+    "ink": "#000000",
+    "pink": "#FF9FD6",
+    "red": "#FB1912",
+    "yellow": "#FFD217",
+    "green": "#389910",
+    "blue": "#0A23A8"
+  },
+  "scheme": "mixed",
+  "best_for": "Creative professionals introducing a point of view, connected services, a practical process, illustrative projects and a collaboration proposal.",
+  "avoid_for": "Formal board reports, dense scientific data or a restrained corporate voice. Keep expressive typography and use concise copy.",
+  "typography": {
+    "display": "Savate",
+    "body": "Poppins",
+    "style": "Original static Savate (2015 MIT), Poppins 500/600 (OFL), Unbounded 700 (OFL 1.1). Independently authored type scale, fresh native artwork and original composition; source artwork and page geometry are not reused."
+  },
+  "slide_count": 18,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "offline": true,
+    "embedded_fonts": true,
+    "native_text": true,
+    "native_svg": true,
+    "original_composition": true,
+    "original_vector_art": true,
+    "licensed_editorial_photography": true,
+    "fictional_sample_content": true,
+    "asset_license_manifest": true,
+    "redistribution_clearance_pending": false
+  },
+  "layouts": [
+    "creative-ribbon-cover",
+    "creative-introduction",
+    "point-of-view",
+    "practice-three-disciplines",
+    "collaboration-benefits",
+    "four-part-process",
+    "voice-case-study",
+    "before-after-message",
+    "working-principles",
+    "process-photograph",
+    "workshop-architecture",
+    "three-engagements",
+    "project-scope",
+    "useful-deliverables",
+    "original-poster-gallery",
+    "one-brief-many-ways",
+    "creative-invitation",
+    "creative-contact-directory"
+  ],
+  "layout_slots": {
+    "creative-ribbon-cover": [
+      {
+        "name": "cover-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: DESIGN  /  WORDS  /  WORKSHOPS. Keep the measured 1500px frame, 20px type and wrapping capacity; about 30 characters in this example."
+      },
+      {
+        "name": "cover-title",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Ari Davis / makes room / for good ideas. Keep the measured 1390px frame, 163px type and wrapping capacity; about 36 characters in this example."
+      },
+      {
+        "name": "cover-ribbon",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "cover-subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A creative practice for clear, human communication. Keep the measured 1440px frame, 35px type and wrapping capacity; about 51 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 01 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "creative-introduction": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: AN INTRODUCTION. Keep the measured 540px frame, 18px type and wrapping capacity; about 15 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Hello, / I’m Ari. Keep the measured 900px frame, 156px type and wrapping capacity; about 15 characters in this example."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: I connect words, design and useful conversations. My job is to make a complex idea feel clear enough to act on, and human enough to care about. Keep the measured 860px frame, 37px type and wrapping capacity; about 143 characters in this example."
+      },
+      {
+        "name": "process-photo",
+        "type": "image",
+        "required": true,
+        "description": "Independent licensed editorial photograph (770×650 frame); replace with suitably licensed imagery, retain crop treatment. Current photo: Pexels 5357492, Maria Mileta; ASSET-LICENSES/manifest.json."
+      },
+      {
+        "name": "photo-note",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Creative process / licensed editorial illustration. Keep the measured 770px frame, 21px type and wrapping capacity; about 50 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 02 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "point-of-view": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: POINT OF VIEW. Keep the measured 540px frame, 18px type and wrapping capacity; about 13 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Clear is a / creative choice. Keep the measured 1610px frame, 150px type and wrapping capacity; about 27 characters in this example."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: When people understand the point, they can bring their own intelligence, energy and imagination to what comes next. Keep the measured 1130px frame, 42px type and wrapping capacity; about 115 characters in this example."
+      },
+      {
+        "name": "point-ring",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 03 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "practice-three-disciplines": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: THE PRACTICE. Keep the measured 540px frame, 18px type and wrapping capacity; about 12 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: One practice. / Three ways in. Keep the measured 1760px frame, 122px type and wrapping capacity; about 28 characters in this example."
+      },
+      {
+        "name": "discipline-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WORDS. Keep the measured 390px frame, 25px type and wrapping capacity; about 5 characters in this example."
+      },
+      {
+        "name": "discipline-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Find the voice. Keep the measured 640px frame, 37px type and wrapping capacity; about 15 characters in this example."
+      },
+      {
+        "name": "discipline-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Positioning, naming and messages that sound like someone worth listening to. Keep the measured 640px frame, 29px type and wrapping capacity; about 76 characters in this example."
+      },
+      {
+        "name": "discipline-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: DESIGN. Keep the measured 390px frame, 25px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "discipline-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Make the point visible. Keep the measured 640px frame, 37px type and wrapping capacity; about 23 characters in this example."
+      },
+      {
+        "name": "discipline-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Identity, editorial systems and digital stories that hold together. Keep the measured 640px frame, 29px type and wrapping capacity; about 67 characters in this example."
+      },
+      {
+        "name": "discipline-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WORKSHOPS. Keep the measured 390px frame, 25px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "discipline-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Get people moving. Keep the measured 640px frame, 37px type and wrapping capacity; about 18 characters in this example."
+      },
+      {
+        "name": "discipline-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Generous structure for a room that needs to think, decide or make. Keep the measured 640px frame, 29px type and wrapping capacity; about 66 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 04 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "collaboration-benefits": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WHAT THE WORK SHOULD DO. Keep the measured 540px frame, 18px type and wrapping capacity; about 23 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Make it clear. / Make it human. Keep the measured 1600px frame, 139px type and wrapping capacity; about 29 characters in this example."
+      },
+      {
+        "name": "benefit-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A useful point of view. Keep the measured 545px frame, 35px type and wrapping capacity; about 22 characters in this example."
+      },
+      {
+        "name": "benefit-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A clear idea people can repeat in their own words. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
+      },
+      {
+        "name": "benefit-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A coherent expression. Keep the measured 545px frame, 35px type and wrapping capacity; about 21 characters in this example."
+      },
+      {
+        "name": "benefit-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Words and images that sound and look like the same organization. Keep the measured 515px frame, 30px type and wrapping capacity; about 64 characters in this example."
+      },
+      {
+        "name": "benefit-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Room to participate. Keep the measured 545px frame, 35px type and wrapping capacity; about 19 characters in this example."
+      },
+      {
+        "name": "benefit-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A process that invites people in and makes decisions visible. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 05 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "four-part-process": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: PROCESS. Keep the measured 540px frame, 18px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: How a project / gets clearer. Keep the measured 1760px frame, 132px type and wrapping capacity; about 27 characters in this example."
+      },
+      {
+        "name": "process-0-number",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 01. Keep the measured 405px frame, 69px type and wrapping capacity; about 2 characters in this example."
+      },
+      {
+        "name": "process-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: LISTEN. Keep the measured 405px frame, 21px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "process-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Gather the real questions. Keep the measured 395px frame, 31px type and wrapping capacity; about 26 characters in this example."
+      },
+      {
+        "name": "process-1-number",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 02. Keep the measured 405px frame, 69px type and wrapping capacity; about 2 characters in this example."
+      },
+      {
+        "name": "process-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: NAME. Keep the measured 405px frame, 21px type and wrapping capacity; about 4 characters in this example."
+      },
+      {
+        "name": "process-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Find the idea holding it together. Keep the measured 395px frame, 31px type and wrapping capacity; about 34 characters in this example."
+      },
+      {
+        "name": "process-2-number",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 03. Keep the measured 405px frame, 69px type and wrapping capacity; about 2 characters in this example."
+      },
+      {
+        "name": "process-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: MAKE. Keep the measured 405px frame, 21px type and wrapping capacity; about 4 characters in this example."
+      },
+      {
+        "name": "process-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Explore it in words and form. Keep the measured 395px frame, 31px type and wrapping capacity; about 29 characters in this example."
+      },
+      {
+        "name": "process-3-number",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 04. Keep the measured 405px frame, 69px type and wrapping capacity; about 2 characters in this example."
+      },
+      {
+        "name": "process-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: PRACTICE. Keep the measured 405px frame, 21px type and wrapping capacity; about 8 characters in this example."
+      },
+      {
+        "name": "process-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Help people use it with confidence. Keep the measured 395px frame, 31px type and wrapping capacity; about 35 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 06 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "voice-case-study": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE PROJECT / VOICE. Keep the measured 540px frame, 18px type and wrapping capacity; about 28 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Room to / Think. Keep the measured 890px frame, 142px type and wrapping capacity; about 14 characters in this example."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A fictional neighborhood studio needed one invitation that could hold many activities. The answer was a voice that made space: curious, direct and open. Keep the measured 865px frame, 34px type and wrapping capacity; about 152 characters in this example."
+      },
+      {
+        "name": "voice-poster",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "project-note",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Original vector concept / fictional project. Keep the measured 680px frame, 20px type and wrapping capacity; about 43 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 07 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "before-after-message": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE PROJECT / THE CHANGE. Keep the measured 540px frame, 18px type and wrapping capacity; about 33 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: A message people / can carry. Keep the measured 1760px frame, 115px type and wrapping capacity; about 27 characters in this example."
+      },
+      {
+        "name": "message-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: BEFORE. Keep the measured 845px frame, 24px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "message-0-quote",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Many activities. / No shared invitation. Keep the measured 830px frame, 51px type and wrapping capacity; about 38 characters in this example."
+      },
+      {
+        "name": "message-0-context",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Separate descriptions competed for attention. Keep the measured 805px frame, 28px type and wrapping capacity; about 45 characters in this example."
+      },
+      {
+        "name": "message-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: AFTER. Keep the measured 845px frame, 24px type and wrapping capacity; about 5 characters in this example."
+      },
+      {
+        "name": "message-1-quote",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Come with a question. / Leave with a possibility. Keep the measured 830px frame, 51px type and wrapping capacity; about 47 characters in this example."
+      },
+      {
+        "name": "message-1-context",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: One flexible invitation brought the activities together. Keep the measured 805px frame, 28px type and wrapping capacity; about 56 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 08 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "working-principles": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WORKING TOGETHER. Keep the measured 540px frame, 18px type and wrapping capacity; about 16 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Good collaboration / feels like this. Keep the measured 1200px frame, 112px type and wrapping capacity; about 35 characters in this example."
+      },
+      {
+        "name": "craft-process-photo",
+        "type": "image",
+        "required": true,
+        "description": "Independent licensed editorial photograph (450×280 frame); replace with suitably licensed imagery, retain crop treatment. Current photo: Pexels 15820561, Dilan Ceviz; ASSET-LICENSES/manifest.json."
+      },
+      {
+        "name": "working-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Candid. Keep the measured 540px frame, 47px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "working-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Questions can be asked early, without having to perform certainty. Keep the measured 1100px frame, 33px type and wrapping capacity; about 66 characters in this example."
+      },
+      {
+        "name": "working-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Generous. Keep the measured 540px frame, 47px type and wrapping capacity; about 8 characters in this example."
+      },
+      {
+        "name": "working-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: People see the thinking and understand the decisions. Keep the measured 1100px frame, 33px type and wrapping capacity; about 53 characters in this example."
+      },
+      {
+        "name": "working-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Practical. Keep the measured 540px frame, 47px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "working-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: The work ends with something people know how to use. Keep the measured 1100px frame, 33px type and wrapping capacity; about 52 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 09 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "process-photograph": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WAYS OF MAKING. Keep the measured 540px frame, 18px type and wrapping capacity; about 14 characters in this example."
+      },
+      {
+        "name": "making-photo",
+        "type": "image",
+        "required": true,
+        "description": "Independent licensed editorial photograph (1035×781 frame); replace with suitably licensed imagery, retain crop treatment. Current photo: Pexels 8534157, Hanna Pad; ASSET-LICENSES/manifest.json."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Start / with a / blank page. Keep the measured 650px frame, 118px type and wrapping capacity; about 24 characters in this example."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: An open page is a useful invitation. Begin with a question, a shape or a few honest words. Keep the measured 610px frame, 36px type and wrapping capacity; about 90 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 10 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "workshop-architecture": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WORKSHOP DESIGN. Keep the measured 540px frame, 18px type and wrapping capacity; about 15 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: A room with a purpose. Keep the measured 1760px frame, 104px type and wrapping capacity; about 22 characters in this example."
+      },
+      {
+        "name": "workshop-intro",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A useful session balances three things: a clear question, enough structure and room for people to think. Keep the measured 1670px frame, 35px type and wrapping capacity; about 104 characters in this example."
+      },
+      {
+        "name": "workshop-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: QUESTION. Keep the measured 545px frame, 23px type and wrapping capacity; about 8 characters in this example."
+      },
+      {
+        "name": "workshop-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: What must be different by the end? Keep the measured 525px frame, 43px type and wrapping capacity; about 34 characters in this example."
+      },
+      {
+        "name": "workshop-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: PEOPLE. Keep the measured 545px frame, 23px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "workshop-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Whose experience belongs in the room? Keep the measured 525px frame, 43px type and wrapping capacity; about 37 characters in this example."
+      },
+      {
+        "name": "workshop-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: STRUCTURE. Keep the measured 545px frame, 23px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "workshop-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: What will help them move forward? Keep the measured 525px frame, 43px type and wrapping capacity; about 33 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 11 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "three-engagements": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: EXAMPLE ENGAGEMENTS / FICTIONAL PRICING. Keep the measured 540px frame, 18px type and wrapping capacity; about 39 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: A useful starting point. Keep the measured 1760px frame, 108px type and wrapping capacity; about 24 characters in this example."
+      },
+      {
+        "name": "engagement-0-name",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: VOICE AUDIT. Keep the measured 650px frame, 25px type and wrapping capacity; about 11 characters in this example."
+      },
+      {
+        "name": "engagement-0-price",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: $1,800. Keep the measured 410px frame, 56px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "engagement-0-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: An outside view on the messages, moments and language people meet. Keep the measured 580px frame, 31px type and wrapping capacity; about 66 characters in this example."
+      },
+      {
+        "name": "engagement-1-name",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: IDENTITY SPRINT. Keep the measured 650px frame, 25px type and wrapping capacity; about 15 characters in this example."
+      },
+      {
+        "name": "engagement-1-price",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: $3,200. Keep the measured 410px frame, 56px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "engagement-1-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: One focused direction across positioning, words and a visual starting point. Keep the measured 580px frame, 31px type and wrapping capacity; about 76 characters in this example."
+      },
+      {
+        "name": "engagement-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: TEAM WORKSHOP. Keep the measured 650px frame, 25px type and wrapping capacity; about 13 characters in this example."
+      },
+      {
+        "name": "engagement-2-price",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: $900. Keep the measured 410px frame, 56px type and wrapping capacity; about 4 characters in this example."
+      },
+      {
+        "name": "engagement-2-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A well-structured conversation around one decision that matters. Keep the measured 580px frame, 31px type and wrapping capacity; about 64 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 12 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "project-scope": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: EXAMPLE PROJECT SCOPE. Keep the measured 540px frame, 18px type and wrapping capacity; about 21 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: From brief to a / useful hand-off. Keep the measured 1760px frame, 116px type and wrapping capacity; about 32 characters in this example."
+      },
+      {
+        "name": "scope-0-week",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WEEK ONE. Keep the measured 550px frame, 23px type and wrapping capacity; about 8 characters in this example."
+      },
+      {
+        "name": "scope-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Find the question. Keep the measured 545px frame, 45px type and wrapping capacity; about 17 characters in this example."
+      },
+      {
+        "name": "scope-0-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Context, conversations and a focused creative brief. Keep the measured 515px frame, 30px type and wrapping capacity; about 52 characters in this example."
+      },
+      {
+        "name": "scope-1-week",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WEEK TWO. Keep the measured 550px frame, 23px type and wrapping capacity; about 8 characters in this example."
+      },
+      {
+        "name": "scope-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Explore the answer. Keep the measured 545px frame, 45px type and wrapping capacity; about 18 characters in this example."
+      },
+      {
+        "name": "scope-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Two developed directions in words and visual form. Keep the measured 515px frame, 30px type and wrapping capacity; about 50 characters in this example."
+      },
+      {
+        "name": "scope-2-week",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: WEEK THREE. Keep the measured 550px frame, 23px type and wrapping capacity; about 10 characters in this example."
+      },
+      {
+        "name": "scope-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Make it usable. Keep the measured 545px frame, 45px type and wrapping capacity; about 14 characters in this example."
+      },
+      {
+        "name": "scope-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A selected direction, practical guidance and a team hand-off. Keep the measured 515px frame, 30px type and wrapping capacity; about 61 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 13 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "useful-deliverables": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: THE HAND-OFF. Keep the measured 540px frame, 18px type and wrapping capacity; about 12 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Useful after / the presentation. Keep the measured 1760px frame, 124px type and wrapping capacity; about 30 characters in this example."
+      },
+      {
+        "name": "hand-off-photo",
+        "type": "image",
+        "required": true,
+        "description": "Independent licensed editorial photograph (825×400 frame); replace with suitably licensed imagery, retain crop treatment. Current photo: Pexels 6913313, Tima Miroshnichenko; ASSET-LICENSES/manifest.json."
+      },
+      {
+        "name": "handoff-0-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A shared idea. Keep the measured 800px frame, 42px type and wrapping capacity; about 13 characters in this example."
+      },
+      {
+        "name": "handoff-0-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: The point people can explain. Keep the measured 800px frame, 31px type and wrapping capacity; about 29 characters in this example."
+      },
+      {
+        "name": "handoff-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A working system. Keep the measured 800px frame, 42px type and wrapping capacity; about 16 characters in this example."
+      },
+      {
+        "name": "handoff-1-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Examples people can adapt. Keep the measured 800px frame, 31px type and wrapping capacity; about 26 characters in this example."
+      },
+      {
+        "name": "handoff-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A next step. Keep the measured 800px frame, 42px type and wrapping capacity; about 11 characters in this example."
+      },
+      {
+        "name": "handoff-2-detail",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A clear way to keep moving. Keep the measured 800px frame, 31px type and wrapping capacity; about 27 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 14 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "original-poster-gallery": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ORIGINAL VECTOR STUDIES. Keep the measured 540px frame, 18px type and wrapping capacity; about 23 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Play is a way of thinking. Keep the measured 1760px frame, 106px type and wrapping capacity; about 26 characters in this example."
+      },
+      {
+        "name": "poster-study-0",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "poster-study-1",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "poster-study-2",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 15 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "one-brief-many-ways": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A COLLABORATION IDEA. Keep the measured 540px frame, 18px type and wrapping capacity; about 20 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: One brief. / Many ways in. Keep the measured 1760px frame, 142px type and wrapping capacity; about 24 characters in this example."
+      },
+      {
+        "name": "body",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Bring the question your team keeps circling. We will make it clear enough to work on, and open enough to surprise us. Keep the measured 1180px frame, 42px type and wrapping capacity; about 117 characters in this example."
+      },
+      {
+        "name": "idea-wheel",
+        "type": "svg",
+        "required": false,
+        "description": "Original native vector artwork, authored for this template. Retain its colors and geometry or replace with original/licensed vector content."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 16 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "creative-invitation": [
+      {
+        "name": "invitation-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: A CLEAR QUESTION IS A GOOD PLACE TO START. Keep the measured 1760px frame, 21px type and wrapping capacity; about 41 characters in this example."
+      },
+      {
+        "name": "invitation-title",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Let’s / make sense. Keep the measured 1720px frame, 184px type and wrapping capacity; about 17 characters in this example."
+      },
+      {
+        "name": "invitation-contact",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: hi@aridavis.example. Keep the measured 1400px frame, 45px type and wrapping capacity; about 19 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 17 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ],
+    "creative-contact-directory": [
+      {
+        "name": "brand-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ARI DAVIS. Keep the measured 900px frame, 20px type and wrapping capacity; about 9 characters in this example."
+      },
+      {
+        "name": "section-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: CONTACT. Keep the measured 540px frame, 18px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "headline",
+        "type": "text",
+        "required": true,
+        "description": "Native display text. Current demo: Your next / good question? Keep the measured 1760px frame, 139px type and wrapping capacity; about 24 characters in this example."
+      },
+      {
+        "name": "contact-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: MAIL. Keep the measured 390px frame, 23px type and wrapping capacity; about 4 characters in this example."
+      },
+      {
+        "name": "contact-0-value",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: hi@aridavis.example. Keep the measured 1300px frame, 37px type and wrapping capacity; about 19 characters in this example."
+      },
+      {
+        "name": "contact-1-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ONLINE. Keep the measured 390px frame, 23px type and wrapping capacity; about 6 characters in this example."
+      },
+      {
+        "name": "contact-1-value",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: aridavis.example. Keep the measured 1300px frame, 37px type and wrapping capacity; about 16 characters in this example."
+      },
+      {
+        "name": "contact-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: BASE. Keep the measured 390px frame, 23px type and wrapping capacity; about 4 characters in this example."
+      },
+      {
+        "name": "contact-2-value",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: Working wherever the question takes us. Keep the measured 1300px frame, 37px type and wrapping capacity; about 39 characters in this example."
+      },
+      {
+        "name": "folio",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: 18 / 18. Keep the measured 105px frame, 17px type and wrapping capacity; about 7 characters in this example."
+      },
+      {
+        "name": "edition-label",
+        "type": "text",
+        "required": true,
+        "description": "Native body/label text. Current demo: ILLUSTRATIVE STUDIO BRIEF  •  NOVEMBER 2026. Keep the measured 1350px frame, 16px type and wrapping capacity; about 43 characters in this example."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 140,
+    "max_body_chars_per_slide": 750,
+    "max_bullets": 6,
+    "max_cards": 4,
+    "recommended_slide_count_min": 10,
+    "recommended_slide_count_max": 24
+  },
+  "source_inspiration": {
+    "name": "Historical genre reference: Meg Lewis — Personal Branding",
+    "url": "https://pitch.com/templates/Personal-Branding-Pitch-Deck-5j8DRt6zzLUa5JqPED6gWtP4",
+    "notes": "The earlier source-inspired study is superseded. This version uses independently authored compositions, CSS, native vector artwork and original fictional demonstration copy. No Pitch-exported DOM/CSS, source custom SVG art, source brand logo or source photography remains. Only the broad editorial/creative genre was retained. Actual font licenses and each editorial photo source/author/hash are documented in FONT-LICENSES and ASSET-LICENSES; no standalone reuse grant for the historical Pitch design is asserted or needed for this independent implementation."
+  }
+}
