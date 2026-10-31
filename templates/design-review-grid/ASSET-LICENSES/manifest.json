@@ -1,0 +1,666 @@
+{
+  "template": "design-review-grid",
+  "reviewedAt": "2026-11-01",
+  "presentationDesign": {
+    "sourceUrl": "https://www.figma.com/community/file/1383475610293894214/design-review",
+    "creator": "Figma Community (@figma)",
+    "license": "CC BY4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "basisUrl": "https://help.figma.com/hc/en-us/articles/360042296374-Figma-Community-copyright-and-licensing",
+    "changes": "Native HTML/SVG adaptation, original Fieldwork examples/UI and independent photography replacement; full source-preview page sequence retained.",
+    "creatorUrl": "https://www.figma.com/@figma",
+    "creatorEvidence": "Public guest browser showed Design Review creator link Figma Community at /@figma on 2026-11-01."
+  },
+  "photos": [
+    {
+      "id": "15883147",
+      "title": "Sunlit Trees in Forest",
+      "author": "Airam Dato-on",
+      "pageUrl": "https://www.pexels.com/photo/sunlit-trees-in-forest-15883147/",
+      "downloadUrl": "https://images.pexels.com/photos/15883147/pexels-photo-15883147.jpeg?cs=srgb&dl=pexels-airamdphoto-15883147.jpg&fm=jpg",
+      "alt": "Sunlit coastal trees under a clear sky, photographed by Airam Dato-on",
+      "mediaId": "pexels-15883147",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "504710a5b5da8856578d3a43c565a34a384ce18bb19767fc05a973e52aec5c06",
+      "sourceBytes": 4913124,
+      "sourceDimensions": [
+        4000,
+        6000
+      ],
+      "embeddedSHA256": "9e733358f56e6677d26b79379ea967fbbd449a68460860dc2a9f807ca0f3a955",
+      "embeddedBytes": 741524,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-1"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph."
+    },
+    {
+      "id": "31851519",
+      "title": "Scenic Black Sand Beach with Basalt Columns",
+      "author": "Alec Doualetas",
+      "pageUrl": "https://www.pexels.com/photo/scenic-black-sand-beach-with-basalt-columns-31851519/",
+      "downloadUrl": "https://images.pexels.com/photos/31851519/pexels-photo-31851519.jpeg?cs=srgb&dl=pexels-alecdoua-31851519.jpg&fm=jpg",
+      "alt": "Coastal basalt cliffs and black sand, photographed by Alec Doualetas",
+      "mediaId": "pexels-31851519",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "3a819716b700a8e7df7f52c360d165773b1fb476d917a9a033ffaefb2a1e23b3",
+      "sourceBytes": 9319857,
+      "sourceDimensions": [
+        6336,
+        9504
+      ],
+      "embeddedSHA256": "547276e8e3a872ebc1db2685898cdb0682e882fba2dbea212067da12d627a571",
+      "embeddedBytes": 549998,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-2"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph."
+    },
+    {
+      "id": "36081877",
+      "title": "Close-up of Wooden Texture with Detailed Grain Patterns",
+      "author": "Natalia Sevruk",
+      "pageUrl": "https://www.pexels.com/photo/close-up-of-wooden-texture-with-detailed-grain-patterns-36081877/",
+      "downloadUrl": "https://images.pexels.com/photos/36081877/pexels-photo-36081877.jpeg?cs=srgb&dl=pexels-natalia-sevruk-636238602-36081877.jpg&fm=jpg",
+      "alt": "Warm wood-grain detail, photographed by Natalia Sevruk",
+      "mediaId": "pexels-36081877",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "b539ea3719b8cab6deaf14c8726252b6912b0ae255ef38fe5b63ed156d8a5310",
+      "sourceBytes": 4537628,
+      "sourceDimensions": [
+        5184,
+        3456
+      ],
+      "embeddedSHA256": "b5badb91c8bc6e924547abd8669a125625ac371e9599e72b8c782ae179a9e5c3",
+      "embeddedBytes": 897580,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-3"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph."
+    },
+    {
+      "id": "23511047",
+      "title": "Texture of Glacier",
+      "author": "Tomáš Malík",
+      "pageUrl": "https://www.pexels.com/photo/texture-of-glacier-23511047/",
+      "downloadUrl": "https://images.pexels.com/photos/23511047/pexels-photo-23511047.jpeg?cs=srgb&dl=pexels-tomas-malik-793526-23511047.jpg&fm=jpg",
+      "alt": "Layered blue glacier ice, photographed by Tomáš Malík",
+      "mediaId": "pexels-23511047",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "9cb12a93e3f0b7845ada54ba204fdc981637ec2f101cbe210afaa7d085706dcc",
+      "sourceBytes": 719450,
+      "sourceDimensions": [
+        1825,
+        2738
+      ],
+      "embeddedSHA256": "be2aae6297819ae942589f049002fc1607c11b95b6fcd1769ef89a28807d2476",
+      "embeddedBytes": 415866,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-4"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph."
+    }
+  ],
+  "originalEmbeddedImages": [
+    {
+      "embeddedSHA256": "ea977feca9ed888b6ec53a614030f2bf53f446ee58ada76afb7537371b08c1b9",
+      "embeddedBytes": 1394,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 4,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 5,
+          "slot": "cover-product-screen"
+        }
+      ]
+    },
+    {
+      "embeddedSHA256": "269c83e83e983acc85685e377f91b06ebe44eb92e8cd9f4e1798bdd9f9cd7185",
+      "embeddedBytes": 1550,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 6,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 7,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 33,
+          "slot": "full-product-visual"
+        },
+        {
+          "slide": 34,
+          "slot": "direction-visual"
+        }
+      ]
+    },
+    {
+      "embeddedSHA256": "8e093c7003e9691b1b3192a8c12e2272a12d02507fa5f11973d83f973126bbc0",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 18,
+          "slot": "persona-1-portrait"
+        },
+        {
+          "slide": 19,
+          "slot": "persona-1-portrait"
+        }
+      ]
+    },
+    {
+      "embeddedSHA256": "fb338468ea9c485a65b39537d9d985eac11cb92f6048018b2602bcacc72ae676",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 18,
+          "slot": "persona-2-portrait"
+        },
+        {
+          "slide": 19,
+          "slot": "persona-2-portrait"
+        }
+      ]
+    },
+    {
+      "embeddedSHA256": "9d16e2daa9bca6f4c634efb63806d8c3eb34cb16a3e6e5f8453c16e0577c556e",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 19,
+          "slot": "persona-3-portrait"
+        }
+      ]
+    },
+    {
+      "id": "fieldwork-svg-0d84d494f5a8",
+      "kind": "svg",
+      "sha256": "0d84d494f5a87460bf091534fd418bd649ad18378a921f93867ebab6806b4d15",
+      "embeddedSHA256": "0d84d494f5a87460bf091534fd418bd649ad18378a921f93867ebab6806b4d15",
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "licenseFile": "../../../LICENSE",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen SVG illustration authored for this project, without source screenshot or third-party raster input.",
+      "provenance": "Original project-authored Fieldwork UI, including CSS-backed prototype variations.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "fieldwork-svg-12da8c422f47",
+      "kind": "svg",
+      "sha256": "12da8c422f4702108679a08229d86397e8b55b02fd6970e24d7eb15f89aedfc3",
+      "embeddedSHA256": "12da8c422f4702108679a08229d86397e8b55b02fd6970e24d7eb15f89aedfc3",
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "licenseFile": "../../../LICENSE",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen SVG illustration authored for this project, without source screenshot or third-party raster input.",
+      "provenance": "Original project-authored Fieldwork UI, including CSS-backed prototype variations.",
+      "reviewedAt": "2026-11-01"
+    }
+  ],
+  "originalInlineArtwork": "Product devices, charts, participant icons and visual diagrams use original SVG implementation; overall source-template adaptation is credited under CC BY4.0.",
+  "removedUnclearPhotoPayloads": [
+    "4c93a457e53dbcc7c425c1e2a59c6f0aa3d7f5033a1b4de0e945e0d90d72dd13",
+    "36ceaaec45a2eba8f6ee320c6b15ec03c339572847fc2e70c374962c2ec23b9f",
+    "b080d56092d593b0d2ae45a555b14ff6094c39d5fdb5ed7c471fd819acdd6897",
+    "6cda92c6d35653c1c2d91283c9ab4c09c82c1371590145445320a6c9194d0b19"
+  ],
+  "notes": "Photo licenses remain Pexels License, not MIT/CC0. Combined within an authored presentation with captions/typography; raw downloaded stock images are not distributed as standalone files. Font licenses are separate in FONT-LICENSES.",
+  "schemaVersion": 1,
+  "design": {
+    "status": "cleared",
+    "creator": "Figma Community (@figma)",
+    "creatorUrl": "https://www.figma.com/@figma",
+    "licenseId": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.figma.com/community/file/1383475610293894214/design-review",
+    "attribution": "Design Review by Figma Community (@figma); adapted by Cogine AI under CC BY 4.0.",
+    "statement": "Native HTML/SVG adaptation, original Fieldwork examples/UI and independent photography replacement; full source-preview page sequence retained.",
+    "basisUrl": "https://help.figma.com/hc/en-us/articles/360042296374-Figma-Community-copyright-and-licensing"
+  },
+  "assets": [
+    {
+      "id": "pexels-15883147",
+      "title": "Sunlit Trees in Forest",
+      "author": "Airam Dato-on",
+      "pageUrl": "https://www.pexels.com/photo/sunlit-trees-in-forest-15883147/",
+      "downloadUrl": "https://images.pexels.com/photos/15883147/pexels-photo-15883147.jpeg?cs=srgb&dl=pexels-airamdphoto-15883147.jpg&fm=jpg",
+      "alt": "Sunlit coastal trees under a clear sky, photographed by Airam Dato-on",
+      "mediaId": "pexels-15883147",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "504710a5b5da8856578d3a43c565a34a384ce18bb19767fc05a973e52aec5c06",
+      "sourceBytes": 4913124,
+      "sourceDimensions": [
+        4000,
+        6000
+      ],
+      "embeddedSHA256": "9e733358f56e6677d26b79379ea967fbbd449a68460860dc2a9f807ca0f3a955",
+      "embeddedBytes": 741524,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-1"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph.",
+      "kind": "photo",
+      "sha256": "9e733358f56e6677d26b79379ea967fbbd449a68460860dc2a9f807ca0f3a955",
+      "creator": "Airam Dato-on",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/sunlit-trees-in-forest-15883147/",
+      "status": "cleared",
+      "modifications": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame."
+    },
+    {
+      "id": "pexels-31851519",
+      "title": "Scenic Black Sand Beach with Basalt Columns",
+      "author": "Alec Doualetas",
+      "pageUrl": "https://www.pexels.com/photo/scenic-black-sand-beach-with-basalt-columns-31851519/",
+      "downloadUrl": "https://images.pexels.com/photos/31851519/pexels-photo-31851519.jpeg?cs=srgb&dl=pexels-alecdoua-31851519.jpg&fm=jpg",
+      "alt": "Coastal basalt cliffs and black sand, photographed by Alec Doualetas",
+      "mediaId": "pexels-31851519",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "3a819716b700a8e7df7f52c360d165773b1fb476d917a9a033ffaefb2a1e23b3",
+      "sourceBytes": 9319857,
+      "sourceDimensions": [
+        6336,
+        9504
+      ],
+      "embeddedSHA256": "547276e8e3a872ebc1db2685898cdb0682e882fba2dbea212067da12d627a571",
+      "embeddedBytes": 549998,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-2"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph.",
+      "kind": "photo",
+      "sha256": "547276e8e3a872ebc1db2685898cdb0682e882fba2dbea212067da12d627a571",
+      "creator": "Alec Doualetas",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-black-sand-beach-with-basalt-columns-31851519/",
+      "status": "cleared",
+      "modifications": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame."
+    },
+    {
+      "id": "pexels-36081877",
+      "title": "Close-up of Wooden Texture with Detailed Grain Patterns",
+      "author": "Natalia Sevruk",
+      "pageUrl": "https://www.pexels.com/photo/close-up-of-wooden-texture-with-detailed-grain-patterns-36081877/",
+      "downloadUrl": "https://images.pexels.com/photos/36081877/pexels-photo-36081877.jpeg?cs=srgb&dl=pexels-natalia-sevruk-636238602-36081877.jpg&fm=jpg",
+      "alt": "Warm wood-grain detail, photographed by Natalia Sevruk",
+      "mediaId": "pexels-36081877",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "b539ea3719b8cab6deaf14c8726252b6912b0ae255ef38fe5b63ed156d8a5310",
+      "sourceBytes": 4537628,
+      "sourceDimensions": [
+        5184,
+        3456
+      ],
+      "embeddedSHA256": "b5badb91c8bc6e924547abd8669a125625ac371e9599e72b8c782ae179a9e5c3",
+      "embeddedBytes": 897580,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-3"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph.",
+      "kind": "photo",
+      "sha256": "b5badb91c8bc6e924547abd8669a125625ac371e9599e72b8c782ae179a9e5c3",
+      "creator": "Natalia Sevruk",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/close-up-of-wooden-texture-with-detailed-grain-patterns-36081877/",
+      "status": "cleared",
+      "modifications": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame."
+    },
+    {
+      "id": "pexels-23511047",
+      "title": "Texture of Glacier",
+      "author": "Tomáš Malík",
+      "pageUrl": "https://www.pexels.com/photo/texture-of-glacier-23511047/",
+      "downloadUrl": "https://images.pexels.com/photos/23511047/pexels-photo-23511047.jpeg?cs=srgb&dl=pexels-tomas-malik-793526-23511047.jpg&fm=jpg",
+      "alt": "Layered blue glacier ice, photographed by Tomáš Malík",
+      "mediaId": "pexels-23511047",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "termsVersion": "2026-10-20",
+      "reviewedAt": "2026-11-01",
+      "licenseEvidence": "Official photo page identifies creator and links Free to use / Free to Pexels License; public Free download link supplies the recorded file.",
+      "sourceSHA256": "9cb12a93e3f0b7845ada54ba204fdc981637ec2f101cbe210afaa7d085706dcc",
+      "sourceBytes": 719450,
+      "sourceDimensions": [
+        1825,
+        2738
+      ],
+      "embeddedSHA256": "be2aae6297819ae942589f049002fc1607c11b95b6fcd1769ef89a28807d2476",
+      "embeddedBytes": 415866,
+      "embeddedMime": "image/webp",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "transform": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame.",
+      "uses": [
+        {
+          "slide": 35,
+          "layout": "four-image-inspiration",
+          "slot": "inspiration-image-4"
+        }
+      ],
+      "visualReview": "Natural landscape/material only; no identifiable people, trademarks, logos or separate artwork observed. Used as a design-moodboard example, not as a client project, endorsement or authored photograph.",
+      "kind": "photo",
+      "sha256": "be2aae6297819ae942589f049002fc1607c11b95b6fcd1769ef89a28807d2476",
+      "creator": "Tomáš Malík",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/texture-of-glacier-23511047/",
+      "status": "cleared",
+      "modifications": "EXIF orientation applied; proportional downsample to maximum1800px and WebP quality91; no semantic alteration. Existing CSS object-fit:cover retains the frame."
+    },
+    {
+      "embeddedSHA256": "ea977feca9ed888b6ec53a614030f2bf53f446ee58ada76afb7537371b08c1b9",
+      "embeddedBytes": 1394,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 4,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 5,
+          "slot": "cover-product-screen"
+        }
+      ],
+      "id": "fieldwork-svg-ea977feca9ed",
+      "kind": "svg",
+      "sha256": "ea977feca9ed888b6ec53a614030f2bf53f446ee58ada76afb7537371b08c1b9",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "embeddedSHA256": "269c83e83e983acc85685e377f91b06ebe44eb92e8cd9f4e1798bdd9f9cd7185",
+      "embeddedBytes": 1550,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 6,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 7,
+          "slot": "cover-product-screen"
+        },
+        {
+          "slide": 33,
+          "slot": "full-product-visual"
+        },
+        {
+          "slide": 34,
+          "slot": "direction-visual"
+        }
+      ],
+      "id": "fieldwork-svg-269c83e83e98",
+      "kind": "svg",
+      "sha256": "269c83e83e983acc85685e377f91b06ebe44eb92e8cd9f4e1798bdd9f9cd7185",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "embeddedSHA256": "8e093c7003e9691b1b3192a8c12e2272a12d02507fa5f11973d83f973126bbc0",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 18,
+          "slot": "persona-1-portrait"
+        },
+        {
+          "slide": 19,
+          "slot": "persona-1-portrait"
+        }
+      ],
+      "id": "fieldwork-svg-8e093c7003e9",
+      "kind": "svg",
+      "sha256": "8e093c7003e9691b1b3192a8c12e2272a12d02507fa5f11973d83f973126bbc0",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "embeddedSHA256": "fb338468ea9c485a65b39537d9d985eac11cb92f6048018b2602bcacc72ae676",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 18,
+          "slot": "persona-2-portrait"
+        },
+        {
+          "slide": 19,
+          "slot": "persona-2-portrait"
+        }
+      ],
+      "id": "fieldwork-svg-fb338468ea9c",
+      "kind": "svg",
+      "sha256": "fb338468ea9c485a65b39537d9d985eac11cb92f6048018b2602bcacc72ae676",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "embeddedSHA256": "9d16e2daa9bca6f4c634efb63806d8c3eb34cb16a3e6e5f8453c16e0577c556e",
+      "embeddedBytes": 311,
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "license": "MIT",
+      "licenseFile": "../../../LICENSE",
+      "provenance": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "uses": [
+        {
+          "slide": 19,
+          "slot": "persona-3-portrait"
+        }
+      ],
+      "id": "fieldwork-svg-9d16e2daa9bc",
+      "kind": "svg",
+      "sha256": "9d16e2daa9bca6f4c634efb63806d8c3eb34cb16a3e6e5f8453c16e0577c556e",
+      "licenseId": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen/landscape illustration authored for this library; not a source screenshot.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "fieldwork-svg-0d84d494f5a8",
+      "kind": "svg",
+      "sha256": "0d84d494f5a87460bf091534fd418bd649ad18378a921f93867ebab6806b4d15",
+      "embeddedSHA256": "0d84d494f5a87460bf091534fd418bd649ad18378a921f93867ebab6806b4d15",
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "licenseFile": "../../../LICENSE",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen SVG illustration authored for this project, without source screenshot or third-party raster input.",
+      "provenance": "Original project-authored Fieldwork UI, including CSS-backed prototype variations.",
+      "reviewedAt": "2026-11-01"
+    },
+    {
+      "id": "fieldwork-svg-12da8c422f47",
+      "kind": "svg",
+      "sha256": "12da8c422f4702108679a08229d86397e8b55b02fd6970e24d7eb15f89aedfc3",
+      "embeddedSHA256": "12da8c422f4702108679a08229d86397e8b55b02fd6970e24d7eb15f89aedfc3",
+      "embeddedMime": "image/svg+xml",
+      "creator": "Cogine AI",
+      "licenseId": "MIT",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "licenseFile": "../../../LICENSE",
+      "status": "cleared",
+      "authorship": "Original fictional Fieldwork product-screen SVG illustration authored for this project, without source screenshot or third-party raster input.",
+      "provenance": "Original project-authored Fieldwork UI, including CSS-backed prototype variations.",
+      "reviewedAt": "2026-11-01"
+    }
+  ]
+}

@@ -52,7 +52,10 @@
     "independent_media_slots": true,
     "source_preview_order": true,
     "local_alignment_demo": false,
-    "multiplayer_voting": false
+    "multiplayer_voting": false,
+    "individual_photo_provenance": true,
+    "asset_license_manifest": true,
+    "redistribution_clearance_pending": false
   },
   "layouts": [
     "review-cover-black",
@@ -1515,7 +1518,7 @@
         "name": "inspiration-image-1",
         "type": "image",
         "required": true,
-        "description": "Replace the inspiration image 1 while preserving its measured frame."
+        "description": "Independent Pexels photograph by Airam Dato-on (pexels-15883147); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
       },
       {
         "name": "inspiration-caption-1",
@@ -1527,7 +1530,7 @@
         "name": "inspiration-image-2",
         "type": "image",
         "required": true,
-        "description": "Replace the inspiration image 2 while preserving its measured frame."
+        "description": "Independent Pexels photograph by Alec Doualetas (pexels-31851519); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
       },
       {
         "name": "inspiration-caption-2",
@@ -1539,7 +1542,7 @@
         "name": "inspiration-image-3",
         "type": "image",
         "required": true,
-        "description": "Replace the inspiration image 3 while preserving its measured frame."
+        "description": "Independent Pexels photograph by Natalia Sevruk (pexels-36081877); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
       },
       {
         "name": "inspiration-caption-3",
@@ -1551,7 +1554,7 @@
         "name": "inspiration-image-4",
         "type": "image",
         "required": true,
-        "description": "Replace the inspiration image 4 while preserving its measured frame."
+        "description": "Independent Pexels photograph by Tomáš Malík (pexels-23511047); source and licence in ASSET-LICENSES/manifest.json. Replace with appropriately licensed imagery while preserving the measured frame, crop and caption relationship."
       },
       {
         "name": "inspiration-caption-4",
@@ -1573,6 +1576,6 @@
   "source_inspiration": {
     "name": "Design Review — Figma Community",
     "url": "https://www.figma.com/community/file/1383475610293894214/design-review",
-    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 35 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. Inter 300/400 and Tinos Regular preserve the source sans-serif main voice and Times-like serif section titles. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. See SOURCE-NOTICES.md for photography and interactive-component boundaries."
+    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 35 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. Inter 300/400 and Tinos Regular preserve the source sans-serif main voice and Times-like serif section titles. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. Four source-preview photographs are replaced with individually credited Pexels natural-landscape/material photos, with raw/embedded hashes and source/licence links in ASSET-LICENSES/manifest.json. No unresolved source-preview photograph remains. Source design attribution and changes are retained under CC BY4.0; font licences are separate."
   }
 }

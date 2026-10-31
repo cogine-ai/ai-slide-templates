@@ -5,7 +5,7 @@
   "unmodified": true,
   "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/Unbounded%5Bwght%5D.ttf",
   "sha256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f",
-  "license": "SIL Open Font License1.1",
+  "license": "SIL Open Font License 1.1",
   "licenseFile": "unbounded-OFL.txt",
   "metadataFile": "unbounded-METADATA.pb",
   "cssFontFaces": [
@@ -13,13 +13,10 @@
       "font-family": "\"Unbounded\"",
       "font-weight": "700",
       "font-style": "normal",
-      "size-adjust": "103.329022%",
-      "ascent-override": "73.648234%",
-      "descent-override": "27.097905%",
-      "line-gap-override": "0.000000%",
       "embeddedSHA256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f"
     }
   ],
   "removedSourceFontPayloads": 1,
-  "sourceTypefaceNotBundled": "Hanson Bold"
+  "sourceTypefaceNotBundled": "Hanson Bold",
+  "implementationNote": "Unmodified font bytes, native font metrics, original template type scale; no source-layout metric calibration."
 }

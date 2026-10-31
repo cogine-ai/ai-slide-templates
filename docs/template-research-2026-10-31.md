@@ -2,6 +2,8 @@
 
 研究日期：2026-10-31 至 2026-11-01，Asia/Taipei。本文件为实施前的研究快照，基线为 **68 套、825 页示例**；六套成品及最新验证见[制作与验收记录](template-implementation-2026-11-01.md)。
 
+**最终实施变更：** 下文是候选研究而非当前授权结论。四套 Pitch 方向已改为原创构图并替换全部来源媒体；两套 Figma 布局按 CC BY 4.0 署名改编。最终素材记录及许可范围见[来源与素材声明](template-source-notices-2026-11-01.md)。
+
 ## 推荐结论
 
 本批保留 **6 套主候选**。Press Kit、Interior Design Proposal、Editorial Layouts 提供三种成熟的编辑设计；Figma 的 Design Review、Research Readout 具备清楚的内容结构与公开的模板许可依据；新增 Meg Lewis 的 Personal Branding，为这批补充高饱和、富有人格的个人品牌方向。

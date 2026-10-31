@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31T19:32:23.649980+00:00",
+  "compositionLicense": "Original template code and native vector artwork: repository MIT license.",
+  "provider": "Pexels",
+  "licenseUrl": "https://www.pexels.com/license/",
+  "termsUrl": "https://www.pexels.com/terms-of-service/",
+  "licenseReview": "Official Pexels license expressly allows creative use in presentations and templates. Photos are combined with original text, layout and vector artwork, not redistributed as a standalone stock-photo pack. Provider license does not waive trademark, model or property rights. No depicted person is identified as a fictional team member/client or presented as an endorser.",
+  "photographs": [
+    {
+      "id": "hands-plain-coffee",
+      "provider": "Pexels",
+      "photoId": 5357492,
+      "author": "Maria Mileta",
+      "pageUrl": "https://www.pexels.com/photo/a-person-holding-a-pen-on-the-blank-page-of-the-notebook-5357492/",
+      "downloadUrl": "https://images.pexels.com/photos/5357492/pexels-photo-5357492.jpeg?cs=srgb&dl=pexels-maria-mileta-3563033-5357492.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:30:46.477113+00:00",
+      "bytes": 577020,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3783,
+        2509
+      ],
+      "sourceSHA256": "95ad606d75697221506733d5831d45dbd9ab742d6b909ec0ca71615efba3b643",
+      "embeddedSHA256": "f59d539ca9de167d338b7d88b2b3e716efadd7af9e0f1e60156b5c4386f520e7",
+      "embeddedDimensions": [
+        1800,
+        1194
+      ],
+      "embeddedBytes": 195562,
+      "uses": [
+        {
+          "page": 2,
+          "layout": "creative-introduction",
+          "slot": "process-photo",
+          "frame": {
+            "x": 1070,
+            "y": 153,
+            "width": 770,
+            "height": 650
+          },
+          "objectPosition": "55% 50%"
+        }
+      ]
+    },
+    {
+      "id": "potter-hands",
+      "provider": "Pexels",
+      "photoId": 15820561,
+      "author": "Dilan Ceviz",
+      "pageUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "downloadUrl": "https://images.pexels.com/photos/15820561/pexels-photo-15820561.jpeg?cs=srgb&dl=pexels-dilankusanc-15820561.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.299444+00:00",
+      "bytes": 887166,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3024,
+        4032
+      ],
+      "sourceSHA256": "3d6ea4d379d3726b58ec2d47173eb24d1b40801a40afab02d10fe7924889d109",
+      "embeddedSHA256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "embeddedDimensions": [
+        1350,
+        1800
+      ],
+      "embeddedBytes": 291417,
+      "uses": [
+        {
+          "page": 9,
+          "layout": "working-principles",
+          "slot": "craft-process-photo",
+          "frame": {
+            "x": 1390,
+            "y": 145,
+            "width": 450,
+            "height": 280
+          },
+          "objectPosition": "50% 55%"
+        }
+      ]
+    },
+    {
+      "id": "blank-stationery",
+      "provider": "Pexels",
+      "photoId": 8534157,
+      "author": "Hanna Pad",
+      "pageUrl": "https://www.pexels.com/photo/blank-notepad-on-the-table-8534157/",
+      "downloadUrl": "https://images.pexels.com/photos/8534157/pexels-photo-8534157.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-8534157.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:30:50.032144+00:00",
+      "bytes": 928817,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        4160,
+        6240
+      ],
+      "sourceSHA256": "3eddf6fc17b3ec6f4ac49f600fb37af7e5146e8d145348aa1981ba6aaaa9dce9",
+      "embeddedSHA256": "405b2d06f9c9b46f8bcde5d441bc06230a2a12cba51091cd448b02ceacf3f15b",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 90045,
+      "uses": [
+        {
+          "page": 10,
+          "layout": "process-photograph",
+          "slot": "making-photo",
+          "frame": {
+            "x": 80,
+            "y": 154,
+            "width": 1035,
+            "height": 781
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "hands-blank",
+      "provider": "Pexels",
+      "photoId": 6913313,
+      "author": "Tima Miroshnichenko",
+      "pageUrl": "https://www.pexels.com/photo/hand-of-a-person-holding-a-pencil-and-a-blank-notebook-6913313/",
+      "downloadUrl": "https://images.pexels.com/photos/6913313/pexels-photo-6913313.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-6913313.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:04:01.962069+00:00",
+      "bytes": 1143721,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        6000,
+        4000
+      ],
+      "sourceSHA256": "dac9be7def4dece1361fc8447e67aaf3391b23ed4f1e86bf4885a81970139291",
+      "embeddedSHA256": "2d4fb723032821ec2a963066bd78fb7a5583441c44c6e7d2458b80e909a33310",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 153358,
+      "uses": [
+        {
+          "page": 14,
+          "layout": "useful-deliverables",
+          "slot": "hand-off-photo",
+          "frame": {
+            "x": 80,
+            "y": 529,
+            "width": 825,
+            "height": 400
+          },
+          "objectPosition": "50% 56%"
+        }
+      ]
+    }
+  ],
+  "originalVectorArt": {
+    "author": "Cogine AI",
+    "license": "MIT",
+    "description": "Fresh native SVG primitives and mathematical paths authored in this version. No historical source SVG payload or path was reused."
+  },
+  "template": "personal-branding-playful",
+  "design": {
+    "status": "cleared",
+    "creator": "Cogine AI",
+    "licenseId": "MIT",
+    "licenseUrl": "https://opensource.org/license/mit/",
+    "statement": "Independently authored template code, slide compositions, fictional demonstration copy and native vector artwork. Historical genre references do not supply exported DOM, CSS, source page geometry, logos, photography or custom artwork in this version."
+  },
+  "assets": [
+    {
+      "id": "hands-plain-coffee",
+      "provider": "Pexels",
+      "photoId": 5357492,
+      "author": "Maria Mileta",
+      "pageUrl": "https://www.pexels.com/photo/a-person-holding-a-pen-on-the-blank-page-of-the-notebook-5357492/",
+      "downloadUrl": "https://images.pexels.com/photos/5357492/pexels-photo-5357492.jpeg?cs=srgb&dl=pexels-maria-mileta-3563033-5357492.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:30:46.477113+00:00",
+      "bytes": 577020,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3783,
+        2509
+      ],
+      "sourceSHA256": "95ad606d75697221506733d5831d45dbd9ab742d6b909ec0ca71615efba3b643",
+      "embeddedSHA256": "f59d539ca9de167d338b7d88b2b3e716efadd7af9e0f1e60156b5c4386f520e7",
+      "embeddedDimensions": [
+        1800,
+        1194
+      ],
+      "embeddedBytes": 195562,
+      "uses": [
+        {
+          "page": 2,
+          "layout": "creative-introduction",
+          "slot": "process-photo",
+          "frame": {
+            "x": 1070,
+            "y": 153,
+            "width": 770,
+            "height": 650
+          },
+          "objectPosition": "55% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "f59d539ca9de167d338b7d88b2b3e716efadd7af9e0f1e60156b5c4386f520e7",
+      "status": "cleared",
+      "creator": "Maria Mileta",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/a-person-holding-a-pen-on-the-blank-page-of-the-notebook-5357492/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "potter-hands",
+      "provider": "Pexels",
+      "photoId": 15820561,
+      "author": "Dilan Ceviz",
+      "pageUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "downloadUrl": "https://images.pexels.com/photos/15820561/pexels-photo-15820561.jpeg?cs=srgb&dl=pexels-dilankusanc-15820561.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.299444+00:00",
+      "bytes": 887166,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3024,
+        4032
+      ],
+      "sourceSHA256": "3d6ea4d379d3726b58ec2d47173eb24d1b40801a40afab02d10fe7924889d109",
+      "embeddedSHA256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "embeddedDimensions": [
+        1350,
+        1800
+      ],
+      "embeddedBytes": 291417,
+      "uses": [
+        {
+          "page": 9,
+          "layout": "working-principles",
+          "slot": "craft-process-photo",
+          "frame": {
+            "x": 1390,
+            "y": 145,
+            "width": 450,
+            "height": 280
+          },
+          "objectPosition": "50% 55%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "status": "cleared",
+      "creator": "Dilan Ceviz",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "blank-stationery",
+      "provider": "Pexels",
+      "photoId": 8534157,
+      "author": "Hanna Pad",
+      "pageUrl": "https://www.pexels.com/photo/blank-notepad-on-the-table-8534157/",
+      "downloadUrl": "https://images.pexels.com/photos/8534157/pexels-photo-8534157.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-8534157.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:30:50.032144+00:00",
+      "bytes": 928817,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        4160,
+        6240
+      ],
+      "sourceSHA256": "3eddf6fc17b3ec6f4ac49f600fb37af7e5146e8d145348aa1981ba6aaaa9dce9",
+      "embeddedSHA256": "405b2d06f9c9b46f8bcde5d441bc06230a2a12cba51091cd448b02ceacf3f15b",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 90045,
+      "uses": [
+        {
+          "page": 10,
+          "layout": "process-photograph",
+          "slot": "making-photo",
+          "frame": {
+            "x": 80,
+            "y": 154,
+            "width": 1035,
+            "height": 781
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "405b2d06f9c9b46f8bcde5d441bc06230a2a12cba51091cd448b02ceacf3f15b",
+      "status": "cleared",
+      "creator": "Hanna Pad",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/blank-notepad-on-the-table-8534157/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "hands-blank",
+      "provider": "Pexels",
+      "photoId": 6913313,
+      "author": "Tima Miroshnichenko",
+      "pageUrl": "https://www.pexels.com/photo/hand-of-a-person-holding-a-pencil-and-a-blank-notebook-6913313/",
+      "downloadUrl": "https://images.pexels.com/photos/6913313/pexels-photo-6913313.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-6913313.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T19:04:01.962069+00:00",
+      "bytes": 1143721,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        6000,
+        4000
+      ],
+      "sourceSHA256": "dac9be7def4dece1361fc8447e67aaf3391b23ed4f1e86bf4885a81970139291",
+      "embeddedSHA256": "2d4fb723032821ec2a963066bd78fb7a5583441c44c6e7d2458b80e909a33310",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 153358,
+      "uses": [
+        {
+          "page": 14,
+          "layout": "useful-deliverables",
+          "slot": "hand-off-photo",
+          "frame": {
+            "x": 80,
+            "y": 529,
+            "width": 825,
+            "height": 400
+          },
+          "objectPosition": "50% 56%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "2d4fb723032821ec2a963066bd78fb7a5583441c44c6e7d2458b80e909a33310",
+      "status": "cleared",
+      "creator": "Tima Miroshnichenko",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/hand-of-a-person-holding-a-pencil-and-a-blank-notebook-6913313/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    }
+  ]
+}

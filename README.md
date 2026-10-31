@@ -48,7 +48,7 @@ Browse 74 browser-openable HTML slide templates across business, research, train
 
 ![AI Slide Templates gallery 9](docs/assets/readme/template-gallery-09.png)
 
-See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides), implementation differences, and verification scope. The [November 1 source notices](docs/template-source-notices-2026-11-01.md) describe the implemented fonts, the licensed typography adaptations, and remaining source-design/media clearance risks. Third-party assets retain their original rights; the repository license does not grant blanket redistribution permission for them.
+See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides): four original compositions and two attributed Figma Community adaptations. The [source and asset notices](docs/template-source-notices-2026-11-01.md) document the CC BY 4.0 layouts, individually sourced Pexels photography, original vector artwork and actual font licenses. Each new template carries a hash-based asset register. Third-party licenses remain applicable; the repository MIT license does not relicense those materials.
 
 See the [October 28 implementation notes](docs/template-implementation-2026-10-28.md) for the five-template batch, source reconstruction details, and verification scope.
 Third-party fonts, media, and source designs retain their original rights; see the [batch source and asset notices](docs/template-source-notices-2026-10-28.md) for attribution and open provenance items.
@@ -185,6 +185,15 @@ node scripts/validate.mjs
 
 The validator checks that every template folder has `template.html` and `template.json`, the folder name matches `slug`, required metadata fields exist, `.deck` is present, and `slide_count` matches the HTML slide count.
 It also checks common metadata drift: enum values, feature object shape, source attribution shape, and whether declared palette colors and font families are present in the template HTML.
+
+For templates with an asset register, verify embedded image coverage and required provenance fields:
+
+```sh
+node scripts/validate-assets.mjs
+node scripts/validate-assets.mjs --template press-kit-editorial
+```
+
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 68 templates are outside this asset review.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

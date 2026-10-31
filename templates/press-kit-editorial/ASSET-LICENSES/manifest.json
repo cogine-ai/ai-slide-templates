@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31T19:10:17.971465+00:00",
+  "compositionLicense": "Original template code and native vector artwork: repository MIT license.",
+  "provider": "Pexels",
+  "licenseUrl": "https://www.pexels.com/license/",
+  "termsUrl": "https://www.pexels.com/terms-of-service/",
+  "licenseReview": "Official Pexels license expressly allows creative use in presentations and templates. Photos are combined with original text, layout and vector artwork, not redistributed as a standalone stock-photo pack. Provider license does not waive trademark, model or property rights. No depicted person is identified as a fictional team member/client or presented as an endorser.",
+  "photographs": [
+    {
+      "id": "vases-texture",
+      "provider": "Pexels",
+      "photoId": 7119222,
+      "author": "Ivan S",
+      "pageUrl": "https://www.pexels.com/photo/ceramic-vases-on-a-white-surface-7119222/",
+      "downloadUrl": "https://images.pexels.com/photos/7119222/pexels-photo-7119222.jpeg?cs=srgb&dl=pexels-ivan-s-7119222.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:16.229755+00:00",
+      "bytes": 5331555,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        6650,
+        4433
+      ],
+      "sourceSHA256": "c0a742db48116aad3770c5d8cf941ec2c807f82c6251a9ac22a74cbd0860700a",
+      "embeddedSHA256": "71fd68c496a49d9e3f57ea99edae0e3d5cb279d7ea3d4c6c163bac2d43cf634d",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 271810,
+      "uses": [
+        {
+          "page": 1,
+          "layout": "object-room-cover",
+          "slot": "cover-photograph",
+          "frame": {
+            "x": 1142,
+            "y": 100,
+            "width": 690,
+            "height": 866
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-0",
+          "frame": {
+            "x": 80,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 15,
+          "layout": "object-focus",
+          "slot": "object-focus",
+          "frame": {
+            "x": 1090,
+            "y": 153,
+            "width": 750,
+            "height": 784
+          },
+          "objectPosition": "47% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-1",
+          "frame": {
+            "x": 530,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "vases-white",
+      "provider": "Pexels",
+      "photoId": 34902344,
+      "author": "Valentin Ivantsov",
+      "pageUrl": "https://www.pexels.com/photo/elegant-minimalist-still-life-with-vases-34902344/",
+      "downloadUrl": "https://images.pexels.com/photos/34902344/pexels-photo-34902344.jpeg?cs=srgb&dl=pexels-valentin-ivantsov-2154772556-34902344.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.160722+00:00",
+      "bytes": 2056633,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3840,
+        5760
+      ],
+      "sourceSHA256": "e4a736c56425039cb2bfa622917e2c2afdeb74f12df5995617c48673a519670d",
+      "embeddedSHA256": "c31955de8ba28013f40993b7712a4fe68e805509db6cd3d0b2bcc58ebe823416",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 271551,
+      "uses": [
+        {
+          "page": 4,
+          "layout": "studio-profile",
+          "slot": "studio-image",
+          "frame": {
+            "x": 1130,
+            "y": 151,
+            "width": 710,
+            "height": 790
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-1",
+          "frame": {
+            "x": 685,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-3",
+          "frame": {
+            "x": 1430,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "vases-branch",
+      "provider": "Pexels",
+      "photoId": 5598279,
+      "author": "Anna Tarazevich",
+      "pageUrl": "https://www.pexels.com/photo/a-close-up-shot-of-ceramic-vases-5598279/",
+      "downloadUrl": "https://images.pexels.com/photos/5598279/pexels-photo-5598279.jpeg?cs=srgb&dl=pexels-anntarazevich-5598279.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:06.626133+00:00",
+      "bytes": 1408211,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        2333,
+        3500
+      ],
+      "sourceSHA256": "0a0aa608876382a8c0bd2d1dbaa6ebffbcbfe1b081e36d017756061cae3231a8",
+      "embeddedSHA256": "d4e4be6063ab2f1c69a64ae8115c93d01aa3ec4764d63cc556835388f845ac47",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 359157,
+      "uses": [
+        {
+          "page": 6,
+          "layout": "material-diptych",
+          "slot": "detail-left",
+          "frame": {
+            "x": 80,
+            "y": 145,
+            "width": 720,
+            "height": 762
+          },
+          "objectPosition": "50% 53%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-0",
+          "frame": {
+            "x": 80,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "ceramics-soft",
+      "provider": "Pexels",
+      "photoId": 27180805,
+      "author": "Ionela Mat",
+      "pageUrl": "https://www.pexels.com/photo/ceramics-home-decor-27180805/",
+      "downloadUrl": "https://images.pexels.com/photos/27180805/pexels-photo-27180805.jpeg?cs=srgb&dl=pexels-ionela-mat-268382825-27180805.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:10.953414+00:00",
+      "bytes": 1850568,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        5785,
+        3857
+      ],
+      "sourceSHA256": "a6090d8fa5d20412bd23f590b119c8614dd8e80fee39dc596980a311384ac1e4",
+      "embeddedSHA256": "f03fc936873cecf9021b9b4bb082ab257767fed03f619b558b48b60658890e7f",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 159669,
+      "uses": [
+        {
+          "page": 6,
+          "layout": "material-diptych",
+          "slot": "detail-right",
+          "frame": {
+            "x": 856,
+            "y": 145,
+            "width": 984,
+            "height": 520
+          },
+          "objectPosition": "50% 45%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-7",
+          "frame": {
+            "x": 1430,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "vases-dried",
+      "provider": "Pexels",
+      "photoId": 12859529,
+      "author": "Sena Aykut",
+      "pageUrl": "https://www.pexels.com/photo/still-life-photo-with-vases-12859529/",
+      "downloadUrl": "https://images.pexels.com/photos/12859529/pexels-photo-12859529.jpeg?cs=srgb&dl=pexels-handanovijc-12859529.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:06.122702+00:00",
+      "bytes": 1137260,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3456,
+        5184
+      ],
+      "sourceSHA256": "a2dc461a0d8153aac5268f739ff9cf020c8fb6299eb883283cdc23fa40c47959",
+      "embeddedSHA256": "14c249fcf0526e878419508c9c7bf410e37cd4616835c21a9820ed3b3a3a5c84",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 162787,
+      "uses": [
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-2",
+          "frame": {
+            "x": 1290,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 12,
+          "layout": "photo-essay",
+          "slot": "essay-vertical",
+          "frame": {
+            "x": 1220,
+            "y": 147,
+            "width": 620,
+            "height": 790
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-5",
+          "frame": {
+            "x": 530,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "paper-ceramics",
+      "provider": "Pexels",
+      "photoId": 6476112,
+      "author": "Hanna Pad",
+      "pageUrl": "https://www.pexels.com/photo/blank-paper-and-ceramic-vases-6476112/",
+      "downloadUrl": "https://images.pexels.com/photos/6476112/pexels-photo-6476112.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6476112.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:04.834309+00:00",
+      "bytes": 651144,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3468,
+        5202
+      ],
+      "sourceSHA256": "4ffa34e951fee2a2da898aac9d68290d4130b9a9aaab2440014705d6f673f9bd",
+      "embeddedSHA256": "a327053b2b38cc035db96e2f56ee5d7e9e42b46a86ee3cb7f02607f7bacdb880",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 183668,
+      "uses": [
+        {
+          "page": 9,
+          "layout": "material-notebook",
+          "slot": "material-photo",
+          "frame": {
+            "x": 80,
+            "y": 153,
+            "width": 900,
+            "height": 784
+          },
+          "objectPosition": "50% 52%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-4",
+          "frame": {
+            "x": 80,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "potter-hands",
+      "provider": "Pexels",
+      "photoId": 15820561,
+      "author": "Dilan Ceviz",
+      "pageUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "downloadUrl": "https://images.pexels.com/photos/15820561/pexels-photo-15820561.jpeg?cs=srgb&dl=pexels-dilankusanc-15820561.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.299444+00:00",
+      "bytes": 887166,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3024,
+        4032
+      ],
+      "sourceSHA256": "3d6ea4d379d3726b58ec2d47173eb24d1b40801a40afab02d10fe7924889d109",
+      "embeddedSHA256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "embeddedDimensions": [
+        1350,
+        1800
+      ],
+      "embeddedBytes": 291417,
+      "uses": [
+        {
+          "page": 10,
+          "layout": "making-sequence",
+          "slot": "making-image",
+          "frame": {
+            "x": 80,
+            "y": 486,
+            "width": 560,
+            "height": 455
+          },
+          "objectPosition": "50% 55%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-6",
+          "frame": {
+            "x": 980,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    },
+    {
+      "id": "vases-studio",
+      "provider": "Pexels",
+      "photoId": 19217224,
+      "author": "Pavel Morillo",
+      "pageUrl": "https://www.pexels.com/photo/vases-in-a-minimalist-studio-19217224/",
+      "downloadUrl": "https://images.pexels.com/photos/19217224/pexels-photo-19217224.jpeg?cs=srgb&dl=pexels-thisispav-19217224.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:03.760269+00:00",
+      "bytes": 333769,
+      "modifications": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ],
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        4416,
+        2944
+      ],
+      "sourceSHA256": "ae535c2dc9e2a73e4abc414aa0b2911196a143305536e62ffd7977674c0649f5",
+      "embeddedSHA256": "2b093632c68413312c7532c5d16fc62cdfe1447d6c5610afbf6a7c7ac52e600a",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 78896,
+      "uses": [
+        {
+          "page": 12,
+          "layout": "photo-essay",
+          "slot": "essay-wide",
+          "frame": {
+            "x": 80,
+            "y": 147,
+            "width": 1080,
+            "height": 500
+          },
+          "objectPosition": "50% 43%"
+        },
+        {
+          "page": 14,
+          "layout": "studio-atmosphere",
+          "slot": "space-image",
+          "frame": {
+            "x": 80,
+            "y": 150,
+            "width": 1760,
+            "height": 520
+          },
+          "objectPosition": "50% 42%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-2",
+          "frame": {
+            "x": 980,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ]
+    }
+  ],
+  "originalVectorArt": {
+    "author": "Cogine AI",
+    "license": "MIT",
+    "description": "Fresh native SVG primitives and mathematical paths authored in this version. No historical source SVG payload or path was reused."
+  },
+  "template": "press-kit-editorial",
+  "design": {
+    "status": "cleared",
+    "creator": "Cogine AI",
+    "licenseId": "MIT",
+    "licenseUrl": "https://opensource.org/license/mit/",
+    "statement": "Independently authored template code, slide compositions, fictional demonstration copy and native vector artwork. Historical genre references do not supply exported DOM, CSS, source page geometry, logos, photography or custom artwork in this version."
+  },
+  "assets": [
+    {
+      "id": "vases-texture",
+      "provider": "Pexels",
+      "photoId": 7119222,
+      "author": "Ivan S",
+      "pageUrl": "https://www.pexels.com/photo/ceramic-vases-on-a-white-surface-7119222/",
+      "downloadUrl": "https://images.pexels.com/photos/7119222/pexels-photo-7119222.jpeg?cs=srgb&dl=pexels-ivan-s-7119222.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:16.229755+00:00",
+      "bytes": 5331555,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        6650,
+        4433
+      ],
+      "sourceSHA256": "c0a742db48116aad3770c5d8cf941ec2c807f82c6251a9ac22a74cbd0860700a",
+      "embeddedSHA256": "71fd68c496a49d9e3f57ea99edae0e3d5cb279d7ea3d4c6c163bac2d43cf634d",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 271810,
+      "uses": [
+        {
+          "page": 1,
+          "layout": "object-room-cover",
+          "slot": "cover-photograph",
+          "frame": {
+            "x": 1142,
+            "y": 100,
+            "width": 690,
+            "height": 866
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-0",
+          "frame": {
+            "x": 80,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 15,
+          "layout": "object-focus",
+          "slot": "object-focus",
+          "frame": {
+            "x": 1090,
+            "y": 153,
+            "width": 750,
+            "height": 784
+          },
+          "objectPosition": "47% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-1",
+          "frame": {
+            "x": 530,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "71fd68c496a49d9e3f57ea99edae0e3d5cb279d7ea3d4c6c163bac2d43cf634d",
+      "status": "cleared",
+      "creator": "Ivan S",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/ceramic-vases-on-a-white-surface-7119222/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "vases-white",
+      "provider": "Pexels",
+      "photoId": 34902344,
+      "author": "Valentin Ivantsov",
+      "pageUrl": "https://www.pexels.com/photo/elegant-minimalist-still-life-with-vases-34902344/",
+      "downloadUrl": "https://images.pexels.com/photos/34902344/pexels-photo-34902344.jpeg?cs=srgb&dl=pexels-valentin-ivantsov-2154772556-34902344.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.160722+00:00",
+      "bytes": 2056633,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3840,
+        5760
+      ],
+      "sourceSHA256": "e4a736c56425039cb2bfa622917e2c2afdeb74f12df5995617c48673a519670d",
+      "embeddedSHA256": "c31955de8ba28013f40993b7712a4fe68e805509db6cd3d0b2bcc58ebe823416",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 271551,
+      "uses": [
+        {
+          "page": 4,
+          "layout": "studio-profile",
+          "slot": "studio-image",
+          "frame": {
+            "x": 1130,
+            "y": 151,
+            "width": 710,
+            "height": 790
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-1",
+          "frame": {
+            "x": 685,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-3",
+          "frame": {
+            "x": 1430,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "c31955de8ba28013f40993b7712a4fe68e805509db6cd3d0b2bcc58ebe823416",
+      "status": "cleared",
+      "creator": "Valentin Ivantsov",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/elegant-minimalist-still-life-with-vases-34902344/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "vases-branch",
+      "provider": "Pexels",
+      "photoId": 5598279,
+      "author": "Anna Tarazevich",
+      "pageUrl": "https://www.pexels.com/photo/a-close-up-shot-of-ceramic-vases-5598279/",
+      "downloadUrl": "https://images.pexels.com/photos/5598279/pexels-photo-5598279.jpeg?cs=srgb&dl=pexels-anntarazevich-5598279.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:06.626133+00:00",
+      "bytes": 1408211,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        2333,
+        3500
+      ],
+      "sourceSHA256": "0a0aa608876382a8c0bd2d1dbaa6ebffbcbfe1b081e36d017756061cae3231a8",
+      "embeddedSHA256": "d4e4be6063ab2f1c69a64ae8115c93d01aa3ec4764d63cc556835388f845ac47",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 359157,
+      "uses": [
+        {
+          "page": 6,
+          "layout": "material-diptych",
+          "slot": "detail-left",
+          "frame": {
+            "x": 80,
+            "y": 145,
+            "width": 720,
+            "height": 762
+          },
+          "objectPosition": "50% 53%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-0",
+          "frame": {
+            "x": 80,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "d4e4be6063ab2f1c69a64ae8115c93d01aa3ec4764d63cc556835388f845ac47",
+      "status": "cleared",
+      "creator": "Anna Tarazevich",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/a-close-up-shot-of-ceramic-vases-5598279/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "ceramics-soft",
+      "provider": "Pexels",
+      "photoId": 27180805,
+      "author": "Ionela Mat",
+      "pageUrl": "https://www.pexels.com/photo/ceramics-home-decor-27180805/",
+      "downloadUrl": "https://images.pexels.com/photos/27180805/pexels-photo-27180805.jpeg?cs=srgb&dl=pexels-ionela-mat-268382825-27180805.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:10.953414+00:00",
+      "bytes": 1850568,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        5785,
+        3857
+      ],
+      "sourceSHA256": "a6090d8fa5d20412bd23f590b119c8614dd8e80fee39dc596980a311384ac1e4",
+      "embeddedSHA256": "f03fc936873cecf9021b9b4bb082ab257767fed03f619b558b48b60658890e7f",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 159669,
+      "uses": [
+        {
+          "page": 6,
+          "layout": "material-diptych",
+          "slot": "detail-right",
+          "frame": {
+            "x": 856,
+            "y": 145,
+            "width": 984,
+            "height": 520
+          },
+          "objectPosition": "50% 45%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-7",
+          "frame": {
+            "x": 1430,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "f03fc936873cecf9021b9b4bb082ab257767fed03f619b558b48b60658890e7f",
+      "status": "cleared",
+      "creator": "Ionela Mat",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/ceramics-home-decor-27180805/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "vases-dried",
+      "provider": "Pexels",
+      "photoId": 12859529,
+      "author": "Sena Aykut",
+      "pageUrl": "https://www.pexels.com/photo/still-life-photo-with-vases-12859529/",
+      "downloadUrl": "https://images.pexels.com/photos/12859529/pexels-photo-12859529.jpeg?cs=srgb&dl=pexels-handanovijc-12859529.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:06.122702+00:00",
+      "bytes": 1137260,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3456,
+        5184
+      ],
+      "sourceSHA256": "a2dc461a0d8153aac5268f739ff9cf020c8fb6299eb883283cdc23fa40c47959",
+      "embeddedSHA256": "14c249fcf0526e878419508c9c7bf410e37cd4616835c21a9820ed3b3a3a5c84",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 162787,
+      "uses": [
+        {
+          "page": 8,
+          "layout": "collection-trio",
+          "slot": "collection-image-2",
+          "frame": {
+            "x": 1290,
+            "y": 320,
+            "width": 550,
+            "height": 435
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 12,
+          "layout": "photo-essay",
+          "slot": "essay-vertical",
+          "frame": {
+            "x": 1220,
+            "y": 147,
+            "width": 620,
+            "height": 790
+          },
+          "objectPosition": "50% 50%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-5",
+          "frame": {
+            "x": 530,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "14c249fcf0526e878419508c9c7bf410e37cd4616835c21a9820ed3b3a3a5c84",
+      "status": "cleared",
+      "creator": "Sena Aykut",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/still-life-photo-with-vases-12859529/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "paper-ceramics",
+      "provider": "Pexels",
+      "photoId": 6476112,
+      "author": "Hanna Pad",
+      "pageUrl": "https://www.pexels.com/photo/blank-paper-and-ceramic-vases-6476112/",
+      "downloadUrl": "https://images.pexels.com/photos/6476112/pexels-photo-6476112.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6476112.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:04.834309+00:00",
+      "bytes": 651144,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3468,
+        5202
+      ],
+      "sourceSHA256": "4ffa34e951fee2a2da898aac9d68290d4130b9a9aaab2440014705d6f673f9bd",
+      "embeddedSHA256": "a327053b2b38cc035db96e2f56ee5d7e9e42b46a86ee3cb7f02607f7bacdb880",
+      "embeddedDimensions": [
+        1200,
+        1800
+      ],
+      "embeddedBytes": 183668,
+      "uses": [
+        {
+          "page": 9,
+          "layout": "material-notebook",
+          "slot": "material-photo",
+          "frame": {
+            "x": 80,
+            "y": 153,
+            "width": 900,
+            "height": 784
+          },
+          "objectPosition": "50% 52%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-4",
+          "frame": {
+            "x": 80,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "a327053b2b38cc035db96e2f56ee5d7e9e42b46a86ee3cb7f02607f7bacdb880",
+      "status": "cleared",
+      "creator": "Hanna Pad",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/blank-paper-and-ceramic-vases-6476112/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "potter-hands",
+      "provider": "Pexels",
+      "photoId": 15820561,
+      "author": "Dilan Ceviz",
+      "pageUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "downloadUrl": "https://images.pexels.com/photos/15820561/pexels-photo-15820561.jpeg?cs=srgb&dl=pexels-dilankusanc-15820561.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:08.299444+00:00",
+      "bytes": 887166,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        3024,
+        4032
+      ],
+      "sourceSHA256": "3d6ea4d379d3726b58ec2d47173eb24d1b40801a40afab02d10fe7924889d109",
+      "embeddedSHA256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "embeddedDimensions": [
+        1350,
+        1800
+      ],
+      "embeddedBytes": 291417,
+      "uses": [
+        {
+          "page": 10,
+          "layout": "making-sequence",
+          "slot": "making-image",
+          "frame": {
+            "x": 80,
+            "y": 486,
+            "width": 560,
+            "height": 455
+          },
+          "objectPosition": "50% 55%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-6",
+          "frame": {
+            "x": 980,
+            "y": 640,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "27e5f4e3d5d0fada6477c58101327d6b3841b46dfa9cf5af96cd0414e7f1b739",
+      "status": "cleared",
+      "creator": "Dilan Ceviz",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/hands-on-table-15820561/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    },
+    {
+      "id": "vases-studio",
+      "provider": "Pexels",
+      "photoId": 19217224,
+      "author": "Pavel Morillo",
+      "pageUrl": "https://www.pexels.com/photo/vases-in-a-minimalist-studio-19217224/",
+      "downloadUrl": "https://images.pexels.com/photos/19217224/pexels-photo-19217224.jpeg?cs=srgb&dl=pexels-thisispav-19217224.jpg&fm=jpg",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "termsUrl": "https://www.pexels.com/terms-of-service/",
+      "retrievedAt": "2026-10-31T18:57:03.760269+00:00",
+      "bytes": 333769,
+      "modifications": "max edge resized to 1800px and JPEG quality87 for portable HTML; object-fit cropping inside the original new composition",
+      "use": "Illustrative editorial stock; no authorship or endorsement by depicted people is claimed.",
+      "sourceDimensions": [
+        4416,
+        2944
+      ],
+      "sourceSHA256": "ae535c2dc9e2a73e4abc414aa0b2911196a143305536e62ffd7977674c0649f5",
+      "embeddedSHA256": "2b093632c68413312c7532c5d16fc62cdfe1447d6c5610afbf6a7c7ac52e600a",
+      "embeddedDimensions": [
+        1800,
+        1200
+      ],
+      "embeddedBytes": 78896,
+      "uses": [
+        {
+          "page": 12,
+          "layout": "photo-essay",
+          "slot": "essay-wide",
+          "frame": {
+            "x": 80,
+            "y": 147,
+            "width": 1080,
+            "height": 500
+          },
+          "objectPosition": "50% 43%"
+        },
+        {
+          "page": 14,
+          "layout": "studio-atmosphere",
+          "slot": "space-image",
+          "frame": {
+            "x": 80,
+            "y": 150,
+            "width": 1760,
+            "height": 520
+          },
+          "objectPosition": "50% 42%"
+        },
+        {
+          "page": 20,
+          "layout": "picture-desk",
+          "slot": "picture-2",
+          "frame": {
+            "x": 980,
+            "y": 312,
+            "width": 410,
+            "height": 245
+          },
+          "objectPosition": "50% 50%"
+        }
+      ],
+      "kind": "photo",
+      "sha256": "2b093632c68413312c7532c5d16fc62cdfe1447d6c5610afbf6a7c7ac52e600a",
+      "status": "cleared",
+      "creator": "Pavel Morillo",
+      "licenseId": "LicenseRef-Pexels",
+      "sourceUrl": "https://www.pexels.com/photo/vases-in-a-minimalist-studio-19217224/",
+      "reviewedAt": "2026-11-01",
+      "transformSteps": [
+        "max edge resized to 1800px and JPEG quality87 for portable HTML",
+        "object-fit cropping inside the original new composition"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "interior-design-editorial",
   "name": "Interior Design Editorial",
-  "tagline": "A complete 35-slide spatial editorial proposal with Tenor Sans, Poppins, warm neutrals, native process/pricing elements and independent photographic slots.",
+  "tagline": "Original architectural proposal with licensed visual references",
   "mood": [
     "calm",
     "warm",
@@ -27,12 +27,12 @@
     "brown": "#6E452A",
     "paper": "#FFFFFF",
     "ink": "#000000",
-    "description": "Exact source beige, brown, white and black, with natural wood and clay colors supplied by independent source photographs."
+    "description": "Original composition retains this template tone: warm beige, brown, white and black; neutral wood and linen reference imagery."
   },
   "typography": {
     "display": "Tenor Sans",
     "body": "Poppins",
-    "style": "Exact source Tenor Sans 400 and Poppins 400 webfont faces embedded unchanged. The original 1920×1080 typography, tracked capitals, small captions, line heights and paragraph frame geometry are retained."
+    "style": "Original composition uses the existing licensed Tenor Sans display and Poppins body font bytes. New type scale, grid and diagrams are authored for this template; no source slide DOM/CSS geometry or source artwork is reproduced."
   },
   "scheme": "light",
   "best_for": "A complete spatial and object-design proposal with studio story, services, milestones, photographic concepts, material moodboards, object portfolios, design process, pricing and team profiles.",
@@ -46,2589 +46,2255 @@
     "progress_bar": true,
     "slide_counter": true,
     "aspect_ratio": "16:9",
-    "source_order_preserved": true,
-    "source_canvas_size": "1920x1080",
-    "embedded_fonts": true,
     "offline": true,
+    "embedded_fonts": true,
     "editable_html_text": true,
     "native_svg_shapes": true,
-    "independent_image_slots": 62,
-    "original_demo_prose_frames": 20
+    "original_composition": true,
+    "source_order_preserved": false,
+    "licensed_stock_references": true,
+    "redistribution_clearance_pending": false,
+    "print": true,
+    "asset_license_manifest": true
   },
   "layouts": [
-    "photographic-studio-cover",
-    "studio-introduction-band",
-    "split-contents",
-    "oversized-about-columns",
-    "four-service-panels",
-    "full-photo-manifesto",
-    "five-milestone-timeline",
-    "portrait-and-editorial-title",
-    "layered-scandinavian-story",
-    "vase-and-overlap-photo",
-    "object-story-and-offset-title",
-    "aesthetic-corner-photo",
-    "tracked-minimalism-split",
-    "future-photo-note",
-    "simplicity-photo-note",
-    "workplace-author-photo",
-    "asymmetric-photo-note",
-    "two-texture-stills",
-    "full-photo-quotation",
-    "material-moodboard",
-    "collection-and-swatches",
-    "three-image-project-story",
-    "staggered-project-swatches",
-    "six-object-portfolio-grid",
-    "six-photo-portfolio-band",
-    "two-object-product-detail",
-    "portrait-portfolio-gallery",
-    "four-stage-design-process",
-    "three-stage-delivery-process",
-    "three-service-price-cards",
-    "three-price-figures",
-    "five-person-team",
-    "designer-portrait-profile",
-    "photographic-contact-card",
-    "photographic-thank-you"
+    "room-to-live-cover",
+    "study-brief",
+    "proposal-route",
+    "daily-ritual-priorities",
+    "daylight-reference",
+    "spatial-reading-plan",
+    "constraints-opportunities-ledger",
+    "three-spatial-principles",
+    "warm-neutral-material-palette",
+    "surface-library",
+    "living-room-atmosphere",
+    "shared-room-zones",
+    "furniture-footprint",
+    "soft-comfort-reference",
+    "dining-room-atmosphere",
+    "table-clearance-study",
+    "kitchen-atmosphere",
+    "joinery-elevation",
+    "bedroom-atmosphere",
+    "bedroom-layering",
+    "lighting-layers-diagram",
+    "lighting-schedule",
+    "threshold-details",
+    "objects-and-display",
+    "project-stages",
+    "eight-week-gantt",
+    "responsibility-matrix",
+    "procurement-ledger",
+    "budget-allocation",
+    "design-fee-options",
+    "change-control-flow",
+    "next-decisions-checklist",
+    "handover-pack",
+    "photography-reference-register",
+    "quiet-home-closing"
   ],
   "layout_slots": {
-    "photographic-studio-cover": [
+    "room-to-live-cover": [
       {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
-      },
-      {
-        "name": "text-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Presentation by Clara Zola"
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "text-02",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Interior Design Pitch"
-      },
-      {
-        "name": "image-01",
+        "name": "cover-reference",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 820:852 frame and choose appropriately licensed replacement content."
+      },
+      {
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: STILL HOUSE / SPATIAL DESIGN. Keep the 22px type scale and this 800px-wide frame; recommended maximum 58 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Room\nto live.. Keep the 180px type scale and this 850px-wide frame; recommended maximum 18 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "subtitle",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A considered home, shaped around ordinary days.. Keep the 32px type scale and this 690px-wide frame; recommended maximum 47 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "plan-signature",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 01 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Artem Podrez / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "studio-introduction-band": [
+    "study-brief": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert is an interior design firm established in 1956 in Stockholm, Sweden."
+        "description": "Utility text. Demo: The brief. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Introduction –"
+        "description": "Display text. Demo: A home with more room\nfor everyday life.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 40 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "brief",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Still House is a fictional studio. This study explores a compact home where light, useful . Keep the 34px type scale and this 760px-wide frame; recommended maximum 220 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "column-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Display text. Demo: The setting. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: An illustrative 110 m² apartment, organized around a shared living space and two quiet roo. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The ambition. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Keep the plan clear. Give daily objects a place. Let natural light travel farther.. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 02 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "split-contents": [
+    "proposal-route": [
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. A hybrid of Scandinavian and Italian interior design techniques and influences."
+        "description": "Utility text. Demo: How to read this proposal. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. How we work Price list Meet our team Get in touch"
+        "description": "Display text. Demo: A proposal in four parts. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "part-0-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Who we are What we do Highlights Project portfolio"
+        "description": "Display text. Demo: Listen. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "part-0-scope",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 1 2 3 4"
+        "description": "Body text. Demo: Brief, existing space and decisions to protect.. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "part-1-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 6 7 8 9"
+        "description": "Display text. Demo: Compose. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-06",
+        "name": "part-1-scope",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Table of contents"
+        "description": "Body text. Demo: Light, material, furniture and spatial relationships.. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "part-2-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Display text. Demo: Resolve. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "part-2-scope",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Details, schedules, procurement and budget.. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
+        "name": "part-3-label",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Display text. Demo: Deliver. Keep the 56px type scale and this 430px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "part-3-scope",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A clear sequence, responsibilities and next decisions.. Keep the 29px type scale and this 1120px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 03 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "oversized-about-columns": [
+    "daily-ritual-priorities": [
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert –"
+        "description": "Utility text. Demo: Client priorities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. About"
+        "description": "Display text. Demo: Start with the way the home is used.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 36 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "column-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Who we are –"
+        "description": "Display text. Demo: A quiet arrival. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-01",
+        "name": "column-1-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We believe in the positive impact interior design has on our well-being, creativity, and productivity. We create sustain"
+        "description": "Body text. Demo: A place for coats, bags and shoes before the shared living space begins.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-02",
+        "name": "column-2-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Our comprehensive services include finding the perfect color palette, textiles, carpets, furniture, and lighting to suit"
+        "description": "Display text. Demo: A generous table. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "column-2-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: One table for everyday meals, a laptop and a few extra people at the weekend.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "column-3-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Display text. Demo: A softer evening. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light at several heights, fewer competing surfaces and storage that closes.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 04 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "four-service-panels": [
+    "daylight-reference": [
       {
-        "name": "geometry-01",
-        "type": "shape",
+        "name": "reference-photo",
+        "type": "image",
         "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "description": "Licensed stock reference photo by Lisa Anna / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. What we do"
+        "description": "Utility text. Demo: Atmosphere / Daylight. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Fit-out consultation"
+        "description": "Display text. Demo: Follow\nthe light.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-01",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Our consultation service establishes your needs and what we will deliver to transform your space."
+        "description": "Body text. Demo: Favor low visual weight around the window. Keep the center of the room open so the brighte. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-02",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We provide specialist expertise, including design concepts, specifications, and technical drawings."
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-03",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We believe that great interior design should be open to everyone, regardless of their budget."
+        "description": "Utility text. Demo: 05 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-04",
+        "name": "image-attribution",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We provide you with digital visualizations of your space to ensure you're completely happy with the design."
-      },
-      {
-        "name": "text-03",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Project plan and schedule"
-      },
-      {
-        "name": "text-04",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Fair project budgeting"
-      },
-      {
-        "name": "text-05",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Digital project rendering"
-      },
-      {
-        "name": "text-06",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Comprehensive interior design solutions"
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Visual reference · Lisa Anna / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "full-photo-manifesto": [
+    "spatial-reading-plan": [
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Comprehensive interior design solutions"
+        "description": "Utility text. Demo: Existing space / Illustrative plan. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. As we evolve, our homes should too"
+        "description": "Display text. Demo: Read the plan before adding objects.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 36 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "room-plan",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "plan-reading",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Group active uses near the shared light. Let the bedrooms and storage make a calmer edge t. Keep the 31px type scale and this 470px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "plan-note",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Concept diagram only\nNot a measured construction drawing. Keep the 19px type scale and this 500px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
+        "name": "studio-label",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 06 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "five-milestone-timeline": [
+    "constraints-opportunities-ledger": [
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Our milestones"
+        "description": "Utility text. Demo: Constraints & opportunities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 1956"
+        "description": "Display text. Demo: What stays. What changes.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "constraints-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert is founded by Julia Zola and Noah Ekland."
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 1977"
+        "description": "Utility text. Demo: 07 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 1998"
-      },
-      {
-        "name": "text-06",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. 2019"
-      },
-      {
-        "name": "text-07",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. 2020"
-      },
-      {
-        "name": "text-08",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. The new office in Milan, Italy is opened."
-      },
-      {
-        "name": "text-09",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. The Stockholm office expands to a new location."
-      },
-      {
-        "name": "text-10",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Winner of the iF Design Award for Best Interior Design."
-      },
-      {
-        "name": "text-11",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Received the IDA award for Service to Interior Design."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-06",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-07",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-08",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-09",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-10",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "portrait-and-editorial-title": [
+    "three-spatial-principles": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The minimalist space includes an open floor plan, plenty of light, and simple furnishings that are well-built and comfor"
+        "description": "Utility text. Demo: OUR THREE DESIGN PRINCIPLES. Keep the 22px type scale and this 1400px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Minimalism is about intentionality"
+        "description": "Display text. Demo: Less friction.\nMore presence.. Keep the 142px type scale and this 1500px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "principle-one",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Keep the circulation legible.. Keep the 38px type scale and this 1500px-wide frame; recommended maximum 63 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "principle-two",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Let useful storage disappear.. Keep the 38px type scale and this 1500px-wide frame; recommended maximum 63 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "principle-three",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec — 2022"
+        "description": "Body text. Demo: Use texture where the hand meets the room.. Keep the 38px type scale and this 1600px-wide frame; recommended maximum 67 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 08 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "layered-scandinavian-story": [
+    "warm-neutral-material-palette": [
       {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. In Scandinavian design, less is truly more, and every item must have a function. Housing tends to be more compact in Sca"
+        "description": "Utility text. Demo: Color & material. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Scandinavian homes & decoration"
+        "description": "Display text. Demo: A warm, quiet register. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "name": "color-0",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "website-01",
+        "name": "color-0-name",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Display text. Demo: Limestone. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "color-0-role",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: A calm background. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "color-1",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-1-name",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec — 2022"
+        "description": "Display text. Demo: Walnut. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-1-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Warmth at hand level. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-2",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-2-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Chalk. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-2-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light-reflecting surfaces. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-3",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "color-3-name",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Graphite. Keep the 38px type scale and this 390px-wide frame; recommended maximum 16 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "color-3-role",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A precise dark edge. Keep the 24px type scale and this 390px-wide frame; recommended maximum 26 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 09 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "vase-and-overlap-photo": [
+    "surface-library": [
       {
-        "name": "image-01",
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Surface library. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Materials with a job to do. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "material-reference",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 650:490 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "body-01",
+        "name": "material-one",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Although minimalism is usually associated with a modern and contemporary look, classic and traditional spaces can also h"
+        "description": "Utility text. Demo: WOOD / WARMTH. Keep the 24px type scale and this 900px-wide frame; recommended maximum 60 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "material-one-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Minimalism is about intentionality"
+        "description": "Body text. Demo: Use a consistent grain direction on fronts and shelving. Keep the finish matte so light re. Keep the 31px type scale and this 860px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "material-two",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: TEXTILE / COMFORT. Keep the 24px type scale and this 900px-wide frame; recommended maximum 60 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "material-two-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Choose a small family of woven textures. Let the variation come from the hand of the fabri. Keep the 31px type scale and this 860px-wide frame; recommended maximum 111 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec — 2022"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 10 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "object-story-and-offset-title": [
+    "living-room-atmosphere": [
       {
-        "name": "image-01",
+        "name": "reference-photo",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Minimalism is proven to have a calming effect on individuals. Soft lighting and a harmonious color palette are essential"
+        "description": "Utility text. Demo: Living room / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Sleep better – and feel calmer"
+        "description": "Display text. Demo: A place\nto gather.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. A modern and minimalist object"
+        "description": "Body text. Demo: A low seating group anchors the shared room. A clear view across the floor gives every obj. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.website.com"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: 11 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "aesthetic-corner-photo": [
+    "shared-room-zones": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Functionality, purpose, and intelligent design are the keywords associated with Scandinavian Interiors."
+        "description": "Utility text. Demo: Living / Dining plan. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The secret of Scandinavian interiors"
+        "description": "Display text. Demo: Two zones. One room.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
-        "type": "text",
+        "name": "zone-map",
+        "type": "svg",
         "required": true,
-        "description": "Replace within the original measured text frame. The aesthetic"
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "website-01",
+        "name": "zone-copy",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Use the furniture to make rooms within the room. Keep the route between them direct.. Keep the 31px type scale and this 380px-wide frame; recommended maximum 84 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 12 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "tracked-minimalism-split": [
+    "furniture-footprint": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The minimalist space includes an open floor plan, plenty of light, and simple furnishings that are well-built and comfor"
+        "description": "Utility text. Demo: Furniture placement. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Designed to help you live comfortably"
+        "description": "Display text. Demo: Give every object a little breathing room.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 42 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
-        "type": "text",
+        "name": "furniture-plan",
+        "type": "svg",
         "required": true,
-        "description": "Replace within the original measured text frame. MINIMALISM"
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "website-01",
+        "name": "footprint-copy",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Test the room with paper footprints before buying. The empty space is part of the furnitur. Keep the 31px type scale and this 440px-wide frame; recommended maximum 97 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 13 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "future-photo-note": [
+    "soft-comfort-reference": [
       {
-        "name": "image-01",
+        "name": "reference-photo",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Sasha Pshenkov / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Futuroma –"
+        "description": "Utility text. Demo: Living room / Detail. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "body-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. There is a timelessness to Scandinavian design that inspires a feeling of futurism. It creates environments where we hav"
+        "description": "Display text. Demo: Comfort,\nwithout clutter.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Engage with the future"
+        "description": "Body text. Demo: A generous seat, a small side table and one reading light are often enough. Texture should. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The Architecture – 2022"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: 14 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "image-attribution",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Visual reference · Sasha Pshenkov / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "simplicity-photo-note": [
+    "dining-room-atmosphere": [
       {
-        "name": "image-01",
+        "name": "reference-photo",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Ksenia Chernaya / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "website-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: Dining / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Display text. Demo: Make room\nat the table.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "body-01",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Simplicity offers an opportunity to strip back layers and connect with what matters the most."
+        "description": "Body text. Demo: Choose a table proportion that leaves the route open when someone stands up. Keep storage . Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Engage with simplicity"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Interior Journey – 2022"
+        "description": "Utility text. Demo: 15 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Ksenia Chernaya / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "workplace-author-photo": [
+    "table-clearance-study": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We design with your health in mind. We believe the quality of the light and air has a significant impact on people's ene"
+        "description": "Utility text. Demo: Dining / Proportion study. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Created by Clara Zola"
+        "description": "Display text. Demo: A table that fits the way you live.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
+        "name": "table-proportion",
+        "type": "svg",
         "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "text-02",
+        "name": "table-copy",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Beautiful workspaces"
+        "description": "Body text. Demo: Compare the table and the circulation together. A modest table in a generous route feels b. Keep the 30px type scale and this 410px-wide frame; recommended maximum 132 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: 16 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "asymmetric-photo-note": [
+    "kitchen-atmosphere": [
       {
-        "name": "image-01",
+        "name": "reference-photo",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Not all spaces are suited to uniformed symmetry. The key is to balance visual weights, textures, and colors."
+        "description": "Utility text. Demo: Kitchen / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Work by Noah Ekland"
+        "description": "Display text. Demo: A calmer\nworking edge.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Asymmetric"
+        "description": "Body text. Demo: Let preparation, storage and washing form one readable sequence. Use a consistent front to. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: 17 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "two-texture-stills": [
+    "joinery-elevation": [
       {
-        "name": "body-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Texture creates warmth in any room. This can be achieved by using a mixture of cloth and hard materials like wood or sto"
+        "description": "Utility text. Demo: Joinery / Concept elevation. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. It doesn't have to be bland or sterile"
+        "description": "Display text. Demo: A useful wall, quietly resolved.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "joinery-drawing",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "joinery-note",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Concept proportions, not fabrication dimensions. Resolve construction details with the app. Keep the 23px type scale and this 1650px-wide frame; recommended maximum 114 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-02",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec — 2022"
+        "description": "Utility text. Demo: 18 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "full-photo-quotation": [
+    "bedroom-atmosphere": [
       {
-        "name": "image-01",
+        "name": "reference-photo",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Andrea Davis / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. We believe in designing interiors that reflect our clients' personalities."
+        "description": "Utility text. Demo: Bedroom / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Minimalist Inspiration"
+        "description": "Display text. Demo: The quiet\npart of home.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. An interior is the natural projection of the soul"
+        "description": "Body text. Demo: A simple bed position, soft reflected light and useful bedside space create the foundation. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: 19 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Andrea Davis / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "material-moodboard": [
+    "bedroom-layering": [
       {
-        "name": "image-01",
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Bedroom / Material composition. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three layers of softness. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the room. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use a continuous, low-contrast wall finish to quiet the background.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the body. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Let bedding and curtains carry most of the tactile variation.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Against the light. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Choose a sheer layer for the day and a denser layer for rest.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "textile-open-weave",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "image-02",
+        "name": "textile-fine-weave",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Sacha Moreau / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "image-03",
+        "name": "textile-soft-fold",
         "type": "image",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Licensed stock reference photo by Artem Podrez / Pexels; visual reference, not an original studio project. Preserve the 490:215 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "image-04",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The moodboard is a visual tool that communicates our concepts and design ideas."
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Moodboard"
+        "description": "Utility text. Demo: 20 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "image-attribution",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec – 2022"
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Visual reference · Artem Podrez, Sacha Moreau / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "collection-and-swatches": [
+    "lighting-layers-diagram": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Our collection"
+        "description": "Utility text. Demo: Lighting / Concept. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec – 2022"
+        "description": "Display text. Demo: Light at three heights. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
+        "name": "lighting-section",
+        "type": "svg",
         "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
+        "name": "ambient-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: AMBIENT. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "ambient-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: A soft overall glow. Keep the 29px type scale and this 420px-wide frame; recommended maximum 23 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "task-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: TASK. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "task-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Light where work happens. Keep the 29px type scale and this 420px-wide frame; recommended maximum 24 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "accent-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: ACCENT. Keep the 23px type scale and this 420px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "accent-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A little depth after dark. Keep the 29px type scale and this 420px-wide frame; recommended maximum 25 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 21 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "three-image-project-story": [
+    "lighting-schedule": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-03",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. PROJECT–"
+        "description": "Utility text. Demo: Lighting / Schedule. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+        "description": "Display text. Demo: A small, useful lighting family. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
-        "type": "text",
+        "name": "lighting-table",
+        "type": "svg",
         "required": true,
-        "description": "Replace within the original measured text frame. Portfolio"
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "text-04",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec – 2022"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: 22 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "staggered-project-swatches": [
+    "threshold-details": [
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+        "description": "Utility text. Demo: Details / Junctions. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Portfolio"
+        "description": "Display text. Demo: Small junctions. A coherent whole.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 34 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-01",
-        "type": "shape",
+        "name": "junction-0",
+        "type": "svg",
         "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-03",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "website-01",
+        "name": "junction-0-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Display text. Demo: Floor meets wall. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "junction-0-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Keep one simple skirting detail. Resolve the change once, then repeat it.. Keep the 25px type scale and this 490px-wide frame; recommended maximum 73 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "junction-1",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "junction-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. PROJECT–"
+        "description": "Display text. Demo: Door meets storage. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-1-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Align a limited number of important edges rather than every line.. Keep the 25px type scale and this 490px-wide frame; recommended maximum 65 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-2",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "junction-2-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Handle meets hand. Keep the 39px type scale and this 490px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "junction-2-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Use the same touch points where it makes everyday use clearer.. Keep the 25px type scale and this 490px-wide frame; recommended maximum 62 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 23 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "six-object-portfolio-grid": [
+    "objects-and-display": [
       {
-        "name": "geometry-01",
-        "type": "shape",
+        "name": "reference-photo",
+        "type": "image",
         "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "description": "Licensed stock reference photo by Max Vakhtbovych / Pexels; visual reference, not an original studio project. Preserve the 920:840 frame and choose appropriately licensed replacement content."
       },
       {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+        "description": "Utility text. Demo: Objects / Reference. Keep the 20px type scale and this 650px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Portfolio"
+        "description": "Display text. Demo: Leave space\nfor a few good things.. Keep the 102px type scale and this 650px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-03",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-04",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-05",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-06",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "website-01",
+        "name": "body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: A shelf should hold ordinary life as well as a considered object. Choose fewer display zon. Keep the 30px type scale and this 650px-wide frame; recommended maximum 300 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 24 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "image-attribution",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Visual reference · Max Vakhtbovych / Pexels. Keep the 16px type scale and this 1050px-wide frame; recommended maximum 105 characters; split content instead of shrinking type."
       }
     ],
-    "six-photo-portfolio-band": [
+    "project-stages": [
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+        "description": "Utility text. Demo: Delivery / Project sequence. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Portfolio"
+        "description": "Display text. Demo: A clear path from brief to room.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 32 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "stage-0-name",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Display text. Demo: Brief. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "stage-0-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Agree priorities and the practical boundaries.. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
+        "name": "stage-1-name",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Display text. Demo: Concept. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-02",
-        "type": "image",
+        "name": "stage-1-body",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Body text. Demo: Choose a coherent spatial and material direction.. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-03",
-        "type": "image",
+        "name": "stage-2-name",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Display text. Demo: Detail. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-04",
-        "type": "image",
+        "name": "stage-2-body",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Body text. Demo: Resolve sizes, finishes, lighting and procurement.. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-05",
-        "type": "image",
+        "name": "stage-3-name",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Display text. Demo: Install. Keep the 54px type scale and this 380px-wide frame; recommended maximum 11 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-06",
-        "type": "image",
+        "name": "stage-3-body",
+        "type": "text",
         "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
+        "description": "Body text. Demo: Coordinate deliveries and the final arrangement.. Keep the 29px type scale and this 1030px-wide frame; recommended maximum 56 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 25 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "two-object-product-detail": [
+    "eight-week-gantt": [
       {
-        "name": "geometry-01",
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Delivery / Illustrative programme. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: An eight-week decision rhythm. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 29 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-note",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Example programme; confirm dates and lead times with your project team.. Keep the 25px type scale and this 1600px-wide frame; recommended maximum 102 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-0",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 1. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-1",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 2. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-2",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 3. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-3",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 4. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-4",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 5. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-5",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 6. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-6",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 7. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "week-7",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 8. Keep the 23px type scale and this 100px-wide frame; recommended maximum 6 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-0-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Brief & survey. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-0-bar",
         "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-01",
+        "name": "programme-1-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Peach Vase"
+        "description": "Body text. Demo: Concept design. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Nordic Ark"
+        "name": "programme-1-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "website-01",
+        "name": "programme-2-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Design approval. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "programme-2-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-3-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Detailed schedule. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-3-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "programme-4-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Procurement. Keep the 27px type scale and this 510px-wide frame; recommended maximum 30 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "programme-4-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 26 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "portrait-portfolio-gallery": [
+    "responsibility-matrix": [
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Delight in some of our best designs from previous collections."
+        "description": "Utility text. Demo: Delivery / Responsibilities. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. PORTFOLIO"
+        "description": "Display text. Demo: Who decides. Who delivers.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "responsibility-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: 27 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-03",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-04",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-05",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-03",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Dec — 2022"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "four-stage-design-process": [
+    "procurement-ledger": [
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. How we work"
+        "description": "Utility text. Demo: Procurement / Example ledger. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Research"
+        "description": "Display text. Demo: Every item, with a clear next step.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 35 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "procurement-table",
+        "type": "svg",
+        "required": true,
+        "description": "Original native SVG diagram. Edit its labels, shapes and data together; preserve the palette, hierarchy and stated units."
+      },
+      {
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Brainstorming and preparation"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Meet"
+        "description": "Utility text. Demo: 28 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Concept"
-      },
-      {
-        "name": "text-06",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Design"
-      },
-      {
-        "name": "text-07",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. New client meeting"
-      },
-      {
-        "name": "text-08",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Overall ideas and style"
-      },
-      {
-        "name": "text-09",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Layout and selection"
-      },
-      {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "three-stage-delivery-process": [
+    "budget-allocation": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Finalize"
+        "description": "Utility text. Demo: Budget / Illustrative allowance. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Final design details and presentation"
+        "description": "Display text. Demo: A budget with room for the unexpected.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 38 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "budget-total",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Create"
+        "description": "Display text. Demo: $32,000. Keep the 132px type scale and this 720px-wide frame; recommended maximum 8 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "budget-disclaimer",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Project execution"
+        "description": "Utility text. Demo: Illustrative planning example\nNot a quotation. Keep the 22px type scale and this 650px-wide frame; recommended maximum 47 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "budget-0-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Install"
+        "description": "Body text. Demo: Furniture. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-06",
+        "name": "budget-0-amount",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Installation and final touches"
+        "description": "Body text. Demo: $18,000. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-07",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. How we work"
-      },
-      {
-        "name": "geometry-01",
+        "name": "budget-0-track",
         "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "geometry-02",
+        "name": "budget-0-bar",
         "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
+        "name": "budget-1-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Lighting. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "budget-1-amount",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: $4,500. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-1-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-1-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-2-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Surfaces. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-2-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $6,300. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-2-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-2-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-3-label",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Contingency. Keep the 27px type scale and this 470px-wide frame; recommended maximum 27 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-3-amount",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: $3,200. Keep the 27px type scale and this 330px-wide frame; recommended maximum 19 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "budget-3-track",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "budget-3-bar",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 29 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "three-service-price-cards": [
+    "design-fee-options": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Price list"
+        "description": "Utility text. Demo: Commercial / Illustrative scope. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Hourly"
+        "description": "Display text. Demo: Choose the level of support. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "column-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The client will pay the designer a competitive rate for each hour worked on the project."
+        "description": "Display text. Demo: Concept only / $12,800. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "column-1-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. USD 150.00 PER HOUR"
+        "description": "Body text. Demo: A clear concept, material direction, key furniture shortlist and presentation pack.. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "column-2-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Square footage"
+        "description": "Display text. Demo: Full coordination / $17,000. Keep the 42px type scale and this 825.0px-wide frame; recommended maximum 31 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-06",
+        "name": "column-2-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Designer fee"
+        "description": "Body text. Demo: Concept plus detailed schedules, supplier coordination and final arrangement review.. Keep the 27px type scale and this 825.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-07",
+        "name": "fee-note",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. More commonly, for commercial spaces or new construction, clients pay per square foot."
+        "description": "Body text. Demo: Illustrative fees for this fictional study. Tailor the scope and fees to a real project br. Keep the 23px type scale and this 1650px-wide frame; recommended maximum 114 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. If the budget is established initially, designer fees are paid at an agreed percentage of the budget."
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-08",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. USD 45.00 PER SQ FT."
+        "description": "Utility text. Demo: 30 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-09",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 20% OF PROJECT BUDGET"
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-06",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-07",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "three-price-figures": [
+    "change-control-flow": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-06",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-07",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Price list"
+        "description": "Utility text. Demo: Delivery / Change control. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. £150"
+        "description": "Display text. Demo: Keep decisions visible. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "column-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. £45"
+        "description": "Display text. Demo: Describe the change. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "column-1-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. 20%"
+        "description": "Body text. Demo: Record what is changing and the reason before additional work begins.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "column-2-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. The client will pay the designer a competitive rate for each hour worked on the project."
+        "description": "Display text. Demo: Show the consequence. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-06",
+        "name": "column-2-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. More commonly, for commercial spaces or new construction, clients pay per square foot."
+        "description": "Body text. Demo: Confirm the effect on scope, programme and cost with the appointed team.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-01",
+        "name": "column-3-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. If the budget is established initially, designer fees are paid at an agreed percentage of the budget."
+        "description": "Display text. Demo: Approve and record. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "column-3-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Agree the change in writing, then update the live schedule.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-07",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Hourly"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-08",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Square footage"
+        "description": "Utility text. Demo: 31 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-09",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Designer fee"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "five-person-team": [
+    "next-decisions-checklist": [
       {
-        "name": "geometry-01",
+        "name": "eyebrow",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Next steps. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: Three decisions move the project forward.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 41 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "check-0",
         "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
       },
       {
-        "name": "text-01",
+        "name": "decision-0",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Melissa Grey"
+        "description": "Display text. Demo: Confirm the brief. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "decision-0-detail",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Project Manager"
+        "description": "Body text. Demo: Agree the priorities, budget allowance and decision makers.. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "check-1",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "decision-1",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Meet our team"
+        "description": "Display text. Demo: Choose the direction. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-04",
+        "name": "decision-1-detail",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Irenne Klawse"
+        "description": "Body text. Demo: Select the concept to develop and the references to keep.. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-05",
+        "name": "check-2",
+        "type": "shape",
+        "required": false,
+        "description": "Original editable geometric panel; preserve its hierarchy and theme colors."
+      },
+      {
+        "name": "decision-2",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. David Mensa"
+        "description": "Display text. Demo: Book the next review. Keep the 43px type scale and this 1450px-wide frame; recommended maximum 53 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-06",
+        "name": "decision-2-detail",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Clara Zola"
+        "description": "Body text. Demo: Set a date for samples, drawings and the updated schedule.. Keep the 27px type scale and this 1450px-wide frame; recommended maximum 85 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-07",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Bojan Klutch"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-08",
+        "name": "page-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Designer"
+        "description": "Utility text. Demo: 32 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-09",
+        "name": "document-status",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Junior Designer"
-      },
-      {
-        "name": "text-10",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Head Designer"
-      },
-      {
-        "name": "text-11",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. HR / GA"
-      },
-      {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-02",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-03",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-04",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "image-05",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "website-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
-      },
-      {
-        "name": "brand-mark-01",
-        "type": "text",
-        "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "designer-portrait-profile": [
+    "handover-pack": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Designer"
+        "description": "Utility text. Demo: Completion / Handover. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "body-01",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. An avid collector of Italian design objects. Clara is forever curious — she informs here work by observation and researc"
+        "description": "Display text. Demo: A useful handover, not just a final image.. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 42 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "column-1-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Clara Zola –"
+        "description": "Display text. Demo: The record. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "column-1-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. PROFILE –"
+        "description": "Body text. Demo: Approved finishes, product references and supplier contacts in one place.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
       },
       {
-        "name": "website-01",
+        "name": "column-2-title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Display text. Demo: The practical details. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 21 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "column-2-body",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Care notes, warranties and any outstanding actions clearly assigned.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-title",
+        "type": "text",
+        "required": true,
+        "description": "Display text. Demo: The final review. Keep the 42px type scale and this 530.0px-wide frame; recommended maximum 20 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "column-3-body",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: A calm walk-through to confirm arrangement, lighting and the next small adjustments.. Keep the 27px type scale and this 530.0px-wide frame; recommended maximum 290 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 33 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "photographic-contact-card": [
+    "photography-reference-register": [
       {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. hello@gilbert.com • @gilbert"
+        "description": "Utility text. Demo: Photography / Source register. Keep the 20px type scale and this 1500px-wide frame; recommended maximum 120 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Get in touch with us"
+        "description": "Display text. Demo: The reference library. Keep the 96px type scale and this 1710px-wide frame; recommended maximum 28 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-03",
+        "name": "credit-purpose",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. – Contact"
+        "description": "Body text. Demo: Licensed visual references, not completed Still House commissions. Individual source pages. Keep the 25px type scale and this 1670px-wide frame; recommended maximum 156 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-03",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-04",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-05",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-06",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-07",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-08",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-09",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-10",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-11",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-12",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-13",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-14",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-15",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-16",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-17",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-18",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-19",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-20",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-21",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-22",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-23",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-24",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-25",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-26",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-27",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-28",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-29",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-30",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-31",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-32",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-33",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-34",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-35",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-36",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-37",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-38",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-39",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-40",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-41",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-42",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-43",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-44",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-45",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-46",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-47",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-48",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-49",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-50",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-51",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-52",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-53",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-54",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-55",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-56",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-57",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-58",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "geometry-59",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "website-01",
+        "name": "photo-credit-0",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: Ksenia Chernaya. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "photo-credit-1",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Body text. Demo: Artem Podrez. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-2",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-3",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-4",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Andrea Davis. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-5",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Sasha Pshenkov. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-6",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Max Vakhtbovych. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-7",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Lisa Anna. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-8",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Artem Podrez. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "photo-credit-9",
+        "type": "text",
+        "required": true,
+        "description": "Body text. Demo: Sacha Moreau. Keep the 25px type scale and this 820px-wide frame; recommended maximum 52 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "studio-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 34 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ],
-    "photographic-thank-you": [
+    "quiet-home-closing": [
       {
-        "name": "geometry-01",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "text-01",
+        "name": "eyebrow",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Thank you"
+        "description": "Utility text. Demo: STILL HOUSE / CONCEPT STUDY. Keep the 22px type scale and this 1400px-wide frame; recommended maximum 101 characters; split content instead of shrinking type."
       },
       {
-        "name": "text-02",
+        "name": "title",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. CREATE WITH US"
+        "description": "Display text. Demo: A home,\nwell considered.. Keep the 174px type scale and this 1660px-wide frame; recommended maximum 24 characters; split content instead of shrinking type."
       },
       {
-        "name": "geometry-02",
-        "type": "shape",
-        "required": true,
-        "description": "Native source shape; preserve geometry and use source palette for a deliberate content change."
-      },
-      {
-        "name": "image-01",
-        "type": "image",
-        "required": true,
-        "description": "Independent image; retain source frame, crop, and transparency."
-      },
-      {
-        "name": "website-01",
+        "name": "contact",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. www.gilbert.com"
+        "description": "Body text. Demo: studio@stillhouse.example\nstillhouse.example. Keep the 31px type scale and this 1200px-wide frame; recommended maximum 61 characters; split content instead of shrinking type."
       },
       {
-        "name": "brand-mark-01",
+        "name": "studio-label",
         "type": "text",
         "required": true,
-        "description": "Replace within the original measured text frame. Gilbert"
+        "description": "Utility text. Demo: Still House. Keep the 18px type scale and this 440px-wide frame; recommended maximum 39 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "page-label",
+        "type": "text",
+        "required": true,
+        "description": "Utility text. Demo: 35 / 35. Keep the 18px type scale and this 140px-wide frame; recommended maximum 12 characters; split content instead of shrinking type."
+      },
+      {
+        "name": "document-status",
+        "type": "text",
+        "required": true,
+        "description": "Fine text. Demo: Fictional concept study · illustrative content. Keep the 16px type scale and this 980px-wide frame; recommended maximum 98 characters; split content instead of shrinking type."
       }
     ]
   },
   "content_limits": {
-    "max_title_chars": 70,
-    "max_subtitle_chars": 190,
-    "max_body_chars_per_slide": 1050,
-    "max_bullets": 7,
+    "max_title_chars": 55,
+    "max_subtitle_chars": 150,
+    "max_body_chars_per_slide": 1250,
+    "max_bullets": 6,
     "max_cards": 6,
     "recommended_slide_count_min": 12,
     "recommended_slide_count_max": 40
@@ -2636,6 +2302,6 @@
   "source_inspiration": {
     "name": "Visuel Colonie — Interior Design Proposal (Pitch), complete 35-page public sequence",
     "url": "https://pitch.com/templates/Interior-Design-Proposal-4vWn3k3yheGf4Z9jh43PqqLM",
-    "notes": "Complete public source sequence rebuilt from measured DOM and all computed style values. Text, SVG primitives, rules, processes, pricing and captions remain native and replaceable; photographs and any source line textures remain independent embedded image slots. Exact loaded source image bytes and source font faces are embedded for offline display. Long prose is original demonstration writing of similar length, recorded in the evidence manifest; short labels and sample names do not imply endorsement. Several pages are layout variants rather than unique layouts. Source design and individual media redistribution rights have not been fully confirmed; this is not a grant of those rights."
+    "notes": "Historical visual direction reference only. This version is a newly authored composition, with new fictional demo content, diagrams and licensed Pexels references. It does not copy the source slide DOM/CSS geometry, source photographs, logos or custom artwork; no source design redistribution grant is assumed."
   }
 }

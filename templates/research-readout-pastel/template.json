@@ -57,7 +57,9 @@
     "independent_media_slots": true,
     "source_preview_order": true,
     "local_alignment_demo": true,
-    "multiplayer_voting": false
+    "multiplayer_voting": false,
+    "asset_license_manifest": true,
+    "redistribution_clearance_pending": false
   },
   "layouts": [
     "research-cover-blue",
@@ -1029,6 +1031,6 @@
   "source_inspiration": {
     "name": "Research Readout — Figma Community",
     "url": "https://www.figma.com/community/file/1382481559228932486/research-readout",
-    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 20 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. DM Sans 300/400 and Roboto Mono 300 preserve the source rounded sans-serif main voice and monospaced metadata rail. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. See SOURCE-NOTICES.md for photography and interactive-component boundaries."
+    "notes": "CC BY 4.0 Figma Community slide-deck template. Complete 20 public single-page previews reconstructed in original order; native text/rules/diagrams and independent media. Original fictional example copy and SVG product screens replace generic placeholders. Local navigation replaces the Figma player. Implemented fonts selected by preview matching; source font not verified. DM Sans 300/400 and Roboto Mono 300 preserve the source rounded sans-serif main voice and monospaced metadata rail. Font files are embedded offline; the exact files carry SIL OFL 1.1 notices saved alongside the template. See SOURCE-NOTICES.md for photography and interactive-component boundaries. Source creator verified as Figma Community (@figma). Layout adaptation is attributed under CC BY 4.0. All embedded images are original fictional Fieldwork SVG demonstrations, with no stock photography; provenance is recorded in ASSET-LICENSES/manifest.json."
   }
 }

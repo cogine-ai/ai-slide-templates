@@ -5,61 +5,18 @@
   "unmodified": true,
   "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
   "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
-  "license": "SIL Open Font License1.1",
+  "license": "SIL Open Font License 1.1",
   "licenseFile": "manrope-OFL.txt",
   "metadataFile": "manrope-METADATA.pb",
   "cssFontFaces": [
     {
       "font-family": "\"Manrope\"",
-      "font-weight": "200",
+      "font-weight": "200 800",
       "font-style": "normal",
-      "size-adjust": "92.916376%",
-      "ascent-override": "93.632580%",
-      "descent-override": "30.134624%",
-      "line-gap-override": "9.686129%",
-      "embeddedSHA256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
-    },
-    {
-      "font-family": "\"Manrope\"",
-      "font-weight": "300",
-      "font-style": "normal",
-      "size-adjust": "95.484932%",
-      "ascent-override": "91.113852%",
-      "descent-override": "29.323998%",
-      "line-gap-override": "9.425571%",
-      "embeddedSHA256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
-    },
-    {
-      "font-family": "\"Manrope\"",
-      "font-weight": "400",
-      "font-style": "normal",
-      "size-adjust": "92.408540%",
-      "ascent-override": "94.147142%",
-      "descent-override": "30.300230%",
-      "line-gap-override": "9.739360%",
-      "embeddedSHA256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
-    },
-    {
-      "font-family": "\"Manrope\"",
-      "font-weight": "500",
-      "font-style": "normal",
-      "size-adjust": "95.764428%",
-      "ascent-override": "90.847929%",
-      "descent-override": "29.238414%",
-      "line-gap-override": "9.398062%",
-      "embeddedSHA256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
-    },
-    {
-      "font-family": "\"Manrope\"",
-      "font-weight": "700",
-      "font-style": "normal",
-      "size-adjust": "91.819860%",
-      "ascent-override": "94.750743%",
-      "descent-override": "30.494492%",
-      "line-gap-override": "9.801801%",
       "embeddedSHA256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
     }
   ],
   "removedSourceFontPayloads": 5,
-  "sourceTypefaceNotBundled": "Cabinet Grotesk"
+  "sourceTypefaceNotBundled": "Cabinet Grotesk",
+  "implementationNote": "Unmodified font bytes, native font metrics, original template type scale; no source-layout metric calibration."
 }
