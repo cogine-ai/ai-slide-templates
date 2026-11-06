@@ -1,0 +1,690 @@
+{
+  "date": "2026-11-07",
+  "scope": "Six complete public display templates. Sports uses user-approved OFL DM Sans roman/true italic in place of General Sans, with source Geist Mono retained. Original General Sans font is not bundled.",
+  "library": {
+    "templates": 80,
+    "demoSlides": 1165
+  },
+  "newTemplates": 6,
+  "newPages": 186,
+  "namedSlots": 1313,
+  "verification": {
+    "structural": {
+      "command": "node scripts/validate.mjs",
+      "result": "Validated 80 template(s)."
+    },
+    "visual": {
+      "command": "node scripts/validate-visual.mjs --template vacanza-postcard --template sports-partnership-proposal --template brand-voice-guidelines --template ux-strategy-workshop --template software-launch-blue --template indie-publishing-editorial",
+      "result": "Visual validation passed for 6 template(s) at 1280x720.\n- brand-voice-guidelines\n- indie-publishing-editorial\n- software-launch-blue\n- sports-partnership-proposal\n- ux-strategy-workshop\n- vacanza-postcard"
+    },
+    "existingAssetManifests": {
+      "command": "node scripts/validate-assets.mjs",
+      "result": "PASS design-review-grid: 11 unique embedded images\nPASS fashion-editorial-lookbook: 9 unique embedded images\nPASS interior-design-editorial: 10 unique embedded images\nPASS personal-branding-playful: 4 unique embedded images\nPASS press-kit-editorial: 8 unique embedded images\nPASS research-readout-pastel: 5 unique embedded images\nAssessed 6 manifest(s); 74 legacy template(s) without manifests were not assessed.",
+      "newTemplateClearanceClaim": false
+    },
+    "browser": "Isolated headless Google Chrome on macOS, plus Codex in-app browser visual checks",
+    "viewports": [
+      "1280x774 runtime (1280x720 slide stage)",
+      "1280x720 generic visual validator",
+      "390x844 scaling check"
+    ],
+    "limitations": [
+      "No Windows/Linux or other browser acceptance.",
+      "Synthetic touch checks slide logic, not a real touch device.",
+      "Online video playback/offline video payloads were not accepted.",
+      "Native SVG chart rebuilds preserve composition/data but do not assert pixel identity with the original chart engine."
+    ],
+    "gitDiffCheck": {
+      "result": "upstream-font-license-whitespace-only",
+      "warningCount": 1130,
+      "byFile": {
+        "templates/brand-voice-guidelines/ASSET-LICENSES/FONT-NOTICES.txt": 94,
+        "templates/brand-voice-guidelines/template.html": 95,
+        "templates/indie-publishing-editorial/ASSET-LICENSES/FONT-NOTICES.txt": 1,
+        "templates/indie-publishing-editorial/template.html": 2,
+        "templates/software-launch-blue/ASSET-LICENSES/FONT-NOTICES.txt": 93,
+        "templates/software-launch-blue/template.html": 94,
+        "templates/sports-partnership-proposal/ASSET-LICENSES/FONT-NOTICES.txt": 94,
+        "templates/sports-partnership-proposal/template.html": 95,
+        "templates/ux-strategy-workshop/ASSET-LICENSES/FONT-NOTICES.txt": 279,
+        "templates/ux-strategy-workshop/template.html": 280,
+        "templates/vacanza-postcard/ASSET-LICENSES/FONT-NOTICES.txt": 1,
+        "templates/vacanza-postcard/template.html": 2
+      },
+      "scope": "Every warning is confined to original upstream font-license text in FONT-NOTICES.txt or the HTML license comment. No validation rules were changed."
+    },
+    "toolTests": {
+      "command": "node --test scripts/*.test.mjs",
+      "tests": 43,
+      "passed": 43,
+      "failed": 0
+    },
+    "textFrameFlow": {
+      "pages": 186,
+      "overflowPages": 0,
+      "scope": "Actual .copy flow height versus original text frame; excludes natural font ink metrics."
+    },
+    "standalonePreviews": [
+      {
+        "slug": "vacanza-postcard",
+        "titles": [
+          "Shared Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      },
+      {
+        "slug": "brand-voice-guidelines",
+        "titles": [
+          "Shared Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [
+          "Candidate direction",
+          "Review 2026"
+        ],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      },
+      {
+        "slug": "ux-strategy-workshop",
+        "titles": [
+          "Shared Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      },
+      {
+        "slug": "software-launch-blue",
+        "titles": [
+          "Shared Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [
+          "Candidate direction",
+          "Review 2026"
+        ],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      },
+      {
+        "slug": "indie-publishing-editorial",
+        "titles": [
+          "Shared",
+          "Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [
+          "Candidate direction",
+          "Review 2026"
+        ],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      },
+      {
+        "slug": "sports-partnership-proposal",
+        "titles": [
+          "Shared",
+          "Progress"
+        ],
+        "counter": "1 / 1",
+        "images": true,
+        "optionalSlots": [
+          "Review 2026",
+          "Candidate direction"
+        ],
+        "overflow": [],
+        "errors": [],
+        "external": 0
+      }
+    ],
+    "payloadAudit": {
+      "templates": [
+        {
+          "slug": "vacanza-postcard",
+          "images": 19,
+          "imageUses": 96,
+          "fontFiles": 8,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        },
+        {
+          "slug": "brand-voice-guidelines",
+          "images": 6,
+          "imageUses": 13,
+          "fontFiles": 3,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        },
+        {
+          "slug": "ux-strategy-workshop",
+          "images": 14,
+          "imageUses": 28,
+          "fontFiles": 7,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        },
+        {
+          "slug": "software-launch-blue",
+          "images": 35,
+          "imageUses": 61,
+          "fontFiles": 1,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        },
+        {
+          "slug": "indie-publishing-editorial",
+          "images": 38,
+          "imageUses": 41,
+          "fontFiles": 1,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        },
+        {
+          "slug": "sports-partnership-proposal",
+          "images": 15,
+          "imageUses": 18,
+          "fontFiles": 4,
+          "imageHashesMatch": true,
+          "fontHashesMatch": true,
+          "remoteSrcAttributes": []
+        }
+      ],
+      "secretOrEnvironmentFindings": []
+    }
+  },
+  "templates": [
+    {
+      "name": "Vacanza",
+      "slug": "vacanza-postcard",
+      "pages": 29,
+      "slots": 211,
+      "embeddedImages": 19,
+      "htmlBytes": 9480147,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "f3474ff144d273c0479d6bd9977f2906d0b8d9132f766e12b430853614ffcee7",
+        "ASSET-LICENSES/source-register.json": "0ba3f824b02ff49b2a5dbbe4217a3813f78acdad944e9d31e71c9bc562b383ee",
+        "SOURCE-NOTICES.md": "c86b96139205e671ccbb0f5503f68b461a6e40bafd9f15ff6536605456f38cbe",
+        "template.html": "52972c9edfbc598f7cd86107aa0a75bb7c2bc709387d70079381bee069d8c5d1",
+        "template.json": "b3a448b87c8c5a5ef5833ca7a56eb287893507d68e8f01c3a7728f0426b926f3"
+      },
+      "offlinePageChecks": {
+        "pages": 29,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Inter",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "200",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "800",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "900",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "vacanza-postcard",
+        "images": 19,
+        "imageUses": 96,
+        "fontFiles": 8,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    },
+    {
+      "name": "Tone of Voice Guidelines",
+      "slug": "brand-voice-guidelines",
+      "pages": 30,
+      "slots": 185,
+      "embeddedImages": 6,
+      "htmlBytes": 5036721,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "b6b5f03fc1ddb38d798da94ea4ef28db9a87ef7d7d8c16c6bd5fb0a305a913e9",
+        "ASSET-LICENSES/source-register.json": "9c79c0de9917aa885529c846483ffa04624e94e9f74a38097b57d5154519d8ae",
+        "SOURCE-NOTICES.md": "9084ce7163ef019f655243b635a8d496befa00e09a3d00f947a92eaa609446cb",
+        "template.html": "c61d4dd54ecd7bc395ddbc3e1e3315be1b283c1dbe5a220fdcef021f256abed6",
+        "template.json": "b63722a036b7caeab44985ffb765a269165f81c98176ce03ad7f12bbb34ee286"
+      },
+      "offlinePageChecks": {
+        "pages": 30,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Inter",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Serif Display",
+          "weight": "400",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Serif Display",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "brand-voice-guidelines",
+        "images": 6,
+        "imageUses": 13,
+        "fontFiles": 3,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    },
+    {
+      "name": "UX Design Strategy",
+      "slug": "ux-strategy-workshop",
+      "pages": 35,
+      "slots": 220,
+      "embeddedImages": 14,
+      "htmlBytes": 7140239,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "90877f486680d53c0f345cd4ffb1ba6ca883caeabc4f3bf59d390878ae9cb930",
+        "ASSET-LICENSES/source-register.json": "58a003a754135366d828b96419365e0722298526a044cde461620c9e005ccf42",
+        "SOURCE-NOTICES.md": "9f135d47b12c6e7a4ac87646598cfefe87dc13e3ebe033c7b5f281b61c4547eb",
+        "template.html": "c0d47b37a4a2eff8dc5bac48ce6fc39cfa71a28c3892f60cccb185e752fddcd3",
+        "template.json": "c14f871968b71fec3b9ae394358a813a03a582bfd91bc654339154b1abaf6fb4"
+      },
+      "offlinePageChecks": {
+        "pages": 35,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "ux-strategy-workshop",
+        "images": 14,
+        "imageUses": 28,
+        "fontFiles": 7,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    },
+    {
+      "name": "Launch",
+      "slug": "software-launch-blue",
+      "pages": 35,
+      "slots": 298,
+      "embeddedImages": 35,
+      "htmlBytes": 7046723,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "067cb21fefda9c480bc31f6351276d257105effcc7a26074e92b390ae53c7693",
+        "ASSET-LICENSES/source-register.json": "7a31d30f0c9ffcce26e2f9eb14ac10a39c5bc506bd11d60ebc783c2f2975ef21",
+        "SOURCE-NOTICES.md": "bde9f7e21abc36219146b11329e7c502375ceee83af48e808cccc931a20d92d4",
+        "template.html": "3b117de608fa3e1065bad96f14953fdb719df1cbe109d7f2e807e1b28271952e",
+        "template.json": "238546dbd382eb7cbee921b4ed7d4edf4487f43c24a04e4b8ef0ad5931d78f47"
+      },
+      "offlinePageChecks": {
+        "pages": 35,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "software-launch-blue",
+        "images": 35,
+        "imageUses": 61,
+        "fontFiles": 1,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    },
+    {
+      "name": "Indie Publishing",
+      "slug": "indie-publishing-editorial",
+      "pages": 25,
+      "slots": 178,
+      "embeddedImages": 38,
+      "htmlBytes": 8775900,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "000d8776fedbb2664ecfd85a3ab90321d1bfe41dc0d43cdb44a997ec85d1364f",
+        "ASSET-LICENSES/source-register.json": "cafd4adfa4d028ed3c6c8da8d655c8cd670ddd2eafe62890030bc306973b824c",
+        "SOURCE-NOTICES.md": "7fd2a48319fa2863b454ab624617ee2d9495850a0b44ba9607e8825b4cd8f2e7",
+        "template.html": "a8c279abe6021fafb26e2d0c18c59ee5886260e7b58eab3bc971d3942a277948",
+        "template.json": "a97c498cf9ae77a69c61d4edc48d7d029b49420cd045ee7b3f3c3649b1c5f180"
+      },
+      "offlinePageChecks": {
+        "pages": 25,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "indie-publishing-editorial",
+        "images": 38,
+        "imageUses": 41,
+        "fontFiles": 1,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    },
+    {
+      "name": "Sports Partnership Proposal",
+      "slug": "sports-partnership-proposal",
+      "pages": 32,
+      "slots": 221,
+      "embeddedImages": 15,
+      "htmlBytes": 9797941,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "86f61181d92c8246144f5bb1536ece6a92d52020a92b46f2011812b35135ed6d",
+        "ASSET-LICENSES/source-register.json": "7c13fd38d4bdcb77758dd47ab2582857678709b63f532a7f03f31550c4a423bd",
+        "SOURCE-NOTICES.md": "be28d07436737d6e362466be373c8c8e10d0a80d1f7000d5a1cec6b9090b5efd",
+        "template.html": "e8bee918c76d62da1fb75e3273e4bfca93b54566e246375539e9f639e1051712",
+        "template.json": "8a75f69b49fcb20527068e0f8cd528de0c4d5082052dc710869f4c3b06a1a003"
+      },
+      "offlinePageChecks": {
+        "pages": 32,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "space-on-previous",
+        "space-on-next",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "weight": "100 900",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest",
+      "payloadChecks": {
+        "slug": "sports-partnership-proposal",
+        "images": 15,
+        "imageUses": 18,
+        "fontFiles": 4,
+        "imageHashesMatch": true,
+        "fontHashesMatch": true,
+        "remoteSrcAttributes": []
+      }
+    }
+  ],
+  "localEvidenceRoot": "previews/review-and-ship-2026-11-07/",
+  "fontSubstitutions": [
+    {
+      "template": "sports-partnership-proposal",
+      "source": "General Sans",
+      "actual": "DM Sans",
+      "actualItalicFileEmbedded": true,
+      "monoRetained": "Geist Mono",
+      "userApproved": true,
+      "license": "OFL-1.1",
+      "originalFontBundled": false
+    }
+  ],
+  "review": {
+    "baseBranch": "main",
+    "baseCommit": "275d3648657c49579dc2ce5ec0f052ba3cdbd9ec",
+    "initialHead": "d603a78dd6becc971482063512f226e0249f19a9",
+    "scope": "Complete branch effect plus reviewed fixes",
+    "report": "template-review-and-ship-2026-11-07.md",
+    "unresolvedBlockers": 0,
+    "resolvedBlockers": [
+      "Explicit preview targets prevent optional-text fallback from overwriting titles or cover labels; composed titles replace every line.",
+      "Space activates a focused Previous/Next button normally; arrows still navigate from button focus.",
+      "Paragraph minimum height no longer defeats tight source leading; nine sample strings fit their source frames."
+    ],
+    "acceptedRisks": [
+      "Third-party source designs/media are provenance-recorded, not represented as fully cleared.",
+      "Two video layouts require internet access; SVG charts are independent native rebuilds.",
+      "No Windows/Linux, alternate browser or real-device acceptance."
+    ],
+    "reviewedCodeSha256": {
+      "scripts/preview.mjs": "f593bed91bf1f5772c26c2b4945a7d9c9f120f0c660f38a41f9520a52aaefca8",
+      "scripts/preview.test.mjs": "89a174cf7a5ab39a82470cfd4fdb5a0f40a9d773f898ac955627329014c976ac"
+    }
+  }
+}

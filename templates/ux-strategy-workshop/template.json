@@ -1,0 +1,1274 @@
+{
+  "slug": "ux-strategy-workshop",
+  "name": "UX Design Strategy",
+  "tagline": "Complete 35-page UX Design Strategy display system with its own typography, composition and layout vocabulary.",
+  "mood": [
+    "human",
+    "precise",
+    "collaborative"
+  ],
+  "occasion": [
+    "ux strategy presentations connecting research",
+    "display presentation"
+  ],
+  "tone": [
+    "human",
+    "precise",
+    "collaborative"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "palette": {
+    "description": "Source-specific colors retained in native text, shapes, tables and image treatments; not normalized across templates."
+  },
+  "typography": {
+    "display": "DM Sans",
+    "body": "DM Sans",
+    "style": "DM Sans display with DM Sans body; original source font-family roles, declared weights, sizes and frames retained. Original unmodified font files are embedded with their own licenses; font versions are recorded. No common font substitution."
+  },
+  "scheme": "mixed",
+  "best_for": "UX strategy presentations connecting research, before-and-after analysis, roadmap planning, evidence and facilitated workshop activities.",
+  "avoid_for": "Very short brand teasers, purely photographic storytelling, or claims that require live workshop collaboration.",
+  "slide_count": 35,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "embedded_images": true,
+    "editable_text": true,
+    "native_svg": true,
+    "source_order_preserved": true,
+    "offline_layout": true,
+    "online_video_links": true,
+    "asset_source_register": true,
+    "asset_rights_unassessed": true
+  },
+  "layouts": [
+    "ux-strategy-report-01",
+    "supporting-you-with-the-human-things-02",
+    "we-re-true-to-form-a-london-based-experience-design-agency-we-tho-03",
+    "table-of-contents-04",
+    "who-we-are-05",
+    "turning-adversity-into-opportunity-06",
+    "who-we-are-07",
+    "our-clients-08",
+    "a-quote-to-summarise-09",
+    "making-connections-bridging-gaps-10",
+    "sample-project-11",
+    "photographic-composition-12",
+    "photographic-composition-13",
+    "what-we-are-doing-today-14",
+    "four-awesome-points-15",
+    "our-process-16",
+    "product-roadmap-17",
+    "product-roadmap-18",
+    "product-roadmap-19",
+    "the-devil-s-in-the-data-20",
+    "this-will-be-the-headline-21",
+    "this-is-a-line-chart-22",
+    "a-nice-line-chart-title-23",
+    "content-layout-24",
+    "this-will-be-the-headline-25",
+    "this-is-a-table-26",
+    "content-layout-27",
+    "a-nice-table-title-28",
+    "making-connections-bridging-gaps-29",
+    "workshop-activity-30",
+    "workshop-activity-31",
+    "workshop-activity-32",
+    "activity-33",
+    "voting-results-34",
+    "thank-you-35"
+  ],
+  "layout_slots": {
+    "ux-strategy-report-01": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "supporting-you-with-the-human-things-02": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "we-re-true-to-form-a-london-based-experience-design-agency-we-tho-03": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "table-of-contents-04": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_02",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_03",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "who-we-are-05": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_02",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_03",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "turning-adversity-into-opportunity-06": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "who-we-are-07": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "our-clients-08": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_06",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_07",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_08",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "a-quote-to-summarise-09": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "making-connections-bridging-gaps-10": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "sample-project-11": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "photographic-composition-12": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "photographic-composition-13": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "what-we-are-doing-today-14": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "four-awesome-points-15": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "our-process-16": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_07",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_08",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "product-roadmap-17": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_13",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_14",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_15",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_17",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_18",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "product-roadmap-18": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_07",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_08",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_09",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_11",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_12",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "product-roadmap-19": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_08",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_09",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "the-devil-s-in-the-data-20": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-will-be-the-headline-21": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "this-is-a-line-chart-22": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "a-nice-line-chart-title-23": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "content-layout-24": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "this-will-be-the-headline-25": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "description": "Native HTML table. Retain row/column grammar and original text size; split oversized tables."
+      }
+    ],
+    "this-is-a-table-26": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "description": "Native HTML table. Retain row/column grammar and original text size; split oversized tables."
+      }
+    ],
+    "content-layout-27": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "description": "Native HTML table. Retain row/column grammar and original text size; split oversized tables."
+      }
+    ],
+    "a-nice-table-title-28": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "description": "Native HTML table. Retain row/column grammar and original text size; split oversized tables."
+      }
+    ],
+    "making-connections-bridging-gaps-29": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "workshop-activity-30": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "shape_01",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "workshop-activity-31": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_02",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_03",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      }
+    ],
+    "workshop-activity-32": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "shape_02",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_03",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "embed_01",
+        "type": "video",
+        "description": "Source online video link and locally bundled thumbnail. Video payload is not downloaded; retain its original frame."
+      }
+    ],
+    "activity-33": [
+      {
+        "name": "shape_02",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_03",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_07",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_08",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_09",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_10",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "shape_11",
+        "type": "text",
+        "description": "Editable text within a native decorative shape; retain geometry."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "voting-results-34": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "thank-you-35": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 80,
+    "max_subtitle_chars": 160,
+    "max_body_chars_per_slide": 1600,
+    "max_bullets": 12,
+    "max_cards": 12,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "True to Form — UX Design Strategy",
+    "url": "https://pitch.com/templates/UX-Design-Strategy-0cugVn2BponJ4PerqV3LVaBG",
+    "notes": "Independent native implementation following all 35 public source pages, order and source block geometry. Fonts and images are bundled for the user's clarified public display-library scope. No affirmative blanket third-party relicense is claimed. Preserve author/source attribution and the separate font/media notices. Source image bytes were re-encoded for size; their crops/filters remain in CSS."
+  }
+}
