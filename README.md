@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 80 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 81 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -49,6 +49,10 @@ Browse 80 browser-openable HTML slide templates across business, research, train
 ![AI Slide Templates gallery 9](docs/assets/readme/template-gallery-09.png)
 
 ![November 7 display templates](docs/assets/readme/template-gallery-10.png)
+
+![Chrome Trend Report historical completion](docs/assets/readme/template-gallery-11.png)
+
+The [historical count repair](docs/template-count-repair-2026-11-07.md) adds the full 18-page Chrome Trend Report to complete the October 28 batch, bringing the library to 81 templates. Structural validation now rejects actual library counts that are not multiples of three. Empty folders and local research drafts do not count.
 
 The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover six complete display templates (186 pages), retaining their distinct page compositions and font systems. Sports uses the user-approved OFL DM Sans substitute for General Sans, including genuine italic headings; its Geist Mono labels are preserved. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. No General Sans font file is bundled. The [final branch review](docs/template-review-and-ship-2026-11-07.md) records preview/navigation fixes and fresh verification.
 
@@ -105,6 +109,7 @@ The folder name must match `template.json.slug`.
 | `bilingual-editorial` | Bold, literary, bilingual | Chinese-English editorial presentations and cross-cultural communication |
 | `brand-voice-guidelines` | Editorial, confident, instructive | Brand voice, writing principles, tone examples, communication guidelines |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
+| `chrome-trend-report` | Analytical, bold, futuristic | Trend reports, survey findings, market signals, research implications and recommendations |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
 | `clinical-infographic` | Clinical, clear, diagrammatic | Medical reports, research explainers, clinical training, science briefs |
 | `colorful-keynote-system` | Bright, modular, punchy | Colorful pitch decks, keynote systems, modular startup stories, and visual strategy recaps |
@@ -203,7 +208,7 @@ node scripts/validate-assets.mjs
 node scripts/validate-assets.mjs --template press-kit-editorial
 ```
 
-This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 74 templates are outside this asset review. The six November 7 display templates carry separate provenance registers, not clearance manifests.
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 75 templates are outside this asset review. The six November 7 display templates carry separate provenance registers, not clearance manifests.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

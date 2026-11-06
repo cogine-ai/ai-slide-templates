@@ -89,6 +89,8 @@ Do not run the deck-building workflow. Work on the library directly, keep change
 
 When researching or recommending a batch of new library templates, use multiples of three (3, 6, 9, and so on). Preserve the user's accepted candidates when expanding a batch.
 
+The actual admitted library count must also be a multiple of three. If an accepted candidate cannot be admitted, complete its batch with a suitable replacement before considering the batch finished. Historical repairs may add the missing entries to an incomplete batch. Count only templates with actual `template.json` and `template.html` files; previews and restricted local studies do not count. `node scripts/validate.mjs` enforces the aggregate count alongside the per-template checks.
+
 ---
 
 ## Template Metadata

@@ -154,6 +154,21 @@ test('explicit covers leave absent optional roles alone, including subtitle-only
   }
 });
 
+test('chrome trend report supports its two-line title and subtitle without changing artwork for a kicker', async () => {
+  const original = await readFile(new URL('../templates/chrome-trend-report/template.html', import.meta.url), 'utf8');
+  const preview = createPreviewHtml(original, {
+    title: 'Shared Progress', subtitle: 'Candidate direction', kicker: 'Review 2026'
+  });
+  const ranges = findSlideRanges(preview);
+  assert.equal(ranges.length, 1);
+  const cover = preview.slice(ranges[0].start, ranges[0].end);
+  assert.match(cover, /data-preview-title="0">Shared</);
+  assert.match(cover, /data-preview-title="1">Progress</);
+  assert.match(cover, /data-preview-subtitle>Candidate direction</);
+  assert.match(cover, /data-title="Shared Progress"/);
+  assert.doesNotMatch(cover, /Review 2026/);
+});
+
 for (const [slug, titleFrames, optionalSlots, retainedLabel] of [
   ['vacanza-postcard', 1, false, 'AIR MAIL'],
   ['ux-strategy-workshop', 1, false, null],

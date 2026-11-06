@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Taipei",
+  "baseCommit": "d63c9ac0262c268785050753172beffd5cc6b083",
+  "repair": "Complete the missing sixth admission from the October 28 batch",
+  "library": {
+    "templatesBefore": 80,
+    "templatesAfter": 81,
+    "slidesAfter": 1183,
+    "existingTemplateFilesCompared": 214,
+    "existingTemplateFilesUnchanged": true
+  },
+  "newTemplate": {
+    "slug": "chrome-trend-report",
+    "slides": 18,
+    "layoutSlots": 221,
+    "nativeCharts": 4,
+    "editableTable": "individual native text and shape cells",
+    "images": 34,
+    "imageUses": 57,
+    "fontFiles": 8,
+    "imageHashesMatch": true,
+    "fontHashesMatch": true,
+    "roundChartPercentagesTotal100": true,
+    "files": {
+      "templates/chrome-trend-report/ASSET-LICENSES/FONT-NOTICES.txt": {
+        "sha256": "d77ba7d1de2d8d7619792f7921b2219197961b4d723e5b423fab658d598ba1bd",
+        "bytes": 13176
+      },
+      "templates/chrome-trend-report/ASSET-LICENSES/source-register.json": {
+        "sha256": "fb936c8eff63b1b6c371c3e45883b60e38627b3bf16e3d9dca86a0988648bb82",
+        "bytes": 53550
+      },
+      "templates/chrome-trend-report/SOURCE-NOTICES.md": {
+        "sha256": "8f884adcaf19d5f19017be7689ab29b0525b10b43b66409f203371ac0155c699",
+        "bytes": 2149
+      },
+      "templates/chrome-trend-report/template.html": {
+        "sha256": "381feefc1cff120adc3e3c7e26418102e9e2fa49926b0e9da2d4a553731aebe3",
+        "bytes": 16420352
+      },
+      "templates/chrome-trend-report/template.json": {
+        "sha256": "aca3b1b7308e5fcca1d91b76e2fd1620c1a33a2e98ed0284757b1ce5371e15ed",
+        "bytes": 50138
+      }
+    }
+  },
+  "validation": {
+    "structure": "passed: 81 templates",
+    "countTestsPassed": 13,
+    "allScriptTestsPassed": 46,
+    "visual": "passed for new template at 1280x720",
+    "beforeRepair80Templates": "rejected by aggregate multiple-of-three guard",
+    "emptyFolderCountsAsTemplate": false
+  },
+  "browser": {
+    "pagesChecked": 18,
+    "consoleErrors": [],
+    "imageDecodeFailures": [],
+    "canvasOverflowPages": [],
+    "ordinaryUnrotatedTextFrameOverflow": [],
+    "networkRequests": 0,
+    "navigationChecks": [
+      "initial-hash",
+      "next",
+      "previous",
+      "keyboard-after-button-focus",
+      "space-on-previous",
+      "space-on-next",
+      "home",
+      "end",
+      "disabled-boundary-buttons",
+      "picker",
+      "synthetic-touch",
+      "390x844-canvas-fit",
+      "all-declared-fonts-decoded"
+    ],
+    "loadedFontFaces": [
+      {
+        "family": "Inter",
+        "weight": "100 900",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "900",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "style": "italic",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "600",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Abril Fatface",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      }
+    ],
+    "preview": {
+      "slug": "chrome-trend-report",
+      "titles": [
+        "Shared",
+        "Progress"
+      ],
+      "counter": "1 / 1",
+      "images": true,
+      "optionalSlots": [
+        "Candidate direction"
+      ],
+      "overflow": [],
+      "errors": [],
+      "external": 0
+    },
+    "interactiveInspection": "Opened full deck in in-app browser; verified next button, method page and cover"
+  },
+  "assets": {
+    "clearedManifestsChecked": 6,
+    "outsideManifestReview": 75,
+    "newTemplateStatus": "source register; third-party media rights not independently cleared; OFL font notices retained",
+    "secretOrWorkstationPathFindings": []
+  },
+  "evidence": {
+    "previews/count-repair-2026-11-07/before-repair-validation.txt": {
+      "sha256": "a18c4b2cdc25db248635bee1b6334020e9450b370dee2a766a4d408de6094af9",
+      "bytes": 120
+    },
+    "previews/count-repair-2026-11-07/validation.txt": {
+      "sha256": "29950490bfc6f70e02f2b2451b31315c9ab2b3767888b7284ebe9d046cd4b1c7",
+      "bytes": 2862
+    },
+    "previews/count-repair-2026-11-07/count-tests.txt": {
+      "sha256": "19e7fc65214501985d58ea7f6ce3d5a726b92e782c9c3ccb4acd15b0efa127c4",
+      "bytes": 1048
+    },
+    "previews/count-repair-2026-11-07/all-tests.txt": {
+      "sha256": "70d609d46aee8a55cac50351918d6a681b939f42252e55f3e5d56d2d1ba7dcd9",
+      "bytes": 3962
+    },
+    "previews/count-repair-2026-11-07/visual.txt": {
+      "sha256": "e17bcf554b1d821819714d1e0695cc7be029ac2a116bf05e989f8b08dc15a2fc",
+      "bytes": 78
+    },
+    "previews/count-repair-2026-11-07/assets.txt": {
+      "sha256": "2f4b1cdc6a1d67b9e71d1a4d6f2ab09e35d53c30db16b2f0a940c8398ae4c6b9",
+      "bytes": 413
+    },
+    "previews/count-repair-2026-11-07/runtime-summary.json": {
+      "sha256": "6a30335147c93926a0e508b41bb02db7f1b316a97d3683cb3db49f3bb6f5a15b",
+      "bytes": 2697
+    },
+    "previews/count-repair-2026-11-07/frame-overflow.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    "previews/count-repair-2026-11-07/navigation-final.json": {
+      "sha256": "2c9df23002ca0ed2d68f45f8c0034bdf19d482206a3586ffb8a7a294895bcd4d",
+      "bytes": 1456
+    },
+    "previews/count-repair-2026-11-07/preview-browser.json": {
+      "sha256": "222d1ecba125c8c8dc411cbd2f9539941f3f70ab953f7c0cc8e4a079d22ae45e",
+      "bytes": 260
+    },
+    "previews/count-repair-2026-11-07/payload-audit.json": {
+      "sha256": "fae1ef961f7a398e3365ffc3ad4deee1eb4a68867188688ac7006d4542909de3",
+      "bytes": 1211
+    }
+  },
+  "limits": [
+    "Only the new template received fresh browser/visual coverage. Existing 80 template files were byte-compared with base.",
+    "No Windows/Linux, other browser engines or real touch-device verification.",
+    "Provenance registration and successful rendering do not establish third-party media ownership.",
+    "Raw captures and detailed logs are local ignored artifacts, not bundled in the public repository."
+  ]
+}

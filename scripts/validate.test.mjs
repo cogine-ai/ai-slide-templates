@@ -63,14 +63,20 @@ async function makeTemplate(root, slug, metadata = {}, slideCount = 1, options =
   );
 }
 
+async function makeCompanionTemplates(root) {
+  await makeTemplate(root, 'zz-companion-one');
+  await makeTemplate(root, 'zz-companion-two');
+}
+
 test('validates a library with matching template metadata and HTML', async () => {
   const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-valid-'));
   try {
     await makeTemplate(root, 'example-template', {}, 2);
+    await makeCompanionTemplates(root);
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
     assert.deepEqual(result.errors, []);
-    assert.equal(result.templates.length, 1);
+    assert.equal(result.templates.length, 3);
     assert.equal(result.templates[0].slug, 'example-template');
   } finally {
     await rm(root, { recursive: true, force: true });
@@ -97,6 +103,7 @@ test('accepts semantic main and section tags for deck and slides', async () => {
       deckTag: 'main',
       slideTag: 'section'
     });
+    await makeCompanionTemplates(root);
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
     assert.equal(result.templates[0].slideCount, 3);
@@ -160,6 +167,7 @@ test('accepts palette colors represented as rgb or rgba in CSS', async () => {
     }, 1, {
       extraCss: '.accent{background:rgba(95,231,231,.2)}'
     });
+    await makeCompanionTemplates(root);
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
   } finally {
@@ -353,9 +361,51 @@ test('accepts string and object layout slot metadata', async () => {
         ]
       }
     });
+    await makeCompanionTemplates(root);
     const result = await validateLibrary(root);
     assert.equal(result.ok, true);
     assert.deepEqual(result.errors, []);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('requires actual template counts to complete three-template batches', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-batch-count-'));
+  try {
+    await makeTemplate(root, 'first');
+    await makeTemplate(root, 'second');
+    let result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /library contains 2 template\(s\).*multiple of 3/);
+    await makeTemplate(root, 'third');
+    result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    await makeTemplate(root, 'fourth');
+    result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /library contains 4 template\(s\).*multiple of 3/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test('rejects the historical 80-template count until an actual 81st template exists', async () => {
+  const root = await mkdtemp(path.join(tmpdir(), 'slide-templates-count-repair-'));
+  try {
+    for (let i = 0; i < 80; i += 1) await makeTemplate(root, `template-${String(i).padStart(2, '0')}`);
+    let result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.match(result.errors.join('\n'), /library contains 80 template\(s\).*multiple of 3/);
+    await mkdir(path.join(root, 'templates', 'completion'));
+    result = await validateLibrary(root);
+    assert.equal(result.ok, false);
+    assert.equal(result.templates.length, 80);
+    assert.match(result.errors.join('\n'), /completion: missing template.json/);
+    await makeTemplate(root, 'completion');
+    result = await validateLibrary(root);
+    assert.equal(result.ok, true);
+    assert.equal(result.templates.length, 81);
   } finally {
     await rm(root, { recursive: true, force: true });
   }
