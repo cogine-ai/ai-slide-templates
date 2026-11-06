@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 79 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 80 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -50,7 +50,7 @@ Browse 79 browser-openable HTML slide templates across business, research, train
 
 ![November 7 display templates](docs/assets/readme/template-gallery-10.png)
 
-The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover five complete display templates (154 pages), retaining their distinct source fonts and page compositions. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. The accepted Sports Partnership candidate remains pending because its General Sans license explicitly restricts the requested font packaging.
+The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover six complete display templates (186 pages), retaining their distinct page compositions and font systems. Sports uses the user-approved OFL DM Sans substitute for General Sans, including genuine italic headings; its Geist Mono labels are preserved. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. No General Sans font file is bundled.
 
 See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides): four original compositions and two attributed Figma Community adaptations. The [source and asset notices](docs/template-source-notices-2026-11-01.md) document the CC BY 4.0 layouts, individually sourced Pexels photography, original vector artwork and actual font licenses. Each new template carries a hash-based asset register. Third-party licenses remain applicable; the repository MIT license does not relicense those materials.
 
@@ -166,6 +166,7 @@ The folder name must match `template.json.slug`.
 | `sage-creative-agency` | Airy, refined, expressive | Creative agency credentials, brand proposals, team profiles, services, and project pricing |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
 | `software-launch-blue` | Clear, confident, product-led | Software launches, device demos, feature mosaics, pricing |
+| `sports-partnership-proposal` | Energetic, bold, competitive | Sports partnerships, sponsorship proposals, audience and reach, collaboration plans |
 | `survey-results-infographics` | Clear, statistical, infographic | Survey results, research summaries, customer feedback reports, and workshop readouts |
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 | `traveling-keynote-modern` | Modern, cinematic, warm | Travel keynotes, destination stories, tour concepts, wellness travel presentations |
@@ -202,7 +203,7 @@ node scripts/validate-assets.mjs
 node scripts/validate-assets.mjs --template press-kit-editorial
 ```
 
-This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 73 templates are outside this asset review. The five November 7 display templates carry separate provenance registers, not clearance manifests.
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 74 templates are outside this asset review. The six November 7 display templates carry separate provenance registers, not clearance manifests.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

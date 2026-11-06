@@ -1,25 +1,32 @@
 {
   "date": "2026-11-07",
-  "scope": "Five complete public display templates; Sports Partnership retained as a 32-page candidate pending an applicable General Sans license.",
+  "scope": "Six complete public display templates. Sports uses user-approved OFL DM Sans roman/true italic in place of General Sans, with source Geist Mono retained. Original General Sans font is not bundled.",
   "library": {
-    "templates": 79,
-    "demoSlides": 1133
+    "templates": 80,
+    "demoSlides": 1165
   },
-  "newTemplates": 5,
-  "newPages": 154,
-  "namedSlots": 1092,
+  "newTemplates": 6,
+  "newPages": 186,
+  "namedSlots": 1313,
   "verification": {
     "structural": {
       "command": "node scripts/validate.mjs",
-      "result": "pass, 79 templates"
+      "result": "pass, 80 templates"
     },
     "visual": {
-      "command": "node scripts/validate-visual.mjs --template vacanza-postcard --template brand-voice-guidelines --template ux-strategy-workshop --template software-launch-blue --template indie-publishing-editorial",
-      "result": "Visual validation passed for 5 template(s) at 1280x720.\n- brand-voice-guidelines\n- indie-publishing-editorial\n- software-launch-blue\n- ux-strategy-workshop\n- vacanza-postcard"
+      "priorFive": {
+        "command": "node scripts/validate-visual.mjs --template vacanza-postcard --template brand-voice-guidelines --template ux-strategy-workshop --template software-launch-blue --template indie-publishing-editorial",
+        "result": "Visual validation passed for 5 template(s) at 1280x720.\n- brand-voice-guidelines\n- indie-publishing-editorial\n- software-launch-blue\n- ux-strategy-workshop\n- vacanza-postcard"
+      },
+      "sports": {
+        "command": "node scripts/validate-visual.mjs --template sports-partnership-proposal",
+        "result": "Visual validation passed for 1 template(s) at 1280x720.\n- sports-partnership-proposal"
+      },
+      "scope": "Prior five files remain byte-identical to their accepted version; this turn adds the Sports check."
     },
     "existingAssetManifests": {
       "command": "node scripts/validate-assets.mjs",
-      "result": "PASS design-review-grid: 11 unique embedded images\nPASS fashion-editorial-lookbook: 9 unique embedded images\nPASS interior-design-editorial: 10 unique embedded images\nPASS personal-branding-playful: 4 unique embedded images\nPASS press-kit-editorial: 8 unique embedded images\nPASS research-readout-pastel: 5 unique embedded images\nAssessed 6 manifest(s); 73 legacy template(s) without manifests were not assessed.",
+      "result": "PASS design-review-grid: 11 unique embedded images\nPASS fashion-editorial-lookbook: 9 unique embedded images\nPASS interior-design-editorial: 10 unique embedded images\nPASS personal-branding-playful: 4 unique embedded images\nPASS press-kit-editorial: 8 unique embedded images\nPASS research-readout-pastel: 5 unique embedded images\nAssessed 6 manifest(s); 74 legacy template(s) without manifests were not assessed.",
       "newTemplateClearanceClaim": false
     },
     "browser": "Isolated headless Google Chrome on macOS, plus Codex in-app browser visual checks",
@@ -36,7 +43,7 @@
     ],
     "gitDiffCheck": {
       "result": "upstream-font-license-whitespace-only",
-      "warningCount": 941,
+      "warningCount": 1130,
       "byFile": {
         "templates/brand-voice-guidelines/ASSET-LICENSES/FONT-NOTICES.txt": 94,
         "templates/brand-voice-guidelines/template.html": 95,
@@ -44,6 +51,8 @@
         "templates/indie-publishing-editorial/template.html": 2,
         "templates/software-launch-blue/ASSET-LICENSES/FONT-NOTICES.txt": 93,
         "templates/software-launch-blue/template.html": 94,
+        "templates/sports-partnership-proposal/ASSET-LICENSES/FONT-NOTICES.txt": 94,
+        "templates/sports-partnership-proposal/template.html": 95,
         "templates/ux-strategy-workshop/ASSET-LICENSES/FONT-NOTICES.txt": 279,
         "templates/ux-strategy-workshop/template.html": 280,
         "templates/vacanza-postcard/ASSET-LICENSES/FONT-NOTICES.txt": 1,
@@ -362,7 +371,81 @@
         }
       ],
       "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    },
+    {
+      "name": "Sports Partnership Proposal",
+      "slug": "sports-partnership-proposal",
+      "pages": 32,
+      "slots": 221,
+      "embeddedImages": 15,
+      "htmlBytes": 9797867,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "86f61181d92c8246144f5bb1536ece6a92d52020a92b46f2011812b35135ed6d",
+        "ASSET-LICENSES/source-register.json": "7c13fd38d4bdcb77758dd47ab2582857678709b63f532a7f03f31550c4a423bd",
+        "SOURCE-NOTICES.md": "be28d07436737d6e362466be373c8c8e10d0a80d1f7000d5a1cec6b9090b5efd",
+        "template.html": "062de632977ee08e61ad16715bfbb39eccfbc6789c01578517f2a54a0d13ef91",
+        "template.json": "8a75f69b49fcb20527068e0f8cd528de0c4d5082052dc710869f4c3b06a1a003"
+      },
+      "offlinePageChecks": {
+        "pages": 32,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "weight": "100 900",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
     }
   ],
-  "localEvidenceRoot": "previews/implementation-2026-11-07/"
+  "localEvidenceRoot": "previews/implementation-2026-11-07/",
+  "fontSubstitutions": [
+    {
+      "template": "sports-partnership-proposal",
+      "source": "General Sans",
+      "actual": "DM Sans",
+      "actualItalicFileEmbedded": true,
+      "monoRetained": "Geist Mono",
+      "userApproved": true,
+      "license": "OFL-1.1",
+      "originalFontBundled": false
+    }
+  ]
 }

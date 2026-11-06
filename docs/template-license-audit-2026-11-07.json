@@ -1,24 +1,24 @@
 {
   "date": "2026-11-07",
-  "user_scope": "Public repository with bundled fonts and images; faithful layout references for display. Missing affirmative permission is recorded, not a blanket stop; explicit file restrictions still apply.",
-  "decision": "five_display_implementations_sports_held_for_explicit_general_sans_restrictions",
+  "user_scope": "Public repository with bundled fonts and images; faithful layout references for display. Missing affirmative permission is recorded, not a blanket stop; explicit file restrictions still apply. User subsequently approved visually similar font substitution.",
+  "decision": "six_complete_display_implementations_sports_uses_user_approved_ofl_font_substitute",
   "accepted_candidates": 6,
   "source_pages": 186,
   "design_permissions_confirmed": 0,
-  "templates_implemented": 5,
-  "reason": "User clarified the public repository packaging scope. Five complete display implementations preserve source families and page compositions. Sports Partnership remains an accepted candidate but its General Sans standard license restricts the requested font distribution/template use.",
+  "templates_implemented": 6,
+  "reason": "User explicitly approved similar-font substitution. Sports is complete with DM Sans roman/true italic replacing General Sans and original Geist Mono retained; no General Sans binary is bundled.",
   "scope": {
     "asset_resource_count": 169,
     "asset_reference_uses": 264,
     "complete_rights_clearances": 0,
     "inventory_limitations": [
       "The original inventory identifies 169 resources and 264 uses, including video URLs and thumbnails; these are not independent photograph counts or a clearance count.",
-      "For the implemented five, 151 image resources were downloaded and hashed. Repeated bytes are deduplicated within each HTML and all source references are retained.",
+      "For the six implemented templates, 167 image resources were downloaded and hashed. Repeated bytes are deduplicated per HTML and source references retained.",
       "Two online video payloads are not bundled; local thumbnail images link to their original online videos.",
       "Third-party source designs and media are not asserted to be MIT licensed or independently cleared."
     ],
-    "downloaded_image_resources": 151,
-    "downloaded_source_bytes": 179380372
+    "downloaded_image_resources": 167,
+    "downloaded_source_bytes": 208911480
   },
   "policy_evidence": [
     {
@@ -132,7 +132,9 @@
       "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17",
       "copyright_line": "Copyright 2026 The Geist Project Authors (https://github.com/vercel/geist-font)",
       "license": "OFL-1.1",
-      "font_binary_identity_verified": false
+      "font_binary_identity_verified": true,
+      "implemented_family": "Geist Mono",
+      "implemented_license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/OFL.txt"
     }
   ],
   "templates": [
@@ -2085,7 +2087,7 @@
         "chart": 1
       },
       "external_embeds": [],
-      "implementation_decision": "held_for_explicit_general_sans_restrictions",
+      "implementation_decision": "implemented_complete_display_edition_with_dm_sans_substitute",
       "source_record_sha256": "623151f3ce710d488c1f0af92670894f299a0d767ce889a66524a75f0820977d",
       "font_summary": {
         "font-General Sans": {
@@ -2165,11 +2167,16 @@
           "note": "Declarations include inherited theme defaults; not proof that every declaration renders."
         }
       },
-      "font_gate": "general_sans_standard_itf_ffl_restricts_required_redistribution_and_third_party_template_use",
+      "font_gate": "resolved_by_user_approved_ofl_substitution; General Sans not bundled",
       "implementation": {
-        "status": "held_for_explicit_general_sans_standard_license_restrictions",
-        "pages_preserved_in_research": 32,
-        "font_substitution": false
+        "name": "Sports Partnership Proposal",
+        "slug": "sports-partnership-proposal",
+        "pages": 32,
+        "slots": 221,
+        "embeddedImages": 15,
+        "htmlBytes": 9797867,
+        "status": "implemented_with_user_approved_similar_ofl_font_substitution",
+        "folder": "templates/sports-partnership-proposal"
       }
     },
     {
@@ -5359,25 +5366,25 @@
   ],
   "external_messages_sent": false,
   "purchases_made": false,
-  "font_substitutions_made": false,
+  "font_substitutions_made": true,
   "original_redesigns_made": false,
   "verification": {
     "structural_validation": {
       "command": "node scripts/validate.mjs",
       "result": "pass",
-      "template_count": 79,
-      "new_template_count": 5
+      "template_count": 80,
+      "new_template_count": 6
     },
-    "audit_consistency": "Original six accepted source IDs and 186-page inventory retained. Five complete native implementations contain 154 pages and 1092 named slots; original source resources remain unassessed for full media rights.",
+    "audit_consistency": "Six accepted source IDs, 186 pages and 1313 named implementation slots retained. General Sans is replaced with OFL DM Sans by user approval. Third-party source design and media clearance is not asserted.",
     "documentation_links": "Local relative Markdown document links checked.",
-    "browser_status": "Five native templates and final comparison board inspected in browser; 154-page offline checks and five-template generic visual/navigation/font checks passed.",
+    "browser_status": "Prior five templates passed; Sports adds 32-page offline, visual, navigation, scaling and all-declared-font-decoding acceptance.",
     "current_checkout": "Existing checkout reused; isolated branch cliq/six-display-templates; no worktree created.",
     "implementation_report": "template-implementation-2026-11-07.md"
   },
   "previous_decision": "not_ready_for_ingestion",
   "prepared_layout_pages": 186,
   "prepared_fillable_slots": 1313,
-  "implemented_pages": 154,
+  "implemented_pages": 186,
   "font_binary_evidence": [
     {
       "file": "previews/implementation-2026-11-07/fonts/Butler-500.woff2",
@@ -5651,6 +5658,85 @@
       },
       "weight": 900,
       "axes": []
+    },
+    {
+      "file": "previews/implementation-2026-11-07/fonts/dmsans-DMSans-Italic[opsz,wght].ttf",
+      "names": {
+        "0": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+        "1": "DM Sans 9pt",
+        "2": "Italic",
+        "5": "Version 4.004;gftools[0.9.30]",
+        "6": "DMSans-9ptItalic",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+        "14": "https://scripts.sil.org/OFL"
+      },
+      "weight": 400,
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 9.0,
+          "max": 40.0,
+          "default": 9.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 1000.0,
+          "default": 400.0
+        }
+      ]
+    },
+    {
+      "file": "previews/implementation-2026-11-07/fonts/geistmono-GeistMono-Italic[wght].ttf",
+      "names": {
+        "0": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)",
+        "1": "Geist Mono",
+        "2": "Italic",
+        "5": "Version 1.701",
+        "6": "GeistMono-Italic",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+        "14": "https://openfontlicense.org"
+      },
+      "weight": 400,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0,
+          "default": 400.0
+        }
+      ]
+    },
+    {
+      "file": "previews/implementation-2026-11-07/fonts/geistmono-GeistMono[wght].ttf",
+      "names": {
+        "0": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)",
+        "1": "Geist Mono",
+        "2": "Regular",
+        "5": "Version 1.701",
+        "6": "GeistMono-Regular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+        "14": "https://openfontlicense.org"
+      },
+      "weight": 400,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0,
+          "default": 400.0
+        }
+      ]
+    }
+  ],
+  "font_substitutions": [
+    {
+      "template": "sports-partnership-proposal",
+      "from": "General Sans",
+      "to": "DM Sans",
+      "approved_by_user": true,
+      "source_font_bundled": false,
+      "license": "OFL-1.1"
     }
   ]
 }
