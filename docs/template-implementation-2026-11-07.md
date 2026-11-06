@@ -1,6 +1,6 @@
 # 新增展示模板制作与验收
 
-2026-11-07，Asia/Taipei。本批完成 **6套、186页**，当前分支模板库合计 **80套、1,165页**。用户接受的六套候选全部完成。Sports Partnership Proposal 经用户进一步授权，以相似的 OFL DM Sans 替换 General Sans；保留 Geist Mono、原构图、原字号和32页全部布局。未打包 General Sans 字体文件，明确标注为相似字体改编版。
+2026-11-07，Asia/Taipei。本批完成 **6套、186页**，该批完成时模板库为 **80套、1,165页**；[后续历史补位](template-count-repair-2026-11-07.md)完成后为81套、1,183页。用户接受的六套候选全部完成。Sports Partnership Proposal 经用户进一步授权，以相似的 OFL DM Sans 替换 General Sans；保留 Geist Mono、原构图、原字号和32页全部布局。未打包 General Sans 字体文件，明确标注为相似字体改编版。
 
 | 模板 | 页数 | 成品 | 保留的视觉系统 |
 |---|---:|---|---|

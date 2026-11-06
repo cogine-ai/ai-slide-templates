@@ -545,6 +545,10 @@ export async function validateLibrary(rootDir = process.cwd()) {
     });
   }
 
+  if (templates.length % 3 !== 0) {
+    errors.push(`library contains ${templates.length} template(s); the actual template count must be a multiple of 3`);
+  }
+
   return {
     ok: errors.length === 0,
     errors,
