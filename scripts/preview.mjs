@@ -15,8 +15,8 @@ Usage:
 Options:
   --out-dir <dir>     Output directory. Defaults to previews/
   --title <text>      Replace marked cover title(s), falling back to the first h1
-  --subtitle <text>   Replace the marked cover subtitle, falling back to the first p
-  --kicker <text>     Replace the marked cover kicker or first cover label
+  --subtitle <text>   Replace the marked subtitle; unmarked covers fall back to the first p
+  --kicker <text>     Replace the marked kicker; unmarked covers fall back to a cover label
   --root <dir>        Repository root. Defaults to current directory
   -h, --help          Show this help text
 
@@ -247,12 +247,23 @@ function replaceMarkedText(html, role, text) {
 
 function adaptFirstSlide(slideHtml, options) {
   let adapted = forceActiveSlide(slideHtml);
+  const explicitTargets = /\sdata-preview-(?:title|subtitle|kicker)(?=[\s=>])/i.test(slideHtml);
   const title = replaceMarkedText(adapted, 'title', options.title);
   adapted = title.matched ? title.html : replaceFirstElementText(adapted, 'h1', options.title);
   const subtitle = replaceMarkedText(adapted, 'subtitle', options.subtitle);
-  adapted = subtitle.matched ? subtitle.html : replaceFirstElementText(adapted, 'p', options.subtitle);
+  // Explicit targets describe the cover's available slots. An omitted role must
+  // not fall back to a title, contact detail, or decorative label on that cover.
+  if (subtitle.matched) adapted = subtitle.html;
+  else if (!explicitTargets) adapted = replaceFirstElementText(adapted, 'p', options.subtitle);
   const kicker = replaceMarkedText(adapted, 'kicker', options.kicker);
-  adapted = kicker.matched ? kicker.html : replaceFirstClassText(adapted, TEXT_REPLACEMENT_CLASSES, options.kicker);
+  if (kicker.matched) adapted = kicker.html;
+  else if (!explicitTargets) adapted = replaceFirstClassText(adapted, TEXT_REPLACEMENT_CLASSES, options.kicker);
+  if (options.title !== undefined) {
+    const label = String(options.title).replace(/\r?\n/g, ' ');
+    adapted = adapted.replace(/^<[^>]+>/, tag => tag
+      .replace(/(\sdata-title=)(["'])([\s\S]*?)\2/i, (_, attr) => `${attr}"${escapeHtml(label)}"`)
+      .replace(/(\saria-label=)(["'])([\s\S]*?)\2/i, (_, attr) => `${attr}"${escapeHtml(`1. ${label}`)}"`));
+  }
   return adapted;
 }
 

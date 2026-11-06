@@ -5377,9 +5377,10 @@
     },
     "audit_consistency": "Six accepted source IDs, 186 pages and 1313 named implementation slots retained. General Sans is replaced with OFL DM Sans by user approval. Third-party source design and media clearance is not asserted.",
     "documentation_links": "Local relative Markdown document links checked.",
-    "browser_status": "Prior five templates passed; Sports adds 32-page offline, visual, navigation, scaling and all-declared-font-decoding acceptance.",
+    "browser_status": "All six final templates rechecked: 186-page offline and source-frame-flow checks, six generic browser visual checks, native keyboard/button/Space navigation, scaling, font decoding and six standalone customized previews passed.",
     "current_checkout": "Existing checkout reused; isolated branch cliq/six-display-templates; no worktree created.",
-    "implementation_report": "template-implementation-2026-11-07.md"
+    "implementation_report": "template-implementation-2026-11-07.md",
+    "self_review_report": "template-review-and-ship-2026-11-07.md"
   },
   "previous_decision": "not_ready_for_ingestion",
   "prepared_layout_pages": 186,

@@ -50,7 +50,7 @@ Browse 80 browser-openable HTML slide templates across business, research, train
 
 ![November 7 display templates](docs/assets/readme/template-gallery-10.png)
 
-The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover six complete display templates (186 pages), retaining their distinct page compositions and font systems. Sports uses the user-approved OFL DM Sans substitute for General Sans, including genuine italic headings; its Geist Mono labels are preserved. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. No General Sans font file is bundled.
+The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover six complete display templates (186 pages), retaining their distinct page compositions and font systems. Sports uses the user-approved OFL DM Sans substitute for General Sans, including genuine italic headings; its Geist Mono labels are preserved. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. No General Sans font file is bundled. The [final branch review](docs/template-review-and-ship-2026-11-07.md) records preview/navigation fixes and fresh verification.
 
 See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides): four original compositions and two attributed Figma Community adaptations. The [source and asset notices](docs/template-source-notices-2026-11-01.md) document the CC BY 4.0 layouts, individually sourced Pexels photography, original vector artwork and actual font licenses. Each new template carries a hash-based asset register. Third-party licenses remain applicable; the repository MIT license does not relicense those materials.
 
@@ -105,11 +105,11 @@ The folder name must match `template.json.slug`.
 | `bilingual-editorial` | Bold, literary, bilingual | Chinese-English editorial presentations and cross-cultural communication |
 | `brand-voice-guidelines` | Editorial, confident, instructive | Brand voice, writing principles, tone examples, communication guidelines |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
-| `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
 | `clinical-infographic` | Clinical, clear, diagrammatic | Medical reports, research explainers, clinical training, science briefs |
 | `colorful-keynote-system` | Bright, modular, punchy | Colorful pitch decks, keynote systems, modular startup stories, and visual strategy recaps |
 | `construction-project-proposal` | Formal, precise, structured | Construction proposals, engineering plans, architecture delivery, site reviews, built-environment procurement |
+| `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `customer-journey-map` | Diagrammatic, direct, structured | Customer journey maps, service-design workshops, lifecycle strategy, product discovery |
 | `dark-minimal-ui` | Digital, precise, interface-led | Startup pitches, UI product demos, technology concepts |
 | `design-review-grid` | Structured, precise, collaborative | Design critiques, product walkthroughs, review questions, feedback grids, and decision summaries |
@@ -140,8 +140,8 @@ The folder name must match `template.json.slug`.
 | `metalab-concept-testing` | Research-led, warm, precise | Product concept-testing reports, prototype findings, user quotations, design recommendations, and sprint next steps |
 | `midnight-executive` | Executive, polished, dramatic | Board updates, investor briefings, leadership reviews, strategic reviews |
 | `minimalist-grayscale-pitch` | Clean, quiet, precise | Startup pitch decks, founder narratives, investor updates, restrained business plans |
-| `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
 | `modern-wave` | Playful, clean, high-contrast | Simple modern keynotes, introductions, creative overviews, quotes, and lightweight visual storytelling |
+| `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
 | `neon-grid-agency` | Neon, graphic, energetic | Creative agency pitches, talent decks, youth brand campaigns |
 | `neon-night-pitch` | Expressive, loud, pop | Event pitches, creator decks, nightlife and culture proposals |
 | `newspaper-editorial` | Editorial, printed, archival | Newspaper-style reports, classroom publishing, editorial summaries, and issue-style narratives |
@@ -227,7 +227,7 @@ node scripts/preview.mjs --title "AI Platform Review" --subtitle "Candidate cove
 
 By default, previews are written to `previews/<slug>-preview.html`. The `previews/` directory is ignored because these are temporary comparison artifacts.
 
-Template authors can mark the innermost cover text elements with `data-preview-title="0"`, `data-preview-subtitle`, and `data-preview-kicker` to select the correct replacement targets. Covers with separate title frames can number them `0`, `1`, `2`: the preview tool distributes the title across those frames in that order, respecting explicit line breaks. Unmarked templates retain the first `h1`, first `p`, and cover-label fallbacks.
+Template authors can mark the innermost cover text elements with `data-preview-title="0"`, `data-preview-subtitle`, and `data-preview-kicker` to select the correct replacement targets. Covers with separate title frames can number them `0`, `1`, `2`: the preview tool distributes the title across those frames in that order, respecting explicit line breaks. Once a cover uses explicit targets, absent subtitle or kicker slots are left unchanged rather than replacing another label or the title. Vacanza and UX Strategy have title-only covers; their previews omit optional subtitle/kicker text. Unmarked templates retain the first `h1`, first `p`, and cover-label fallbacks.
 
 Render a PNG screenshot for a template slug or preview HTML file:
 

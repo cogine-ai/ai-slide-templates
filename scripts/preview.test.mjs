@@ -140,6 +140,51 @@ test('legacy preview replacements keep dollar sequences literal and escape HTML'
   assert.match(preview, /<span class="kicker">\$&amp; &lt;label&gt;<\/span>/);
 });
 
+test('explicit covers leave absent optional roles alone, including subtitle-only previews', () => {
+  const html = '<section class="slide"><p data-preview-title="0">Original title</p><p>Contact details</p><span class="kicker">Brand label</span></section>';
+  for (const options of [
+    { title: 'Shared Progress', subtitle: 'Candidate direction', kicker: 'Review 2026' },
+    { subtitle: 'Candidate direction', kicker: 'Review 2026' }
+  ]) {
+    const preview = createPreviewHtml(html, options);
+    assert.ok(preview.includes(`data-preview-title="0">${options.title || 'Original title'}<`));
+    assert.match(preview, /<p>Contact details<\/p>/);
+    assert.match(preview, /class="kicker">Brand label</);
+    assert.doesNotMatch(preview, /Candidate direction|Review 2026/);
+  }
+});
+
+for (const [slug, titleFrames, optionalSlots, retainedLabel] of [
+  ['vacanza-postcard', 1, false, 'AIR MAIL'],
+  ['ux-strategy-workshop', 1, false, null],
+  ['brand-voice-guidelines', 1, true, 'hello@commonground.example'],
+  ['software-launch-blue', 1, true, 'Clarity'],
+  ['indie-publishing-editorial', 2, true, 'Open Editions'],
+  ['sports-partnership-proposal', 2, true, 'pace.example']
+]) {
+  test(`${slug} previews replace the entire title without overwriting other cover slots`, async () => {
+    const original = await readFile(new URL(`../templates/${slug}/template.html`, import.meta.url), 'utf8');
+    const preview = createPreviewHtml(original, {
+      title: 'Shared Progress', subtitle: 'Candidate direction', kicker: 'Review 2026'
+    });
+    const ranges = findSlideRanges(preview);
+    assert.equal(ranges.length, 1);
+    const cover = preview.slice(ranges[0].start, ranges[0].end);
+    assert.match(cover, /data-title="Shared Progress"/);
+    assert.match(cover, /aria-label="1\. Shared Progress"/);
+    const targets = [...cover.matchAll(/data-preview-title="\d+">([^<]*)</g)];
+    assert.equal(targets.length, titleFrames);
+    assert.equal(targets.map(match => match[1]).join(' '), 'Shared Progress');
+    if (optionalSlots) {
+      assert.match(cover, /data-preview-subtitle>Candidate direction</);
+      assert.match(cover, /data-preview-kicker>Review 2026</);
+    } else {
+      assert.doesNotMatch(cover, /Candidate direction|Review 2026/);
+    }
+    if (retainedLabel) assert.ok(cover.includes(retainedLabel));
+  });
+}
+
 for (const [slug, titleParts] of [
   ['forest-editorial', ['AI Platform Review']],
   ['wide-design-portfolio', ['AI', 'Platform', 'Review']],
