@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source inventory, not a clearance certificate; excluded from the cleared-asset validator claim.",
+  "template": "software-launch-blue",
+  "code": {
+    "licenseId": "MIT",
+    "creator": "Cogine AI",
+    "scope": "Independently authored implementation code only."
+  },
+  "reference": {
+    "creator": "Pitch",
+    "name": "Launch",
+    "url": "https://pitch.com/templates/Launch-7UTeTf65ycSw4avV7U6sh6Df",
+    "permission_status": "not_established; user-directed display reference, not an assertion of a new license grant"
+  },
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "file": "dmsans-DMSans[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+      "name": "DMSans[opsz,wght].ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "bytes": 240164,
+      "license": "OFL-1.1",
+      "metadata": {
+        "0": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+        "1": "DM Sans 9pt",
+        "2": "Regular",
+        "5": "Version 4.004;gftools[0.9.30]",
+        "6": "DMSans-9ptRegular",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+        "14": "https://scripts.sil.org/OFL"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "4f8cc210-ccee-467d-99c9-69d3d49cf29c",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4f8cc210-ccee-467d-99c9-69d3d49cf29c?pitch-bytes=649&pitch-content-type=image%2Fsvg%2Bxml",
+      "sourceReferences": [
+        {
+          "id": "4f8cc210-ccee-467d-99c9-69d3d49cf29c",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4f8cc210-ccee-467d-99c9-69d3d49cf29c?pitch-bytes=649&pitch-content-type=image%2Fsvg%2Bxml"
+          ],
+          "sourceSha256": "be1d42c39d3d92d7b0d5890ea15964ff3b773002e8b0f35010a959f082a8af65",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sourceSha256": "be1d42c39d3d92d7b0d5890ea15964ff3b773002e8b0f35010a959f082a8af65",
+      "embeddedSha256": "be1d42c39d3d92d7b0d5890ea15964ff3b773002e8b0f35010a959f082a8af65",
+      "sourceBytes": 649,
+      "embeddedBytes": 649,
+      "mime": "image/svg+xml",
+      "width": 90,
+      "height": 90,
+      "modifications": "Original source bytes retained",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "ce4d01ba-de69-4810-9e83-646e514d0846",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ce4d01ba-de69-4810-9e83-646e514d0846?pitch-bytes=380436&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "ce4d01ba-de69-4810-9e83-646e514d0846",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ce4d01ba-de69-4810-9e83-646e514d0846?pitch-bytes=380436&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "06ba9abbb64703686834f7c414f81d9728e64e638b2e38e31d5388674bf18c6d",
+          "pages": [
+            1,
+            8
+          ]
+        }
+      ],
+      "sourceSha256": "06ba9abbb64703686834f7c414f81d9728e64e638b2e38e31d5388674bf18c6d",
+      "embeddedSha256": "f24f1ee4b8b22d54fbbbfd27899f7ed6e7d468cc28be6b6a2f983b650c152873",
+      "sourceBytes": 380436,
+      "embeddedBytes": 40666,
+      "mime": "image/webp",
+      "width": 2344,
+      "height": 1410,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "30afa483-d460-4f66-a7d4-dd6d13102747",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/30afa483-d460-4f66-a7d4-dd6d13102747?pitch-bytes=493404&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "30afa483-d460-4f66-a7d4-dd6d13102747",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/30afa483-d460-4f66-a7d4-dd6d13102747?pitch-bytes=493404&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "1a3a2cc5b5a269a4dc468fd5ce81f91be3e87125ee9fea0770e10f735d50c863",
+          "pages": [
+            1,
+            8
+          ]
+        }
+      ],
+      "sourceSha256": "1a3a2cc5b5a269a4dc468fd5ce81f91be3e87125ee9fea0770e10f735d50c863",
+      "embeddedSha256": "2a1233456c2ebccfac8b0151f211275199c399833c424435f8ceb99982d1165c",
+      "sourceBytes": 493404,
+      "embeddedBytes": 151294,
+      "mime": "image/webp",
+      "width": 4320,
+      "height": 2784,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "2785a59a-873a-440c-9d3b-f4979b967e7d",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/2785a59a-873a-440c-9d3b-f4979b967e7d?pitch-bytes=12224494&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "2785a59a-873a-440c-9d3b-f4979b967e7d",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/2785a59a-873a-440c-9d3b-f4979b967e7d?pitch-bytes=12224494&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "3cb7a73ab9f20aebe190cc9ee863d815f0de4995b10b37368fbcf67bdd660303",
+          "pages": [
+            2,
+            11,
+            17,
+            35
+          ]
+        }
+      ],
+      "sourceSha256": "3cb7a73ab9f20aebe190cc9ee863d815f0de4995b10b37368fbcf67bdd660303",
+      "embeddedSha256": "a8e610eeafb634952fb3253adae5e8081bc5c89d20471a36d14f0a73fd8f9b0e",
+      "sourceBytes": 12224494,
+      "embeddedBytes": 145212,
+      "mime": "image/webp",
+      "width": 8094,
+      "height": 5232,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        2,
+        11,
+        17,
+        35
+      ]
+    },
+    {
+      "id": "2aa908c0-0197-4900-90c6-705450aa2f06",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/2aa908c0-0197-4900-90c6-705450aa2f06?pitch-bytes=695300&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "2aa908c0-0197-4900-90c6-705450aa2f06",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/2aa908c0-0197-4900-90c6-705450aa2f06?pitch-bytes=695300&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "fc0051385e328ce8f2e03cfa72ea261f891ef5f2289719af744676b8066b6b51",
+          "pages": [
+            2,
+            13
+          ]
+        }
+      ],
+      "sourceSha256": "fc0051385e328ce8f2e03cfa72ea261f891ef5f2289719af744676b8066b6b51",
+      "embeddedSha256": "e594b7d501d963b5a7d8e7df607178ffe83cceba59e1d7539d82326dc0451529",
+      "sourceBytes": 695300,
+      "embeddedBytes": 160072,
+      "mime": "image/webp",
+      "width": 4320,
+      "height": 2928,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        2,
+        13
+      ]
+    },
+    {
+      "id": "0b02e79e-f673-4ec5-a1df-10a8ddc6ebe9",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0b02e79e-f673-4ec5-a1df-10a8ddc6ebe9?pitch-bytes=3091590&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "0b02e79e-f673-4ec5-a1df-10a8ddc6ebe9",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0b02e79e-f673-4ec5-a1df-10a8ddc6ebe9?pitch-bytes=3091590&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "8420b60747d5d4ba73f0f74e9fe51da8bed9098e9cf907725b687e237d74510c",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "id": "b8176163-3155-4b83-b9bf-da0c411bc096",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b8176163-3155-4b83-b9bf-da0c411bc096?pitch-bytes=3091590&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "8420b60747d5d4ba73f0f74e9fe51da8bed9098e9cf907725b687e237d74510c",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "sourceSha256": "8420b60747d5d4ba73f0f74e9fe51da8bed9098e9cf907725b687e237d74510c",
+      "embeddedSha256": "b8e53ab48ba94d98b44dd5ce96f27487390cee960b5ab16601ff1ac89dec1d8f",
+      "sourceBytes": 3091590,
+      "embeddedBytes": 371818,
+      "mime": "image/webp",
+      "width": 3840,
+      "height": 2560,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "1cde3c4e-756d-4e1e-a7ad-fb19391246f0",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/1cde3c4e-756d-4e1e-a7ad-fb19391246f0?pitch-bytes=3111400&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "1cde3c4e-756d-4e1e-a7ad-fb19391246f0",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/1cde3c4e-756d-4e1e-a7ad-fb19391246f0?pitch-bytes=3111400&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "a91876b3a52a3327d45fb04b37be52bae835669b35afb8eaa80d2b83944993b7",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "sourceSha256": "a91876b3a52a3327d45fb04b37be52bae835669b35afb8eaa80d2b83944993b7",
+      "embeddedSha256": "83495744db6f3b5b7a4b4c2f4bebb94b75da8773971e35788ba3bb91a898192a",
+      "sourceBytes": 3111400,
+      "embeddedBytes": 384712,
+      "mime": "image/webp",
+      "width": 3840,
+      "height": 2560,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "c86c3d1f-38dc-4d4a-b8a0-4ba3834a2c04",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c86c3d1f-38dc-4d4a-b8a0-4ba3834a2c04?pitch-bytes=1902047&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "c86c3d1f-38dc-4d4a-b8a0-4ba3834a2c04",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c86c3d1f-38dc-4d4a-b8a0-4ba3834a2c04?pitch-bytes=1902047&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "1d7afe51fb8554bcfa2a71f52193066ef735a9192b0fc48dcd0ec79081b9e5dd",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "sourceSha256": "1d7afe51fb8554bcfa2a71f52193066ef735a9192b0fc48dcd0ec79081b9e5dd",
+      "embeddedSha256": "8c8f1ec30d2f920e74b6cfe07d04df2d0c81bc9e5e2792f1b89a2fbdcd221eb6",
+      "sourceBytes": 1902047,
+      "embeddedBytes": 444792,
+      "mime": "image/webp",
+      "width": 3840,
+      "height": 2560,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "721bc506-2395-4670-bcc4-6915c3ae59f4",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/721bc506-2395-4670-bcc4-6915c3ae59f4?pitch-bytes=849880&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "721bc506-2395-4670-bcc4-6915c3ae59f4",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/721bc506-2395-4670-bcc4-6915c3ae59f4?pitch-bytes=849880&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "abafc16a49f5632561e0e59a0e0034ebc12683ea10f0cb3b6b223ba69976482a",
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "b627fae3-02e6-4821-87af-6c9ad39dc018",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b627fae3-02e6-4821-87af-6c9ad39dc018?pitch-bytes=849880&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "abafc16a49f5632561e0e59a0e0034ebc12683ea10f0cb3b6b223ba69976482a",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "sourceSha256": "abafc16a49f5632561e0e59a0e0034ebc12683ea10f0cb3b6b223ba69976482a",
+      "embeddedSha256": "df29e309f286bbef4d29631427a635ce5b872eb30884449ff524d540776425a8",
+      "sourceBytes": 849880,
+      "embeddedBytes": 367972,
+      "mime": "image/webp",
+      "width": 2937,
+      "height": 1956,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        6,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "9441c8b0-7c2e-49ff-9697-fd72808e87f6",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9441c8b0-7c2e-49ff-9697-fd72808e87f6?pitch-bytes=2561023&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "9441c8b0-7c2e-49ff-9697-fd72808e87f6",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9441c8b0-7c2e-49ff-9697-fd72808e87f6?pitch-bytes=2561023&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "238d65ebfd98863cbc37f2b769b1416d6cf5f8934eab19cd06cece1f69e23819",
+          "pages": [
+            7,
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "238d65ebfd98863cbc37f2b769b1416d6cf5f8934eab19cd06cece1f69e23819",
+      "embeddedSha256": "7818a9aba299f5f53bbf755211084d555cd6ca8c548ae039cd53eed25ec4ce2c",
+      "sourceBytes": 2561023,
+      "embeddedBytes": 466520,
+      "mime": "image/webp",
+      "width": 5376,
+      "height": 3585,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        7,
+        11
+      ]
+    },
+    {
+      "id": "04ef242d-d3e5-460f-ab60-0bc275e9b65d",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/04ef242d-d3e5-460f-ab60-0bc275e9b65d?pitch-bytes=2838870&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "04ef242d-d3e5-460f-ab60-0bc275e9b65d",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/04ef242d-d3e5-460f-ab60-0bc275e9b65d?pitch-bytes=2838870&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "006b61ade045718c1af3cbce691ffe100d1c9faf951aee7a3b19bb6f0b4367bb",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "sourceSha256": "006b61ade045718c1af3cbce691ffe100d1c9faf951aee7a3b19bb6f0b4367bb",
+      "embeddedSha256": "5aafd545ee8f80456d0a79a934cc38439e54219ffd33c8fad8556d7143f79826",
+      "sourceBytes": 2838870,
+      "embeddedBytes": 131508,
+      "mime": "image/webp",
+      "width": 3006,
+      "height": 2254,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "76c94d5d-1021-4fdd-9a47-f650671a9f9c",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/76c94d5d-1021-4fdd-9a47-f650671a9f9c?pitch-bytes=368016&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "76c94d5d-1021-4fdd-9a47-f650671a9f9c",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/76c94d5d-1021-4fdd-9a47-f650671a9f9c?pitch-bytes=368016&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "6497f795922a83518629b18f562cd3674168efe49a860b73f0681d330d049dbc",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "sourceSha256": "6497f795922a83518629b18f562cd3674168efe49a860b73f0681d330d049dbc",
+      "embeddedSha256": "0d0126833240097afa3ccd5284047c89e9990d6bc5fb72b8a8cdcd55bc96b8e0",
+      "sourceBytes": 368016,
+      "embeddedBytes": 64676,
+      "mime": "image/webp",
+      "width": 4320,
+      "height": 2853,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "53dc138a-92aa-4a54-b919-302120820759",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/53dc138a-92aa-4a54-b919-302120820759?pitch-bytes=1620609&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "53dc138a-92aa-4a54-b919-302120820759",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/53dc138a-92aa-4a54-b919-302120820759?pitch-bytes=1620609&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "0618f941f3cb0e87af9123172c7508366b24ac73359cc038d512ba9dc15fc123",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "sourceSha256": "0618f941f3cb0e87af9123172c7508366b24ac73359cc038d512ba9dc15fc123",
+      "embeddedSha256": "834117998e71668a357238ded5da11b5e91ffaf966b236639636f7f6903a9766",
+      "sourceBytes": 1620609,
+      "embeddedBytes": 94886,
+      "mime": "image/webp",
+      "width": 1765,
+      "height": 1986,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "7f763472-e79b-4ccc-8b74-a7f8789caa97",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7f763472-e79b-4ccc-8b74-a7f8789caa97?pitch-bytes=514474&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "7f763472-e79b-4ccc-8b74-a7f8789caa97",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7f763472-e79b-4ccc-8b74-a7f8789caa97?pitch-bytes=514474&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "3dc6033553050c1b8d19102916d3340400218209a54aedc7bd01015f839fdb41",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "sourceSha256": "3dc6033553050c1b8d19102916d3340400218209a54aedc7bd01015f839fdb41",
+      "embeddedSha256": "b033f327d80f63002e494b651c2d86493a971588cb4a29a6a3d23e632f93b650",
+      "sourceBytes": 514474,
+      "embeddedBytes": 138036,
+      "mime": "image/webp",
+      "width": 2304,
+      "height": 4245,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "ce9a4d75-ce19-45dc-8b85-ceb326a5a1b9",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ce9a4d75-ce19-45dc-8b85-ceb326a5a1b9?pitch-bytes=385516&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "ce9a4d75-ce19-45dc-8b85-ceb326a5a1b9",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ce9a4d75-ce19-45dc-8b85-ceb326a5a1b9?pitch-bytes=385516&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "fe971f0bede81d365a02650e0c115cc8677a254ae56fb31936642fe82695d608",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "fe971f0bede81d365a02650e0c115cc8677a254ae56fb31936642fe82695d608",
+      "embeddedSha256": "6d587f23419e75a8abc498e582ad8bbfe3c97930d8ad373656d4d08d5534227b",
+      "sourceBytes": 385516,
+      "embeddedBytes": 29052,
+      "mime": "image/webp",
+      "width": 846,
+      "height": 912,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "0988b8ec-2332-4c56-aadd-7807cc8f7f7f",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0988b8ec-2332-4c56-aadd-7807cc8f7f7f?pitch-bytes=823772&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "0988b8ec-2332-4c56-aadd-7807cc8f7f7f",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0988b8ec-2332-4c56-aadd-7807cc8f7f7f?pitch-bytes=823772&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "b3a7526917c0431feeeb7a57e1e8df0459100fcdf1fe1678a20b62d031cb9228",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "b3a7526917c0431feeeb7a57e1e8df0459100fcdf1fe1678a20b62d031cb9228",
+      "embeddedSha256": "6d442dc365f3de333881c9b954041c552f8dfe246f9a7aa142a19e81fe096415",
+      "sourceBytes": 823772,
+      "embeddedBytes": 55190,
+      "mime": "image/webp",
+      "width": 1560,
+      "height": 1170,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "cbbe3c95-6d5b-45e3-aa1e-0a1a4d68bd54",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cbbe3c95-6d5b-45e3-aa1e-0a1a4d68bd54?pitch-bytes=195203&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "cbbe3c95-6d5b-45e3-aa1e-0a1a4d68bd54",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cbbe3c95-6d5b-45e3-aa1e-0a1a4d68bd54?pitch-bytes=195203&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "68a14a9080fa4c89b9c9536600b0a17d85f8f90283c5aa1d5275ccd572eaecf5",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "68a14a9080fa4c89b9c9536600b0a17d85f8f90283c5aa1d5275ccd572eaecf5",
+      "embeddedSha256": "b747906fbb0ae68d8183095d97ef83edd1eb0186aae7f3ed63a44c96f8ae3395",
+      "sourceBytes": 195203,
+      "embeddedBytes": 26668,
+      "mime": "image/webp",
+      "width": 360,
+      "height": 360,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "3fb2dbcd-aa60-4a6e-8620-75016880fd5d",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3fb2dbcd-aa60-4a6e-8620-75016880fd5d?pitch-bytes=180376&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "3fb2dbcd-aa60-4a6e-8620-75016880fd5d",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3fb2dbcd-aa60-4a6e-8620-75016880fd5d?pitch-bytes=180376&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "6571c11ce9538fcdd51ab59213e43596e5a14f63f801b9fa43901db2d035facc",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "6571c11ce9538fcdd51ab59213e43596e5a14f63f801b9fa43901db2d035facc",
+      "embeddedSha256": "34659ba8aed71e02fd7a5ad90f72fb09b84bb3e678dcf753e033960432334d9c",
+      "sourceBytes": 180376,
+      "embeddedBytes": 31088,
+      "mime": "image/webp",
+      "width": 360,
+      "height": 360,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "996a56e4-b8fd-4dcd-b98b-a618cbe5ceb5",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/996a56e4-b8fd-4dcd-b98b-a618cbe5ceb5?pitch-bytes=191568&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "996a56e4-b8fd-4dcd-b98b-a618cbe5ceb5",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/996a56e4-b8fd-4dcd-b98b-a618cbe5ceb5?pitch-bytes=191568&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "602743ed3098235d442a8b0fe40bb0f308697bc14da86d143d90ebe098a957cd",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "602743ed3098235d442a8b0fe40bb0f308697bc14da86d143d90ebe098a957cd",
+      "embeddedSha256": "ae50e6c08faff5eff959ada3822d83d11ea986db1062803c2c95e4cde8cfeaff",
+      "sourceBytes": 191568,
+      "embeddedBytes": 22752,
+      "mime": "image/webp",
+      "width": 360,
+      "height": 360,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "da286a11-6119-469b-a026-796b0bc8fe2b",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/da286a11-6119-469b-a026-796b0bc8fe2b?pitch-bytes=3187&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "da286a11-6119-469b-a026-796b0bc8fe2b",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/da286a11-6119-469b-a026-796b0bc8fe2b?pitch-bytes=3187&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "aba31821796a7c750a909175e2b48ade93868088194cb7e4b064ab7f4c1700de",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "aba31821796a7c750a909175e2b48ade93868088194cb7e4b064ab7f4c1700de",
+      "embeddedSha256": "acffdf19128735085515d14ed310941aacc556ae9d1a52ce1a1e1936ec960dbd",
+      "sourceBytes": 3187,
+      "embeddedBytes": 2620,
+      "mime": "image/webp",
+      "width": 192,
+      "height": 192,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "df79d6ff-dde3-42c6-b046-fa0d0640bbd8",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/df79d6ff-dde3-42c6-b046-fa0d0640bbd8?pitch-bytes=2436&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "df79d6ff-dde3-42c6-b046-fa0d0640bbd8",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/df79d6ff-dde3-42c6-b046-fa0d0640bbd8?pitch-bytes=2436&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "db763d3eec1667146a605d46dad8d6b9bd1652dbf5c088f2b45f0460705f4fae",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "db763d3eec1667146a605d46dad8d6b9bd1652dbf5c088f2b45f0460705f4fae",
+      "embeddedSha256": "c12bfc78e7b2bf481749b90bd94dd97581741e5675427718b50528063972d028",
+      "sourceBytes": 2436,
+      "embeddedBytes": 1350,
+      "mime": "image/webp",
+      "width": 192,
+      "height": 192,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "6d7c9b9d-064f-4229-b37e-67030637cbf7",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d7c9b9d-064f-4229-b37e-67030637cbf7?pitch-bytes=1276&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "6d7c9b9d-064f-4229-b37e-67030637cbf7",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d7c9b9d-064f-4229-b37e-67030637cbf7?pitch-bytes=1276&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "6ec92e68df77ab9163c1def0f45ff46c367e51aa481b8045f3e965f1d215ff82",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "6ec92e68df77ab9163c1def0f45ff46c367e51aa481b8045f3e965f1d215ff82",
+      "embeddedSha256": "bf37d105f6a9ef0946ea2b1fe229528a0c1e8b7a1d340f1ca0e2e2d27cc8eb1a",
+      "sourceBytes": 1276,
+      "embeddedBytes": 778,
+      "mime": "image/webp",
+      "width": 192,
+      "height": 192,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "189d68d1-d983-417e-97e7-cda38bfff8a0",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/189d68d1-d983-417e-97e7-cda38bfff8a0?pitch-bytes=96256&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "189d68d1-d983-417e-97e7-cda38bfff8a0",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/189d68d1-d983-417e-97e7-cda38bfff8a0?pitch-bytes=96256&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "2ced64fe21e29913c24e61e05b20fc1209ee62759af998d4920790d7a34460af",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "2ced64fe21e29913c24e61e05b20fc1209ee62759af998d4920790d7a34460af",
+      "embeddedSha256": "c59b654bb571f6ba58d4a647ce990a32cc7db800ad00bef08a987c62286eccb1",
+      "sourceBytes": 96256,
+      "embeddedBytes": 31442,
+      "mime": "image/webp",
+      "width": 1389,
+      "height": 1002,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "70119fb3-67ba-43a2-b517-22ffc861a1ab",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/70119fb3-67ba-43a2-b517-22ffc861a1ab?pitch-bytes=85761&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "70119fb3-67ba-43a2-b517-22ffc861a1ab",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/70119fb3-67ba-43a2-b517-22ffc861a1ab?pitch-bytes=85761&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "477008f7804258bec3e61a992df8e4eae46d9562b9d887a4592db414a9b8cd5a",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "sourceSha256": "477008f7804258bec3e61a992df8e4eae46d9562b9d887a4592db414a9b8cd5a",
+      "embeddedSha256": "c928c2b864ea46d71758fb0a697464840d2733d73af97dfa2ef3877db2379553",
+      "sourceBytes": 85761,
+      "embeddedBytes": 28890,
+      "mime": "image/webp",
+      "width": 726,
+      "height": 792,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "67e38676-bb76-4811-9399-fc1f768059c5",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/67e38676-bb76-4811-9399-fc1f768059c5?pitch-bytes=4025472&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "67e38676-bb76-4811-9399-fc1f768059c5",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/67e38676-bb76-4811-9399-fc1f768059c5?pitch-bytes=4025472&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "b795fd56b5524a7e0477997c03e80deb1c4a628009aed722f273ef497c993008",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "sourceSha256": "b795fd56b5524a7e0477997c03e80deb1c4a628009aed722f273ef497c993008",
+      "embeddedSha256": "29d9d6b164eb8b17bc6597e1bab2c151a95928df8fb3f12ee0b6e84b9b46c2a9",
+      "sourceBytes": 4025472,
+      "embeddedBytes": 266382,
+      "mime": "image/webp",
+      "width": 2698,
+      "height": 1744,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "682b466d-985d-4c24-a0bb-e5ea4abe6f28",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/682b466d-985d-4c24-a0bb-e5ea4abe6f28?pitch-bytes=3270944&pitch-content-type=image%2Fjpeg",
+      "sourceReferences": [
+        {
+          "id": "682b466d-985d-4c24-a0bb-e5ea4abe6f28",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/682b466d-985d-4c24-a0bb-e5ea4abe6f28?pitch-bytes=3270944&pitch-content-type=image%2Fjpeg"
+          ],
+          "sourceSha256": "c921672e735f0bf99ad058ef02cfef5fc648af07b6b952ad27b867936b18a006",
+          "pages": [
+            18,
+            19
+          ]
+        }
+      ],
+      "sourceSha256": "c921672e735f0bf99ad058ef02cfef5fc648af07b6b952ad27b867936b18a006",
+      "embeddedSha256": "8c3a7d423cba8aa42a8e040a569f0030cc8797559270f2933441aac62945555c",
+      "sourceBytes": 3270944,
+      "embeddedBytes": 439630,
+      "mime": "image/webp",
+      "width": 3840,
+      "height": 2560,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "6ae42159-04ff-4ce9-a229-058eddbc6939",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6ae42159-04ff-4ce9-a229-058eddbc6939?pitch-bytes=2311&pitch-content-type=image%2Fsvg%2Bxml",
+      "sourceReferences": [
+        {
+          "id": "6ae42159-04ff-4ce9-a229-058eddbc6939",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6ae42159-04ff-4ce9-a229-058eddbc6939?pitch-bytes=2311&pitch-content-type=image%2Fsvg%2Bxml"
+          ],
+          "sourceSha256": "ddf5c69286b94e31cc01cffd2aa93bde63dca102a67e48c6d954728354955d8d",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "sourceSha256": "ddf5c69286b94e31cc01cffd2aa93bde63dca102a67e48c6d954728354955d8d",
+      "embeddedSha256": "ddf5c69286b94e31cc01cffd2aa93bde63dca102a67e48c6d954728354955d8d",
+      "sourceBytes": 2311,
+      "embeddedBytes": 2311,
+      "mime": "image/svg+xml",
+      "width": 48,
+      "height": 48,
+      "modifications": "Original source bytes retained",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "8883fcd5-fb7c-4e36-af6b-77e767a8ecba",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8883fcd5-fb7c-4e36-af6b-77e767a8ecba?pitch-bytes=1681&pitch-content-type=image%2Fsvg%2Bxml",
+      "sourceReferences": [
+        {
+          "id": "8883fcd5-fb7c-4e36-af6b-77e767a8ecba",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8883fcd5-fb7c-4e36-af6b-77e767a8ecba?pitch-bytes=1681&pitch-content-type=image%2Fsvg%2Bxml"
+          ],
+          "sourceSha256": "8e889e776630b80c15c5d71809a981f100dd3e0818b9d7f11938c34bda34175a",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "sourceSha256": "8e889e776630b80c15c5d71809a981f100dd3e0818b9d7f11938c34bda34175a",
+      "embeddedSha256": "8e889e776630b80c15c5d71809a981f100dd3e0818b9d7f11938c34bda34175a",
+      "sourceBytes": 1681,
+      "embeddedBytes": 1681,
+      "mime": "image/svg+xml",
+      "width": 48,
+      "height": 48,
+      "modifications": "Original source bytes retained",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "a045ccbf-24fa-4bc3-be36-7e3e1ff96156",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a045ccbf-24fa-4bc3-be36-7e3e1ff96156?pitch-bytes=1307&pitch-content-type=image%2Fsvg%2Bxml",
+      "sourceReferences": [
+        {
+          "id": "a045ccbf-24fa-4bc3-be36-7e3e1ff96156",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a045ccbf-24fa-4bc3-be36-7e3e1ff96156?pitch-bytes=1307&pitch-content-type=image%2Fsvg%2Bxml"
+          ],
+          "sourceSha256": "69adfbcd23ddfa4a3a296bb6e2896adfaf95f783335326cb6eedb3f51cc44b53",
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "sourceSha256": "69adfbcd23ddfa4a3a296bb6e2896adfaf95f783335326cb6eedb3f51cc44b53",
+      "embeddedSha256": "69adfbcd23ddfa4a3a296bb6e2896adfaf95f783335326cb6eedb3f51cc44b53",
+      "sourceBytes": 1307,
+      "embeddedBytes": 1307,
+      "mime": "image/svg+xml",
+      "width": 48,
+      "height": 48,
+      "modifications": "Original source bytes retained",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "a9a35ef1-f620-4fc2-be2b-e626ae06b5ee",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a9a35ef1-f620-4fc2-be2b-e626ae06b5ee?pitch-bytes=1384044&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "a9a35ef1-f620-4fc2-be2b-e626ae06b5ee",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a9a35ef1-f620-4fc2-be2b-e626ae06b5ee?pitch-bytes=1384044&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "5954cecf2494086327df4d7da97cd4615701748ebcc397571b73e2359063c632",
+          "pages": [
+            28,
+            29
+          ]
+        }
+      ],
+      "sourceSha256": "5954cecf2494086327df4d7da97cd4615701748ebcc397571b73e2359063c632",
+      "embeddedSha256": "b236282f2afd728573a114e017b3fcd0a812495aee3deb53ffb442637bf56abc",
+      "sourceBytes": 1384044,
+      "embeddedBytes": 188366,
+      "mime": "image/webp",
+      "width": 866,
+      "height": 1082,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": "eb8c3d44-2174-44c6-b04b-f8b9d34b5926",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/eb8c3d44-2174-44c6-b04b-f8b9d34b5926?pitch-bytes=1391724&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "eb8c3d44-2174-44c6-b04b-f8b9d34b5926",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/eb8c3d44-2174-44c6-b04b-f8b9d34b5926?pitch-bytes=1391724&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "c63b624c834bea982a06b0d0bf813e106c0af19efdeb6546c3132e76666e09fa",
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "sourceSha256": "c63b624c834bea982a06b0d0bf813e106c0af19efdeb6546c3132e76666e09fa",
+      "embeddedSha256": "f815b32cdf3f22163d91fbabc791560a8c43b8bda79c082e747a38098b46842f",
+      "sourceBytes": 1391724,
+      "embeddedBytes": 253888,
+      "mime": "image/webp",
+      "width": 866,
+      "height": 1082,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        28
+      ]
+    },
+    {
+      "id": "9a765a17-cbb0-4365-9a8c-14cbdbffe85d",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9a765a17-cbb0-4365-9a8c-14cbdbffe85d?pitch-bytes=1387696&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "9a765a17-cbb0-4365-9a8c-14cbdbffe85d",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9a765a17-cbb0-4365-9a8c-14cbdbffe85d?pitch-bytes=1387696&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "c71c53493fac0dab71004e04110e311413ba20e90711d6137f860c2658686144",
+          "pages": [
+            28,
+            30
+          ]
+        }
+      ],
+      "sourceSha256": "c71c53493fac0dab71004e04110e311413ba20e90711d6137f860c2658686144",
+      "embeddedSha256": "0853e2bc1ecb32de898dc57f45e0c03f70f9b74d5cc31649cb3b7c1d5acc71d0",
+      "sourceBytes": 1387696,
+      "embeddedBytes": 202136,
+      "mime": "image/webp",
+      "width": 866,
+      "height": 1082,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        28,
+        30
+      ]
+    },
+    {
+      "id": "e939f9ad-7147-473a-bbfe-d5923cba7983",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e939f9ad-7147-473a-bbfe-d5923cba7983?pitch-bytes=1215588&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "e939f9ad-7147-473a-bbfe-d5923cba7983",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e939f9ad-7147-473a-bbfe-d5923cba7983?pitch-bytes=1215588&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "c98837d1e792a4ed396e9f4500a49356443feb26190ee42be090d201992312e1",
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "sourceSha256": "c98837d1e792a4ed396e9f4500a49356443feb26190ee42be090d201992312e1",
+      "embeddedSha256": "360781c4507df864f1e34e2d63c1db473e93a6345d654cd30ca06835f3091862",
+      "sourceBytes": 1215588,
+      "embeddedBytes": 155788,
+      "mime": "image/webp",
+      "width": 866,
+      "height": 1082,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        28
+      ]
+    },
+    {
+      "id": "ef252b37-851e-43c8-80a5-aa41d1f0047f",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ef252b37-851e-43c8-80a5-aa41d1f0047f?pitch-bytes=1513&pitch-content-type=image%2Fsvg%2Bxml",
+      "sourceReferences": [
+        {
+          "id": "ef252b37-851e-43c8-80a5-aa41d1f0047f",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ef252b37-851e-43c8-80a5-aa41d1f0047f?pitch-bytes=1513&pitch-content-type=image%2Fsvg%2Bxml"
+          ],
+          "sourceSha256": "112fc89fda6298cdf3299ac2ab8e6721c060e064692ddf3abe25b8d16ffcac09",
+          "pages": [
+            32
+          ]
+        }
+      ],
+      "sourceSha256": "112fc89fda6298cdf3299ac2ab8e6721c060e064692ddf3abe25b8d16ffcac09",
+      "embeddedSha256": "112fc89fda6298cdf3299ac2ab8e6721c060e064692ddf3abe25b8d16ffcac09",
+      "sourceBytes": 1513,
+      "embeddedBytes": 1513,
+      "mime": "image/svg+xml",
+      "width": 193,
+      "height": 97,
+      "modifications": "Original source bytes retained",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        32
+      ]
+    },
+    {
+      "id": "6d3ba3d9-406f-46d5-81ca-80b5955d6376",
+      "sourceUrl": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d3ba3d9-406f-46d5-81ca-80b5955d6376?pitch-bytes=14761271&pitch-content-type=image%2Fpng",
+      "sourceReferences": [
+        {
+          "id": "6d3ba3d9-406f-46d5-81ca-80b5955d6376",
+          "urls": [
+            "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d3ba3d9-406f-46d5-81ca-80b5955d6376?pitch-bytes=14761271&pitch-content-type=image%2Fpng"
+          ],
+          "sourceSha256": "5120bd5cb7e5d0dbc96778f712f2ca6739874295dbab80f0e641c65d7eb34c27",
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "sourceSha256": "5120bd5cb7e5d0dbc96778f712f2ca6739874295dbab80f0e641c65d7eb34c27",
+      "embeddedSha256": "ac3c60b2831c33b88ba1bac8fd179f83e374217664bcf89d1fb387a2ba817985",
+      "sourceBytes": 14761271,
+      "embeddedBytes": 194964,
+      "mime": "image/webp",
+      "width": 8094,
+      "height": 5232,
+      "modifications": "Re-encoded as WebP at quality 92, longest edge at most 2560px without upscaling; source crop/filter remains in editable HTML",
+      "creator": null,
+      "licenseUrl": null,
+      "status": "source_recorded_rights_not_independently_cleared",
+      "pages": [
+        33
+      ]
+    }
+  ]
+}

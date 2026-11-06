@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 74 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 79 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -47,6 +47,10 @@ Browse 74 browser-openable HTML slide templates across business, research, train
 ![AI Slide Templates gallery 8](docs/assets/readme/template-gallery-08.png)
 
 ![AI Slide Templates gallery 9](docs/assets/readme/template-gallery-09.png)
+
+![November 7 display templates](docs/assets/readme/template-gallery-10.png)
+
+The [November 7 implementation notes](docs/template-implementation-2026-11-07.md) cover five complete display templates (154 pages), retaining their distinct source fonts and page compositions. Fonts and images are embedded; two video layouts link to online playback. Each template has separate source/font notices and a provenance register. Third-party designs and media are not relicensed under MIT or represented as fully cleared. The accepted Sports Partnership candidate remains pending because its General Sans license explicitly restricts the requested font packaging.
 
 See the [November 1 implementation notes](docs/template-implementation-2026-11-01.md) for the six new templates (154 demo slides): four original compositions and two attributed Figma Community adaptations. The [source and asset notices](docs/template-source-notices-2026-11-01.md) document the CC BY 4.0 layouts, individually sourced Pexels photography, original vector artwork and actual font licenses. Each new template carries a hash-based asset register. Third-party licenses remain applicable; the repository MIT license does not relicense those materials.
 
@@ -99,12 +103,13 @@ The folder name must match `template.json.slug`.
 | `basel-swiss-report` | Swiss, typographic, precise | Studio reports, annual summaries, executive updates, quantitative reviews, and team presentations |
 | `bauhaus-form-function` | Clear, geometric, confident | Design workshops, creative education, process explanations, comparisons, and concise case studies |
 | `bilingual-editorial` | Bold, literary, bilingual | Chinese-English editorial presentations and cross-cultural communication |
+| `brand-voice-guidelines` | Editorial, confident, instructive | Brand voice, writing principles, tone examples, communication guidelines |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
+| `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `classy-agency` | Elegant, restrained, geometric | Agency proposals, brand strategy, consulting-lite service pitches |
 | `clinical-infographic` | Clinical, clear, diagrammatic | Medical reports, research explainers, clinical training, science briefs |
 | `colorful-keynote-system` | Bright, modular, punchy | Colorful pitch decks, keynote systems, modular startup stories, and visual strategy recaps |
 | `construction-project-proposal` | Formal, precise, structured | Construction proposals, engineering plans, architecture delivery, site reviews, built-environment procurement |
-| `circuit-tech-dark` | Technical, sharp, engineering-led | Architecture reviews, platform pitches, AI product strategy, developer launches |
 | `customer-journey-map` | Diagrammatic, direct, structured | Customer journey maps, service-design workshops, lifecycle strategy, product discovery |
 | `dark-minimal-ui` | Digital, precise, interface-led | Startup pitches, UI product demos, technology concepts |
 | `design-review-grid` | Structured, precise, collaborative | Design critiques, product walkthroughs, review questions, feedback grids, and decision summaries |
@@ -124,6 +129,7 @@ The folder name must match `template.json.slug`.
 | `hr-orientation` | Bright, playful, supportive | HR orientation, new-hire onboarding, culture introductions, internal training |
 | `identity-brand-guidelines` | Polished, documented, restrained | Brand guidelines, identity systems, logo usage, palette documentation, creative governance |
 | `incident-review` | Technical, precise, accountable | Incident postmortems, timelines, recovery and preventive actions |
+| `indie-publishing-editorial` | Editorial, restrained, cultural | Publishing, creative studio stories, photographic research, editorial narratives |
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
 | `interior-design-editorial` | Architectural, refined, photographic | Interior proposals, studio credentials, project concepts, schedules, and fee breakdowns |
 | `law-justice` | Measured, legal, traditional | Legal briefings, justice policy updates, public institution presentations, and law education decks |
@@ -134,8 +140,8 @@ The folder name must match `template.json.slug`.
 | `metalab-concept-testing` | Research-led, warm, precise | Product concept-testing reports, prototype findings, user quotations, design recommendations, and sprint next steps |
 | `midnight-executive` | Executive, polished, dramatic | Board updates, investor briefings, leadership reviews, strategic reviews |
 | `minimalist-grayscale-pitch` | Clean, quiet, precise | Startup pitch decks, founder narratives, investor updates, restrained business plans |
-| `modern-wave` | Playful, clean, high-contrast | Simple modern keynotes, introductions, creative overviews, quotes, and lightweight visual storytelling |
 | `modern-business-proposal` | Bold, techno, sales-led | Modern business proposals, client pitches, service offers, project plans |
+| `modern-wave` | Playful, clean, high-contrast | Simple modern keynotes, introductions, creative overviews, quotes, and lightweight visual storytelling |
 | `neon-grid-agency` | Neon, graphic, energetic | Creative agency pitches, talent decks, youth brand campaigns |
 | `neon-night-pitch` | Expressive, loud, pop | Event pitches, creator decks, nightlife and culture proposals |
 | `newspaper-editorial` | Editorial, printed, archival | Newspaper-style reports, classroom publishing, editorial summaries, and issue-style narratives |
@@ -159,9 +165,12 @@ The folder name must match `template.json.slug`.
 | `retro-analog-brutalist` | Brutalist, high-contrast, experimental | Creative tech launches, digital marketing pitches, bold product stories |
 | `sage-creative-agency` | Airy, refined, expressive | Creative agency credentials, brand proposals, team profiles, services, and project pricing |
 | `smart-business-report` | Friendly, clear, businesslike | Marketing status reports, SaaS reviews, quarterly business updates |
+| `software-launch-blue` | Clear, confident, product-led | Software launches, device demos, feature mosaics, pricing |
 | `survey-results-infographics` | Clear, statistical, infographic | Survey results, research summaries, customer feedback reports, and workshop readouts |
 | `sustainability-report` | Clear, operational, report-like | Sustainability strategies, ESG reports, operating plans, impact reviews |
 | `traveling-keynote-modern` | Modern, cinematic, warm | Travel keynotes, destination stories, tour concepts, wellness travel presentations |
+| `ux-strategy-workshop` | Human, precise, collaborative | UX strategy, research, roadmaps, evidence tables, workshops |
+| `vacanza-postcard` | Nostalgic, editorial, warm | Cultural and travel stories, city guides, lifestyle presentations |
 | `wide-design-portfolio` | Bold, graphic, typographic | Design portfolios, project case studies, creative experience, and professional credentials |
 | `wonderland-concept-proposal` | Expressive, polished, design-led | Design proposals, client briefs, competitor analysis, information architecture, creative concepts, and delivery timelines |
 
@@ -193,7 +202,7 @@ node scripts/validate-assets.mjs
 node scripts/validate-assets.mjs --template press-kit-editorial
 ```
 
-This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 68 templates are outside this asset review.
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 73 templates are outside this asset review. The five November 7 display templates carry separate provenance registers, not clearance manifests.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

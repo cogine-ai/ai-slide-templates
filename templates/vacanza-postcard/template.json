@@ -1,0 +1,1211 @@
+{
+  "slug": "vacanza-postcard",
+  "name": "Vacanza",
+  "tagline": "Complete 29-page Vacanza display system with its own typography, composition and layout vocabulary.",
+  "mood": [
+    "nostalgic",
+    "editorial",
+    "warm"
+  ],
+  "occasion": [
+    "cultural and travel narratives",
+    "display presentation"
+  ],
+  "tone": [
+    "nostalgic",
+    "editorial",
+    "warm"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "palette": {
+    "description": "Source-specific colors retained in native text, shapes, tables and image treatments; not normalized across templates."
+  },
+  "typography": {
+    "display": "Butler",
+    "body": "Inter",
+    "style": "Butler display with Inter body; original source font-family roles, declared weights, sizes and frames retained. Original unmodified font files are embedded with their own licenses; font versions are recorded. No common font substitution."
+  },
+  "scheme": "light",
+  "best_for": "Cultural and travel narratives, city stories, lifestyle presentations and lightly structured proposals with postcard typography and postal ornaments.",
+  "avoid_for": "Dense technical specifications, highly compressed financial tables, or formal board reporting with little room for visual narrative.",
+  "slide_count": 29,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "embedded_images": true,
+    "editable_text": true,
+    "native_svg": true,
+    "source_order_preserved": true,
+    "offline_layout": true,
+    "online_video_links": true,
+    "asset_source_register": true,
+    "asset_rights_unassessed": true
+  },
+  "layouts": [
+    "invacanza-01",
+    "a-catchy-title-02",
+    "title-03",
+    "an-awesome-presentation-04",
+    "agenda-05",
+    "a-short-memorable-title-06",
+    "basic-text-slide-07",
+    "this-is-a-slide-with-tons-of-text-08",
+    "this-is-a-headline-09",
+    "make-your-point-visually-10",
+    "photographic-composition-11",
+    "describe-what-this-slide-is-about-12",
+    "describe-what-this-slide-is-about-13",
+    "describe-what-this-slide-is-about-14",
+    "a-list-about-lists-15",
+    "the-main-problem-with-quotes-on-the-internet-is-that-sometimes-th-16",
+    "this-is-a-video-slide-17",
+    "this-is-a-solid-point-18",
+    "this-could-be-a-mission-statement-an-introduction-or-anything-you-19",
+    "use-this-slide-to-talk-about-time-20",
+    "give-your-graph-a-name-21",
+    "give-your-graph-a-name-22",
+    "this-is-a-pie-chart-slide-23",
+    "this-is-a-table-24",
+    "contact-25",
+    "photographic-composition-26",
+    "photographic-composition-27",
+    "photographic-composition-28",
+    "photographic-composition-29"
+  ],
+  "layout_slots": {
+    "invacanza-01": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "a-catchy-title-02": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "title-03": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "an-awesome-presentation-04": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "agenda-05": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "a-short-memorable-title-06": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "basic-text-slide-07": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-is-a-slide-with-tons-of-text-08": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "this-is-a-headline-09": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "make-your-point-visually-10": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "photographic-composition-11": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "describe-what-this-slide-is-about-12": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "describe-what-this-slide-is-about-13": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "describe-what-this-slide-is-about-14": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "a-list-about-lists-15": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "the-main-problem-with-quotes-on-the-internet-is-that-sometimes-th-16": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-is-a-video-slide-17": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "embed_01",
+        "type": "video",
+        "description": "Source online video link and locally bundled thumbnail. Video payload is not downloaded; retain its original frame."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-is-a-solid-point-18": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-could-be-a-mission-statement-an-introduction-or-anything-you-19": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "use-this-slide-to-talk-about-time-20": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "give-your-graph-a-name-21": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "give-your-graph-a-name-22": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      }
+    ],
+    "this-is-a-pie-chart-slide-23": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "description": "Native editable SVG and adjacent JSON values. Keep axis, colors and source frame; update all labels with the data."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "this-is-a-table-24": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "description": "Native HTML table. Retain row/column grammar and original text size; split oversized tables."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "contact-25": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "description": "Replace native text; retain the original font, position, line height and frame. Split long content across matching slides."
+      }
+    ],
+    "photographic-composition-26": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "photographic-composition-27": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "photographic-composition-28": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ],
+    "photographic-composition-29": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "description": "Independent bundled source image. Preserve crop, filter, rotation and original frame when replacing."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 80,
+    "max_subtitle_chars": 160,
+    "max_body_chars_per_slide": 1600,
+    "max_bullets": 12,
+    "max_cards": 12,
+    "recommended_slide_count_min": 12,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "Hana Stojaković — Vacanza",
+    "url": "https://pitch.com/templates/Vacanza-2qsHLE3mq5YZ4NgMkd5vxDnj",
+    "notes": "Independent native implementation following all 29 public source pages, order and source block geometry. Fonts and images are bundled for the user's clarified public display-library scope. No affirmative blanket third-party relicense is claimed. Preserve author/source attribution and the separate font/media notices. Source image bytes were re-encoded for size; their crops/filters remain in CSS."
+  }
+}

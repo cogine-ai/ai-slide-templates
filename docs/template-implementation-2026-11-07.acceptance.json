@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-07",
+  "scope": "Five complete public display templates; Sports Partnership retained as a 32-page candidate pending an applicable General Sans license.",
+  "library": {
+    "templates": 79,
+    "demoSlides": 1133
+  },
+  "newTemplates": 5,
+  "newPages": 154,
+  "namedSlots": 1092,
+  "verification": {
+    "structural": {
+      "command": "node scripts/validate.mjs",
+      "result": "pass, 79 templates"
+    },
+    "visual": {
+      "command": "node scripts/validate-visual.mjs --template vacanza-postcard --template brand-voice-guidelines --template ux-strategy-workshop --template software-launch-blue --template indie-publishing-editorial",
+      "result": "Visual validation passed for 5 template(s) at 1280x720.\n- brand-voice-guidelines\n- indie-publishing-editorial\n- software-launch-blue\n- ux-strategy-workshop\n- vacanza-postcard"
+    },
+    "existingAssetManifests": {
+      "command": "node scripts/validate-assets.mjs",
+      "result": "PASS design-review-grid: 11 unique embedded images\nPASS fashion-editorial-lookbook: 9 unique embedded images\nPASS interior-design-editorial: 10 unique embedded images\nPASS personal-branding-playful: 4 unique embedded images\nPASS press-kit-editorial: 8 unique embedded images\nPASS research-readout-pastel: 5 unique embedded images\nAssessed 6 manifest(s); 73 legacy template(s) without manifests were not assessed.",
+      "newTemplateClearanceClaim": false
+    },
+    "browser": "Isolated headless Google Chrome on macOS, plus Codex in-app browser visual checks",
+    "viewports": [
+      "1280x774 runtime (1280x720 slide stage)",
+      "1280x720 generic visual validator",
+      "390x844 scaling check"
+    ],
+    "limitations": [
+      "No Windows/Linux or other browser acceptance.",
+      "Synthetic touch checks slide logic, not a real touch device.",
+      "Online video playback/offline video payloads were not accepted.",
+      "Native SVG chart rebuilds preserve composition/data but do not assert pixel identity with the original chart engine."
+    ],
+    "gitDiffCheck": {
+      "result": "upstream-font-license-whitespace-only",
+      "warningCount": 941,
+      "byFile": {
+        "templates/brand-voice-guidelines/ASSET-LICENSES/FONT-NOTICES.txt": 94,
+        "templates/brand-voice-guidelines/template.html": 95,
+        "templates/indie-publishing-editorial/ASSET-LICENSES/FONT-NOTICES.txt": 1,
+        "templates/indie-publishing-editorial/template.html": 2,
+        "templates/software-launch-blue/ASSET-LICENSES/FONT-NOTICES.txt": 93,
+        "templates/software-launch-blue/template.html": 94,
+        "templates/ux-strategy-workshop/ASSET-LICENSES/FONT-NOTICES.txt": 279,
+        "templates/ux-strategy-workshop/template.html": 280,
+        "templates/vacanza-postcard/ASSET-LICENSES/FONT-NOTICES.txt": 1,
+        "templates/vacanza-postcard/template.html": 2
+      },
+      "scope": "Every warning is confined to original upstream font-license text in FONT-NOTICES.txt or the HTML license comment. No validation rules were changed."
+    }
+  },
+  "templates": [
+    {
+      "name": "Vacanza",
+      "slug": "vacanza-postcard",
+      "pages": 29,
+      "slots": 211,
+      "embeddedImages": 19,
+      "htmlBytes": 9480139,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "f3474ff144d273c0479d6bd9977f2906d0b8d9132f766e12b430853614ffcee7",
+        "ASSET-LICENSES/source-register.json": "0ba3f824b02ff49b2a5dbbe4217a3813f78acdad944e9d31e71c9bc562b383ee",
+        "SOURCE-NOTICES.md": "c86b96139205e671ccbb0f5503f68b461a6e40bafd9f15ff6536605456f38cbe",
+        "template.html": "42c7bcea60e079b3d4e8ec77ffa2f5cb043f01259c32d220a5f0684931d15072",
+        "template.json": "b3a448b87c8c5a5ef5833ca7a56eb287893507d68e8f01c3a7728f0426b926f3"
+      },
+      "offlinePageChecks": {
+        "pages": 29,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Inter",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "200",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "800",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Butler",
+          "weight": "900",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    },
+    {
+      "name": "Tone of Voice Guidelines",
+      "slug": "brand-voice-guidelines",
+      "pages": 30,
+      "slots": 185,
+      "embeddedImages": 6,
+      "htmlBytes": 5036657,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "b6b5f03fc1ddb38d798da94ea4ef28db9a87ef7d7d8c16c6bd5fb0a305a913e9",
+        "ASSET-LICENSES/source-register.json": "9c79c0de9917aa885529c846483ffa04624e94e9f74a38097b57d5154519d8ae",
+        "SOURCE-NOTICES.md": "9084ce7163ef019f655243b635a8d496befa00e09a3d00f947a92eaa609446cb",
+        "template.html": "0543fedea7e18697fe9ce34cc0cb36c148ec33fdf4971a1de03da3f4b701d2db",
+        "template.json": "b63722a036b7caeab44985ffb765a269165f81c98176ce03ad7f12bbb34ee286"
+      },
+      "offlinePageChecks": {
+        "pages": 30,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Inter",
+          "weight": "100 900",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Serif Display",
+          "weight": "400",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Serif Display",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    },
+    {
+      "name": "UX Design Strategy",
+      "slug": "ux-strategy-workshop",
+      "pages": 35,
+      "slots": 220,
+      "embeddedImages": 14,
+      "htmlBytes": 7140272,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "90877f486680d53c0f345cd4ffb1ba6ca883caeabc4f3bf59d390878ae9cb930",
+        "ASSET-LICENSES/source-register.json": "58a003a754135366d828b96419365e0722298526a044cde461620c9e005ccf42",
+        "SOURCE-NOTICES.md": "9f135d47b12c6e7a4ac87646598cfefe87dc13e3ebe033c7b5f281b61c4547eb",
+        "template.html": "f8b7f21e980a124b25d1b3867fdd014d34c6ae18c033fc3eb9f9e4c1c9797ea9",
+        "template.json": "c14f871968b71fec3b9ae394358a813a03a582bfd91bc654339154b1abaf6fb4"
+      },
+      "offlinePageChecks": {
+        "pages": 35,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "DM Mono",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    },
+    {
+      "name": "Launch",
+      "slug": "software-launch-blue",
+      "pages": 35,
+      "slots": 298,
+      "embeddedImages": 35,
+      "htmlBytes": 7046657,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "067cb21fefda9c480bc31f6351276d257105effcc7a26074e92b390ae53c7693",
+        "ASSET-LICENSES/source-register.json": "7a31d30f0c9ffcce26e2f9eb14ac10a39c5bc506bd11d60ebc783c2f2975ef21",
+        "SOURCE-NOTICES.md": "bde9f7e21abc36219146b11329e7c502375ceee83af48e808cccc931a20d92d4",
+        "template.html": "d72b8e264a9512e62e26bb6afe54e758fdd9c78d3abee0de3a61afe5d4ce9dd7",
+        "template.json": "238546dbd382eb7cbee921b4ed7d4edf4487f43c24a04e4b8ef0ad5931d78f47"
+      },
+      "offlinePageChecks": {
+        "pages": 35,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "DM Sans",
+          "weight": "100 1000",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    },
+    {
+      "name": "Indie Publishing",
+      "slug": "indie-publishing-editorial",
+      "pages": 25,
+      "slots": 178,
+      "embeddedImages": 38,
+      "htmlBytes": 8775800,
+      "filesSha256": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "000d8776fedbb2664ecfd85a3ab90321d1bfe41dc0d43cdb44a997ec85d1364f",
+        "ASSET-LICENSES/source-register.json": "cafd4adfa4d028ed3c6c8da8d655c8cd670ddd2eafe62890030bc306973b824c",
+        "SOURCE-NOTICES.md": "7fd2a48319fa2863b454ab624617ee2d9495850a0b44ba9607e8825b4cd8f2e7",
+        "template.html": "5a4928d980efad594a50e7a7fd0169eb876a206134d1a91ce961d7b451aaf8b2",
+        "template.json": "a97c498cf9ae77a69c61d4edc48d7d029b49420cd045ee7b3f3c3649b1c5f180"
+      },
+      "offlinePageChecks": {
+        "pages": 25,
+        "imageDecodeFailures": 0,
+        "consoleErrors": [],
+        "unexpectedTextOverflowPages": [],
+        "networkRequests": 0
+      },
+      "supplementalChecks": [
+        "initial-hash",
+        "next",
+        "previous",
+        "keyboard-after-button-focus",
+        "home",
+        "end",
+        "disabled-boundary-buttons",
+        "picker",
+        "synthetic-touch",
+        "390x844-canvas-fit",
+        "all-declared-fonts-decoded"
+      ],
+      "loadedFontFaces": [
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "sourceDesignAndMediaClearance": "not_asserted; source register is provenance, not clearance manifest"
+    }
+  ],
+  "localEvidenceRoot": "previews/implementation-2026-11-07/"
+}
