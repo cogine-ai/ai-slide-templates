@@ -1,0 +1,79 @@
+Agate / 700 / normal
+Source: https://assets.services.pitch.com/fonts/5d97b0d7-f0e0-4ec1-8ecd-a7fde2745777.woff2
+SHA-256: 1abd7766b22b2146b12c209c0fdb2a640ea468a9935996e47c2d25891cb71da1
+Font name-table notices: {
+  "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+  "1": "QTAgateType",
+  "2": "Bold",
+  "5": "Version 001.000 "
+}
+
+Agate / 500 / normal
+Source: https://assets.services.pitch.com/fonts/9f25fc53-4f3d-49e3-88cd-a0077a241679.woff2
+SHA-256: cd5c6d76a33e8b789578df94dffc21a65d6209496a629498b7ec00c9305888c6
+Font name-table notices: {
+  "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+  "1": "QTAgateType",
+  "2": "Medium",
+  "5": "Version 001.000 "
+}
+
+Agate / 400 / italic
+Source: https://assets.services.pitch.com/fonts/5f4268c6-b112-48dd-a426-05f9e6748b64.woff2
+SHA-256: 15aebc6202bff3318cc5b73d1076515f2cf54e39de8d84277814ec194c3f0cf0
+Font name-table notices: {
+  "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+  "1": "QTAgateType",
+  "2": "Italic",
+  "5": "Version 001.000 "
+}
+
+Nimbus Sans L / 400 / normal
+Source: https://assets.services.pitch.com/fonts/8688e1a9-81c6-4d13-8fef-0f2ea33a8378.woff2
+SHA-256: 8225c0ba993b8bd3fecb20d543c2d41b21e614671ea7a873160135f5686809bc
+Font name-table notices: {
+  "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+  "1": "Nimbus Sans L",
+  "2": "Regular",
+  "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+  "8": "(URW)++ Design & Development",
+  "11": "http://www.urwpp.de"
+}
+
+Nimbus Sans L / 400 / italic
+Source: https://assets.services.pitch.com/fonts/29531235-f291-4516-954f-97a040899d4f.woff2
+SHA-256: 1f92de610420a2e440dbea73e812cb59da475e2422fd992c73b381f18485d02f
+Font name-table notices: {
+  "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+  "1": "Nimbus Sans L",
+  "2": "Regular Italic",
+  "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+  "8": "(URW)++ Design & Development",
+  "11": "http://www.urwpp.de"
+}
+
+Nimbus Sans L / 700 / normal
+Source: https://assets.services.pitch.com/fonts/32c8b2fb-0186-4351-8b9c-8ad350f96b05.woff2
+SHA-256: 5672503efa15ebd8b7799181f75655ec8b88d1909e61ccafbe4fa8447eba066b
+Font name-table notices: {
+  "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+  "1": "Nimbus Sans L",
+  "2": "Bold",
+  "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+  "8": "(URW)++ Design & Development",
+  "11": "http://www.urwpp.de"
+}
+
+Nimbus Sans L / 700 / italic
+Source: https://assets.services.pitch.com/fonts/5762d80e-11cd-4d75-9f44-1ee9b115b49b.woff2
+SHA-256: 5687323ce88488a3e666753bb6465ee959845f469b9f1f22f539c3585f1bce42
+Font name-table notices: {
+  "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+  "1": "Nimbus Sans L",
+  "2": "Bold Italic",
+  "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+  "8": "(URW)++ Design & Development",
+  "11": "http://www.urwpp.de"
+}
+
+The source CSS alias Agate is implemented by the original QTAgateType source files. Nimbus Sans L is the original URW source face. Full redistribution terms for these particular source binaries are not established by their name tables. No blanket clearance or MIT relicensing is asserted. Preserve these records.

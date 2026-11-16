@@ -1,0 +1,517 @@
+{
+  "date": "2026-11-17",
+  "scope": "Six accepted complete templates. Rendering and interaction acceptance; not a rights-clearance or pixel-identical certification.",
+  "libraryTemplates": 87,
+  "libraryDemoPages": 1334,
+  "newPages": 151,
+  "templateResults": [
+    {
+      "slug": "lattice-tech",
+      "pages": 27,
+      "slots": 241,
+      "fontsDeclared": 26,
+      "fontFailures": [],
+      "imagePayloadRecords": 32,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [],
+      "interaction": {
+        "slug": "lattice-tech",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "videoLinkSpaceGuard": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "3cbb982acb518b49f8c24bd09a6507436a39a6e7461bcf4c6b644e45ffa7c8c7",
+        "ASSET-LICENSES/source-register.json": "8d65f90417e8741b4bb46a0f345e1791914026bff5aa270a1522eab27524a207",
+        "SOURCE-NOTICES.md": "21d20ab547853d1da6f68de9879ed8213d36147d5610af1ffbd97aff735d5220",
+        "template.html": "4b5cf9263b05d8e1febe541407f366cab1bdeae368113fe7bdc87dd94889774d",
+        "template.json": "b2af01c1925c9c15308ebf989f0c7e683f3e265c3093f2c2eff8fa3e5e1ca1f8"
+      },
+      "platformFontAudit": {
+        "pages": 27,
+        "fontUses": [
+          {
+            "font": "Roboto / Roboto-Regular / true",
+            "glyphs": 878
+          },
+          {
+            "font": "Roboto Medium / Roboto-Medium / true",
+            "glyphs": 3587
+          },
+          {
+            "font": "Roboto Mono / RobotoMono-Regular / true",
+            "glyphs": 873
+          },
+          {
+            "font": "Roboto / Roboto-Bold / true",
+            "glyphs": 30
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 27,
+        "sourceBlocks": 416,
+        "missingBlocks": 0,
+        "imageCropsCompared": 36,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    },
+    {
+      "slug": "billiard-editorial",
+      "pages": 29,
+      "slots": 179,
+      "fontsDeclared": 22,
+      "fontFailures": [],
+      "imagePayloadRecords": 21,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [],
+      "interaction": {
+        "slug": "billiard-editorial",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "videoLinkSpaceGuard": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "f47f8ed58d26bd6d6aa2136a7dd069713c43db68b0a568f511b5a9ad1cf73337",
+        "ASSET-LICENSES/source-register.json": "e3142291631c2fa828fbd903d2d22f7ea74b05f7db07f21bcf3412fe841024fb",
+        "SOURCE-NOTICES.md": "42df85e038dbae3f56142aae228056cdeaa5c899969df896d5092348e0b5077f",
+        "template.html": "41255700ec4b9ec0366dcc9ee8f036be71aa01f9f42194a668141a81a1207f3d",
+        "template.json": "785aea35103f6e8b31093f760b6a6ace1155278a48c008d58e97c66d1b4bc957"
+      },
+      "platformFontAudit": {
+        "pages": 29,
+        "fontUses": [
+          {
+            "font": "Open Sauce Sans / OpenSauceSans-Regular / true",
+            "glyphs": 3098
+          },
+          {
+            "font": "Open Sauce Sans / OpenSauceSans-Bold / true",
+            "glyphs": 360
+          },
+          {
+            "font": "Gelasio / Gelasio-Italic / true",
+            "glyphs": 24
+          },
+          {
+            "font": "Gelasio / Gelasio-Regular / true",
+            "glyphs": 3489
+          },
+          {
+            "font": "Open Sauce Sans / OpenSauceSans-Italic / true",
+            "glyphs": 12
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 29,
+        "sourceBlocks": 211,
+        "missingBlocks": 0,
+        "imageCropsCompared": 21,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    },
+    {
+      "slug": "brand-style-guide-editorial",
+      "pages": 19,
+      "slots": 213,
+      "fontsDeclared": 7,
+      "fontFailures": [],
+      "imagePayloadRecords": 33,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [
+        {
+          "page": 2,
+          "frames": [
+            {
+              "slot": "text_06",
+              "id": "cbb3f415-42eb-4dd9-b3ef-d18b61c74718",
+              "text": "IdentityOverview",
+              "excess": 800,
+              "frameHeight": 800.0000244140624,
+              "layoutHeight": 1600.0000488281248
+            }
+          ]
+        }
+      ],
+      "interaction": {
+        "slug": "brand-style-guide-editorial",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "1402e4f01aa0760c27cc67d1df56199ec399717816b951d2a1900cd42750e9af",
+        "ASSET-LICENSES/source-register.json": "1d488922434646cc5de06ac45a0a8e200922704af74df21562771bd5c1480081",
+        "SOURCE-NOTICES.md": "3a6efeae8422bc47cfefc18d2f9b06d268060cce893e9421c23d1396685ab62f",
+        "template.html": "979d8f67f5c4d8e1481b3789faccc301852a3ae3a6b6841d29bf90b02da3a5b2",
+        "template.json": "1d348f6a6adaa018613918bfc9ab152dbde89bd3307efdb5a6925e05ef8cd627"
+      },
+      "platformFontAudit": {
+        "pages": 19,
+        "fontUses": [
+          {
+            "font": "Nimbus Sans L / NimbusSanL-Reg / true",
+            "glyphs": 4474
+          },
+          {
+            "font": "QTAgateType / QTAgateType / true",
+            "glyphs": 196
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 19,
+        "sourceBlocks": 275,
+        "missingBlocks": 0,
+        "imageCropsCompared": 34,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    },
+    {
+      "slug": "bakken-case-study",
+      "pages": 46,
+      "slots": 441,
+      "fontsDeclared": 9,
+      "fontFailures": [],
+      "imagePayloadRecords": 20,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [],
+      "interaction": {
+        "slug": "bakken-case-study",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "videoLinkSpaceGuard": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "efa0c513b6429a29491e6ffb70ce68225abef292c5ae46de6c8fc0759140b65a",
+        "ASSET-LICENSES/source-register.json": "2aa47fe4ccc00ad8631a4a730acf2f4754705c6458f320663b5d3012d4c1a492",
+        "SOURCE-NOTICES.md": "1b9d68592845092efbfbc742a1701f9f233265e6a7584e2caf54f45612aff1da",
+        "template.html": "754eadcd3974a71a12d1d25a30c88c34134adb489816c2767137a3ee2395f2ae",
+        "template.json": "410f0c92360f02c811c6598b0d55ff9081c3f3dccc2c4771bbbff6098f8def9c"
+      },
+      "platformFontAudit": {
+        "pages": 46,
+        "fontUses": [
+          {
+            "font": "Standard / Standard-Book / true",
+            "glyphs": 7515
+          },
+          {
+            "font": "Standard / Standard-Bold / true",
+            "glyphs": 14
+          },
+          {
+            "font": "Fira Code Light / FiraCodeLight-Regular / true",
+            "glyphs": 485
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 46,
+        "sourceBlocks": 547,
+        "missingBlocks": 0,
+        "imageCropsCompared": 55,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    },
+    {
+      "slug": "lumenfield-festival",
+      "pages": 14,
+      "slots": 92,
+      "fontsDeclared": 5,
+      "fontFailures": [],
+      "imagePayloadRecords": 0,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [
+        {
+          "page": 10,
+          "frames": [
+            {
+              "slot": "text_01",
+              "id": "a78a8e449efd",
+              "text": "“",
+              "excess": 140,
+              "frameHeight": 160,
+              "layoutHeight": 300
+            }
+          ]
+        }
+      ],
+      "interaction": {
+        "slug": "lumenfield-festival",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "017d7e7f3e158c26d47c212e53316ef5f2a265ee0d77210dd562b41d4d9dcc2d",
+        "ASSET-LICENSES/source-register.json": "69be87acbdaabbb22e0e8df836fe8a0df44ed5c5b6f000c42d5ba751c76b5de1",
+        "SOURCE-NOTICES.md": "76029a92e4181bec094a51483900710b5a48499c4e702386228944bf9c82f580",
+        "template.html": "6b616b26dc911378a3cb456b08139e133a6c7dea4f70e6ec0b942134b79d7aaa",
+        "template.json": "9bfff975c3d08e3ca56af32cef7ff68df4d2305c0cde5f7a1229090672b9c6aa"
+      },
+      "platformFontAudit": {
+        "pages": 14,
+        "fontUses": [
+          {
+            "font": "Lato / Lato-Bold / true",
+            "glyphs": 372
+          },
+          {
+            "font": "League Gothic / LeagueGothic / true",
+            "glyphs": 411
+          },
+          {
+            "font": "Lato / Lato-Regular / true",
+            "glyphs": 1921
+          },
+          {
+            "font": "Lato / Lato-Italic / true",
+            "glyphs": 17
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 14,
+        "sourceBlocks": 187,
+        "missingBlocks": 0,
+        "imageCropsCompared": 0,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    },
+    {
+      "slug": "plotwise-startup",
+      "pages": 16,
+      "slots": 86,
+      "fontsDeclared": 4,
+      "fontFailures": [],
+      "imagePayloadRecords": 0,
+      "pagesWithDecodeFailures": [],
+      "externalRequests": 0,
+      "runtimeErrors": [],
+      "rawFrameSignals": [],
+      "interaction": {
+        "slug": "plotwise-startup",
+        "ok": true,
+        "checks": {
+          "first": true,
+          "rightKey": true,
+          "endKey": true,
+          "nextDisabled": true,
+          "homeKey": true,
+          "prevDisabled": true,
+          "nextButtonSpace": true,
+          "previousButtonSpace": true,
+          "picker": true,
+          "hashReload": true,
+          "pageDown": true,
+          "counter": true,
+          "mobileFit": true,
+          "syntheticSwipe": true,
+          "previewTitle": true,
+          "previewOnlyOne": true,
+          "previewImages": true,
+          "noExternalLoads": true
+        }
+      },
+      "files": {
+        "ASSET-LICENSES/FONT-NOTICES.txt": "ef3dc2deed6f4b21bc0b464fcf3f51a2ac7f0ad3a0c3e5e758b3697714fbf11f",
+        "ASSET-LICENSES/source-register.json": "9230f5e1c536f7b164bf88067e434967809e0a17694179ab20ac190b7f93f5d4",
+        "SOURCE-NOTICES.md": "d6926a5209bac0e0faea4a8e6edf877abc3554d01df74906f84bca2f49a3c41f",
+        "template.html": "cb4547148f1d10e18805f743557de47c8729a9cb020c82daa69c1b61bf82e3d8",
+        "template.json": "b44f27d666a68ecff9572e4a5172002a16df941d8472b9528826250012a46c78"
+      },
+      "platformFontAudit": {
+        "pages": 16,
+        "fontUses": [
+          {
+            "font": "Oxygen / Oxygen-Bold / true",
+            "glyphs": 296
+          },
+          {
+            "font": "Merriweather Sans / MerriweatherSans-Bold / true",
+            "glyphs": 433
+          },
+          {
+            "font": "Oxygen / Oxygen-Regular / true",
+            "glyphs": 1861
+          }
+        ],
+        "systemFontUses": 0,
+        "scope": "Actual rendered paragraphs, nested spans, headings, table cells and SVG chart labels; excludes navigation chrome."
+      },
+      "sourceReview": {
+        "pages": 16,
+        "sourceBlocks": 180,
+        "missingBlocks": 0,
+        "imageCropsCompared": 0,
+        "cropDifferencesOver0_6px": 0,
+        "cssFamilyAliasesNormalizedByActualSourceFaces": true
+      }
+    }
+  ],
+  "sourceIntentionalSignals": [
+    {
+      "slug": "brand-style-guide-editorial",
+      "page": 2,
+      "slot": "text_06",
+      "reason": "90-degree rotated text; axis-aligned bounding box height is not its unrotated text frame height. Visually checked."
+    },
+    {
+      "slug": "lumenfield-festival",
+      "page": 10,
+      "slot": "text_01",
+      "reason": "Original oversized decorative opening quote: 160px frame, 300px line box. Source browser comparison confirms intentional."
+    }
+  ],
+  "browser": "Installed Google Chrome on macOS; Playwright repository test workflow plus in-app browser visual acceptance.",
+  "limits": [
+    "No real touch device, Windows/Linux or additional browser acceptance.",
+    "Three original video posters are embedded; video playback remains online. Lattice playback links to original source page and requires upstream signed access.",
+    "Source design/media and Agate/Nimbus font redistribution terms are not represented as collectively cleared."
+  ],
+  "inAppBrowser": {
+    "openedAllSix": true,
+    "nextSlideCounters": [
+      "2 / 27",
+      "2 / 29",
+      "2 / 19",
+      "2 / 46",
+      "2 / 14",
+      "2 / 16"
+    ],
+    "representativePageVisualCheck": true
+  },
+  "finalReview": {
+    "status": "passed",
+    "sourcePages": 151,
+    "sourceBlocks": 1816,
+    "sourceImageCrops": 146,
+    "nativeSlidesBlocks": 367,
+    "toolTests": {
+      "passed": 46,
+      "failed": 0
+    },
+    "record": "template-review-2026-11-17.md",
+    "scope": "Source DOM/style and crop comparison plus local render, glyph-font, navigation and visual review; not a pixel-identical claim."
+  }
+}

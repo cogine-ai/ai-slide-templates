@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source provenance inventory; not a blanket clearance declaration.",
+  "source": {
+    "name": "Brand Style Guide",
+    "author": "Andrea Jelić",
+    "url": "https://pitch.com/templates/Brand-Style-Guide-2CaJH86SuWEu5gg8yq6z6ELY",
+    "id": "2eedc783-d515-430a-b73f-b8e4ea1e26b9",
+    "sha256": "6885880dc5cc955678e4d5d56ed74e83252227b245b8824a75e95f2000b34276",
+    "pages": 19
+  },
+  "fonts": [
+    {
+      "family": "Agate",
+      "weight": 700,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/5d97b0d7-f0e0-4ec1-8ecd-a7fde2745777.woff2",
+      "sha256": "1abd7766b22b2146b12c209c0fdb2a640ea468a9935996e47c2d25891cb71da1",
+      "bytes": 20600,
+      "names": {
+        "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+        "1": "QTAgateType",
+        "2": "Bold",
+        "5": "Version 001.000 "
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Agate",
+      "weight": 500,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/9f25fc53-4f3d-49e3-88cd-a0077a241679.woff2",
+      "sha256": "cd5c6d76a33e8b789578df94dffc21a65d6209496a629498b7ec00c9305888c6",
+      "bytes": 20076,
+      "names": {
+        "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+        "1": "QTAgateType",
+        "2": "Medium",
+        "5": "Version 001.000 "
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Agate",
+      "weight": 400,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/5f4268c6-b112-48dd-a426-05f9e6748b64.woff2",
+      "sha256": "15aebc6202bff3318cc5b73d1076515f2cf54e39de8d84277814ec194c3f0cf0",
+      "bytes": 18440,
+      "names": {
+        "0": "Copyright (c) 1992 QualiType 1-800-950-2921 to OrderROE",
+        "1": "QTAgateType",
+        "2": "Italic",
+        "5": "Version 001.000 "
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Nimbus Sans L",
+      "weight": 400,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/8688e1a9-81c6-4d13-8fef-0f2ea33a8378.woff2",
+      "sha256": "8225c0ba993b8bd3fecb20d543c2d41b21e614671ea7a873160135f5686809bc",
+      "bytes": 46260,
+      "names": {
+        "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+        "1": "Nimbus Sans L",
+        "2": "Regular",
+        "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+        "8": "(URW)++ Design & Development",
+        "11": "http://www.urwpp.de"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Nimbus Sans L",
+      "weight": 400,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/29531235-f291-4516-954f-97a040899d4f.woff2",
+      "sha256": "1f92de610420a2e440dbea73e812cb59da475e2422fd992c73b381f18485d02f",
+      "bytes": 51412,
+      "names": {
+        "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+        "1": "Nimbus Sans L",
+        "2": "Regular Italic",
+        "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+        "8": "(URW)++ Design & Development",
+        "11": "http://www.urwpp.de"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Nimbus Sans L",
+      "weight": 700,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/32c8b2fb-0186-4351-8b9c-8ad350f96b05.woff2",
+      "sha256": "5672503efa15ebd8b7799181f75655ec8b88d1909e61ccafbe4fa8447eba066b",
+      "bytes": 46288,
+      "names": {
+        "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+        "1": "Nimbus Sans L",
+        "2": "Bold",
+        "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+        "8": "(URW)++ Design & Development",
+        "11": "http://www.urwpp.de"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Nimbus Sans L",
+      "weight": 700,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/5762d80e-11cd-4d75-9f44-1ee9b115b49b.woff2",
+      "sha256": "5687323ce88488a3e666753bb6465ee959845f469b9f1f22f539c3585f1bce42",
+      "bytes": 50472,
+      "names": {
+        "0": "Copyright 2014 by (URW)++ Design & Development GmbH",
+        "1": "Nimbus Sans L",
+        "2": "Bold Italic",
+        "5": "Version 1.000;PS 1.00;hotconv 1.0.57;makeotf.lib2.0.21895",
+        "8": "(URW)++ Design & Development",
+        "11": "http://www.urwpp.de"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/21e49106-dd1d-4253-ae44-b7da99e40532?pitch-bytes=608743&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/21e49106-dd1d-4253-ae44-b7da99e40532",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 14
+        }
+      ],
+      "sourceHash": "e88cafb133e05f8fc0c57a5faae0295515d28434d7bf65747a7cf8cee5cf9af6",
+      "embeddedHash": "3e04b36a1406ec4b1cd79b7601d8bec8fa7d200fd754730d89d9d6423f3f5196",
+      "bytes": 608743,
+      "embeddedBytes": 79030,
+      "width": 838,
+      "height": 688,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3dc48e91-0fcc-4a43-b4f9-33b45bf42bc8?pitch-bytes=559284&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3dc48e91-0fcc-4a43-b4f9-33b45bf42bc8",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 14
+        }
+      ],
+      "sourceHash": "95dd02101b4c6e1efea17e2585d691361b3cdce9a5a3c37fdb921c32ca45fdfe",
+      "embeddedHash": "67228014fa84908f0ac4f252dfd4e55247470cfa245aadf4a204c0602bbfae46",
+      "bytes": 559284,
+      "embeddedBytes": 68946,
+      "width": 834,
+      "height": 674,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/70902e61-a9bb-4709-9f69-db37bd8c8025?pitch-bytes=2305212&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/70902e61-a9bb-4709-9f69-db37bd8c8025",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 15
+        }
+      ],
+      "sourceHash": "9b13c3911ba7724fc52d40198f51ceff3d59406764887f57c308de6aea8c83b2",
+      "embeddedHash": "343e39c54554373757e39653359dbdfbdfdf0cac1ed83b403b997af5f5ddeed3",
+      "bytes": 2305212,
+      "embeddedBytes": 297796,
+      "width": 1920,
+      "height": 2160,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4d58c99a-aa87-4f47-a809-341bcb6403a6?pitch-bytes=3083075&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4d58c99a-aa87-4f47-a809-341bcb6403a6",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 16
+        }
+      ],
+      "sourceHash": "83aa25e38070cf0cb7d2e634fa6e6a32d634f5de581513775789b9e607bbbb8d",
+      "embeddedHash": "1a789e4cb510440dd4b5f3c37e1dd15ce67a45513b32463424779390eec9b8f8",
+      "bytes": 3083075,
+      "embeddedBytes": 616870,
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e5c7cca0-d41c-4295-8360-2803136035da",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e5c7cca0-d41c-4295-8360-2803136035da",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "661cc28d6e77e536fa0cee4276f33719b7c99477a8ca2a02a8f4be7a2886b742",
+      "embeddedHash": "e9356aaf8cd1559b5c63877f724f877f06df3bb9ccdcf63c44e9b3775d694ed1",
+      "bytes": 1522,
+      "embeddedBytes": 934,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b7af938d-c4e0-4da2-a335-09e12417aaf3",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b7af938d-c4e0-4da2-a335-09e12417aaf3",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "d82ec85fe93f3ec191c6404ecaed985014b1778d30b7f2737085776c9b00f43e",
+      "embeddedHash": "e478a1a82fed2cebf360c894d2ea0bb26765e842759d569881cd493e6bae3bed",
+      "bytes": 1912,
+      "embeddedBytes": 1172,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/55c794dc-cad5-4104-8f80-3347332bfaf1",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/55c794dc-cad5-4104-8f80-3347332bfaf1",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "34e239bbe0536350172a51866d4ba84387c84ca0182dc72f238400d093a25674",
+      "embeddedHash": "90ed3f2bfa0819fde7c58eca1f4660652d7df49b76557cbcac29249c17bf877c",
+      "bytes": 532,
+      "embeddedBytes": 426,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/69e0bd38-a8f6-4898-a1a0-9114864e0efb",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/69e0bd38-a8f6-4898-a1a0-9114864e0efb",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "0429066dd9108abfaca10691767eeb11d5526ccc98538d535a67241867c718fe",
+      "embeddedHash": "3edfab66aa82e11549382f8e3340a504eb5f0f2ecb94c5e92728656db6cf017b",
+      "bytes": 1159,
+      "embeddedBytes": 918,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5077662b-9c93-4299-82f7-3c6aa57eb092",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5077662b-9c93-4299-82f7-3c6aa57eb092",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "8c89a4d4fa9e1f3ae95d82c139b5c05bf05e2b31ce9565412300aa15d3073334",
+      "embeddedHash": "d7ec91089cecd24b6136cd3b4f34dca600d17700655e591dd469cadc824051a8",
+      "bytes": 1443,
+      "embeddedBytes": 1072,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5730637f-1a4f-40af-b4b7-2b7485383eaa",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5730637f-1a4f-40af-b4b7-2b7485383eaa",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "21ebdde59bec9c8de6ca321221d1aee37f5d5bd6369fe9ee87244ff5988b0e67",
+      "embeddedHash": "951f6f0916621a38504ced34d72009671f5099730f1897b2ef0b0bfaf04bbc95",
+      "bytes": 2211,
+      "embeddedBytes": 1422,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/16b78098-1218-4f2f-8c81-8ae11aad0404",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/16b78098-1218-4f2f-8c81-8ae11aad0404",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "d015f2ac9d1019c19ee103fda0d9954b4dd2cd189fb1a6569010e344ca56d183",
+      "embeddedHash": "0128c2a973cc6ef49e8e5769c95a51b3c8922fffdf5bb8d2d650584ac84f316f",
+      "bytes": 1733,
+      "embeddedBytes": 1204,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8299a902-a9f6-45ac-914c-dcf11830a764",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8299a902-a9f6-45ac-914c-dcf11830a764",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "7fc32e42cffb3bab076f259b24396947870aadc8e3ea7b4856d8e88cdf204dbe",
+      "embeddedHash": "15c9e2255dc776bed028b5b3db4d5e0cd917eac187239fa58b377896d646ec47",
+      "bytes": 1308,
+      "embeddedBytes": 852,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9fcd96e3-c310-443c-8423-d585f2d5da0b",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9fcd96e3-c310-443c-8423-d585f2d5da0b",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "5ad3bc98d565dfbdd7a6a76e58c3b97613f9e33f5a71be927c5fe33222256bd4",
+      "embeddedHash": "17a9185fdf6329cf5ebdaa61452f671b474155dd762f9c194dff7127a905be8d",
+      "bytes": 1324,
+      "embeddedBytes": 842,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c2022d19-2045-476b-ac46-fab6a2211cb2",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c2022d19-2045-476b-ac46-fab6a2211cb2",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "2b171391c8543412d62c155f02bf37a8c3ec5001f9a7299613e53ab8dd79a3c3",
+      "embeddedHash": "c9390b8af570709fc0005623e1f541553089886f69788fdb294b775d0d8c50cb",
+      "bytes": 1476,
+      "embeddedBytes": 1054,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/60a9424d-7256-4a5c-bdb1-de84d7053dd1",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/60a9424d-7256-4a5c-bdb1-de84d7053dd1",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "60e96d85c075df72464c1cb9a4b4bd8ce4c989fa2fa348172aadecef3a891342",
+      "embeddedHash": "eeef71ca3023a3a3b453dd6c6bb5dfb2ab474716158a14504c8db033974c5e79",
+      "bytes": 432,
+      "embeddedBytes": 352,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/433b51f6-04b9-4777-8545-6c9724eee0e3",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/433b51f6-04b9-4777-8545-6c9724eee0e3",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "c58b176f43184d1895798b91b2b6c4e52a8a10d4d8c17b8bbd3f1218c5eede7e",
+      "embeddedHash": "dae9a25653e26db352b7375b1c375b76d20ec699542658fd75842ced63855fc9",
+      "bytes": 635,
+      "embeddedBytes": 462,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cd3bc587-6815-4fbf-883a-39c5f9bdbd97",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cd3bc587-6815-4fbf-883a-39c5f9bdbd97",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "6954977ac6555b107307963f19766fd2614c882606c7d12aff67f81ae1073c3b",
+      "embeddedHash": "addbcd043f4a9bd84093ac8e6cdd2411b063bd47d6950deb3fbe30e2cdbb144e",
+      "bytes": 635,
+      "embeddedBytes": 450,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/beeca82e-efc6-4c4d-89b1-5a4b2403d993",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/beeca82e-efc6-4c4d-89b1-5a4b2403d993",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "e7dce08fb56bf028c15b63b6f6c81bd8b2442dd2e9ef8dbe042f9318fb584635",
+      "embeddedHash": "a5bfcfbbe9037bf1a987736fb49c37706ca3a0cf0a0f1bb26759e20a78aae21d",
+      "bytes": 2088,
+      "embeddedBytes": 1304,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/993d5392-811a-4df0-8525-4899fc712fad",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/993d5392-811a-4df0-8525-4899fc712fad",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "43c39b011e7a2be49028e313f6ad653eeea665ed6b85798843abe4e71b804d7b",
+      "embeddedHash": "cb8a2398f98dab2ef987de78e7a79da7d3de320e7488380d7df25741c1e0f354",
+      "bytes": 977,
+      "embeddedBytes": 696,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4c8c9713-3392-4dd8-a224-b6d5171cb848",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4c8c9713-3392-4dd8-a224-b6d5171cb848",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "eeb0683b154c49f4fc2040f82c9e5d443e47c4375bb5cea4a9091c2874dd40ff",
+      "embeddedHash": "dabf421602727e1752b75f52c1263377ab1c5d070732d174342a98517892f6fd",
+      "bytes": 462,
+      "embeddedBytes": 526,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/907edb63-b7b7-4963-8ab8-2297d7c5651e",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/907edb63-b7b7-4963-8ab8-2297d7c5651e",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "3f145fbcae4afd87c9fcec9023f4ed07c644d7bd08d7f0a7c6e4c74a8ea8a9b3",
+      "embeddedHash": "475703c7e44cc137400067496227bc0e2433ae015677e601aec33553d08d162b",
+      "bytes": 1628,
+      "embeddedBytes": 1020,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cd6966a0-e20e-47ce-b662-99338a6df9cb",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/cd6966a0-e20e-47ce-b662-99338a6df9cb",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "bf0b8fe57df04608e4504c99b307e02d931c2178ffe25e9d7bd04f0853b14327",
+      "embeddedHash": "1ae15c2d9e298faae48e7d553ed91296dd88e4a693e8cb214a9d3c47a1d7fa57",
+      "bytes": 1144,
+      "embeddedBytes": 734,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fd80358f-38fd-4a55-9408-8cd530a437c8",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fd80358f-38fd-4a55-9408-8cd530a437c8",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "3fd07c83be2b580375dcd895f876164e69d067ca129a71e4a846f97489c162b4",
+      "embeddedHash": "7ac09505761deaa85f9453744d1befe777bd5286a563e96c0456271f5b8e498e",
+      "bytes": 1449,
+      "embeddedBytes": 930,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbc355c4-6c59-4c5c-99d8-f8c4b6fb137a",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbc355c4-6c59-4c5c-99d8-f8c4b6fb137a",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "b7dcc2a6651f39d1cc5384f0aab0e394d0c18c85bf7cbe15035e2fc6ba7936fa",
+      "embeddedHash": "0030e5637ed78725c2f42f38afd3cefd9984181ef6ecf27871b31b7d219542d3",
+      "bytes": 1052,
+      "embeddedBytes": 716,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/10312cd0-48d4-4724-9590-83d6d000327f",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/10312cd0-48d4-4724-9590-83d6d000327f",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "9ede954cfdb2f954dc63a24b154facedcf948f6e9635364af669b6e225a049dc",
+      "embeddedHash": "29c25222f58c5c030943e9607fa2e6b3c698daa55e39c1c4a29b2bd90293f794",
+      "bytes": 2764,
+      "embeddedBytes": 1836,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbf00291-d52b-4ecc-aa8e-a830a609106e",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbf00291-d52b-4ecc-aa8e-a830a609106e",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "34f04890a2c06c9c70a3522e31553f69849effda3fb16d90766fb8eea7d842d5",
+      "embeddedHash": "0ce0d505ca0d3b331cacae3002463f6b4e900f9b23680c7d2bf4ec2efbf0bb26",
+      "bytes": 468,
+      "embeddedBytes": 438,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/1fb86078-efe6-4148-b4b9-074ddb288e3e",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/1fb86078-efe6-4148-b4b9-074ddb288e3e",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "19f5cceb94868f5681bcb5fb21f7a0f10817dbbe9217fead69e5cd744abd7ada",
+      "embeddedHash": "27ac32fa6188bccdbd018190e42b6f6c5c2bbc25fddbaba1e47d6c4c524a1312",
+      "bytes": 1423,
+      "embeddedBytes": 816,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0ad7c052-610e-442e-97a0-01094d6b8fe0",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0ad7c052-610e-442e-97a0-01094d6b8fe0",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "76a27c371ae00abc6d3f2fcec649bf03c1f7053c319fe186e40944f761080560",
+      "embeddedHash": "4474d19f7283908e4b2b22a15c1522573cabfb571f05541b08b695ac3e042578",
+      "bytes": 1779,
+      "embeddedBytes": 1152,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8a00a403-af36-4aeb-8637-00c3c2c3485e",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8a00a403-af36-4aeb-8637-00c3c2c3485e",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "84a316f7f89084f7e6da3190dd2997adf1b4c49e5b77356c4c1eabb0aca52bd1",
+      "embeddedHash": "83eab181a467b8d7bb5fcebcc4f9dcba63f2d4aeb5b91ab8c68235f209f2f1d2",
+      "bytes": 2429,
+      "embeddedBytes": 1626,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/03d638a0-9312-41c0-86e7-a7dade5fe2bf",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/03d638a0-9312-41c0-86e7-a7dade5fe2bf",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "7d4960ecab51ed597895227a18e8f0e3dc7245885858c0d16e9d6b04578c95a4",
+      "embeddedHash": "5c0639f6c67047ffbc5b08c479480769ff06f343b342edd387a54f787dd6e67a",
+      "bytes": 1066,
+      "embeddedBytes": 788,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a7932d40-d6d3-41fd-b90e-99bc9c0f97d5",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/a7932d40-d6d3-41fd-b90e-99bc9c0f97d5",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "f82afd981faec7c71f6cf1ea90bb4714917e8baad7b1b77067b650de7be76f2a",
+      "embeddedHash": "c4a5301df38e703acedc6d2ab4702769d0bf0c7e389e13155f26e08a97b313ca",
+      "bytes": 890,
+      "embeddedBytes": 770,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c3146db7-532e-4e08-9819-0061b80591dc",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c3146db7-532e-4e08-9819-0061b80591dc",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "61a3a827273aba839d9bf4ae97a3dd1859b5009d4477d1a5804bb2a715e3a870",
+      "embeddedHash": "09573284036e9d93d8030da2d1faa058e74387bf01b2a19838048bc186a8f63b",
+      "bytes": 972,
+      "embeddedBytes": 760,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6b9e03ca-7ce6-4759-a28e-87891889a463",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6b9e03ca-7ce6-4759-a28e-87891889a463",
+      "uses": [
+        {
+          "deck": "brand-style-guide-editorial",
+          "page": 19
+        }
+      ],
+      "sourceHash": "ec3edc1926bfef9f16d4bf45439e2f283e775273fe9745649cd407a4fbf3cbfa",
+      "embeddedHash": "0931acbdb592e2c71993aacecf2168e3ee717cec5bcfe9f9f4a92492fc48712d",
+      "bytes": 481,
+      "embeddedBytes": 392,
+      "width": 72,
+      "height": 72,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    }
+  ]
+}

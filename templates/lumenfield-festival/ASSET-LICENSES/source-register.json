@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source and font provenance inventory, not a blanket license grant.",
+  "source": {
+    "url": "https://slides.com/official-templates/lumenfield",
+    "sha256": "65d4daca4e729487873372a888aeb4e602dbd63cf2b91e1f8d6cfcc6301cffe3",
+    "pages": 14
+  },
+  "fonts": [
+    {
+      "family": "League Gothic",
+      "weight": "normal",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/league/league_gothic.woff",
+      "sha256": "160c59a36786a81498cb78e572cd71782644af9744edbb357831dac04e627452",
+      "bytes": 21288,
+      "names": {
+        "0": "Generated in 2009 by FontLab Studio. Copyright info pending.",
+        "1": "League Gothic",
+        "2": "Regular",
+        "5": "Version 001.001 "
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/lato/lato-regular.woff",
+      "sha256": "4eb4d20e282eec10fdcec23122b17d71ba1da00ed8408d9f993654fc8d01a1de",
+      "bytes": 38448,
+      "names": {
+        "0": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Lato",
+        "2": "Regular",
+        "5": "Version 1.104; Western+Polish opensource",
+        "13": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/lato/lato-bold.woff",
+      "sha256": "f2572c28af0d26fa8fd6f910aa383c558fe7826b6d00a18f7c443dc5e92fb0a1",
+      "bytes": 39404,
+      "names": {
+        "0": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Lato",
+        "2": "Bold",
+        "5": "Version 1.104; Western+Polish opensource",
+        "13": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Lato",
+      "weight": "400",
+      "style": "italic",
+      "sourceUrl": "https://static.slid.es/fonts/v3/lato/lato-italic.woff",
+      "sha256": "9cd77ffc8685adf99a098da45f5643ff272e96c86cbf0e544cffa887db220cb2",
+      "bytes": 35908,
+      "names": {
+        "0": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Lato",
+        "2": "Italic",
+        "5": "Version 1.104; Western+Polish opensource",
+        "13": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Lato",
+      "weight": "700",
+      "style": "italic",
+      "sourceUrl": "https://static.slid.es/fonts/v3/lato/lato-bolditalic.woff",
+      "sha256": "deebcae31e8040b1fa0373216a9f7c8f422b73d1806705383c831e4311a6275c",
+      "bytes": 36224,
+      "names": {
+        "0": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Lato",
+        "2": "Bold Italic",
+        "5": "Version 1.104; Western+Polish opensource",
+        "13": "Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": []
+}

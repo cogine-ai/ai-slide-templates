@@ -1,0 +1,660 @@
+{
+  "slug": "lumenfield-festival",
+  "name": "Lumenfield",
+  "tagline": "Complete 14-page Lumenfield system with the original typography, native geometric illustrations and full source page sequence.",
+  "mood": [
+    "bold",
+    "cultural",
+    "energetic"
+  ],
+  "occasion": [
+    "display presentation",
+    "cultural festivals"
+  ],
+  "tone": [
+    "bold",
+    "cultural",
+    "energetic"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "scheme": "dark",
+  "palette": {
+    "description": "Original source-specific colors retained in native text, shapes, lines, diagrams and all page backgrounds."
+  },
+  "typography": {
+    "display": "League Gothic",
+    "body": "Lato",
+    "style": "Exact published Slides theme font families League Gothic and Lato with original static source faces embedded. Source sizes, weights, nested emphasis, tracking and frame geometry are retained."
+  },
+  "best_for": "Cultural festivals, exhibitions, launch events, visitor routes, programmes and partner presentations.",
+  "avoid_for": "Dense financial tables, lengthy research reports, or large paragraphs that cannot fit the source text frames.",
+  "slide_count": 14,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "native_svg": true,
+    "editable_text": true,
+    "offline": true,
+    "source_order_preserved": true,
+    "asset_source_register": true
+  },
+  "layouts": [
+    "lumenfield-01",
+    "ten-nights-twenty-two-installations-one-harbour-after-dark-02",
+    "this-year-s-festival-03",
+    "the-light-trail-04",
+    "follow-the-light-trail-05",
+    "tidal-chorus-06",
+    "why-we-switch-the-harbour-off-07",
+    "tonight-s-programme-08",
+    "twenty-two-makers-of-light-09",
+    "composition-10",
+    "good-to-know-11",
+    "before-you-go-12",
+    "northquay-13",
+    "see-youafter-dark-14"
+  ],
+  "layout_slots": {
+    "lumenfield-01": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "ten-nights-twenty-two-installations-one-harbour-after-dark-02": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "this-year-s-festival-03": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "the-light-trail-04": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "follow-the-light-trail-05": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "tidal-chorus-06": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      }
+    ],
+    "why-we-switch-the-harbour-off-07": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "tonight-s-programme-08": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "twenty-two-makers-of-light-09": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_14",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_15",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_06",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      }
+    ],
+    "composition-10": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "good-to-know-11": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "before-you-go-12": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "northquay-13": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "see-youafter-dark-14": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 120,
+    "max_body_chars_per_slide": 900,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 24
+  },
+  "source_inspiration": {
+    "name": "Slides official template team — Lumenfield",
+    "url": "https://slides.com/official-templates/lumenfield",
+    "notes": "All 14 public pages reconstructed with native positioned HTML/SVG, original fonts, source geometry and palette. Independent navigation runtime; no source application runtime, full-slide screenshots or network dependencies. Example content and diagrams are illustrative."
+  }
+}
