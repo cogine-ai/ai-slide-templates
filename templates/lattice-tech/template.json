@@ -1,0 +1,1594 @@
+{
+  "slug": "lattice-tech",
+  "name": "Lattice",
+  "tagline": "Complete 27-page Lattice system preserving its source composition and distinctive typography.",
+  "mood": [
+    "technical",
+    "restrained",
+    "precise"
+  ],
+  "occasion": [
+    "Technical products",
+    "design presentations"
+  ],
+  "tone": [
+    "technical",
+    "restrained",
+    "precise"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "palette": {
+    "description": "Original source-specific colors, contrast, shapes and image treatments preserved throughout all pages."
+  },
+  "typography": {
+    "display": "Roboto",
+    "body": "Roboto",
+    "style": "Original families Roboto, Roboto Mono, Carlito retained with embedded original source custom faces and official Google Fonts files. Source sizes, weights, line heights, tracking and text roles are preserved; file versions and hashes are recorded separately."
+  },
+  "scheme": "dark",
+  "best_for": "Technical products, data platforms, quantitative updates and clear engineering narratives.",
+  "avoid_for": "Content that exceeds the original text frames; highly dense tables or long paragraphs should be split across matching layouts.",
+  "slide_count": 27,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "embedded_images": true,
+    "native_svg": true,
+    "editable_text": true,
+    "source_order_preserved": true,
+    "online_video_links": true,
+    "asset_source_register": true
+  },
+  "layouts": [
+    "the-future-of-data-01",
+    "contents-02",
+    "a-short-introduction-to-the-next-topic-03",
+    "introduce-your-key-idea-04",
+    "make-your-point-visually-05",
+    "tell-your-story-06",
+    "tell-your-story-07",
+    "support-your-story-with-meaningful-metrics-business-results-or-re-08",
+    "scalable-09",
+    "explore-the-context-behind-your-presentation-10",
+    "explore-the-context-behind-your-presentation-11",
+    "starter-12",
+    "a-strong-idea-becomes-even-more-powerful-when-it-s-clearly-commun-13",
+    "2026-company-name-14",
+    "key-points-15",
+    "the-ideas-that-shape-your-story-16",
+    "the-ideas-that-shape-your-story-17",
+    "77-18",
+    "23-4m-19",
+    "use-data-to-strengthen-your-story-20",
+    "use-data-to-strengthen-your-story-21",
+    "2026-company-name-22",
+    "meet-the-team-23",
+    "meet-the-team-24",
+    "meet-the-team-25",
+    "track-key-milestones-throughout-your-journey-26",
+    "email-27"
+  ],
+  "layout_slots": {
+    "the-future-of-data-01": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "contents-02": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "a-short-introduction-to-the-next-topic-03": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "introduce-your-key-idea-04": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "make-your-point-visually-05": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "tell-your-story-06": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "tell-your-story-07": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "support-your-story-with-meaningful-metrics-business-results-or-re-08": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "scalable-09": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "explore-the-context-behind-your-presentation-10": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "explore-the-context-behind-your-presentation-11": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "starter-12": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "a-strong-idea-becomes-even-more-powerful-when-it-s-clearly-commun-13": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "2026-company-name-14": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "video_01",
+        "type": "video",
+        "required": true,
+        "description": "Original media frame with online source link. Playback requires network access; source Mux clip is unavailable without upstream authorization."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "key-points-15": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_13",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "the-ideas-that-shape-your-story-16": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "the-ideas-that-shape-your-story-17": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "77-18": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_12",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "23-4m-19": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "use-data-to-strengthen-your-story-20": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "required": true,
+        "description": "Native SVG chart and adjacent JSON data. Update labels and geometry together. Retain the original series, axes, colors and frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "use-data-to-strengthen-your-story-21": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "chart_01",
+        "type": "chart",
+        "required": true,
+        "description": "Native SVG chart and adjacent JSON data. Update labels and geometry together. Retain the original series, axes, colors and frame."
+      }
+    ],
+    "2026-company-name-22": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "table_01",
+        "type": "table",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "meet-the-team-23": [
+      {
+        "name": "shape_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_05",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "meet-the-team-24": [
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "meet-the-team-25": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "shape_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "track-key-milestones-throughout-your-journey-26": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ],
+    "email-27": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Independent source-positioned content. Preserve font, frame, spacing, crop and source order; split overlong content into matching layouts."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 70,
+    "max_subtitle_chars": 150,
+    "max_body_chars_per_slide": 1600,
+    "max_bullets": 12,
+    "max_cards": 12,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 40
+  },
+  "source_inspiration": {
+    "name": "Pitch — Lattice",
+    "url": "https://pitch.com/templates/Lattice-4jQ5L12f5VsJ5JjeBw5sxHry",
+    "notes": "All 27 source pages reconstructed as independently authored native HTML/SVG with original page order, frames, fonts, palette, image crops and layout variants. No full-slide screenshot or source application runtime is included. Third-party design, media and fonts retain their own rights; see separate provenance records."
+  }
+}

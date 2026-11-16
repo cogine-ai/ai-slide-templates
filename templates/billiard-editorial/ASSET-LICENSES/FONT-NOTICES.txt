@@ -1,0 +1,385 @@
+Open Sauce Sans / 300 / italic
+Source: https://assets.services.pitch.com/fonts/914f693c-7409-4c02-ad2d-f66e4be2d83a.woff2
+SHA-256: 6013e96fcf655df984e0568ba15bcdbadf8161c7ffa2c181ba4b5e16213d9d8b
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Light Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 300 / normal
+Source: https://assets.services.pitch.com/fonts/c4447904-1637-4ea5-8e25-130dd6690ed4.woff2
+SHA-256: fc4f6507a9b15f08825037fbd0c6da13e443cc7be3857a0153b134b00debdb65
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Light",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 400 / normal
+Source: https://assets.services.pitch.com/fonts/50d0eb7f-e7ac-4a3e-8b11-bb84be9dab03.woff2
+SHA-256: 8f8967f1feea2b1c19d47a97bb678d8129d91df37754fe197c9a2f14f5f7f7e5
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Regular",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 400 / italic
+Source: https://assets.services.pitch.com/fonts/c382b34d-01ac-42bd-abe9-24a62c1e6a66.woff2
+SHA-256: 366a7aa7c45c6759ac1b437ab4d74dc87cf7219715910f61098f18a387d9a4a5
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 600 / normal
+Source: https://assets.services.pitch.com/fonts/ae07a2e8-87a8-4016-b9d6-a4323236dbd7.woff2
+SHA-256: 70af27557e4af707222cc48cc08f49e0797fd7150be6145ac9e5c57cf428bfba
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "SemiBold",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 700 / normal
+Source: https://assets.services.pitch.com/fonts/d46af2d9-b53a-4ccb-b51f-7c7911b2ed38.woff2
+SHA-256: 2f0fa2ad5e0608b058287dacf4ec244cfff273d094863102f1eb416db79089fe
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Bold",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 500 / normal
+Source: https://assets.services.pitch.com/fonts/09fb3c22-a43c-4973-9354-8754f3a291b8.woff2
+SHA-256: 1b080f8099cbeb59145b5b57de0afd4c1fa53792f985756e54e46dc2f6fe2095
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Medium",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 600 / italic
+Source: https://assets.services.pitch.com/fonts/c3b49d65-4ec0-4cdf-a3f0-113a929da0bd.woff2
+SHA-256: 63049a8385d0c55a2f4f10865a36f4e79e4400876a3e59d9ada995226e5e974b
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "SemiBold Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 800 / italic
+Source: https://assets.services.pitch.com/fonts/5c687d68-b9fe-4b5b-92c8-9ea976f7471e.woff2
+SHA-256: a6808a15266c57b743bf4a3254f08546efe8d2e5d4dc508c46bc79267620a997
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "ExtraBold Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 800 / normal
+Source: https://assets.services.pitch.com/fonts/34fdde93-8d14-45c7-a7ce-8ee35a129e98.woff2
+SHA-256: a81c1f0d573ded1c1e6aa3889d5acf6357c685d0b8c8062b09f68d80b670a627
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "ExtraBold",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 700 / italic
+Source: https://assets.services.pitch.com/fonts/de1f21be-abc6-490f-952c-e3c30246f0d6.woff2
+SHA-256: 1833938ef0063357643a2b90bff1e7088ba691ef271fd3854d24395d62a7da8b
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Bold Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 900 / normal
+Source: https://assets.services.pitch.com/fonts/32c5df31-5bdc-4ef1-be33-b62044648251.woff2
+SHA-256: 3053d3f00d5a54b16d5dc48cf70b089d7a8c4cb822739d9a6cb51936f9adc22f
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Black",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 900 / italic
+Source: https://assets.services.pitch.com/fonts/8c4c53dc-3f11-4d38-bcbd-01bf2d95a20f.woff2
+SHA-256: 35eff3e30857a1adb11c8a1b46721f8212330964f4e0193b0aaf35358228652d
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Black Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Open Sauce Sans / 500 / italic
+Source: https://assets.services.pitch.com/fonts/b165cd3f-73e6-4dfa-9030-282b86fdcd86.woff2
+SHA-256: 4a180e3eab2993b35682ae753a692221a6cacb822e6451f3f661bbe0eb972eca
+Font name-table notices: {
+  "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+  "1": "Open Sauce Sans",
+  "2": "Medium Italic",
+  "5": "Version 1.474",
+  "8": "Creative Sauce Fz LLC",
+  "9": "Alfredo Marco Pradil",
+  "11": "http://www.creative-sauce.com",
+  "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Gelasio / 400 / italic
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9vwzPm8Q.ttf
+SHA-256: 869f96a088e2bbe55e991794329b45794229c64aad86ad6f9c3d908fef792c47
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio",
+  "2": "Italic",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 500 / italic
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1vwzPm8Q.ttf
+SHA-256: 36a580d403bd2e9514b04877cd85a33a9b1ea33c90f10558042e441fbdd2c9fd
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio Medium",
+  "2": "Italic",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 600 / italic
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFowzPm8Q.ttf
+SHA-256: b75cf2ffbfe1b902648dc7c684ea598ab4ab78042dd5ad1ced8d81cc2867e098
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio SemiBold",
+  "2": "Italic",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 700 / italic
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1ChowzPm8Q.ttf
+SHA-256: d6d65c103d7e64c903000495d5a26e734103ee94d7ccba414a0c8b23293bfd1c
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio",
+  "2": "Bold Italic",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 400 / normal
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxcr8zQ.ttf
+SHA-256: e12f6faf4009f9835672354ce49f3e19c6e0b872d5a77b5b675b96854a59bd27
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio",
+  "2": "Regular",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 500 / normal
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lxcr8zQ.ttf
+SHA-256: fdfa582621e584a83db24e5dac10115dad213185e468833b4c3e532fa5a419b3
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio Medium",
+  "2": "Regular",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 600 / normal
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkBcr8zQ.ttf
+SHA-256: e2c14f509d75e60978c0716488cddc57ffebfea12821705333e292c5ba1d2705
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio SemiBold",
+  "2": "Regular",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+Gelasio / 700 / normal
+Source: https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkBcr8zQ.ttf
+SHA-256: fb298ceac2915afd51a2ae5efc30781fbbc7c6ac28e152daab4bf0957f09f2ff
+Font name-table notices: {
+  "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+  "1": "Gelasio",
+  "2": "Bold",
+  "5": "Version 1.008",
+  "14": "https://openfontlicense.org"
+}
+
+The font families above use the SIL Open Font License. Copyright and reserved-name statements are retained from the actual embedded binaries. Full OFL 1.1 terms follow.
+
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.

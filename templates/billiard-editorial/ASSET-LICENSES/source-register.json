@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source provenance inventory; not a blanket clearance declaration.",
+  "source": {
+    "name": "Billiard",
+    "author": "Hrvoje Grubišić",
+    "url": "https://pitch.com/templates/Billiard-3onEqv5he6K55A9T7u74qpge",
+    "id": "6dcc3311-b7e6-4e94-a2a8-1488ed52a307",
+    "sha256": "36a9c64891193d5408dc28b2279a3044e72109380b0567bd7b2027c6745fff1b",
+    "pages": 29
+  },
+  "fonts": [
+    {
+      "family": "Open Sauce Sans",
+      "weight": 300,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/914f693c-7409-4c02-ad2d-f66e4be2d83a.woff2",
+      "sha256": "6013e96fcf655df984e0568ba15bcdbadf8161c7ffa2c181ba4b5e16213d9d8b",
+      "bytes": 26380,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Light Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 300,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/c4447904-1637-4ea5-8e25-130dd6690ed4.woff2",
+      "sha256": "fc4f6507a9b15f08825037fbd0c6da13e443cc7be3857a0153b134b00debdb65",
+      "bytes": 23840,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Light",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 400,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/50d0eb7f-e7ac-4a3e-8b11-bb84be9dab03.woff2",
+      "sha256": "8f8967f1feea2b1c19d47a97bb678d8129d91df37754fe197c9a2f14f5f7f7e5",
+      "bytes": 23776,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Regular",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 400,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/c382b34d-01ac-42bd-abe9-24a62c1e6a66.woff2",
+      "sha256": "366a7aa7c45c6759ac1b437ab4d74dc87cf7219715910f61098f18a387d9a4a5",
+      "bytes": 26460,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 600,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/ae07a2e8-87a8-4016-b9d6-a4323236dbd7.woff2",
+      "sha256": "70af27557e4af707222cc48cc08f49e0797fd7150be6145ac9e5c57cf428bfba",
+      "bytes": 24204,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "SemiBold",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 700,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/d46af2d9-b53a-4ccb-b51f-7c7911b2ed38.woff2",
+      "sha256": "2f0fa2ad5e0608b058287dacf4ec244cfff273d094863102f1eb416db79089fe",
+      "bytes": 24252,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Bold",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 500,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/09fb3c22-a43c-4973-9354-8754f3a291b8.woff2",
+      "sha256": "1b080f8099cbeb59145b5b57de0afd4c1fa53792f985756e54e46dc2f6fe2095",
+      "bytes": 24356,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Medium",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 600,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/c3b49d65-4ec0-4cdf-a3f0-113a929da0bd.woff2",
+      "sha256": "63049a8385d0c55a2f4f10865a36f4e79e4400876a3e59d9ada995226e5e974b",
+      "bytes": 27120,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "SemiBold Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 800,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/5c687d68-b9fe-4b5b-92c8-9ea976f7471e.woff2",
+      "sha256": "a6808a15266c57b743bf4a3254f08546efe8d2e5d4dc508c46bc79267620a997",
+      "bytes": 27788,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "ExtraBold Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 800,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/34fdde93-8d14-45c7-a7ce-8ee35a129e98.woff2",
+      "sha256": "a81c1f0d573ded1c1e6aa3889d5acf6357c685d0b8c8062b09f68d80b670a627",
+      "bytes": 24896,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "ExtraBold",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 700,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/de1f21be-abc6-490f-952c-e3c30246f0d6.woff2",
+      "sha256": "1833938ef0063357643a2b90bff1e7088ba691ef271fd3854d24395d62a7da8b",
+      "bytes": 26940,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Bold Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 900,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/32c5df31-5bdc-4ef1-be33-b62044648251.woff2",
+      "sha256": "3053d3f00d5a54b16d5dc48cf70b089d7a8c4cb822739d9a6cb51936f9adc22f",
+      "bytes": 25140,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Black",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 900,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/8c4c53dc-3f11-4d38-bcbd-01bf2d95a20f.woff2",
+      "sha256": "35eff3e30857a1adb11c8a1b46721f8212330964f4e0193b0aaf35358228652d",
+      "bytes": 27432,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Black Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Open Sauce Sans",
+      "weight": 500,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/b165cd3f-73e6-4dfa-9030-282b86fdcd86.woff2",
+      "sha256": "4a180e3eab2993b35682ae753a692221a6cacb822e6451f3f661bbe0eb972eca",
+      "bytes": 27140,
+      "names": {
+        "0": "Copyright © 2020 by Alfredo Marco Pradil. All rights reserved.",
+        "1": "Open Sauce Sans",
+        "2": "Medium Italic",
+        "5": "Version 1.474",
+        "8": "Creative Sauce Fz LLC",
+        "9": "Alfredo Marco Pradil",
+        "11": "http://www.creative-sauce.com",
+        "13": "Copyright (c) 2020, Alfredo Marco Pradil (<https://www.behance.net/creativesaucedesign | marco@creative-sauce.com>),\nwith Reserved Font Name Open Sauce Sans.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 8,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "italic",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9vwzPm8Q.ttf",
+      "sha256": "869f96a088e2bbe55e991794329b45794229c64aad86ad6f9c3d908fef792c47",
+      "bytes": 40968,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: italic;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9vwzPm8Q.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio",
+        "2": "Italic",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "italic",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1vwzPm8Q.ttf",
+      "sha256": "36a580d403bd2e9514b04877cd85a33a9b1ea33c90f10558042e441fbdd2c9fd",
+      "bytes": 41128,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: italic;\n  font-weight: 500;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1vwzPm8Q.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio Medium",
+        "2": "Italic",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "italic",
+      "weight": "600",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFowzPm8Q.ttf",
+      "sha256": "b75cf2ffbfe1b902648dc7c684ea598ab4ab78042dd5ad1ced8d81cc2867e098",
+      "bytes": 41196,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: italic;\n  font-weight: 600;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFowzPm8Q.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio SemiBold",
+        "2": "Italic",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "italic",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1ChowzPm8Q.ttf",
+      "sha256": "d6d65c103d7e64c903000495d5a26e734103ee94d7ccba414a0c8b23293bfd1c",
+      "bytes": 41032,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: italic;\n  font-weight: 700;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1ChowzPm8Q.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio",
+        "2": "Bold Italic",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "normal",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxcr8zQ.ttf",
+      "sha256": "e12f6faf4009f9835672354ce49f3e19c6e0b872d5a77b5b675b96854a59bd27",
+      "bytes": 39784,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxcr8zQ.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio",
+        "2": "Regular",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "normal",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lxcr8zQ.ttf",
+      "sha256": "fdfa582621e584a83db24e5dac10115dad213185e468833b4c3e532fa5a419b3",
+      "bytes": 39916,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: normal;\n  font-weight: 500;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lxcr8zQ.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio Medium",
+        "2": "Regular",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "normal",
+      "weight": "600",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkBcr8zQ.ttf",
+      "sha256": "e2c14f509d75e60978c0716488cddc57ffebfea12821705333e292c5ba1d2705",
+      "bytes": 39944,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: normal;\n  font-weight: 600;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkBcr8zQ.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio SemiBold",
+        "2": "Regular",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Gelasio",
+      "style": "normal",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkBcr8zQ.ttf",
+      "sha256": "fb298ceac2915afd51a2ae5efc30781fbbc7c6ac28e152daab4bf0957f09f2ff",
+      "bytes": 39872,
+      "css": "\n  font-family: 'Gelasio';\n  font-style: normal;\n  font-weight: 700;\n  src: url(https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkBcr8zQ.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+        "1": "Gelasio",
+        "2": "Bold",
+        "5": "Version 1.008",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/02191290-d033-40d7-9c40-5206f0053df9?pitch-bytes=1949865&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/02191290-d033-40d7-9c40-5206f0053df9",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 3
+        }
+      ],
+      "sourceHash": "ec2f36b8407aa17823e092a9d08f1d8b18eee3bbd9fa4365fbe0f1a2e53bf150",
+      "embeddedHash": "509f6cfdaee2d6ddf644f9ed9112f412d7f3638f8890866dfe84550a52e28d9f",
+      "bytes": 1949865,
+      "embeddedBytes": 445416,
+      "width": 1520,
+      "height": 1744,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d1c9e884-fde6-4efb-97dc-4532604cf1b0?pitch-bytes=1883576&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d1c9e884-fde6-4efb-97dc-4532604cf1b0",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 4
+        }
+      ],
+      "sourceHash": "2cb3ea3275b310c9e3662cb60ad3a4f8e27d775877c80a23ee8ce09847898c91",
+      "embeddedHash": "95d6380c48b72be21c81dea5ab52df53cedb1c2801c720522baa9892ccbed5a4",
+      "bytes": 1883576,
+      "embeddedBytes": 312922,
+      "width": 2040,
+      "height": 1758,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/128cba8d-ee2d-4aa6-b6a3-77c6561902bc?pitch-bytes=697207&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/128cba8d-ee2d-4aa6-b6a3-77c6561902bc",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 5
+        }
+      ],
+      "sourceHash": "ce8ef9309bc392f1ed80d825ed096441abb412870359fe8d7b41da57e7a98e33",
+      "embeddedHash": "c43f5726876868e40292790461dc0828f50370cce3a44386e419760d48e926a2",
+      "bytes": 697207,
+      "embeddedBytes": 147740,
+      "width": 1536,
+      "height": 708,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8954d916-36b9-47eb-a701-ecd97a085b56?pitch-bytes=2032632&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8954d916-36b9-47eb-a701-ecd97a085b56",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 6
+        }
+      ],
+      "sourceHash": "2c37a9945bbf2ef178ce38297cd5186cd5f6128b7b66e891bd95ca765054b902",
+      "embeddedHash": "27ad78e8590cc7d06cbd0baff26919cccaaa53080d8398855abb8fa46b3db000",
+      "bytes": 2032632,
+      "embeddedBytes": 423468,
+      "width": 2040,
+      "height": 1896,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6ab1c25b-9914-4524-9173-60bc286c42a2?pitch-bytes=1798869&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6ab1c25b-9914-4524-9173-60bc286c42a2",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 7
+        }
+      ],
+      "sourceHash": "76e51e5b819c29d4a9c4de699586eaa792dd30ff0a3de39eddc6778321565d63",
+      "embeddedHash": "26d97298617b0866b26a833c8a564003ac409d9b333cc7263013451d719d9679",
+      "bytes": 1798869,
+      "embeddedBytes": 261888,
+      "width": 3600,
+      "height": 1154,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9bdb23a5-40b2-4a4a-954c-dcfdb1da9753?pitch-bytes=1082998&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9bdb23a5-40b2-4a4a-954c-dcfdb1da9753",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 8
+        }
+      ],
+      "sourceHash": "861fc60e3a826c2b7f92c78878d7950be0dfc45fcf83c2cd89a4d5dd302ceb50",
+      "embeddedHash": "95f1cab06f920609bcc576531a2a3ed1a42c11a7b030ed3908afc97ed173e8f2",
+      "bytes": 1082998,
+      "embeddedBytes": 219148,
+      "width": 1520,
+      "height": 1176,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4f4c66ef-30af-4604-ad48-067eb1a20cdf?pitch-bytes=1875278&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4f4c66ef-30af-4604-ad48-067eb1a20cdf",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 9
+        }
+      ],
+      "sourceHash": "f9f7464f80a622d29f07696a70dae079848b088474da001a428e6f48ceb4b8d7",
+      "embeddedHash": "92f10e5fc64282e99519a8f96f5da286834b8eb332c897e8e3d91cb79bb6366c",
+      "bytes": 1875278,
+      "embeddedBytes": 208014,
+      "width": 3840,
+      "height": 980,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b16cefbf-b863-49d6-a0ee-e8e4fe2ce201?pitch-bytes=4118089&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b16cefbf-b863-49d6-a0ee-e8e4fe2ce201",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 10
+        }
+      ],
+      "sourceHash": "de1edee293d0880079b7d0ede867b162bea639b47eba27d9a5b93225df3ab51a",
+      "embeddedHash": "00fff33f77b2aa0b472fc12c5af6727c9540b0eb80d86fcc84aced980cb0238c",
+      "bytes": 4118089,
+      "embeddedBytes": 636720,
+      "width": 3840,
+      "height": 1914,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://i.vimeocdn.com/video/66184624-ca7bd748dcf57a821d3c717687a3f0e1b0571a199c3696dd97f02f1c34e888e5-d_295x166",
+      "key": "https://i.vimeocdn.com/video/66184624-ca7bd748dcf57a821d3c717687a3f0e1b0571a199c3696dd97f02f1c34e888e5-d_295x166",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 11
+        }
+      ],
+      "sourceHash": "ca7d5dfe50c335a5493b6e40967687bb61f95ec2214580b0e6fdd96a2a5b27c0",
+      "embeddedHash": "f7f5bfd208270bbb7b8434a234ffde1ea9195d1e7e9deafb5247698e89d323ff",
+      "bytes": 10588,
+      "embeddedBytes": 15062,
+      "width": 295,
+      "height": 166,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7b7f3dbe-4726-496f-9836-b0bce3f3b908?pitch-bytes=1011225&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7b7f3dbe-4726-496f-9836-b0bce3f3b908",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 15
+        }
+      ],
+      "sourceHash": "bed501e995672ba777b31a693fb94b5d20080d944d63189625388342de304913",
+      "embeddedHash": "2bb99141a0cb5ab88611b9f500274e8409b03a135b30a8b531116283357fef22",
+      "bytes": 1011225,
+      "embeddedBytes": 205942,
+      "width": 2040,
+      "height": 824,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d6691d5f-4d2c-4ac5-b357-c894dfe3ddc0?pitch-bytes=1968493&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d6691d5f-4d2c-4ac5-b357-c894dfe3ddc0",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 17
+        }
+      ],
+      "sourceHash": "ce7a4e29fb42c7f4863b12b50507f6486f3567ba1736861f1aefd827feb9538d",
+      "embeddedHash": "eb000e6cdd43a9f10037bce520ab3beda6c52959c96ff8061f389bb62a60a81a",
+      "bytes": 1968493,
+      "embeddedBytes": 468866,
+      "width": 1520,
+      "height": 1816,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4dc972c8-e119-4911-baa1-15218e64c8d2?pitch-bytes=567076&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4dc972c8-e119-4911-baa1-15218e64c8d2",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 17
+        }
+      ],
+      "sourceHash": "9dcb85a6ab35ce1886fbceb0202e7e77c6e3f1b66d68d1371aafb216941cb24e",
+      "embeddedHash": "716a05c2b3a6e18edcca675c1f91677e285ef67f5071eaa51a8a23ebbb5e3f52",
+      "bytes": 567076,
+      "embeddedBytes": 112878,
+      "width": 800,
+      "height": 1092,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0f2a5c68-ea77-4d32-9ca2-f86aec6bb8ae?pitch-bytes=447454&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0f2a5c68-ea77-4d32-9ca2-f86aec6bb8ae",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 21
+        }
+      ],
+      "sourceHash": "63ce28391c6a5e8f878df8b277215fb66f09c42504366e5581aed43cceb6be2b",
+      "embeddedHash": "e3ab57c2b5231d2a051591d0b4f14d958da048fc3d947e6d8aadd439c762fbda",
+      "bytes": 447454,
+      "embeddedBytes": 102528,
+      "width": 1000,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/47253330-a4e6-4912-8847-48062b7f9f7a?pitch-bytes=375768&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/47253330-a4e6-4912-8847-48062b7f9f7a",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 21
+        }
+      ],
+      "sourceHash": "2ade49f9e9e05672918a2407f9cd634dba2d6516c8d0fb8931750e1f728e0067",
+      "embeddedHash": "384730f1f393df69a30723b522f6ac26e593a4b18d4cab7ee83d55134bcd8fa8",
+      "bytes": 375768,
+      "embeddedBytes": 73354,
+      "width": 1000,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ad8a4a44-14cc-4cab-915e-60687d3c6cf3?pitch-bytes=203272&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ad8a4a44-14cc-4cab-915e-60687d3c6cf3",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 22
+        }
+      ],
+      "sourceHash": "c4d558033bc3002fa529dd2e3f0567b6084308e8d24d553ded12ed9bcfc6dec5",
+      "embeddedHash": "40984789761bc34210534b4e49767e6973fc2950dc750c4b1da1c62547419c4c",
+      "bytes": 203272,
+      "embeddedBytes": 50422,
+      "width": 480,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/47fd4bb3-1cb6-4a63-8e3c-4c448d971414?pitch-bytes=203724&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/47fd4bb3-1cb6-4a63-8e3c-4c448d971414",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 22
+        }
+      ],
+      "sourceHash": "0315c013f56accf237561785bc5eac862537e8c8eb2575bb60d3f78f86a22770",
+      "embeddedHash": "adef8aa83b9fba537245b1c76cf851f8ae35e0ac37c75395e750c9683a869abf",
+      "bytes": 203724,
+      "embeddedBytes": 45434,
+      "width": 480,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4c9aece1-2313-40f3-82c2-76a385c4e8b3?pitch-bytes=204644&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4c9aece1-2313-40f3-82c2-76a385c4e8b3",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 22
+        }
+      ],
+      "sourceHash": "4c757acc65dd18f535933b17aa085221f8c1c4674a327d03c54294523680e624",
+      "embeddedHash": "ac124def43bcce660120c774786b0ccfd9f0e5ddae0061d44af95219d08d9520",
+      "bytes": 204644,
+      "embeddedBytes": 44972,
+      "width": 480,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ef541ce7-3c12-4df9-a71f-98f1861a1f50?pitch-bytes=273091&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ef541ce7-3c12-4df9-a71f-98f1861a1f50",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 23
+        }
+      ],
+      "sourceHash": "48ce66e7e43e1f01782e5b2747fff0d9c6a76e41a8ce2e09f646636b20f474c4",
+      "embeddedHash": "386ea85f0ce6b19d9962a7da4d26c328c2c17e4b6b8bed2f972caea0b7325663",
+      "bytes": 273091,
+      "embeddedBytes": 69996,
+      "width": 597,
+      "height": 597,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5e1ba82e-5bf6-4b82-bccf-8436dd41bfc3?pitch-bytes=239914&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5e1ba82e-5bf6-4b82-bccf-8436dd41bfc3",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 23
+        }
+      ],
+      "sourceHash": "6e9d598df788ef1056ad85fe7e4bb144f4265fe593ab6bb2b5a59d78303a866f",
+      "embeddedHash": "4f3057a18052487ddc9a5f518cfe0c051e65664c56eda45c03b23b7cc74a7a1e",
+      "bytes": 239914,
+      "embeddedBytes": 53830,
+      "width": 586,
+      "height": 581,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ec4f96e8-b5e8-4b1c-bcf8-ee36eb9ae80a?pitch-bytes=416852&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ec4f96e8-b5e8-4b1c-bcf8-ee36eb9ae80a",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 26
+        }
+      ],
+      "sourceHash": "5163e8b63d4ff1c5de20e99b200241ecb23a76780c6882632f0317a1428d0be9",
+      "embeddedHash": "a17b7a45b708d0ee750c00c8ce8b55e510e89982a61077c28e0ab6b1b060f005",
+      "bytes": 416852,
+      "embeddedBytes": 93954,
+      "width": 1000,
+      "height": 580,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5153873a-093f-4b79-b617-b1fe6c386d5d?pitch-bytes=552805&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5153873a-093f-4b79-b617-b1fe6c386d5d",
+      "uses": [
+        {
+          "deck": "billiard-editorial",
+          "page": 29
+        }
+      ],
+      "sourceHash": "51ea3115af2660cb7534821ffd57de46621bf4d155bc40a18dc7274e73af5854",
+      "embeddedHash": "25ce6d7a32a51ae025bc4bc8a0ee87ecdbc3604ca6e37528a838526fa996dca2",
+      "bytes": 552805,
+      "embeddedBytes": 109934,
+      "width": 998,
+      "height": 774,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    }
+  ]
+}

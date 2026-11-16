@@ -1,0 +1,389 @@
+Carlito / 700 / normal
+Source: https://assets.services.pitch.com/fonts/41152ff3-6695-4572-91ba-41b39e4ef19b.woff2
+SHA-256: 2e762a6b94711101c92ba9818a037d70d1bf5d65a5c4063f5da8e164de6aef65
+Font name-table notices: {
+  "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+  "1": "Carlito",
+  "2": "Bold",
+  "5": "Version 1.103; Beta1; all basic design good, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+  "8": "tyPoland Lukasz Dziedzic",
+  "9": "Lukasz Dziedzic",
+  "11": "http://www.typoland.com/",
+  "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Carlito / 700 / italic
+Source: https://assets.services.pitch.com/fonts/27d1d873-9901-4d49-b548-c3472b0a58df.woff2
+SHA-256: d53c416c76c14788bdc223917201e505adafeabfb2583b0db87c96cee42178c5
+Font name-table notices: {
+  "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+  "1": "Carlito",
+  "2": "Bold Italic",
+  "5": "Version 1.103; Beta1; Latin basic design good, other scripts temporary, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+  "8": "tyPoland Lukasz Dziedzic",
+  "9": "Lukasz Dziedzic",
+  "11": "http://www.typoland.com/",
+  "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Carlito / 400 / italic
+Source: https://assets.services.pitch.com/fonts/4a4011e2-fe38-409e-b08f-192964bb244b.woff2
+SHA-256: 6d136b7136e1eb3824eabf6e4897fbfbf62b04364881a3d80f18aa15610292c5
+Font name-table notices: {
+  "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+  "1": "Carlito",
+  "2": "Italic",
+  "5": "Version 1.103; Beta1; Latin basic design good, other scripts temporary, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+  "8": "tyPoland Lukasz Dziedzic",
+  "9": "Lukasz Dziedzic",
+  "11": "http://www.typoland.com/",
+  "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Carlito / 400 / normal
+Source: https://assets.services.pitch.com/fonts/05ae174e-a004-479f-8357-3acb3e2f5345.woff2
+SHA-256: 2e70542e89637fbfec14b8fc677339aaf03494ad0ada4974838adc49380ae4a1
+Font name-table notices: {
+  "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+  "1": "Carlito",
+  "2": "Regular",
+  "5": "Version 1.103; Beta1; all basic design good, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+  "8": "tyPoland Lukasz Dziedzic",
+  "9": "Lukasz Dziedzic",
+  "11": "http://www.typoland.com/",
+  "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Roboto / 100 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf
+SHA-256: 03f1842bdc22652bede30e0fefd2a18699f6656ea4622dac0c8452e9b2fe0cf6
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Thin",
+  "2": "Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 300 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+SHA-256: b222eb56eb2124d8355a783de7e2df1312929212a33be84afb818f2254264420
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Light",
+  "2": "Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 400 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+SHA-256: 238b59b4ebe1c555632cdad9fec7f8721af201a0c2f9f16faf56e00d0a9bc79f
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto",
+  "2": "Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 500 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+SHA-256: a11d6a00e95c09fd734849ed711bcc20508b74d471d1765e90330e432166bede
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Medium",
+  "2": "Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 700 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+SHA-256: 7664911cd6afd5952bebd896206068d5166e19229dbee4a200f0914394b1268e
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto",
+  "2": "Bold Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 900 / italic
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+SHA-256: 4af8b3316345f1e277512ae4391bd168451afb08df5635305179c69bb85ac667
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Black",
+  "2": "Italic",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 100 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf
+SHA-256: a343fa57d59c88663c5256516ca0124af69d1958d2448a7748554e2f02480690
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Thin",
+  "2": "Regular",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 300 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+SHA-256: be5ffcf033d7e69b219d38a9bbf0e35bd6e8fdb7a5b9fc3c3c6ec4224672c017
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Light",
+  "2": "Regular",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 400 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+SHA-256: e9ff3730797df6aaf76d37c48234a6c4875032eaad8f1aaccd7daefa6dca9e7a
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto",
+  "2": "Regular",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 500 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+SHA-256: 2cf4c1c3ffaeee44c1a1027d579edbd15ca137747eadbe90de953c6155477bae
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Medium",
+  "2": "Regular",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 700 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+SHA-256: bbf3e2a2cb10a5a59284f96f97f4083c176798fe709633db019da376b10936e9
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto",
+  "2": "Bold",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto / 900 / normal
+Source: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+SHA-256: a4ac947bc7f50939c8b468da550ca9c36c65756e2a6e4a6ab2a5b6422cec4b8b
+Font name-table notices: {
+  "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+  "1": "Roboto Black",
+  "2": "Regular",
+  "5": "Version 3.015; 2026",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 100 / italic
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnAdW6Cpw.ttf
+SHA-256: a589d34d527579f3594b0464e8cd78d702855f3f6a6de4120dc6b4e0d873e369
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Thin",
+  "2": "Italic",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 300 / italic
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrk5ANW6Cpw.ttf
+SHA-256: 16d8433ae96502dda4377e33c2066dff00e8ad0b1455aaec05d14eb52c685818
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Light",
+  "2": "Italic",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 400 / italic
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnANW6Cpw.ttf
+SHA-256: 92082d1e1c68cbb0aa74a7d545807f6dc5a634a583d7ebc9490ea273d788fd3f
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono",
+  "2": "Italic",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 500 / italic
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlVANW6Cpw.ttf
+SHA-256: 562d5cca43e4e1a6b47cbcec55588e325e9d3971f2a3cd697fbd433129b040f9
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Medium",
+  "2": "Italic",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 700 / italic
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrmAB9W6Cpw.ttf
+SHA-256: fcf5dffdb0e1cc0239af5c15f6712d1e48367d8cfa951eccb1db703be3ec9af4
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono",
+  "2": "Bold Italic",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 100 / normal
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vu_ROW9.ttf
+SHA-256: 2e46851f2792a71c50a5657fad13ef39de5fb21d1fc6d799bd1108c0c4e6742e
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Thin",
+  "2": "Regular",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 300 / normal
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_ROW9.ttf
+SHA-256: f08545b7613ba4fc47347f041a4cb5441c04f549c98b04ede1e0d04bec235ca9
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Light",
+  "2": "Regular",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 400 / normal
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf
+SHA-256: 7d432de4ad5d2586974a7d885214f60f7c1eb834c4b7fc21339c82f53716712a
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono",
+  "2": "Regular",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 500 / normal
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_7Pq_ROW9.ttf
+SHA-256: c6c6ea850669cd2b9199291874997b42c4e0696d768ab96448a6bcb653a5da37
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono Medium",
+  "2": "Regular",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+Roboto Mono / 700 / normal
+Source: https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2_ROW9.ttf
+SHA-256: d42cb9ac03fac2b67334b31fbedba96f0a3383a14ab73b803a53865d25bdb419
+Font name-table notices: {
+  "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+  "1": "Roboto Mono",
+  "2": "Bold",
+  "5": "Version 3.001",
+  "14": "https://openfontlicense.org"
+}
+
+The font families above use the SIL Open Font License. Copyright and reserved-name statements are retained from the actual embedded binaries. Full OFL 1.1 terms follow.
+
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.

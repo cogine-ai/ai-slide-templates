@@ -1,0 +1,630 @@
+{
+  "slug": "plotwise-startup",
+  "name": "Plotwise",
+  "tagline": "Complete 16-page Plotwise system with the original typography, native geometric illustrations and full source page sequence.",
+  "mood": [
+    "warm",
+    "confident",
+    "community-led"
+  ],
+  "occasion": [
+    "display presentation",
+    "consumer and community startups"
+  ],
+  "tone": [
+    "warm",
+    "confident",
+    "community-led"
+  ],
+  "formality": "medium",
+  "density": "medium",
+  "scheme": "mixed",
+  "palette": {
+    "description": "Original source-specific colors retained in native text, shapes, lines, diagrams and all page backgrounds."
+  },
+  "typography": {
+    "display": "Merriweather Sans",
+    "body": "Oxygen",
+    "style": "Exact published Slides theme font families Merriweather Sans and Oxygen with original static source faces embedded. Source sizes, weights, nested emphasis, tracking and frame geometry are retained."
+  },
+  "best_for": "Consumer and community startups, climate services, marketplace pitches and complete seed funding narratives.",
+  "avoid_for": "Dense financial tables, lengthy research reports, or large paragraphs that cannot fit the source text frames.",
+  "slide_count": 16,
+  "features": {
+    "format": "single-file-html",
+    "navigation": true,
+    "keyboard_navigation": true,
+    "touch_navigation": true,
+    "progress_bar": true,
+    "slide_counter": true,
+    "aspect_ratio": "16:9",
+    "embedded_fonts": true,
+    "native_svg": true,
+    "editable_text": true,
+    "offline": true,
+    "source_order_preserved": true,
+    "asset_source_register": true
+  },
+  "layouts": [
+    "plotwise-01",
+    "the-opportunity-02",
+    "62-03",
+    "a-lawn-is-just-a-garden-that-hasn-t-started-yet-04",
+    "we-match-growers-with-idle-yards-05",
+    "one-app-for-the-whole-season-06",
+    "why-hosts-say-yes-07",
+    "growing-season-over-season-08",
+    "we-stopped-mowing-and-started-sharing-now-the-whole-street-e-09",
+    "a-big-fertile-patch-10",
+    "why-now-11",
+    "three-ways-we-earn-12",
+    "where-we-re-headed-13",
+    "rooted-in-soil-and-software-14",
+    "2-4m-15",
+    "let-s-grow-together-16"
+  ],
+  "layout_slots": {
+    "plotwise-01": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "the-opportunity-02": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "62-03": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "a-lawn-is-just-a-garden-that-hasn-t-started-yet-04": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "we-match-growers-with-idle-yards-05": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "one-app-for-the-whole-season-06": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      }
+    ],
+    "why-hosts-say-yes-07": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "growing-season-over-season-08": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_11",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "we-stopped-mowing-and-started-sharing-now-the-whole-street-e-09": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "a-big-fertile-patch-10": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "why-now-11": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "three-ways-we-earn-12": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "where-we-re-headed-13": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_08",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_09",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_10",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "rooted-in-soil-and-software-14": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "image_01",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_02",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_03",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      },
+      {
+        "name": "image_04",
+        "type": "image",
+        "required": true,
+        "description": "Preserve original native geometry and update all dependent labels with the data."
+      }
+    ],
+    "2-4m-15": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_03",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_04",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_05",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_06",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_07",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ],
+    "let-s-grow-together-16": [
+      {
+        "name": "text_01",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      },
+      {
+        "name": "text_02",
+        "type": "text",
+        "required": true,
+        "description": "Native source text frame. Preserve its font family, size, nested emphasis, explicit line breaks, tracking and coordinates. Split content that exceeds this frame."
+      }
+    ]
+  },
+  "content_limits": {
+    "max_title_chars": 55,
+    "max_subtitle_chars": 120,
+    "max_body_chars_per_slide": 900,
+    "max_bullets": 6,
+    "max_cards": 6,
+    "recommended_slide_count_min": 8,
+    "recommended_slide_count_max": 24
+  },
+  "source_inspiration": {
+    "name": "Slides official template team — Plotwise",
+    "url": "https://slides.com/official-templates/plotwise",
+    "notes": "All 16 public pages reconstructed with native positioned HTML/SVG, original fonts, source geometry and palette. Independent navigation runtime; no source application runtime, full-slide screenshots or network dependencies. Example content and diagrams are illustrative."
+  }
+}

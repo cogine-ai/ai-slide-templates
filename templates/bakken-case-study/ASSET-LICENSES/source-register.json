@@ -1,0 +1,631 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source provenance inventory; not a blanket clearance declaration.",
+  "source": {
+    "name": "Case Study",
+    "author": "Bakken & Bæck",
+    "url": "https://pitch.com/templates/Case-Study-31PWcR3e1HHc58MQFo47nLcu",
+    "id": "4e816fca-6734-4493-a172-4ea679f0aa16",
+    "sha256": "a178fcc7c33b81e6cac7bff763ca301d23369bcfacbf038ce635858b98f3fe7c",
+    "pages": 46
+  },
+  "fonts": [
+    {
+      "family": "Standard",
+      "weight": 400,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/5b1eeab4-611b-4021-9fc5-60e0c54a8e5e.woff2",
+      "sha256": "915767ed1f657930d0d078b5ca2ccb98366e331255cf0e2a15b75508f169de07",
+      "bytes": 14708,
+      "names": {
+        "1": "Standard",
+        "2": "Italic",
+        "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+        "9": "Bryce Wilner",
+        "13": "SIL Open Font License",
+        "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+      },
+      "fsType": 4,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Standard",
+      "weight": 400,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/23f31259-ab33-4c50-a235-f69ff111fa53.woff2",
+      "sha256": "8f5aabd6d8329656c34344540bcace925c4484593eb92f7f17970599f2b70495",
+      "bytes": 13900,
+      "names": {
+        "1": "Standard",
+        "2": "Regular",
+        "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+        "9": "Bryce Wilner",
+        "13": "SIL Open Font License",
+        "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+      },
+      "fsType": 4,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Standard",
+      "weight": 700,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/2d3cd981-3a48-4575-8456-f18224b0adb7.woff2",
+      "sha256": "d6a0e127cacd98b278ec335d7128c570abc5cfc1461fde5a47ca288ce9f9098b",
+      "bytes": 14180,
+      "names": {
+        "1": "Standard",
+        "2": "Bold",
+        "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+        "9": "Bryce Wilner",
+        "13": "SIL Open Font License",
+        "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+      },
+      "fsType": 4,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Standard",
+      "weight": 700,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/675506c7-6947-4256-8633-3b23ac0debb4.woff2",
+      "sha256": "9165c5c935ca75533bfcdf13d67374086ffad2d9b636ba92190df164a280a487",
+      "bytes": 14696,
+      "names": {
+        "1": "Standard",
+        "2": "Bold Italic",
+        "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+        "9": "Bryce Wilner",
+        "13": "SIL Open Font License",
+        "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+      },
+      "fsType": 4,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Fira Code",
+      "style": "normal",
+      "weight": "300",
+      "sourceUrl": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsJVD7Mw.ttf",
+      "sha256": "0fc02cbc27658992a2f77796d78c20568d3991e951f7b0cf4d1ce51345f84f57",
+      "bytes": 56748,
+      "css": "\n  font-family: 'Fira Code';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsJVD7Mw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+        "1": "Fira Code Light Light",
+        "2": "Regular",
+        "5": "Version 5.002",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Fira Code",
+      "style": "normal",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sJVD7Mw.ttf",
+      "sha256": "8fa430f08a146c7ffdeaee0cec4f97188b4f026ccdfd9e6a1175aa16c21f8cf4",
+      "bytes": 56684,
+      "css": "\n  font-family: 'Fira Code';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sJVD7Mw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+        "1": "Fira Code Light",
+        "2": "Regular",
+        "5": "Version 5.002",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Fira Code",
+      "style": "normal",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sJVD7Mw.ttf",
+      "sha256": "1ebae3a0776dc34a18c816abdd8c7932916605086e973db27a6aec30f56563bb",
+      "bytes": 56636,
+      "css": "\n  font-family: 'Fira Code';\n  font-style: normal;\n  font-weight: 500;\n  src: url(https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sJVD7Mw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+        "1": "Fira Code Light Medium",
+        "2": "Regular",
+        "5": "Version 5.002",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Fira Code",
+      "style": "normal",
+      "weight": "600",
+      "sourceUrl": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrJVD7Mw.ttf",
+      "sha256": "e86c03a31dbc444297911fb29225096b0909f4a6e76d40e7c136ab3e2a10ebf1",
+      "bytes": 56712,
+      "css": "\n  font-family: 'Fira Code';\n  font-style: normal;\n  font-weight: 600;\n  src: url(https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrJVD7Mw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+        "1": "Fira Code Light SemiBold",
+        "2": "Regular",
+        "5": "Version 5.002",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Fira Code",
+      "style": "normal",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprJVD7Mw.ttf",
+      "sha256": "3ceee154eaf1dbf1e94e8bcc7884d4f399b1746f32f899c325a13b6d17150c54",
+      "bytes": 56816,
+      "css": "\n  font-family: 'Fira Code';\n  font-style: normal;\n  font-weight: 700;\n  src: url(https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprJVD7Mw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+        "1": "Fira Code Light",
+        "2": "Bold",
+        "5": "Version 5.002",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/411c61b2-77e5-4341-a2fd-b8bc9d38028d?pitch-bytes=2564393&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/411c61b2-77e5-4341-a2fd-b8bc9d38028d",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 18
+        }
+      ],
+      "sourceHash": "4375fdbfff29634a06f57c107399beee4da3c6c7f21f906dabdf6cb4bd699ae4",
+      "embeddedHash": "0e5daa66edba1e1d4f35b8545cf79e1610bd9e6f184647d83c0c2ad82c241247",
+      "bytes": 2564393,
+      "embeddedBytes": 806130,
+      "width": 1530,
+      "height": 1148,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b536dd6f-b456-4a65-99cb-647d5359b9f3?pitch-bytes=3230&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b536dd6f-b456-4a65-99cb-647d5359b9f3",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 2
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 7
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 45
+        }
+      ],
+      "sourceHash": "37458e4236b3ec8aae35bac4aa99feed7713947fd86dc192cc302fe1be1d9d6b",
+      "embeddedHash": "340bb575c8002e2dfa5c4d403d295ad270b291e8241d2f3b84af1084c1f691e3",
+      "bytes": 3230,
+      "embeddedBytes": 238,
+      "width": 343,
+      "height": 278,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/62e8e2c6-403d-41ef-a986-e1143889678e?pitch-bytes=17874454&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/62e8e2c6-403d-41ef-a986-e1143889678e",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 28
+        }
+      ],
+      "sourceHash": "02f8cd3faa6f77f279385c1dfecf94fc6c4dec700f2d63e7ac0fb3b5c0c30c7e",
+      "embeddedHash": "dcfcb0f6031222155f46c43f417b782174c0cba72e370247c30c25d50f9abd2e",
+      "bytes": 17874454,
+      "embeddedBytes": 1626170,
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ed1403e9-24f2-4806-988c-72cc4327d417?pitch-bytes=1996283&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/ed1403e9-24f2-4806-988c-72cc4327d417",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 3
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 24
+        }
+      ],
+      "sourceHash": "9ea0277597a800c88bdf6a396402aa83f437c6dc34eccff4b3c813c897bd9c91",
+      "embeddedHash": "f8a47ee5ee61bd96d185c46c099e2cabc6ed36b1b8d2a464eff7fef38a53d1c2",
+      "bytes": 1996283,
+      "embeddedBytes": 459416,
+      "width": 750,
+      "height": 1624,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d2c0b324-325d-489e-aca3-be8388bab3be?pitch-bytes=1982192&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/d2c0b324-325d-489e-aca3-be8388bab3be",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 3
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 24
+        }
+      ],
+      "sourceHash": "075542580a2bb38f809cc0f3eb4590849294febf2eebb9a3d8c31ee5fc076680",
+      "embeddedHash": "89942ce7b8902d20d7011edc79f8bb4dbeaa64bd52a7e0f78f6024addc502bf7",
+      "bytes": 1982192,
+      "embeddedBytes": 455998,
+      "width": 750,
+      "height": 1624,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fa352675-2c0e-4dd0-b638-7a703c4bfaf7?pitch-bytes=1979188&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fa352675-2c0e-4dd0-b638-7a703c4bfaf7",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 3
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 24
+        }
+      ],
+      "sourceHash": "6f5d22b20de90964e0e7dd4b9351cfb7c8b3efdb4b56c0d25dd5d7d388aa8924",
+      "embeddedHash": "09de905015fbcf6e3dc616db294956071bccf2d3d11953f4cbba6013a02724be",
+      "bytes": 1979188,
+      "embeddedBytes": 464808,
+      "width": 750,
+      "height": 1624,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbbaad54-a868-4df8-9719-9fb147339f9b?pitch-bytes=14995990&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fbbaad54-a868-4df8-9719-9fb147339f9b",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 4
+        }
+      ],
+      "sourceHash": "c9a37f7030ec4887a5aef1ed4e290f8d5e18f121a63f9822a940114ef388f5a5",
+      "embeddedHash": "23b29d64761a510cc5dfeaee821753f532f7febb318a240e0154c84690012b7f",
+      "bytes": 14995990,
+      "embeddedBytes": 1305188,
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://cdn.jwplayer.com/v2/media/gg1dVlmD/poster.jpg",
+      "key": "https://cdn.jwplayer.com/v2/media/gg1dVlmD/poster.jpg",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 5
+        }
+      ],
+      "sourceHash": "8fdc612b37fdfa21cf345bc842589e36a34361446123822e4aa486bcedd0759c",
+      "embeddedHash": "2e183f092637bd1bdbea2b1b49f333beed253fdea47828a5aa3f6315f8840f9b",
+      "bytes": 29967,
+      "embeddedBytes": 24022,
+      "width": 720,
+      "height": 406,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5ea9f0bb-2017-48aa-8e76-09bb4a21f5f6?pitch-bytes=2818681&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5ea9f0bb-2017-48aa-8e76-09bb4a21f5f6",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 7
+        }
+      ],
+      "sourceHash": "eef27ace8fbc907325ac71b560cba968215f6c4c41e65a240a580f64973cf323",
+      "embeddedHash": "3b8dcdd4a9e05f122275efd5f92fcfee971093826c75405af989e52220b694bc",
+      "bytes": 2818681,
+      "embeddedBytes": 991768,
+      "width": 1214,
+      "height": 1798,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/462ab009-1976-4b84-8aa7-eb84f2d551e1?pitch-bytes=2392815&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/462ab009-1976-4b84-8aa7-eb84f2d551e1",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 8
+        }
+      ],
+      "sourceHash": "64993f25fdd1c93b625b943eaf80e2affd6ed04ab070ae684ced120c3ea1ff1f",
+      "embeddedHash": "4ba6e8b4347d7dddbabe2367d801d886f830701956becdf1d5e7d052856df0a7",
+      "bytes": 2392815,
+      "embeddedBytes": 799300,
+      "width": 1530,
+      "height": 1148,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/242569d8-f75f-40b4-ac74-bdb6176018c3?pitch-bytes=2933783&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/242569d8-f75f-40b4-ac74-bdb6176018c3",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 11
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 12
+        }
+      ],
+      "sourceHash": "e3db5eae033e46913be63fb34cbc1893e7495a2aa5b396ee2194d8aa6c43423e",
+      "embeddedHash": "abc9496c30729a675f7850d482fb717a4d3ab3e99f62d8c6ea02aac4df3eb2a0",
+      "bytes": 2933783,
+      "embeddedBytes": 989048,
+      "width": 1214,
+      "height": 1798,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bd8da1e8-da00-4c5c-8877-63039d11c559?pitch-bytes=1591799&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bd8da1e8-da00-4c5c-8877-63039d11c559",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 13
+        }
+      ],
+      "sourceHash": "021f0f44453a1f5bd0fad900aa1d7ea62f89d098f4643dcc9ad54bcbb5c3125d",
+      "embeddedHash": "d1b0f2a36dd4e9a170ca35808222e53686e4b8795ce99f24eb2d2954b40ea06f",
+      "bytes": 1591799,
+      "embeddedBytes": 509342,
+      "width": 1214,
+      "height": 910,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/886079a6-6210-4be8-b3d5-62a10d2b240f?pitch-bytes=2963710&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/886079a6-6210-4be8-b3d5-62a10d2b240f",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 32
+        }
+      ],
+      "sourceHash": "7aa12fa7aa2bcd486a55474af765a4c139f159528dfd18980cc66a730ac2ad84",
+      "embeddedHash": "4f9285e1a9fc4c852f0a96cc06fb5506a6cab0f25e214a4333904304f44ce757",
+      "bytes": 2963710,
+      "embeddedBytes": 992076,
+      "width": 1214,
+      "height": 1798,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0a014fef-b368-49f0-a108-6d05f293c570?pitch-bytes=18296&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0a014fef-b368-49f0-a108-6d05f293c570",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 23
+        }
+      ],
+      "sourceHash": "43c7fdb98c0c53384f443c03bbade1b65eeaeb1c67ec2c0d5480dbe626d9b3ab",
+      "embeddedHash": "fa886427a19c907a1a6b7a09b1e26c90f96a6f378e24b5a722a1a74e2de1f80c",
+      "bytes": 18296,
+      "embeddedBytes": 9234,
+      "width": 1440,
+      "height": 628,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/62a2933c-5a90-4c42-a98c-4bcebccf8a0b?pitch-bytes=2493239&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/62a2933c-5a90-4c42-a98c-4bcebccf8a0b",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 29
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 30
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 35
+        }
+      ],
+      "sourceHash": "f49738d7e8b021eede4da5e630770c8e656ff3ee9bf84acbf76af8570adf382c",
+      "embeddedHash": "8e63413ed7b4f71829bda074815c690246da18ad01f1c5271fd745f2bb3220ff",
+      "bytes": 2493239,
+      "embeddedBytes": 578158,
+      "width": 984,
+      "height": 984,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e28e5ea5-e0a9-47d7-a465-138521a269e8?pitch-bytes=3225951&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/e28e5ea5-e0a9-47d7-a465-138521a269e8",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 35
+        }
+      ],
+      "sourceHash": "54d6f2088f4b7663903117fa1b90f9bb1d4049136f680b4bad4fe7e032d2253c",
+      "embeddedHash": "f62fa16dfc80baf24c44831e9ce22d84d716608ac6811b43ce3d4e37ccec3056",
+      "bytes": 3225951,
+      "embeddedBytes": 802984,
+      "width": 1530,
+      "height": 1148,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3c0e29df-f6ab-496b-bf0b-ed1d08076592?pitch-bytes=13332&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3c0e29df-f6ab-496b-bf0b-ed1d08076592",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 29
+        }
+      ],
+      "sourceHash": "167eb29cf7604568c6bf4efbfdac32b08d0581aa84b879729702b665f75e36ea",
+      "embeddedHash": "d259decb387fac7cde01e5ca244ef8d0efeb832e15dc34cd8497e4a40464eca5",
+      "bytes": 13332,
+      "embeddedBytes": 9220,
+      "width": 694,
+      "height": 444,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3aaeeaaa-2db7-484f-afd7-8a045c04b86b?pitch-bytes=2437967&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/3aaeeaaa-2db7-484f-afd7-8a045c04b86b",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 38
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 41
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 43
+        }
+      ],
+      "sourceHash": "1e8824959a0f55640d63b029be635c6d4fb0a9a9de2d8f2d8828223c8d2a0dfa",
+      "embeddedHash": "8241dcbefa31a71b4003eedfbf49e623159294a4ca6eb127f570b2dc8fdd904b",
+      "bytes": 2437967,
+      "embeddedBytes": 803872,
+      "width": 1530,
+      "height": 1148,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/036045bb-4b33-4a54-a062-7e0995769b78?pitch-bytes=1351&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/036045bb-4b33-4a54-a062-7e0995769b78",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 42
+        },
+        {
+          "deck": "bakken-case-study",
+          "page": 44
+        }
+      ],
+      "sourceHash": "1bb2cdfd3e1acab2a710e0c10a5a1598ac2b3c348ee3a1aea76db81309528ea2",
+      "embeddedHash": "3335e4537ec62837180b8245080517c1a4b9ea136ed7d8d54dad799944733e62",
+      "bytes": 1351,
+      "embeddedBytes": 84,
+      "width": 125,
+      "height": 106,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0a782e86-1ca1-4bbd-bb5e-18b0990a40ad?pitch-bytes=2869136&pitch-content-type=image%2Fpng",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/0a782e86-1ca1-4bbd-bb5e-18b0990a40ad",
+      "uses": [
+        {
+          "deck": "bakken-case-study",
+          "page": 45
+        }
+      ],
+      "sourceHash": "593d406a086270166c9b3d47d5963eb7a1af11122fb5fa31e43005caed2575a9",
+      "embeddedHash": "33ae7f486eb2069214704ea328e6b422e2c6a14df99a9eaeba30dca2d1b45e85",
+      "bytes": 2869136,
+      "embeddedBytes": 986134,
+      "width": 1214,
+      "height": 1798,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    }
+  ]
+}

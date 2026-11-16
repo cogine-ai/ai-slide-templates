@@ -1,0 +1,190 @@
+Standard / 400 / italic
+Source: https://assets.services.pitch.com/fonts/5b1eeab4-611b-4021-9fc5-60e0c54a8e5e.woff2
+SHA-256: 915767ed1f657930d0d078b5ca2ccb98366e331255cf0e2a15b75508f169de07
+Font name-table notices: {
+  "1": "Standard",
+  "2": "Italic",
+  "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+  "9": "Bryce Wilner",
+  "13": "SIL Open Font License",
+  "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+}
+
+Standard / 400 / normal
+Source: https://assets.services.pitch.com/fonts/23f31259-ab33-4c50-a235-f69ff111fa53.woff2
+SHA-256: 8f5aabd6d8329656c34344540bcace925c4484593eb92f7f17970599f2b70495
+Font name-table notices: {
+  "1": "Standard",
+  "2": "Regular",
+  "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+  "9": "Bryce Wilner",
+  "13": "SIL Open Font License",
+  "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+}
+
+Standard / 700 / normal
+Source: https://assets.services.pitch.com/fonts/2d3cd981-3a48-4575-8456-f18224b0adb7.woff2
+SHA-256: d6a0e127cacd98b278ec335d7128c570abc5cfc1461fde5a47ca288ce9f9098b
+Font name-table notices: {
+  "1": "Standard",
+  "2": "Bold",
+  "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+  "9": "Bryce Wilner",
+  "13": "SIL Open Font License",
+  "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+}
+
+Standard / 700 / italic
+Source: https://assets.services.pitch.com/fonts/675506c7-6947-4256-8633-3b23ac0debb4.woff2
+SHA-256: 9165c5c935ca75533bfcdf13d67374086ffad2d9b636ba92190df164a280a487
+Font name-table notices: {
+  "1": "Standard",
+  "2": "Bold Italic",
+  "5": "Version 2.000;PS 2.0;hotconv 16.6.51;makeotf.lib2.5.65220 DEVELOPMENT",
+  "9": "Bryce Wilner",
+  "13": "SIL Open Font License",
+  "14": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+}
+
+Fira Code / 300 / normal
+Source: https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsJVD7Mw.ttf
+SHA-256: 0fc02cbc27658992a2f77796d78c20568d3991e951f7b0cf4d1ce51345f84f57
+Font name-table notices: {
+  "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+  "1": "Fira Code Light Light",
+  "2": "Regular",
+  "5": "Version 5.002",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Fira Code / 400 / normal
+Source: https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sJVD7Mw.ttf
+SHA-256: 8fa430f08a146c7ffdeaee0cec4f97188b4f026ccdfd9e6a1175aa16c21f8cf4
+Font name-table notices: {
+  "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+  "1": "Fira Code Light",
+  "2": "Regular",
+  "5": "Version 5.002",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Fira Code / 500 / normal
+Source: https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sJVD7Mw.ttf
+SHA-256: 1ebae3a0776dc34a18c816abdd8c7932916605086e973db27a6aec30f56563bb
+Font name-table notices: {
+  "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+  "1": "Fira Code Light Medium",
+  "2": "Regular",
+  "5": "Version 5.002",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Fira Code / 600 / normal
+Source: https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrJVD7Mw.ttf
+SHA-256: e86c03a31dbc444297911fb29225096b0909f4a6e76d40e7c136ab3e2a10ebf1
+Font name-table notices: {
+  "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+  "1": "Fira Code Light SemiBold",
+  "2": "Regular",
+  "5": "Version 5.002",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+Fira Code / 700 / normal
+Source: https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprJVD7Mw.ttf
+SHA-256: 3ceee154eaf1dbf1e94e8bcc7884d4f399b1746f32f899c325a13b6d17150c54
+Font name-table notices: {
+  "0": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+  "1": "Fira Code Light",
+  "2": "Bold",
+  "5": "Version 5.002",
+  "14": "http://scripts.sil.org/OFL"
+}
+
+The font families above use the SIL Open Font License. Copyright and reserved-name statements are retained from the actual embedded binaries. Full OFL 1.1 terms follow.
+
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.

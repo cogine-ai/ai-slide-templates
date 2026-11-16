@@ -1,0 +1,1182 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source provenance inventory; not a blanket clearance declaration.",
+  "source": {
+    "name": "Lattice",
+    "author": "Pitch",
+    "url": "https://pitch.com/templates/Lattice-4jQ5L12f5VsJ5JjeBw5sxHry",
+    "id": "91f6b7f6-40ce-49f5-a873-47cebedb3fca",
+    "sha256": "49c408676bd859e9865721d1f82b9a33908866af0f43fb9369b556f798c054b7",
+    "pages": 27
+  },
+  "fonts": [
+    {
+      "family": "Carlito",
+      "weight": 700,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/41152ff3-6695-4572-91ba-41b39e4ef19b.woff2",
+      "sha256": "2e762a6b94711101c92ba9818a037d70d1bf5d65a5c4063f5da8e164de6aef65",
+      "bytes": 198676,
+      "names": {
+        "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Carlito",
+        "2": "Bold",
+        "5": "Version 1.103; Beta1; all basic design good, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+        "8": "tyPoland Lukasz Dziedzic",
+        "9": "Lukasz Dziedzic",
+        "11": "http://www.typoland.com/",
+        "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Carlito",
+      "weight": 700,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/27d1d873-9901-4d49-b548-c3472b0a58df.woff2",
+      "sha256": "d53c416c76c14788bdc223917201e505adafeabfb2583b0db87c96cee42178c5",
+      "bytes": 207308,
+      "names": {
+        "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Carlito",
+        "2": "Bold Italic",
+        "5": "Version 1.103; Beta1; Latin basic design good, other scripts temporary, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+        "8": "tyPoland Lukasz Dziedzic",
+        "9": "Lukasz Dziedzic",
+        "11": "http://www.typoland.com/",
+        "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Carlito",
+      "weight": 400,
+      "style": "italic",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/4a4011e2-fe38-409e-b08f-192964bb244b.woff2",
+      "sha256": "6d136b7136e1eb3824eabf6e4897fbfbf62b04364881a3d80f18aa15610292c5",
+      "bytes": 202344,
+      "names": {
+        "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Carlito",
+        "2": "Italic",
+        "5": "Version 1.103; Beta1; Latin basic design good, other scripts temporary, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+        "8": "tyPoland Lukasz Dziedzic",
+        "9": "Lukasz Dziedzic",
+        "11": "http://www.typoland.com/",
+        "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Carlito",
+      "weight": 400,
+      "style": "normal",
+      "sourceUrl": "https://assets.services.pitch.com/fonts/05ae174e-a004-479f-8357-3acb3e2f5345.woff2",
+      "sha256": "2e70542e89637fbfec14b8fc677339aaf03494ad0ada4974838adc49380ae4a1",
+      "bytes": 191720,
+      "names": {
+        "0": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1.",
+        "1": "Carlito",
+        "2": "Regular",
+        "5": "Version 1.103; Beta1; all basic design good, some composites may be off;; ttfautohint (v0.96) -l 8 -r 50 -G 200 -x 0 -w \"G\" -W -f",
+        "8": "tyPoland Lukasz Dziedzic",
+        "9": "Lukasz Dziedzic",
+        "11": "http://www.typoland.com/",
+        "13": "Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Carlito\". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "fsType": 0,
+      "format": "woff2",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "100",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf",
+      "sha256": "03f1842bdc22652bede30e0fefd2a18699f6656ea4622dac0c8452e9b2fe0cf6",
+      "bytes": 45952,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 100;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Thin",
+        "2": "Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "300",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf",
+      "sha256": "b222eb56eb2124d8355a783de7e2df1312929212a33be84afb818f2254264420",
+      "bytes": 46220,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Light",
+        "2": "Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf",
+      "sha256": "238b59b4ebe1c555632cdad9fec7f8721af201a0c2f9f16faf56e00d0a9bc79f",
+      "bytes": 46152,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 400;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto",
+        "2": "Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf",
+      "sha256": "a11d6a00e95c09fd734849ed711bcc20508b74d471d1765e90330e432166bede",
+      "bytes": 46324,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 500;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Medium",
+        "2": "Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf",
+      "sha256": "7664911cd6afd5952bebd896206068d5166e19229dbee4a200f0914394b1268e",
+      "bytes": 46392,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 700;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto",
+        "2": "Bold Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "900",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf",
+      "sha256": "4af8b3316345f1e277512ae4391bd168451afb08df5635305179c69bb85ac667",
+      "bytes": 46556,
+      "css": "\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 900;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Black",
+        "2": "Italic",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "100",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf",
+      "sha256": "a343fa57d59c88663c5256516ca0124af69d1958d2448a7748554e2f02480690",
+      "bytes": 44744,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 100;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Thin",
+        "2": "Regular",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "300",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf",
+      "sha256": "be5ffcf033d7e69b219d38a9bbf0e35bd6e8fdb7a5b9fc3c3c6ec4224672c017",
+      "bytes": 44792,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Light",
+        "2": "Regular",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+      "sha256": "e9ff3730797df6aaf76d37c48234a6c4875032eaad8f1aaccd7daefa6dca9e7a",
+      "bytes": 44724,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto",
+        "2": "Regular",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+      "sha256": "2cf4c1c3ffaeee44c1a1027d579edbd15ca137747eadbe90de953c6155477bae",
+      "bytes": 44796,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 500;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Medium",
+        "2": "Regular",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf",
+      "sha256": "bbf3e2a2cb10a5a59284f96f97f4083c176798fe709633db019da376b10936e9",
+      "bytes": 44864,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 700;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto",
+        "2": "Bold",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "900",
+      "sourceUrl": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf",
+      "sha256": "a4ac947bc7f50939c8b468da550ca9c36c65756e2a6e4a6ab2a5b6422cec4b8b",
+      "bytes": 44948,
+      "css": "\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 900;\n  font-stretch: normal;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+        "1": "Roboto Black",
+        "2": "Regular",
+        "5": "Version 3.015; 2026",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "italic",
+      "weight": "100",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnAdW6Cpw.ttf",
+      "sha256": "a589d34d527579f3594b0464e8cd78d702855f3f6a6de4120dc6b4e0d873e369",
+      "bytes": 24568,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: italic;\n  font-weight: 100;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnAdW6Cpw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Thin",
+        "2": "Italic",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "italic",
+      "weight": "300",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrk5ANW6Cpw.ttf",
+      "sha256": "16d8433ae96502dda4377e33c2066dff00e8ad0b1455aaec05d14eb52c685818",
+      "bytes": 24800,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrk5ANW6Cpw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Light",
+        "2": "Italic",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "italic",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnANW6Cpw.ttf",
+      "sha256": "92082d1e1c68cbb0aa74a7d545807f6dc5a634a583d7ebc9490ea273d788fd3f",
+      "bytes": 24748,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: italic;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlnANW6Cpw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono",
+        "2": "Italic",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "italic",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlVANW6Cpw.ttf",
+      "sha256": "562d5cca43e4e1a6b47cbcec55588e325e9d3971f2a3cd697fbd433129b040f9",
+      "bytes": 24868,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: italic;\n  font-weight: 500;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrlVANW6Cpw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Medium",
+        "2": "Italic",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "italic",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrmAB9W6Cpw.ttf",
+      "sha256": "fcf5dffdb0e1cc0239af5c15f6712d1e48367d8cfa951eccb1db703be3ec9af4",
+      "bytes": 24836,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: italic;\n  font-weight: 700;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrmAB9W6Cpw.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono",
+        "2": "Bold Italic",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "normal",
+      "weight": "100",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vu_ROW9.ttf",
+      "sha256": "2e46851f2792a71c50a5657fad13ef39de5fb21d1fc6d799bd1108c0c4e6742e",
+      "bytes": 23264,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: normal;\n  font-weight: 100;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vu_ROW9.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Thin",
+        "2": "Regular",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "normal",
+      "weight": "300",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_ROW9.ttf",
+      "sha256": "f08545b7613ba4fc47347f041a4cb5441c04f549c98b04ede1e0d04bec235ca9",
+      "bytes": 23188,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_gPq_ROW9.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Light",
+        "2": "Regular",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "normal",
+      "weight": "400",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf",
+      "sha256": "7d432de4ad5d2586974a7d885214f60f7c1eb834c4b7fc21339c82f53716712a",
+      "bytes": 22948,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono",
+        "2": "Regular",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "normal",
+      "weight": "500",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_7Pq_ROW9.ttf",
+      "sha256": "c6c6ea850669cd2b9199291874997b42c4e0696d768ab96448a6bcb653a5da37",
+      "bytes": 22956,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: normal;\n  font-weight: 500;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_7Pq_ROW9.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono Medium",
+        "2": "Regular",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Roboto Mono",
+      "style": "normal",
+      "weight": "700",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2_ROW9.ttf",
+      "sha256": "d42cb9ac03fac2b67334b31fbedba96f0a3383a14ab73b803a53865d25bdb419",
+      "bytes": 22952,
+      "css": "\n  font-family: 'Roboto Mono';\n  font-style: normal;\n  font-weight: 700;\n  src: url(https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2_ROW9.ttf) format('truetype');\n",
+      "names": {
+        "0": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+        "1": "Roboto Mono",
+        "2": "Bold",
+        "5": "Version 3.001",
+        "14": "https://openfontlicense.org"
+      },
+      "fsType": 0,
+      "format": "truetype",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6e22f033-26d3-473c-ba26-c58f26a40f01?pitch-bytes=10958&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6e22f033-26d3-473c-ba26-c58f26a40f01",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 1
+        }
+      ],
+      "sourceHash": "a841ab90240e1b8919ebb5ca9a39e9fff1a97ba1e9f6c811d0c7adb30fb1d7c9",
+      "embeddedHash": "a841ab90240e1b8919ebb5ca9a39e9fff1a97ba1e9f6c811d0c7adb30fb1d7c9",
+      "bytes": 10958,
+      "embeddedBytes": 10958,
+      "width": 5760,
+      "height": 3240,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c739cdff-85ca-4e47-a690-2a815c3bcd13?pitch-bytes=62764&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c739cdff-85ca-4e47-a690-2a815c3bcd13",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 3
+        }
+      ],
+      "sourceHash": "b1457354633de973bbb9febb1fec3de00855c7aa4e059af7c595fceacf60d086",
+      "embeddedHash": "b1457354633de973bbb9febb1fec3de00855c7aa4e059af7c595fceacf60d086",
+      "bytes": 62764,
+      "embeddedBytes": 62764,
+      "width": 5760,
+      "height": 3240,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1764258559785-70de78108992?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMTIyMnwwfDF8c2VhcmNofDEwOXx8dGVjaCUyMGdyZWVuJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzgyOTgyNTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "key": "https://images.unsplash.com/photo-1764258559785-70de78108992",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 5
+        }
+      ],
+      "sourceHash": "818e4fa0c0085cdca041ec63a2c49c0a039e6e14cb6b6d38a48190549829cca2",
+      "embeddedHash": "747a1d507973b4940edd203139bf1650f3920a66ae31ab841308b7e8cf2857c9",
+      "bytes": 305844,
+      "embeddedBytes": 253602,
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/00ce488e-25e4-4f86-99fe-cb05b78bf370?pitch-bytes=743&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/00ce488e-25e4-4f86-99fe-cb05b78bf370",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 6
+        }
+      ],
+      "sourceHash": "277a2be77d476d9eaad72d0ab42214cb04c210dc6474851346ea08816c383183",
+      "embeddedHash": "277a2be77d476d9eaad72d0ab42214cb04c210dc6474851346ea08816c383183",
+      "bytes": 743,
+      "embeddedBytes": 743,
+      "width": 507,
+      "height": 507,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/828f51c9-c468-43a7-9076-0d82ab317340?pitch-bytes=73076&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/828f51c9-c468-43a7-9076-0d82ab317340",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 15
+        }
+      ],
+      "sourceHash": "021dd26c1e7adb6a2f287e6b627ec54f75f7e61eac15d7e0e3730ae50cf53ca3",
+      "embeddedHash": "021dd26c1e7adb6a2f287e6b627ec54f75f7e61eac15d7e0e3730ae50cf53ca3",
+      "bytes": 73076,
+      "embeddedBytes": 73076,
+      "width": 5760,
+      "height": 3240,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1777703304191-f4b9f837455c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMTIyMnwwfDF8c2VhcmNofDJ8fGdyZWVuJTIwdGVjaCUyMHNoYXBlc3xlbnwwfHx8fDE3ODI5ODMwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "key": "https://images.unsplash.com/photo-1777703304191-f4b9f837455c",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 7
+        }
+      ],
+      "sourceHash": "4166d6837e0ce0433df7cb54f2f004b37cb72587bc0ad3ac7cea40a87b306a98",
+      "embeddedHash": "c16b9cdb817fce5485f3bba993d7e63d05dbe76bbaa956977a89c0d188705b72",
+      "bytes": 18488,
+      "embeddedBytes": 14380,
+      "width": 1080,
+      "height": 608,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/81d95698-af7d-41ba-8197-75c1cfc29ae4?pitch-bytes=1407&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/81d95698-af7d-41ba-8197-75c1cfc29ae4",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 8
+        },
+        {
+          "deck": "lattice-tech",
+          "page": 16
+        },
+        {
+          "deck": "lattice-tech",
+          "page": 17
+        }
+      ],
+      "sourceHash": "50906fba56eac4b44608e121de80a9188d8373a22abcff96830833031565d9d2",
+      "embeddedHash": "50906fba56eac4b44608e121de80a9188d8373a22abcff96830833031565d9d2",
+      "bytes": 1407,
+      "embeddedBytes": 1407,
+      "width": 290,
+      "height": 312,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c6c05952-a562-4b0f-9d4e-18f54f06f172?pitch-bytes=5036&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c6c05952-a562-4b0f-9d4e-18f54f06f172",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 10
+        }
+      ],
+      "sourceHash": "49a0ae762e48353b1601d6c7741deb62929a7849c98f154e59ce434d5def5ab2",
+      "embeddedHash": "49a0ae762e48353b1601d6c7741deb62929a7849c98f154e59ce434d5def5ab2",
+      "bytes": 5036,
+      "embeddedBytes": 5036,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7783db97-b32e-4d8f-bc6c-eb30e32ee133?pitch-bytes=7669&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/7783db97-b32e-4d8f-bc6c-eb30e32ee133",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 11
+        }
+      ],
+      "sourceHash": "91d832da59497a02a0e651bfbf1d595430de3584bca0e26b8780008918818cec",
+      "embeddedHash": "91d832da59497a02a0e651bfbf1d595430de3584bca0e26b8780008918818cec",
+      "bytes": 7669,
+      "embeddedBytes": 7669,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1768917268405-84415b5fa4c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMTIyMnwwfDF8c2VhcmNofDM5fHxwZXJzb24lMjBzaWxob3VldHRlJTIwcHJvZmlsZXxlbnwwfHx8fDE3ODI5ODM1NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "key": "https://images.unsplash.com/photo-1768917268405-84415b5fa4c1",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 12
+        }
+      ],
+      "sourceHash": "a027e014dc2168d6be0f3ae37f005811632472b169982ed83d4de950233a5090",
+      "embeddedHash": "d42d88da49791b00e5cab520760f7fd94b6801eb4db1a1fece62f4f729c1e9e2",
+      "bytes": 40547,
+      "embeddedBytes": 29706,
+      "width": 1080,
+      "height": 1171,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1735744583287-07e58313f8cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMTIyMnwwfDF8c2VhcmNofDczfHx0ZWNoJTIwc2hhcGVzJTIwZ3JlZW58ZW58MHx8fHwxNzgyOTgzMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "key": "https://images.unsplash.com/photo-1735744583287-07e58313f8cf",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 12
+        }
+      ],
+      "sourceHash": "90dc16e5bafa710caa8a5a781f79600d7e372f3a27d1827cab249062c235d53a",
+      "embeddedHash": "690df495060ec9e22264f6028e76a4d6013c1ba5e2447474e531bd1e1b074889",
+      "bytes": 159257,
+      "embeddedBytes": 186204,
+      "width": 1080,
+      "height": 608,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1742783199458-aa2ec62ae5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMTIyMnwwfDF8c2VhcmNofDgyfHx0ZWNoJTIwc2hhcGVzJTIwZ3JlZW58ZW58MHx8fHwxNzgyOTgzNDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "key": "https://images.unsplash.com/photo-1742783199458-aa2ec62ae5f5",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 12
+        }
+      ],
+      "sourceHash": "b4dba59ae819aea4b516ffb8564438ece7ac7ca721ee0940a4bd3ff9a17dce8d",
+      "embeddedHash": "c55f16c56cfbd79a93b394173be488d06abc1070455f1d59d160ecb383338cd9",
+      "bytes": 100239,
+      "embeddedBytes": 87800,
+      "width": 1080,
+      "height": 1512,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/46c326c3-8d64-4ea2-aca5-828117fd6cc3?pitch-bytes=850231&pitch-content-type=image%2Fjpeg",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/46c326c3-8d64-4ea2-aca5-828117fd6cc3",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 12
+        }
+      ],
+      "sourceHash": "6a5aad213a9585800812ac6b78120ea04c3f4d8ef44d824f645f2ee310227d6b",
+      "embeddedHash": "4746f8d15957059623efa69363e4edbbaa096ff16a2402099f9d599df87b8fe3",
+      "bytes": 850231,
+      "embeddedBytes": 841210,
+      "width": 2160,
+      "height": 2700,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b6549f39-4e00-401f-9b18-f5ca5f04feab?pitch-bytes=1294877&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/b6549f39-4e00-401f-9b18-f5ca5f04feab",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 13
+        }
+      ],
+      "sourceHash": "3e6a56130ab665462c65612672bcf0ec3822e5105cdafbfea568db16ab175d83",
+      "embeddedHash": "ab3422336a5754f64b0ea6f64832560cec42e06606bd298a960cb93896a5f0e1",
+      "bytes": 1294877,
+      "embeddedBytes": 57750,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bed5219e-2abf-48cb-803b-6ba4538e8dc6?pitch-bytes=137701&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bed5219e-2abf-48cb-803b-6ba4538e8dc6",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 14
+        }
+      ],
+      "sourceHash": "dae7523d0a52d4eb20797a29f3c8e56b8f3033fe97bbefd015965fdeac6a2f08",
+      "embeddedHash": "dae7523d0a52d4eb20797a29f3c8e56b8f3033fe97bbefd015965fdeac6a2f08",
+      "bytes": 137701,
+      "embeddedBytes": 137701,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://image.mux.com/SB83kVi2anUjINU8NktoYodaXCjyj01Z01cBcDZea005i4/thumbnail.jpg?time=0",
+      "key": "https://image.mux.com/SB83kVi2anUjINU8NktoYodaXCjyj01Z01cBcDZea005i4/thumbnail.jpg",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 14
+        }
+      ],
+      "sourceHash": "1a95c5b7ee0caaa6fff1e144da5da630ce5b7022c8db94ea7cd88fca0004c960",
+      "embeddedHash": "1a95c5b7ee0caaa6fff1e144da5da630ce5b7022c8db94ea7cd88fca0004c960",
+      "bytes": 58010,
+      "embeddedBytes": 58010,
+      "width": 720,
+      "height": 405,
+      "mime": "image/jpeg",
+      "transformation": "Original public source poster JPEG retained; no pixel edits.",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4ef9dfb0-a79a-46bb-9ab8-52a1fcbbf7e4?pitch-bytes=765&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/4ef9dfb0-a79a-46bb-9ab8-52a1fcbbf7e4",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 15
+        }
+      ],
+      "sourceHash": "54649f2cc3f3a0268d88f06dacb7fa7eeb8bfd2d20efe5a8162d72142c5abae5",
+      "embeddedHash": "54649f2cc3f3a0268d88f06dacb7fa7eeb8bfd2d20efe5a8162d72142c5abae5",
+      "bytes": 765,
+      "embeddedBytes": 765,
+      "width": 649,
+      "height": 649,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/66a6fc31-7bd8-4cf5-9cfb-096e980ae60e?pitch-bytes=24826&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/66a6fc31-7bd8-4cf5-9cfb-096e980ae60e",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 16
+        },
+        {
+          "deck": "lattice-tech",
+          "page": 17
+        }
+      ],
+      "sourceHash": "62974e95e10d5d418a5fd335512440dd8b5ef019ef0face0dd904cdc610301cf",
+      "embeddedHash": "62974e95e10d5d418a5fd335512440dd8b5ef019ef0face0dd904cdc610301cf",
+      "bytes": 24826,
+      "embeddedBytes": 24826,
+      "width": 323,
+      "height": 321,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9eed02e4-c0c7-40c4-b360-c7444ae2e617?pitch-bytes=1555&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9eed02e4-c0c7-40c4-b360-c7444ae2e617",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 16
+        }
+      ],
+      "sourceHash": "c202ca6f69095d553461f086c23bf70ff96504e2df61515cb443788e122b1f64",
+      "embeddedHash": "c202ca6f69095d553461f086c23bf70ff96504e2df61515cb443788e122b1f64",
+      "bytes": 1555,
+      "embeddedBytes": 1555,
+      "width": 353,
+      "height": 352,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5851bbc9-b8d6-42ec-b552-7fe6f10adde1?pitch-bytes=1509&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/5851bbc9-b8d6-42ec-b552-7fe6f10adde1",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 23
+        }
+      ],
+      "sourceHash": "1537279ce05d9f6496ae053eefb3e73469429e2d61b5dba9314b1d64a9ea8d1a",
+      "embeddedHash": "1537279ce05d9f6496ae053eefb3e73469429e2d61b5dba9314b1d64a9ea8d1a",
+      "bytes": 1509,
+      "embeddedBytes": 1509,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d6522c5-2543-4ae5-82db-a7337057fb48?pitch-bytes=8170089&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6d6522c5-2543-4ae5-82db-a7337057fb48",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 23
+        }
+      ],
+      "sourceHash": "5daefa1bc1326a5bc419d7e82a7283eb699a5dd2471bf5f81bb2fe64082124dc",
+      "embeddedHash": "cda99d122f8939a14c53401abc2985a39e684549a1d4e09dd137a38bf8ca4944",
+      "bytes": 8170089,
+      "embeddedBytes": 36850,
+      "width": 437,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9cdf1ab1-e3b8-44e2-953d-8f496ce8f653?pitch-bytes=4124103&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9cdf1ab1-e3b8-44e2-953d-8f496ce8f653",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 23
+        }
+      ],
+      "sourceHash": "cd9c216ca6bf444dd57080645b83838d282e2b93d7a6bc28a2d64a3611882079",
+      "embeddedHash": "b005498ac6632040905abecc0cb83a9f00993c3168289420fd521bf7a68acd5d",
+      "bytes": 4124103,
+      "embeddedBytes": 82820,
+      "width": 437,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/f0074ef6-44fa-4364-8497-aad0a18f30e8?pitch-bytes=5462416&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/f0074ef6-44fa-4364-8497-aad0a18f30e8",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 23
+        }
+      ],
+      "sourceHash": "c0d526235d651169d0fa1e37eec1de3063314df2f94089cd29d41fb9eb3f646e",
+      "embeddedHash": "ced272a1b3935b714a0585943c5163941fb6958e75a0aadcaf40721fc59f45d5",
+      "bytes": 5462416,
+      "embeddedBytes": 38524,
+      "width": 437,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9fba78a5-379f-4cc8-a2ed-6f44e7d9fc18?pitch-bytes=1656860&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9fba78a5-379f-4cc8-a2ed-6f44e7d9fc18",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 23
+        }
+      ],
+      "sourceHash": "20a29c79fe0f0c6984ac11bde9d98ff3f2c7703b539718ebaf922c59fad2ab2d",
+      "embeddedHash": "111e74f02d29e8dc375dfddd5f256937bdf62e625c1e30341e49530ab86a84bd",
+      "bytes": 1656860,
+      "embeddedBytes": 57048,
+      "width": 437,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/18979274-a040-4a44-99ee-46ad8a7a0d12?pitch-bytes=8170110&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/18979274-a040-4a44-99ee-46ad8a7a0d12",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 24
+        }
+      ],
+      "sourceHash": "0c7ea41724890f2f2d9a05dcf3ad50921d1f3e088dd0770fc3a17a6e5be8b19b",
+      "embeddedHash": "aa1ab9c33886a3586e35205460c079f9bbfe9ef71cd4a5fee96d8be3435a6caf",
+      "bytes": 8170110,
+      "embeddedBytes": 47448,
+      "width": 615,
+      "height": 566,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c41d0201-1e38-4bcc-9578-e9b9984fcc8c?pitch-bytes=4124091&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c41d0201-1e38-4bcc-9578-e9b9984fcc8c",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 24
+        }
+      ],
+      "sourceHash": "cca81133b34ba9d7223db5cb662c9d4df5dd64639ad15ce7aaa85432262aa0c4",
+      "embeddedHash": "0fff52f7a42eab838be6d240bcc8741ae83ff36b6273afb0fee6287002a61f9d",
+      "bytes": 4124091,
+      "embeddedBytes": 112630,
+      "width": 615,
+      "height": 566,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fa141bb9-21a7-47a9-a7d2-95ee9ebe472b?pitch-bytes=5462392&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/fa141bb9-21a7-47a9-a7d2-95ee9ebe472b",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 24
+        }
+      ],
+      "sourceHash": "6bb11482b3454aea4d9173f2dcf2b892dde790358751ccfafa00c7a62c357ff5",
+      "embeddedHash": "466c09564581677dc32e1183f8c684a060416348f456085dae62cc4cf1d36255",
+      "bytes": 5462392,
+      "embeddedBytes": 48478,
+      "width": 615,
+      "height": 566,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8f737cec-0951-4d00-9400-f6886038574a?pitch-bytes=1309&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/8f737cec-0951-4d00-9400-f6886038574a",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 24
+        }
+      ],
+      "sourceHash": "abe019cbec3fc825bd1c118113b038bb1e0b0efe3e2ba5a835df55093cd67b11",
+      "embeddedHash": "abe019cbec3fc825bd1c118113b038bb1e0b0efe3e2ba5a835df55093cd67b11",
+      "bytes": 1309,
+      "embeddedBytes": 1309,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9a76a203-bccf-4e5d-a870-cbf3de4271c1?pitch-bytes=975&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/9a76a203-bccf-4e5d-a870-cbf3de4271c1",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 25
+        }
+      ],
+      "sourceHash": "976f3f0ceea4ca31cda5508b01334aad4231e19557e0d0c60e2d646dce8edf61",
+      "embeddedHash": "976f3f0ceea4ca31cda5508b01334aad4231e19557e0d0c60e2d646dce8edf61",
+      "bytes": 975,
+      "embeddedBytes": 975,
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c30eed49-7092-41cf-a33d-9decc22df49d?pitch-bytes=8170109&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/c30eed49-7092-41cf-a33d-9decc22df49d",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 25
+        }
+      ],
+      "sourceHash": "232fe9553dbe69372e3ead5a502ffb7ff34a1257d63878b3f787edea3d260904",
+      "embeddedHash": "4a67ce20195aff4f4bd5ff8b9c8a98adcae4383b7095f4c554cdfe3aae3d0288",
+      "bytes": 8170109,
+      "embeddedBytes": 49466,
+      "width": 898,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bd991981-eee8-4baa-b40c-697668107305?pitch-bytes=4124091&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/bd991981-eee8-4baa-b40c-697668107305",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 25
+        }
+      ],
+      "sourceHash": "5014850bf95d817432856b0907378e26db43816384d3df1d1ddfb85188a9ddb2",
+      "embeddedHash": "405eee0cebf6c7814c798f08d535ab11042bf79cc1fc6402a63dff244d3ad5a3",
+      "bytes": 4124091,
+      "embeddedBytes": 109082,
+      "width": 898,
+      "height": 541,
+      "mime": "image/webp",
+      "transformation": "WebP quality 94; longest edge at most 2560px",
+      "creator": null,
+      "licenseUrl": null
+    },
+    {
+      "url": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6cb74b7b-e2aa-4e71-a89d-ff8f168aa12e?pitch-bytes=10565&pitch-content-type=image%2Fsvg%2Bxml",
+      "key": "https://pitch-assets-ccb95893-de3f-4266-973c-20049231b248.s3.eu-west-1.amazonaws.com/6cb74b7b-e2aa-4e71-a89d-ff8f168aa12e",
+      "uses": [
+        {
+          "deck": "lattice-tech",
+          "page": 27
+        }
+      ],
+      "sourceHash": "55dc30499f09ca688c5b9269f8ed8380f76aaf8b430e9063a3772c2dd9b9780a",
+      "embeddedHash": "55dc30499f09ca688c5b9269f8ed8380f76aaf8b430e9063a3772c2dd9b9780a",
+      "bytes": 10565,
+      "embeddedBytes": 10565,
+      "width": 5760,
+      "height": 3240,
+      "mime": "image/svg+xml",
+      "transformation": "Original SVG retained",
+      "creator": null,
+      "licenseUrl": null
+    }
+  ],
+  "video": {
+    "page": 14,
+    "sourcePlaybackId": "SB83kVi2anUjINU8NktoYodaXCjyj01Z01cBcDZea005i4",
+    "unsignedThumbnailStatus": "Not Authorized",
+    "checkedOn": "2026-11-17",
+    "posterRetrieval": "Original 720px poster observed in public Pitch gallery, downloaded through its current public signed resource. No expiring signature is retained in the deliverable.",
+    "implementation": "Original poster, frame, filter and crop retained; playback links to original source page because the signed video stream is not bundled."
+  }
+}

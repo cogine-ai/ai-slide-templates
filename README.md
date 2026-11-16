@@ -28,7 +28,7 @@ npx skills add https://github.com/cogine-ai/cogine-dev-skillset --skill ai-slide
 
 ## Template Gallery
 
-Browse 81 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
+Browse 87 browser-openable HTML slide templates across business, research, training, creative, education, nonprofit, real estate, travel, brand, and executive presentation styles.
 
 ![AI Slide Templates gallery 1](docs/assets/readme/template-gallery-01.png)
 
@@ -51,6 +51,10 @@ Browse 81 browser-openable HTML slide templates across business, research, train
 ![November 7 display templates](docs/assets/readme/template-gallery-10.png)
 
 ![Chrome Trend Report historical completion](docs/assets/readme/template-gallery-11.png)
+
+![November 17 complete templates](docs/assets/readme/template-gallery-12.png)
+
+The [November 17 implementation notes](docs/template-implementation-2026-11-17.md) cover six complete templates (151 pages): Lattice, Billiard, Andrea Jelić’s Brand Style Guide, Bakken & Bæck’s Case Study, Lumenfield and Plotwise. All source pages and distinct font systems are preserved in standalone HTML, bringing the library to 87 templates and 1,334 demo pages. Fonts, images and original video posters are embedded. Billiard and Case Study link to online video playback; Lattice links to its source page because its video stream requires a current source signature. Source/font provenance records remain separate from clearance manifests.
 
 The [historical count repair](docs/template-count-repair-2026-11-07.md) adds the full 18-page Chrome Trend Report to complete the October 28 batch, bringing the library to 81 templates. Structural validation now rejects actual library counts that are not multiples of three. Empty folders and local research drafts do not count.
 
@@ -104,9 +108,12 @@ The folder name must match `template.json.slug`.
 | `airy-modern` | Minimal, friendly, optimistic | Product strategy, customer research, startup updates, planning workshops |
 | `architecture-portfolio` | Architectural, clean, structured | Architecture portfolios, design studio credentials, floor-plan narratives, and built-environment project reviews |
 | `b2b-sales-pitch` | Sharp, fresh, corporate | B2B sales pitches, SaaS proposals, enterprise partnership decks, GTM stories |
+| `bakken-case-study` | Structured, clear, design-led | Complete project case studies, brief, scope, process, design explorations, technology and outcomes |
 | `basel-swiss-report` | Swiss, typographic, precise | Studio reports, annual summaries, executive updates, quantitative reviews, and team presentations |
 | `bauhaus-form-function` | Clear, geometric, confident | Design workshops, creative education, process explanations, comparisons, and concise case studies |
+| `billiard-editorial` | Editorial, documentary, restrained | Photographic essays, cultural research, community stories and contemporary brand narratives |
 | `bilingual-editorial` | Bold, literary, bilingual | Chinese-English editorial presentations and cross-cultural communication |
+| `brand-style-guide-editorial` | Editorial, refined, instructive | Visual identity guidelines, type specimens, palettes, marks, photography and grids |
 | `brand-voice-guidelines` | Editorial, confident, instructive | Brand voice, writing principles, tone examples, communication guidelines |
 | `bright-organized` | Warm, structured, practical | Business reviews, operating plans, team kickoffs, client proposals |
 | `chrome-trend-report` | Analytical, bold, futuristic | Trend reports, survey findings, market signals, research implications and recommendations |
@@ -137,9 +144,11 @@ The folder name must match `template.json.slug`.
 | `indie-publishing-editorial` | Editorial, restrained, cultural | Publishing, creative studio stories, photographic research, editorial narratives |
 | `interactive-portfolio` | Visual, playful, curated | Portfolio reviews, agency credentials, creative case studies |
 | `interior-design-editorial` | Architectural, refined, photographic | Interior proposals, studio credentials, project concepts, schedules, and fee breakdowns |
+| `lattice-tech` | Technical, restrained, precise | Technical products, data platforms, engineering narratives, quantitative updates and milestones |
 | `law-justice` | Measured, legal, traditional | Legal briefings, justice policy updates, public institution presentations, and law education decks |
 | `linear-qbr` | Restrained, linear, formal | Quarterly business reviews, board updates, operating cadence, portfolio reviews |
 | `lumen-keynote` | Minimal, bold, restrained | Product launches, software keynotes, leadership talks, founder narratives, metrics, and roadmaps |
+| `lumenfield-festival` | Bold, cultural, energetic | Festivals, exhibitions, visitor routes, programmes and cultural partners |
 | `matisse-collage` | Artistic, soft, gallery-like | Creative workshops, art education, museum talks, community programs |
 | `mental-health-workshop` | Warm, safe, friendly | Mental health workshops, HR wellbeing training, support briefings, and campus awareness sessions |
 | `metalab-concept-testing` | Research-led, warm, precise | Product concept-testing reports, prototype findings, user quotations, design recommendations, and sprint next steps |
@@ -158,6 +167,7 @@ The folder name must match `template.json.slug`.
 | `pastel-research` | Scholarly, gentle, polished | Academic talks, medical science updates, conference presentations |
 | `personal-branding-playful` | Expressive, quirky, personable | Personal brand introductions, creative services, testimonials, and independent portfolios |
 | `photo-mosaic` | Gallery-like, polished, image-led | Photo-heavy case studies, visual portfolios, travel stories, project galleries, and product moodboards |
+| `plotwise-startup` | Warm, confident, community-led | Consumer startups, community services, marketplaces and complete seed narratives |
 | `press-kit-editorial` | Confident, minimal, editorial | Press kits, brand introductions, facts, product stories, leadership, and media contacts |
 | `product-roadmap-infographics` | Clean, directional, infographic | Product roadmaps, release plans, milestone reviews, and roadmap workshops |
 | `product-strategy-roadmap` | Calm, executive, organic | Product vision, now-next-later plans, milestones and prioritization |
@@ -208,7 +218,7 @@ node scripts/validate-assets.mjs
 node scripts/validate-assets.mjs --template press-kit-editorial
 ```
 
-This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 75 templates are outside this asset review. The six November 7 display templates carry separate provenance registers, not clearance manifests.
+This command checks actual image payload hashes, including CSS backgrounds and images nested in SVGs, against `ASSET-LICENSES/manifest.json`. It also checks recorded creators, license/source URLs, positive review status and Pexels photo/download ID consistency. It validates record coverage, not legal ownership. A template declaring `features.asset_license_manifest` must have its register; explicitly selected templates must also have one. By default, legacy templates without a register are reported as unassessed. The six November 1 templates are covered; the other 81 templates are outside this asset review. The six November 7 and six November 17 templates carry separate provenance registers, not clearance manifests.
 
 Optional heavier visual/runtime validation is separate so the structural validator stays fast:
 

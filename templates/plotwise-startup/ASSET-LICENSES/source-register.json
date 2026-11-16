@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source and font provenance inventory, not a blanket license grant.",
+  "source": {
+    "url": "https://slides.com/official-templates/plotwise",
+    "sha256": "352537332069090b08ff98f55eb3da13296f553e0e53bd4f75db098e7962b474",
+    "pages": 16
+  },
+  "fonts": [
+    {
+      "family": "Merriweather Sans",
+      "weight": "400",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/merriweathersans/merriweathersans-regular.woff",
+      "sha256": "7156bb2551aa929736340f197154a7091301074c3fbe9204efdbc64480aad2e5",
+      "bytes": 47280,
+      "names": {
+        "0": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'",
+        "1": "Merriweather Sans",
+        "2": "Regular",
+        "5": "Version 1.003; ttfautohint (v0.93.8-669f) -l 7 -r 28 -G 0 -x 13 -w \"\" -W -c",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Merriweather Sans",
+      "weight": "700",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/merriweathersans/merriweathersans-bold.woff",
+      "sha256": "2e6ce7f2b9cb235a2b4787f337a4ded77ed61efbe993d9e8944b72ff03071eee",
+      "bytes": 47916,
+      "names": {
+        "0": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'",
+        "1": "Merriweather Sans",
+        "2": "Bold",
+        "5": "Version 1.003; ttfautohint (v0.93.8-669f) -l 7 -r 28 -G 0 -x 13 -w \"\" -W -c",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Oxygen",
+      "weight": "400",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/oxygen/oxygen-regular.woff",
+      "sha256": "887fdaf7a308ab2c6a3543abc16dc3f8e0aed930da503873d059866427496bc5",
+      "bytes": 42816,
+      "names": {
+        "0": "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'",
+        "1": "Oxygen",
+        "2": "Regular",
+        "5": "Version Release 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x 0 -w \"gGD\" -c",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    },
+    {
+      "family": "Oxygen",
+      "weight": "700",
+      "style": "normal",
+      "sourceUrl": "https://static.slid.es/fonts/v3/oxygen/oxygen-bold.woff",
+      "sha256": "5edaddc5cb75a14c047194bc8b0c8e3a0d5e4d4ae965c1378f29c3ef495c9524",
+      "bytes": 43356,
+      "names": {
+        "0": "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'",
+        "1": "Oxygen",
+        "2": "Bold",
+        "5": "Version 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x 0 -w \"gGD\" -c",
+        "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+        "14": "http://scripts.sil.org/OFL"
+      },
+      "format": "woff",
+      "embeddedIn": "template.html"
+    }
+  ],
+  "assets": []
+}
