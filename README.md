@@ -200,6 +200,10 @@ The folder name must match `template.json.slug`.
 - Do not standardize fonts across templates. Typography is part of each template's identity and should follow the source-inspired style as closely as practical.
 - Sample content should be realistic presentation content, not lorem ipsum.
 
+## Copyright & Takedown
+
+The repository's MIT license covers only the original code and content authored by Cogine AI. Third-party designs, fonts, and media retain their own rights; see each template's `SOURCE-NOTICES.md`. To report infringement, follow the [Copyright & Takedown Policy](TAKEDOWN.md) or email contactus@cogine.ai — valid notices are actioned within 5 days.
+
 ## Validation
 
 Run:
